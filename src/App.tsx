@@ -172,6 +172,10 @@ function App() {
     regulatoryFocus: "all",
     sourceBank: "s3-imported"
   });
+  const [mockFilters, setMockFilters] = useState<SessionFilters>({
+    difficulty: "mixed",
+    sourceBank: "s3-imported"
+  });
   const [bankSearch, setBankSearch] = useState("");
   const [bankStatus, setBankStatus] = useState("all");
   const [importText, setImportText] = useState("");
@@ -279,11 +283,16 @@ function App() {
 
   function startMock() {
     const desired = state.settings.enableExperimentalQuestions ? 125 : 120;
-    const questions = selectMockQuestions(state.questions, `${state.settings.shuffleSeed}-mock`, desired);
+    const filters = { ...mockFilters, questionCount: desired, difficulty: "mixed" as const };
+    const questions = selectMockQuestions(state.questions, `${state.settings.shuffleSeed}-mock`, desired, filters);
+    const sections = new Set(questions.map((question) => question.sectionId));
     if (new Set(questions.map((question) => question.id)).size < 120) {
-      setMessage("The seeded sample bank has fewer than 120 unique questions. The mock exam starts now, but import a larger bank for a fully unique exam.");
+      setMessage("This source filter has fewer than 120 unique questions. The mock exam starts now, but broaden the source filter for a fully unique exam.");
     }
-    startSession("mock", questions, { questionCount: desired, difficulty: "mixed" });
+    if (!sections.has("market_knowledge") || !sections.has("us_regulations")) {
+      setMessage("This source filter does not cover both Market Knowledge and U.S. Regulations. Use S3 imported sets for a full Series 3 mock.");
+    }
+    startSession("mock", questions, filters);
   }
 
   function startMistakeReview() {
@@ -490,7 +499,14 @@ function App() {
             onStart={startPractice}
           />
         )}
-        {view === "mock" && <MockExam state={state} coverage={coverage} onStart={startMock} />}
+        {view === "mock" && (
+          <MockExam
+            state={state}
+            filters={mockFilters}
+            setFilters={setMockFilters}
+            onStart={startMock}
+          />
+        )}
         {view === "mistakes" && (
           <Mistakes state={state} mistakeIds={mistakeIds} onStart={startMistakeReview} setBankFilters={setBankFilters} setView={setView} />
         )}
@@ -1062,14 +1078,21 @@ function Practice({
 
 function MockExam({
   state,
-  coverage,
+  filters,
+  setFilters,
   onStart
 }: {
   state: AppState;
-  coverage: ReturnType<typeof buildCoverageReport>;
+  filters: SessionFilters;
+  setFilters: (filters: SessionFilters) => void;
   onStart: () => void;
 }) {
-  const unique = new Set(state.questions.filter((question) => question.active).map((question) => question.id)).size;
+  const mockPool = useMemo(() => filterQuestionPool(state.questions, filters), [filters, state.questions]);
+  const coverage = useMemo(() => buildCoverageReport(mockPool, state.sessions), [mockPool, state.sessions]);
+  const unique = new Set(mockPool.map((question) => question.id)).size;
+  const sections = new Set(mockPool.map((question) => question.sectionId));
+  const fullMockReady = sections.has("market_knowledge") && sections.has("us_regulations");
+  const sourceLabel = SOURCE_BANK_OPTIONS.find((option) => option.value === (filters.sourceBank ?? "s3-imported"))?.label ?? "Selected bank";
 
   return (
     <section className="content-grid">
@@ -1079,6 +1102,14 @@ function MockExam({
             <p className="eyebrow">Exam simulation</p>
             <h2>120 scored questions, 150 minutes</h2>
           </div>
+        </div>
+        <div className="filter-stack mock-filter-stack">
+          <SourceBankSelector filters={filters} setFilters={setFilters} />
+        </div>
+        <div className={fullMockReady ? "report-box mock-source-ready" : "report-box mock-source-warning"}>
+          <strong>{sourceLabel}</strong>
+          <span>{unique} matching active QCMs will be used for mock selection.</span>
+          {!fullMockReady && <span>For a full Series 3 mock, choose a source with both Market Knowledge and U.S. Regulations.</span>}
         </div>
         <div className="check-list">
           <span><CheckCircle2 size={16} /> Separate Market Knowledge score</span>
@@ -1093,8 +1124,8 @@ function MockExam({
         </button>
         <p className="muted">
           {unique < 120
-            ? `${unique} unique active QCMs are currently available. Import more questions for a fully unique 120-question mock.`
-            : `${unique} unique active QCMs are available.`}
+            ? `${unique} unique active QCMs are available in this source filter. Broaden the filter for a fully unique 120-question mock.`
+            : `${unique} unique active QCMs are available in this source filter.`}
         </p>
       </div>
       <div className="panel span-7">

@@ -23,6 +23,8 @@ test("starts a topic drill and shows immediate feedback", async ({ page }) => {
 test("starts a mock exam and opens results", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("button", { name: "Mock Exam" }).click();
+  await expect(page.getByLabel("Question bank priority")).toHaveValue("s3-imported");
+  await expect(page.getByText("686 matching active QCMs")).toBeVisible();
   await page.getByRole("button", { name: /Start mock exam/ }).click();
   await expect(page.getByRole("heading", { name: /Question 1 of 120/ })).toBeVisible();
   await page.getByRole("button", { name: "Submit session" }).click();

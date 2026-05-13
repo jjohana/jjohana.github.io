@@ -103,9 +103,9 @@ export function selectPracticeQuestions(
   return sorted.slice(0, filters.questionCount ?? 10);
 }
 
-export function selectMockQuestions(questions: Question[], seed: string, desiredCount = 120): Question[] {
+export function selectMockQuestions(questions: Question[], seed: string, desiredCount = 120, filters: SessionFilters = {}): Question[] {
   const rng = createSeededRng(seed);
-  const active = questions.filter((question) => question.active);
+  const active = filterQuestionPool(questions, filters);
   const selected: Question[] = [];
 
   for (const topic of allTopics) {

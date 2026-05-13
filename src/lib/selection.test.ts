@@ -59,9 +59,16 @@ describe("question selection", () => {
       { sectionId: "market_knowledge", topicId: "hedging-basis", difficulty: "mixed", questionCount: 10 },
       "practice"
     );
-    const mock = selectMockQuestions(sampleQuestions, "mock", 120);
+    const mock = selectMockQuestions(sampleQuestions, "mock", 120, { sourceBank: "s3-imported" });
 
     expect(practice.every(isS3ImportedQuestion)).toBe(true);
     expect(mock.every(isS3ImportedQuestion)).toBe(true);
+  });
+
+  it("can generate a mock from authored and rewritten questions only", () => {
+    const mock = selectMockQuestions(sampleQuestions, "mock", 120, { sourceBank: "authored" });
+
+    expect(mock).toHaveLength(120);
+    expect(mock.every((question) => !isS3ImportedQuestion(question))).toBe(true);
   });
 });

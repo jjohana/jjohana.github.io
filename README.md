@@ -31,6 +31,7 @@ Use only:
 - Topic drills with difficulty and weak-subtopic prioritization
 - 120-question mock exam with 150-minute timer
 - Topic drills and mock exams prioritize the S3 imported banks when matching imported questions are available
+- Mock exam source-bank selector so a full mock can be generated from S3 imported sets, authored content, or all banks
 - Exam Rules page with official Series 3 format, timing, admission, provided materials, break, result, and retake reminders
 - Separate Market Knowledge and U.S. Regulations scoring
 - Mistake review queue

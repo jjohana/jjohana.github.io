@@ -789,6 +789,33 @@ button:focus-visible {
   background: #f9fafb;
 }
 
+.mock-filter-stack {
+  margin-bottom: 12px;
+}
+
+.mock-source-ready,
+.mock-source-warning {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
+.mock-source-ready span,
+.mock-source-warning span {
+  color: #475467;
+  line-height: 1.4;
+}
+
+.mock-source-ready {
+  border-color: #b7e4ce;
+  background: var(--green-soft);
+}
+
+.mock-source-warning {
+  border-color: #f2d18c;
+  background: var(--amber-soft);
+}
+
 .check-list span {
   display: flex;
   align-items: center;
