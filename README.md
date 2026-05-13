@@ -22,6 +22,7 @@ Use only:
 
 - Dashboard with progress, section accuracy, weak subtopics, and recent sessions
 - QCM Bank browser by section, topic, and subtopic
+- Source-bank filters for all questions, both S3 imported sets, S3-Market DOCX only, S3-Regulatory PDF only, or authored/rewritten/sample content
 - Coverage matrix with sample/imported counts and coverage gaps
 - 673 active Market Knowledge QCMs, including the authored coverage bank plus the user-authorized OCR import of `S3-Market.docx`
 - Imported Market Knowledge coverage by major topic: 72 theory, 72 margins/settlement/delivery/options premiums, 48 orders/accounts/analysis, 77 hedging/basis, 34 spreading, 67 futures speculation, and 74 options QCMs
@@ -29,6 +30,7 @@ Use only:
 - Question validation against content and taxonomy rules
 - Topic drills with difficulty and weak-subtopic prioritization
 - 120-question mock exam with 150-minute timer
+- Topic drills and mock exams prioritize the S3 imported banks when matching imported questions are available
 - Exam Rules page with official Series 3 format, timing, admission, provided materials, break, result, and retake reminders
 - Separate Market Knowledge and U.S. Regulations scoring
 - Mistake review queue

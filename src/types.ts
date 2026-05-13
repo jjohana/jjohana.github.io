@@ -7,6 +7,7 @@ export type DifficultyFilter = Difficulty | "mixed";
 
 export type QuestionType = "multiple_choice" | "true_false";
 export type SourceType = "sample" | "rewritten" | "imported" | "user-authored";
+export type SourceBankFilter = "all" | "s3-imported" | "s3-market-docx" | "s3-regulatory-pdf" | "authored";
 export type FeedbackMode = "immediate" | "delayed";
 export type SessionType = "practice" | "mock" | "mistakes";
 export type SessionStatus = "in_progress" | "completed";
@@ -90,6 +91,7 @@ export interface SessionFilters {
   questionCount?: number;
   prioritizeWeak?: boolean;
   regulatoryFocus?: string;
+  sourceBank?: SourceBankFilter;
 }
 
 export interface Session {

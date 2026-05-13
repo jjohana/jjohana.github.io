@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { sampleQuestions } from "../data/questions";
-import { filterQuestionPool, selectMockQuestions, selectPracticeQuestions } from "./selection";
+import { filterQuestionPool, isS3ImportedQuestion, selectMockQuestions, selectPracticeQuestions } from "./selection";
 
 describe("question selection", () => {
   it("filters by section, topic, and subtopic", () => {
@@ -29,5 +29,39 @@ describe("question selection", () => {
     );
 
     expect(selected).toHaveLength(5);
+  });
+
+  it("filters directly to the S3-Market DOCX bank", () => {
+    const selected = filterQuestionPool(sampleQuestions, {
+      sectionId: "market_knowledge",
+      sourceBank: "s3-market-docx",
+      difficulty: "mixed"
+    });
+
+    expect(selected.length).toBe(444);
+    expect(selected.every((question) => question.id.startsWith("s3-market-docx-"))).toBe(true);
+  });
+
+  it("filters directly to the S3-Regulatory PDF bank", () => {
+    const selected = filterQuestionPool(sampleQuestions, {
+      sectionId: "us_regulations",
+      sourceBank: "s3-regulatory-pdf",
+      difficulty: "mixed"
+    });
+
+    expect(selected.length).toBe(242);
+    expect(selected.every((question) => question.id.startsWith("s3-regulatory-pdf-"))).toBe(true);
+  });
+
+  it("prioritizes S3 imported questions for practice and mock selections", () => {
+    const practice = selectPracticeQuestions(
+      sampleQuestions,
+      { sectionId: "market_knowledge", topicId: "hedging-basis", difficulty: "mixed", questionCount: 10 },
+      "practice"
+    );
+    const mock = selectMockQuestions(sampleQuestions, "mock", 120);
+
+    expect(practice.every(isS3ImportedQuestion)).toBe(true);
+    expect(mock.every(isS3ImportedQuestion)).toBe(true);
   });
 });

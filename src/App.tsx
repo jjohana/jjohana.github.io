@@ -31,7 +31,16 @@ import {
 } from "./lib/importExport";
 import { makeId } from "./lib/prng";
 import { scoreSession, buildTopicBreakdown } from "./lib/scoring";
-import { filterQuestionPool, normalizeDifficultyFilter, selectMockQuestions, selectPracticeQuestions } from "./lib/selection";
+import {
+  filterQuestionPool,
+  normalizeDifficultyFilter,
+  questionSourceBank,
+  questionSourceBankLabel,
+  questionSourcePriority,
+  SOURCE_BANK_OPTIONS,
+  selectMockQuestions,
+  selectPracticeQuestions
+} from "./lib/selection";
 import { auditCorrectPositionDistribution, buildSessionQuestions } from "./lib/shuffle";
 import { DEFAULT_SETTINGS, defaultState, downloadText, loadState, saveState } from "./lib/storage";
 import { validateQuestionBank } from "./lib/validation";
@@ -45,6 +54,7 @@ import type {
   Session,
   SessionFilters,
   SessionQuestion,
+  SourceBankFilter,
   UserAnswer,
   ValidationIssue
 } from "./types";
@@ -118,6 +128,26 @@ const NAV_ITEMS: Array<{ view: View; label: string; icon: typeof BarChart3 }> = 
 const DEFAULT_SECTION: SectionId = "market_knowledge";
 const DEFAULT_TOPIC = "hedging-basis";
 
+function defaultTopicForSection(sectionId: SectionId): string {
+  return syllabus.find((section) => section.id === sectionId)?.topics[0]?.id ?? DEFAULT_TOPIC;
+}
+
+function filtersForSourceBank(filters: SessionFilters, sourceBank: SourceBankFilter): SessionFilters {
+  if (sourceBank === "s3-market-docx") {
+    return { ...filters, sourceBank, sectionId: "market_knowledge", topicId: defaultTopicForSection("market_knowledge"), subtopicId: "" };
+  }
+  if (sourceBank === "s3-regulatory-pdf") {
+    return { ...filters, sourceBank, sectionId: "us_regulations", topicId: defaultTopicForSection("us_regulations"), subtopicId: "" };
+  }
+  return { ...filters, sourceBank };
+}
+
+function sourceBankForSectionChange(filters: SessionFilters, nextSection: SectionId): SourceBankFilter | undefined {
+  if (filters.sourceBank === "s3-market-docx" && nextSection === "us_regulations") return "s3-imported";
+  if (filters.sourceBank === "s3-regulatory-pdf" && nextSection === "market_knowledge") return "s3-imported";
+  return filters.sourceBank;
+}
+
 function App() {
   const [state, setState] = useState<AppState>(() => loadState());
   const [view, setView] = useState<View>("dashboard");
@@ -131,14 +161,16 @@ function App() {
     difficulty: "mixed",
     questionCount: DEFAULT_SETTINGS.defaultDrillSize,
     prioritizeWeak: false,
-    regulatoryFocus: "all"
+    regulatoryFocus: "all",
+    sourceBank: "s3-imported"
   });
   const [bankFilters, setBankFilters] = useState<SessionFilters>({
     sectionId: DEFAULT_SECTION,
     topicId: DEFAULT_TOPIC,
     subtopicId: "",
     difficulty: "mixed",
-    regulatoryFocus: "all"
+    regulatoryFocus: "all",
+    sourceBank: "s3-imported"
   });
   const [bankSearch, setBankSearch] = useState("");
   const [bankStatus, setBankStatus] = useState("all");
@@ -660,16 +692,18 @@ function QcmBank({
 }) {
   const questions = useMemo(() => {
     const scoped = filterQuestionPool(state.questions, filters);
-    return scoped.filter((question) => {
-      const text = `${question.stem} ${topicLabel(question.topicId)} ${subtopicLabel(question.topicId, question.subtopicId)}`.toLowerCase();
-      if (search && !text.includes(search.toLowerCase())) return false;
-      if (status === "mistakes" && !mistakeIds.has(question.id)) return false;
-      if (status === "unanswered") {
-        const answered = state.sessions.some((session) => session.answers.some((answer) => answer.questionId === question.id));
-        if (answered) return false;
-      }
-      return true;
-    });
+    return scoped
+      .filter((question) => {
+        const text = `${question.stem} ${topicLabel(question.topicId)} ${subtopicLabel(question.topicId, question.subtopicId)}`.toLowerCase();
+        if (search && !text.includes(search.toLowerCase())) return false;
+        if (status === "mistakes" && !mistakeIds.has(question.id)) return false;
+        if (status === "unanswered") {
+          const answered = state.sessions.some((session) => session.answers.some((answer) => answer.questionId === question.id));
+          if (answered) return false;
+        }
+        return true;
+      })
+      .sort((a, b) => questionSourcePriority(b) - questionSourcePriority(a));
   }, [filters, mistakeIds, search, state.questions, state.sessions, status]);
 
   const distribution = auditCorrectPositionDistribution(state.sessions.flatMap((session) => session.questions));
@@ -686,6 +720,7 @@ function QcmBank({
         </div>
         <ScopeSelector filters={filters} setFilters={setFilters} includeAllSubtopics />
         <div className="filter-stack">
+          <SourceBankSelector filters={filters} setFilters={setFilters} />
           <label>
             Difficulty
             <select
@@ -758,7 +793,7 @@ function QcmBank({
               <div className="question-card-header">
                 <span className={`pill ${question.sectionId === "market_knowledge" ? "blue" : "green"}`}>{getSection(question.sectionId).shortTitle}</span>
                 <span className="pill">{question.difficulty}</span>
-                <span className="pill">{question.sourceType}</span>
+                <span className="pill">{questionSourceBankLabel(question)}</span>
                 {question.shuffleDisabled && <span className="pill amber">fixed order</span>}
                 {question.sourceQuestionNumber && <span className="pill">PDF #{question.sourceQuestionNumber}</span>}
               </div>
@@ -919,7 +954,10 @@ function Practice({
   setFilters: (filters: SessionFilters) => void;
   onStart: () => void;
 }) {
-  const matching = filterQuestionPool(state.questions, filters);
+  const matching = useMemo(
+    () => filterQuestionPool(state.questions, filters).sort((a, b) => questionSourcePriority(b) - questionSourcePriority(a)),
+    [filters, state.questions]
+  );
 
   return (
     <section className="content-grid">
@@ -932,6 +970,7 @@ function Practice({
         </div>
         <ScopeSelector filters={filters} setFilters={setFilters} includeAllSubtopics />
         <div className="filter-stack">
+          <SourceBankSelector filters={filters} setFilters={setFilters} />
           <label>
             Difficulty
             <select
@@ -1010,6 +1049,7 @@ function Practice({
           {matching.slice(0, 8).map((question) => (
             <article className="question-card" key={question.id}>
               <span className="pill">{question.difficulty}</span>
+              <span className="pill">{questionSourceBankLabel(question)}</span>
               <h3>{question.stem}</h3>
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>
             </article>
@@ -1123,7 +1163,8 @@ function Mistakes({
                     sectionId: question.sectionId,
                     topicId: question.topicId,
                     subtopicId: question.subtopicId,
-                    difficulty: "mixed"
+                    difficulty: "mixed",
+                    sourceBank: questionSourceBank(question)
                   });
                   setView("bank");
                 }}
@@ -1199,6 +1240,7 @@ function SessionScreen({
           <span className="pill">{topicLabel(question.topicId)}</span>
           <span className="pill">{subtopicLabel(question.topicId, question.subtopicId)}</span>
           <span className="pill">{question.difficulty}</span>
+          <span className="pill">{questionSourceBankLabel(question)}</span>
           {sessionQuestion.isExperimental && <span className="pill amber">experimental</span>}
         </div>
 
@@ -1691,7 +1733,13 @@ function ScopeSelector({
           onChange={(event) => {
             const nextSection = event.target.value as SectionId;
             const nextTopic = syllabus.find((section) => section.id === nextSection)?.topics[0]?.id;
-            setFilters({ ...filters, sectionId: nextSection, topicId: nextTopic, subtopicId: "" });
+            setFilters({
+              ...filters,
+              sectionId: nextSection,
+              topicId: nextTopic,
+              subtopicId: "",
+              sourceBank: sourceBankForSectionChange(filters, nextSection)
+            });
           }}
         >
           {syllabus.map((section) => (
@@ -1729,6 +1777,30 @@ function ScopeSelector({
         </select>
       </label>
     </div>
+  );
+}
+
+function SourceBankSelector({
+  filters,
+  setFilters
+}: {
+  filters: SessionFilters;
+  setFilters: (filters: SessionFilters) => void;
+}) {
+  return (
+    <label>
+      Question bank priority
+      <select
+        value={filters.sourceBank ?? "s3-imported"}
+        onChange={(event) => setFilters(filtersForSourceBank(filters, event.target.value as SourceBankFilter))}
+      >
+        {SOURCE_BANK_OPTIONS.map((option) => (
+          <option key={option.value} value={option.value}>
+            {option.label}
+          </option>
+        ))}
+      </select>
+    </label>
   );
 }
 
