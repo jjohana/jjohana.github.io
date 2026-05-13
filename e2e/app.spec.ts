@@ -17,7 +17,7 @@ test("starts a topic drill and shows immediate feedback", async ({ page }) => {
   await expect(page.getByRole("heading", { name: /Question 1 of/ })).toBeVisible();
   await page.locator(".answer-choice").first().click();
   await page.getByRole("button", { name: "Submit answer" }).click();
-  await expect(page.getByText(/Correct|Incorrect/)).toBeVisible();
+  await expect(page.locator(".feedback-status")).toContainText(/Correct|Incorrect/);
 });
 
 test("starts a mock exam and opens results", async ({ page }) => {

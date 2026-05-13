@@ -23,7 +23,8 @@ Use only:
 - Dashboard with progress, section accuracy, weak subtopics, and recent sessions
 - QCM Bank browser by section, topic, and subtopic
 - Coverage matrix with sample/imported counts and coverage gaps
-- 229 active Market Knowledge QCMs, with at least 30 QCMs in each of the 7 major Market Knowledge topics and full coverage across the 105 Market Knowledge subtopics
+- 673 active Market Knowledge QCMs, including the authored coverage bank plus the user-authorized OCR import of `S3-Market.docx`
+- Imported Market Knowledge coverage by major topic: 72 theory, 72 margins/settlement/delivery/options premiums, 48 orders/accounts/analysis, 77 hedging/basis, 34 spreading, 67 futures speculation, and 74 options QCMs
 - JSONL and CSV import/export
 - Question validation against content and taxonomy rules
 - Topic drills with difficulty and weak-subtopic prioritization
@@ -37,6 +38,7 @@ Use only:
 - Static build compatible with GitHub Pages
 - Rewritten U.S. Regulations bank based on concepts observed in `S3-Regulatory.pdf`
 - User-authorized OCR import of the `S3-Regulatory.pdf` regulatory bank, deduplicated to 242 unique QCMs from 249 detected source question numbers
+- User-authorized OCR import of the `S3-Market.docx` market bank, deduplicated to 444 unique identifiable QCMs from the image sequence
 - Dedicated regulatory focus filters for registration, account rules, FCM/IB, CPO/CTA, supervision, communications, arbitration, enforcement, AML, and high-yield review
 
 ## Setup
@@ -146,6 +148,18 @@ C:\Users\Jean-JacquesOhana\Documents\Ai For Alpha\2026\Series 3\S3-Regulatory.pd
 That PDF is image-based and appears to be a PassMaster-style regulatory QCM tutorial. The app includes the original rewritten regulatory study questions plus the user-authorized OCR extraction of the 249-question regulatory bank.
 
 See [docs/regulatory-remodel-report.md](docs/regulatory-remodel-report.md) for the extraction summary, taxonomy changes, and manual review notes.
+
+## Market DOCX Import
+
+The Market Knowledge section was expanded using the local source document:
+
+```text
+C:\Users\Jean-JacquesOhana\Documents\Ai For Alpha\2026\Series 3\S3-Market.docx
+```
+
+That DOCX is image-based. The local OCR workflow extracted the screenshots, parsed the QCMs, preserved fixed answer order with `shuffleDisabled: true`, and mapped each question to the seven Market Knowledge topic groups.
+
+See [docs/market-docx-import-report.md](docs/market-docx-import-report.md) for counts, topic mapping, and manual-review notes.
 
 ## Private PDF Extraction
 

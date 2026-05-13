@@ -6,8 +6,19 @@ import { validateQuestion } from "./validation";
 describe("market knowledge question bank", () => {
   const marketQuestions = sampleQuestions.filter((question) => question.sectionId === "market_knowledge" && question.active);
 
-  it("contains at least 229 active Market Knowledge QCMs", () => {
-    expect(marketQuestions.length).toBeGreaterThanOrEqual(229);
+  it("contains at least 673 active Market Knowledge QCMs", () => {
+    expect(marketQuestions.length).toBeGreaterThanOrEqual(673);
+  });
+
+  it("imports the identifiable S3-Market.docx QCMs", () => {
+    const docxQuestions = marketQuestions.filter((question) => question.id.startsWith("s3-market-docx-"));
+    const sourceNumbers = new Set(docxQuestions.map((question) => question.sourceQuestionNumber));
+
+    expect(docxQuestions).toHaveLength(444);
+    expect(sourceNumbers.size).toBe(444);
+    expect(sourceNumbers.has(71)).toBe(false);
+    expect(sourceNumbers.has(245)).toBe(false);
+    expect(sourceNumbers.has(306)).toBe(false);
   });
 
   it("covers every Market Knowledge topic", () => {
