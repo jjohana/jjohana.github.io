@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { sampleQuestions } from "../data/questions";
 import type { Question } from "../types";
+import { UNSAFE_DISPLAY_PATTERNS } from "./contentSanitizer";
 import { inferredQualityStatus } from "./quality";
 import { filterQuestionPool } from "./selection";
 import { validateQuestionBank } from "./validation";
@@ -16,6 +17,7 @@ const visibleQuestionFields = (question: Question) => [
 ];
 
 const ocrArtifactPatterns = [
+  ...UNSAFE_DISPLAY_PATTERNS,
   /[\x80-\xFF]/,
   /[\uFFFD\u20AC\u2022_{}]/,
   /source-indicated|not parsed from OCR|Review the explanation/i,
@@ -51,8 +53,11 @@ describe("published question quality", () => {
   it("has no visible OCR placeholders or known transcript artifacts", () => {
     const findings = activeQuestions.flatMap((question) =>
       visibleQuestionFields(question)
-        .filter(([, value]) => ocrArtifactPatterns.some((pattern) => pattern.test(value)))
-        .map(([field, value]) => `${question.id} ${field}: ${value}`)
+        .map(([field, value]) => {
+          const patternIndex = ocrArtifactPatterns.findIndex((pattern) => pattern.test(value));
+          return patternIndex === -1 ? undefined : `${question.id} ${field} pattern#${patternIndex}: ${value}`;
+        })
+        .filter(Boolean)
     );
 
     expect(findings).toEqual([]);

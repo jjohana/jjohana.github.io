@@ -6,6 +6,7 @@ import { s3MarketDocxQuestions } from "./s3MarketDocxQuestions";
 import { regulatoryPdfQuestions } from "./s3RegulatoryPdfQuestions";
 import { regulatoryRemodelQuestions } from "./regulatoryQuestions";
 import { applyQuestionContentOverrides } from "./questionContentOverrides";
+import { cleanQuestionContent } from "../lib/contentSanitizer";
 import { applyQuestionQualityDefaults } from "../lib/quality";
 
 type PrivateQuestionModule = {
@@ -575,4 +576,7 @@ export const sampleQuestions: Question[] = uniqueQuestions([
   ...regulatoryRemodelQuestions,
   ...regulatoryPdfQuestions,
   ...privateRegulatoryQuestions
-]).map(applyQuestionContentOverrides).map(applyQuestionQualityDefaults);
+])
+  .map(applyQuestionContentOverrides)
+  .map(cleanQuestionContent)
+  .map(applyQuestionQualityDefaults);

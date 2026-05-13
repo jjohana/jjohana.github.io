@@ -23,6 +23,7 @@ import {
 import { syllabus, topicLabel, subtopicLabel, getSection, getTopic } from "./data/syllabus";
 import { glossaryCategoryLabels, glossaryEntries, searchGlossaryEntries } from "./data/glossary";
 import { buildCoverageReport, getMistakeQuestionIds, getWeakSubtopics } from "./lib/analytics";
+import { normalizeDisplayText } from "./lib/contentSanitizer";
 import { buildCourse, courseProgress, firstCourseSubchapter, searchCourse } from "./lib/course";
 import {
   parseCsvQuestions,
@@ -1129,7 +1130,7 @@ function QcmBank({
 
   const questions = useMemo(() => {
     return scopedQuestions.filter((question) => {
-        const text = `${question.stem} ${topicLabel(question.topicId)} ${subtopicLabel(question.topicId, question.subtopicId)}`.toLowerCase();
+        const text = `${normalizeDisplayText(question.stem)} ${topicLabel(question.topicId)} ${subtopicLabel(question.topicId, question.subtopicId)}`.toLowerCase();
         if (search && !text.includes(search.toLowerCase())) return false;
         if (status === "mistakes" && !mistakeIds.has(question.id)) return false;
         if (status === "unanswered") {
@@ -1254,7 +1255,7 @@ function QcmBank({
                   <span className="pill amber" key={issue}>{ISSUE_TYPE_LABELS[issue]}</span>
                 ))}
               </div>
-              <h3>{question.stem}</h3>
+              <h3>{normalizeDisplayText(question.stem)}</h3>
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>
               {question.qualityNotes && <p className="muted">{question.qualityNotes}</p>}
               <details>
@@ -1262,11 +1263,11 @@ function QcmBank({
                 <ul className="rationale-list">
                   {question.choices.map((choice) => (
                     <li key={choice.id}>
-                      <strong>{choice.isCorrect ? "Correct" : "Wrong"}:</strong> {choice.text} - {choice.rationale}
+                      <strong>{choice.isCorrect ? "Correct" : "Wrong"}:</strong> {normalizeDisplayText(choice.text)} - {normalizeDisplayText(choice.rationale)}
                     </li>
                   ))}
                 </ul>
-                <p>{question.explanation}</p>
+                <p>{normalizeDisplayText(question.explanation)}</p>
               </details>
             </article>
           ))}
@@ -1512,7 +1513,7 @@ function Practice({
               <span className={`pill ${inferredQualityStatus(question) === "verified" ? "green" : "amber"}`}>
                 {inferredQualityStatus(question).replace("_", " ")}
               </span>
-              <h3>{question.stem}</h3>
+              <h3>{normalizeDisplayText(question.stem)}</h3>
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>
             </article>
           ))}
@@ -1635,7 +1636,7 @@ function Mistakes({
                 <span className="pill">{getSection(question.sectionId).shortTitle}</span>
                 <span className="pill">{question.difficulty}</span>
               </div>
-              <h3>{question.stem}</h3>
+              <h3>{normalizeDisplayText(question.stem)}</h3>
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>
               <button
                 className="secondary-button"
@@ -1729,7 +1730,7 @@ function SessionScreen({
         </div>
 
         <article className="question-workspace">
-          <h3>{question.stem}</h3>
+          <h3>{normalizeDisplayText(question.stem)}</h3>
           <div className="answer-grid">
             {orderedChoices.map((choice, index) => {
               const isSelected = selected === choice.id;
@@ -1753,7 +1754,7 @@ function SessionScreen({
                   disabled={showFeedback && session.feedbackMode === "immediate"}
                 >
                   <span className="answer-letter">{String.fromCharCode(65 + index)}</span>
-                  <span>{choice.text}</span>
+                  <span>{normalizeDisplayText(choice.text)}</span>
                 </button>
               );
             })}
@@ -1771,11 +1772,11 @@ function SessionScreen({
                 {answer?.isCorrect ? <CheckCircle2 size={18} /> : <XCircle size={18} />}
                 {answer?.isCorrect ? "Correct" : "Incorrect"}
               </div>
-              <p>{question.explanation}</p>
+              <p>{normalizeDisplayText(question.explanation)}</p>
               <ul className="rationale-list">
                 {orderedChoices.map((choice, index) => (
                   <li key={choice.id}>
-                    <strong>{String.fromCharCode(65 + index)}. {choice.text}</strong> - {choice.rationale}
+                    <strong>{String.fromCharCode(65 + index)}. {normalizeDisplayText(choice.text)}</strong> - {normalizeDisplayText(choice.rationale)}
                   </li>
                 ))}
               </ul>
@@ -1912,16 +1913,16 @@ function Results({ session, questions }: { session: Session; questions: Question
                   <span className="pill">Q{index + 1}</span>
                   <span className="pill">{getSection(question.sectionId).shortTitle}</span>
                 </div>
-                <h3>{question.stem}</h3>
-                <p><strong>Selected:</strong> {selected?.text ?? "No answer"}</p>
-                <p><strong>Correct:</strong> {correct?.text}</p>
-                <p>{question.explanation}</p>
+                <h3>{normalizeDisplayText(question.stem)}</h3>
+                <p><strong>Selected:</strong> {selected ? normalizeDisplayText(selected.text) : "No answer"}</p>
+                <p><strong>Correct:</strong> {correct ? normalizeDisplayText(correct.text) : ""}</p>
+                <p>{normalizeDisplayText(question.explanation)}</p>
                 <details>
                   <summary>Per-option rationales</summary>
                   <ul className="rationale-list">
                     {orderedChoices.map((choice, choiceIndex) => (
                       <li key={choice.id}>
-                        <strong>{String.fromCharCode(65 + choiceIndex)}. {choice.text}</strong> - {choice.rationale}
+                        <strong>{String.fromCharCode(65 + choiceIndex)}. {normalizeDisplayText(choice.text)}</strong> - {normalizeDisplayText(choice.rationale)}
                       </li>
                     ))}
                   </ul>

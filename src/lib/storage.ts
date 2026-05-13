@@ -1,5 +1,6 @@
 import { sampleQuestions } from "../data/questions";
 import type { AppState, Question, UserSettings } from "../types";
+import { cleanQuestionContent } from "./contentSanitizer";
 import { applyQuestionQualityDefaults } from "./quality";
 
 export const STORAGE_KEY = "series3-qcm-state-v1";
@@ -20,13 +21,13 @@ export function defaultState(): AppState {
   };
 }
 
-function mergeQuestions(stored: Question[] | undefined): Question[] {
-  const byId = new Map(sampleQuestions.map((question) => [question.id, question]));
+export function mergeQuestions(stored: Question[] | undefined): Question[] {
+  const byId = new Map(sampleQuestions.map((question) => [question.id, applyQuestionQualityDefaults(cleanQuestionContent(question))]));
   for (const question of stored ?? []) {
-    const seeded = byId.get(question.id);
-    byId.set(question.id, applyQuestionQualityDefaults({ ...seeded, ...question }));
+    if (byId.has(question.id)) continue;
+    byId.set(question.id, applyQuestionQualityDefaults(cleanQuestionContent(question)));
   }
-  return [...byId.values()].map(applyQuestionQualityDefaults);
+  return [...byId.values()].map((question) => applyQuestionQualityDefaults(cleanQuestionContent(question)));
 }
 
 export function loadState(): AppState {
@@ -48,7 +49,7 @@ export function loadState(): AppState {
 
 export function saveState(state: AppState): void {
   if (typeof localStorage === "undefined") return;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...state, questions: mergeQuestions(state.questions) }));
 }
 
 export function downloadText(filename: string, text: string, mime = "text/plain;charset=utf-8"): void {

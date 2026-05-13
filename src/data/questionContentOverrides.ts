@@ -89,6 +89,18 @@ export const questionContentOverrides: Record<string, QuestionContentOverride> =
     ]),
     updatedAt: reviewedAt
   },
+  "s3-market-docx-302": {
+    stem: "Gold futures are quoted as follows: January $253.90/oz., February $255.00/oz., April $255.60/oz., August $257.00/oz., and October $257.50/oz. If a trader wants the spread with the largest annualized price differential, which spread should be executed?",
+    choices: calculationChoices([
+      { id: "a", text: "Short January, long February", isCorrect: false, rationale: "Incorrect. This is the opposite of the relative-value spread indicated by the annualized differential." },
+      { id: "b", text: "Long August, short October", isCorrect: false, rationale: "Incorrect. The August-October differential is smaller on an annualized basis than the January-February differential." },
+      { id: "c", text: "Long January, short February", isCorrect: true, rationale: "Correct. January is low relative to February. The one-month $1.10 difference annualizes to about 5.2%, the largest differential in the list." },
+      { id: "d", text: "Long April, short August", isCorrect: false, rationale: "Incorrect. The April-August differential is spread over a longer interval and is lower on an annualized basis." }
+    ]),
+    explanation: "Compare the price differences on an annualized basis. January to February differs by $1.10 over roughly one month, or about ($1.10 / $253.90) x 12 = 5.2% annualized. That is the largest relative differential shown, so the spread is to buy the lower relative month, January, and sell the higher relative month, February.",
+    sourceCode: "08_IM_1",
+    updatedAt: reviewedAt
+  },
   "s3-market-docx-319": {
     stem: "A speculator purchases 12 October RBOB gasoline futures contracts, each covering 42,000 gallons, at $2.7646 per gallon. If gasoline futures rise by 5%, what is the speculator's approximate profit?",
     choices: calculationChoices([
@@ -185,6 +197,18 @@ export const questionContentOverrides: Record<string, QuestionContentOverride> =
       { id: "d", text: "$1,250", isCorrect: true, rationale: "Correct. Trading loss is 2 x (643.25 - 642.10) x $500 = $1,150; adding $100 commissions gives $1,250." }
     ]),
     explanation: "The short index futures position loses when the offset price is higher. Trading loss is 2 x (643.25 - 642.10) x $500 = $1,150. Adding $50 commission per contract gives a total loss of $1,250.",
+    updatedAt: reviewedAt
+  },
+  "s3-market-docx-355": {
+    stem: "A speculator sells one September Eurodollar futures contract at 93.41 and later buys it back at 94.80. Each basis point is worth $25 per contract. Excluding transaction costs, what is the loss per contract?",
+    choices: calculationChoices([
+      { id: "a", text: "$9,750", isCorrect: false, rationale: "Incorrect. This overstates the loss. The adverse move is 139 basis points, not 390 basis points." },
+      { id: "b", text: "$6,950", isCorrect: false, rationale: "Incorrect. This doubles the correct loss." },
+      { id: "c", text: "$13,900", isCorrect: false, rationale: "Incorrect. This uses an incorrect dollar value for the price move." },
+      { id: "d", text: "$3,475 loss", isCorrect: true, rationale: "Correct. The short position loses when the contract is bought back at a higher price: 94.80 - 93.41 = 1.39, or 139 basis points. 139 x $25 = $3,475." }
+    ]),
+    explanation: "A short Eurodollar futures position loses when the offset price is higher than the sale price. The move from 93.41 to 94.80 is 1.39, or 139 basis points. At $25 per basis point, the loss is 139 x $25 = $3,475 per contract.",
+    sourceCode: "08_IM_14",
     updatedAt: reviewedAt
   },
   "s3-market-docx-360": {

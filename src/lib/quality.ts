@@ -1,5 +1,6 @@
 import { questionQualityOverrides } from "../data/questionQualityOverrides";
 import type { IssueType, QualityFilter, QualityStatus, Question } from "../types";
+import { cleanQuestionContent, UNSAFE_DISPLAY_PATTERNS } from "./contentSanitizer";
 
 export const QUALITY_FILTER_OPTIONS: { value: QualityFilter; label: string }[] = [
   { value: "verified", label: "Verified only" },
@@ -43,6 +44,7 @@ const visibleFields = (question: Question) => [
 const ocrPatterns = [
   /[\x80-\xFF]/,
   /[\uFFFD\u20AC\u2022_{}]/,
+  ...UNSAFE_DISPLAY_PATTERNS,
   /\b(?:DDecember|pvheat|round-tum|deposlt|Shoft|begmning|pald|defaultmg)\b/i,
   /\b(?:ofrisk|discretionaly|typewnters|decldes|typexvriter|attomey|alltimes)\b/i,
   /\b(?:Wisible|Wiable|Wien|Wiew|ftnction|commodlt\w*|integrlty|exchmge)\b/i,
@@ -69,7 +71,8 @@ const outdatedRegulatoryPattern =
 
 export function inferIssueTypes(question: Question): IssueType[] {
   const issues = new Set<IssueType>();
-  const text = visibleFields(question).join(" ");
+  const cleaned = cleanQuestionContent(question);
+  const text = visibleFields(cleaned).join(" ");
 
   if (ocrPatterns.some((pattern) => pattern.test(text))) issues.add("OCR/transcription");
   if (
@@ -106,11 +109,17 @@ export function inferredQualityStatus(question: Question): QualityStatus {
 
 export function applyQuestionQualityDefaults(question: Question): Question {
   const override = questionQualityOverrides[question.id] ?? {};
-  const withOverride = { ...question, ...override };
-  const issueTypes = withOverride.issueTypes ?? inferIssueTypes(withOverride);
-  const qualityStatus = withOverride.qualityStatus ?? inferredQualityStatus({ ...withOverride, issueTypes });
+  const withOverride = cleanQuestionContent({ ...cleanQuestionContent(question), ...override });
+  const inferredIssues = inferIssueTypes(withOverride);
+  const blockingIssues = inferredIssues.filter((issue) => issue === "OCR/transcription" || issue === "bad_distractors");
+  const issueTypes = [...new Set([...(withOverride.issueTypes ?? inferredIssues), ...blockingIssues])];
+  const requestedQualityStatus = withOverride.qualityStatus ?? inferredQualityStatus({ ...withOverride, issueTypes });
+  const qualityStatus: QualityStatus =
+    requestedQualityStatus === "verified" && blockingIssues.length > 0 ? "needs_review" : requestedQualityStatus;
   const qualityNotes =
-    withOverride.qualityNotes ??
+    (requestedQualityStatus === "verified" && blockingIssues.length > 0
+      ? "Visible OCR or shuffle-safety artifacts were detected after normalization; excluded from verified-only practice until reviewed."
+      : withOverride.qualityNotes) ??
     (qualityStatus === "verified"
       ? "Passed structural, taxonomy, OCR, distractor, and automated content-risk checks."
       : qualityStatus === "rejected"

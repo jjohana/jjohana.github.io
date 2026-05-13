@@ -1,0 +1,199 @@
+import type { AnswerChoice, Question } from "../types";
+
+type Replacement = [RegExp, string | ((match: string, ...captures: string[]) => string)];
+
+const commonReplacements: Replacement[] = [
+  [/\bTruc\b/g, "True"],
+  [/\bFalsc\b/g, "False"],
+  [/\bTme\b/g, "True"],
+  [/\bUmless\b/g, "Unless"],
+  [/\biwthout\b/g, "without"],
+  [/\bresulis\b/g, "results"],
+  [/\bopticns\b/g, "options"],
+  [/\bthei exemption\b/g, "their exemption"],
+  [/\bRetums\b/g, "Returns"],
+  [/\bRetum\b/g, "Return"],
+  [/\bretum\b/g, "return"],
+  [/\bdecreasmg\b/g, "decreasing"],
+  [/\bincreasmg\b/g, "increasing"],
+  [/\bcommg\b/g, "coming"],
+  [/\bIgnormg\b/g, "Ignoring"],
+  [/\bExcludmg\b/g, "Excluding"],
+  [/\bpaymg\b/g, "paying"],
+  [/\bbuymg\b/g, "buying"],
+  [/\btradmg\b/g, "trading"],
+  [/\bunderlymg\b/g, "underlying"],
+  [/\bfttures\b/g, "futures"],
+  [/\bfritures\b/g, "futures"],
+  [/\bftnction\b/g, "function"],
+  [/\bintegrlty\b/g, "integrity"],
+  [/\bexchmge\b/g, "exchange"],
+  [/\bcommodlty\b/g, "commodity"],
+  [/\bcommodlties\b/g, "commodities"],
+  [/\binstmment\b/g, "instrument"],
+  [/\binstmments\b/g, "instruments"],
+  [/\bTreasuty\b/g, "Treasury"],
+  [/\bTreasuly\b/g, "Treasury"],
+  [/\bmargm\b/g, "margin"],
+  [/\bmargtn\b/g, "margin"],
+  [/\bmamtam\b/g, "maintain"],
+  [/\bposltlon\b/g, "position"],
+  [/\bpositlon\b/g, "position"],
+  [/\bequlty\b/g, "equity"],
+  [/\bclearmghouse\b/g, "clearinghouse"],
+  [/\bderlvatlves\b/g, "derivatives"],
+  [/\bfonvards\b/g, "forwards"],
+  [/\binvefled\b/g, "inverted"],
+  [/\bcanying\b/g, "carrying"],
+  [/\brequrrements\b/g, "requirements"],
+  [/\bperlocl\b/g, "period"],
+  [/\bimmedlately\b/g, "immediately"],
+  [/\bandtor\b/g, "and/or"],
+  [/\btivo\b/g, "two"],
+  [/\bgam\b/g, "gain"],
+  [/\barld\b/g, "and"],
+  [/\bbetueen\b/g, "between"],
+  [/\blouer\b/g, "lower"],
+  [/\bdimmishes\b/g, "diminishes"],
+  [/\brtsk\b/g, "risk"],
+  [/\bintrmsic\b/g, "intrinsic"],
+  [/\bintrinslc\b/g, "intrinsic"],
+  [/\boptlon\b/g, "option"],
+  [/\bcounterpafty\b/g, "counterparty"],
+  [/\bhavmg\b/g, "having"],
+  [/\ballowmg\b/g, "allowing"],
+  [/\bMith\b/g, "With"],
+  [/\borigmated\b/g, "originated"],
+  [/\ballgned\b/g, "aligned"],
+  [/\bhlgher\b/g, "higher"],
+  [/\bdemarld\b/g, "demand"],
+  [/\bfulther\b/g, "further"],
+  [/\bbemg\b/g, "being"],
+  [/\bcollectmg\b/g, "collecting"],
+  [/\bInfommation\b/g, "Information"],
+  [/\binfommation\b/g, "information"],
+  [/\bcvery\b/g, "every"],
+  [/\bfepresent\b/g, "represent"],
+  [/\burad\b/g, "and"],
+  [/\bumo\b/g, "two"],
+  [/\bpvaould\b/g, "would"],
+  [/\bM,ould\b/g, "Would"],
+  [/\bM,hen\b/g, "When"],
+  [/\bM,hat\b/g, "What"],
+  [/\bu,hen\b/g, "when"],
+  [/\bpvhen\b/g, "when"],
+  [/\bpvhat\b/g, "what"],
+  [/\bDDecember\b/g, "December"],
+  [/\bpvheat\b/g, "wheat"],
+  [/\bround-tum\b/g, "round-turn"],
+  [/\bdeposlt\b/g, "deposit"],
+  [/\bShoft\b/g, "Short"],
+  [/\bbegmning\b/g, "beginning"],
+  [/\bpald\b/g, "paid"],
+  [/\bdefaultmg\b/g, "defaulting"],
+  [/\bofrisk\b/g, "of risk"],
+  [/\bdiscretionaly\b/g, "discretionary"],
+  [/\btypewnters\b/g, "typewriters"],
+  [/\btypexvriter\b/g, "typewriter"],
+  [/\battomey\b/g, "attorney"],
+  [/\balltimes\b/g, "all times"],
+  [/\bWisible\b/g, "Visible"],
+  [/\bWiable\b/g, "Viable"],
+  [/\bWien\b/g, "When"],
+  [/\bWiew\b/g, "View"],
+  [/\bNaticnal\b/g, "National"],
+  [/\bfegistered\b/g, "registered"],
+  [/\bWertical\b/g, "Vertical"],
+  [/\bWeltical\b/g, "Vertical"],
+  [/\bexerctsed\b/g, "exercised"],
+  [/\bivhose\b/g, "whose"],
+  [/\bdlfference\b/g, "difference"],
+  [/\bcustom er\b/g, "customer"],
+  [/\binventoty\b/g, "inventory"],
+  [/\bbearlsh\b/g, "bearish"],
+  [/\bclifference\b/g, "difference"],
+  [/\bclifferent\b/g, "different"],
+  [/\bcalculate as follows\b/g, "calculated as follows"],
+  [/\bIncreased\b/g, "increased"],
+  [/\bC\.only\b/g, "C only"],
+  [/\band\.'or\b/g, "and/or"],
+  [/\bfuture' s\b/g, "future's"],
+  [/\bprofit'loss\b/g, "profit/loss"],
+  [/\bpre-\s+dispute\b/g, "pre-dispute"],
+  [/\brisk-\s+disclosure\b/g, "risk-disclosure"],
+  [/\bknow-your-\s+customer\b/g, "know-your-customer"],
+  [/\b90-\s*day\b/g, "90-day"],
+  [/\b95_24_\b/g, "95.24"],
+  [/\b96\.\s*IO\b/g, "96.10"],
+  [/\b94\.\s*SO\b/g, "94.80"],
+  [/\b93\.\s*SO\b/g, "93.50"],
+  [/\b100:000\b/g, "100,000"],
+  [/\bS[I1]\s+million\b/g, "$1 million"],
+  [/\bS[I1]\s*250 per ct\.?\b/g, "$12.50 per contract"],
+  [/\bIS\s+100,000\b/g, "is $100,000"],
+  [/\bminimum tick is\.005\b/g, "minimum tick is 0.005"],
+  [/\bper ct\.\b/g, "per contract"],
+  [/\bss:(\d{1,3}(?:,\d{3})?)\b/gi, (_match, amount) => `$${amount}`],
+  [/\$\s*(\d+):(\d{3})\b/g, (_match, dollars, thousands) => `$${dollars},${thousands}`],
+  [/\$\s*(\d+):(\d{2})\b/g, (_match, dollars, cents) => `$${dollars}.${cents}`],
+  [/\b[sS]\s+(\d{1,3}):(\d{3})(\d{2})\b/g, (_match, dollars, thousands, cents) => `$${dollars},${thousands}.${cents}`],
+  [/\b[sS]\s+(\d{1,3}):(\d{3})\b/g, (_match, dollars, thousands) => `$${dollars},${thousands}`],
+  [/\b[sS]\s+(\d{1,3},\d{3})(?:\.)?\b/g, (_match, amount) => `$${amount}`],
+  [/\b[sS]\s+(\d{1,3})(?:\.)?\b/g, (_match, amount) => `$${amount}`],
+  [/\bn7Q An\b/g, "$3,475"],
+  [/\s+_/g, " "],
+  [/_+\s+/g, " "],
+  [/_+/g, " "],
+  [/\s+([,.;:?])/g, "$1"],
+  [/(?<!\d)([.!?])(?=[A-Z])/g, "$1 "],
+  [/\s{2,}/g, " "]
+];
+
+export const UNSAFE_DISPLAY_PATTERNS = [
+  /[\uFFFD\u20AC\u2022{}]/,
+  /_/,
+  /\b(?:Truc|Falsc|Tme|Umless|iwthout|resulis|opticns|Retums|Retum|retum|fttures|fritures|underlymg|decreasmg|commg|Ignormg)\b/i,
+  /\b(?:n7Q|S[I1]\s+million|S[I1]\s*250|ss:\d|100:000)\b/i,
+  /\b\d{2,3}\.\s*SO\b/i,
+  /\b\d{2,3}\.\s*IO\b/i,
+  /\b\d{2,3}_\d{1,2}_\b/i,
+  /\$\d+:\d{2,3}\b/,
+  /\b[sS]\s+\d[\d,:.]*\b/
+];
+
+export function normalizeDisplayText(value: string | undefined): string {
+  if (!value) return "";
+  let text = value
+    .normalize("NFKC")
+    .replace(/[\u00A0\u2007\u202F]/g, " ")
+    .replace(/[\u2010-\u2015\u2212]/g, "-")
+    .replace(/[\u2018\u2019]/g, "'")
+    .replace(/[\u201C\u201D]/g, "\"");
+  for (const [pattern, replacement] of commonReplacements) {
+    text = text.replace(pattern, replacement as string);
+  }
+  return text.trim();
+}
+
+function cleanChoice(choice: AnswerChoice): AnswerChoice {
+  return {
+    ...choice,
+    text: normalizeDisplayText(choice.text),
+    rationale: normalizeDisplayText(choice.rationale)
+  };
+}
+
+export function cleanQuestionContent(question: Question): Question {
+  return {
+    ...question,
+    stem: normalizeDisplayText(question.stem),
+    explanation: normalizeDisplayText(question.explanation),
+    concept: question.concept ? normalizeDisplayText(question.concept) : question.concept,
+    choices: question.choices.map(cleanChoice)
+  };
+}
+
+export function hasUnsafeDisplayArtifact(value: string | undefined): boolean {
+  if (!value) return false;
+  return UNSAFE_DISPLAY_PATTERNS.some((pattern) => pattern.test(value));
+}
