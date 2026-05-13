@@ -79,6 +79,15 @@ describe("published question quality", () => {
     expect(findings).toEqual([]);
   });
 
+  it("does not certify imported questions with unresolved OCR or shuffle-safety issues", () => {
+    const findings = activeQuestions
+      .filter((question) => inferredQualityStatus(question) === "verified")
+      .filter((question) => question.issueTypes?.some((issue) => issue === "OCR/transcription" || issue === "bad_distractors"))
+      .map((question) => `${question.id}: ${question.issueTypes?.join(", ")}`);
+
+    expect(findings).toEqual([]);
+  });
+
   it("excludes rejected questions from the default session pool", () => {
     const pool = filterQuestionPool(activeQuestions, { difficulty: "mixed" });
     const rejectedIds = pool.filter((question) => inferredQualityStatus(question) === "rejected").map((question) => question.id);

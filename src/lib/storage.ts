@@ -3,7 +3,8 @@ import type { AppState, Question, UserSettings } from "../types";
 import { cleanQuestionContent } from "./contentSanitizer";
 import { applyQuestionQualityDefaults } from "./quality";
 
-export const STORAGE_KEY = "series3-qcm-state-v1";
+export const LEGACY_STORAGE_KEYS = ["series3-qcm-state-v1"];
+export const STORAGE_KEY = "series3-qcm-state-v2";
 
 export const DEFAULT_SETTINGS: UserSettings = {
   shuffleSeed: "series3-default-seed",
@@ -32,6 +33,9 @@ export function mergeQuestions(stored: Question[] | undefined): Question[] {
 
 export function loadState(): AppState {
   if (typeof localStorage === "undefined") return defaultState();
+  for (const legacyKey of LEGACY_STORAGE_KEYS) {
+    localStorage.removeItem(legacyKey);
+  }
   const raw = localStorage.getItem(STORAGE_KEY);
   if (!raw) return defaultState();
   try {
@@ -49,6 +53,9 @@ export function loadState(): AppState {
 
 export function saveState(state: AppState): void {
   if (typeof localStorage === "undefined") return;
+  for (const legacyKey of LEGACY_STORAGE_KEYS) {
+    localStorage.removeItem(legacyKey);
+  }
   localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...state, questions: mergeQuestions(state.questions) }));
 }
 

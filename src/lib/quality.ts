@@ -56,6 +56,15 @@ const ocrPatterns = [
 const answerLetterReferencePattern =
   /\b(both|either|neither)\s+[ABCDE]\b|\b[ABCDE]\s*(and|or|&)\s*[ABCDE]\b|\banswers?\s+[ABCDE]\b/i;
 const bannedChoicePattern = /\b(all of the above|none of the above)\b/i;
+const rawTranscriptionPatterns = [
+  ...UNSAFE_DISPLAY_PATTERNS,
+  /_/,
+  /\b(?:Truc|Falsc|Wolume|Wery|NTA|NTA\s+ml\s+es|ivhere|Janualy|Februaly|ugust|ovember)\b/i,
+  /\b(?:requrrements|mcreases|ivhenever|ullile|ml\s+es|gm\s+requrrements)\b/i,
+  /\b[Ss]\s+\d[\d,:.]*\b/,
+  /\b\d{2,3}:000\b/,
+  /\b(?:A,\s*B\s+and\s+C|A\s+and\s+B\s+only|C\s+only)\b/i
+];
 
 const importedCalculationPattern =
   /(?:\$|\b\d+(?:\.\d+)?\b|\b\d+\/\d+\b|\b\d+-\d+\b)/;
@@ -73,12 +82,15 @@ export function inferIssueTypes(question: Question): IssueType[] {
   const issues = new Set<IssueType>();
   const cleaned = cleanQuestionContent(question);
   const text = visibleFields(cleaned).join(" ");
+  const rawText = visibleFields(question).join(" ");
 
-  if (ocrPatterns.some((pattern) => pattern.test(text))) issues.add("OCR/transcription");
-  if (
-    !question.shuffleDisabled &&
-    question.choices.some((choice) => bannedChoicePattern.test(choice.text) || answerLetterReferencePattern.test(choice.text))
-  ) {
+  if (ocrPatterns.some((pattern) => pattern.test(text)) || rawTranscriptionPatterns.some((pattern) => pattern.test(rawText))) {
+    issues.add("OCR/transcription");
+  }
+  if (question.sourceType === "imported" && !question.sourceCode) {
+    issues.add("OCR/transcription");
+  }
+  if (question.choices.some((choice) => bannedChoicePattern.test(choice.text) || answerLetterReferencePattern.test(choice.text))) {
     issues.add("bad_distractors");
   }
   if (!question.explanation || question.explanation.length < 50) issues.add("weak_explanation");
@@ -109,10 +121,16 @@ export function inferredQualityStatus(question: Question): QualityStatus {
 
 export function applyQuestionQualityDefaults(question: Question): Question {
   const override = questionQualityOverrides[question.id] ?? {};
-  const withOverride = cleanQuestionContent({ ...cleanQuestionContent(question), ...override });
+  const rawWithOverride = { ...question, ...override };
+  const withOverride = cleanQuestionContent(rawWithOverride);
   const inferredIssues = inferIssueTypes(withOverride);
-  const blockingIssues = inferredIssues.filter((issue) => issue === "OCR/transcription" || issue === "bad_distractors");
-  const issueTypes = [...new Set([...(withOverride.issueTypes ?? inferredIssues), ...blockingIssues])];
+  const rawIssues = inferIssueTypes(rawWithOverride);
+  const rawBlockingIssues = rawIssues.filter((issue) => issue === "OCR/transcription" || issue === "bad_distractors");
+  const blockingIssues = [
+    ...inferredIssues.filter((issue) => issue === "OCR/transcription" || issue === "bad_distractors"),
+    ...rawBlockingIssues
+  ];
+  const issueTypes = [...new Set([...(withOverride.issueTypes ?? inferredIssues), ...blockingIssues, ...rawBlockingIssues])];
   const requestedQualityStatus = withOverride.qualityStatus ?? inferredQualityStatus({ ...withOverride, issueTypes });
   const qualityStatus: QualityStatus =
     requestedQualityStatus === "verified" && blockingIssues.length > 0 ? "needs_review" : requestedQualityStatus;

@@ -25,7 +25,7 @@ describe("storage question migration", () => {
 
     expect(migrated?.stem).toBe(seeded!.stem);
     expect(migrated?.choices.map((choice) => choice.text)).toEqual(seeded!.choices.map((choice) => choice.text));
-    expect(inferredQualityStatus(migrated!)).toBe("verified");
+    expect(inferredQualityStatus(migrated!)).toBe(inferredQualityStatus(seeded!));
   });
 
   it("sanitizes non-seeded local questions and prevents unsafe verified status", () => {

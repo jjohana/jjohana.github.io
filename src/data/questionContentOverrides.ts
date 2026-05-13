@@ -53,6 +53,19 @@ export const questionContentOverrides: Record<string, QuestionContentOverride> =
     explanation: "The short position was sold at 63-21 and bought back at 64-01, a 12/32 adverse move. Each 1/32 on a $100,000 T-bond futures contract is $31.25, so the loss is 12 x $31.25 = $375 before commissions.",
     updatedAt: reviewedAt
   },
+  "s3-market-docx-208": {
+    subtopicId: "commodity-hedges",
+    stem: "On August 1, a copper pipe fabricator contracts to sell pipe that it will fabricate in December at a fixed price. It will require 200,000 pounds of copper in late November. To hedge its copper purchase risk, with a copper futures contract size of 25,000 pounds, what should the fabricator do?",
+    choices: calculationChoices([
+      { id: "a", text: "Buy 2 copper futures contracts.", isCorrect: false, rationale: "Incorrect. The hedge should be long, but 2 contracts cover only 50,000 pounds." },
+      { id: "b", text: "Sell 2 copper futures contracts.", isCorrect: false, rationale: "Incorrect. The fabricator needs to buy copper later, so it is exposed to rising prices and should not use a short hedge." },
+      { id: "c", text: "Buy 8 copper futures contracts.", isCorrect: true, rationale: "Correct. The fabricator needs copper later and fears higher prices, so it uses a long hedge. 200,000 / 25,000 = 8 contracts." },
+      { id: "d", text: "Sell 8 copper futures contracts.", isCorrect: false, rationale: "Incorrect. Eight contracts is the right size, but selling futures would hedge a future sale, not a future purchase." }
+    ]),
+    explanation: "The fabricator has committed to a fixed sale price but still needs to buy copper later. If copper prices rise, its input cost rises. A long hedge offsets that risk. The hedge size is 200,000 pounds / 25,000 pounds per contract = 8 contracts, so the correct action is to buy 8 copper futures contracts.",
+    sourceCode: "04_IM_9",
+    updatedAt: reviewedAt
+  },
   "s3-market-docx-234": {
     stem: "It is January. A farmer expects to harvest 11,000 bushels of soft red winter wheat in May. Cash wheat is $3.12 and May wheat futures are $3.23. He hedges by selling two May wheat futures contracts of 5,000 bushels each. In May, he sells 11,000 bushels of cash wheat at $2.98 and covers the short futures position at $3.00. With commission costs of $0.01 per bushel on the futures hedge, what effective price did the farmer receive per bushel?",
     updatedAt: reviewedAt
@@ -78,6 +91,18 @@ export const questionContentOverrides: Record<string, QuestionContentOverride> =
       { id: "d", text: "$3,750 more", isCorrect: true, rationale: "Correct. The futures hedge gained $0.01 per euro on 375,000 euro, reducing the cost by $3,750 versus being unhedged." }
     ]),
     explanation: "The long euro futures hedge gains $1.07 - $1.06 = $0.01 per euro. On 375,000 euro, that is $3,750. Without the hedge, the company would have paid $3,750 more.",
+    updatedAt: reviewedAt
+  },
+  "s3-market-docx-279": {
+    stem: "Margin requirements for spreads are usually:",
+    choices: calculationChoices([
+      { id: "a", text: "Lower than for outright positions.", isCorrect: true, rationale: "Correct. Exchanges and clearing firms usually set lower margin for recognized spreads because the legs partly offset each other's price risk." },
+      { id: "b", text: "Higher than for outright positions.", isCorrect: false, rationale: "Incorrect. Recognized spreads usually receive reduced margin compared with outright positions." },
+      { id: "c", text: "The same as for outright positions.", isCorrect: false, rationale: "Incorrect. Spread margin is commonly lower, although requirements depend on the exchange, product, and firm." },
+      { id: "d", text: "Lower than for outright positions only when the spread was established via a single transaction.", isCorrect: false, rationale: "Incorrect. Margin treatment depends on the recognized spread risk, not only on whether it was entered as one order." }
+    ]),
+    explanation: "A recognized spread combines related long and short futures positions. Because the legs partially offset, the risk is usually lower than an outright long or short position, so margin requirements are generally lower. The exact requirement still depends on exchange and firm rules.",
+    sourceCode: "manual-review-2026-05-14",
     updatedAt: reviewedAt
   },
   "s3-market-docx-292": {

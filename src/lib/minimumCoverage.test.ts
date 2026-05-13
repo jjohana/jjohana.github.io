@@ -7,7 +7,7 @@ import { validateQuestion } from "./validation";
 
 describe("minimum subtopic coverage", () => {
   it("adds the expected minimum-coverage question set", () => {
-    expect(minimumCoverageQuestions).toHaveLength(96);
+    expect(minimumCoverageQuestions).toHaveLength(108);
     const issues = minimumCoverageQuestions.flatMap(validateQuestion);
     expect(issues.filter((issue) => issue.severity === "error")).toEqual([]);
     expect(minimumCoverageQuestions.every((question) => question.qualityStatus === "verified")).toBe(true);
