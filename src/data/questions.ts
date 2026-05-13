@@ -1,4 +1,5 @@
 import type { Question } from "../types";
+import { marketFullCoverageQuestions } from "./marketFullCoverageQuestions";
 import { marketKnowledgeQuestions } from "./marketQuestions";
 import { regulatoryPdfQuestions } from "./s3RegulatoryPdfQuestions";
 import { regulatoryRemodelQuestions } from "./regulatoryQuestions";
@@ -563,6 +564,7 @@ const baseQuestions: Question[] = [
 export const sampleQuestions: Question[] = uniqueQuestions([
   ...baseQuestions,
   ...marketKnowledgeQuestions,
+  ...marketFullCoverageQuestions,
   ...regulatoryRemodelQuestions,
   ...regulatoryPdfQuestions,
   ...privateRegulatoryQuestions

@@ -26,6 +26,6 @@ test("starts a mock exam and opens results", async ({ page }) => {
   await page.getByRole("button", { name: /Start mock exam/ }).click();
   await expect(page.getByRole("heading", { name: /Question 1 of 120/ })).toBeVisible();
   await page.getByRole("button", { name: "Submit session" }).click();
-  await expect(page.getByRole("heading", { name: "Results" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Results", exact: true })).toBeVisible();
   await expect(page.getByText("both sections must pass")).toBeVisible();
 });
