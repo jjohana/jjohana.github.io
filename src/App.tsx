@@ -721,6 +721,8 @@ function QcmBank({
                 <span className={`pill ${question.sectionId === "market_knowledge" ? "blue" : "green"}`}>{getSection(question.sectionId).shortTitle}</span>
                 <span className="pill">{question.difficulty}</span>
                 <span className="pill">{question.sourceType}</span>
+                {question.shuffleDisabled && <span className="pill amber">fixed order</span>}
+                {question.sourceQuestionNumber && <span className="pill">PDF #{question.sourceQuestionNumber}</span>}
               </div>
               <h3>{question.stem}</h3>
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>

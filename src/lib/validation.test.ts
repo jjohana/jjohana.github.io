@@ -19,4 +19,16 @@ describe("validateQuestion", () => {
     expect(issues.some((issue) => issue.message.includes("all-of-the-above"))).toBe(true);
     expect(issues.some((issue) => issue.message.includes("exactly one correct"))).toBe(true);
   });
+
+  it("allows answer-letter-dependent choices when fixed order is explicit", () => {
+    const fixedOrder = structuredClone(sampleQuestions[0]);
+    fixedOrder.id = "fixed-order-source-question";
+    fixedOrder.shuffleDisabled = true;
+    fixedOrder.choices[0].text = "A and C only";
+
+    const issues = validateQuestion(fixedOrder);
+
+    expect(issues.filter((issue) => issue.severity === "error")).toEqual([]);
+    expect(issues.some((issue) => issue.severity === "warning" && issue.message.includes("fixed answer order"))).toBe(true);
+  });
 });

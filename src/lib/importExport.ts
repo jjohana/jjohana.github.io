@@ -23,6 +23,9 @@ function normalizeQuestion(raw: Record<string, unknown>, rowNumber: number): Que
       rationale: String(choice.rationale ?? "")
     };
   });
+  const regulatoryFocusRaw = raw.regulatoryFocus ?? raw.regulatory_focus;
+  const reviewStatus = String(raw.reviewStatus ?? raw.review_status ?? "");
+  const extractionConfidence = String(raw.extractionConfidence ?? raw.extraction_confidence ?? "");
 
   return {
     id: String(raw.id ?? makeId(`import-row-${rowNumber}`)),
@@ -36,6 +39,24 @@ function normalizeQuestion(raw: Record<string, unknown>, rowNumber: number): Que
     explanation: String(raw.explanation ?? ""),
     sourceType: "imported",
     active: raw.active === undefined ? true : Boolean(raw.active),
+    regulatoryFocus: Array.isArray(regulatoryFocusRaw) ? regulatoryFocusRaw.map(String) : undefined,
+    concept: raw.concept === undefined ? undefined : String(raw.concept),
+    sourceNote: raw.sourceNote === undefined && raw.source_note === undefined ? undefined : String(raw.sourceNote ?? raw.source_note),
+    reviewStatus: reviewStatus === "reviewed" || reviewStatus === "needs_review" ? reviewStatus : undefined,
+    extractionConfidence:
+      extractionConfidence === "high" || extractionConfidence === "medium" || extractionConfidence === "low"
+        ? extractionConfidence
+        : undefined,
+    sourcePageRange:
+      raw.sourcePageRange === undefined && raw.source_page_range === undefined
+        ? undefined
+        : String(raw.sourcePageRange ?? raw.source_page_range),
+    sourceQuestionNumber:
+      raw.sourceQuestionNumber === undefined && raw.source_question_number === undefined
+        ? undefined
+        : Number(raw.sourceQuestionNumber ?? raw.source_question_number),
+    sourceCode: raw.sourceCode === undefined && raw.source_code === undefined ? undefined : String(raw.sourceCode ?? raw.source_code),
+    shuffleDisabled: Boolean(raw.shuffleDisabled ?? raw.shuffle_disabled),
     createdAt: new Date().toISOString()
   };
 }

@@ -31,8 +31,10 @@ Use only:
 - Mistake review queue
 - Per-question explanations and per-choice rationales
 - Deterministic seeded shuffling with balanced correct-answer positions
+- Fixed-order support for licensed/user-provided source questions whose choices depend on A/B/C/D labels
 - Static build compatible with GitHub Pages
 - Rewritten U.S. Regulations bank based on concepts observed in `S3-Regulatory.pdf`
+- User-authorized OCR import of the `S3-Regulatory.pdf` regulatory bank, deduplicated to 242 unique QCMs from 249 detected source question numbers
 - Dedicated regulatory focus filters for registration, account rules, FCM/IB, CPO/CTA, supervision, communications, arbitration, enforcement, AML, and high-yield review
 
 ## Setup
@@ -128,6 +130,7 @@ Use `true`, `1`, `yes`, or `y` for the correct-choice column.
 - Every question must include a detailed explanation.
 - Every question must be tagged with section, topic, subtopic, and difficulty.
 - Avoid "all of the above", "none of the above", and choices that refer to displayed letters.
+- If a licensed/user-provided source question cannot be shuffled safely because its choices refer to A/B/C/D, set `shuffleDisabled: true`; the app will preserve the original choice order and show a fixed-order tag.
 - Imported content must be original or properly licensed.
 
 ## Regulatory PDF Remodel
@@ -138,6 +141,29 @@ The regulatory section was remodeled using the local source document:
 C:\Users\Jean-JacquesOhana\Documents\Ai For Alpha\2026\Series 3\S3-Regulatory.pdf
 ```
 
-That PDF is image-based and appears to be a PassMaster-style regulatory QCM tutorial. To avoid publishing potentially licensed proprietary text, the public app does not include verbatim OCR questions. Instead, the app includes original rewritten regulatory study questions based on concepts identified from OCR and the existing Series 3 regulatory taxonomy.
+That PDF is image-based and appears to be a PassMaster-style regulatory QCM tutorial. The app includes the original rewritten regulatory study questions plus the user-authorized OCR extraction of the 249-question regulatory bank.
 
 See [docs/regulatory-remodel-report.md](docs/regulatory-remodel-report.md) for the extraction summary, taxonomy changes, and manual review notes.
+
+## Private PDF Extraction
+
+For local/private use, the OCR extraction workflow is in:
+
+```bash
+python scripts/extract_s3_regulatory_pdf.py --skip-ocr
+```
+
+It writes ignored private outputs:
+
+```text
+private/s3-regulatory-extracted.jsonl
+private/s3-regulatory-extraction-report.json
+private/s3-regulatory-manual-review.csv
+src/data/private/s3RegulatoryExtracted.ts
+```
+
+Files under `private/` and `src/data/private/` are ignored by Git. When `src/data/private/s3RegulatoryExtracted.ts` exists locally, the app auto-loads those questions. The public module generated from the authorized extraction is:
+
+```text
+src/data/s3RegulatoryPdfQuestions.ts
+```

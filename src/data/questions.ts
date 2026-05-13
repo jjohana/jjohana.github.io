@@ -1,5 +1,28 @@
 import type { Question } from "../types";
+import { regulatoryPdfQuestions } from "./s3RegulatoryPdfQuestions";
 import { regulatoryRemodelQuestions } from "./regulatoryQuestions";
+
+type PrivateQuestionModule = {
+  privateRegulatoryQuestions?: Question[];
+  default?: Question[];
+};
+
+const privateQuestionModules = (import.meta as ImportMeta & {
+  glob: <T>(pattern: string, options: { eager: true }) => Record<string, T>;
+}).glob<PrivateQuestionModule>("./private/*.ts", { eager: true });
+
+const privateRegulatoryQuestions = Object.values(privateQuestionModules).flatMap(
+  (module) => module.privateRegulatoryQuestions ?? module.default ?? []
+);
+
+function uniqueQuestions(questions: Question[]): Question[] {
+  const seen = new Set<string>();
+  return questions.filter((question) => {
+    if (seen.has(question.id)) return false;
+    seen.add(question.id);
+    return true;
+  });
+}
 
 const createdAt = "2026-05-13T00:00:00.000Z";
 
@@ -536,4 +559,9 @@ const baseQuestions: Question[] = [
   }
 ];
 
-export const sampleQuestions: Question[] = [...baseQuestions, ...regulatoryRemodelQuestions];
+export const sampleQuestions: Question[] = uniqueQuestions([
+  ...baseQuestions,
+  ...regulatoryRemodelQuestions,
+  ...regulatoryPdfQuestions,
+  ...privateRegulatoryQuestions
+]);

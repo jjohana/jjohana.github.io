@@ -12,11 +12,27 @@ describe("shuffle engine", () => {
   });
 
   it("balances correct answer positions across a full mock", () => {
-    const mockQuestions = selectMockQuestions(sampleQuestions, "mock-seed", 120);
+    const mockQuestions = selectMockQuestions(sampleQuestions.filter((question) => !question.shuffleDisabled), "mock-seed", 120);
     const sessionQuestions = buildSessionQuestions(mockQuestions, "mock-seed");
     const audit = auditCorrectPositionDistribution(sessionQuestions.filter((question) => question.choiceOrder.length === 4));
 
     expect(audit.total).toBeGreaterThan(100);
     expect(audit.passed).toBe(true);
+  });
+
+  it("preserves original choice order for fixed-order source questions", () => {
+    const question = structuredClone(sampleQuestions[0]);
+    question.shuffleDisabled = true;
+    question.choices = [
+      { ...question.choices[0], id: "a", isCorrect: false },
+      { ...question.choices[1], id: "b", isCorrect: false },
+      { ...question.choices[2], id: "c", isCorrect: true },
+      { ...question.choices[3], id: "d", isCorrect: false }
+    ];
+
+    const [sessionQuestion] = buildSessionQuestions([question], "fixed-order-seed");
+
+    expect(sessionQuestion.choiceOrder).toEqual(["a", "b", "c", "d"]);
+    expect(sessionQuestion.correctDisplayIndex).toBe(2);
   });
 });

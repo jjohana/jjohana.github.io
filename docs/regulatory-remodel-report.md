@@ -8,22 +8,23 @@ Source document:
 
 The PDF is image-based. Standard text extraction returned no usable embedded text, so the document was assessed with rendered page images and local OCR.
 
-Because the source appears to be a PassMaster-style regulatory QCM tutorial and may be licensed/proprietary, the public GitHub Pages app does **not** publish verbatim OCR questions, answer choices, or explanations. The public app uses original rewritten study questions based on the regulatory concepts observed in the OCR pass and on the existing Series 3 regulatory syllabus taxonomy.
+The PDF was first handled conservatively as a private/local extraction because it appears to be a PassMaster-style regulatory QCM tutorial. The user later confirmed they have the right to publish the QCMs, so the public GitHub Pages app now includes the full OCR-derived regulatory bank in addition to the original rewritten study questions.
 
 ## OCR Summary
 
 | Item | Result |
 | --- | ---: |
 | PDF pages | 250 |
-| Visible question sequence | approximately 249 questions |
+| Visible question sequence | 249 questions |
 | Embedded text extraction | unavailable / empty |
-| OCR pages processed before timeout | 81 |
-| Question numbers detected in processed OCR | 80 |
+| OCR pages processed | 250 |
+| Source question numbers detected | 249 |
+| Unique active questions published after dedupe | 242 |
 | OCR method | `pdftoppm` render + cropped page image + RapidOCR local OCR |
-| Public verbatim imports | 0 |
+| Public OCR imports | 242 |
 | Public rewritten questions added | 47 |
 
-The first OCR pass was stopped after 81 pages because full-document OCR exceeded the local execution window. The extracted concepts were sufficient to identify the main regulatory coverage families and rebuild a public-safe original question bank. Full exact extraction remains a private/local follow-up if the user confirms publication rights or wants a private import file.
+The PDF has 250 rendered pages and 249 detected question numbers. The extraction workflow removed exact duplicate QCMs, including a duplicated page for question 130 and repeated source questions with identical stems and choices, producing 242 active unique QCMs.
 
 ## Regulatory Concepts Observed
 
@@ -55,7 +56,7 @@ The rewritten questions map into:
 - CPO / CTA Regulations
 - Arbitration, Discipline and Enforcement
 
-## Public-Safe Question Conversion
+## Question Conversion
 
 The app now includes rewritten regulatory questions marked with:
 
@@ -74,14 +75,23 @@ No rewritten item uses answer-letter-dependent choices such as:
 
 This keeps the existing answer-shuffling engine safe.
 
+The app also includes OCR-derived source questions marked with:
+
+- `sourceType: "imported"`
+- `shuffleDisabled: true`
+- source question number and page metadata
+- extraction confidence metadata
+
+These imported questions preserve answer order because many source choices refer to displayed answer letters.
+
 ## Manual Review Queue
 
-The following remain manual/private follow-ups:
+The extraction report is written to:
 
-- OCR and parse pages 82-250 if a full private extraction is needed.
-- Confirm publication rights before adding any exact source questions to the public site.
-- Review any source questions with answer-letter-dependent choices and rewrite them semantically before import.
-- Review OCR lines with visually dense explanations or low confidence before using them.
+- `private/s3-regulatory-extraction-report.json`
+- `private/s3-regulatory-manual-review.csv`
+
+The report currently flags 53 rows for review notes, mainly answer-letter-dependent source choices requiring fixed answer order. There are 0 inactive extracted questions.
 
 ## App Changes
 
@@ -91,7 +101,10 @@ The following remain manual/private follow-ups:
 - Added dedicated regulatory focus filters in QCM Bank and Practice.
 - Added quick regulatory drill presets for high-yield rules, registration, promotional material, and arbitration.
 - Added tests for rewritten regulatory validation, focus filtering, and answer-letter safety.
+- Added full OCR extraction workflow for `S3-Regulatory.pdf`.
+- Added fixed-order question support for source questions whose choices depend on displayed A/B/C/D labels.
+- Added the extracted regulatory PDF bank as `src/data/s3RegulatoryPdfQuestions.ts`.
 
 ## Compliance Position
 
-The deployed public site uses original study questions. The source PDF was used only to identify regulatory coverage and learning concepts. The app continues to state that it is independent and does not contain real FINRA/NFA exam questions.
+The deployed public site uses original rewritten study questions plus user-authorized source questions extracted from the provided regulatory PDF. The app continues to state that it is independent and does not contain real FINRA/NFA exam questions.

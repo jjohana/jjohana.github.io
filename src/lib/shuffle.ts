@@ -55,8 +55,17 @@ export function buildSessionQuestions(questions: Question[], seed: string): Sess
     const numChoices = question.choices.length;
     countsByChoiceCount[numChoices] ??= Array.from({ length: numChoices }, () => 0);
     const counts = countsByChoiceCount[numChoices];
-    const correctDisplayIndex = chooseBalancedCorrectPosition(numChoices, counts, rng);
-    const choiceOrder = buildBalancedChoiceOrder(question, correctDisplayIndex, rng);
+    const choiceOrder = question.shuffleDisabled
+      ? question.choices.map((choice) => choice.id)
+      : buildBalancedChoiceOrder(question, chooseBalancedCorrectPosition(numChoices, counts, rng), rng);
+    const correctChoice = question.choices.find((choice) => choice.isCorrect);
+    if (!correctChoice) {
+      throw new Error(`Question ${question.id} has no correct answer.`);
+    }
+    const correctDisplayIndex = choiceOrder.indexOf(correctChoice.id);
+    if (correctDisplayIndex < 0) {
+      throw new Error(`Question ${question.id} has a correct answer missing from the display order.`);
+    }
     counts[correctDisplayIndex] += 1;
 
     return {

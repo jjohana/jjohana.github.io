@@ -3,7 +3,7 @@ import { DIFFICULTIES, SECTION_IDS, type ImportValidationReport, type Question, 
 
 const bannedChoicePattern = /\b(all of the above|none of the above)\b/i;
 const answerLetterReferencePattern =
-  /\b(both|either|neither)\s+[ABCD]\b|\b[ABCD]\s+(and|or)\s+[ABCD]\b|\banswers?\s+[ABCD]\b/i;
+  /\b(both|either|neither)\s+[ABCDE]\b|\b[ABCDE]\s*(and|or|&)\s*[ABCDE]\b|\banswers?\s+[ABCDE]\b/i;
 
 export function validateQuestion(question: Question): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
@@ -56,10 +56,22 @@ export function validateQuestion(question: Question): ValidationIssue[] {
     if (!choice.text?.trim()) add("error", `choices.${index}.text`, "Choice text is required.");
     if (!choice.rationale?.trim()) add("error", `choices.${index}.rationale`, "Each choice must include a rationale.");
     if (bannedChoicePattern.test(choice.text)) {
-      add("error", `choices.${index}.text`, "Avoid all-of-the-above and none-of-the-above answer choices.");
+      add(
+        question.shuffleDisabled ? "warning" : "error",
+        `choices.${index}.text`,
+        question.shuffleDisabled
+          ? "This all-of-the-above or none-of-the-above answer choice requires fixed answer order."
+          : "Avoid all-of-the-above and none-of-the-above answer choices."
+      );
     }
     if (answerLetterReferencePattern.test(choice.text)) {
-      add("error", `choices.${index}.text`, "Avoid answer text that depends on displayed letters.");
+      add(
+        question.shuffleDisabled ? "warning" : "error",
+        `choices.${index}.text`,
+        question.shuffleDisabled
+          ? "This answer-letter-dependent choice requires fixed answer order."
+          : "Avoid answer text that depends on displayed letters."
+      );
     }
   });
 

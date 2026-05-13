@@ -8,4 +8,6 @@ vite.config.d.ts
 playwright.config.js
 playwright.config.d.ts
 tmp_*/
+private/
+src/data/private/
 .DS_Store

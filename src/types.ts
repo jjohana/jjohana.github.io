@@ -56,6 +56,9 @@ export interface Question {
   reviewStatus?: "reviewed" | "needs_review";
   extractionConfidence?: "high" | "medium" | "low";
   sourcePageRange?: string;
+  sourceQuestionNumber?: number;
+  sourceCode?: string;
+  shuffleDisabled?: boolean;
   createdAt?: string;
   updatedAt?: string;
 }
