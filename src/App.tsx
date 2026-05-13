@@ -134,15 +134,19 @@ function defaultTopicForSection(sectionId: SectionId): string {
 
 function filtersForSourceBank(filters: SessionFilters, sourceBank: SourceBankFilter): SessionFilters {
   if (sourceBank === "s3-market-docx") {
-    return { ...filters, sourceBank, sectionId: "market_knowledge", topicId: defaultTopicForSection("market_knowledge"), subtopicId: "" };
+    return { ...filters, sourceBank, sectionId: "market_knowledge", topicId: "", subtopicId: "", regulatoryFocus: "all" };
   }
   if (sourceBank === "s3-regulatory-pdf") {
-    return { ...filters, sourceBank, sectionId: "us_regulations", topicId: defaultTopicForSection("us_regulations"), subtopicId: "" };
+    return { ...filters, sourceBank, sectionId: "us_regulations", topicId: "", subtopicId: "", regulatoryFocus: "all" };
+  }
+  if (sourceBank === "s3-imported" || sourceBank === "authored" || sourceBank === "all") {
+    return { ...filters, sourceBank, sectionId: undefined, topicId: "", subtopicId: "", regulatoryFocus: "all" };
   }
   return { ...filters, sourceBank };
 }
 
-function sourceBankForSectionChange(filters: SessionFilters, nextSection: SectionId): SourceBankFilter | undefined {
+function sourceBankForSectionChange(filters: SessionFilters, nextSection?: SectionId): SourceBankFilter | undefined {
+  if (!nextSection) return filters.sourceBank;
   if (filters.sourceBank === "s3-market-docx" && nextSection === "us_regulations") return "s3-imported";
   if (filters.sourceBank === "s3-regulatory-pdf" && nextSection === "market_knowledge") return "s3-imported";
   return filters.sourceBank;
@@ -155,8 +159,8 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedChoiceId, setSelectedChoiceId] = useState<string | undefined>();
   const [practiceFilters, setPracticeFilters] = useState<SessionFilters>({
-    sectionId: DEFAULT_SECTION,
-    topicId: DEFAULT_TOPIC,
+    sectionId: undefined,
+    topicId: "",
     subtopicId: "",
     difficulty: "mixed",
     questionCount: DEFAULT_SETTINGS.defaultDrillSize,
@@ -165,8 +169,8 @@ function App() {
     sourceBank: "s3-imported"
   });
   const [bankFilters, setBankFilters] = useState<SessionFilters>({
-    sectionId: DEFAULT_SECTION,
-    topicId: DEFAULT_TOPIC,
+    sectionId: undefined,
+    topicId: "",
     subtopicId: "",
     difficulty: "mixed",
     regulatoryFocus: "all",
@@ -473,7 +477,6 @@ function App() {
         {view === "bank" && (
           <QcmBank
             state={state}
-            coverage={coverage}
             filters={bankFilters}
             setFilters={setBankFilters}
             search={bankSearch}
@@ -671,7 +674,6 @@ function Dashboard({
 
 function QcmBank({
   state,
-  coverage,
   filters,
   setFilters,
   search,
@@ -689,7 +691,6 @@ function QcmBank({
   onFile
 }: {
   state: AppState;
-  coverage: ReturnType<typeof buildCoverageReport>;
   filters: SessionFilters;
   setFilters: (filters: SessionFilters) => void;
   search: string;
@@ -706,10 +707,13 @@ function QcmBank({
   onImport: () => void;
   onFile: (file?: File) => void;
 }) {
+  const scopedQuestions = useMemo(
+    () => filterQuestionPool(state.questions, filters).sort((a, b) => questionSourcePriority(b) - questionSourcePriority(a)),
+    [filters, state.questions]
+  );
+
   const questions = useMemo(() => {
-    const scoped = filterQuestionPool(state.questions, filters);
-    return scoped
-      .filter((question) => {
+    return scopedQuestions.filter((question) => {
         const text = `${question.stem} ${topicLabel(question.topicId)} ${subtopicLabel(question.topicId, question.subtopicId)}`.toLowerCase();
         if (search && !text.includes(search.toLowerCase())) return false;
         if (status === "mistakes" && !mistakeIds.has(question.id)) return false;
@@ -718,12 +722,15 @@ function QcmBank({
           if (answered) return false;
         }
         return true;
-      })
-      .sort((a, b) => questionSourcePriority(b) - questionSourcePriority(a));
-  }, [filters, mistakeIds, search, state.questions, state.sessions, status]);
+      });
+  }, [mistakeIds, scopedQuestions, search, state.sessions, status]);
 
-  const distribution = auditCorrectPositionDistribution(state.sessions.flatMap((session) => session.questions));
-  const bankValidation = validateQuestionBank(state.questions);
+  const scopedCoverage = useMemo(() => buildCoverageReport(scopedQuestions, state.sessions), [scopedQuestions, state.sessions]);
+  const scopedQuestionIds = useMemo(() => new Set(scopedQuestions.map((question) => question.id)), [scopedQuestions]);
+  const distribution = auditCorrectPositionDistribution(
+    state.sessions.flatMap((session) => session.questions.filter((question) => scopedQuestionIds.has(question.questionId)))
+  );
+  const bankValidation = validateQuestionBank(scopedQuestions);
 
   return (
     <section className="content-grid">
@@ -734,7 +741,7 @@ function QcmBank({
             <h2>Section to subtopic</h2>
           </div>
         </div>
-        <ScopeSelector filters={filters} setFilters={setFilters} includeAllSubtopics />
+        <ScopeSelector filters={filters} setFilters={setFilters} includeAllSections includeAllTopics includeAllSubtopics />
         <div className="filter-stack">
           <SourceBankSelector filters={filters} setFilters={setFilters} />
           <label>
@@ -783,7 +790,7 @@ function QcmBank({
       </div>
 
       {filters.sectionId === "us_regulations" && (
-        <RegulatoryOverview state={state} coverage={coverage} questions={questions} />
+        <RegulatoryOverview coverage={scopedCoverage} questions={scopedQuestions} visibleQuestions={questions} />
       )}
 
       <div className="panel span-8">
@@ -793,11 +800,11 @@ function QcmBank({
             <h2>{questions.length} QCMs in current scope</h2>
           </div>
           <div className="button-row">
-            <button className="secondary-button" onClick={() => downloadText("series3-questions.jsonl", questionsToJsonl(state.questions), "application/x-ndjson")}>
+            <button className="secondary-button" onClick={() => downloadText("series3-current-scope.jsonl", questionsToJsonl(questions), "application/x-ndjson")}>
               <Download size={16} aria-hidden="true" />
               JSONL
             </button>
-            <button className="secondary-button" onClick={() => downloadText("series3-questions.csv", questionsToCsv(state.questions), "text/csv")}>
+            <button className="secondary-button" onClick={() => downloadText("series3-current-scope.csv", questionsToCsv(questions), "text/csv")}>
               <Download size={16} aria-hidden="true" />
               CSV
             </button>
@@ -839,7 +846,7 @@ function QcmBank({
             <h2>Section, topic, and subtopic counts</h2>
           </div>
         </div>
-        <CoverageMatrix coverage={coverage} />
+        <CoverageMatrix coverage={scopedCoverage} />
       </div>
 
       <div className="panel span-4">
@@ -909,15 +916,15 @@ function QcmBank({
 }
 
 function RegulatoryOverview({
-  state,
   coverage,
-  questions
+  questions,
+  visibleQuestions
 }: {
-  state: AppState;
   coverage: ReturnType<typeof buildCoverageReport>;
   questions: Question[];
+  visibleQuestions: Question[];
 }) {
-  const regulatoryQuestions = state.questions.filter((question) => question.sectionId === "us_regulations" && question.active);
+  const regulatoryQuestions = questions.filter((question) => question.sectionId === "us_regulations" && question.active);
   const rewritten = regulatoryQuestions.filter((question) => question.sourceType === "rewritten").length;
   const unanswered = coverage.subtopics.filter(
     (node) => node.sectionId === "us_regulations" && node.total > 0 && node.answered === 0
@@ -942,7 +949,7 @@ function RegulatoryOverview({
         questions; each rewritten item has shuffling-safe answer choices and per-option rationales.
       </p>
       <div className="stats-grid regulatory-stats">
-        <Metric label="Regulatory QCMs" value={regulatoryQuestions.length} detail={`${questions.length} in current scope`} />
+        <Metric label="Regulatory QCMs" value={regulatoryQuestions.length} detail={`${visibleQuestions.length} visible after search/status`} />
         <Metric label="Rewritten" value={rewritten} detail="public-safe originals" />
         <Metric label="Unanswered subtopics" value={unanswered} detail="with available QCMs" />
         <Metric label="Needs review" value={needsReview} detail="OCR/import status" />
@@ -984,7 +991,7 @@ function Practice({
             <h2>Practice by section, topic, subtopic</h2>
           </div>
         </div>
-        <ScopeSelector filters={filters} setFilters={setFilters} includeAllSubtopics />
+        <ScopeSelector filters={filters} setFilters={setFilters} includeAllSections includeAllTopics includeAllSubtopics />
         <div className="filter-stack">
           <SourceBankSelector filters={filters} setFilters={setFilters} />
           <label>
@@ -1744,35 +1751,48 @@ function About() {
 function ScopeSelector({
   filters,
   setFilters,
+  includeAllSections,
+  includeAllTopics,
   includeAllSubtopics
 }: {
   filters: SessionFilters;
   setFilters: (filters: SessionFilters) => void;
+  includeAllSections?: boolean;
+  includeAllTopics?: boolean;
   includeAllSubtopics?: boolean;
 }) {
-  const sectionId = filters.sectionId ?? DEFAULT_SECTION;
-  const topics = syllabus.find((section) => section.id === sectionId)?.topics ?? [];
-  const topicId = filters.topicId && topics.some((topic) => topic.id === filters.topicId) ? filters.topicId : topics[0]?.id;
-  const subtopics = getTopic(topicId ?? "")?.subtopics ?? [];
+  const sectionId = filters.sectionId ?? (includeAllSections ? undefined : DEFAULT_SECTION);
+  const topics = sectionId ? syllabus.find((section) => section.id === sectionId)?.topics ?? [] : [];
+  const topicId =
+    sectionId && filters.topicId && topics.some((topic) => topic.id === filters.topicId)
+      ? filters.topicId
+      : sectionId
+        ? includeAllTopics
+          ? ""
+          : topics[0]?.id ?? ""
+        : "";
+  const subtopics = topicId ? getTopic(topicId)?.subtopics ?? [] : [];
 
   return (
     <div className="filter-stack">
       <label>
         Section
         <select
-          value={sectionId}
+          value={sectionId ?? ""}
           onChange={(event) => {
-            const nextSection = event.target.value as SectionId;
-            const nextTopic = syllabus.find((section) => section.id === nextSection)?.topics[0]?.id;
+            const nextSection = event.target.value ? (event.target.value as SectionId) : undefined;
+            const nextTopic = nextSection && !includeAllTopics ? defaultTopicForSection(nextSection) : "";
             setFilters({
               ...filters,
               sectionId: nextSection,
               topicId: nextTopic,
               subtopicId: "",
+              regulatoryFocus: nextSection === "us_regulations" ? filters.regulatoryFocus ?? "all" : "all",
               sourceBank: sourceBankForSectionChange(filters, nextSection)
             });
           }}
         >
+          {includeAllSections && <option value="">All sections</option>}
           {syllabus.map((section) => (
             <option key={section.id} value={section.id}>
               {section.title}
@@ -1784,8 +1804,10 @@ function ScopeSelector({
         Topic
         <select
           value={topicId}
+          disabled={!sectionId}
           onChange={(event) => setFilters({ ...filters, topicId: event.target.value, subtopicId: "" })}
         >
+          {includeAllTopics && <option value="">All topics</option>}
           {topics.map((topic) => (
             <option key={topic.id} value={topic.id}>
               {topic.title}
@@ -1797,6 +1819,7 @@ function ScopeSelector({
         Subtopic
         <select
           value={filters.subtopicId ?? ""}
+          disabled={!topicId}
           onChange={(event) => setFilters({ ...filters, topicId, subtopicId: event.target.value })}
         >
           {includeAllSubtopics && <option value="">All subtopics</option>}
