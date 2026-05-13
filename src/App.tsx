@@ -179,7 +179,7 @@ function App() {
     questionCount: DEFAULT_SETTINGS.defaultDrillSize,
     prioritizeWeak: false,
     regulatoryFocus: "all",
-    sourceBank: "s3-imported",
+    sourceBank: "all",
     qualityStatus: "verified"
   });
   const [bankFilters, setBankFilters] = useState<SessionFilters>({
@@ -188,12 +188,12 @@ function App() {
     subtopicId: "",
     difficulty: "mixed",
     regulatoryFocus: "all",
-    sourceBank: "s3-imported",
+    sourceBank: "all",
     qualityStatus: "usable"
   });
   const [mockFilters, setMockFilters] = useState<SessionFilters>({
     difficulty: "mixed",
-    sourceBank: "s3-imported",
+    sourceBank: "all",
     qualityStatus: "verified"
   });
   const [bankSearch, setBankSearch] = useState("");
@@ -316,7 +316,7 @@ function App() {
       setMessage("This source filter has fewer than 120 unique questions. The mock exam starts now, but broaden the source filter for a fully unique exam.");
     }
     if (!sections.has("market_knowledge") || !sections.has("us_regulations")) {
-      setMessage("This source filter does not cover both Market Knowledge and U.S. Regulations. Use S3 imported sets for a full Series 3 mock.");
+      setMessage("This source filter does not cover both Market Knowledge and U.S. Regulations. Use All question banks for a full Series 3 mock.");
     }
     startSession("mock", questions, filters);
   }

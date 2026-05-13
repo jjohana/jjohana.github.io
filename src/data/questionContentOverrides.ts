@@ -53,6 +53,18 @@ export const questionContentOverrides: Record<string, QuestionContentOverride> =
     explanation: "The short position was sold at 63-21 and bought back at 64-01, a 12/32 adverse move. Each 1/32 on a $100,000 T-bond futures contract is $31.25, so the loss is 12 x $31.25 = $375 before commissions.",
     updatedAt: reviewedAt
   },
+  "s3-market-docx-204": {
+    stem: "Which type of market would you anticipate seeing when there is a current shortage of a physical commodity?",
+    choices: calculationChoices([
+      { id: "a", text: "Inverted market", isCorrect: true, rationale: "Correct. A shortage in the nearby cash commodity can push spot or nearby prices above deferred futures prices, creating an inverted market, also called backwardation." },
+      { id: "b", text: "Contango market", isCorrect: false, rationale: "Incorrect. Contango normally describes deferred futures prices above nearby prices, often reflecting carrying charges rather than a nearby shortage premium." },
+      { id: "c", text: "Carrying-charge market", isCorrect: false, rationale: "Incorrect. A carrying-charge market is associated with deferred prices reflecting storage, insurance, financing, and other carrying costs." },
+      { id: "d", text: "Short market", isCorrect: false, rationale: "Incorrect. This is not the standard term for a futures price structure caused by a nearby commodity shortage." }
+    ]),
+    explanation: "An inverted market, or backwardation, occurs when the spot or nearby delivery month is priced above more distant delivery months. It can occur when there is a current shortage of the physical commodity and buyers bid nearby supplies to a premium.",
+    sourceCode: "04_EZ_12",
+    updatedAt: reviewedAt
+  },
   "s3-market-docx-208": {
     subtopicId: "commodity-hedges",
     stem: "On August 1, a copper pipe fabricator contracts to sell pipe that it will fabricate in December at a fixed price. It will require 200,000 pounds of copper in late November. To hedge its copper purchase risk, with a copper futures contract size of 25,000 pounds, what should the fabricator do?",

@@ -78,6 +78,11 @@ const importedCalculationConceptPattern =
 const outdatedRegulatoryPattern =
   /\b(?:as of the first quarter of 1998|noticed registered)\b/i;
 
+function explicitQualityOverride(questionId: string): QualityStatus | undefined {
+  const status = questionQualityOverrides[questionId]?.qualityStatus;
+  return status === "verified" || status === "needs_review" || status === "rejected" ? status : undefined;
+}
+
 export function inferIssueTypes(question: Question): IssueType[] {
   const issues = new Set<IssueType>();
   const cleaned = cleanQuestionContent(question);
@@ -121,20 +126,27 @@ export function inferredQualityStatus(question: Question): QualityStatus {
 
 export function applyQuestionQualityDefaults(question: Question): Question {
   const override = questionQualityOverrides[question.id] ?? {};
+  const explicitStatus = explicitQualityOverride(question.id);
   const rawWithOverride = { ...question, ...override };
   const withOverride = cleanQuestionContent(rawWithOverride);
   const inferredIssues = inferIssueTypes(withOverride);
   const rawIssues = inferIssueTypes(rawWithOverride);
+  const uncertifiedImportedQuestion = withOverride.sourceType === "imported" && !explicitStatus;
   const rawBlockingIssues = rawIssues.filter((issue) => issue === "OCR/transcription" || issue === "bad_distractors");
   const blockingIssues = [
     ...inferredIssues.filter((issue) => issue === "OCR/transcription" || issue === "bad_distractors"),
-    ...rawBlockingIssues
+    ...rawBlockingIssues,
+    ...(uncertifiedImportedQuestion ? (["OCR/transcription"] as IssueType[]) : [])
   ];
   const issueTypes = [...new Set([...(withOverride.issueTypes ?? inferredIssues), ...blockingIssues, ...rawBlockingIssues])];
-  const requestedQualityStatus = withOverride.qualityStatus ?? inferredQualityStatus({ ...withOverride, issueTypes });
+  const requestedQualityStatus =
+    explicitStatus ?? (uncertifiedImportedQuestion ? "needs_review" : withOverride.qualityStatus ?? inferredQualityStatus({ ...withOverride, issueTypes }));
   const qualityStatus: QualityStatus =
     requestedQualityStatus === "verified" && blockingIssues.length > 0 ? "needs_review" : requestedQualityStatus;
   const qualityNotes =
+    uncertifiedImportedQuestion
+      ? "Imported OCR/transcribed question is not certified. It is excluded from verified-only practice/mock exams until explicitly reviewed and promoted."
+      :
     (requestedQualityStatus === "verified" && blockingIssues.length > 0
       ? "Visible OCR or shuffle-safety artifacts were detected after normalization; excluded from verified-only practice until reviewed."
       : withOverride.qualityNotes) ??

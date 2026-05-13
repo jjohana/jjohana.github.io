@@ -105,6 +105,21 @@ const calculationVerifiedOverrides = Object.fromEntries(
 
 export const questionQualityOverrides: Record<string, Partial<Question>> = {
   ...calculationVerifiedOverrides,
+  "s3-market-docx-204": {
+    qualityStatus: "verified",
+    issueTypes: [],
+    qualityNotes: "Verified by targeted content audit: OCR-corrupted inverted-market question was rewritten and the answer/explanation were checked."
+  },
+  "s3-market-docx-208": {
+    qualityStatus: "verified",
+    issueTypes: [],
+    qualityNotes: "Verified by targeted content audit: copper long-hedge direction and contract count were checked."
+  },
+  "s3-market-docx-279": {
+    qualityStatus: "verified",
+    issueTypes: [],
+    qualityNotes: "Verified by targeted content audit: spread margin concept and distractors were rewritten."
+  },
   "s3-market-docx-131": {
     qualityStatus: "rejected",
     issueTypes: ["wrong_answer", "ambiguous"],

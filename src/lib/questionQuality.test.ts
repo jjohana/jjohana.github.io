@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { questionQualityOverrides } from "../data/questionQualityOverrides";
 import { sampleQuestions } from "../data/questions";
 import type { Question } from "../types";
 import { UNSAFE_DISPLAY_PATTERNS } from "./contentSanitizer";
@@ -84,6 +85,15 @@ describe("published question quality", () => {
       .filter((question) => inferredQualityStatus(question) === "verified")
       .filter((question) => question.issueTypes?.some((issue) => issue === "OCR/transcription" || issue === "bad_distractors"))
       .map((question) => `${question.id}: ${question.issueTypes?.join(", ")}`);
+
+    expect(findings).toEqual([]);
+  });
+
+  it("certifies imported questions only through explicit audit overrides", () => {
+    const findings = importedQuestions
+      .filter((question) => inferredQualityStatus(question) === "verified")
+      .filter((question) => questionQualityOverrides[question.id]?.qualityStatus !== "verified")
+      .map((question) => question.id);
 
     expect(findings).toEqual([]);
   });

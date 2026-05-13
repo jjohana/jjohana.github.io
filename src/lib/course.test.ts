@@ -27,7 +27,7 @@ describe("course content", () => {
 
   it("links only existing verified questions", () => {
     const linkedIds = subchapters.flatMap((subchapter) => subchapter.linkedQuestions.map((reference) => reference.questionId));
-    expect(linkedIds.length).toBeGreaterThan(800);
+    expect(linkedIds.length).toBeGreaterThan(400);
 
     for (const id of linkedIds) {
       const question = questionById.get(id);
