@@ -50,6 +50,18 @@ test("opens the integrated course and launches filtered practice", async ({ page
   await expect(page.getByLabel("Quality status")).toHaveValue("verified");
 });
 
+test("opens the glossary and searches acronyms", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "Glossary" }).click();
+  await expect(page.getByRole("heading", { name: "Acronyms & Definitions" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Acronyms and key definitions" })).toBeVisible();
+  await page.getByLabel("Search glossary").fill("CFTC");
+  await expect(page.getByRole("heading", { name: "CFTC" })).toBeVisible();
+  await expect(page.getByText("Commodity Futures Trading Commission").first()).toBeVisible();
+  await page.getByLabel("Category").selectOption("market");
+  await expect(page.getByRole("heading", { name: "CFTC" })).not.toBeVisible();
+});
+
 test("starts a mock exam and opens results", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("button", { name: "Mock Exam" }).click();

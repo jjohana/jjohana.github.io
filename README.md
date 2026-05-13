@@ -23,6 +23,7 @@ Use only:
 - Dashboard with progress, section accuracy, weak subtopics, and recent sessions
 - Integrated English Course module organized by the same Section -> Topic -> Subtopic taxonomy as the QCM bank
 - Course subchapters with definitions, formulas, worked examples, common QCM traps, recaps, coverage gaps, and one-click filtered practice
+- Glossary section with Series 3 acronyms and key definitions, searchable by term and category
 - Minimum coverage guardrail: every taxonomy subtopic has at least 3 active verified QCMs
 - QCM Bank browser by section, topic, and subtopic
 - Source-bank filters for all questions, both S3 imported sets, S3-Market DOCX only, S3-Regulatory PDF only, or authored/rewritten/sample content

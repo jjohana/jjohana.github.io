@@ -248,6 +248,25 @@ export interface CourseProgress {
   accuracy: number | null;
 }
 
+export type GlossaryCategory =
+  | "acronym"
+  | "market"
+  | "regulatory"
+  | "order"
+  | "formula"
+  | "exam";
+
+export interface GlossaryEntry {
+  id: string;
+  term: string;
+  expanded?: string;
+  category: GlossaryCategory;
+  sectionId?: SectionId;
+  represents: string;
+  conciseExplanation: string;
+  examTip?: string;
+}
+
 export interface ScoreBreakdown {
   total: number;
   correct: number;

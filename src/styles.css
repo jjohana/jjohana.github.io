@@ -985,6 +985,125 @@ button:focus-visible {
   background: #f7faff;
 }
 
+.glossary-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.55fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.glossary-hero h2 {
+  margin: 0 0 10px;
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+}
+
+.glossary-stats {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.glossary-stats .metric {
+  min-height: 86px;
+  box-shadow: none;
+  background: #f9fafb;
+}
+
+.glossary-controls {
+  display: grid;
+  align-content: start;
+  gap: 14px;
+}
+
+.glossary-controls label {
+  display: grid;
+  gap: 6px;
+  color: #344054;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.glossary-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.glossary-chip {
+  min-height: 34px;
+  padding: 7px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: #344054;
+  background: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.glossary-chip:hover,
+.glossary-chip.active {
+  border-color: #bad0f7;
+  color: var(--accent-strong);
+  background: var(--blue-soft);
+}
+
+.glossary-list {
+  display: grid;
+  gap: 12px;
+  max-height: 760px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.glossary-entry {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.glossary-entry-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.glossary-entry h3 {
+  margin: 0 0 3px;
+  font-size: 1.05rem;
+}
+
+.glossary-entry-header span {
+  color: var(--muted);
+}
+
+.glossary-definition {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+}
+
+.glossary-definition div {
+  display: grid;
+  gap: 3px;
+}
+
+.glossary-definition dt {
+  color: #667085;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.glossary-definition dd {
+  margin: 0;
+  color: #344054;
+  line-height: 1.48;
+}
+
 @container (max-width: 620px) {
   .distribution-header {
     display: none;
@@ -1381,7 +1500,8 @@ summary {
   }
 
   .course-layout,
-  .course-hero {
+  .course-hero,
+  .glossary-hero {
     grid-template-columns: 1fr;
   }
 
@@ -1435,11 +1555,13 @@ summary {
   .distribution-header,
   .distribution-row,
   .source-link-grid,
-  .course-actions {
+  .course-actions,
+  .glossary-stats {
     grid-template-columns: 1fr;
   }
 
-  .course-actions {
+  .course-actions,
+  .glossary-entry-header {
     display: grid;
   }
 

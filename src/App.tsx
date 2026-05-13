@@ -21,6 +21,7 @@ import {
   XCircle
 } from "lucide-react";
 import { syllabus, topicLabel, subtopicLabel, getSection, getTopic } from "./data/syllabus";
+import { glossaryCategoryLabels, glossaryEntries, searchGlossaryEntries } from "./data/glossary";
 import { buildCoverageReport, getMistakeQuestionIds, getWeakSubtopics } from "./lib/analytics";
 import { buildCourse, courseProgress, firstCourseSubchapter, searchCourse } from "./lib/course";
 import {
@@ -52,6 +53,7 @@ import type {
   CourseSubchapter,
   DifficultyFilter,
   FeedbackMode,
+  GlossaryCategory,
   ImportValidationReport,
   IssueType,
   QualityFilter,
@@ -68,6 +70,7 @@ import type {
 type View =
   | "dashboard"
   | "course"
+  | "glossary"
   | "bank"
   | "practice"
   | "mock"
@@ -123,6 +126,7 @@ const REGULATORY_FOCUS_OPTIONS = [
 const NAV_ITEMS: Array<{ view: View; label: string; icon: typeof BarChart3 }> = [
   { view: "dashboard", label: "Dashboard", icon: BarChart3 },
   { view: "course", label: "Course", icon: BookOpen },
+  { view: "glossary", label: "Glossary", icon: ClipboardList },
   { view: "bank", label: "QCM Bank", icon: Database },
   { view: "practice", label: "Practice", icon: Target },
   { view: "mock", label: "Mock Exam", icon: Timer },
@@ -199,6 +203,8 @@ function App() {
   const [importReport, setImportReport] = useState<ImportValidationReport | null>(null);
   const [courseSearch, setCourseSearch] = useState("");
   const [selectedCourseSubchapterId, setSelectedCourseSubchapterId] = useState<string | undefined>();
+  const [glossarySearch, setGlossarySearch] = useState("");
+  const [glossaryCategory, setGlossaryCategory] = useState<GlossaryCategory | "all">("all");
 
   useEffect(() => saveState(state), [state]);
 
@@ -517,6 +523,14 @@ function App() {
             onWeakPractice={(subchapter) => openCoursePractice(subchapter, true)}
           />
         )}
+        {view === "glossary" && (
+          <GlossaryPage
+            search={glossarySearch}
+            setSearch={setGlossarySearch}
+            category={glossaryCategory}
+            setCategory={setGlossaryCategory}
+          />
+        )}
         {view === "bank" && (
           <QcmBank
             state={state}
@@ -597,6 +611,7 @@ function pageTitle(view: View) {
   const titles: Record<View, string> = {
     dashboard: "Study Dashboard",
     course: "Series 3 Course",
+    glossary: "Acronyms & Definitions",
     bank: "QCM Bank",
     practice: "Practice by Topic",
     mock: "Mock Exam",
@@ -946,6 +961,124 @@ function CoursePage({
           </div>
         </div>
       </article>
+    </section>
+  );
+}
+
+function GlossaryPage({
+  search,
+  setSearch,
+  category,
+  setCategory
+}: {
+  search: string;
+  setSearch: (search: string) => void;
+  category: GlossaryCategory | "all";
+  setCategory: (category: GlossaryCategory | "all") => void;
+}) {
+  const entries = useMemo(() => searchGlossaryEntries(glossaryEntries, search, category), [category, search]);
+  const acronymCount = glossaryEntries.filter((entry) => entry.category === "acronym").length;
+  const marketCount = glossaryEntries.filter((entry) => entry.sectionId === "market_knowledge").length;
+  const regulatoryCount = glossaryEntries.filter((entry) => entry.sectionId === "us_regulations").length;
+  const categoryOptions = Object.entries(glossaryCategoryLabels) as Array<[GlossaryCategory | "all", string]>;
+
+  return (
+    <section className="content-grid">
+      <div className="panel full glossary-hero">
+        <div>
+          <p className="eyebrow">Reference</p>
+          <h2>Acronyms and key definitions</h2>
+          <p className="panel-explainer">
+            A concise glossary for the Series 3 app: each entry states what the term represents, how to interpret it,
+            and the exam trap to remember while studying.
+          </p>
+        </div>
+        <div className="stats-grid glossary-stats">
+          <Metric label="Glossary entries" value={glossaryEntries.length} detail="acronyms + definitions" />
+          <Metric label="Acronyms" value={acronymCount} detail="quick decoding" />
+          <Metric label="Market terms" value={marketCount} detail="Market Knowledge" />
+          <Metric label="Regulatory terms" value={regulatoryCount} detail="U.S. Regulations" />
+        </div>
+      </div>
+
+      <div className="panel span-4 glossary-controls">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">Find a term</p>
+            <h2>Search and filter</h2>
+          </div>
+        </div>
+        <label className="course-search">
+          Search glossary
+          <span className="input-with-icon">
+            <Search size={16} aria-hidden="true" />
+            <input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="CFTC, basis, margin..." />
+          </span>
+        </label>
+        <label>
+          Category
+          <select value={category} onChange={(event) => setCategory(event.target.value as GlossaryCategory | "all")}>
+            {categoryOptions.map(([value, label]) => (
+              <option value={value} key={value}>
+                {label}
+              </option>
+            ))}
+          </select>
+        </label>
+        <div className="glossary-chip-grid" aria-label="Glossary shortcuts">
+          {categoryOptions.map(([value, label]) => (
+            <button
+              key={value}
+              className={category === value ? "glossary-chip active" : "glossary-chip"}
+              onClick={() => setCategory(value)}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="panel span-8">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">Current scope</p>
+            <h2>{entries.length} matching entries</h2>
+          </div>
+        </div>
+        <div className="glossary-list">
+          {entries.map((entry) => (
+            <article className="glossary-entry" key={entry.id}>
+              <div className="glossary-entry-header">
+                <div>
+                  <h3>{entry.term}</h3>
+                  {entry.expanded && <span>{entry.expanded}</span>}
+                </div>
+                <div className="tag-row">
+                  <span className="pill blue">{glossaryCategoryLabels[entry.category]}</span>
+                  {entry.sectionId && <span className="pill">{getSection(entry.sectionId).shortTitle}</span>}
+                </div>
+              </div>
+              <dl className="glossary-definition">
+                <div>
+                  <dt>Represents</dt>
+                  <dd>{entry.represents}</dd>
+                </div>
+                <div>
+                  <dt>Concise explanation</dt>
+                  <dd>{entry.conciseExplanation}</dd>
+                </div>
+                {entry.examTip && (
+                  <div>
+                    <dt>Exam note</dt>
+                    <dd>{entry.examTip}</dd>
+                  </div>
+                )}
+              </dl>
+            </article>
+          ))}
+          {entries.length === 0 && <EmptyState title="No glossary match" body="Try a different term or switch back to all categories." />}
+        </div>
+      </div>
     </section>
   );
 }
