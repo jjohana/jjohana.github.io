@@ -10,6 +10,9 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -36,13 +39,35 @@ jobs:
       - name: Build static site
         run: npm run build
 
+      - name: Prepare Pages artifact
+        shell: bash
+        run: |
+          mkdir -p pages/series3
+          cp -R dist/. pages/series3/
+          cat > pages/index.html <<'HTML'
+          <!doctype html>
+          <html lang="en">
+            <head>
+              <meta charset="UTF-8" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <meta http-equiv="refresh" content="0; url=/series3/" />
+              <title>Series 3 QCM Practice</title>
+              <script>window.location.replace("/series3/");</script>
+            </head>
+            <body>
+              <p><a href="/series3/">Open Series 3 QCM Practice</a></p>
+            </body>
+          </html>
+          HTML
+          touch pages/.nojekyll
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: pages
 
   deploy:
     environment:

@@ -4,7 +4,7 @@ Interactive static web app for Series 3 / NFA exam practice. It is organized aro
 
 `Section -> Topic -> Subtopic`
 
-The app is designed for GitHub Pages at `https://jjohana.github.io/` and does not require a server runtime. Browser data is stored locally and can be imported or exported.
+The app is designed for GitHub Pages at `https://jjohana.github.io/series3/` and does not require a server runtime. Browser data is stored locally and can be imported or exported.
 
 ## Compliance
 
@@ -69,13 +69,13 @@ npx playwright install
 
 ## GitHub Pages Deployment
 
-This app uses Vite with `base: "/"`, which matches a user or organization GitHub Pages site such as:
+This app uses Vite with `base: "/series3/"`, which matches the project path:
 
 ```text
-https://jjohana.github.io/
+https://jjohana.github.io/series3/
 ```
 
-Build the app and publish the `dist/` folder to the GitHub Pages branch or workflow configured for the repository.
+Build the app and publish the `dist/` folder under a `series3/` folder in the GitHub Pages artifact. The included workflow does this automatically and also writes a root redirect from `/` to `/series3/`.
 
 Example GitHub Actions outline:
 
