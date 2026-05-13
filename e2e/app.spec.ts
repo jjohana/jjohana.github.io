@@ -35,6 +35,21 @@ test("starts a topic drill and shows immediate feedback", async ({ page }) => {
   await expect(page.locator(".feedback-status")).toContainText(/Correct|Incorrect/);
 });
 
+test("opens the integrated course and launches filtered practice", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "Course" }).click();
+  await expect(page.getByRole("heading", { name: "Series 3 Course" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Chapters" })).toBeVisible();
+  await page.getByLabel("Search course").fill("basis");
+  await expect(page.getByRole("button", { name: /Basis Calculations|Basis Calculation/i }).first()).toBeVisible();
+  await page.getByRole("button", { name: /Basis Calculations|Basis Calculation/i }).first().click();
+  await expect(page.getByRole("heading", { name: /Basis/i }).first()).toBeVisible();
+  await page.getByRole("button", { name: "Practice this topic" }).click();
+  await expect(page.getByRole("heading", { name: "Practice by Topic" })).toBeVisible();
+  await expect(page.getByLabel("Section")).toHaveValue("market_knowledge");
+  await expect(page.getByLabel("Quality status")).toHaveValue("verified");
+});
+
 test("starts a mock exam and opens results", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("button", { name: "Mock Exam" }).click();

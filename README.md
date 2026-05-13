@@ -21,6 +21,8 @@ Use only:
 ## Features
 
 - Dashboard with progress, section accuracy, weak subtopics, and recent sessions
+- Integrated English Course module organized by the same Section -> Topic -> Subtopic taxonomy as the QCM bank
+- Course subchapters with definitions, formulas, worked examples, common QCM traps, recaps, coverage gaps, and one-click filtered practice
 - QCM Bank browser by section, topic, and subtopic
 - Source-bank filters for all questions, both S3 imported sets, S3-Market DOCX only, S3-Regulatory PDF only, or authored/rewritten/sample content
 - Coverage matrix with sample/imported counts and coverage gaps
@@ -43,6 +45,16 @@ Use only:
 - User-authorized OCR import of the `S3-Regulatory.pdf` regulatory bank, deduplicated to 242 unique QCMs from 249 detected source question numbers
 - User-authorized OCR import of the `S3-Market.docx` market bank, deduplicated to 444 unique identifiable QCMs from the image sequence
 - Dedicated regulatory focus filters for registration, account rules, FCM/IB, CPO/CTA, supervision, communications, arbitration, enforcement, AML, and high-yield review
+
+## Course Module
+
+The Course page is generated from the app's taxonomy and active verified QCM metadata. It excludes rejected/quarantined questions and shows how many verified QCMs support each subchapter.
+
+Course reports:
+
+- [docs/course-content-report.md](docs/course-content-report.md)
+- [docs/course-coverage-report.md](docs/course-coverage-report.md)
+- [docs/course-linked-qcms-report.md](docs/course-linked-qcms-report.md)
 
 ## Setup
 

@@ -185,6 +185,69 @@ export interface QuestionBankCoverageReport {
   gaps: CoverageNode[];
 }
 
+export interface LinkedQuestionReference {
+  questionId: string;
+  note?: string;
+}
+
+export interface CourseConcept {
+  term: string;
+  definition: string;
+}
+
+export interface CourseFormula {
+  label: string;
+  expression: string;
+  explanation: string;
+}
+
+export interface CourseExample {
+  title: string;
+  scenario: string;
+  steps: string[];
+  answer: string;
+  linkedQuestionIds?: string[];
+}
+
+export interface CourseTrap {
+  title: string;
+  explanation: string;
+  linkedQuestionIds?: string[];
+}
+
+export interface CourseSubchapter {
+  id: string;
+  sectionId: SectionId;
+  topicId: string;
+  subtopicId: string;
+  title: string;
+  overview: string;
+  keyPoints: string[];
+  definitions: CourseConcept[];
+  formulas: CourseFormula[];
+  examples: CourseExample[];
+  traps: CourseTrap[];
+  examTakeaways: string[];
+  linkedQuestions: LinkedQuestionReference[];
+  coverageNote?: string;
+}
+
+export interface CourseChapter {
+  id: string;
+  sectionId: SectionId;
+  topicId: string;
+  title: string;
+  overview: string;
+  subchapters: CourseSubchapter[];
+}
+
+export interface CourseProgress {
+  linkedCount: number;
+  answeredCount: number;
+  correctCount: number;
+  accuracy: number | null;
+}
+
 export interface ScoreBreakdown {
   total: number;
   correct: number;

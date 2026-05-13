@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import { syllabus, topicLabel, subtopicLabel, getSection, getTopic } from "./data/syllabus";
 import { buildCoverageReport, getMistakeQuestionIds, getWeakSubtopics } from "./lib/analytics";
+import { buildCourse, courseProgress, firstCourseSubchapter, searchCourse } from "./lib/course";
 import {
   parseCsvQuestions,
   parseJsonlQuestions,
@@ -47,6 +48,8 @@ import { DEFAULT_SETTINGS, defaultState, downloadText, loadState, saveState } fr
 import { validateQuestionBank } from "./lib/validation";
 import type {
   AppState,
+  CourseChapter,
+  CourseSubchapter,
   DifficultyFilter,
   FeedbackMode,
   ImportValidationReport,
@@ -64,6 +67,7 @@ import type {
 
 type View =
   | "dashboard"
+  | "course"
   | "bank"
   | "practice"
   | "mock"
@@ -118,6 +122,7 @@ const REGULATORY_FOCUS_OPTIONS = [
 
 const NAV_ITEMS: Array<{ view: View; label: string; icon: typeof BarChart3 }> = [
   { view: "dashboard", label: "Dashboard", icon: BarChart3 },
+  { view: "course", label: "Course", icon: BookOpen },
   { view: "bank", label: "QCM Bank", icon: Database },
   { view: "practice", label: "Practice", icon: Target },
   { view: "mock", label: "Mock Exam", icon: Timer },
@@ -192,6 +197,8 @@ function App() {
   const [importText, setImportText] = useState("");
   const [importFormat, setImportFormat] = useState<"jsonl" | "csv">("jsonl");
   const [importReport, setImportReport] = useState<ImportValidationReport | null>(null);
+  const [courseSearch, setCourseSearch] = useState("");
+  const [selectedCourseSubchapterId, setSelectedCourseSubchapterId] = useState<string | undefined>();
 
   useEffect(() => saveState(state), [state]);
 
@@ -222,6 +229,7 @@ function App() {
   const coverage = useMemo(() => buildCoverageReport(state.questions, state.sessions), [state.questions, state.sessions]);
   const weakSubtopics = useMemo(() => getWeakSubtopics(state), [state]);
   const mistakeIds = useMemo(() => getMistakeQuestionIds(state.sessions), [state.sessions]);
+  const course = useMemo(() => buildCourse(state.questions), [state.questions]);
   const activeSession = state.sessions.find((session) => session.id === state.activeSessionId);
   const latestCompletedSession = [...state.sessions].reverse().find((session) => session.status === "completed");
   const resultSession = view === "results" ? latestCompletedSession ?? activeSession : activeSession;
@@ -410,6 +418,22 @@ function App() {
     updateState((current) => ({ ...current, settings: { ...current.settings, ...next } }));
   }
 
+  function openCoursePractice(subchapter: CourseSubchapter, prioritizeWeak = false) {
+    setPracticeFilters({
+      sectionId: subchapter.sectionId,
+      topicId: subchapter.topicId,
+      subtopicId: subchapter.subtopicId,
+      difficulty: "mixed",
+      questionCount: state.settings.defaultDrillSize,
+      prioritizeWeak,
+      regulatoryFocus: "all",
+      sourceBank: "all",
+      qualityStatus: "verified"
+    });
+    setView("practice");
+    setMessage("");
+  }
+
   return (
     <div className="app-shell">
       <aside className="sidebar">
@@ -479,6 +503,18 @@ function App() {
             onStartPractice={() => setView("practice")}
             onStartMock={startMock}
             onOpenBank={() => setView("bank")}
+          />
+        )}
+        {view === "course" && (
+          <CoursePage
+            chapters={course}
+            sessions={state.sessions}
+            search={courseSearch}
+            setSearch={setCourseSearch}
+            selectedSubchapterId={selectedCourseSubchapterId}
+            setSelectedSubchapterId={setSelectedCourseSubchapterId}
+            onPractice={(subchapter) => openCoursePractice(subchapter)}
+            onWeakPractice={(subchapter) => openCoursePractice(subchapter, true)}
           />
         )}
         {view === "bank" && (
@@ -560,6 +596,7 @@ function App() {
 function pageTitle(view: View) {
   const titles: Record<View, string> = {
     dashboard: "Study Dashboard",
+    course: "Series 3 Course",
     bank: "QCM Bank",
     practice: "Practice by Topic",
     mock: "Mock Exam",
@@ -685,6 +722,230 @@ function Dashboard({
           </button>
         </div>
       </div>
+    </section>
+  );
+}
+
+function CoursePage({
+  chapters,
+  sessions,
+  search,
+  setSearch,
+  selectedSubchapterId,
+  setSelectedSubchapterId,
+  onPractice,
+  onWeakPractice
+}: {
+  chapters: CourseChapter[];
+  sessions: Session[];
+  search: string;
+  setSearch: (search: string) => void;
+  selectedSubchapterId?: string;
+  setSelectedSubchapterId: (id: string) => void;
+  onPractice: (subchapter: CourseSubchapter) => void;
+  onWeakPractice: (subchapter: CourseSubchapter) => void;
+}) {
+  const matchingSubchapters = useMemo(() => searchCourse(chapters, search), [chapters, search]);
+  const allSubchapters = useMemo(() => searchCourse(chapters, ""), [chapters]);
+  const selected =
+    allSubchapters.find((subchapter) => subchapter.id === selectedSubchapterId) ??
+    matchingSubchapters[0] ??
+    firstCourseSubchapter(chapters);
+  const selectedProgress = selected ? courseProgress(selected, sessions) : undefined;
+  const totalLinked = allSubchapters.reduce((sum, subchapter) => sum + subchapter.linkedQuestions.length, 0);
+  const gapCount = allSubchapters.filter((subchapter) => subchapter.linkedQuestions.length === 0).length;
+  const displayedByChapter = chapters
+    .map((chapter) => ({
+      ...chapter,
+      subchapters: chapter.subchapters.filter((subchapter) => matchingSubchapters.some((match) => match.id === subchapter.id))
+    }))
+    .filter((chapter) => chapter.subchapters.length > 0);
+
+  if (!selected || !selectedProgress) {
+    return <EmptyState title="No course content" body="The course could not be generated from the current taxonomy." />;
+  }
+
+  return (
+    <section className="course-layout">
+      <aside className="course-sidebar panel">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">Course library</p>
+            <h2>Chapters</h2>
+          </div>
+        </div>
+        <label className="course-search">
+          Search course
+          <span className="input-with-icon">
+            <Search size={16} aria-hidden="true" />
+            <input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="basis, margin, CTA..." />
+          </span>
+        </label>
+        <div className="course-summary">
+          <Metric label="Subchapters" value={allSubchapters.length} detail="section/topic/subtopic" />
+          <Metric label="Verified QCM links" value={totalLinked} detail="rejected excluded" />
+          <Metric label="Coverage gaps" value={gapCount} detail="need more QCMs" />
+        </div>
+        {search && <p className="muted">{matchingSubchapters.length} matching subchapters</p>}
+        <nav className="course-tree" aria-label="Course chapter navigation">
+          {displayedByChapter.map((chapter) => (
+            <details key={chapter.id} open={Boolean(search) || chapter.subchapters.some((subchapter) => subchapter.id === selected.id)}>
+              <summary>
+                <span>{getSection(chapter.sectionId).shortTitle}</span>
+                {chapter.title}
+              </summary>
+              <div className="course-subchapter-list">
+                {chapter.subchapters.map((subchapter) => {
+                  const progress = courseProgress(subchapter, sessions);
+                  return (
+                    <button
+                      key={subchapter.id}
+                      className={selected.id === subchapter.id ? "course-subchapter-button active" : "course-subchapter-button"}
+                      onClick={() => setSelectedSubchapterId(subchapter.id)}
+                    >
+                      <span>{subchapter.title}</span>
+                      <small>
+                        {progress.linkedCount} QCMs
+                        {progress.accuracy === null ? "" : `, ${progress.accuracy}%`}
+                      </small>
+                    </button>
+                  );
+                })}
+              </div>
+            </details>
+          ))}
+        </nav>
+      </aside>
+
+      <article className="course-reader panel">
+        <div className="course-hero">
+          <div>
+            <p className="eyebrow">
+              {getSection(selected.sectionId).title} / {topicLabel(selected.topicId)}
+            </p>
+            <h2>{selected.title}</h2>
+            <p>{selected.overview}</p>
+          </div>
+          <div className="course-progress-card">
+            <strong>{selectedProgress.linkedCount}</strong>
+            <span>verified supporting QCMs</span>
+            <ProgressBar
+              value={selectedProgress.linkedCount === 0 ? 0 : (selectedProgress.answeredCount / selectedProgress.linkedCount) * 100}
+              muted={selectedProgress.answeredCount === 0}
+            />
+            <small>
+              {selectedProgress.answeredCount}/{selectedProgress.linkedCount} practiced
+              {selectedProgress.accuracy === null ? "" : `, ${selectedProgress.accuracy}% latest accuracy`}
+            </small>
+          </div>
+        </div>
+
+        <div className="course-actions">
+          <button className="primary-button" onClick={() => onPractice(selected)} disabled={selectedProgress.linkedCount === 0}>
+            <Target size={16} aria-hidden="true" />
+            Practice this topic
+          </button>
+          <button className="secondary-button" onClick={() => onWeakPractice(selected)} disabled={selectedProgress.answeredCount === 0}>
+            <RotateCcw size={16} aria-hidden="true" />
+            Review weak questions for this topic
+          </button>
+        </div>
+
+        {selected.coverageNote && (
+          <div className="course-callout amber">
+            <AlertTriangle size={18} aria-hidden="true" />
+            <span>{selected.coverageNote}</span>
+          </div>
+        )}
+
+        <div className="course-section">
+          <h3>Key Concepts</h3>
+          <ul className="course-list">
+            {selected.keyPoints.map((point) => (
+              <li key={point}>{point}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="course-section">
+          <h3>Definitions to Memorize</h3>
+          <div className="definition-grid">
+            {selected.definitions.map((definition) => (
+              <div className="definition-card" key={definition.term}>
+                <strong>{definition.term}</strong>
+                <span>{definition.definition}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {selected.formulas.length > 0 && (
+          <div className="course-section">
+            <h3>Formulas</h3>
+            <div className="course-card-grid">
+              {selected.formulas.map((formula) => (
+                <div className="formula-card" key={`${formula.label}-${formula.expression}`}>
+                  <strong>{formula.label}</strong>
+                  <code>{formula.expression}</code>
+                  <span>{formula.explanation}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div className="course-section">
+          <h3>Worked Examples</h3>
+          <div className="course-card-grid">
+            {selected.examples.map((example) => (
+              <div className="example-card" key={example.title}>
+                <strong>{example.title}</strong>
+                <p>{example.scenario}</p>
+                <ol>
+                  {example.steps.map((step) => (
+                    <li key={step}>{step}</li>
+                  ))}
+                </ol>
+                <span className="example-answer">{example.answer}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="course-section">
+          <h3>Common QCM Traps</h3>
+          <div className="course-card-grid">
+            {selected.traps.map((trap) => (
+              <div className="trap-card" key={trap.title}>
+                <strong>{trap.title}</strong>
+                <span>{trap.explanation}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="course-section recap">
+          <h3>What to Remember for the Exam</h3>
+          <ul className="course-list">
+            {selected.examTakeaways.map((takeaway) => (
+              <li key={takeaway}>{takeaway}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="course-section">
+          <h3>Linked Verified QCMs</h3>
+          <div className="tag-row">
+            {selected.linkedQuestions.slice(0, 12).map((reference) => (
+              <span className="pill blue" key={reference.questionId}>
+                {reference.questionId}
+              </span>
+            ))}
+            {selected.linkedQuestions.length > 12 && <span className="pill">+{selected.linkedQuestions.length - 12} more</span>}
+            {selected.linkedQuestions.length === 0 && <span className="muted">No verified QCM linked yet.</span>}
+          </div>
+        </div>
+      </article>
     </section>
   );
 }
