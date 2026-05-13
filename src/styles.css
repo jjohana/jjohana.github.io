@@ -651,6 +651,7 @@ button:focus-visible {
 .distribution-table {
   display: grid;
   gap: 12px;
+  container-type: inline-size;
 }
 
 .distribution-summary {
@@ -668,29 +669,35 @@ button:focus-visible {
 .distribution-header,
 .distribution-row {
   display: grid;
-  grid-template-columns: minmax(220px, 2.4fr) 90px 72px 88px 74px 86px 100px;
-  gap: 12px;
+  grid-template-columns:
+    minmax(160px, 2fr)
+    minmax(58px, 0.55fr)
+    minmax(48px, 0.42fr)
+    minmax(64px, 0.52fr)
+    minmax(54px, 0.46fr)
+    minmax(64px, 0.52fr)
+    minmax(78px, 0.7fr);
+  gap: 8px;
   align-items: center;
 }
 
 .distribution-header {
-  padding: 0 14px 6px;
+  padding: 0 10px 6px;
   color: #667085;
-  font-size: 0.75rem;
+  font-size: 0.68rem;
   font-weight: 800;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
 .distribution-body {
   display: grid;
   gap: 8px;
-  max-height: 430px;
-  overflow: auto;
-  padding-right: 4px;
+  overflow: visible;
 }
 
 .distribution-row {
-  padding: 12px 14px;
+  padding: 12px 10px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
@@ -709,11 +716,66 @@ button:focus-visible {
 .distribution-row span {
   color: #475467;
   min-width: 0;
+  font-size: 0.9rem;
   overflow-wrap: anywhere;
 }
 
 .distribution-note {
   margin: 2px 0 0;
+}
+
+@container (max-width: 620px) {
+  .distribution-header {
+    display: none;
+  }
+
+  .distribution-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 12px;
+    padding: 14px;
+  }
+
+  .distribution-row strong {
+    grid-column: 1 / -1;
+  }
+
+  .distribution-row span {
+    display: grid;
+    gap: 2px;
+    font-size: 0.95rem;
+  }
+
+  .distribution-row span::before {
+    color: #667085;
+    font-size: 0.68rem;
+    font-weight: 800;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+
+  .distribution-row span:nth-child(2)::before {
+    content: "Section";
+  }
+
+  .distribution-row span:nth-child(3)::before {
+    content: "Target";
+  }
+
+  .distribution-row span:nth-child(4)::before {
+    content: "Available";
+  }
+
+  .distribution-row span:nth-child(5)::before {
+    content: "Sample";
+  }
+
+  .distribution-row span:nth-child(6)::before {
+    content: "Imported";
+  }
+
+  .distribution-row span:nth-child(7)::before {
+    content: "Accuracy";
+  }
 }
 
 .mini-bars {
