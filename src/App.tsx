@@ -49,10 +49,45 @@ import type {
   ValidationIssue
 } from "./types";
 
-type View = "dashboard" | "bank" | "practice" | "mock" | "mistakes" | "session" | "results" | "settings" | "about";
+type View =
+  | "dashboard"
+  | "bank"
+  | "practice"
+  | "mock"
+  | "mistakes"
+  | "session"
+  | "results"
+  | "settings"
+  | "examRules"
+  | "about";
 
 const DISCLAIMER =
   "This is an independent Series 3 study tool. It uses original practice questions and syllabus-based topic mapping. It is not affiliated with, endorsed by, or provided by FINRA, NFA, CFTC, or Prometric. It does not contain real exam questions.";
+
+const EXAM_SOURCE_CHECKED = "May 13, 2026";
+
+const OFFICIAL_EXAM_LINKS = [
+  {
+    label: "FINRA Series 3 exam page",
+    url: "https://www.finra.org/registration-exams-ce/qualification-exams/series3"
+  },
+  {
+    label: "FINRA test center appointment rules",
+    url: "https://www.finra.org/registration-exams-ce/qualification-exam/testcenter"
+  },
+  {
+    label: "FINRA on exam day",
+    url: "https://www.finra.org/registration-exams-ce/qualification-exams/exam-day"
+  },
+  {
+    label: "NFA futures exam study outline and logistics",
+    url: "https://www.nfa.futures.org/registration-membership/study-outlines/index.html"
+  },
+  {
+    label: "NFA futures and forex proficiency exam FAQ",
+    url: "https://www.nfa.futures.org/faqs/registrants-membership-app/futures-forex-proficiency-examinations.html"
+  }
+];
 
 const REGULATORY_FOCUS_OPTIONS = [
   { value: "all", label: "All regulatory focus areas" },
@@ -75,6 +110,7 @@ const NAV_ITEMS: Array<{ view: View; label: string; icon: typeof BarChart3 }> = 
   { view: "mock", label: "Mock Exam", icon: Timer },
   { view: "mistakes", label: "Mistakes", icon: RotateCcw },
   { view: "results", label: "Results", icon: ClipboardList },
+  { view: "examRules", label: "Exam Rules", icon: ShieldCheck },
   { view: "settings", label: "Settings", icon: Settings },
   { view: "about", label: "About", icon: ShieldCheck }
 ];
@@ -445,6 +481,7 @@ function App() {
         {view === "session" && !activeSession && <EmptyState title="No active session" body="Start a drill, mock exam, or mistake review." />}
         {view === "results" && resultSession && <Results session={resultSession} questions={state.questions} />}
         {view === "results" && !resultSession && <EmptyState title="No results yet" body="Complete a drill or mock exam to see section, topic, and subtopic results." />}
+        {view === "examRules" && <ExamRules />}
         {view === "settings" && (
           <SettingsPage
             state={state}
@@ -470,6 +507,7 @@ function pageTitle(view: View) {
     session: "Question Session",
     results: "Results",
     settings: "Settings",
+    examRules: "Exam Rules",
     about: "About / Compliance"
   };
   return titles[view];
@@ -1365,6 +1403,144 @@ function Results({ session, questions }: { session: Session; questions: Question
               </article>
             );
           })}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ExamRules() {
+  return (
+    <section className="content-grid">
+      <div className="panel full">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">Official rules reminder</p>
+            <h2>Series 3 exam day checklist</h2>
+          </div>
+          <span className="pill blue">Checked {EXAM_SOURCE_CHECKED}</span>
+        </div>
+        <p className="panel-explainer">
+          Use this as a practical reminder inside the app. Before the real exam, verify your appointment email and the official FINRA/NFA pages because testing procedures can change.
+        </p>
+      </div>
+
+      <div className="stats-grid full">
+        <Metric label="Scored questions" value="120" detail="multiple choice" />
+        <Metric label="Time allowed" value="150 min" detail="2 hours 30 minutes" />
+        <Metric label="Passing rule" value="70%" detail="on each part" />
+        <Metric label="Exam fee" value="$140" detail="FINRA listed cost" />
+      </div>
+
+      <div className="panel span-6">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">Format</p>
+            <h2>What the exam represents</h2>
+          </div>
+        </div>
+        <ul className="exam-rule-list">
+          <li>The Series 3 is the National Commodity Futures Examination, an NFA exam administered by FINRA.</li>
+          <li>It has two scored parts: Market Knowledge and U.S. Regulations.</li>
+          <li>You must score at least 70% on each part; a strong total score does not offset a failed part.</li>
+          <li>There is no listed corequisite for the exam, and NFA says a sponsor is not required for futures industry exams.</li>
+          <li>NFA exams are generally required to be taken at a test center; limited remote exceptions may apply under FINRA policy.</li>
+        </ul>
+      </div>
+
+      <div className="panel span-6">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">Before arrival</p>
+            <h2>Scheduling and timing</h2>
+          </div>
+        </div>
+        <ul className="exam-rule-list">
+          <li>After enrollment confirmation, NFA states that candidates have 120 days to schedule and take the exam.</li>
+          <li>Plan to arrive 30 minutes before your appointment for check-in.</li>
+          <li>If you arrive more than 30 minutes late and the center cannot seat you for the full testing time, you may not be allowed to test.</li>
+          <li>Remember the email address used to schedule the appointment; test center staff may ask for it.</li>
+          <li>Fees are not refundable under NFA's general sign-up information.</li>
+        </ul>
+      </div>
+
+      <div className="panel span-6">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">Bring</p>
+            <h2>Admission checklist</h2>
+          </div>
+        </div>
+        <ul className="exam-rule-list">
+          <li>Bring one valid, government-issued ID with your photo and signature, such as an unexpired driver's license, passport, or military ID.</li>
+          <li>Your ID name must exactly match the name under which the exam is scheduled.</li>
+          <li>Electronic IDs, photocopies, faxes, and expired government-issued IDs are not accepted.</li>
+          <li>Bring only what you need for admission; personal items must be stored in the assigned locker.</li>
+          <li>Do not bring study materials to the test center.</li>
+        </ul>
+      </div>
+
+      <div className="panel span-6">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">Provided</p>
+            <h2>What the center gives you</h2>
+          </div>
+        </div>
+        <ul className="exam-rule-list">
+          <li>Four-function calculator.</li>
+          <li>Erasable note boards.</li>
+          <li>Dry-erase markers.</li>
+          <li>Noise-cancelling headphones at each testing station.</li>
+          <li>Tissues upon request.</li>
+        </ul>
+      </div>
+
+      <div className="panel span-6">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">Inside the room</p>
+            <h2>Conduct rules</h2>
+          </div>
+        </div>
+        <ul className="exam-rule-list">
+          <li>The exam is closed-book; reference materials are not permitted during the appointment.</li>
+          <li>You may be asked to empty pockets, pull up pant legs, and pull back sleeves during check-in.</li>
+          <li>Your photo will be taken and your ID inspected.</li>
+          <li>The testing center is video- and audio-monitored.</li>
+          <li>Breaks are for restroom use only; you cannot leave the center or access your locker, and the exam timer does not pause.</li>
+        </ul>
+      </div>
+
+      <div className="panel span-6">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">After submission</p>
+            <h2>Results and retakes</h2>
+          </div>
+        </div>
+        <ul className="exam-rule-list">
+          <li>Computer-delivered exams display results shortly after completion and provide a printed pass/fail report.</li>
+          <li>If you pass, FINRA says no additional scoring details are provided.</li>
+          <li>If you fail, the report includes the overall score and topic-section performance details.</li>
+          <li>NFA waiting periods are 30 days after the first failed attempt, 30 days after the second, and 180 days after the third and subsequent failed attempts.</li>
+          <li>NFA states that passed Series 3 evidence is generally valid for two years to register, unless continuous registration rules preserve it.</li>
+        </ul>
+      </div>
+
+      <div className="panel full">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">Official sources</p>
+            <h2>Verify before the real appointment</h2>
+          </div>
+        </div>
+        <div className="source-link-grid">
+          {OFFICIAL_EXAM_LINKS.map((link) => (
+            <a key={link.url} href={link.url} target="_blank" rel="noreferrer">
+              {link.label}
+            </a>
+          ))}
         </div>
       </div>
     </section>

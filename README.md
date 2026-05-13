@@ -23,11 +23,12 @@ Use only:
 - Dashboard with progress, section accuracy, weak subtopics, and recent sessions
 - QCM Bank browser by section, topic, and subtopic
 - Coverage matrix with sample/imported counts and coverage gaps
-- 205 active Market Knowledge QCMs, including full coverage across the 105 Market Knowledge subtopics
+- 229 active Market Knowledge QCMs, with at least 30 QCMs in each of the 7 major Market Knowledge topics and full coverage across the 105 Market Knowledge subtopics
 - JSONL and CSV import/export
 - Question validation against content and taxonomy rules
 - Topic drills with difficulty and weak-subtopic prioritization
 - 120-question mock exam with 150-minute timer
+- Exam Rules page with official Series 3 format, timing, admission, provided materials, break, result, and retake reminders
 - Separate Market Knowledge and U.S. Regulations scoring
 - Mistake review queue
 - Per-question explanations and per-choice rationales

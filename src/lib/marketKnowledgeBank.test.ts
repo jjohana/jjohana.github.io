@@ -6,8 +6,8 @@ import { validateQuestion } from "./validation";
 describe("market knowledge question bank", () => {
   const marketQuestions = sampleQuestions.filter((question) => question.sectionId === "market_knowledge" && question.active);
 
-  it("contains exactly 205 active Market Knowledge QCMs", () => {
-    expect(marketQuestions).toHaveLength(205);
+  it("contains at least 229 active Market Knowledge QCMs", () => {
+    expect(marketQuestions.length).toBeGreaterThanOrEqual(229);
   });
 
   it("covers every Market Knowledge topic", () => {
@@ -15,6 +15,14 @@ describe("market knowledge question bank", () => {
     const coveredTopicIds = new Set(marketQuestions.map((question) => question.topicId));
 
     expectedTopicIds.forEach((topicId) => expect(coveredTopicIds.has(topicId)).toBe(true));
+  });
+
+  it("has at least 30 active QCMs for every Market Knowledge topic", () => {
+    const expectedTopicIds = syllabus.find((section) => section.id === "market_knowledge")?.topics.map((topic) => topic.id) ?? [];
+
+    expectedTopicIds.forEach((topicId) => {
+      expect(marketQuestions.filter((question) => question.topicId === topicId).length).toBeGreaterThanOrEqual(30);
+    });
   });
 
   it("covers every Market Knowledge subtopic", () => {

@@ -1090,6 +1090,246 @@ const specs: CoverageSpec[] = [
     correct: "6.00",
     distractors: ["2.00", "8.00", "10.00"],
     explanation: "For a debit spread, maximum profit equals strike width minus net debit: 8.00 - 2.00 = 6.00."
+  },
+  {
+    id: "mk-topic-floor-normal-inverted-001",
+    topicId: "futures-theory",
+    subtopicId: "normal-vs-inverted-markets",
+    difficulty: "medium",
+    stem: "Nearby futures are trading above deferred futures in the same commodity. Which market structure does this most directly describe?",
+    correct: "An inverted market",
+    distractors: ["A full carrying-charge market", "A market with no delivery month", "A market that cannot be hedged"],
+    explanation: "An inverted market exists when nearby futures trade at a premium to more deferred delivery months."
+  },
+  {
+    id: "mk-topic-floor-carrying-charges-001",
+    topicId: "futures-theory",
+    subtopicId: "carrying-charges",
+    difficulty: "medium",
+    stem: "Which cost is normally part of carrying charges for a storable commodity?",
+    correct: "Financing, storage, and insurance costs",
+    distractors: ["Only brokerage commissions", "Only the customer's tax rate", "Only the exchange membership fee"],
+    explanation: "Carrying charges reflect the economic cost of holding inventory, including storage, insurance, and financing."
+  },
+  {
+    id: "mk-topic-floor-basis-grade-001",
+    topicId: "futures-theory",
+    subtopicId: "basis-grade-premiums-discounts",
+    difficulty: "medium",
+    stem: "A deliverable grade is accepted at a premium to the contract's basis grade. What does the premium mean?",
+    correct: "The grade is valued above the basis grade for delivery purposes",
+    distractors: ["The grade cannot be delivered", "The futures price must be ignored", "The clearinghouse waives all margin"],
+    explanation: "Premiums and discounts adjust deliverable grades relative to the basis grade specified by the futures contract."
+  },
+  {
+    id: "mk-topic-floor-hedging-theory-001",
+    topicId: "futures-theory",
+    subtopicId: "hedging-theory",
+    difficulty: "easy",
+    stem: "What is the main purpose of a futures hedge?",
+    correct: "To reduce exposure to adverse cash price changes",
+    distractors: ["To guarantee the best possible cash price", "To eliminate every type of business risk", "To avoid all margin requirements"],
+    explanation: "A hedge is designed to offset price risk, but it does not guarantee a perfect outcome or remove all risk."
+  },
+  {
+    id: "mk-topic-floor-speculative-theory-001",
+    topicId: "futures-theory",
+    subtopicId: "speculative-theory",
+    difficulty: "easy",
+    stem: "Which statement best describes a futures speculator?",
+    correct: "A trader who accepts price risk in pursuit of trading profit",
+    distractors: ["A customer who must own the cash commodity", "A trader who is prohibited from using margin", "A warehouse that issues delivery receipts"],
+    explanation: "Speculators take market risk because they expect to profit from price changes, and their trading can add liquidity."
+  },
+  {
+    id: "mk-topic-floor-general-futures-terminology-001",
+    topicId: "futures-theory",
+    subtopicId: "general-futures-terminology",
+    difficulty: "easy",
+    stem: "What does open interest measure in a futures market?",
+    correct: "The number of outstanding contracts that have not been offset or fulfilled by delivery",
+    distractors: ["The number of contracts traded during one session", "The exchange's daily price limit", "The customer's cash balance only"],
+    explanation: "Open interest counts outstanding contracts; volume counts trading activity during a period."
+  },
+  {
+    id: "mk-topic-floor-general-options-terminology-001",
+    topicId: "futures-theory",
+    subtopicId: "general-options-terminology",
+    difficulty: "easy",
+    stem: "In an option on a futures contract, what is the strike price?",
+    correct: "The futures price at which the option can be exercised",
+    distractors: ["The commission charged by the broker", "The daily settlement price for every futures month", "The minimum performance bond requirement"],
+    explanation: "The strike price is the exercise price used to determine whether the option has intrinsic value."
+  },
+  {
+    id: "mk-topic-floor-spread-execution-001",
+    topicId: "spreading",
+    subtopicId: "spread-execution",
+    difficulty: "medium",
+    stem: "Why might a trader enter a spread order instead of two unrelated outright orders?",
+    correct: "To trade the price relationship between two legs more directly",
+    distractors: ["To prevent the exchange from clearing the trade", "To remove all risk from both legs", "To avoid identifying the contract months"],
+    explanation: "Spread orders focus on the differential between legs and can reduce legging risk compared with separate outright execution."
+  },
+  {
+    id: "mk-topic-floor-narrowing-spread-001",
+    topicId: "spreading",
+    subtopicId: "narrowing-spread",
+    difficulty: "medium",
+    stem: "A spread moves from 18 cents to 10 cents. How is that change described?",
+    correct: "The spread narrowed by 8 cents",
+    distractors: ["The spread widened by 8 cents", "The spread became impossible to offset", "The spread created automatic delivery"],
+    explanation: "A spread narrows when the difference between the two quoted prices decreases."
+  },
+  {
+    id: "mk-topic-floor-widening-spread-001",
+    topicId: "spreading",
+    subtopicId: "widening-spread",
+    difficulty: "medium",
+    stem: "A trader buys a spread at 5 cents and liquidates it at 12 cents. What happened to the spread?",
+    correct: "It widened by 7 cents",
+    distractors: ["It narrowed by 7 cents", "It stayed unchanged", "It became a short option premium"],
+    explanation: "The quoted difference increased from 5 cents to 12 cents, so the spread widened by 7 cents."
+  },
+  {
+    id: "mk-topic-floor-normal-market-strategy-001",
+    topicId: "spreading",
+    subtopicId: "normal-market-strategies",
+    difficulty: "hard",
+    stem: "In a normal carrying-charge market, what condition usually explains deferred futures trading above nearby futures?",
+    correct: "Deferred prices reflect costs of carrying the commodity forward in time",
+    distractors: ["Nearby delivery is always prohibited", "Cash prices are no longer relevant", "All contracts have identical delivery dates"],
+    explanation: "A normal market often prices deferred months higher because storage, financing, and other carrying costs increase value over time."
+  },
+  {
+    id: "mk-topic-floor-inverted-market-strategy-001",
+    topicId: "spreading",
+    subtopicId: "inverted-market-strategies",
+    difficulty: "hard",
+    stem: "What market condition is commonly associated with an inverted futures market?",
+    correct: "Strong nearby demand or tight nearby supply",
+    distractors: ["Zero cash demand", "No need for delivery specifications", "A guarantee that spreads cannot change"],
+    explanation: "Inversions often signal that nearby supply is tight enough for nearby futures to trade above deferred months."
+  },
+  {
+    id: "mk-topic-floor-carrying-charge-spreads-001",
+    topicId: "spreading",
+    subtopicId: "carrying-charge-spreads",
+    difficulty: "hard",
+    stem: "A grain spread is near full carry. What does that imply?",
+    correct: "The deferred month premium is close to the cost of carrying the commodity",
+    distractors: ["The nearby month must be above the deferred month", "Storage and financing costs are irrelevant", "The spread cannot be traded"],
+    explanation: "Full carry means the price difference roughly reflects the economic carrying costs between delivery months."
+  },
+  {
+    id: "mk-topic-floor-bull-spreads-001",
+    topicId: "spreading",
+    subtopicId: "bull-spreads",
+    difficulty: "medium",
+    stem: "Which futures spread position is commonly called a bull spread in the same commodity?",
+    correct: "Long the nearby month and short the deferred month",
+    distractors: ["Short the nearby month and long the deferred month", "Short both delivery months", "Buy a put and sell no futures"],
+    explanation: "A traditional bull futures spread is long nearby and short deferred, benefiting when the nearby month strengthens relative to the deferred month."
+  },
+  {
+    id: "mk-topic-floor-bear-spreads-001",
+    topicId: "spreading",
+    subtopicId: "bear-spreads",
+    difficulty: "medium",
+    stem: "Which futures spread position is commonly called a bear spread in the same commodity?",
+    correct: "Short the nearby month and long the deferred month",
+    distractors: ["Long the nearby month and short the deferred month", "Long both delivery months", "Buy a call and sell no futures"],
+    explanation: "A traditional bear futures spread is short nearby and long deferred, benefiting when the nearby month weakens relative to the deferred month."
+  },
+  {
+    id: "mk-topic-floor-gross-profit-loss-001",
+    topicId: "futures-speculation",
+    subtopicId: "gross-profit-loss",
+    difficulty: "easy",
+    stem: "A trader buys one futures contract at 72.40 and sells it at 73.10. Ignoring contract size and commissions, what happened?",
+    correct: "The trader made a gross gain of 0.70 price points",
+    distractors: ["The trader made a gross loss of 0.70 price points", "The trader's position did not change value", "The trader automatically exercised an option"],
+    explanation: "A long futures position gains when the sale price is above the purchase price; 73.10 - 72.40 = 0.70."
+  },
+  {
+    id: "mk-topic-floor-tick-value-001",
+    topicId: "futures-speculation",
+    subtopicId: "tick-value",
+    difficulty: "medium",
+    stem: "A futures contract moves 14 ticks and each tick is worth $12.50. What is the dollar move per contract?",
+    correct: "$175",
+    distractors: ["$26.50", "$87.50", "$350"],
+    explanation: "Dollar move equals ticks multiplied by tick value: 14 x $12.50 = $175."
+  },
+  {
+    id: "mk-topic-floor-contract-size-001",
+    topicId: "futures-speculation",
+    subtopicId: "contract-size",
+    difficulty: "medium",
+    stem: "A 5,000-bushel grain contract rises by $0.10 per bushel. What is the price move per contract?",
+    correct: "$500",
+    distractors: ["$50", "$5,000", "$0.10"],
+    explanation: "Multiply the per-unit move by contract size: $0.10 x 5,000 bushels = $500."
+  },
+  {
+    id: "mk-topic-floor-commissions-001",
+    topicId: "futures-speculation",
+    subtopicId: "commissions",
+    difficulty: "medium",
+    stem: "How should commissions be treated when calculating net trading profit?",
+    correct: "Subtract commissions from gross trading profit",
+    distractors: ["Add commissions to gross profit", "Ignore commissions because they are paid by the exchange", "Treat commissions as margin equity"],
+    explanation: "Net profit equals gross profit minus commissions and other transaction costs."
+  },
+  {
+    id: "mk-topic-floor-single-contract-positions-001",
+    topicId: "futures-speculation",
+    subtopicId: "single-contract-positions",
+    difficulty: "easy",
+    stem: "A trader is long one futures contract. Which price move benefits the trader?",
+    correct: "A rise in the futures price",
+    distractors: ["A fall in the futures price", "A futures price that is not quoted", "A forced conversion into a short call"],
+    explanation: "A long futures position profits from rising futures prices and loses from falling futures prices."
+  },
+  {
+    id: "mk-topic-floor-multiple-contract-positions-001",
+    topicId: "futures-speculation",
+    subtopicId: "multiple-contract-positions",
+    difficulty: "medium",
+    stem: "A trader earns $220 per contract on 4 futures contracts before commissions. What is the gross profit?",
+    correct: "$880",
+    distractors: ["$224", "$440", "$55"],
+    explanation: "For multiple contracts, multiply the per-contract result by the number of contracts: $220 x 4 = $880."
+  },
+  {
+    id: "mk-topic-floor-return-on-margin-equity-001",
+    topicId: "futures-speculation",
+    subtopicId: "return-on-margin-equity",
+    difficulty: "hard",
+    stem: "A trader posts $4,000 initial margin and earns $600 net profit. What is the return on margin equity?",
+    correct: "15%",
+    distractors: ["6.7%", "40%", "600%"],
+    explanation: "Return on margin equity equals net profit divided by margin equity: $600 / $4,000 = 15%."
+  },
+  {
+    id: "mk-topic-floor-selecting-speculative-trades-001",
+    topicId: "futures-speculation",
+    subtopicId: "selecting-speculative-trades",
+    difficulty: "medium",
+    stem: "Which factor should a speculative futures trader consider before entering a position?",
+    correct: "Expected reward relative to defined risk",
+    distractors: ["Only the contract symbol", "Only whether the trade avoids margin", "Only the number of pages in the rulebook"],
+    explanation: "Speculative trade selection should consider risk, reward, liquidity, volatility, and the trader's planned exit."
+  },
+  {
+    id: "mk-topic-floor-protective-orders-001",
+    topicId: "futures-speculation",
+    subtopicId: "protective-orders",
+    difficulty: "medium",
+    stem: "What is the main purpose of a protective stop order?",
+    correct: "To trigger an exit if the market moves adversely to a specified level",
+    distractors: ["To guarantee execution at the stop price", "To remove the need for monitoring margin", "To convert a futures position into cash inventory"],
+    explanation: "A protective stop is intended to limit losses by triggering an exit, but fast markets can lead to execution away from the stop price."
   }
 ];
 
