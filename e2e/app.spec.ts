@@ -25,6 +25,13 @@ test("starts a mock exam and opens results", async ({ page }) => {
   await page.getByRole("button", { name: "Mock Exam" }).click();
   await expect(page.getByLabel("Question bank priority")).toHaveValue("s3-imported");
   await expect(page.getByText("686 matching active QCMs")).toBeVisible();
+  await page.getByLabel("Question bank priority").selectOption("s3-market-docx");
+  await expect(page.getByText("444 matching active QCMs")).toBeVisible();
+  await expect(page.locator(".distribution-summary .metric").filter({ hasText: "Current bank" })).toContainText("444");
+  await page.getByLabel("Question bank priority").selectOption("s3-regulatory-pdf");
+  await expect(page.getByText("242 matching active QCMs")).toBeVisible();
+  await expect(page.locator(".distribution-summary .metric").filter({ hasText: "Current bank" })).toContainText("242");
+  await page.getByLabel("Question bank priority").selectOption("s3-imported");
   await page.getByRole("button", { name: /Start mock exam/ }).click();
   await expect(page.getByRole("heading", { name: /Question 1 of 120/ })).toBeVisible();
   await page.getByRole("button", { name: "Submit session" }).click();

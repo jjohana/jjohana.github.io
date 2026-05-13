@@ -1104,7 +1104,7 @@ function MockExam({
           </div>
         </div>
         <div className="filter-stack mock-filter-stack">
-          <SourceBankSelector filters={filters} setFilters={setFilters} />
+          <SourceBankSelector filters={filters} setFilters={setFilters} scopeOnSpecificBank={false} />
         </div>
         <div className={fullMockReady ? "report-box mock-source-ready" : "report-box mock-source-warning"}>
           <strong>{sourceLabel}</strong>
@@ -1137,9 +1137,9 @@ function MockExam({
         </div>
         <p className="panel-explainer">
           This table is the target mix used when generating a 120-question mock exam. The target column
-          shows how many scored questions the app tries to draw from each syllabus topic. Available,
-          sample, imported, and accuracy show the current state of your question bank, so gaps are easy
-          to spot before you rely on a full mock.
+          stays fixed because it is the exam-weighted mix. Available, sample, imported, current bank,
+          and accuracy update from the selected question-bank priority, so gaps are easy to spot before
+          you rely on a full mock.
         </p>
         <MockDistributionTable coverage={coverage} />
       </div>
@@ -1813,17 +1813,22 @@ function ScopeSelector({
 
 function SourceBankSelector({
   filters,
-  setFilters
+  setFilters,
+  scopeOnSpecificBank = true
 }: {
   filters: SessionFilters;
   setFilters: (filters: SessionFilters) => void;
+  scopeOnSpecificBank?: boolean;
 }) {
   return (
     <label>
       Question bank priority
       <select
         value={filters.sourceBank ?? "s3-imported"}
-        onChange={(event) => setFilters(filtersForSourceBank(filters, event.target.value as SourceBankFilter))}
+        onChange={(event) => {
+          const sourceBank = event.target.value as SourceBankFilter;
+          setFilters(scopeOnSpecificBank ? filtersForSourceBank(filters, sourceBank) : { ...filters, sourceBank });
+        }}
       >
         {SOURCE_BANK_OPTIONS.map((option) => (
           <option key={option.value} value={option.value}>
