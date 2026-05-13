@@ -8,32 +8,25 @@ The Course module covers every taxonomy subchapter in the app. It links only act
 
 | Section | Topics | Subtopics | Linked verified QCMs | Subtopics with no verified QCM support |
 |---|---:|---:|---:|---:|
-| Market Knowledge | 7 | 105 | 667 | 0 |
-| U.S. Regulations | 4 | 57 | 299 | 8 |
-| Total | 11 | 162 | 966 | 8 |
+| Market Knowledge | 7 | 105 | 705 | 0 |
+| U.S. Regulations | 4 | 57 | 357 | 0 |
+| Total | 11 | 162 | 1062 | 0 |
 
 ## Coverage gaps
 
-These subchapters have course content but no active verified supporting QCMs yet:
+No taxonomy subchapter currently has zero active verified QCM support.
 
-| Section | Topic | Subtopic |
-|---|---|---|
-| U.S. Regulations | General Regulatory Topics | Floor Trader |
-| U.S. Regulations | General Regulatory Topics | Customer agreements |
-| U.S. Regulations | FCM / IB Regulations | Guarantor FCM responsibilities |
-| U.S. Regulations | CPO / CTA Regulations | Required disclosure statements |
-| U.S. Regulations | CPO / CTA Regulations | Promotional material |
-| U.S. Regulations | Arbitration, Discipline and Enforcement | Warning letters |
-| U.S. Regulations | Arbitration, Discipline and Enforcement | Appeals |
-| U.S. Regulations | Arbitration, Discipline and Enforcement | Commodity Exchange Act enforcement |
+## Minimum depth rule
+
+The bank now enforces a stronger coverage floor: every taxonomy subtopic must have at least 3 active verified QCMs. The `minimumCoverageQuestions` authored set added 96 original QCMs to close all subtopics previously at 0, 1, or 2 verified questions.
 
 ## Interpretation
 
-The Market Knowledge course is fully supported by verified QCMs across all 105 subtopics. The U.S. Regulations course is fully written, but 8 regulatory subtopics are marked as coverage gaps because no verified QCM currently maps to those exact subtopics. These gaps should be treated as priorities for future QCM authoring.
+The Market Knowledge and U.S. Regulations courses are now supported by at least three active verified QCMs in every subtopic.
 
 ## Course behavior
 
 - Subchapters with verified support can launch filtered practice directly.
-- Subchapters without verified support display a coverage-gap warning.
+- Subchapters with fewer than 3 verified QCMs are prevented by the minimum-coverage test.
 - The course still explains coverage-gap topics so the study manual remains complete.
 - Rejected questions are never used as supporting references.

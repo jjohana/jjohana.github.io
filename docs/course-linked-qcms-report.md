@@ -13,11 +13,11 @@ Course subchapters are linked to QCMs only when all of the following are true:
 
 ## Link results
 
-- Total questions in seeded bank: 972
-- Active verified questions: 966
+- Total questions in seeded bank: 1068
+- Active verified questions: 1062
 - Active needs-review questions: 0
 - Active rejected questions: 6
-- Verified questions linked by the Course module: 966
+- Verified questions linked by the Course module: 1062
 - Active verified questions left unlinked: 0
 
 ## Rejected questions excluded

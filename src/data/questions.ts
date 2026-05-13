@@ -1,6 +1,7 @@
 import type { Question } from "../types";
 import { marketFullCoverageQuestions } from "./marketFullCoverageQuestions";
 import { marketKnowledgeQuestions } from "./marketQuestions";
+import { minimumCoverageQuestions } from "./minimumCoverageQuestions";
 import { s3MarketDocxQuestions } from "./s3MarketDocxQuestions";
 import { regulatoryPdfQuestions } from "./s3RegulatoryPdfQuestions";
 import { regulatoryRemodelQuestions } from "./regulatoryQuestions";
@@ -569,6 +570,7 @@ export const sampleQuestions: Question[] = uniqueQuestions([
   ...baseQuestions,
   ...marketKnowledgeQuestions,
   ...marketFullCoverageQuestions,
+  ...minimumCoverageQuestions,
   ...s3MarketDocxQuestions,
   ...regulatoryRemodelQuestions,
   ...regulatoryPdfQuestions,

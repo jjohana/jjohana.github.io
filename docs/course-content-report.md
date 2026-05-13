@@ -12,8 +12,8 @@ The app now includes an integrated English Course module built from the existing
 - Course subchapters: 162
 - Market Knowledge chapters: 7
 - U.S. Regulations chapters: 4
-- Active verified QCMs available to support the course: 966
-- Verified QCM references linked by the course: 966
+- Active verified QCMs available to support the course: 1062
+- Verified QCM references linked by the course: 1062
 - Rejected QCMs linked: 0
 
 ## Chapter coverage
@@ -21,16 +21,16 @@ The app now includes an integrated English Course module built from the existing
 | Section | Chapter | Subchapters | Linked verified QCMs |
 |---|---:|---:|---:|
 | Market Knowledge | Futures Trading Theory and Basic Functions Terminology | 11 | 103 |
-| Market Knowledge | Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment | 20 | 108 |
-| Market Knowledge | Types of Orders, Customer Accounts, Price Analysis | 17 | 81 |
-| Market Knowledge | Basic Hedging, Basis Calculations, Hedging Futures | 16 | 108 |
+| Market Knowledge | Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment | 20 | 118 |
+| Market Knowledge | Types of Orders, Customer Accounts, Price Analysis | 17 | 87 |
+| Market Knowledge | Basic Hedging, Basis Calculations, Hedging Futures | 16 | 115 |
 | Market Knowledge | Spreading | 11 | 63 |
 | Market Knowledge | Speculating in Futures | 9 | 96 |
-| Market Knowledge | Option Hedging, Speculating, Spreading | 21 | 108 |
-| U.S. Regulations | General Regulatory Topics | 20 | 112 |
-| U.S. Regulations | FCM / IB Regulations | 13 | 77 |
-| U.S. Regulations | CPO / CTA Regulations | 13 | 79 |
-| U.S. Regulations | Arbitration, Discipline and Enforcement | 11 | 31 |
+| Market Knowledge | Option Hedging, Speculating, Spreading | 21 | 123 |
+| U.S. Regulations | General Regulatory Topics | 20 | 129 |
+| U.S. Regulations | FCM / IB Regulations | 13 | 84 |
+| U.S. Regulations | CPO / CTA Regulations | 13 | 96 |
+| U.S. Regulations | Arbitration, Discipline and Enforcement | 11 | 48 |
 
 ## Content elements added per subchapter
 

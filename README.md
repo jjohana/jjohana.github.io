@@ -23,10 +23,11 @@ Use only:
 - Dashboard with progress, section accuracy, weak subtopics, and recent sessions
 - Integrated English Course module organized by the same Section -> Topic -> Subtopic taxonomy as the QCM bank
 - Course subchapters with definitions, formulas, worked examples, common QCM traps, recaps, coverage gaps, and one-click filtered practice
+- Minimum coverage guardrail: every taxonomy subtopic has at least 3 active verified QCMs
 - QCM Bank browser by section, topic, and subtopic
 - Source-bank filters for all questions, both S3 imported sets, S3-Market DOCX only, S3-Regulatory PDF only, or authored/rewritten/sample content
 - Coverage matrix with sample/imported counts and coverage gaps
-- 673 active Market Knowledge QCMs, including the authored coverage bank plus the user-authorized OCR import of `S3-Market.docx`
+- 711 active Market Knowledge QCMs, including the authored coverage bank, minimum-coverage questions, and the user-authorized OCR import of `S3-Market.docx`
 - Imported Market Knowledge coverage by major topic: 72 theory, 72 margins/settlement/delivery/options premiums, 48 orders/accounts/analysis, 77 hedging/basis, 34 spreading, 67 futures speculation, and 74 options QCMs
 - JSONL and CSV import/export
 - Question validation against content and taxonomy rules
@@ -55,6 +56,7 @@ Course reports:
 - [docs/course-content-report.md](docs/course-content-report.md)
 - [docs/course-coverage-report.md](docs/course-coverage-report.md)
 - [docs/course-linked-qcms-report.md](docs/course-linked-qcms-report.md)
+- [docs/minimum-subtopic-coverage-report.md](docs/minimum-subtopic-coverage-report.md)
 
 ## Setup
 

@@ -14,7 +14,7 @@ test("opens the dashboard and browses the QCM bank", async ({ page }) => {
   await expect(page.locator(".regulatory-stats .metric").filter({ hasText: "Regulatory QCMs" })).toContainText("242");
   await page.getByLabel("Regulatory focus").selectOption("high-yield");
   await page.getByLabel("Question bank priority").selectOption("all");
-  await expect(page.getByRole("heading", { name: "966 QCMs in current scope" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "1062 QCMs in current scope" })).toBeVisible();
   await page.getByLabel("Quality status").selectOption("rejected");
   await page.getByLabel("Issue type").selectOption("duplicate");
   await expect(page.getByRole("heading", { name: "3 QCMs in current scope" })).toBeVisible();
