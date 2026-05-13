@@ -64,8 +64,8 @@ export function validateQuestion(question: Question): ValidationIssue[] {
   });
 
   if (!question.explanation?.trim()) add("error", "explanation", "Detailed explanation is required.");
-  if (!["sample", "imported", "user-authored"].includes(question.sourceType)) {
-    add("error", "sourceType", "Source type must be sample, imported, or user-authored.");
+  if (!["sample", "rewritten", "imported", "user-authored"].includes(question.sourceType)) {
+    add("error", "sourceType", "Source type must be sample, rewritten, imported, or user-authored.");
   }
 
   return issues;

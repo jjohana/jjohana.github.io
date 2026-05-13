@@ -6,7 +6,7 @@ export type Difficulty = (typeof DIFFICULTIES)[number];
 export type DifficultyFilter = Difficulty | "mixed";
 
 export type QuestionType = "multiple_choice" | "true_false";
-export type SourceType = "sample" | "imported" | "user-authored";
+export type SourceType = "sample" | "rewritten" | "imported" | "user-authored";
 export type FeedbackMode = "immediate" | "delayed";
 export type SessionType = "practice" | "mock" | "mistakes";
 export type SessionStatus = "in_progress" | "completed";
@@ -50,6 +50,12 @@ export interface Question {
   explanation: string;
   sourceType: SourceType;
   active: boolean;
+  regulatoryFocus?: string[];
+  concept?: string;
+  sourceNote?: string;
+  reviewStatus?: "reviewed" | "needs_review";
+  extractionConfidence?: "high" | "medium" | "low";
+  sourcePageRange?: string;
   createdAt?: string;
   updatedAt?: string;
 }
@@ -80,6 +86,7 @@ export interface SessionFilters {
   difficulty?: DifficultyFilter;
   questionCount?: number;
   prioritizeWeak?: boolean;
+  regulatoryFocus?: string;
 }
 
 export interface Session {
@@ -134,6 +141,7 @@ export interface CoverageNode {
   title: string;
   total: number;
   sample: number;
+  rewritten: number;
   imported: number;
   userAuthored: number;
   easy: number;

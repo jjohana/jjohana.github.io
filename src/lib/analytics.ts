@@ -34,6 +34,7 @@ function createNode(
     ...params,
     total: scoped.length,
     sample: scoped.filter((question) => question.sourceType === "sample").length,
+    rewritten: scoped.filter((question) => question.sourceType === "rewritten").length,
     imported: scoped.filter((question) => question.sourceType === "imported").length,
     userAuthored: scoped.filter((question) => question.sourceType === "user-authored").length,
     easy: scoped.filter((question) => question.difficulty === "easy").length,

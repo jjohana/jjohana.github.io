@@ -382,6 +382,42 @@ button:disabled {
   border-bottom: 0;
 }
 
+.regulatory-overview {
+  box-shadow: var(--shadow);
+}
+
+.regulatory-stats {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: 14px;
+}
+
+.focus-chip-grid,
+.quick-focus-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.focus-chip-grid span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 34px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: #475467;
+  background: #f9fafb;
+}
+
+.focus-chip-grid strong {
+  color: var(--accent-strong);
+}
+
+.quick-focus-grid {
+  margin: 4px 0 12px;
+}
+
 .table {
   display: grid;
   gap: 8px;
@@ -543,7 +579,7 @@ button:focus-visible {
 
 .coverage-counts {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 8px;
   text-align: right;
 }
@@ -913,6 +949,7 @@ summary {
 
   .sidebar nav,
   .stats-grid,
+  .regulatory-stats,
   .import-grid,
   .coverage-row,
   .section-row,

@@ -10,6 +10,14 @@ export function filterQuestionPool(questions: Question[], filters: SessionFilter
     if (filters.topicId && question.topicId !== filters.topicId) return false;
     if (filters.subtopicId && question.subtopicId !== filters.subtopicId) return false;
     if (filters.difficulty && filters.difficulty !== "mixed" && question.difficulty !== filters.difficulty) return false;
+    if (
+      filters.regulatoryFocus &&
+      filters.regulatoryFocus !== "all" &&
+      question.sectionId === "us_regulations" &&
+      !question.regulatoryFocus?.includes(filters.regulatoryFocus)
+    ) {
+      return false;
+    }
     return true;
   });
 }

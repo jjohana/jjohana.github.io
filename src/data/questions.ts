@@ -1,8 +1,9 @@
 import type { Question } from "../types";
+import { regulatoryRemodelQuestions } from "./regulatoryQuestions";
 
 const createdAt = "2026-05-13T00:00:00.000Z";
 
-export const sampleQuestions: Question[] = [
+const baseQuestions: Question[] = [
   {
     id: "mk-hedging-basis-0001",
     sectionId: "market_knowledge",
@@ -534,3 +535,5 @@ export const sampleQuestions: Question[] = [
     createdAt
   }
 ];
+
+export const sampleQuestions: Question[] = [...baseQuestions, ...regulatoryRemodelQuestions];

@@ -32,6 +32,8 @@ Use only:
 - Per-question explanations and per-choice rationales
 - Deterministic seeded shuffling with balanced correct-answer positions
 - Static build compatible with GitHub Pages
+- Rewritten U.S. Regulations bank based on concepts observed in `S3-Regulatory.pdf`
+- Dedicated regulatory focus filters for registration, account rules, FCM/IB, CPO/CTA, supervision, communications, arbitration, enforcement, AML, and high-yield review
 
 ## Setup
 
@@ -127,3 +129,15 @@ Use `true`, `1`, `yes`, or `y` for the correct-choice column.
 - Every question must be tagged with section, topic, subtopic, and difficulty.
 - Avoid "all of the above", "none of the above", and choices that refer to displayed letters.
 - Imported content must be original or properly licensed.
+
+## Regulatory PDF Remodel
+
+The regulatory section was remodeled using the local source document:
+
+```text
+C:\Users\Jean-JacquesOhana\Documents\Ai For Alpha\2026\Series 3\S3-Regulatory.pdf
+```
+
+That PDF is image-based and appears to be a PassMaster-style regulatory QCM tutorial. To avoid publishing potentially licensed proprietary text, the public app does not include verbatim OCR questions. Instead, the app includes original rewritten regulatory study questions based on concepts identified from OCR and the existing Series 3 regulatory taxonomy.
+
+See [docs/regulatory-remodel-report.md](docs/regulatory-remodel-report.md) for the extraction summary, taxonomy changes, and manual review notes.

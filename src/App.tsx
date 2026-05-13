@@ -54,6 +54,20 @@ type View = "dashboard" | "bank" | "practice" | "mock" | "mistakes" | "session" 
 const DISCLAIMER =
   "This is an independent Series 3 study tool. It uses original practice questions and syllabus-based topic mapping. It is not affiliated with, endorsed by, or provided by FINRA, NFA, CFTC, or Prometric. It does not contain real exam questions.";
 
+const REGULATORY_FOCUS_OPTIONS = [
+  { value: "all", label: "All regulatory focus areas" },
+  { value: "registration", label: "Registration and roles" },
+  { value: "account-rules", label: "Account rules" },
+  { value: "fcm-ib", label: "FCM / IB" },
+  { value: "cpo-cta", label: "CPO / CTA" },
+  { value: "supervision", label: "Supervision" },
+  { value: "communications", label: "Promotional material" },
+  { value: "arbitration", label: "Arbitration" },
+  { value: "discipline", label: "Discipline and enforcement" },
+  { value: "aml", label: "AML / SAR" },
+  { value: "high-yield", label: "High-yield rules" }
+];
+
 const NAV_ITEMS: Array<{ view: View; label: string; icon: typeof BarChart3 }> = [
   { view: "dashboard", label: "Dashboard", icon: BarChart3 },
   { view: "bank", label: "QCM Bank", icon: Database },
@@ -80,13 +94,15 @@ function App() {
     subtopicId: "",
     difficulty: "mixed",
     questionCount: DEFAULT_SETTINGS.defaultDrillSize,
-    prioritizeWeak: false
+    prioritizeWeak: false,
+    regulatoryFocus: "all"
   });
   const [bankFilters, setBankFilters] = useState<SessionFilters>({
     sectionId: DEFAULT_SECTION,
     topicId: DEFAULT_TOPIC,
     subtopicId: "",
-    difficulty: "mixed"
+    difficulty: "mixed",
+    regulatoryFocus: "all"
   });
   const [bankSearch, setBankSearch] = useState("");
   const [bankStatus, setBankStatus] = useState("all");
@@ -652,6 +668,21 @@ function QcmBank({
               <option value="unanswered">Never answered</option>
             </select>
           </label>
+          {filters.sectionId === "us_regulations" && (
+            <label>
+              Regulatory focus
+              <select
+                value={filters.regulatoryFocus ?? "all"}
+                onChange={(event) => setFilters({ ...filters, regulatoryFocus: event.target.value })}
+              >
+                {REGULATORY_FOCUS_OPTIONS.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {option.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+          )}
           <label>
             Search
             <div className="input-with-icon">
@@ -661,6 +692,10 @@ function QcmBank({
           </label>
         </div>
       </div>
+
+      {filters.sectionId === "us_regulations" && (
+        <RegulatoryOverview state={state} coverage={coverage} questions={questions} />
+      )}
 
       <div className="panel span-8">
         <div className="panel-heading">
@@ -782,6 +817,57 @@ function QcmBank({
   );
 }
 
+function RegulatoryOverview({
+  state,
+  coverage,
+  questions
+}: {
+  state: AppState;
+  coverage: ReturnType<typeof buildCoverageReport>;
+  questions: Question[];
+}) {
+  const regulatoryQuestions = state.questions.filter((question) => question.sectionId === "us_regulations" && question.active);
+  const rewritten = regulatoryQuestions.filter((question) => question.sourceType === "rewritten").length;
+  const unanswered = coverage.subtopics.filter(
+    (node) => node.sectionId === "us_regulations" && node.total > 0 && node.answered === 0
+  ).length;
+  const needsReview = regulatoryQuestions.filter((question) => question.reviewStatus === "needs_review").length;
+  const focusCounts = REGULATORY_FOCUS_OPTIONS.filter((option) => option.value !== "all").map((option) => ({
+    ...option,
+    count: regulatoryQuestions.filter((question) => question.regulatoryFocus?.includes(option.value)).length
+  }));
+
+  return (
+    <div className="panel full regulatory-overview">
+      <div className="panel-heading">
+        <div>
+          <p className="eyebrow">Regulatory overview</p>
+          <h2>Rebuilt U.S. Regulations bank</h2>
+        </div>
+      </div>
+      <p className="panel-explainer">
+        The regulatory bank now separates the original seeded QCMs from rewritten study questions derived
+        from the concepts observed in the scanned S3-Regulatory PDF. It does not publish OCR verbatim
+        questions; each rewritten item has shuffling-safe answer choices and per-option rationales.
+      </p>
+      <div className="stats-grid regulatory-stats">
+        <Metric label="Regulatory QCMs" value={regulatoryQuestions.length} detail={`${questions.length} in current scope`} />
+        <Metric label="Rewritten" value={rewritten} detail="public-safe originals" />
+        <Metric label="Unanswered subtopics" value={unanswered} detail="with available QCMs" />
+        <Metric label="Needs review" value={needsReview} detail="OCR/import status" />
+      </div>
+      <div className="focus-chip-grid">
+        {focusCounts.map((focus) => (
+          <span key={focus.value}>
+            <strong>{focus.count}</strong>
+            {focus.label}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function Practice({
   state,
   filters,
@@ -818,6 +904,21 @@ function Practice({
               <option value="hard">Hard</option>
             </select>
           </label>
+          {filters.sectionId === "us_regulations" && (
+            <label>
+              Regulatory drill focus
+              <select
+                value={filters.regulatoryFocus ?? "all"}
+                onChange={(event) => setFilters({ ...filters, regulatoryFocus: event.target.value })}
+              >
+                {REGULATORY_FOCUS_OPTIONS.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {option.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+          )}
           <label>
             Question count
             <input
@@ -837,6 +938,22 @@ function Practice({
             Prioritize weak subtopics
           </label>
         </div>
+        {filters.sectionId === "us_regulations" && (
+          <div className="quick-focus-grid" aria-label="Regulatory quick drill presets">
+            <button className="secondary-button" onClick={() => setFilters({ ...filters, regulatoryFocus: "high-yield", prioritizeWeak: true })}>
+              High-yield rules
+            </button>
+            <button className="secondary-button" onClick={() => setFilters({ ...filters, regulatoryFocus: "registration" })}>
+              Registration
+            </button>
+            <button className="secondary-button" onClick={() => setFilters({ ...filters, regulatoryFocus: "communications" })}>
+              Promotional material
+            </button>
+            <button className="secondary-button" onClick={() => setFilters({ ...filters, regulatoryFocus: "arbitration" })}>
+              Arbitration
+            </button>
+          </div>
+        )}
         <button className="primary-button large" onClick={onStart}>
           <Play size={18} aria-hidden="true" />
           Start drill
@@ -1456,6 +1573,7 @@ function CoverageMatrix({
           <div className="coverage-counts">
             <span>{node.total} QCMs</span>
             <span>{node.sample} sample</span>
+            <span>{node.rewritten} rewritten</span>
             <span>{node.imported} imported</span>
             <span>{node.accuracy === null ? "no accuracy" : `${node.accuracy}%`}</span>
           </div>

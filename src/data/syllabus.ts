@@ -215,6 +215,7 @@ export const syllabus: Section[] = [
           { id: "net-capital-requirements", title: "Net capital requirements" },
           { id: "financial-reports", title: "Financial reports" },
           { id: "margin-deposit-collection", title: "Margin deposit collection" },
+          { id: "anti-money-laundering", title: "Anti-money laundering and SAR confidentiality" },
           { id: "customer-complaints", title: "Customer complaints" },
           { id: "account-adjustments", title: "Account adjustments" },
           { id: "time-stamping", title: "Time-stamping" },
@@ -250,6 +251,7 @@ export const syllabus: Section[] = [
         approxMockQuestions: 2,
         subtopics: [
           { id: "arbitration-procedures", title: "Arbitration procedures" },
+          { id: "reparations-procedures", title: "CFTC reparations procedures" },
           { id: "disciplinary-procedures", title: "Disciplinary procedures" },
           { id: "formal-complaints", title: "Formal complaints" },
           { id: "warning-letters", title: "Warning letters" },
