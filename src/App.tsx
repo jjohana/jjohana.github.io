@@ -907,7 +907,13 @@ function MockExam({
             <h2>Syllabus-weighted selection</h2>
           </div>
         </div>
-        <CoverageMatrix coverage={coverage} compact />
+        <p className="panel-explainer">
+          This table is the target mix used when generating a 120-question mock exam. The target column
+          shows how many scored questions the app tries to draw from each syllabus topic. Available,
+          sample, imported, and accuracy show the current state of your question bank, so gaps are easy
+          to spot before you rely on a full mock.
+        </p>
+        <MockDistributionTable coverage={coverage} />
       </div>
     </section>
   );
@@ -1455,6 +1461,63 @@ function CoverageMatrix({
           </div>
         </div>
       ))}
+    </div>
+  );
+}
+
+function MockDistributionTable({ coverage }: { coverage: ReturnType<typeof buildCoverageReport> }) {
+  const rows = syllabus.flatMap((section) =>
+    section.topics.map((topic) => {
+      const coverageNode = coverage.topics.find((node) => node.topicId === topic.id);
+      return {
+        section: section.shortTitle,
+        topic: topic.title,
+        target: topic.approxMockQuestions,
+        available: coverageNode?.total ?? 0,
+        sample: coverageNode?.sample ?? 0,
+        imported: coverageNode?.imported ?? 0,
+        accuracy: coverageNode?.accuracy ?? null
+      };
+    })
+  );
+  const targetTotal = rows.reduce((sum, row) => sum + row.target, 0);
+
+  return (
+    <div className="distribution-table" aria-label="Mock exam configured topic distribution">
+      <div className="distribution-summary">
+        <Metric label="Target mix" value={targetTotal} detail="scored questions" />
+        <Metric
+          label="Current bank"
+          value={rows.reduce((sum, row) => sum + row.available, 0)}
+          detail="available QCMs in these topics"
+        />
+      </div>
+      <div className="distribution-header">
+        <span>Topic</span>
+        <span>Section</span>
+        <span>Target</span>
+        <span>Available</span>
+        <span>Sample</span>
+        <span>Imported</span>
+        <span>Accuracy</span>
+      </div>
+      <div className="distribution-body">
+        {rows.map((row) => (
+          <div className={row.available === 0 ? "distribution-row gap" : "distribution-row"} key={row.topic}>
+            <strong>{row.topic}</strong>
+            <span>{row.section}</span>
+            <span>{row.target}</span>
+            <span>{row.available}</span>
+            <span>{row.sample}</span>
+            <span>{row.imported}</span>
+            <span>{row.accuracy === null ? "Not practiced" : `${row.accuracy}%`}</span>
+          </div>
+        ))}
+      </div>
+      <p className="muted distribution-note">
+        If a topic has fewer available QCMs than its target, the mock exam can reuse questions. Import more
+        QCMs in under-covered topics to make mocks more realistic.
+      </p>
     </div>
   );
 }

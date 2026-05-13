@@ -293,6 +293,13 @@ button:disabled {
   margin-bottom: 16px;
 }
 
+.panel-explainer {
+  margin: -4px 0 16px;
+  max-width: 78ch;
+  color: #475467;
+  line-height: 1.55;
+}
+
 .panel h2 {
   font-size: 1.05rem;
 }
@@ -539,6 +546,72 @@ button:focus-visible {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 8px;
   text-align: right;
+}
+
+.distribution-table {
+  display: grid;
+  gap: 12px;
+}
+
+.distribution-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.distribution-summary .metric {
+  min-height: 88px;
+  box-shadow: none;
+  background: #f9fafb;
+}
+
+.distribution-header,
+.distribution-row {
+  display: grid;
+  grid-template-columns: minmax(260px, 2.4fr) 92px 78px 92px 78px 88px 110px;
+  gap: 12px;
+  align-items: center;
+}
+
+.distribution-header {
+  padding: 0 14px 6px;
+  color: #667085;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.distribution-body {
+  display: grid;
+  gap: 8px;
+  max-height: 430px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.distribution-row {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.distribution-row.gap {
+  border-color: #f0c3be;
+  background: #fff8f7;
+}
+
+.distribution-row strong {
+  min-width: 0;
+  line-height: 1.3;
+}
+
+.distribution-row span {
+  color: #475467;
+}
+
+.distribution-note {
+  margin: 2px 0 0;
 }
 
 .mini-bars {
@@ -850,6 +923,49 @@ summary {
   .coverage-counts {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     text-align: left;
+  }
+
+  .distribution-summary,
+  .distribution-header,
+  .distribution-row {
+    grid-template-columns: 1fr;
+  }
+
+  .distribution-header {
+    display: none;
+  }
+
+  .distribution-row {
+    gap: 6px;
+  }
+
+  .distribution-row span::before {
+    color: #667085;
+    font-weight: 800;
+  }
+
+  .distribution-row span:nth-child(2)::before {
+    content: "Section: ";
+  }
+
+  .distribution-row span:nth-child(3)::before {
+    content: "Target: ";
+  }
+
+  .distribution-row span:nth-child(4)::before {
+    content: "Available: ";
+  }
+
+  .distribution-row span:nth-child(5)::before {
+    content: "Sample: ";
+  }
+
+  .distribution-row span:nth-child(6)::before {
+    content: "Imported: ";
+  }
+
+  .distribution-row span:nth-child(7)::before {
+    content: "Accuracy: ";
   }
 
   .question-nav {
