@@ -111,10 +111,19 @@ button:disabled {
   border-radius: 8px;
   border: 1px solid transparent;
   text-decoration: none;
+  line-height: 1.2;
   transition:
     background 0.15s ease,
     border-color 0.15s ease,
     transform 0.15s ease;
+}
+
+.nav-item svg,
+.primary-button svg,
+.secondary-button svg,
+.danger-button svg,
+.file-button svg {
+  flex: 0 0 auto;
 }
 
 .nav-item {
@@ -243,6 +252,7 @@ button:disabled {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 18px;
+  min-width: 0;
 }
 
 .full,
@@ -293,6 +303,12 @@ button:disabled {
   margin-bottom: 16px;
 }
 
+.panel-heading > div,
+.topbar > div,
+.session-toolbar > div {
+  min-width: 0;
+}
+
 .panel-explainer {
   margin: -4px 0 16px;
   max-width: 78ch;
@@ -306,13 +322,14 @@ button:disabled {
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 14px;
 }
 
 .metric {
   display: grid;
   gap: 4px;
+  min-width: 0;
   min-height: 104px;
   padding: 16px;
 }
@@ -320,11 +337,14 @@ button:disabled {
 .metric span {
   color: var(--muted);
   font-size: 0.86rem;
+  line-height: 1.35;
 }
 
 .metric strong {
   font-size: 1.65rem;
   line-height: 1.1;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .section-bars,
@@ -346,9 +366,38 @@ button:disabled {
 }
 
 .section-row {
-  grid-template-columns: minmax(160px, 1.3fr) minmax(140px, 1fr) 80px;
+  grid-template-columns: minmax(220px, 1.25fr) minmax(180px, 1fr) minmax(72px, auto);
   padding: 12px 0;
   border-bottom: 1px solid var(--line);
+}
+
+.section-row > div,
+.coverage-row > div {
+  display: grid;
+  min-width: 0;
+  gap: 4px;
+}
+
+.section-row strong,
+.coverage-row strong,
+.distribution-row strong,
+.question-card h3,
+.question-workspace h3,
+.table-row span,
+.weak-item span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.section-row span,
+.coverage-row span {
+  display: block;
+  line-height: 1.35;
+}
+
+.section-row > strong {
+  justify-self: end;
+  white-space: nowrap;
 }
 
 .section-row:last-child {
@@ -356,6 +405,7 @@ button:disabled {
 }
 
 .progress {
+  min-width: 0;
   height: 10px;
   overflow: hidden;
   border-radius: 999px;
@@ -387,7 +437,7 @@ button:disabled {
 }
 
 .regulatory-stats {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   margin-bottom: 14px;
 }
 
@@ -429,6 +479,10 @@ button:disabled {
   border-bottom: 1px solid var(--line);
 }
 
+.table-row > * {
+  min-width: 0;
+}
+
 .table-row:last-child {
   border-bottom: 0;
 }
@@ -446,6 +500,7 @@ button:disabled {
 }
 
 .question-card {
+  min-width: 0;
   padding: 16px;
   box-shadow: none;
 }
@@ -460,6 +515,7 @@ button:disabled {
 .pill {
   display: inline-flex;
   align-items: center;
+  max-width: 100%;
   min-height: 24px;
   padding: 3px 8px;
   border-radius: 999px;
@@ -467,7 +523,9 @@ button:disabled {
   background: #eef2f6;
   font-size: 0.75rem;
   font-weight: 700;
+  line-height: 1.2;
   text-transform: capitalize;
+  overflow-wrap: anywhere;
 }
 
 .pill.blue {
@@ -501,6 +559,7 @@ button:disabled {
 input,
 select,
 textarea {
+  min-width: 0;
   width: 100%;
   min-height: 42px;
   border: 1px solid #cfd8e3;
@@ -584,6 +643,11 @@ button:focus-visible {
   text-align: right;
 }
 
+.coverage-counts span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
 .distribution-table {
   display: grid;
   gap: 12px;
@@ -591,7 +655,7 @@ button:focus-visible {
 
 .distribution-summary {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 12px;
 }
 
@@ -604,7 +668,7 @@ button:focus-visible {
 .distribution-header,
 .distribution-row {
   display: grid;
-  grid-template-columns: minmax(260px, 2.4fr) 92px 78px 92px 78px 88px 110px;
+  grid-template-columns: minmax(220px, 2.4fr) 90px 72px 88px 74px 86px 100px;
   gap: 12px;
   align-items: center;
 }
@@ -644,6 +708,8 @@ button:focus-visible {
 
 .distribution-row span {
   color: #475467;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .distribution-note {
@@ -674,6 +740,8 @@ button:focus-visible {
 .rationale-list li,
 .plain-list li {
   margin: 7px 0;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 .exam-rule-list {
@@ -810,6 +878,11 @@ button:focus-visible {
   color: var(--text);
   background: #fff;
   text-align: left;
+}
+
+.answer-choice span:last-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .answer-choice:hover,
@@ -992,6 +1065,10 @@ summary {
   .coverage-counts {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     text-align: left;
+  }
+
+  .section-row > strong {
+    justify-self: start;
   }
 
   .distribution-summary,
