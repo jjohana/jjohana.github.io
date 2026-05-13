@@ -23,6 +23,7 @@ Use only:
 - Dashboard with progress, section accuracy, weak subtopics, and recent sessions
 - QCM Bank browser by section, topic, and subtopic
 - Coverage matrix with sample/imported counts and coverage gaps
+- 100 active Market Knowledge QCMs covering all 7 major Market Knowledge topics
 - JSONL and CSV import/export
 - Question validation against content and taxonomy rules
 - Topic drills with difficulty and weak-subtopic prioritization
