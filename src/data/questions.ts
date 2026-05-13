@@ -4,6 +4,7 @@ import { marketKnowledgeQuestions } from "./marketQuestions";
 import { s3MarketDocxQuestions } from "./s3MarketDocxQuestions";
 import { regulatoryPdfQuestions } from "./s3RegulatoryPdfQuestions";
 import { regulatoryRemodelQuestions } from "./regulatoryQuestions";
+import { applyQuestionContentOverrides } from "./questionContentOverrides";
 import { applyQuestionQualityDefaults } from "../lib/quality";
 
 type PrivateQuestionModule = {
@@ -197,7 +198,8 @@ const baseQuestions: Question[] = [
       { id: "c", text: "66.50", isCorrect: false, rationale: "The futures price itself is not the option intrinsic value." },
       { id: "d", text: "136.50", isCorrect: false, rationale: "Adding the strike and futures price is not an intrinsic value formula." }
     ],
-    explanation: "For a put, intrinsic value is max(strike - futures price, 0).",
+    explanation:
+      "A put option has intrinsic value when its strike price is above the underlying futures price. Here the 70 put is in the money by 70.00 - 66.50 = 3.50, so the intrinsic value is 3.50. If the futures price were above the strike, the intrinsic value would be zero.",
     sourceType: "sample",
     active: true,
     createdAt
@@ -571,4 +573,4 @@ export const sampleQuestions: Question[] = uniqueQuestions([
   ...regulatoryRemodelQuestions,
   ...regulatoryPdfQuestions,
   ...privateRegulatoryQuestions
-]).map(applyQuestionQualityDefaults);
+]).map(applyQuestionContentOverrides).map(applyQuestionQualityDefaults);

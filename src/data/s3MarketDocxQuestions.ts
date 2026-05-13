@@ -1519,16 +1519,16 @@ export const s3MarketDocxQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct. Confirm Selection of Answer Confirm Confirm and Mark for Review Cancel 01 IM 2"
+        "rationale": "Correct. A spot-market shortage can push nearby cash and futures prices above more deferred futures prices, creating an inverted market."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "Incorrect. Confirm Selection of Answer Confirm Confirm and Mark for Review Cancel 01 IM 2"
+        "rationale": "Incorrect. A shortage in the spot market is a common reason for inversion because immediate supply is scarce relative to deferred supply."
       }
     ],
-    "explanation": "Confirm Selection of Answer Confirm Confirm and Mark for Review Cancel 01 IM 2",
+    "explanation": "True. A shortage in the spot market can create strong nearby demand, causing cash or nearby futures prices to trade above deferred futures prices. That price pattern is an inverted market.",
     "sourceType": "imported",
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
@@ -3215,7 +3215,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "variation-margin",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Wariation margin is the amount of ftnds paid or received by a clearing mem ber when:",
+    "stem": "Variation margin is the amount of funds paid or received by a clearing member when:",
     "choices": [
       {
         "id": "a",
@@ -4220,7 +4220,7 @@ export const s3MarketDocxQuestions: Question[] = [
         "rationale": "Incorrect. The seller of a futures contract initiates delivery"
       }
     ],
-    "explanation": "The seller of a futures contract initiates delivery",
+    "explanation": "The seller, or short, initiates delivery against a futures position by issuing the delivery notice according to exchange rules. The buyer, or long, is assigned delivery rather than initiating it.",
     "sourceType": "imported",
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
@@ -4373,7 +4373,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "variation-margin",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Wariation margin:",
+    "stem": "Variation margin:",
     "choices": [
       {
         "id": "a",
@@ -5273,28 +5273,28 @@ export const s3MarketDocxQuestions: Question[] = [
         "id": "a",
         "text": "A letter of credit.",
         "isCorrect": false,
-        "rationale": "Incorrect. Wariation margin calls on a futures account must be paid in cash."
+        "rationale": "Incorrect. Variation margin calls on a futures account must be paid in cash."
       },
       {
         "id": "b",
         "text": "Deposit of cash.",
         "isCorrect": true,
-        "rationale": "Correct. Wariation margin calls on a futures account must be paid in cash."
+        "rationale": "Correct. Variation margin calls on a futures account must be paid in cash."
       },
       {
         "id": "c",
         "text": "A warehouse receipt.",
         "isCorrect": false,
-        "rationale": "Incorrect. Wariation margin calls on a futures account must be paid in cash."
+        "rationale": "Incorrect. Variation margin calls on a futures account must be paid in cash."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": false,
-        "rationale": "Incorrect. Wariation margin calls on a futures account must be paid in cash."
+        "rationale": "Incorrect. Variation margin calls on a futures account must be paid in cash."
       }
     ],
-    "explanation": "Wariation margin calls on a futures account must be paid in cash.",
+    "explanation": "Variation margin calls on a futures account must be met with cash funds. Warehouse receipts or letters of credit are not the normal permitted payment for a futures variation margin call.",
     "sourceType": "imported",
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
@@ -7381,7 +7381,7 @@ export const s3MarketDocxQuestions: Question[] = [
       },
       {
         "id": "b",
-        "text": "Above the present price lever",
+        "text": "Above the present price level.",
         "isCorrect": true,
         "rationale": "Correct. A buy stop order is placed above the present market price: and it becomes effective only when the contract trades at or above: or is bid at or above: the stop price At such time the stop order becomes a market order."
       },
@@ -7545,7 +7545,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "market-if-touched",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "limit order to sell would be placed",
+    "stem": "A limit order to sell would be placed:",
     "choices": [
       {
         "id": "a",
@@ -7561,12 +7561,12 @@ export const s3MarketDocxQuestions: Question[] = [
       },
       {
         "id": "c",
-        "text": "Above the present price lever",
+        "text": "Above the present price level.",
         "isCorrect": true,
         "rationale": "Correct. A limit order to sell is placed above the current price."
       }
     ],
-    "explanation": "A limit order to sell is placed above the current price.",
+    "explanation": "A limit order to sell is placed above the current market price because it tells the broker to sell only at the specified limit price or better. A sell limit below the market would normally be immediately marketable rather than a resting sell limit.",
     "sourceType": "imported",
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
@@ -9520,7 +9520,7 @@ export const s3MarketDocxQuestions: Question[] = [
         "rationale": "Incorrect. A selling hedge protects an inventory against a decline in price"
       }
     ],
-    "explanation": "A selling hedge protects an inventory against a decline in price",
+    "explanation": "A selling, or short, hedge is used by someone who owns or will own the commodity and wants protection against a price decline. A dealer with unsold inventory can use a short futures hedge to reduce downside cash-price risk.",
     "sourceType": "imported",
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
@@ -10359,7 +10359,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "net-price-received-paid",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "It is January. A farmer expects to harvest 11,000 bushels of soft red winter wheat in May. Cash wheat is $3.12 and May wheat futures are $3.23. He hedges by selling two May wheat futures contracts of 5,000 bushels each. In May, he sells 11,000 bushels of cash wheat at $2.98 and covers the short futures position at $3.00. with commission costs of $0.01 per bushel on the futures hedge, what effective price did the farmer receive per bushel?",
+    "stem": "It is January. A farmer expects to harvest 11,000 bushels of soft red winter wheat in May. Cash wheat is $3.12 and May wheat futures are $3.23. He hedges by selling two May wheat futures contracts of 5,000 bushels each. In May, he sells 11,000 bushels of cash wheat at $2.98 and covers the short futures position at $3.00. with commiscommission costs of $0.01 per bushel on the futures hedge, what effective price did the farmer receive per bushel?",
     "choices": [
       {
         "text": "$3.19",
@@ -13746,7 +13746,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "gross-profit-loss",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "e speculator uses the futures markets to:",
+    "stem": "A speculator uses the futures markets to:",
     "choices": [
       {
         "id": "a",
@@ -14075,22 +14075,22 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "gross-profit-loss",
     "difficulty": "easy",
     "questionType": "true_false",
-    "stem": "imited liability is a key benefit of a commodity pool.",
+    "stem": "Limited liability is a key benefit of a commodity pool.",
     "choices": [
       {
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct. Limited hability is a key benefit of a commodity pool."
+        "rationale": "Correct. LLimited liability is a key benefit of a commodity pool."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "Incorrect. Limited hability is a key benefit of a commodity pool."
+        "rationale": "Incorrect. LLimited liability is a key benefit of a commodity pool."
       }
     ],
-    "explanation": "Limited hability is a key benefit of a commodity pool.",
+    "explanation": "LLimited liability is a key benefit of a commodity pool.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
@@ -15620,7 +15620,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "gross-profit-loss",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A speculator sells two contracts of NYSE Composite Index futures (contract size $500 x Index) at 642.10. Two pveeks later he offsets his position at 64325. His sion costs are $50 per contract What was his loss on the trade?",
+    "stem": "A speculator sells two contracts of NYSE Composite Index futures (contract size $500 x Index) at 642.10. Two weeks later he offsets his position at 64325. His commission costs are $50 per contract What was his loss on the trade?",
     "choices": [
       {
         "id": "a",
@@ -15642,7 +15642,7 @@ export const s3MarketDocxQuestions: Question[] = [
       },
       {
         "id": "d",
-        "text": "61,250",
+        "text": "$1,250",
         "isCorrect": true,
         "rationale": "Correct. Total Loss 2 (643.25 - 64210) x 500 + 2 (650) $1,250"
       }

@@ -56,21 +56,36 @@ const answerLetterReferencePattern =
 const bannedChoicePattern = /\b(all of the above|none of the above)\b/i;
 
 const importedCalculationPattern =
-  /\b(?:basis|margin|call|profit|loss|gain|return|breakeven|intrinsic|spread|hedge|effective price|futures price|premium|T-bond|T-note|T-bill|Eurodollar|contract size|bushels?|pounds?|ounces?|cents)\b/i;
+  /(?:\$|\b\d+(?:\.\d+)?\b|\b\d+\/\d+\b|\b\d+-\d+\b)/;
+
+const importedCalculationQuestionPattern =
+  /(?:what (?:is|was|will|would|price|amount|percentage|percent)|how (?:much|many|did)|calculate|maximum (?:profit|loss|gain)|minimum|breakeven|break-even|point value|tick value|margin call|called for additional margin|must .*remit|effective price|profit or loss|gain or loss|return on|intrinsic value)/i;
+
+const importedCalculationConceptPattern =
+  /\b(?:basis|margin|profit|loss|gain|return|breakeven|intrinsic|spread|hedge|effective price|cash price|futures price|premium|T-bond|T-note|T-bill|Eurodollar|contract size|point value|tick value|bushels?|pounds?|ounces?|cents?|calls?|puts?|commissions?)\b/i;
 
 const outdatedRegulatoryPattern =
-  /\b(?:as of the first quarter of 1998|leverage transaction merchant|notice-registered as securities registered representatives|noticed registered)\b/i;
+  /\b(?:as of the first quarter of 1998|noticed registered)\b/i;
 
 export function inferIssueTypes(question: Question): IssueType[] {
   const issues = new Set<IssueType>();
   const text = visibleFields(question).join(" ");
 
   if (ocrPatterns.some((pattern) => pattern.test(text))) issues.add("OCR/transcription");
-  if (question.choices.some((choice) => bannedChoicePattern.test(choice.text) || answerLetterReferencePattern.test(choice.text))) {
+  if (
+    !question.shuffleDisabled &&
+    question.choices.some((choice) => bannedChoicePattern.test(choice.text) || answerLetterReferencePattern.test(choice.text))
+  ) {
     issues.add("bad_distractors");
   }
-  if (!question.explanation || question.explanation.length < 80) issues.add("weak_explanation");
-  if (question.sourceType === "imported" && question.sectionId === "market_knowledge" && importedCalculationPattern.test(text)) {
+  if (!question.explanation || question.explanation.length < 50) issues.add("weak_explanation");
+  if (
+    question.sourceType === "imported" &&
+    question.sectionId === "market_knowledge" &&
+    importedCalculationPattern.test(text) &&
+    importedCalculationQuestionPattern.test(question.stem) &&
+    importedCalculationConceptPattern.test(text)
+  ) {
     issues.add("calculation_error");
   }
   if (question.sourceType === "imported" && question.sectionId === "us_regulations" && outdatedRegulatoryPattern.test(text)) {

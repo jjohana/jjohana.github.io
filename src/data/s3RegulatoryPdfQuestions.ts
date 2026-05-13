@@ -121,7 +121,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. (True) NFA Compliance Rule 2-4 (Just and Equitable Principles of Trade) requires that \"Members and Associates shall observe high standards of commercial honor and just and equitable principles of trade in the conduct of their commodity futures (and options) business.\""
       },
@@ -160,7 +160,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. (True) A CPO's disclosure document must provide a complete description of the manner in which a participant may redeem its interest in the pool, including how the redemption value will be calculated, the conditions under which a participant may redeem its interest (including the terms of any required notification), and any restrictions placed on the redemption."
       },
@@ -446,7 +446,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": false,
         "rationale": "Incorrect. (False) CFTC and NFA rules require a written trading authorization before discretion can be exercised over a customer's futures or options account."
       },
@@ -577,7 +577,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. NFA Members and Associates are prohibited from making individualized recommendations to those customers that the Member or Associate has or should have advised that futures trading is too risky for them."
       },
@@ -616,7 +616,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. (True) Any person, other than a commodity pool's CPO, with authority to allocate pool assets to CTAs or investee pools is known as a \"trading manager.\" CFTC Regulations require trading managers to register as commodity trading advisors."
       },
@@ -656,7 +656,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. In regard to risk disclosure, there may be instances where, for some customers, the only adequate risk disclosure is that futures trading is too risky for that customer."
       },
@@ -1028,7 +1028,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. (True) CFTC trading standards prohibit FCMs and IBs from knowingly taking. directly or indirectly, the other side of any customer order except with the customer's prior consent and in accordance with exchange rules that have been approved by the Commission."
       },
@@ -1067,7 +1067,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. Under NFA Rule 2-4 (Just and Equitable Principles of Trade) it is a violation for a Member or Associate to knowingly seek or obtain another Member's or Associate's confidential information or trade secrets."
       },
@@ -1196,7 +1196,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": false,
         "rationale": "Incorrect. (False) CFTC regulations prohibit, without exception, a CPO from commingling the funds or property of any pool that it operates or intends to operate with the property of any other person."
       },
@@ -1236,7 +1236,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": false,
         "rationale": "Incorrect. (False) While the NFA makes a distinction regarding specific content standards for written versus day-to-day routine telephone contacts, the general NFA provisions are intended to apply to all forms of communications. Accordingly. telephone contacts cannot be fraudulent, deceitful. or high-pressure in nature, and they cannot contain statements that futures trading is appropriate for all persons. NFA Rule 2-29 also covers any oral presentation or statement to customers or prospective customers. whether delivered over the telephone or in person, the substance of which is outlined or scripted in advance for delivery to customers or prospective customers."
       },
@@ -1339,7 +1339,7 @@ export const regulatoryPdfQuestions: Question[] = [
         "rationale": "Incorrect. The NFA has the power to issue subpoenas."
       }
     ],
-    "explanation": "The NFA has the power to issue subpoenas.",
+    "explanation": "True. In an NFA investigation or disciplinary matter, NFA can compel production of documents and testimony through subpoena authority, subject to its rules and applicable law.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -1742,7 +1742,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. (True) The Commodity Exchange Act and regulations require that trades be competitively executed. Any exceptions, such as exchanges of futures for product or physicals (EFPs) and transfer trades, must be done in accordance with writen exchange rules that have been approved by the CFTC."
       },
@@ -1820,7 +1820,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. (True) CFTC regulations require customer options orders to be time-stamped odn ueee pe ndaoai uodn Aepa transmittal for execution."
       },
@@ -2042,7 +2042,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. Even if there is only one AP at a location away from the firm's main business office. that location is still considered to be a branch office."
       },
@@ -2081,7 +2081,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. (True)CPO and CTA disclosure documents must review the pool's principal risk factors such as volatility, leverage, liquidity, and counterpaity creditworthiness."
       },
@@ -2344,16 +2344,16 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct. The background information system available on NFA's website is know as BASIC."
+        "rationale": "Correct. The background information system available on NFA's website is known as BASIC."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "Incorrect. The background information system available on NFA's website is know as BASIC."
+        "rationale": "Incorrect. The background information system available on NFA's website is known as BASIC."
       }
     ],
-    "explanation": "The background information system available on NFA's website is know as BASIC.",
+    "explanation": "True. NFA's public Background Affiliation Status Information Center is commonly known as BASIC and is used to look up registration and disciplinary background information.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -2670,7 +2670,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. (True) Among the items that must be disclosed in a CPO disclosure document are the types of commodity interests the CPO intends the pool to trade, along with a description of any restrictions or limitations on the trading by the CPO."
       },
@@ -2710,7 +2710,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. (True) The NFA considers its members to be responsible for the content and requirements of Rule 2-29 (Communications with the Public and Promotional Material) relating to reprints of articles used as promotional material."
       },
@@ -3176,11 +3176,11 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "disclosure-documents",
     "difficulty": "easy",
     "questionType": "true_false",
-    "stem": "In regard to disclosing the previous five years of experience in a Disclosure Document a CTA or CPO must account for all employment time gaps the exceed 90 days.",
+    "stem": "In regard to disclosing the previous five years of experience in a Disclosure Document a CTA or CPO must account for all employment time gaps that exceed 90 days.",
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": false,
         "rationale": "Incorrect. Any gaps in employment time during the previous five years must be explained."
       },
@@ -3191,7 +3191,7 @@ export const regulatoryPdfQuestions: Question[] = [
         "rationale": "Correct. Any gaps in employment time during the previous five years must be explained."
       }
     ],
-    "explanation": "Any gaps in employment time during the previous five years must be explained.",
+    "explanation": "False as written. CTA and CPO disclosure documents require disclosure of the relevant principals' business background for the required prior period, and material gaps must be explained; the question's 90-day phrasing is not the controlling statement.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -3271,7 +3271,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": false,
         "rationale": "Incorrect. The NFA requires employees ofNFA Members to notify, and to provide scren names to, their employer if the employee o n so u sdidn community."
       },
@@ -3504,7 +3504,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. Hypothetical, exiracted, pro forma, or simulated results may not be included in a Disclosure Document for any program for which the NFA Member has three or more months of actual trading results for customer Of proprietary accounts."
       },
@@ -4037,7 +4037,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. While routine day-to-day contacts with customers are not included within the definition of promotional material they are. however, subject to NFA's general antifraud provision."
       },
@@ -4381,7 +4381,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. FCMs, IBs, and their Associated Persons are prohibited from informing a customer that a Suspicious Activity Report has been filed regarding possible money laundering activity."
       },
@@ -4869,28 +4869,28 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Be commingled as long as generally accepted accounting principles are followed.",
         "isCorrect": false,
-        "rationale": "Incorrect. CFTC regulations prohibit an FCM from funds belonging to the FCM."
+        "rationale": "Incorrect. CFTC regulations prohibit an FCM from commingling customer funds with funds belonging to the FCM."
       },
       {
         "id": "b",
         "text": "Not be commingled.",
         "isCorrect": true,
-        "rationale": "Correct. CFTC regulations prohibit an FCM from funds belonging to the FCM."
+        "rationale": "Correct. CFTC regulations prohibit an FCM from commingling customer funds with funds belonging to the FCM."
       },
       {
         "id": "c",
         "text": "Be commingled only at the clearinghouse level.",
         "isCorrect": false,
-        "rationale": "Incorrect. CFTC regulations prohibit an FCM from funds belonging to the FCM."
+        "rationale": "Incorrect. CFTC regulations prohibit an FCM from commingling customer funds with funds belonging to the FCM."
       },
       {
         "id": "d",
         "text": "Be commingled only with the customer's written consent.",
         "isCorrect": false,
-        "rationale": "Incorrect. CFTC regulations prohibit an FCM from funds belonging to the FCM."
+        "rationale": "Incorrect. CFTC regulations prohibit an FCM from commingling customer funds with funds belonging to the FCM."
       }
     ],
-    "explanation": "CFTC regulations prohibit an FCM from funds belonging to the FCM.",
+    "explanation": "Customer funds required to be segregated may not be commingled with the FCM's own funds. This segregation requirement is central to FCM customer protection rules.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -4971,7 +4971,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": false,
         "rationale": "Incorrect. Research analysts cannot be under the control and supervision of the trading or clearing departments pursuant to new CFTC Regulation 1.71, which covers a number of situations regarding conflicts of interest between trading and clearing functions and research functions."
       },
@@ -5241,7 +5241,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. (True) A CPO disclosure document must identify each \"major CTA\", that is, any CTA allocated or intended to be allocated at least 10 percent of the pools funds available for commodity interest trading."
       },
@@ -7164,28 +7164,28 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Futures and options cxchangcs.",
         "isCorrect": false,
-        "rationale": "Incorrect. CFTC Regulation 1.55 prescribes the specific wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the alternative use of a CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
+        "rationale": "Incorrect. The required futures and options risk-disclosure language is prescribed by CFTC regulations. CFTC Regulation 1.55 covers the futures risk-disclosure statement, and Regulation 33.7 covers the options risk-disclosure statement."
       },
       {
         "id": "b",
         "text": "CFTC.",
         "isCorrect": true,
-        "rationale": "Correct. CFTC Regulation 1.55 prescribes the specific wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the alternative use of a CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
+        "rationale": "Correct. The required futures and options risk-disclosure language is prescribed by CFTC regulations. CFTC Regulation 1.55 covers the futures risk-disclosure statement, and Regulation 33.7 covers the options risk-disclosure statement."
       },
       {
         "id": "c",
         "text": "NFA.",
         "isCorrect": false,
-        "rationale": "Incorrect. CFTC Regulation 1.55 prescribes the specific wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the alternative use of a CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
+        "rationale": "Incorrect. The required futures and options risk-disclosure language is prescribed by CFTC regulations. CFTC Regulation 1.55 covers the futures risk-disclosure statement, and Regulation 33.7 covers the options risk-disclosure statement."
       },
       {
         "id": "d",
         "text": "FCM handling the account.",
         "isCorrect": false,
-        "rationale": "Incorrect. CFTC Regulation 1.55 prescribes the specific wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the alternative use of a CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
+        "rationale": "Incorrect. The required futures and options risk-disclosure language is prescribed by CFTC regulations. CFTC Regulation 1.55 covers the futures risk-disclosure statement, and Regulation 33.7 covers the options risk-disclosure statement."
       }
     ],
-    "explanation": "CFTC Regulation 1.55 prescribes the specific wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the alternative use of a CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries.",
+    "explanation": "CFTC Regulation 1.55 prescribes the futures risk-disclosure statement and Regulation 33.7 prescribes the options risk-disclosure statement. The test point is that the mandated risk-disclosure wording comes from CFTC regulation, not from an exchange, NFA, or an individual FCM's own wording.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -8153,7 +8153,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. NFA Rule 2-8 (Discretionary Accounts) provides that each futures trade initiated in an account that a Member or Associate has written authorization to trade shall be presumed to have been made pursuant to the trading authorization unless otherwise indicated in writing at the time the trade was made."
       },
@@ -8338,7 +8338,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "disclosure-documents",
     "difficulty": "easy",
     "questionType": "true_false",
-    "stem": "A CTAs Disclosure Document must follow a CFTC specified format.",
+    "stem": "A CTA's Disclosure Document must follow a CFTC specified format.",
     "choices": [
       {
         "id": "a",
@@ -8353,7 +8353,7 @@ export const regulatoryPdfQuestions: Question[] = [
         "rationale": "Incorrect. A CTA's Disclosure Document must follow a CFTC specified format."
       }
     ],
-    "explanation": "A CTA's Disclosure Document must follow a CFTC specified format.",
+    "explanation": "True. A CTA disclosure document must follow the required CFTC/NFA content and format rules so prospective clients receive standardized information about the advisor, risks, fees, conflicts, and performance where applicable.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -9419,7 +9419,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": false,
         "rationale": "Incorrect. No CPO may permit a commodity pool to use any means to make a direct or indirect loan or advance pool assets to the CPO or any affiliated person or entity."
       },
@@ -10169,7 +10169,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. Registration as a commodity pool operator is required if the total gross capital contributions to all of the operators pools is more than $400.000 and there are more than 15 persons in any one pool."
       },
@@ -10209,7 +10209,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": false,
         "rationale": "Incorrect. CFTC Regulations specify the order of presentation of material in a CTA Disclosure Document."
       },
@@ -10300,7 +10300,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": false,
         "rationale": "Incorrect. (False) State \"Blue Sky\" laws have been applied to the offer and sale of commodity pools. As a result, only clients in states where the offering has been registered or is exempt from registration may purchase an investment in a commodity pool."
       },
@@ -11205,7 +11205,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. CTAs and CPOs who service only high net worth clients known as \"Qualified Eligible Persons\" are exempted from various disclosure, reporting, and recordkeeping requirements."
       },
@@ -11245,7 +11245,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": true,
         "rationale": "Correct. A commodity pool includes any investment, trust, syndicate or similar form of enterprise operated for the purpose of trading commodity interests by pooling funds of customers."
       },
@@ -11439,7 +11439,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Truc",
+        "text": "True",
         "isCorrect": false,
         "rationale": "Incorrect. NFA Rule 2-35 (CPO/CTA Disclosure Documents) requires that Disclosure Documents must be as clear and concise as possible, using plain English principles."
       },

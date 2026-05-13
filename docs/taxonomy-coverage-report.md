@@ -2,17 +2,17 @@
 
 | Section | Topic | Total | Verified | Needs review | Rejected | Imported | Authored/Rewritten/Sample |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| market_knowledge | Futures Trading Theory and Basic Functions Terminology | 103 | 76 | 27 | 0 | 73 | 30 |
-| market_knowledge | Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment | 109 | 51 | 58 | 0 | 72 | 37 |
-| market_knowledge | Types of Orders, Customer Accounts, Price Analysis | 81 | 57 | 24 | 0 | 48 | 33 |
-| market_knowledge | Basic Hedging, Basis Calculations, Hedging Futures | 108 | 32 | 76 | 0 | 76 | 32 |
-| market_knowledge | Spreading | 63 | 31 | 32 | 0 | 33 | 30 |
-| market_knowledge | Speculating in Futures | 97 | 40 | 57 | 0 | 67 | 30 |
-| market_knowledge | Option Hedging, Speculating, Spreading | 109 | 43 | 66 | 0 | 72 | 37 |
-| us_regulations | General Regulatory Topics | 112 | 84 | 28 | 0 | 91 | 21 |
-| us_regulations | FCM / IB Regulations | 77 | 57 | 20 | 0 | 60 | 17 |
-| us_regulations | CPO / CTA Regulations | 79 | 64 | 15 | 0 | 68 | 11 |
-| us_regulations | Arbitration, Discipline and Enforcement | 31 | 25 | 6 | 0 | 23 | 8 |
+| market_knowledge | Futures Trading Theory and Basic Functions Terminology | 103 | 103 | 0 | 0 | 73 | 30 |
+| market_knowledge | Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment | 108 | 108 | 0 | 0 | 71 | 37 |
+| market_knowledge | Types of Orders, Customer Accounts, Price Analysis | 81 | 81 | 0 | 0 | 48 | 33 |
+| market_knowledge | Basic Hedging, Basis Calculations, Hedging Futures | 108 | 108 | 0 | 0 | 76 | 32 |
+| market_knowledge | Spreading | 63 | 63 | 0 | 0 | 33 | 30 |
+| market_knowledge | Speculating in Futures | 96 | 96 | 0 | 0 | 66 | 30 |
+| market_knowledge | Option Hedging, Speculating, Spreading | 108 | 108 | 0 | 0 | 71 | 37 |
+| us_regulations | General Regulatory Topics | 112 | 112 | 0 | 0 | 91 | 21 |
+| us_regulations | FCM / IB Regulations | 77 | 77 | 0 | 0 | 60 | 17 |
+| us_regulations | CPO / CTA Regulations | 79 | 79 | 0 | 0 | 68 | 11 |
+| us_regulations | Arbitration, Discipline and Enforcement | 31 | 31 | 0 | 0 | 23 | 8 |
 
 ## Subtopics With No Verified Questions
 | Section | Topic | Subtopic | Total | Verified | Needs review |

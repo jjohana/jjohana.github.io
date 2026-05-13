@@ -6,11 +6,14 @@
 | Near-duplicate pairs >= 0.88 | 8 |
 | Rejected duplicate questions | 3 |
 
-## Rejected Duplicate Questions
+## Rejected Questions
 | ID | Notes |
 | --- | --- |
+| s3-market-docx-131 | Rejected by calculation audit: the imported options table is corrupted and the indicated intrinsic-value answer conflicts with the formula. |
 | s3-market-docx-250 | Rejected by duplicate audit: exact duplicate of s3-market-docx-239. |
 | s3-market-docx-300 | Rejected by duplicate audit: exact duplicate of s3-market-docx-283. |
+| s3-market-docx-332 | Rejected by calculation audit: the source-indicated sugar loss subtracts commissions from a loss; no displayed answer matches the corrected loss. |
+| s3-market-docx-410 | Rejected by calculation audit: the imported options table and explanation conflict on which option has intrinsic value. |
 | s3-market-docx-443 | Rejected by duplicate audit: near-duplicate of s3-market-docx-378. |
 
 ## Exact Duplicate Groups

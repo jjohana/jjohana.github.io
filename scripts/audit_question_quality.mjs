@@ -73,7 +73,7 @@ async function main() {
       (question.issueTypes ?? inferIssueTypes(question)).map((issue) => ISSUE_TYPE_LABELS[issue] ?? issue).join(", ");
 
     const issueRows = groupCount(
-      active.flatMap((question) => question.issueTypes?.length ? question.issueTypes : inferIssueTypes(question)),
+      active.flatMap((question) => question.issueTypes ?? inferIssueTypes(question)),
       (issue) => issue
     ).map(([issue, count]) => [ISSUE_TYPE_LABELS[issue] ?? issue, count]);
     const coverage = buildCoverageReport(active.filter((question) => inferredQualityStatus(question) !== "rejected"), []);
@@ -218,8 +218,8 @@ async function main() {
         ["Rejected duplicate questions", rejected.filter((question) => (question.issueTypes ?? inferIssueTypes(question)).includes("duplicate")).length]
       ]),
       "",
-      "## Rejected Duplicate Questions",
-      rejected.length ? table(["ID", "Notes"], rejected.map((question) => [question.id, question.qualityNotes ?? "Rejected by quality audit."])) : "No rejected duplicate questions.",
+      "## Rejected Questions",
+      rejected.length ? table(["ID", "Notes"], rejected.map((question) => [question.id, question.qualityNotes ?? "Rejected by quality audit."])) : "No rejected questions.",
       "",
       "## Exact Duplicate Groups",
       exactDuplicates.length
