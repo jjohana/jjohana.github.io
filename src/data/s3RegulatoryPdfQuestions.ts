@@ -14,31 +14,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "FCMs and IBs.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
+        "rationale": "Incorrect. The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
       },
       {
         "id": "b",
         "text": "Designated exchanges.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
+        "rationale": "Incorrect. The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
       },
       {
         "id": "c",
         "text": "CTAs and CPOs.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
+        "rationale": "Incorrect. The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
       },
       {
         "id": "d",
         "text": "A, B and C.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
+        "rationale": "Incorrect. The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
       },
       {
         "id": "e",
         "text": "A and C, only",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
+        "rationale": "Correct. The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
       }
     ],
     "explanation": "The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants.",
@@ -50,7 +50,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 1; source code 10_EZ_31.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "1",
     "sourceQuestionNumber": 1,
@@ -72,25 +72,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "National Futures Association.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Futures Trading Commission, which was created in 1974, is the federal regulatory agency that oversees the U.S. futures and futures options markets."
+        "rationale": "Incorrect. The Commodity Futures Trading Commission, which was created in 1974, is the federal regulatory agency that oversees the U.S. futures and futures options markets."
       },
       {
         "id": "b",
         "text": "Commodity Futures Trading Commission.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The Commodity Futures Trading Commission, which was created in 1974, is the federal regulatory agency that oversees the U.S. futures and futures options markets."
+        "rationale": "Correct. The Commodity Futures Trading Commission, which was created in 1974, is the federal regulatory agency that oversees the U.S. futures and futures options markets."
       },
       {
         "id": "c",
         "text": "Commodity Exchange Authority.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Futures Trading Commission, which was created in 1974, is the federal regulatory agency that oversees the U.S. futures and futures options markets."
+        "rationale": "Incorrect. The Commodity Futures Trading Commission, which was created in 1974, is the federal regulatory agency that oversees the U.S. futures and futures options markets."
       },
       {
         "id": "d",
         "text": "Commodity Futures Commission.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Futures Trading Commission, which was created in 1974, is the federal regulatory agency that oversees the U.S. futures and futures options markets."
+        "rationale": "Incorrect. The Commodity Futures Trading Commission, which was created in 1974, is the federal regulatory agency that oversees the U.S. futures and futures options markets."
       }
     ],
     "explanation": "The Commodity Futures Trading Commission, which was created in 1974, is the federal regulatory agency that oversees the U.S. futures and futures options markets.",
@@ -101,7 +101,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 2; source code 10_EZ_40.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "2",
     "sourceQuestionNumber": 2,
@@ -123,13 +123,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) NFA Compliance Rule 2-4 (Just and Equitable Principles of Trade) requires that \"Members and Associates shall observe high standards of commercial honor and just and equitable principles of trade in the conduct of their commodity futures (and options) business.\""
+        "rationale": "Correct. (True) NFA Compliance Rule 2-4 (Just and Equitable Principles of Trade) requires that \"Members and Associates shall observe high standards of commercial honor and just and equitable principles of trade in the conduct of their commodity futures (and options) business.\""
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) NFA Compliance Rule 2-4 (Just and Equitable Principles of Trade) requires that \"Members and Associates shall observe high standards of commercial honor and just and equitable principles of trade in the conduct of their commodity futures (and options) business.\""
+        "rationale": "Incorrect. (True) NFA Compliance Rule 2-4 (Just and Equitable Principles of Trade) requires that \"Members and Associates shall observe high standards of commercial honor and just and equitable principles of trade in the conduct of their commodity futures (and options) business.\""
       }
     ],
     "explanation": "(True) NFA Compliance Rule 2-4 (Just and Equitable Principles of Trade) requires that \"Members and Associates shall observe high standards of commercial honor and just and equitable principles of trade in the conduct of their commodity futures (and options) business.\"",
@@ -162,13 +162,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) A CPO's disclosure document must provide a complete description of the manner in which a participant may redeem its interest in the pool, including how the redemption value will be calculated, the conditions under which a participant may redeem its interest (including the terms of any required notification), and any restrictions placed on the redemption."
+        "rationale": "Correct. (True) A CPO's disclosure document must provide a complete description of the manner in which a participant may redeem its interest in the pool, including how the redemption value will be calculated, the conditions under which a participant may redeem its interest (including the terms of any required notification), and any restrictions placed on the redemption."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) A CPO's disclosure document must provide a complete description of the manner in which a participant may redeem its interest in the pool, including how the redemption value will be calculated, the conditions under which a participant may redeem its interest (including the terms of any required notification), and any restrictions placed on the redemption."
+        "rationale": "Incorrect. (True) A CPO's disclosure document must provide a complete description of the manner in which a participant may redeem its interest in the pool, including how the redemption value will be calculated, the conditions under which a participant may redeem its interest (including the terms of any required notification), and any restrictions placed on the redemption."
       }
     ],
     "explanation": "(True) A CPO's disclosure document must provide a complete description of the manner in which a participant may redeem its interest in the pool, including how the redemption value will be calculated, the conditions under which a participant may redeem its interest (including the terms of any required notification), and any restrictions placed on the redemption.",
@@ -202,13 +202,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CFTC regulations provide that a pre- dispute resolution (arbitration) agreement may not require a customer to waive the right to file a reparations claim in accordance with CFTC rules."
+        "rationale": "Correct. (True) CFTC regulations provide that a pre- dispute resolution (arbitration) agreement may not require a customer to waive the right to file a reparations claim in accordance with CFTC rules."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CFTC regulations provide that a pre- dispute resolution (arbitration) agreement may not require a customer to waive the right to file a reparations claim in accordance with CFTC rules."
+        "rationale": "Incorrect. (True) CFTC regulations provide that a pre- dispute resolution (arbitration) agreement may not require a customer to waive the right to file a reparations claim in accordance with CFTC rules."
       }
     ],
     "explanation": "(True) CFTC regulations provide that a pre- dispute resolution (arbitration) agreement may not require a customer to waive the right to file a reparations claim in accordance with CFTC rules.",
@@ -242,13 +242,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) The NFA recognizes that, based upon information obtained from a customer, some customers may require additional risk disclosure. The NFA notes, for example, that there may be instances where, for some customers. the only adequate risk disclosure is that futures trading is too risky for that customer. Once adequate risk disclosure is given, however, the customer is free to decide whether or not to trade, and the NFA member may accept or refuse the account."
+        "rationale": "Correct. (True) The NFA recognizes that, based upon information obtained from a customer, some customers may require additional risk disclosure. The NFA notes, for example, that there may be instances where, for some customers. the only adequate risk disclosure is that futures trading is too risky for that customer. Once adequate risk disclosure is given, however, the customer is free to decide whether or not to trade, and the NFA member may accept or refuse the account."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) The NFA recognizes that, based upon information obtained from a customer, some customers may require additional risk disclosure. The NFA notes, for example, that there may be instances where, for some customers. the only adequate risk disclosure is that futures trading is too risky for that customer. Once adequate risk disclosure is given, however, the customer is free to decide whether or not to trade, and the NFA member may accept or refuse the account."
+        "rationale": "Incorrect. (True) The NFA recognizes that, based upon information obtained from a customer, some customers may require additional risk disclosure. The NFA notes, for example, that there may be instances where, for some customers. the only adequate risk disclosure is that futures trading is too risky for that customer. Once adequate risk disclosure is given, however, the customer is free to decide whether or not to trade, and the NFA member may accept or refuse the account."
       }
     ],
     "explanation": "(True) The NFA recognizes that, based upon information obtained from a customer, some customers may require additional risk disclosure. The NFA notes, for example, that there may be instances where, for some customers. the only adequate risk disclosure is that futures trading is too risky for that customer. Once adequate risk disclosure is given, however, the customer is free to decide whether or not to trade, and the NFA member may accept or refuse the account.",
@@ -282,31 +282,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "FCM.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Both FCMs and IBs are \"Intermediaries\" under the Commodity Exchange Act."
+        "rationale": "Incorrect. Both FCMs and IBs are \"Intermediaries\" under the Commodity Exchange Act."
       },
       {
         "id": "b",
         "text": "IB.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Both FCMs and IBs are \"Intermediaries\" under the Commodity Exchange Act."
+        "rationale": "Incorrect. Both FCMs and IBs are \"Intermediaries\" under the Commodity Exchange Act."
       },
       {
         "id": "c",
         "text": "Exchange.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Both FCMs and IBs are \"Intermediaries\" under the Commodity Exchange Act."
+        "rationale": "Incorrect. Both FCMs and IBs are \"Intermediaries\" under the Commodity Exchange Act."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Both FCMs and IBs are \"Intermediaries\" under the Commodity Exchange Act."
+        "rationale": "Incorrect. Both FCMs and IBs are \"Intermediaries\" under the Commodity Exchange Act."
       },
       {
         "id": "e",
         "text": "A and B only",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Both FCMs and IBs are \"Intermediaries\" under the Commodity Exchange Act."
+        "rationale": "Correct. Both FCMs and IBs are \"Intermediaries\" under the Commodity Exchange Act."
       }
     ],
     "explanation": "Both FCMs and IBs are \"Intermediaries\" under the Commodity Exchange Act.",
@@ -317,7 +317,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 7; source code 10_EZ_70.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "7",
     "sourceQuestionNumber": 7,
@@ -339,31 +339,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Revocation of registration.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act."
+        "rationale": "Incorrect. All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act."
       },
       {
         "id": "b",
         "text": "Monctary fines.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act."
+        "rationale": "Incorrect. All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act."
       },
       {
         "id": "c",
         "text": "Criminal prosecution.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act."
+        "rationale": "Incorrect. All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act."
       },
       {
         "id": "d",
         "text": "Federal court injunction.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act."
+        "rationale": "Incorrect. All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act."
       },
       {
         "id": "e",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act."
+        "rationale": "Correct. All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act."
       }
     ],
     "explanation": "All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act.",
@@ -390,31 +390,31 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "promotional-material",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "NFA Member radio, television, or intermet advertisements that make specific feference to trading profits obtained in the past or that can be achieved in the future must:",
+    "stem": "NFA Member radio, television, or internet advertisements that make specific reference to trading profits obtained in the past or that can be achieved in the future must:",
     "choices": [
       {
         "id": "a",
         "text": "Be presented by an individual who is a supervisor or who otherwise has two or More years of trading experience.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Member radio, television, or internet advertisements that make specific reference to trading profits obtained in the past or that can be achieved in the future must have prior approval of the NFA."
+        "rationale": "Incorrect. NFA Member radio, television, or internet advertisements that make specific reference to trading profits obtained in the past or that can be achieved in the future must have prior approval of the NFA."
       },
       {
         "id": "b",
         "text": "Be available for NFA review for a period of two years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Member radio, television, or internet advertisements that make specific reference to trading profits obtained in the past or that can be achieved in the future must have prior approval of the NFA."
+        "rationale": "Incorrect. NFA Member radio, television, or internet advertisements that make specific reference to trading profits obtained in the past or that can be achieved in the future must have prior approval of the NFA."
       },
       {
         "id": "c",
         "text": "Have prior approval of the NFA.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Member radio, television, or internet advertisements that make specific reference to trading profits obtained in the past or that can be achieved in the future must have prior approval of the NFA."
+        "rationale": "Correct. NFA Member radio, television, or internet advertisements that make specific reference to trading profits obtained in the past or that can be achieved in the future must have prior approval of the NFA."
       },
       {
         "id": "d",
         "text": "Be presented by a member firm with at least a three-year trading track record.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Member radio, television, or internet advertisements that make specific reference to trading profits obtained in the past or that can be achieved in the future must have prior approval of the NFA."
+        "rationale": "Incorrect. NFA Member radio, television, or internet advertisements that make specific reference to trading profits obtained in the past or that can be achieved in the future must have prior approval of the NFA."
       }
     ],
     "explanation": "NFA Member radio, television, or internet advertisements that make specific reference to trading profits obtained in the past or that can be achieved in the future must have prior approval of the NFA.",
@@ -448,13 +448,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) CFTC and NFA rules require a written trading authorization before discretion can be exercised over a customer's futures or options account."
+        "rationale": "Incorrect. (False) CFTC and NFA rules require a written trading authorization before discretion can be exercised over a customer's futures or options account."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) CFTC and NFA rules require a written trading authorization before discretion can be exercised over a customer's futures or options account."
+        "rationale": "Correct. (False) CFTC and NFA rules require a written trading authorization before discretion can be exercised over a customer's futures or options account."
       }
     ],
     "explanation": "(False) CFTC and NFA rules require a written trading authorization before discretion can be exercised over a customer's futures or options account.",
@@ -488,16 +488,16 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CFTC and NFA rules require applicants and registrants to report promptly on a Form 3-R any corrections, deficiencies, or mistakes that render inaccurate and no longer current any previously fled fegistration forms or schedules."
+        "rationale": "Correct. (True) CFTC and NFA rules require applicants and registrants to report promptly on a Form 3-R any corrections, deficiencies, or mistakes that render inaccurate and no longer current any previously fled registration forms or schedules."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CFTC and NFA rules require applicants and registrants to report promptly on a Form 3-R any corrections, deficiencies, or mistakes that render inaccurate and no longer current any previously fled fegistration forms or schedules."
+        "rationale": "Incorrect. (True) CFTC and NFA rules require applicants and registrants to report promptly on a Form 3-R any corrections, deficiencies, or mistakes that render inaccurate and no longer current any previously fled registration forms or schedules."
       }
     ],
-    "explanation": "(True) CFTC and NFA rules require applicants and registrants to report promptly on a Form 3-R any corrections, deficiencies, or mistakes that render inaccurate and no longer current any previously fled fegistration forms or schedules.",
+    "explanation": "(True) CFTC and NFA rules require applicants and registrants to report promptly on a Form 3-R any corrections, deficiencies, or mistakes that render inaccurate and no longer current any previously fled registration forms or schedules.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -521,31 +521,31 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "risk-disclosure",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "The written document that advises prospective customers ofthe substantial potential for losses in trading futures is called a:",
+    "stem": "The written document that advises prospective customers of the substantial potential for losses in trading futures is called a:",
     "choices": [
       {
         "id": "a",
         "text": "Letter of warning.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The risk-disclosure statement is a separate, CFTC-specified written disclosure that must be provided to customers and for which the FCM or IB must receive a signed and dated acknowledgment from the customer prior to opening a futures or options account. An FCM or IB may use either separate. CFTC- specified futures and options disclosure statements or a CFTC-specified combined futures and options \"generic risk-disclosure statement\" designed for use in multiple jurisdictions."
+        "rationale": "Incorrect. The risk-disclosure statement is a separate, CFTC-specified written disclosure that must be provided to customers and for which the FCM or IB must receive a signed and dated acknowledgment from the customer prior to opening a futures or options account. An FCM or IB may use either separate. CFTC- specified futures and options disclosure statements or a CFTC-specified combined futures and options \"generic risk-disclosure statement\" designed for use in multiple jurisdictions."
       },
       {
         "id": "b",
         "text": "Commodity-account agreement.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The risk-disclosure statement is a separate, CFTC-specified written disclosure that must be provided to customers and for which the FCM or IB must receive a signed and dated acknowledgment from the customer prior to opening a futures or options account. An FCM or IB may use either separate. CFTC- specified futures and options disclosure statements or a CFTC-specified combined futures and options \"generic risk-disclosure statement\" designed for use in multiple jurisdictions."
+        "rationale": "Incorrect. The risk-disclosure statement is a separate, CFTC-specified written disclosure that must be provided to customers and for which the FCM or IB must receive a signed and dated acknowledgment from the customer prior to opening a futures or options account. An FCM or IB may use either separate. CFTC- specified futures and options disclosure statements or a CFTC-specified combined futures and options \"generic risk-disclosure statement\" designed for use in multiple jurisdictions."
       },
       {
         "id": "c",
         "text": "Risk-disclosure statement.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The risk-disclosure statement is a separate, CFTC-specified written disclosure that must be provided to customers and for which the FCM or IB must receive a signed and dated acknowledgment from the customer prior to opening a futures or options account. An FCM or IB may use either separate. CFTC- specified futures and options disclosure statements or a CFTC-specified combined futures and options \"generic risk-disclosure statement\" designed for use in multiple jurisdictions."
+        "rationale": "Correct. The risk-disclosure statement is a separate, CFTC-specified written disclosure that must be provided to customers and for which the FCM or IB must receive a signed and dated acknowledgment from the customer prior to opening a futures or options account. An FCM or IB may use either separate. CFTC- specified futures and options disclosure statements or a CFTC-specified combined futures and options \"generic risk-disclosure statement\" designed for use in multiple jurisdictions."
       },
       {
         "id": "d",
         "text": "Margin agreement.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The risk-disclosure statement is a separate, CFTC-specified written disclosure that must be provided to customers and for which the FCM or IB must receive a signed and dated acknowledgment from the customer prior to opening a futures or options account. An FCM or IB may use either separate. CFTC- specified futures and options disclosure statements or a CFTC-specified combined futures and options \"generic risk-disclosure statement\" designed for use in multiple jurisdictions."
+        "rationale": "Incorrect. The risk-disclosure statement is a separate, CFTC-specified written disclosure that must be provided to customers and for which the FCM or IB must receive a signed and dated acknowledgment from the customer prior to opening a futures or options account. An FCM or IB may use either separate. CFTC- specified futures and options disclosure statements or a CFTC-specified combined futures and options \"generic risk-disclosure statement\" designed for use in multiple jurisdictions."
       }
     ],
     "explanation": "The risk-disclosure statement is a separate, CFTC-specified written disclosure that must be provided to customers and for which the FCM or IB must receive a signed and dated acknowledgment from the customer prior to opening a futures or options account. An FCM or IB may use either separate. CFTC- specified futures and options disclosure statements or a CFTC-specified combined futures and options \"generic risk-disclosure statement\" designed for use in multiple jurisdictions.",
@@ -573,22 +573,22 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cftc-registration",
     "difficulty": "medium",
     "questionType": "true_false",
-    "stem": "NFA Members and Associates are prohibited from making individualized fecommendations to those customers that the Member or Associate has or should have advised that futures trading is too risky for them.",
+    "stem": "NFA Members and Associates are prohibited from making individualized recommendations to those customers that the Member or Associate has or should have advised that futures trading is too risky for them.",
     "choices": [
       {
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Members and Associates are prohibited from making individualized fecommendations to those customers that the Member or Associate has or should have advised that futures trading is too risky for them."
+        "rationale": "Correct. NFA Members and Associates are prohibited from making individualized recommendations to those customers that the Member or Associate has or should have advised that futures trading is too risky for them."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Members and Associates are prohibited from making individualized fecommendations to those customers that the Member or Associate has or should have advised that futures trading is too risky for them."
+        "rationale": "Incorrect. NFA Members and Associates are prohibited from making individualized recommendations to those customers that the Member or Associate has or should have advised that futures trading is too risky for them."
       }
     ],
-    "explanation": "NFA Members and Associates are prohibited from making individualized fecommendations to those customers that the Member or Associate has or should have advised that futures trading is too risky for them.",
+    "explanation": "NFA Members and Associates are prohibited from making individualized recommendations to those customers that the Member or Associate has or should have advised that futures trading is too risky for them.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -596,7 +596,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 13; source code 10_EZ_74.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "13",
     "sourceQuestionNumber": 13,
@@ -618,13 +618,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) Any person, other than a commodity pool's CPO, with authority to allocate pool assets to CTAs or investee pools is known as a \"trading manager.\" CFTC Regulations require trading managers to register as commodity trading advisors."
+        "rationale": "Correct. (True) Any person, other than a commodity pool's CPO, with authority to allocate pool assets to CTAs or investee pools is known as a \"trading manager.\" CFTC Regulations require trading managers to register as commodity trading advisors."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) Any person, other than a commodity pool's CPO, with authority to allocate pool assets to CTAs or investee pools is known as a \"trading manager.\" CFTC Regulations require trading managers to register as commodity trading advisors."
+        "rationale": "Incorrect. (True) Any person, other than a commodity pool's CPO, with authority to allocate pool assets to CTAs or investee pools is known as a \"trading manager.\" CFTC Regulations require trading managers to register as commodity trading advisors."
       }
     ],
     "explanation": "(True) Any person, other than a commodity pool's CPO, with authority to allocate pool assets to CTAs or investee pools is known as a \"trading manager.\" CFTC Regulations require trading managers to register as commodity trading advisors.",
@@ -658,13 +658,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. In regard to risk disclosure, there may be instances where, for some customers, the only adequate risk disclosure is that futures trading is too risky for that customer."
+        "rationale": "Correct. In regard to risk disclosure, there may be instances where, for some customers, the only adequate risk disclosure is that futures trading is too risky for that customer."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In regard to risk disclosure, there may be instances where, for some customers, the only adequate risk disclosure is that futures trading is too risky for that customer."
+        "rationale": "Incorrect. In regard to risk disclosure, there may be instances where, for some customers, the only adequate risk disclosure is that futures trading is too risky for that customer."
       }
     ],
     "explanation": "In regard to risk disclosure, there may be instances where, for some customers, the only adequate risk disclosure is that futures trading is too risky for that customer.",
@@ -698,25 +698,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Strengthen industry self-regulation.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The NFA's goals include all of the following: (a) strengthening industry self-regulation; (b) providing uniform regulatory standards: and (c) reducing the cost of self-regulation."
+        "rationale": "Incorrect. The NFA's goals include all of the following: (a) strengthening industry self-regulation; (b) providing uniform regulatory standards: and (c) reducing the cost of self-regulation."
       },
       {
         "id": "b",
         "text": "Provide uniform regulatory standards.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The NFA's goals include all of the following: (a) strengthening industry self-regulation; (b) providing uniform regulatory standards: and (c) reducing the cost of self-regulation."
+        "rationale": "Incorrect. The NFA's goals include all of the following: (a) strengthening industry self-regulation; (b) providing uniform regulatory standards: and (c) reducing the cost of self-regulation."
       },
       {
         "id": "c",
         "text": "Reduce the cost of self-regulation.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The NFA's goals include all of the following: (a) strengthening industry self-regulation; (b) providing uniform regulatory standards: and (c) reducing the cost of self-regulation."
+        "rationale": "Incorrect. The NFA's goals include all of the following: (a) strengthening industry self-regulation; (b) providing uniform regulatory standards: and (c) reducing the cost of self-regulation."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The NFA's goals include all of the following: (a) strengthening industry self-regulation; (b) providing uniform regulatory standards: and (c) reducing the cost of self-regulation."
+        "rationale": "Correct. The NFA's goals include all of the following: (a) strengthening industry self-regulation; (b) providing uniform regulatory standards: and (c) reducing the cost of self-regulation."
       }
     ],
     "explanation": "The NFA's goals include all of the following: (a) strengthening industry self-regulation; (b) providing uniform regulatory standards: and (c) reducing the cost of self-regulation.",
@@ -749,34 +749,34 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Revoked or withdrawn.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the fegistration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor."
+        "rationale": "Incorrect. Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the registration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor."
       },
       {
         "id": "b",
         "text": "Revocation or withdrawal of the sponsor's registration.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the fegistration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor."
+        "rationale": "Incorrect. Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the registration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor."
       },
       {
         "id": "c",
         "text": "Cessation of the AP's association with the sponsoring registrant.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the fegistration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor."
+        "rationale": "Incorrect. Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the registration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor."
       },
       {
         "id": "d",
         "text": "A, B, and C.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the fegistration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor."
+        "rationale": "Correct. Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the registration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor."
       },
       {
         "id": "e",
         "text": "A and B, only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the fegistration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor."
+        "rationale": "Incorrect. Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the registration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor."
       }
     ],
-    "explanation": "Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the fegistration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor.",
+    "explanation": "Registration as an AP remains in effect until: (a) it is revoked or withdrawn; (b) the registration of the registrant's sponsor(s) is revoked or withdrawn; or (c) the registrant is no longer associated with the sponsor.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -784,7 +784,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "associated person registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 17; source code 10_EZ_37.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "17",
     "sourceQuestionNumber": 17,
@@ -806,13 +806,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) NFA Rule 2-30 (Customer Information and Risk Disclosure) is often referred to as the \"know-your-customer\" rule although, unlike some securities \"know-your- customer\" rules, Rule 2-30 does not require a member of associate to make the final determination that a customer should be barred from futures trading on suitability grounds."
+        "rationale": "Correct. (True) NFA Rule 2-30 (Customer Information and Risk Disclosure) is often referred to as the \"know-your-customer\" rule although, unlike some securities \"know-your- customer\" rules, Rule 2-30 does not require a member of associate to make the final determination that a customer should be barred from futures trading on suitability grounds."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) NFA Rule 2-30 (Customer Information and Risk Disclosure) is often referred to as the \"know-your-customer\" rule although, unlike some securities \"know-your- customer\" rules, Rule 2-30 does not require a member of associate to make the final determination that a customer should be barred from futures trading on suitability grounds."
+        "rationale": "Incorrect. (True) NFA Rule 2-30 (Customer Information and Risk Disclosure) is often referred to as the \"know-your-customer\" rule although, unlike some securities \"know-your- customer\" rules, Rule 2-30 does not require a member of associate to make the final determination that a customer should be barred from futures trading on suitability grounds."
       }
     ],
     "explanation": "(True) NFA Rule 2-30 (Customer Information and Risk Disclosure) is often referred to as the \"know-your-customer\" rule although, unlike some securities \"know-your- customer\" rules, Rule 2-30 does not require a member of associate to make the final determination that a customer should be barred from futures trading on suitability grounds.",
@@ -846,13 +846,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CFTC regulations permit the use of the multi-jurisdictional \"generic risk- disclosure statement' in lieu of separate futures and commodity options risk- disclosure statements."
+        "rationale": "Correct. (True) CFTC regulations permit the use of the multi-jurisdictional \"generic risk- disclosure statement' in lieu of separate futures and commodity options risk- disclosure statements."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CFTC regulations permit the use of the multi-jurisdictional \"generic risk- disclosure statement' in lieu of separate futures and commodity options risk- disclosure statements."
+        "rationale": "Incorrect. (True) CFTC regulations permit the use of the multi-jurisdictional \"generic risk- disclosure statement' in lieu of separate futures and commodity options risk- disclosure statements."
       }
     ],
     "explanation": "(True) CFTC regulations permit the use of the multi-jurisdictional \"generic risk- disclosure statement' in lieu of separate futures and commodity options risk- disclosure statements.",
@@ -886,16 +886,16 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Members are required to at least annually reffesh active customer information and reassess appropriate risk disclosure, including a determination of whether futures trading is too risky for the customer, based on any materially changed information."
+        "rationale": "Incorrect. NFA Members are required to at least annually refresh active customer information and reassess appropriate risk disclosure, including a determination of whether futures trading is too risky for the customer, based on any materially changed information."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Members are required to at least annually reffesh active customer information and reassess appropriate risk disclosure, including a determination of whether futures trading is too risky for the customer, based on any materially changed information."
+        "rationale": "Correct. NFA Members are required to at least annually refresh active customer information and reassess appropriate risk disclosure, including a determination of whether futures trading is too risky for the customer, based on any materially changed information."
       }
     ],
-    "explanation": "NFA Members are required to at least annually reffesh active customer information and reassess appropriate risk disclosure, including a determination of whether futures trading is too risky for the customer, based on any materially changed information.",
+    "explanation": "NFA Members are required to at least annually refresh active customer information and reassess appropriate risk disclosure, including a determination of whether futures trading is too risky for the customer, based on any materially changed information.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -926,25 +926,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "At least three years of actual client trading results.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Hypothetical trading results may not be presented for any trading program that has at least three months of actual client or proprietary trading results."
+        "rationale": "Incorrect. Hypothetical trading results may not be presented for any trading program that has at least three months of actual client or proprietary trading results."
       },
       {
         "id": "b",
         "text": "At least threc months of actual client or proprietary trading results.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Hypothetical trading results may not be presented for any trading program that has at least three months of actual client or proprietary trading results."
+        "rationale": "Correct. Hypothetical trading results may not be presented for any trading program that has at least three months of actual client or proprietary trading results."
       },
       {
         "id": "c",
         "text": "At least six months of client, but not proprietary trading results.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Hypothetical trading results may not be presented for any trading program that has at least three months of actual client or proprietary trading results."
+        "rationale": "Incorrect. Hypothetical trading results may not be presented for any trading program that has at least three months of actual client or proprietary trading results."
       },
       {
         "id": "d",
         "text": "At least six months of client or proprietary trading results.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Hypothetical trading results may not be presented for any trading program that has at least three months of actual client or proprietary trading results."
+        "rationale": "Incorrect. Hypothetical trading results may not be presented for any trading program that has at least three months of actual client or proprietary trading results."
       }
     ],
     "explanation": "Hypothetical trading results may not be presented for any trading program that has at least three months of actual client or proprietary trading results.",
@@ -978,25 +978,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Funds on deposit.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Customer funds include funds on deposit, open trade equity, and open option value."
+        "rationale": "Incorrect. Customer funds include funds on deposit, open trade equity, and open option value."
       },
       {
         "id": "b",
         "text": "Open trade cquity.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Customer funds include funds on deposit, open trade equity, and open option value."
+        "rationale": "Incorrect. Customer funds include funds on deposit, open trade equity, and open option value."
       },
       {
         "id": "c",
         "text": "Open option value.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Customer funds include funds on deposit, open trade equity, and open option value."
+        "rationale": "Incorrect. Customer funds include funds on deposit, open trade equity, and open option value."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Customer funds include funds on deposit, open trade equity, and open option value."
+        "rationale": "Correct. Customer funds include funds on deposit, open trade equity, and open option value."
       }
     ],
     "explanation": "Customer funds include funds on deposit, open trade equity, and open option value.",
@@ -1030,13 +1030,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CFTC trading standards prohibit FCMs and IBs from knowingly taking. directly or indirectly, the other side of any customer order except with the customer's prior consent and in accordance with exchange rules that have been approved by the Commission."
+        "rationale": "Correct. (True) CFTC trading standards prohibit FCMs and IBs from knowingly taking. directly or indirectly, the other side of any customer order except with the customer's prior consent and in accordance with exchange rules that have been approved by the Commission."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CFTC trading standards prohibit FCMs and IBs from knowingly taking. directly or indirectly, the other side of any customer order except with the customer's prior consent and in accordance with exchange rules that have been approved by the Commission."
+        "rationale": "Incorrect. (True) CFTC trading standards prohibit FCMs and IBs from knowingly taking. directly or indirectly, the other side of any customer order except with the customer's prior consent and in accordance with exchange rules that have been approved by the Commission."
       }
     ],
     "explanation": "(True) CFTC trading standards prohibit FCMs and IBs from knowingly taking. directly or indirectly, the other side of any customer order except with the customer's prior consent and in accordance with exchange rules that have been approved by the Commission.",
@@ -1069,13 +1069,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Under NFA Rule 2-4 (Just and Equitable Principles of Trade) it is a violation for a Member or Associate to knowingly seek or obtain another Member's or Associate's confidential information or trade secrets."
+        "rationale": "Correct. Under NFA Rule 2-4 (Just and Equitable Principles of Trade) it is a violation for a Member or Associate to knowingly seek or obtain another Member's or Associate's confidential information or trade secrets."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Under NFA Rule 2-4 (Just and Equitable Principles of Trade) it is a violation for a Member or Associate to knowingly seek or obtain another Member's or Associate's confidential information or trade secrets."
+        "rationale": "Incorrect. Under NFA Rule 2-4 (Just and Equitable Principles of Trade) it is a violation for a Member or Associate to knowingly seek or obtain another Member's or Associate's confidential information or trade secrets."
       }
     ],
     "explanation": "Under NFA Rule 2-4 (Just and Equitable Principles of Trade) it is a violation for a Member or Associate to knowingly seek or obtain another Member's or Associate's confidential information or trade secrets.",
@@ -1108,13 +1108,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) An IB must satisfy either the NFA's minimum financial requirements or operate pursuant to a satisfactory guarantee agreement from an FCM carrying broker."
+        "rationale": "Correct. (True) An IB must satisfy either the NFA's minimum financial requirements or operate pursuant to a satisfactory guarantee agreement from an FCM carrying broker."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) An IB must satisfy either the NFA's minimum financial requirements or operate pursuant to a satisfactory guarantee agreement from an FCM carrying broker."
+        "rationale": "Incorrect. (True) An IB must satisfy either the NFA's minimum financial requirements or operate pursuant to a satisfactory guarantee agreement from an FCM carrying broker."
       }
     ],
     "explanation": "(True) An IB must satisfy either the NFA's minimum financial requirements or operate pursuant to a satisfactory guarantee agreement from an FCM carrying broker.",
@@ -1147,28 +1147,28 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Decide who is right as well as the amount of any claim to be paid.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Mediators woik together with the parties to try to find a mutually agreeable solution between the parties."
+        "rationale": "Incorrect. Mediators work together with the parties to try to find a mutually agreeable solution between the parties."
       },
       {
         "id": "b",
         "text": "Decide the amount to be made after the parties have deteimined who is right.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Mediators woik together with the parties to try to find a mutually agreeable solution between the parties."
+        "rationale": "Incorrect. Mediators work together with the parties to try to find a mutually agreeable solution between the parties."
       },
       {
         "id": "c",
         "text": "Work together with the parties to try to find a mutually agreeable solution between the parties.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Mediators woik together with the parties to try to find a mutually agreeable solution between the parties."
+        "rationale": "Correct. Mediators work together with the parties to try to find a mutually agreeable solution between the parties."
       },
       {
         "id": "d",
         "text": "Provide an evaluation of the case in order for the parties to decide whether or not to arbitrate the claim.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Mediators woik together with the parties to try to find a mutually agreeable solution between the parties."
+        "rationale": "Incorrect. Mediators work together with the parties to try to find a mutually agreeable solution between the parties."
       }
     ],
-    "explanation": "Mediators woik together with the parties to try to find a mutually agreeable solution between the parties.",
+    "explanation": "Mediators work together with the parties to try to find a mutually agreeable solution between the parties.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -1192,19 +1192,19 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cpo-regulations",
     "difficulty": "hard",
     "questionType": "true_false",
-    "stem": "With a few, limited exceptions, a CPO may not commingle the funds or property of any pool that it operates or that it intends to operate with the property of any other person.",
+    "stem": "with a few, limited exceptions, a CPO may not commingle the funds or property of any pool that it operates or that it intends to operate with the property of any other person.",
     "choices": [
       {
         "id": "a",
         "text": "Truc",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) CFTC regulations prohibit, without exception, a CPO from commingling the funds or property of any pool that it operates or intends to operate with the property of any other person."
+        "rationale": "Incorrect. (False) CFTC regulations prohibit, without exception, a CPO from commingling the funds or property of any pool that it operates or intends to operate with the property of any other person."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) CFTC regulations prohibit, without exception, a CPO from commingling the funds or property of any pool that it operates or intends to operate with the property of any other person."
+        "rationale": "Correct. (False) CFTC regulations prohibit, without exception, a CPO from commingling the funds or property of any pool that it operates or intends to operate with the property of any other person."
       }
     ],
     "explanation": "(False) CFTC regulations prohibit, without exception, a CPO from commingling the funds or property of any pool that it operates or intends to operate with the property of any other person.",
@@ -1238,16 +1238,16 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) While the NFA makes a distinction regarding specific content standards for written versus day-to-day routine telephone contacts, the general NFA provisions are intended to apply to ali forms of communications. Accordingly. telephone contacts cannot be fraudulent, deceitful. or high-pressure in nature, and they cannot contain statements that futures trading is appropriate for all persons. NFA Rule 2-29 also covers any oral presentation or statement to customers or prospective customers. whether delivered over the telephone or in person, the substance of which is outlined or scripted in advance for delivery to customers or prospective customers."
+        "rationale": "Incorrect. (False) While the NFA makes a distinction regarding specific content standards for written versus day-to-day routine telephone contacts, the general NFA provisions are intended to apply to all forms of communications. Accordingly. telephone contacts cannot be fraudulent, deceitful. or high-pressure in nature, and they cannot contain statements that futures trading is appropriate for all persons. NFA Rule 2-29 also covers any oral presentation or statement to customers or prospective customers. whether delivered over the telephone or in person, the substance of which is outlined or scripted in advance for delivery to customers or prospective customers."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) While the NFA makes a distinction regarding specific content standards for written versus day-to-day routine telephone contacts, the general NFA provisions are intended to apply to ali forms of communications. Accordingly. telephone contacts cannot be fraudulent, deceitful. or high-pressure in nature, and they cannot contain statements that futures trading is appropriate for all persons. NFA Rule 2-29 also covers any oral presentation or statement to customers or prospective customers. whether delivered over the telephone or in person, the substance of which is outlined or scripted in advance for delivery to customers or prospective customers."
+        "rationale": "Correct. (False) While the NFA makes a distinction regarding specific content standards for written versus day-to-day routine telephone contacts, the general NFA provisions are intended to apply to all forms of communications. Accordingly. telephone contacts cannot be fraudulent, deceitful. or high-pressure in nature, and they cannot contain statements that futures trading is appropriate for all persons. NFA Rule 2-29 also covers any oral presentation or statement to customers or prospective customers. whether delivered over the telephone or in person, the substance of which is outlined or scripted in advance for delivery to customers or prospective customers."
       }
     ],
-    "explanation": "(False) While the NFA makes a distinction regarding specific content standards for written versus day-to-day routine telephone contacts, the general NFA provisions are intended to apply to ali forms of communications. Accordingly. telephone contacts cannot be fraudulent, deceitful. or high-pressure in nature, and they cannot contain statements that futures trading is appropriate for all persons. NFA Rule 2-29 also covers any oral presentation or statement to customers or prospective customers. whether delivered over the telephone or in person, the substance of which is outlined or scripted in advance for delivery to customers or prospective customers.",
+    "explanation": "(False) While the NFA makes a distinction regarding specific content standards for written versus day-to-day routine telephone contacts, the general NFA provisions are intended to apply to all forms of communications. Accordingly. telephone contacts cannot be fraudulent, deceitful. or high-pressure in nature, and they cannot contain statements that futures trading is appropriate for all persons. NFA Rule 2-29 also covers any oral presentation or statement to customers or prospective customers. whether delivered over the telephone or in person, the substance of which is outlined or scripted in advance for delivery to customers or prospective customers.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -1278,25 +1278,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Has been submitted to and approved by the NFA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any hypothetical performance results used by an NFA Member must have the disclaimer specified in NFA Rule 2-29."
+        "rationale": "Incorrect. Any hypothetical performance results used by an NFA Member must have the disclaimer specified in NFA Rule 2-29."
       },
       {
         "id": "b",
         "text": "Is reasonably designed to inform the customer that the trading results are hypothetical.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any hypothetical performance results used by an NFA Member must have the disclaimer specified in NFA Rule 2-29."
+        "rationale": "Incorrect. Any hypothetical performance results used by an NFA Member must have the disclaimer specified in NFA Rule 2-29."
       },
       {
         "id": "c",
         "text": "Is specified in NFA Rules.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Any hypothetical performance results used by an NFA Member must have the disclaimer specified in NFA Rule 2-29."
+        "rationale": "Correct. Any hypothetical performance results used by an NFA Member must have the disclaimer specified in NFA Rule 2-29."
       },
       {
         "id": "d",
         "text": "Is one of three different disclaimer examples contained in CFTC guidelines.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any hypothetical performance results used by an NFA Member must have the disclaimer specified in NFA Rule 2-29."
+        "rationale": "Incorrect. Any hypothetical performance results used by an NFA Member must have the disclaimer specified in NFA Rule 2-29."
       }
     ],
     "explanation": "Any hypothetical performance results used by an NFA Member must have the disclaimer specified in NFA Rule 2-29.",
@@ -1330,13 +1330,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The NFA has the power to issue subpoenas."
+        "rationale": "Correct. The NFA has the power to issue subpoenas."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The NFA has the power to issue subpoenas."
+        "rationale": "Incorrect. The NFA has the power to issue subpoenas."
       }
     ],
     "explanation": "The NFA has the power to issue subpoenas.",
@@ -1347,7 +1347,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 30; source code 10_EZ_66.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "30",
     "sourceQuestionNumber": 30,
@@ -1369,16 +1369,16 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) A party to an NFA aibitration may be represented at any time throughout the arbitration proceeding. including a mediation conference, by an attorney or other representative."
+        "rationale": "Correct. (True) A party to an NFA arbitration may be represented at any time throughout the arbitration proceeding. including a mediation conference, by an attorney or other representative."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) A party to an NFA aibitration may be represented at any time throughout the arbitration proceeding. including a mediation conference, by an attorney or other representative."
+        "rationale": "Incorrect. (True) A party to an NFA arbitration may be represented at any time throughout the arbitration proceeding. including a mediation conference, by an attorney or other representative."
       }
     ],
-    "explanation": "(True) A party to an NFA aibitration may be represented at any time throughout the arbitration proceeding. including a mediation conference, by an attorney or other representative.",
+    "explanation": "(True) A party to an NFA arbitration may be represented at any time throughout the arbitration proceeding. including a mediation conference, by an attorney or other representative.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -1406,27 +1406,27 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Immediately upon receipt.",
+        "text": "immediately upon receipt.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC Regulation 1.35 requires futures and options orders to be prepared in writing and time-stamped immediately upon receipt from the customer."
+        "rationale": "Correct. CFTC Regulation 1.35 requires futures and options orders to be prepared in writing and time-stamped immediately upon receipt from the customer."
       },
       {
         "id": "b",
         "text": "Upon transmission of the confirmation to the client.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.35 requires futures and options orders to be prepared in writing and time-stamped immediately upon receipt from the customer."
+        "rationale": "Incorrect. CFTC Regulation 1.35 requires futures and options orders to be prepared in writing and time-stamped immediately upon receipt from the customer."
       },
       {
         "id": "c",
         "text": "Prior to the close of business.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.35 requires futures and options orders to be prepared in writing and time-stamped immediately upon receipt from the customer."
+        "rationale": "Incorrect. CFTC Regulation 1.35 requires futures and options orders to be prepared in writing and time-stamped immediately upon receipt from the customer."
       },
       {
         "id": "d",
         "text": "Upon confirmation of the order execution from the floor.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.35 requires futures and options orders to be prepared in writing and time-stamped immediately upon receipt from the customer."
+        "rationale": "Incorrect. CFTC Regulation 1.35 requires futures and options orders to be prepared in writing and time-stamped immediately upon receipt from the customer."
       }
     ],
     "explanation": "CFTC Regulation 1.35 requires futures and options orders to be prepared in writing and time-stamped immediately upon receipt from the customer.",
@@ -1459,34 +1459,34 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Specific customer instructions as to the precise commodity interest and amount to bc purchased or sold",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Rule 166.2 (Authorization to Trade) fequires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold."
+        "rationale": "Incorrect. CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold."
       },
       {
         "id": "b",
         "text": "A written discretionary account trading authorization",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Rule 166.2 (Authorization to Trade) fequires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold."
+        "rationale": "Incorrect. CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold."
       },
       {
         "id": "c",
         "text": "General instructions as to which commodity to trade",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Rule 166.2 (Authorization to Trade) fequires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold."
+        "rationale": "Incorrect. CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold."
       },
       {
         "id": "d",
         "text": "Any of the above",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Rule 166.2 (Authorization to Trade) fequires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold."
+        "rationale": "Incorrect. CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold."
       },
       {
         "id": "e",
         "text": "A orB",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC Rule 166.2 (Authorization to Trade) fequires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold."
+        "rationale": "Correct. CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold."
       }
     ],
-    "explanation": "CFTC Rule 166.2 (Authorization to Trade) fequires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold.",
+    "explanation": "CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, of any of their APs to have either specific authorization for each order or to have a written trading. authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be purchased or sold.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -1495,7 +1495,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "discretionary accounts",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 33; source code 10_EZ_56.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "33",
     "sourceQuestionNumber": 33,
@@ -1517,13 +1517,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In contrast to FCMs and IBs who must notice register with the SEC if they are not already registered as securities broker-dealers, APs of FCMs and IBs registered with NFA do not also require registration with a securities industry SRO such as FINRA."
+        "rationale": "Incorrect. In contrast to FCMs and IBs who must notice register with the SEC if they are not already registered as securities broker-dealers, APs of FCMs and IBs registered with NFA do not also require registration with a securities industry SRO such as FINRA."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. In contrast to FCMs and IBs who must notice register with the SEC if they are not already registered as securities broker-dealers, APs of FCMs and IBs registered with NFA do not also require registration with a securities industry SRO such as FINRA."
+        "rationale": "Correct. In contrast to FCMs and IBs who must notice register with the SEC if they are not already registered as securities broker-dealers, APs of FCMs and IBs registered with NFA do not also require registration with a securities industry SRO such as FINRA."
       }
     ],
     "explanation": "In contrast to FCMs and IBs who must notice register with the SEC if they are not already registered as securities broker-dealers, APs of FCMs and IBs registered with NFA do not also require registration with a securities industry SRO such as FINRA.",
@@ -1556,13 +1556,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) NFA Bylaws require a person associated with an NFA member (Associated Person) to be registered with the NFA as an associate, or if applicable, as a member."
+        "rationale": "Correct. (True) NFA Bylaws require a person associated with an NFA member (Associated Person) to be registered with the NFA as an associate, or if applicable, as a member."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) NFA Bylaws require a person associated with an NFA member (Associated Person) to be registered with the NFA as an associate, or if applicable, as a member."
+        "rationale": "Incorrect. (True) NFA Bylaws require a person associated with an NFA member (Associated Person) to be registered with the NFA as an associate, or if applicable, as a member."
       }
     ],
     "explanation": "(True) NFA Bylaws require a person associated with an NFA member (Associated Person) to be registered with the NFA as an associate, or if applicable, as a member.",
@@ -1595,25 +1595,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Unauthorized trading.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Churning. which is a violation of the CFTC's antifraud provisions, is generally defined as the excessive trading of an account by a broker primarily for the purpose of generating commissions."
+        "rationale": "Incorrect. Churning. which is a violation of the CFTC's antifraud provisions, is generally defined as the excessive trading of an account by a broker primarily for the purpose of generating commissions."
       },
       {
         "id": "b",
         "text": "Chuming.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Churning. which is a violation of the CFTC's antifraud provisions, is generally defined as the excessive trading of an account by a broker primarily for the purpose of generating commissions."
+        "rationale": "Correct. Churning. which is a violation of the CFTC's antifraud provisions, is generally defined as the excessive trading of an account by a broker primarily for the purpose of generating commissions."
       },
       {
         "id": "c",
         "text": "Front running.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Churning. which is a violation of the CFTC's antifraud provisions, is generally defined as the excessive trading of an account by a broker primarily for the purpose of generating commissions."
+        "rationale": "Incorrect. Churning. which is a violation of the CFTC's antifraud provisions, is generally defined as the excessive trading of an account by a broker primarily for the purpose of generating commissions."
       },
       {
         "id": "d",
         "text": "Self dealing.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Churning. which is a violation of the CFTC's antifraud provisions, is generally defined as the excessive trading of an account by a broker primarily for the purpose of generating commissions."
+        "rationale": "Incorrect. Churning. which is a violation of the CFTC's antifraud provisions, is generally defined as the excessive trading of an account by a broker primarily for the purpose of generating commissions."
       }
     ],
     "explanation": "Churning. which is a violation of the CFTC's antifraud provisions, is generally defined as the excessive trading of an account by a broker primarily for the purpose of generating commissions.",
@@ -1646,13 +1646,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True)NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that any presentation of hypothetical results must, among other requirements, be accompanied by the NFA-prescribed disclaimer."
+        "rationale": "Correct. (True)NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that any presentation of hypothetical results must, among other requirements, be accompanied by the NFA-prescribed disclaimer."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True)NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that any presentation of hypothetical results must, among other requirements, be accompanied by the NFA-prescribed disclaimer."
+        "rationale": "Incorrect. (True)NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that any presentation of hypothetical results must, among other requirements, be accompanied by the NFA-prescribed disclaimer."
       }
     ],
     "explanation": "(True)NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that any presentation of hypothetical results must, among other requirements, be accompanied by the NFA-prescribed disclaimer.",
@@ -1686,34 +1686,34 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Futures Commission Merchant",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: With the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category."
+        "rationale": "Incorrect. with the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category."
       },
       {
         "id": "b",
         "text": "Commodity Trading Advisor",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: With the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category."
+        "rationale": "Incorrect. with the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category."
       },
       {
         "id": "c",
         "text": "Commodity Pool Operator",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: With the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category."
+        "rationale": "Incorrect. with the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category."
       },
       {
         "id": "d",
         "text": "Financial Planner",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. With the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category."
+        "rationale": "Correct. with the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category."
       },
       {
         "id": "e",
         "text": "Introducing Broker",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: With the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category."
+        "rationale": "Incorrect. with the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category."
       }
     ],
-    "explanation": "With the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category.",
+    "explanation": "with the exception of financial planner, all other listed categories (FCM, CTA, CPO, and IB) as well as Associated Persons, Floor Brokers, Floor Traders, and Leverage Transaction Merchants, are CFTC registration categories. A financial planner who also acts in any of the above capacities. such as a CTA, would be required to register in that particular category.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -1738,19 +1738,19 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cftc-registration",
     "difficulty": "hard",
     "questionType": "true_false",
-    "stem": "All trades on an exchange (contract market) must be competitively executed or Otherwise executed in accordance with written rules ofthe exchange that have been approved by the CFTC.",
+    "stem": "All trades on an exchange (contract market) must be competitively executed or Otherwise executed in accordance with written rules of the exchange that have been approved by the CFTC.",
     "choices": [
       {
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) The Commodity Exchange Act and regulations require that trades be competitively executed. Any exceptions, such as exchanges of futures for product or physicals (EFPs) and transfer trades, must be done in accordance with writen exchange rules that have been approved by the CFTC."
+        "rationale": "Correct. (True) The Commodity Exchange Act and regulations require that trades be competitively executed. Any exceptions, such as exchanges of futures for product or physicals (EFPs) and transfer trades, must be done in accordance with writen exchange rules that have been approved by the CFTC."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) The Commodity Exchange Act and regulations require that trades be competitively executed. Any exceptions, such as exchanges of futures for product or physicals (EFPs) and transfer trades, must be done in accordance with writen exchange rules that have been approved by the CFTC."
+        "rationale": "Incorrect. (True) The Commodity Exchange Act and regulations require that trades be competitively executed. Any exceptions, such as exchanges of futures for product or physicals (EFPs) and transfer trades, must be done in accordance with writen exchange rules that have been approved by the CFTC."
       }
     ],
     "explanation": "(True) The Commodity Exchange Act and regulations require that trades be competitively executed. Any exceptions, such as exchanges of futures for product or physicals (EFPs) and transfer trades, must be done in accordance with writen exchange rules that have been approved by the CFTC.",
@@ -1783,13 +1783,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True)Registrants must give written notification to the NFA regarding any change of address while registered and for two years following termination of registration."
+        "rationale": "Correct. (True)Registrants must give written notification to the NFA regarding any change of address while registered and for two years following termination of registration."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True)Registrants must give written notification to the NFA regarding any change of address while registered and for two years following termination of registration."
+        "rationale": "Incorrect. (True)Registrants must give written notification to the NFA regarding any change of address while registered and for two years following termination of registration."
       }
     ],
     "explanation": "(True)Registrants must give written notification to the NFA regarding any change of address while registered and for two years following termination of registration.",
@@ -1800,7 +1800,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 40; source code 10_EZ_21.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "40",
     "sourceQuestionNumber": 40,
@@ -1822,13 +1822,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CFTC regulations require customer options orders to be time-stamped odn ueee pe ndaoai uodn Aepa transmittal for execution."
+        "rationale": "Correct. (True) CFTC regulations require customer options orders to be time-stamped odn ueee pe ndaoai uodn Aepa transmittal for execution."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CFTC regulations require customer options orders to be time-stamped odn ueee pe ndaoai uodn Aepa transmittal for execution."
+        "rationale": "Incorrect. (True) CFTC regulations require customer options orders to be time-stamped odn ueee pe ndaoai uodn Aepa transmittal for execution."
       }
     ],
     "explanation": "(True) CFTC regulations require customer options orders to be time-stamped odn ueee pe ndaoai uodn Aepa transmittal for execution.",
@@ -1840,7 +1840,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "concept": "time-stamping and order records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 41; source code 10_EZ_45.",
     "reviewStatus": "reviewed",
-    "extractionConfidence": "medium",
+    "extractionConfidence": "high",
     "sourcePageRange": "41",
     "sourceQuestionNumber": 41,
     "sourceCode": "10_EZ_45",
@@ -1861,25 +1861,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Operates as a fraud or deceit.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) contains a general prohibition against members or associates making any communication with the public that: (1) operates as a fraud or deceit: (2) employs or is part of a high- pressure approach; or (3) makes any statement that futures trading is appropriate for all persons."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) contains a general prohibition against members or associates making any communication with the public that: (1) operates as a fraud or deceit: (2) employs or is part of a high- pressure approach; or (3) makes any statement that futures trading is appropriate for all persons."
       },
       {
         "id": "b",
-        "text": "Employs or is pat of a high pressure approach. Ssrd fe r e si n s s ae s",
+        "text": "Employs or is part of a high-pressure approach.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) contains a general prohibition against members or associates making any communication with the public that: (1) operates as a fraud or deceit: (2) employs or is part of a high- pressure approach; or (3) makes any statement that futures trading is appropriate for all persons."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) contains a general prohibition against members or associates making any communication with the public that: (1) operates as a fraud or deceit: (2) employs or is part of a high- pressure approach; or (3) makes any statement that futures trading is appropriate for all persons."
       },
       {
         "id": "d",
         "text": "A, B and C.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-29 (Communications with the Public and Promotional Material) contains a general prohibition against members or associates making any communication with the public that: (1) operates as a fraud or deceit: (2) employs or is part of a high- pressure approach; or (3) makes any statement that futures trading is appropriate for all persons."
+        "rationale": "Correct. NFA Rule 2-29 (Communications with the Public and Promotional Material) contains a general prohibition against members or associates making any communication with the public that: (1) operates as a fraud or deceit: (2) employs or is part of a high- pressure approach; or (3) makes any statement that futures trading is appropriate for all persons."
       },
       {
         "id": "e",
-        "text": "A and B. only.",
+        "text": "A and B only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) contains a general prohibition against members or associates making any communication with the public that: (1) operates as a fraud or deceit: (2) employs or is part of a high- pressure approach; or (3) makes any statement that futures trading is appropriate for all persons."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) contains a general prohibition against members or associates making any communication with the public that: (1) operates as a fraud or deceit: (2) employs or is part of a high- pressure approach; or (3) makes any statement that futures trading is appropriate for all persons."
       }
     ],
     "explanation": "NFA Rule 2-29 (Communications with the Public and Promotional Material) contains a general prohibition against members or associates making any communication with the public that: (1) operates as a fraud or deceit: (2) employs or is part of a high- pressure approach; or (3) makes any statement that futures trading is appropriate for all persons.",
@@ -1891,8 +1891,8 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 42; source code 10_EZ_24.",
-    "reviewStatus": "needs_review",
-    "extractionConfidence": "medium",
+    "reviewStatus": "reviewed",
+    "extractionConfidence": "high",
     "sourcePageRange": "42",
     "sourceQuestionNumber": 42,
     "sourceCode": "10_EZ_24",
@@ -1913,13 +1913,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) CFTC regulations require that all customer funds received by an FCM be segregated and accounted for separately from the firm's proprietary funds. The account in Which customer funds are deposited must be clearly identified and acknowledged as a customer segregated funds account."
+        "rationale": "Incorrect. (False) CFTC regulations require that all customer funds received by an FCM be segregated and accounted for separately from the firm's proprietary funds. The account in Which customer funds are deposited must be clearly identified and acknowledged as a customer segregated funds account."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) CFTC regulations require that all customer funds received by an FCM be segregated and accounted for separately from the firm's proprietary funds. The account in Which customer funds are deposited must be clearly identified and acknowledged as a customer segregated funds account."
+        "rationale": "Correct. (False) CFTC regulations require that all customer funds received by an FCM be segregated and accounted for separately from the firm's proprietary funds. The account in Which customer funds are deposited must be clearly identified and acknowledged as a customer segregated funds account."
       }
     ],
     "explanation": "(False) CFTC regulations require that all customer funds received by an FCM be segregated and accounted for separately from the firm's proprietary funds. The account in Which customer funds are deposited must be clearly identified and acknowledged as a customer segregated funds account.",
@@ -1953,25 +1953,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Business conduct committee.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA complaints that result in a hearing are heard by the NFA hearing committee or a hearing panel."
+        "rationale": "Incorrect. NFA complaints that result in a hearing are heard by the NFA hearing committee or a hearing panel."
       },
       {
         "id": "b",
         "text": "Board of directors.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA complaints that result in a hearing are heard by the NFA hearing committee or a hearing panel."
+        "rationale": "Incorrect. NFA complaints that result in a hearing are heard by the NFA hearing committee or a hearing panel."
       },
       {
         "id": "c",
         "text": "Compliance office.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA complaints that result in a hearing are heard by the NFA hearing committee or a hearing panel."
+        "rationale": "Incorrect. NFA complaints that result in a hearing are heard by the NFA hearing committee or a hearing panel."
       },
       {
         "id": "d",
         "text": "NFA hearing committee or a hearing panel.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA complaints that result in a hearing are heard by the NFA hearing committee or a hearing panel."
+        "rationale": "Correct. NFA complaints that result in a hearing are heard by the NFA hearing committee or a hearing panel."
       }
     ],
     "explanation": "NFA complaints that result in a hearing are heard by the NFA hearing committee or a hearing panel.",
@@ -2004,13 +2004,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) NFA Rule 2-29(c) requires that \"Statements of opinion included in promotional material must be clearly identifiable as such and must have a reasonable basis in fact.\""
+        "rationale": "Correct. (True) NFA Rule 2-29(c) requires that \"Statements of opinion included in promotional material must be clearly identifiable as such and must have a reasonable basis in fact.\""
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) NFA Rule 2-29(c) requires that \"Statements of opinion included in promotional material must be clearly identifiable as such and must have a reasonable basis in fact.\""
+        "rationale": "Incorrect. (True) NFA Rule 2-29(c) requires that \"Statements of opinion included in promotional material must be clearly identifiable as such and must have a reasonable basis in fact.\""
       }
     ],
     "explanation": "(True) NFA Rule 2-29(c) requires that \"Statements of opinion included in promotional material must be clearly identifiable as such and must have a reasonable basis in fact.\"",
@@ -2044,13 +2044,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Even if there is only one AP at a location away from the firm's main business office. that location is still considered to be a branch office."
+        "rationale": "Correct. Even if there is only one AP at a location away from the firm's main business office. that location is still considered to be a branch office."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Even if there is only one AP at a location away from the firm's main business office. that location is still considered to be a branch office."
+        "rationale": "Incorrect. Even if there is only one AP at a location away from the firm's main business office. that location is still considered to be a branch office."
       }
     ],
     "explanation": "Even if there is only one AP at a location away from the firm's main business office. that location is still considered to be a branch office.",
@@ -2083,13 +2083,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True)CPO and CTA disclosure documents must review the pool's principal risk factors such as volatility, leverage, liquidity, and counterpaity creditworthiness."
+        "rationale": "Correct. (True)CPO and CTA disclosure documents must review the pool's principal risk factors such as volatility, leverage, liquidity, and counterpaity creditworthiness."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True)CPO and CTA disclosure documents must review the pool's principal risk factors such as volatility, leverage, liquidity, and counterpaity creditworthiness."
+        "rationale": "Incorrect. (True)CPO and CTA disclosure documents must review the pool's principal risk factors such as volatility, leverage, liquidity, and counterpaity creditworthiness."
       }
     ],
     "explanation": "(True)CPO and CTA disclosure documents must review the pool's principal risk factors such as volatility, leverage, liquidity, and counterpaity creditworthiness.",
@@ -2123,13 +2123,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) Changes in exchange rules fixing maximum daily price limits must be submitted to, and approved by, the CFTC."
+        "rationale": "Correct. (True) Changes in exchange rules fixing maximum daily price limits must be submitted to, and approved by, the CFTC."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) Changes in exchange rules fixing maximum daily price limits must be submitted to, and approved by, the CFTC."
+        "rationale": "Incorrect. (True) Changes in exchange rules fixing maximum daily price limits must be submitted to, and approved by, the CFTC."
       }
     ],
     "explanation": "(True) Changes in exchange rules fixing maximum daily price limits must be submitted to, and approved by, the CFTC.",
@@ -2162,13 +2162,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) NFA Rule 2-29 (Communications with the Public and Promotional Material) applies to materials prepared by outside consultants or advertising firms as well as to materials prepared by a firm or its employees."
+        "rationale": "Incorrect. (False) NFA Rule 2-29 (Communications with the Public and Promotional Material) applies to materials prepared by outside consultants or advertising firms as well as to materials prepared by a firm or its employees."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) NFA Rule 2-29 (Communications with the Public and Promotional Material) applies to materials prepared by outside consultants or advertising firms as well as to materials prepared by a firm or its employees."
+        "rationale": "Correct. (False) NFA Rule 2-29 (Communications with the Public and Promotional Material) applies to materials prepared by outside consultants or advertising firms as well as to materials prepared by a firm or its employees."
       }
     ],
     "explanation": "(False) NFA Rule 2-29 (Communications with the Public and Promotional Material) applies to materials prepared by outside consultants or advertising firms as well as to materials prepared by a firm or its employees.",
@@ -2202,25 +2202,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "10 seconds.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require all customer orders to be time-stamped to the nearest minute immediately upon receipt."
+        "rationale": "Incorrect. CFTC regulations require all customer orders to be time-stamped to the nearest minute immediately upon receipt."
       },
       {
         "id": "b",
         "text": "Minute.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations require all customer orders to be time-stamped to the nearest minute immediately upon receipt."
+        "rationale": "Correct. CFTC regulations require all customer orders to be time-stamped to the nearest minute immediately upon receipt."
       },
       {
         "id": "c",
         "text": "15 seconds.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require all customer orders to be time-stamped to the nearest minute immediately upon receipt."
+        "rationale": "Incorrect. CFTC regulations require all customer orders to be time-stamped to the nearest minute immediately upon receipt."
       },
       {
         "id": "d",
         "text": "30 minute trade bracket.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require all customer orders to be time-stamped to the nearest minute immediately upon receipt."
+        "rationale": "Incorrect. CFTC regulations require all customer orders to be time-stamped to the nearest minute immediately upon receipt."
       }
     ],
     "explanation": "CFTC regulations require all customer orders to be time-stamped to the nearest minute immediately upon receipt.",
@@ -2253,25 +2253,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "An Associated Person.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An exchange member executing customer Ofders on the floor of an exchange must register as a Floor Broker. The Floor Trader registration category applies only to exchange members trading solely for their own accounts."
+        "rationale": "Incorrect. An exchange member executing customer Ofders on the floor of an exchange must register as a Floor Broker. The Floor Trader registration category applies only to exchange members trading solely for their own accounts."
       },
       {
         "id": "b",
-        "text": "A Floor Broker.",
+        "text": "Floor Broker.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. An exchange member executing customer Ofders on the floor of an exchange must register as a Floor Broker. The Floor Trader registration category applies only to exchange members trading solely for their own accounts."
+        "rationale": "Correct. An exchange member executing customer Ofders on the floor of an exchange must register as a Floor Broker. The Floor Trader registration category applies only to exchange members trading solely for their own accounts."
       },
       {
         "id": "c",
-        "text": "A Floor Broker or Floor Trader.",
+        "text": "Floor Broker or Floor Trader.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An exchange member executing customer Ofders on the floor of an exchange must register as a Floor Broker. The Floor Trader registration category applies only to exchange members trading solely for their own accounts."
+        "rationale": "Incorrect. An exchange member executing customer Ofders on the floor of an exchange must register as a Floor Broker. The Floor Trader registration category applies only to exchange members trading solely for their own accounts."
       },
       {
         "id": "d",
         "text": "Any of the above.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An exchange member executing customer Ofders on the floor of an exchange must register as a Floor Broker. The Floor Trader registration category applies only to exchange members trading solely for their own accounts."
+        "rationale": "Incorrect. An exchange member executing customer Ofders on the floor of an exchange must register as a Floor Broker. The Floor Trader registration category applies only to exchange members trading solely for their own accounts."
       }
     ],
     "explanation": "An exchange member executing customer Ofders on the floor of an exchange must register as a Floor Broker. The Floor Trader registration category applies only to exchange members trading solely for their own accounts.",
@@ -2304,13 +2304,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) A table of contents is required to be included in all CTA and CPO disclosure documents."
+        "rationale": "Incorrect. (False) A table of contents is required to be included in all CTA and CPO disclosure documents."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) A table of contents is required to be included in all CTA and CPO disclosure documents."
+        "rationale": "Correct. (False) A table of contents is required to be included in all CTA and CPO disclosure documents."
       }
     ],
     "explanation": "(False) A table of contents is required to be included in all CTA and CPO disclosure documents.",
@@ -2344,13 +2344,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The background information system available on NFA's website is know as BASIC."
+        "rationale": "Correct. The background information system available on NFA's website is know as BASIC."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The background information system available on NFA's website is know as BASIC."
+        "rationale": "Incorrect. The background information system available on NFA's website is know as BASIC."
       }
     ],
     "explanation": "The background information system available on NFA's website is know as BASIC.",
@@ -2384,13 +2384,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) NFA arbitration rules state that there shall be no right of appeal of an arbitration award. However, under certain specified conditions a party may ask the panel to modify its decision."
+        "rationale": "Correct. (True) NFA arbitration rules state that there shall be no right of appeal of an arbitration award. However, under certain specified conditions a party may ask the panel to modify its decision."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) NFA arbitration rules state that there shall be no right of appeal of an arbitration award. However, under certain specified conditions a party may ask the panel to modify its decision."
+        "rationale": "Incorrect. (True) NFA arbitration rules state that there shall be no right of appeal of an arbitration award. However, under certain specified conditions a party may ask the panel to modify its decision."
       }
     ],
     "explanation": "(True) NFA arbitration rules state that there shall be no right of appeal of an arbitration award. However, under certain specified conditions a party may ask the panel to modify its decision.",
@@ -2423,13 +2423,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CFTC regulations prohibit disclosure of a customer's order unless the disclosure is necessary to the effective execution of the order or is made at the request of the CFTC. U.S. Department of Justice, exchange, or NFA."
+        "rationale": "Correct. (True) CFTC regulations prohibit disclosure of a customer's order unless the disclosure is necessary to the effective execution of the order or is made at the request of the CFTC. U.S. Department of Justice, exchange, or NFA."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CFTC regulations prohibit disclosure of a customer's order unless the disclosure is necessary to the effective execution of the order or is made at the request of the CFTC. U.S. Department of Justice, exchange, or NFA."
+        "rationale": "Incorrect. (True) CFTC regulations prohibit disclosure of a customer's order unless the disclosure is necessary to the effective execution of the order or is made at the request of the CFTC. U.S. Department of Justice, exchange, or NFA."
       }
     ],
     "explanation": "(True) CFTC regulations prohibit disclosure of a customer's order unless the disclosure is necessary to the effective execution of the order or is made at the request of the CFTC. U.S. Department of Justice, exchange, or NFA.",
@@ -2462,13 +2462,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) For firms using a pre-dispute resolution (arbitration) agreement, CFTC regulations require that the agreement contain a CFTC-specified explanatory statement that advises customers of at least the following: (1) three forums exist for the resolution of customer disputes: (2) that by signing the agreement the customer may be waiving a right to sue in court but is not waiving a right to file a CFTC reparations claim; and (3) the customer need not sign the pre-dispute arbitration agreement."
+        "rationale": "Correct. (True) For firms using a pre-dispute resolution (arbitration) agreement, CFTC regulations require that the agreement contain a CFTC-specified explanatory statement that advises customers of at least the following: (1) three forums exist for the resolution of customer disputes: (2) that by signing the agreement the customer may be waiving a right to sue in court but is not waiving a right to file a CFTC reparations claim; and (3) the customer need not sign the pre-dispute arbitration agreement."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) For firms using a pre-dispute resolution (arbitration) agreement, CFTC regulations require that the agreement contain a CFTC-specified explanatory statement that advises customers of at least the following: (1) three forums exist for the resolution of customer disputes: (2) that by signing the agreement the customer may be waiving a right to sue in court but is not waiving a right to file a CFTC reparations claim; and (3) the customer need not sign the pre-dispute arbitration agreement."
+        "rationale": "Incorrect. (True) For firms using a pre-dispute resolution (arbitration) agreement, CFTC regulations require that the agreement contain a CFTC-specified explanatory statement that advises customers of at least the following: (1) three forums exist for the resolution of customer disputes: (2) that by signing the agreement the customer may be waiving a right to sue in court but is not waiving a right to file a CFTC reparations claim; and (3) the customer need not sign the pre-dispute arbitration agreement."
       }
     ],
     "explanation": "(True) For firms using a pre-dispute resolution (arbitration) agreement, CFTC regulations require that the agreement contain a CFTC-specified explanatory statement that advises customers of at least the following: (1) three forums exist for the resolution of customer disputes: (2) that by signing the agreement the customer may be waiving a right to sue in court but is not waiving a right to file a CFTC reparations claim; and (3) the customer need not sign the pre-dispute arbitration agreement.",
@@ -2502,13 +2502,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) CFTC regulations require registrants Who are individuals to receive ethics training to ensure that they understand their responsibilities to the public under the Act. including responsibilities to observe just and equitable principles of trade. rules or regulations of the CFTC. rules of the exchanges, NFA or other registered futures associations, or any other applicable federal or state law, rule, or regulation."
+        "rationale": "Incorrect. (False) CFTC regulations require registrants Who are individuals to receive ethics training to ensure that they understand their responsibilities to the public under the Act. including responsibilities to observe just and equitable principles of trade. rules or regulations of the CFTC. rules of the exchanges, NFA or other registered futures associations, or any other applicable federal or state law, rule, or regulation."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) CFTC regulations require registrants Who are individuals to receive ethics training to ensure that they understand their responsibilities to the public under the Act. including responsibilities to observe just and equitable principles of trade. rules or regulations of the CFTC. rules of the exchanges, NFA or other registered futures associations, or any other applicable federal or state law, rule, or regulation."
+        "rationale": "Correct. (False) CFTC regulations require registrants Who are individuals to receive ethics training to ensure that they understand their responsibilities to the public under the Act. including responsibilities to observe just and equitable principles of trade. rules or regulations of the CFTC. rules of the exchanges, NFA or other registered futures associations, or any other applicable federal or state law, rule, or regulation."
       }
     ],
     "explanation": "(False) CFTC regulations require registrants Who are individuals to receive ethics training to ensure that they understand their responsibilities to the public under the Act. including responsibilities to observe just and equitable principles of trade. rules or regulations of the CFTC. rules of the exchanges, NFA or other registered futures associations, or any other applicable federal or state law, rule, or regulation.",
@@ -2541,25 +2541,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Major market disturbances that inhibit the forces of supply and demand.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Under the Commodity Exchange Act, a market emergency includes, among other situations, major market disturbances that inhibit the forces of supply and demand. threatened or actual market manipulations and cormers. and govermment acts that affect a futures market."
+        "rationale": "Incorrect. Under the Commodity Exchange Act, a market emergency includes, among other situations, major market disturbances that inhibit the forces of supply and demand. threatened or actual market manipulations and cormers. and govermment acts that affect a futures market."
       },
       {
         "id": "b",
         "text": "Threatened or actual market manipulations and corners.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Under the Commodity Exchange Act, a market emergency includes, among other situations, major market disturbances that inhibit the forces of supply and demand. threatened or actual market manipulations and cormers. and govermment acts that affect a futures market."
+        "rationale": "Incorrect. Under the Commodity Exchange Act, a market emergency includes, among other situations, major market disturbances that inhibit the forces of supply and demand. threatened or actual market manipulations and cormers. and govermment acts that affect a futures market."
       },
       {
         "id": "c",
         "text": "Any act of the U.S. or another govemment that affects a futures market.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Under the Commodity Exchange Act, a market emergency includes, among other situations, major market disturbances that inhibit the forces of supply and demand. threatened or actual market manipulations and cormers. and govermment acts that affect a futures market."
+        "rationale": "Incorrect. Under the Commodity Exchange Act, a market emergency includes, among other situations, major market disturbances that inhibit the forces of supply and demand. threatened or actual market manipulations and cormers. and govermment acts that affect a futures market."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Under the Commodity Exchange Act, a market emergency includes, among other situations, major market disturbances that inhibit the forces of supply and demand. threatened or actual market manipulations and cormers. and govermment acts that affect a futures market."
+        "rationale": "Correct. Under the Commodity Exchange Act, a market emergency includes, among other situations, major market disturbances that inhibit the forces of supply and demand. threatened or actual market manipulations and cormers. and govermment acts that affect a futures market."
       }
     ],
     "explanation": "Under the Commodity Exchange Act, a market emergency includes, among other situations, major market disturbances that inhibit the forces of supply and demand. threatened or actual market manipulations and cormers. and govermment acts that affect a futures market.",
@@ -2592,13 +2592,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-29 prohibits NFA Members or Associates from making any statement that futures trading is appropriate for all persons."
+        "rationale": "Correct. NFA Rule 2-29 prohibits NFA Members or Associates from making any statement that futures trading is appropriate for all persons."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 prohibits NFA Members or Associates from making any statement that futures trading is appropriate for all persons."
+        "rationale": "Incorrect. NFA Rule 2-29 prohibits NFA Members or Associates from making any statement that futures trading is appropriate for all persons."
       }
     ],
     "explanation": "NFA Rule 2-29 prohibits NFA Members or Associates from making any statement that futures trading is appropriate for all persons.",
@@ -2632,13 +2632,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) The NFA notes that, based upon a feview of information obtained from customers, some customers may fequire risk disclosure in addition to that specifically prescribed by NFA Rule 2-30. For example. there may be instances where. for some customers, the only adequate risk disclosure is that futures trading is too risky for that customer. Once adequate risk disclosure is given, however, the customer is frec to decide whether or not to trade, and the NFA member may accept the account."
+        "rationale": "Incorrect. (False) The NFA notes that, based upon a feview of information obtained from customers, some customers may fequire risk disclosure in addition to that specifically prescribed by NFA Rule 2-30. For example. there may be instances where. for some customers, the only adequate risk disclosure is that futures trading is too risky for that customer. Once adequate risk disclosure is given, however, the customer is frec to decide whether or not to trade, and the NFA member may accept the account."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) The NFA notes that, based upon a feview of information obtained from customers, some customers may fequire risk disclosure in addition to that specifically prescribed by NFA Rule 2-30. For example. there may be instances where. for some customers, the only adequate risk disclosure is that futures trading is too risky for that customer. Once adequate risk disclosure is given, however, the customer is frec to decide whether or not to trade, and the NFA member may accept the account."
+        "rationale": "Correct. (False) The NFA notes that, based upon a feview of information obtained from customers, some customers may fequire risk disclosure in addition to that specifically prescribed by NFA Rule 2-30. For example. there may be instances where. for some customers, the only adequate risk disclosure is that futures trading is too risky for that customer. Once adequate risk disclosure is given, however, the customer is frec to decide whether or not to trade, and the NFA member may accept the account."
       }
     ],
     "explanation": "(False) The NFA notes that, based upon a feview of information obtained from customers, some customers may fequire risk disclosure in addition to that specifically prescribed by NFA Rule 2-30. For example. there may be instances where. for some customers, the only adequate risk disclosure is that futures trading is too risky for that customer. Once adequate risk disclosure is given, however, the customer is frec to decide whether or not to trade, and the NFA member may accept the account.",
@@ -2672,13 +2672,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) Among the items that must be disclosed in a CPO disclosure document are the types of commodity interests the CPO intends the pool to trade, along with a description of any restrictions or limitations on the trading by the CPO."
+        "rationale": "Correct. (True) Among the items that must be disclosed in a CPO disclosure document are the types of commodity interests the CPO intends the pool to trade, along with a description of any restrictions or limitations on the trading by the CPO."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) Among the items that must be disclosed in a CPO disclosure document are the types of commodity interests the CPO intends the pool to trade, along with a description of any restrictions or limitations on the trading by the CPO."
+        "rationale": "Incorrect. (True) Among the items that must be disclosed in a CPO disclosure document are the types of commodity interests the CPO intends the pool to trade, along with a description of any restrictions or limitations on the trading by the CPO."
       }
     ],
     "explanation": "(True) Among the items that must be disclosed in a CPO disclosure document are the types of commodity interests the CPO intends the pool to trade, along with a description of any restrictions or limitations on the trading by the CPO.",
@@ -2712,13 +2712,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) The NFA considers its members to be responsible for the content and requirements of Rule 2-29 (Communications with the Public and Promotional Material) relating to reprints of articles used as promotional material."
+        "rationale": "Correct. (True) The NFA considers its members to be responsible for the content and requirements of Rule 2-29 (Communications with the Public and Promotional Material) relating to reprints of articles used as promotional material."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) The NFA considers its members to be responsible for the content and requirements of Rule 2-29 (Communications with the Public and Promotional Material) relating to reprints of articles used as promotional material."
+        "rationale": "Incorrect. (True) The NFA considers its members to be responsible for the content and requirements of Rule 2-29 (Communications with the Public and Promotional Material) relating to reprints of articles used as promotional material."
       }
     ],
     "explanation": "(True) The NFA considers its members to be responsible for the content and requirements of Rule 2-29 (Communications with the Public and Promotional Material) relating to reprints of articles used as promotional material.",
@@ -2746,22 +2746,22 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "transaction-cost-disclosure",
     "difficulty": "medium",
     "questionType": "true_false",
-    "stem": "Unless commissions and fees are charged on a per-contract or a round-tum basis, the NFA requires the FCM or IB to provide a complete written explanation of the Charges, including examples of what such fees would be on a per-trade or round-turn basis.",
+    "stem": "Unless commissions and fees are charged on a per-contract or a round-turn basis, the NFA requires the FCM or IB to provide a complete written explanation of the Charges, including examples of what such fees would be on a per-trade or round-turn basis.",
     "choices": [
       {
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Unless commissions and fes are charged on a pef-contract or round-turn basis, NFA Rule 2-4 (Just and Equitable Principles of Irade) requires Members to provide a complete written explanation of the charges, including examples of what such fees would be on a per-contract or round-tumn basis."
+        "rationale": "Correct. Unless commissions and fes are charged on a pef-contract or round-turn basis, NFA Rule 2-4 (Just and Equitable Principles of Irade) requires Members to provide a complete written explanation of the charges, including examples of what such fees would be on a per-contract or round-turnn basis."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Unless commissions and fes are charged on a pef-contract or round-turn basis, NFA Rule 2-4 (Just and Equitable Principles of Irade) requires Members to provide a complete written explanation of the charges, including examples of what such fees would be on a per-contract or round-tumn basis."
+        "rationale": "Incorrect. Unless commissions and fes are charged on a pef-contract or round-turn basis, NFA Rule 2-4 (Just and Equitable Principles of Irade) requires Members to provide a complete written explanation of the charges, including examples of what such fees would be on a per-contract or round-turnn basis."
       }
     ],
-    "explanation": "Unless commissions and fes are charged on a pef-contract or round-turn basis, NFA Rule 2-4 (Just and Equitable Principles of Irade) requires Members to provide a complete written explanation of the charges, including examples of what such fees would be on a per-contract or round-tumn basis.",
+    "explanation": "Unless commissions and fes are charged on a pef-contract or round-turn basis, NFA Rule 2-4 (Just and Equitable Principles of Irade) requires Members to provide a complete written explanation of the charges, including examples of what such fees would be on a per-contract or round-turnn basis.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -2792,16 +2792,16 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) CFTC regulations require CTAs to disclose in their disclosure document whether of not the CTA or any of its principals will trade for their own accounts and, if so. whether or not the CTA will permit clients to inspect the trading records for those accounts."
+        "rationale": "Incorrect. (False) CFTC regulations require CTAs to disclose in their disclosure document whether or not the CTA or any of its principals will trade for their own accounts and, if so, whether or not the CTA will permit clients to inspect the trading records for those accounts."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) CFTC regulations require CTAs to disclose in their disclosure document whether of not the CTA or any of its principals will trade for their own accounts and, if so. whether or not the CTA will permit clients to inspect the trading records for those accounts."
+        "rationale": "Correct. (False) CFTC regulations require CTAs to disclose in their disclosure document whether or not the CTA or any of its principals will trade for their own accounts and, if so, whether or not the CTA will permit clients to inspect the trading records for those accounts."
       }
     ],
-    "explanation": "(False) CFTC regulations require CTAs to disclose in their disclosure document whether of not the CTA or any of its principals will trade for their own accounts and, if so. whether or not the CTA will permit clients to inspect the trading records for those accounts.",
+    "explanation": "(False) CFTC regulations require CTAs to disclose in their disclosure document whether or not the CTA or any of its principals will trade for their own accounts and, if so, whether or not the CTA will permit clients to inspect the trading records for those accounts.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -2826,31 +2826,31 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "arbitration-procedures",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Ifa customer files a request for NFA arbitration against an NFA member, that member:",
+    "stem": "If a customer files a request for NFA arbitration against an NFA member, that member:",
     "choices": [
       {
         "id": "a",
         "text": "May decline to arbitrate.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA member is obligated to arbitrate a dispute when arbitration is requested by a customer and the customer's claim is filed in a timely manner and otherwise satisfies the fequirements of the NFA's Code of Arbitration."
+        "rationale": "Incorrect. An NFA member is obligated to arbitrate a dispute when arbitration is requested by a customer and the customer's claim is filed in a timely manner and otherwise satisfies the fequirements of the NFA's Code of Arbitration."
       },
       {
         "id": "b",
         "text": "May select another approved forum.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA member is obligated to arbitrate a dispute when arbitration is requested by a customer and the customer's claim is filed in a timely manner and otherwise satisfies the fequirements of the NFA's Code of Arbitration."
+        "rationale": "Incorrect. An NFA member is obligated to arbitrate a dispute when arbitration is requested by a customer and the customer's claim is filed in a timely manner and otherwise satisfies the fequirements of the NFA's Code of Arbitration."
       },
       {
         "id": "c",
         "text": "May refer the case to CFTC reparations.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA member is obligated to arbitrate a dispute when arbitration is requested by a customer and the customer's claim is filed in a timely manner and otherwise satisfies the fequirements of the NFA's Code of Arbitration."
+        "rationale": "Incorrect. An NFA member is obligated to arbitrate a dispute when arbitration is requested by a customer and the customer's claim is filed in a timely manner and otherwise satisfies the fequirements of the NFA's Code of Arbitration."
       },
       {
         "id": "d",
         "text": "Is required to submit to arbiration.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. An NFA member is obligated to arbitrate a dispute when arbitration is requested by a customer and the customer's claim is filed in a timely manner and otherwise satisfies the fequirements of the NFA's Code of Arbitration."
+        "rationale": "Correct. An NFA member is obligated to arbitrate a dispute when arbitration is requested by a customer and the customer's claim is filed in a timely manner and otherwise satisfies the fequirements of the NFA's Code of Arbitration."
       }
     ],
     "explanation": "An NFA member is obligated to arbitrate a dispute when arbitration is requested by a customer and the customer's claim is filed in a timely manner and otherwise satisfies the fequirements of the NFA's Code of Arbitration.",
@@ -2883,25 +2883,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The CFTC office of proceedings.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA complaints are issued by an NFA business conduct committee."
+        "rationale": "Incorrect. NFA complaints are issued by an NFA business conduct committee."
       },
       {
         "id": "b",
         "text": "An NFA business conduct committee.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA complaints are issued by an NFA business conduct committee."
+        "rationale": "Correct. NFA complaints are issued by an NFA business conduct committee."
       },
       {
         "id": "c",
         "text": "An NFA hearing committee or panel.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA complaints are issued by an NFA business conduct committee."
+        "rationale": "Incorrect. NFA complaints are issued by an NFA business conduct committee."
       },
       {
         "id": "d",
         "text": "The NFA board of directors.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA complaints are issued by an NFA business conduct committee."
+        "rationale": "Incorrect. NFA complaints are issued by an NFA business conduct committee."
       }
     ],
     "explanation": "NFA complaints are issued by an NFA business conduct committee.",
@@ -2934,13 +2934,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) The NFA appeals committee may increase, decrease, or set aside the penalties imposed by a hearing panel or may impose other and different penalties, as it sees ft. subject to the limitations imposed by NFA rules on types of penalties."
+        "rationale": "Correct. (True) The NFA appeals committee may increase, decrease, or set aside the penalties imposed by a hearing panel or may impose other and different penalties, as it sees ft. subject to the limitations imposed by NFA rules on types of penalties."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) The NFA appeals committee may increase, decrease, or set aside the penalties imposed by a hearing panel or may impose other and different penalties, as it sees ft. subject to the limitations imposed by NFA rules on types of penalties."
+        "rationale": "Incorrect. (True) The NFA appeals committee may increase, decrease, or set aside the penalties imposed by a hearing panel or may impose other and different penalties, as it sees ft. subject to the limitations imposed by NFA rules on types of penalties."
       }
     ],
     "explanation": "(True) The NFA appeals committee may increase, decrease, or set aside the penalties imposed by a hearing panel or may impose other and different penalties, as it sees ft. subject to the limitations imposed by NFA rules on types of penalties.",
@@ -2973,16 +2973,16 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, or any oftheir APs, to have either specific authorization for each order or to have a written trading authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be traded."
+        "rationale": "Correct. (True) CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, or any of their APs, to have either specific authorization for each order or to have a written trading authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be traded."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, or any oftheir APs, to have either specific authorization for each order or to have a written trading authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be traded."
+        "rationale": "Incorrect. (True) CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, or any of their APs, to have either specific authorization for each order or to have a written trading authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be traded."
       }
     ],
-    "explanation": "(True) CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, or any oftheir APs, to have either specific authorization for each order or to have a written trading authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be traded.",
+    "explanation": "(True) CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, or any of their APs, to have either specific authorization for each order or to have a written trading authorization to effect transactions in commodity interests on behalf of a customer. To be specifically authorized. the customer must specify the precise commodity interest and the exact amount to be traded.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -3006,22 +3006,22 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cpo-regulations",
     "difficulty": "medium",
     "questionType": "true_false",
-    "stem": "An individual who solicits customer orders or customer funds on behalf of an FCM. IB. CTA. or CPO generally must be registered as an Associated Person.",
+    "stem": "An individual who solicits customer orders or customer funds on behalf of an FCM, IB, CTA, or CPO generally must be registered as an Associated Person.",
     "choices": [
       {
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CFTC regulations require APs to be fegistered and defines Associated Person to include, among others, any person who is associated in any ofthe following capacities with: (a) an FCM or IB - the solicitation or acceptance of customer orders (other than in a clerical capacity) or the supervision of any person so engaged; (b)a CPO -the solicitation of funds, securities or property for a participation in a commodity pool or the supervision of any person so engaged; and (c) a CTA - the solicitation of a client's or prospective client's discretionary account or the supervision of any person so engaged."
+        "rationale": "Correct. (True) CFTC regulations require APs to be registered and define Associated Person to include, among others, persons associated with an FCM or IB who solicit or accept customer orders, persons associated with a CPO who solicit funds or property for a pool, and persons associated with a CTA who solicit discretionary advisory accounts, including supervisors of those activities."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CFTC regulations require APs to be fegistered and defines Associated Person to include, among others, any person who is associated in any ofthe following capacities with: (a) an FCM or IB - the solicitation or acceptance of customer orders (other than in a clerical capacity) or the supervision of any person so engaged; (b)a CPO -the solicitation of funds, securities or property for a participation in a commodity pool or the supervision of any person so engaged; and (c) a CTA - the solicitation of a client's or prospective client's discretionary account or the supervision of any person so engaged."
+        "rationale": "Incorrect. (True) CFTC regulations require APs to be registered and define Associated Person to include, among others, persons associated with an FCM or IB who solicit or accept customer orders, persons associated with a CPO who solicit funds or property for a pool, and persons associated with a CTA who solicit discretionary advisory accounts, including supervisors of those activities."
       }
     ],
-    "explanation": "(True) CFTC regulations require APs to be fegistered and defines Associated Person to include, among others, any person who is associated in any ofthe following capacities with: (a) an FCM or IB - the solicitation or acceptance of customer orders (other than in a clerical capacity) or the supervision of any person so engaged; (b)a CPO -the solicitation of funds, securities or property for a participation in a commodity pool or the supervision of any person so engaged; and (c) a CTA - the solicitation of a client's or prospective client's discretionary account or the supervision of any person so engaged.",
+    "explanation": "(True) CFTC regulations require APs to be registered and define Associated Person to include, among others, persons associated with an FCM or IB who solicit or accept customer orders, persons associated with a CPO who solicit funds or property for a pool, and persons associated with a CTA who solicit discretionary advisory accounts, including supervisors of those activities.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -3052,13 +3052,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) The AP registration category applies to persons associated in a capacity requiring registration with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
+        "rationale": "Incorrect. (False) The AP registration category applies to persons associated in a capacity requiring registration with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) The AP registration category applies to persons associated in a capacity requiring registration with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
+        "rationale": "Correct. (False) The AP registration category applies to persons associated in a capacity requiring registration with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
       }
     ],
     "explanation": "(False) The AP registration category applies to persons associated in a capacity requiring registration with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants.",
@@ -3091,25 +3091,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The customer account identification.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All customer orders received by an FCM or IB must contain both an account identification and an order number."
+        "rationale": "Incorrect. All customer orders received by an FCM or IB must contain both an account identification and an order number."
       },
       {
         "id": "b",
         "text": "An order number.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All customer orders received by an FCM or IB must contain both an account identification and an order number."
+        "rationale": "Incorrect. All customer orders received by an FCM or IB must contain both an account identification and an order number."
       },
       {
         "id": "c",
         "text": "Either an account identification or an order number.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All customer orders received by an FCM or IB must contain both an account identification and an order number."
+        "rationale": "Incorrect. All customer orders received by an FCM or IB must contain both an account identification and an order number."
       },
       {
         "id": "d",
         "text": "Both an account identification and an order number.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. All customer orders received by an FCM or IB must contain both an account identification and an order number."
+        "rationale": "Correct. All customer orders received by an FCM or IB must contain both an account identification and an order number."
       }
     ],
     "explanation": "All customer orders received by an FCM or IB must contain both an account identification and an order number.",
@@ -3142,13 +3142,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Seminar presentations, as well as any advertisements designed to encourage attendance at such seminars, are covered by NFA's definition of promotional material."
+        "rationale": "Incorrect. Seminar presentations, as well as any advertisements designed to encourage attendance at such seminars, are covered by NFA's definition of promotional material."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Seminar presentations, as well as any advertisements designed to encourage attendance at such seminars, are covered by NFA's definition of promotional material."
+        "rationale": "Correct. Seminar presentations, as well as any advertisements designed to encourage attendance at such seminars, are covered by NFA's definition of promotional material."
       }
     ],
     "explanation": "Seminar presentations, as well as any advertisements designed to encourage attendance at such seminars, are covered by NFA's definition of promotional material.",
@@ -3182,13 +3182,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any gaps in employment time during the previous five years must be explained."
+        "rationale": "Incorrect. Any gaps in employment time during the previous five years must be explained."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Any gaps in employment time during the previous five years must be explained."
+        "rationale": "Correct. Any gaps in employment time during the previous five years must be explained."
       }
     ],
     "explanation": "Any gaps in employment time during the previous five years must be explained.",
@@ -3222,25 +3222,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Proceedings are informal.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the answers to this question represent characteristics that apply to NFA arbitration."
+        "rationale": "Incorrect. All of the answers to this question represent characteristics that apply to NFA arbitration."
       },
       {
         "id": "b",
         "text": "Parties may be represented by an attorney.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the answers to this question represent characteristics that apply to NFA arbitration."
+        "rationale": "Incorrect. All of the answers to this question represent characteristics that apply to NFA arbitration."
       },
       {
         "id": "c",
         "text": "Awards of the panel may be enforced by a court.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the answers to this question represent characteristics that apply to NFA arbitration."
+        "rationale": "Incorrect. All of the answers to this question represent characteristics that apply to NFA arbitration."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. All of the answers to this question represent characteristics that apply to NFA arbitration."
+        "rationale": "Correct. All of the answers to this question represent characteristics that apply to NFA arbitration."
       }
     ],
     "explanation": "All of the answers to this question represent characteristics that apply to NFA arbitration.",
@@ -3251,7 +3251,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 76; source code 10_EZ_14.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "76",
     "sourceQuestionNumber": 76,
@@ -3273,13 +3273,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The NFA requires employees ofNFA Members to notify, and to provide scren names to, their employer if the employee o n so u sdidn community."
+        "rationale": "Incorrect. The NFA requires employees ofNFA Members to notify, and to provide scren names to, their employer if the employee o n so u sdidn community."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The NFA requires employees ofNFA Members to notify, and to provide scren names to, their employer if the employee o n so u sdidn community."
+        "rationale": "Correct. The NFA requires employees ofNFA Members to notify, and to provide scren names to, their employer if the employee o n so u sdidn community."
       }
     ],
     "explanation": "The NFA requires employees ofNFA Members to notify, and to provide scren names to, their employer if the employee o n so u sdidn community.",
@@ -3291,7 +3291,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "concept": "NFA membership",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 77; source code 10_EZ_75.",
     "reviewStatus": "reviewed",
-    "extractionConfidence": "medium",
+    "extractionConfidence": "high",
     "sourcePageRange": "77",
     "sourceQuestionNumber": 77,
     "sourceCode": "10_EZ_75",
@@ -3312,25 +3312,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Hedge accounts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Special offset instructions may not be accepted from an account controller for accounts directed by an FCM, IB, or any of their APs."
+        "rationale": "Incorrect. Special offset instructions may not be accepted from an account controller for accounts directed by an FCM, IB, or any of their APs."
       },
       {
         "id": "b",
         "text": "Non discretionary accounts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Special offset instructions may not be accepted from an account controller for accounts directed by an FCM, IB, or any of their APs."
+        "rationale": "Incorrect. Special offset instructions may not be accepted from an account controller for accounts directed by an FCM, IB, or any of their APs."
       },
       {
         "id": "c",
         "text": "CTA directed accounts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Special offset instructions may not be accepted from an account controller for accounts directed by an FCM, IB, or any of their APs."
+        "rationale": "Incorrect. Special offset instructions may not be accepted from an account controller for accounts directed by an FCM, IB, or any of their APs."
       },
       {
         "id": "d",
         "text": "Discretionary accounts directed by the FCM, IB, or one of their APs.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Special offset instructions may not be accepted from an account controller for accounts directed by an FCM, IB, or any of their APs."
+        "rationale": "Correct. Special offset instructions may not be accepted from an account controller for accounts directed by an FCM, IB, or any of their APs."
       }
     ],
     "explanation": "Special offset instructions may not be accepted from an account controller for accounts directed by an FCM, IB, or any of their APs.",
@@ -3364,25 +3364,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Six months.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Exchange Act limits the time for filing a reparations claim to a period of two years after the cause of action occurs."
+        "rationale": "Incorrect. The Commodity Exchange Act limits the time for filing a reparations claim to a period of two years after the cause of action occurs."
       },
       {
         "id": "b",
         "text": "One year.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Exchange Act limits the time for filing a reparations claim to a period of two years after the cause of action occurs."
+        "rationale": "Incorrect. The Commodity Exchange Act limits the time for filing a reparations claim to a period of two years after the cause of action occurs."
       },
       {
         "id": "c",
         "text": "Two years.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The Commodity Exchange Act limits the time for filing a reparations claim to a period of two years after the cause of action occurs."
+        "rationale": "Correct. The Commodity Exchange Act limits the time for filing a reparations claim to a period of two years after the cause of action occurs."
       },
       {
         "id": "d",
         "text": "Three years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Exchange Act limits the time for filing a reparations claim to a period of two years after the cause of action occurs."
+        "rationale": "Incorrect. The Commodity Exchange Act limits the time for filing a reparations claim to a period of two years after the cause of action occurs."
       }
     ],
     "explanation": "The Commodity Exchange Act limits the time for filing a reparations claim to a period of two years after the cause of action occurs.",
@@ -3414,27 +3414,27 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Make and retain a record ofthe date the complaint was received, the Associated Person who serviced the account, a general description of the material complained of. and what, if any, aetion was taken.",
+        "text": "Make and retain a record of the date the complaint was received, the Associated Person who serviced the account, a general description of the material complained of. and what, if any, aetion was taken.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The NFA requires member FCMs and IBs to retain copies of all written customer options trading complaints and to make and retain a record of the date the complaint was received, the Associated Person who serviced the account. a general description of the matter complained of. and what, if any. action was taken in regard to the complaint."
+        "rationale": "Correct. The NFA requires member FCMs and IBs to retain copies of all written customer options trading complaints and to make and retain a record of the date the complaint was received, the Associated Person who serviced the account. a general description of the matter complained of. and what, if any. action was taken in regard to the complaint."
       },
       {
         "id": "b",
-        "text": "Immediately forward all such complaints to the NFA for review.",
+        "text": "immediately forward all such complaints to the NFA for review.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The NFA requires member FCMs and IBs to retain copies of all written customer options trading complaints and to make and retain a record of the date the complaint was received, the Associated Person who serviced the account. a general description of the matter complained of. and what, if any. action was taken in regard to the complaint."
+        "rationale": "Incorrect. The NFA requires member FCMs and IBs to retain copies of all written customer options trading complaints and to make and retain a record of the date the complaint was received, the Associated Person who serviced the account. a general description of the matter complained of. and what, if any. action was taken in regard to the complaint."
       },
       {
         "id": "c",
         "text": "Fill out a CFTC customer complaint form and advise the customer of CFTC feparations.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The NFA requires member FCMs and IBs to retain copies of all written customer options trading complaints and to make and retain a record of the date the complaint was received, the Associated Person who serviced the account. a general description of the matter complained of. and what, if any. action was taken in regard to the complaint."
+        "rationale": "Incorrect. The NFA requires member FCMs and IBs to retain copies of all written customer options trading complaints and to make and retain a record of the date the complaint was received, the Associated Person who serviced the account. a general description of the matter complained of. and what, if any. action was taken in regard to the complaint."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The NFA requires member FCMs and IBs to retain copies of all written customer options trading complaints and to make and retain a record of the date the complaint was received, the Associated Person who serviced the account. a general description of the matter complained of. and what, if any. action was taken in regard to the complaint."
+        "rationale": "Incorrect. The NFA requires member FCMs and IBs to retain copies of all written customer options trading complaints and to make and retain a record of the date the complaint was received, the Associated Person who serviced the account. a general description of the matter complained of. and what, if any. action was taken in regard to the complaint."
       }
     ],
     "explanation": "The NFA requires member FCMs and IBs to retain copies of all written customer options trading complaints and to make and retain a record of the date the complaint was received, the Associated Person who serviced the account. a general description of the matter complained of. and what, if any. action was taken in regard to the complaint.",
@@ -3467,13 +3467,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The president of NFA may, on 30 days written notice, summarily bar from Membership or Associate Membership when that Member or employee thereof fails to comply with an arbitration award or settlement agreement unless there is a pending request to modify the agreement of there is a pending court application to modify or correct the award."
+        "rationale": "Correct. The president of NFA may, on 30 days written notice, summarily bar from Membership or Associate Membership when that Member or employee thereof fails to comply with an arbitration award or settlement agreement unless there is a pending request to modify the agreement of there is a pending court application to modify or correct the award."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The president of NFA may, on 30 days written notice, summarily bar from Membership or Associate Membership when that Member or employee thereof fails to comply with an arbitration award or settlement agreement unless there is a pending request to modify the agreement of there is a pending court application to modify or correct the award."
+        "rationale": "Incorrect. The president of NFA may, on 30 days written notice, summarily bar from Membership or Associate Membership when that Member or employee thereof fails to comply with an arbitration award or settlement agreement unless there is a pending request to modify the agreement of there is a pending court application to modify or correct the award."
       }
     ],
     "explanation": "The president of NFA may, on 30 days written notice, summarily bar from Membership or Associate Membership when that Member or employee thereof fails to comply with an arbitration award or settlement agreement unless there is a pending request to modify the agreement of there is a pending court application to modify or correct the award.",
@@ -3506,13 +3506,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Hypothetical, exiracted, pro forma, or simulated results may not be included in a Disclosure Document for any program for which the NFA Member has three or more months of actual trading results for customer Of proprietary accounts."
+        "rationale": "Correct. Hypothetical, exiracted, pro forma, or simulated results may not be included in a Disclosure Document for any program for which the NFA Member has three or more months of actual trading results for customer Of proprietary accounts."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Hypothetical, exiracted, pro forma, or simulated results may not be included in a Disclosure Document for any program for which the NFA Member has three or more months of actual trading results for customer Of proprietary accounts."
+        "rationale": "Incorrect. Hypothetical, exiracted, pro forma, or simulated results may not be included in a Disclosure Document for any program for which the NFA Member has three or more months of actual trading results for customer Of proprietary accounts."
       }
     ],
     "explanation": "Hypothetical, exiracted, pro forma, or simulated results may not be included in a Disclosure Document for any program for which the NFA Member has three or more months of actual trading results for customer Of proprietary accounts.",
@@ -3546,25 +3546,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Document at least a three-year track record supporting the profit claim.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member's promotional material includes any reference to actual past trading profits. then the material must mention that past trading results are not necessarily indicative of future results."
+        "rationale": "Incorrect. If a Member's promotional material includes any reference to actual past trading profits. then the material must mention that past trading results are not necessarily indicative of future results."
       },
       {
         "id": "b",
         "text": "Document at least a five-year track record supporting the profit claim.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member's promotional material includes any reference to actual past trading profits. then the material must mention that past trading results are not necessarily indicative of future results."
+        "rationale": "Incorrect. If a Member's promotional material includes any reference to actual past trading profits. then the material must mention that past trading results are not necessarily indicative of future results."
       },
       {
         "id": "c",
         "text": "Mention that past trading results are not necessarily indicative of future results.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. If a Member's promotional material includes any reference to actual past trading profits. then the material must mention that past trading results are not necessarily indicative of future results."
+        "rationale": "Correct. If a Member's promotional material includes any reference to actual past trading profits. then the material must mention that past trading results are not necessarily indicative of future results."
       },
       {
         "id": "d",
         "text": "Follow the precise CFTC specified format.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member's promotional material includes any reference to actual past trading profits. then the material must mention that past trading results are not necessarily indicative of future results."
+        "rationale": "Incorrect. If a Member's promotional material includes any reference to actual past trading profits. then the material must mention that past trading results are not necessarily indicative of future results."
       }
     ],
     "explanation": "If a Member's promotional material includes any reference to actual past trading profits. then the material must mention that past trading results are not necessarily indicative of future results.",
@@ -3598,13 +3598,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CFTC regulations require a CPO to maintain a record of all participants in the pool as well as signed copies of all required disclosure documents."
+        "rationale": "Correct. (True) CFTC regulations require a CPO to maintain a record of all participants in the pool as well as signed copies of all required disclosure documents."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CFTC regulations require a CPO to maintain a record of all participants in the pool as well as signed copies of all required disclosure documents."
+        "rationale": "Incorrect. (True) CFTC regulations require a CPO to maintain a record of all participants in the pool as well as signed copies of all required disclosure documents."
       }
     ],
     "explanation": "(True) CFTC regulations require a CPO to maintain a record of all participants in the pool as well as signed copies of all required disclosure documents.",
@@ -3636,27 +3636,27 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Five years fom the date of publication or first use.",
+        "text": "Five years from the date of publication or first use.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires copies of all promotional material, along with a record of the review and approval by an officer or designated supervisor of the firm. to be maintained and readily available for examination by NFA for a period of three years from the date of last use."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires copies of all promotional material, along with a record of the review and approval by an officer or designated supervisor of the firm. to be maintained and readily available for examination by NFA for a period of three years from the date of last use."
       },
       {
         "id": "b",
         "text": "Three years from the date of last use.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires copies of all promotional material, along with a record of the review and approval by an officer or designated supervisor of the firm. to be maintained and readily available for examination by NFA for a period of three years from the date of last use."
+        "rationale": "Correct. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires copies of all promotional material, along with a record of the review and approval by an officer or designated supervisor of the firm. to be maintained and readily available for examination by NFA for a period of three years from the date of last use."
       },
       {
         "id": "c",
         "text": "Five years from the date of last use and be readily accessible during the first two years of the five-year period.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires copies of all promotional material, along with a record of the review and approval by an officer or designated supervisor of the firm. to be maintained and readily available for examination by NFA for a period of three years from the date of last use."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires copies of all promotional material, along with a record of the review and approval by an officer or designated supervisor of the firm. to be maintained and readily available for examination by NFA for a period of three years from the date of last use."
       },
       {
         "id": "d",
         "text": "One year from the date of last use.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires copies of all promotional material, along with a record of the review and approval by an officer or designated supervisor of the firm. to be maintained and readily available for examination by NFA for a period of three years from the date of last use."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires copies of all promotional material, along with a record of the review and approval by an officer or designated supervisor of the firm. to be maintained and readily available for examination by NFA for a period of three years from the date of last use."
       }
     ],
     "explanation": "NFA Rule 2-29 (Communications with the Public and Promotional Material) requires copies of all promotional material, along with a record of the review and approval by an officer or designated supervisor of the firm. to be maintained and readily available for examination by NFA for a period of three years from the date of last use.",
@@ -3690,13 +3690,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) Customers in NFA arbitration have the right to elect a \"mixed\" panel in which two members of the panel are not affiliated with an NFA member."
+        "rationale": "Correct. (True) Customers in NFA arbitration have the right to elect a \"mixed\" panel in which two members of the panel are not affiliated with an NFA member."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) Customers in NFA arbitration have the right to elect a \"mixed\" panel in which two members of the panel are not affiliated with an NFA member."
+        "rationale": "Incorrect. (True) Customers in NFA arbitration have the right to elect a \"mixed\" panel in which two members of the panel are not affiliated with an NFA member."
       }
     ],
     "explanation": "(True) Customers in NFA arbitration have the right to elect a \"mixed\" panel in which two members of the panel are not affiliated with an NFA member.",
@@ -3729,22 +3729,22 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "A futures exchange and industry self-regulatory organization.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Naticnal Futures Association (NFA) is a not-for-profit membership corporation that serves as the futures industry's self-regulatory Organization. The CFTC supervises and oversees the activities of the NFA, which has primary regulatory responsibility for fegistered persons and entities that are not members of an exchange."
+        "rationale": "Incorrect. The National Futures Association (NFA) is a not-for-profit membership corporation that serves as the futures industry's self-regulatory Organization. The CFTC supervises and oversees the activities of the NFA, which has primary regulatory responsibility for registered persons and entities that are not members of an exchange."
       },
       {
         "id": "b",
         "text": "A futures industry self-regulatory organization.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The Naticnal Futures Association (NFA) is a not-for-profit membership corporation that serves as the futures industry's self-regulatory Organization. The CFTC supervises and oversees the activities of the NFA, which has primary regulatory responsibility for fegistered persons and entities that are not members of an exchange."
+        "rationale": "Correct. The National Futures Association (NFA) is a not-for-profit membership corporation that serves as the futures industry's self-regulatory Organization. The CFTC supervises and oversees the activities of the NFA, which has primary regulatory responsibility for registered persons and entities that are not members of an exchange."
       },
       {
         "id": "c",
         "text": "The trade association for the futures industry.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Naticnal Futures Association (NFA) is a not-for-profit membership corporation that serves as the futures industry's self-regulatory Organization. The CFTC supervises and oversees the activities of the NFA, which has primary regulatory responsibility for fegistered persons and entities that are not members of an exchange."
+        "rationale": "Incorrect. The National Futures Association (NFA) is a not-for-profit membership corporation that serves as the futures industry's self-regulatory Organization. The CFTC supervises and oversees the activities of the NFA, which has primary regulatory responsibility for registered persons and entities that are not members of an exchange."
       }
     ],
-    "explanation": "The Naticnal Futures Association (NFA) is a not-for-profit membership corporation that serves as the futures industry's self-regulatory Organization. The CFTC supervises and oversees the activities of the NFA, which has primary regulatory responsibility for fegistered persons and entities that are not members of an exchange.",
+    "explanation": "The National Futures Association (NFA) is a not-for-profit membership corporation that serves as the futures industry's self-regulatory Organization. The CFTC supervises and oversees the activities of the NFA, which has primary regulatory responsibility for registered persons and entities that are not members of an exchange.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -3774,34 +3774,34 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Expulsion or suspension of membership for a specified time period.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All ofthe answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules."
+        "rationale": "Incorrect. All of the answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules."
       },
       {
         "id": "b",
         "text": "Censure or reprimand.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All ofthe answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules."
+        "rationale": "Incorrect. All of the answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules."
       },
       {
         "id": "c",
         "text": "Cease and desist order.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All ofthe answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules."
+        "rationale": "Incorrect. All of the answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules."
       },
       {
         "id": "d",
-        "text": "A monetary fine of up to S250.000 per violation.",
+        "text": "A monetary fine of up to $250.000 per violation.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All ofthe answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules."
+        "rationale": "Incorrect. All of the answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules."
       },
       {
         "id": "e",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. All ofthe answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules."
+        "rationale": "Correct. All of the answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules."
       }
     ],
-    "explanation": "All ofthe answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules.",
+    "explanation": "All of the answers to this question are sanctions that the NFA can impose for violation of NFA rules. NFA Rule 3-14 (Penalties) further provides for any other \"fitting penalty or remedial action\" not inconsistent with the rules.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -3831,25 +3831,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Loss ratio.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The losses experienced by a pool or account over a specified time period are known as the pool's \"draw-down.\""
+        "rationale": "Incorrect. The losses experienced by a pool or account over a specified time period are known as the pool's \"draw-down.\""
       },
       {
         "id": "b",
         "text": "Draw-down.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The losses experienced by a pool or account over a specified time period are known as the pool's \"draw-down.\""
+        "rationale": "Correct. The losses experienced by a pool or account over a specified time period are known as the pool's \"draw-down.\""
       },
       {
         "id": "c",
         "text": "Net loss.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The losses experienced by a pool or account over a specified time period are known as the pool's \"draw-down.\""
+        "rationale": "Incorrect. The losses experienced by a pool or account over a specified time period are known as the pool's \"draw-down.\""
       },
       {
         "id": "d",
         "text": "Peak-to-valley loss.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The losses experienced by a pool or account over a specified time period are known as the pool's \"draw-down.\""
+        "rationale": "Incorrect. The losses experienced by a pool or account over a specified time period are known as the pool's \"draw-down.\""
       }
     ],
     "explanation": "The losses experienced by a pool or account over a specified time period are known as the pool's \"draw-down.\"",
@@ -3883,31 +3883,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Civil court litigation",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed forums (civil court litigation. CFTC reparations, and arbitration) are available for resolution of futures customers' disputes."
+        "rationale": "Incorrect. All of the listed forums (civil court litigation. CFTC reparations, and arbitration) are available for resolution of futures customers' disputes."
       },
       {
         "id": "b",
         "text": "CFTC reparations",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed forums (civil court litigation. CFTC reparations, and arbitration) are available for resolution of futures customers' disputes."
+        "rationale": "Incorrect. All of the listed forums (civil court litigation. CFTC reparations, and arbitration) are available for resolution of futures customers' disputes."
       },
       {
         "id": "c",
         "text": "Arbitration",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed forums (civil court litigation. CFTC reparations, and arbitration) are available for resolution of futures customers' disputes."
+        "rationale": "Incorrect. All of the listed forums (civil court litigation. CFTC reparations, and arbitration) are available for resolution of futures customers' disputes."
       },
       {
         "id": "d",
         "text": "A, B and C",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. All of the listed forums (civil court litigation. CFTC reparations, and arbitration) are available for resolution of futures customers' disputes."
+        "rationale": "Correct. All of the listed forums (civil court litigation. CFTC reparations, and arbitration) are available for resolution of futures customers' disputes."
       },
       {
         "id": "e",
         "text": "B and C. only",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed forums (civil court litigation. CFTC reparations, and arbitration) are available for resolution of futures customers' disputes."
+        "rationale": "Incorrect. All of the listed forums (civil court litigation. CFTC reparations, and arbitration) are available for resolution of futures customers' disputes."
       }
     ],
     "explanation": "All of the listed forums (civil court litigation. CFTC reparations, and arbitration) are available for resolution of futures customers' disputes.",
@@ -3919,7 +3919,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC reparations",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 90; source code 10_IM_27.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "90",
     "sourceQuestionNumber": 90,
@@ -3941,13 +3941,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CTAs and CPOs may submit a claim for exemption from certain disclosure document and recordkeeping requirements for qualified entities and highly capitalized individuals known as \"Qualified Eligible Persons\"(QEPs)."
+        "rationale": "Correct. (True) CTAs and CPOs may submit a claim for exemption from certain disclosure document and recordkeeping requirements for qualified entities and highly capitalized individuals known as \"Qualified Eligible Persons\"(QEPs)."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CTAs and CPOs may submit a claim for exemption from certain disclosure document and recordkeeping requirements for qualified entities and highly capitalized individuals known as \"Qualified Eligible Persons\"(QEPs)."
+        "rationale": "Incorrect. (True) CTAs and CPOs may submit a claim for exemption from certain disclosure document and recordkeeping requirements for qualified entities and highly capitalized individuals known as \"Qualified Eligible Persons\"(QEPs)."
       }
     ],
     "explanation": "(True) CTAs and CPOs may submit a claim for exemption from certain disclosure document and recordkeeping requirements for qualified entities and highly capitalized individuals known as \"Qualified Eligible Persons\"(QEPs).",
@@ -3975,37 +3975,37 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "upfront-fees",
     "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "Ifa CPO charges incentive fees based on an increase in the value ofthe pool, then the CPO must specify which of the following?",
+    "stem": "If a CPO charges incentive fees based on an increase in the value of the pool, then the CPO must specify which of the following?",
     "choices": [
       {
         "id": "a",
         "text": "How the increase in value of the pool will be calculated.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed items must be specified in a disclosure document if the CPO charges incentive fees."
+        "rationale": "Incorrect. All of the listed items must be specified in a disclosure document if the CPO charges incentive fees."
       },
       {
         "id": "b",
         "text": "The period of time during which the increase is calculated.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed items must be specified in a disclosure document if the CPO charges incentive fees."
+        "rationale": "Incorrect. All of the listed items must be specified in a disclosure document if the CPO charges incentive fees."
       },
       {
         "id": "c",
         "text": "The fee to be charged at the end of the specified time period.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed items must be specified in a disclosure document if the CPO charges incentive fees."
+        "rationale": "Incorrect. All of the listed items must be specified in a disclosure document if the CPO charges incentive fees."
       },
       {
         "id": "d",
         "text": "The value of the pool at which payment of the fee commences.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed items must be specified in a disclosure document if the CPO charges incentive fees."
+        "rationale": "Incorrect. All of the listed items must be specified in a disclosure document if the CPO charges incentive fees."
       },
       {
         "id": "e",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. All of the listed items must be specified in a disclosure document if the CPO charges incentive fees."
+        "rationale": "Correct. All of the listed items must be specified in a disclosure document if the CPO charges incentive fees."
       }
     ],
     "explanation": "All of the listed items must be specified in a disclosure document if the CPO charges incentive fees.",
@@ -4039,13 +4039,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. While routine day-to-day contacts with customers are not included within the definition of promotional material they are. however, subject to NFA's general antifraud provision."
+        "rationale": "Correct. While routine day-to-day contacts with customers are not included within the definition of promotional material they are. however, subject to NFA's general antifraud provision."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: While routine day-to-day contacts with customers are not included within the definition of promotional material they are. however, subject to NFA's general antifraud provision."
+        "rationale": "Incorrect. While routine day-to-day contacts with customers are not included within the definition of promotional material they are. however, subject to NFA's general antifraud provision."
       }
     ],
     "explanation": "While routine day-to-day contacts with customers are not included within the definition of promotional material they are. however, subject to NFA's general antifraud provision.",
@@ -4073,19 +4073,19 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cftc-registration",
     "difficulty": "hard",
     "questionType": "true_false",
-    "stem": "NFA members are prohibited from conducting futures- or options-related business With or on behalf of firms that are required to be NFA members but are not.",
+    "stem": "NFA members are prohibited from conducting futures- or options-related business with or on behalf of firms that are required to be NFA members but are not.",
     "choices": [
       {
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) NFA bylaws provide that no NFA order, or handle a transaction in futures (or options) for or on behalf of any non-member of the NFA or suspended member that is required to be registered with the CFTC as an FCM. IB. CPO. CTA. or Leverage Transaction Merchant."
+        "rationale": "Correct. (True) NFA bylaws provide that no NFA order, or handle a transaction in futures (or options) for or on behalf of any non-member of the NFA or suspended member that is required to be registered with the CFTC as an FCM. IB. CPO. CTA. or Leverage Transaction Merchant."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) NFA bylaws provide that no NFA order, or handle a transaction in futures (or options) for or on behalf of any non-member of the NFA or suspended member that is required to be registered with the CFTC as an FCM. IB. CPO. CTA. or Leverage Transaction Merchant."
+        "rationale": "Incorrect. (True) NFA bylaws provide that no NFA order, or handle a transaction in futures (or options) for or on behalf of any non-member of the NFA or suspended member that is required to be registered with the CFTC as an FCM. IB. CPO. CTA. or Leverage Transaction Merchant."
       }
     ],
     "explanation": "(True) NFA bylaws provide that no NFA order, or handle a transaction in futures (or options) for or on behalf of any non-member of the NFA or suspended member that is required to be registered with the CFTC as an FCM. IB. CPO. CTA. or Leverage Transaction Merchant.",
@@ -4118,31 +4118,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The text of a standardized oral presentation.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: While not included in the specific definition of promotional materials, day-to-day telephone contacts nevertheless are subject to general requirements such as the prohibitions against fraud and deceit and high-pressure sales solicitations."
+        "rationale": "Incorrect. While not included in the specific definition of promotional materials, day-to-day telephone contacts nevertheless are subject to general requirements such as the prohibitions against fraud and deceit and high-pressure sales solicitations."
       },
       {
         "id": "b",
         "text": "Any communication for publication, broadcast or use on other electronic medium.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: While not included in the specific definition of promotional materials, day-to-day telephone contacts nevertheless are subject to general requirements such as the prohibitions against fraud and deceit and high-pressure sales solicitations."
+        "rationale": "Incorrect. While not included in the specific definition of promotional materials, day-to-day telephone contacts nevertheless are subject to general requirements such as the prohibitions against fraud and deceit and high-pressure sales solicitations."
       },
       {
         "id": "c",
         "text": "Day-to-day customer telephone contacts.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. While not included in the specific definition of promotional materials, day-to-day telephone contacts nevertheless are subject to general requirements such as the prohibitions against fraud and deceit and high-pressure sales solicitations."
+        "rationale": "Correct. While not included in the specific definition of promotional materials, day-to-day telephone contacts nevertheless are subject to general requirements such as the prohibitions against fraud and deceit and high-pressure sales solicitations."
       },
       {
         "id": "d",
         "text": "A standardized report, letter, circular, memorandum, or publication that is disseminated or directed to the public for the purpose of soliciting an account, agreement, or transaction.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: While not included in the specific definition of promotional materials, day-to-day telephone contacts nevertheless are subject to general requirements such as the prohibitions against fraud and deceit and high-pressure sales solicitations."
+        "rationale": "Incorrect. While not included in the specific definition of promotional materials, day-to-day telephone contacts nevertheless are subject to general requirements such as the prohibitions against fraud and deceit and high-pressure sales solicitations."
       },
       {
         "id": "e",
         "text": "A and C.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: While not included in the specific definition of promotional materials, day-to-day telephone contacts nevertheless are subject to general requirements such as the prohibitions against fraud and deceit and high-pressure sales solicitations."
+        "rationale": "Incorrect. While not included in the specific definition of promotional materials, day-to-day telephone contacts nevertheless are subject to general requirements such as the prohibitions against fraud and deceit and high-pressure sales solicitations."
       }
     ],
     "explanation": "While not included in the specific definition of promotional materials, day-to-day telephone contacts nevertheless are subject to general requirements such as the prohibitions against fraud and deceit and high-pressure sales solicitations.",
@@ -4154,7 +4154,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 95; source code 10_IM_65.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "95",
     "sourceQuestionNumber": 95,
@@ -4176,25 +4176,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Year.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CTAs must disclose the business background of the trading advisor and each principal of the trading advisor for the five years preceding the date of the disclosure making trading or operational decisions for the trading advisor or supervises persons so engaged. Such persons include, without limitation, the CTA's officers and directors."
+        "rationale": "Incorrect. CTAs must disclose the business background of the trading advisor and each principal of the trading advisor for the five years preceding the date of the disclosure making trading or operational decisions for the trading advisor or supervises persons so engaged. Such persons include, without limitation, the CTA's officers and directors."
       },
       {
         "id": "b",
         "text": "Two years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CTAs must disclose the business background of the trading advisor and each principal of the trading advisor for the five years preceding the date of the disclosure making trading or operational decisions for the trading advisor or supervises persons so engaged. Such persons include, without limitation, the CTA's officers and directors."
+        "rationale": "Incorrect. CTAs must disclose the business background of the trading advisor and each principal of the trading advisor for the five years preceding the date of the disclosure making trading or operational decisions for the trading advisor or supervises persons so engaged. Such persons include, without limitation, the CTA's officers and directors."
       },
       {
         "id": "c",
         "text": "Three years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CTAs must disclose the business background of the trading advisor and each principal of the trading advisor for the five years preceding the date of the disclosure making trading or operational decisions for the trading advisor or supervises persons so engaged. Such persons include, without limitation, the CTA's officers and directors."
+        "rationale": "Incorrect. CTAs must disclose the business background of the trading advisor and each principal of the trading advisor for the five years preceding the date of the disclosure making trading or operational decisions for the trading advisor or supervises persons so engaged. Such persons include, without limitation, the CTA's officers and directors."
       },
       {
         "id": "d",
         "text": "Five years.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CTAs must disclose the business background of the trading advisor and each principal of the trading advisor for the five years preceding the date of the disclosure making trading or operational decisions for the trading advisor or supervises persons so engaged. Such persons include, without limitation, the CTA's officers and directors."
+        "rationale": "Correct. CTAs must disclose the business background of the trading advisor and each principal of the trading advisor for the five years preceding the date of the disclosure making trading or operational decisions for the trading advisor or supervises persons so engaged. Such persons include, without limitation, the CTA's officers and directors."
       }
     ],
     "explanation": "CTAs must disclose the business background of the trading advisor and each principal of the trading advisor for the five years preceding the date of the disclosure making trading or operational decisions for the trading advisor or supervises persons so engaged. Such persons include, without limitation, the CTA's officers and directors.",
@@ -4228,25 +4228,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "One year",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA arbitration rules require a notice of intent to arbitrate to be received by the NFA within two years from the date when the filing party knew or should have known of the act or transaction that is the subject of the controversy. The same two-year time limitation applies to filing CFTC reparations claims."
+        "rationale": "Incorrect. NFA arbitration rules require a notice of intent to arbitrate to be received by the NFA within two years from the date when the filing party knew or should have known of the act or transaction that is the subject of the controversy. The same two-year time limitation applies to filing CFTC reparations claims."
       },
       {
         "id": "b",
         "text": "Two years",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA arbitration rules require a notice of intent to arbitrate to be received by the NFA within two years from the date when the filing party knew or should have known of the act or transaction that is the subject of the controversy. The same two-year time limitation applies to filing CFTC reparations claims."
+        "rationale": "Correct. NFA arbitration rules require a notice of intent to arbitrate to be received by the NFA within two years from the date when the filing party knew or should have known of the act or transaction that is the subject of the controversy. The same two-year time limitation applies to filing CFTC reparations claims."
       },
       {
         "id": "c",
         "text": "Three years",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA arbitration rules require a notice of intent to arbitrate to be received by the NFA within two years from the date when the filing party knew or should have known of the act or transaction that is the subject of the controversy. The same two-year time limitation applies to filing CFTC reparations claims."
+        "rationale": "Incorrect. NFA arbitration rules require a notice of intent to arbitrate to be received by the NFA within two years from the date when the filing party knew or should have known of the act or transaction that is the subject of the controversy. The same two-year time limitation applies to filing CFTC reparations claims."
       },
       {
         "id": "d",
         "text": "No time limit as long as the filing is approved by the NFA",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA arbitration rules require a notice of intent to arbitrate to be received by the NFA within two years from the date when the filing party knew or should have known of the act or transaction that is the subject of the controversy. The same two-year time limitation applies to filing CFTC reparations claims."
+        "rationale": "Incorrect. NFA arbitration rules require a notice of intent to arbitrate to be received by the NFA within two years from the date when the filing party knew or should have known of the act or transaction that is the subject of the controversy. The same two-year time limitation applies to filing CFTC reparations claims."
       }
     ],
     "explanation": "NFA arbitration rules require a notice of intent to arbitrate to be received by the NFA within two years from the date when the filing party knew or should have known of the act or transaction that is the subject of the controversy. The same two-year time limitation applies to filing CFTC reparations claims.",
@@ -4273,34 +4273,34 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "promotional-material",
     "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "Which of the following terms best describes trading performance results that do not fepresent actual trading and are generally designed with the benefit of hindsight:",
+    "stem": "Which term best describes trading performance results that do not represent actual trading and are generally designed with the benefit of hindsight?",
     "choices": [
       {
         "id": "a",
         "text": "Pro forma results.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Trading performance results that do not represent actual trading and are generally designed with the benefit of hindsight is si pe urad ped se umo subject to a number of requirements reviewed in NFA Rule 2-29 (Communications with the Public and Promotional Material)."
+        "rationale": "Incorrect. Trading performance results that do not represent actual trading and are generally designed with the benefit of hindsight are hypothetical performance results. NFA Rule 2-29 imposes specific requirements on how hypothetical results may be presented."
       },
       {
         "id": "b",
         "text": "Extracted performance.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Trading performance results that do not represent actual trading and are generally designed with the benefit of hindsight is si pe urad ped se umo subject to a number of requirements reviewed in NFA Rule 2-29 (Communications with the Public and Promotional Material)."
+        "rationale": "Incorrect. Trading performance results that do not represent actual trading and are generally designed with the benefit of hindsight are hypothetical performance results. NFA Rule 2-29 imposes specific requirements on how hypothetical results may be presented."
       },
       {
         "id": "c",
         "text": "Reconstructed results.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Trading performance results that do not represent actual trading and are generally designed with the benefit of hindsight is si pe urad ped se umo subject to a number of requirements reviewed in NFA Rule 2-29 (Communications with the Public and Promotional Material)."
+        "rationale": "Incorrect. Trading performance results that do not represent actual trading and are generally designed with the benefit of hindsight are hypothetical performance results. NFA Rule 2-29 imposes specific requirements on how hypothetical results may be presented."
       },
       {
         "id": "d",
         "text": "Hypothetical performance.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Trading performance results that do not represent actual trading and are generally designed with the benefit of hindsight is si pe urad ped se umo subject to a number of requirements reviewed in NFA Rule 2-29 (Communications with the Public and Promotional Material)."
+        "rationale": "Correct. Trading performance results that do not represent actual trading and are generally designed with the benefit of hindsight are hypothetical performance results. NFA Rule 2-29 imposes specific requirements on how hypothetical results may be presented."
       }
     ],
-    "explanation": "Trading performance results that do not represent actual trading and are generally designed with the benefit of hindsight is si pe urad ped se umo subject to a number of requirements reviewed in NFA Rule 2-29 (Communications with the Public and Promotional Material).",
+    "explanation": "Trading performance results that do not represent actual trading and are generally designed with the benefit of hindsight are hypothetical performance results. NFA Rule 2-29 imposes specific requirements on how hypothetical results may be presented.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -4331,25 +4331,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Provide immediate clectronic notice to the NFA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA Member detecting abuses on a blog. chat room or forum that it hosts must remove any misleading or otherwise fraudulent posts peadai io snoiaia ioy siasn ueq psnu pue violations."
+        "rationale": "Incorrect. An NFA Member detecting abuses on a blog. chat room or forum that it hosts must remove any misleading or otherwise fraudulent posts peadai io snoiaia ioy siasn ueq psnu pue violations."
       },
       {
         "id": "b",
         "text": "Remove any misleading or otherwise fraudulent posts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA Member detecting abuses on a blog. chat room or forum that it hosts must remove any misleading or otherwise fraudulent posts peadai io snoiaia ioy siasn ueq psnu pue violations."
+        "rationale": "Incorrect. An NFA Member detecting abuses on a blog. chat room or forum that it hosts must remove any misleading or otherwise fraudulent posts peadai io snoiaia ioy siasn ueq psnu pue violations."
       },
       {
         "id": "c",
         "text": "Ban users for egregious or repeat violations.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA Member detecting abuses on a blog. chat room or forum that it hosts must remove any misleading or otherwise fraudulent posts peadai io snoiaia ioy siasn ueq psnu pue violations."
+        "rationale": "Incorrect. An NFA Member detecting abuses on a blog. chat room or forum that it hosts must remove any misleading or otherwise fraudulent posts peadai io snoiaia ioy siasn ueq psnu pue violations."
       },
       {
         "id": "d",
         "text": "b and c above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. An NFA Member detecting abuses on a blog. chat room or forum that it hosts must remove any misleading or otherwise fraudulent posts peadai io snoiaia ioy siasn ueq psnu pue violations."
+        "rationale": "Correct. An NFA Member detecting abuses on a blog. chat room or forum that it hosts must remove any misleading or otherwise fraudulent posts peadai io snoiaia ioy siasn ueq psnu pue violations."
       }
     ],
     "explanation": "An NFA Member detecting abuses on a blog. chat room or forum that it hosts must remove any misleading or otherwise fraudulent posts peadai io snoiaia ioy siasn ueq psnu pue violations.",
@@ -4361,7 +4361,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 99; source code 10_IM_121.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "99",
     "sourceQuestionNumber": 99,
@@ -4377,19 +4377,19 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "anti-money-laundering",
     "difficulty": "medium",
     "questionType": "true_false",
-    "stem": "FCMs, IBs, and their Associated Persons are prohibited fom informing a customer that a Suspicious Activity Report has been filed regarding possible money laundering activity in the customer's account.",
+    "stem": "FCMs, IBs, and their Associated Persons are prohibited from informing a customer that a Suspicious Activity Report has been filed regarding possible money laundering activity in the customer's account.",
     "choices": [
       {
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. FCMs, IBs, and their Associated Persons are prohibited from informing a customer that a Suspicious Activity Report has been filed regarding possible money laundering activity."
+        "rationale": "Correct. FCMs, IBs, and their Associated Persons are prohibited from informing a customer that a Suspicious Activity Report has been filed regarding possible money laundering activity."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: FCMs, IBs, and their Associated Persons are prohibited from informing a customer that a Suspicious Activity Report has been filed regarding possible money laundering activity."
+        "rationale": "Incorrect. FCMs, IBs, and their Associated Persons are prohibited from informing a customer that a Suspicious Activity Report has been filed regarding possible money laundering activity."
       }
     ],
     "explanation": "FCMs, IBs, and their Associated Persons are prohibited from informing a customer that a Suspicious Activity Report has been filed regarding possible money laundering activity.",
@@ -4422,25 +4422,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Not be included in the disclosure document.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any proprietary trading results included in a CTA or CPO disclosure document must be prominently labeled as proprietary and must be set forth separately at the end of the disclosure document. Differences between the proprietary trading results and the results of the offered pool or trading program, such as differences in costs, leverage, and trading methodology, must be explained."
+        "rationale": "Incorrect. Any proprietary trading results included in a CTA or CPO disclosure document must be prominently labeled as proprietary and must be set forth separately at the end of the disclosure document. Differences between the proprietary trading results and the results of the offered pool or trading program, such as differences in costs, leverage, and trading methodology, must be explained."
       },
       {
         "id": "b",
         "text": "Be labcled as proprictary.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any proprietary trading results included in a CTA or CPO disclosure document must be prominently labeled as proprietary and must be set forth separately at the end of the disclosure document. Differences between the proprietary trading results and the results of the offered pool or trading program, such as differences in costs, leverage, and trading methodology, must be explained."
+        "rationale": "Incorrect. Any proprietary trading results included in a CTA or CPO disclosure document must be prominently labeled as proprietary and must be set forth separately at the end of the disclosure document. Differences between the proprietary trading results and the results of the offered pool or trading program, such as differences in costs, leverage, and trading methodology, must be explained."
       },
       {
         "id": "c",
-        "text": "Be placed at the end ofthe disclosure document.",
+        "text": "Be placed at the end of the disclosure document.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any proprietary trading results included in a CTA or CPO disclosure document must be prominently labeled as proprietary and must be set forth separately at the end of the disclosure document. Differences between the proprietary trading results and the results of the offered pool or trading program, such as differences in costs, leverage, and trading methodology, must be explained."
+        "rationale": "Incorrect. Any proprietary trading results included in a CTA or CPO disclosure document must be prominently labeled as proprietary and must be set forth separately at the end of the disclosure document. Differences between the proprietary trading results and the results of the offered pool or trading program, such as differences in costs, leverage, and trading methodology, must be explained."
       },
       {
         "id": "d",
         "text": "B and C, only.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Any proprietary trading results included in a CTA or CPO disclosure document must be prominently labeled as proprietary and must be set forth separately at the end of the disclosure document. Differences between the proprietary trading results and the results of the offered pool or trading program, such as differences in costs, leverage, and trading methodology, must be explained."
+        "rationale": "Correct. Any proprietary trading results included in a CTA or CPO disclosure document must be prominently labeled as proprietary and must be set forth separately at the end of the disclosure document. Differences between the proprietary trading results and the results of the offered pool or trading program, such as differences in costs, leverage, and trading methodology, must be explained."
       }
     ],
     "explanation": "Any proprietary trading results included in a CTA or CPO disclosure document must be prominently labeled as proprietary and must be set forth separately at the end of the disclosure document. Differences between the proprietary trading results and the results of the offered pool or trading program, such as differences in costs, leverage, and trading methodology, must be explained.",
@@ -4452,7 +4452,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 101; source code 10_IM_66.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "101",
     "sourceQuestionNumber": 101,
@@ -4474,25 +4474,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The information be representative of the performance of all reasonably Comparable accounts during the same tine period.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires specific numerical or statistical information on past performance contained in promotional material to be representative of the actual performance of all reasonably comparable accounts during the same time period and to be calculated in a manner consistent with CFTC requirements for CTAs and CPOs."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires specific numerical or statistical information on past performance contained in promotional material to be representative of the actual performance of all reasonably comparable accounts during the same time period and to be calculated in a manner consistent with CFTC requirements for CTAs and CPOs."
       },
       {
         "id": "b",
         "text": "The rate of return figures be calculated in a manner consistent with that required by the CFTC for CPOs and CTAs.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires specific numerical or statistical information on past performance contained in promotional material to be representative of the actual performance of all reasonably comparable accounts during the same time period and to be calculated in a manner consistent with CFTC requirements for CTAs and CPOs."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires specific numerical or statistical information on past performance contained in promotional material to be representative of the actual performance of all reasonably comparable accounts during the same time period and to be calculated in a manner consistent with CFTC requirements for CTAs and CPOs."
       },
       {
         "id": "c",
         "text": "No specific requirements apply, but the information must not be misleading.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires specific numerical or statistical information on past performance contained in promotional material to be representative of the actual performance of all reasonably comparable accounts during the same time period and to be calculated in a manner consistent with CFTC requirements for CTAs and CPOs."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires specific numerical or statistical information on past performance contained in promotional material to be representative of the actual performance of all reasonably comparable accounts during the same time period and to be calculated in a manner consistent with CFTC requirements for CTAs and CPOs."
       },
       {
         "id": "d",
         "text": "Both A and B.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires specific numerical or statistical information on past performance contained in promotional material to be representative of the actual performance of all reasonably comparable accounts during the same time period and to be calculated in a manner consistent with CFTC requirements for CTAs and CPOs."
+        "rationale": "Correct. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires specific numerical or statistical information on past performance contained in promotional material to be representative of the actual performance of all reasonably comparable accounts during the same time period and to be calculated in a manner consistent with CFTC requirements for CTAs and CPOs."
       }
     ],
     "explanation": "NFA Rule 2-29 (Communications with the Public and Promotional Material) requires specific numerical or statistical information on past performance contained in promotional material to be representative of the actual performance of all reasonably comparable accounts during the same time period and to be calculated in a manner consistent with CFTC requirements for CTAs and CPOs.",
@@ -4504,7 +4504,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 102; source code 10_IM_82.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "102",
     "sourceQuestionNumber": 102,
@@ -4526,31 +4526,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The testimonial must be representative of all reasonably comparable accounts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member uses a testimonial in any promotional material, then the following fequirements must be satisfied: (a) the testimonial must be representative of all reasonably comparable accounts; (b) the material must prominently state that the testimonial is not indicative of futures performance; and (c) if applicable, the material must state that it was a paid testimonial."
+        "rationale": "Incorrect. If a Member uses a testimonial in any promotional material, then the following fequirements must be satisfied: (a) the testimonial must be representative of all reasonably comparable accounts; (b) the material must prominently state that the testimonial is not indicative of futures performance; and (c) if applicable, the material must state that it was a paid testimonial."
       },
       {
         "id": "b",
         "text": "The material must prominently state that the testimonial is not indicative of future performance or success.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member uses a testimonial in any promotional material, then the following fequirements must be satisfied: (a) the testimonial must be representative of all reasonably comparable accounts; (b) the material must prominently state that the testimonial is not indicative of futures performance; and (c) if applicable, the material must state that it was a paid testimonial."
+        "rationale": "Incorrect. If a Member uses a testimonial in any promotional material, then the following fequirements must be satisfied: (a) the testimonial must be representative of all reasonably comparable accounts; (b) the material must prominently state that the testimonial is not indicative of futures performance; and (c) if applicable, the material must state that it was a paid testimonial."
       },
       {
         "id": "c",
         "text": "If applicable, the material must state that it was a paid testimonial.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member uses a testimonial in any promotional material, then the following fequirements must be satisfied: (a) the testimonial must be representative of all reasonably comparable accounts; (b) the material must prominently state that the testimonial is not indicative of futures performance; and (c) if applicable, the material must state that it was a paid testimonial."
+        "rationale": "Incorrect. If a Member uses a testimonial in any promotional material, then the following fequirements must be satisfied: (a) the testimonial must be representative of all reasonably comparable accounts; (b) the material must prominently state that the testimonial is not indicative of futures performance; and (c) if applicable, the material must state that it was a paid testimonial."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. If a Member uses a testimonial in any promotional material, then the following fequirements must be satisfied: (a) the testimonial must be representative of all reasonably comparable accounts; (b) the material must prominently state that the testimonial is not indicative of futures performance; and (c) if applicable, the material must state that it was a paid testimonial."
+        "rationale": "Correct. If a Member uses a testimonial in any promotional material, then the following fequirements must be satisfied: (a) the testimonial must be representative of all reasonably comparable accounts; (b) the material must prominently state that the testimonial is not indicative of futures performance; and (c) if applicable, the material must state that it was a paid testimonial."
       },
       {
         "id": "e",
         "text": "B and C above.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member uses a testimonial in any promotional material, then the following fequirements must be satisfied: (a) the testimonial must be representative of all reasonably comparable accounts; (b) the material must prominently state that the testimonial is not indicative of futures performance; and (c) if applicable, the material must state that it was a paid testimonial."
+        "rationale": "Incorrect. If a Member uses a testimonial in any promotional material, then the following fequirements must be satisfied: (a) the testimonial must be representative of all reasonably comparable accounts; (b) the material must prominently state that the testimonial is not indicative of futures performance; and (c) if applicable, the material must state that it was a paid testimonial."
       }
     ],
     "explanation": "If a Member uses a testimonial in any promotional material, then the following fequirements must be satisfied: (a) the testimonial must be representative of all reasonably comparable accounts; (b) the material must prominently state that the testimonial is not indicative of futures performance; and (c) if applicable, the material must state that it was a paid testimonial.",
@@ -4562,7 +4562,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 103; source code 10_IM_105.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "103",
     "sourceQuestionNumber": 103,
@@ -4584,13 +4584,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-22 (Prohibited Representations) prohibits Members or Associates from representing or implying that they have been sponsored, recommended or approved, or that their abilities have been passed upon, by the NFA. However. an NFA Member or Associate may state the fact of their membership or registration as an Associate as long as such statement does not involve misrepresentation. A Member or Associate also is permitted to discuss and explain the functions and purposes of NFA."
+        "rationale": "Incorrect. NFA Rule 2-22 (Prohibited Representations) prohibits Members or Associates from representing or implying that they have been sponsored, recommended or approved, or that their abilities have been passed upon, by the NFA. However. an NFA Member or Associate may state the fact of their membership or registration as an Associate as long as such statement does not involve misrepresentation. A Member or Associate also is permitted to discuss and explain the functions and purposes of NFA."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-22 (Prohibited Representations) prohibits Members or Associates from representing or implying that they have been sponsored, recommended or approved, or that their abilities have been passed upon, by the NFA. However. an NFA Member or Associate may state the fact of their membership or registration as an Associate as long as such statement does not involve misrepresentation. A Member or Associate also is permitted to discuss and explain the functions and purposes of NFA."
+        "rationale": "Correct. NFA Rule 2-22 (Prohibited Representations) prohibits Members or Associates from representing or implying that they have been sponsored, recommended or approved, or that their abilities have been passed upon, by the NFA. However. an NFA Member or Associate may state the fact of their membership or registration as an Associate as long as such statement does not involve misrepresentation. A Member or Associate also is permitted to discuss and explain the functions and purposes of NFA."
       }
     ],
     "explanation": "NFA Rule 2-22 (Prohibited Representations) prohibits Members or Associates from representing or implying that they have been sponsored, recommended or approved, or that their abilities have been passed upon, by the NFA. However. an NFA Member or Associate may state the fact of their membership or registration as an Associate as long as such statement does not involve misrepresentation. A Member or Associate also is permitted to discuss and explain the functions and purposes of NFA.",
@@ -4623,25 +4623,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Futures commission merchants and futures clearinghouses.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The only futures industry institutions permitted by law to hold customer funds are futures commission merchants and futures clearinghouses."
+        "rationale": "Correct. The only futures industry institutions permitted by law to hold customer funds are futures commission merchants and futures clearinghouses."
       },
       {
         "id": "b",
         "text": "Futures commission merchants only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The only futures industry institutions permitted by law to hold customer funds are futures commission merchants and futures clearinghouses."
+        "rationale": "Incorrect. The only futures industry institutions permitted by law to hold customer funds are futures commission merchants and futures clearinghouses."
       },
       {
         "id": "c",
         "text": "Futures clearinghouses only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The only futures industry institutions permitted by law to hold customer funds are futures commission merchants and futures clearinghouses."
+        "rationale": "Incorrect. The only futures industry institutions permitted by law to hold customer funds are futures commission merchants and futures clearinghouses."
       },
       {
         "id": "d",
         "text": "Futures commission merchants, clearinghouses, and introducing brokers.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The only futures industry institutions permitted by law to hold customer funds are futures commission merchants and futures clearinghouses."
+        "rationale": "Incorrect. The only futures industry institutions permitted by law to hold customer funds are futures commission merchants and futures clearinghouses."
       }
     ],
     "explanation": "The only futures industry institutions permitted by law to hold customer funds are futures commission merchants and futures clearinghouses.",
@@ -4675,25 +4675,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Adopt and enforce written procedures.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA members directing the trading in discretionary accounts must adopt and must regularly review discretionary trading activity and make a written record of such review. In addition. NFA members that are FCMs or IBs also must ensure that the AP directing the trading in the account has a minimum of two years of experience."
+        "rationale": "Incorrect. NFA members directing the trading in discretionary accounts must adopt and must regularly review discretionary trading activity and make a written record of such review. In addition. NFA members that are FCMs or IBs also must ensure that the AP directing the trading in the account has a minimum of two years of experience."
       },
       {
         "id": "b",
         "text": "Regularly review discretionary trading activity and make a written record of such review.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA members directing the trading in discretionary accounts must adopt and must regularly review discretionary trading activity and make a written record of such review. In addition. NFA members that are FCMs or IBs also must ensure that the AP directing the trading in the account has a minimum of two years of experience."
+        "rationale": "Incorrect. NFA members directing the trading in discretionary accounts must adopt and must regularly review discretionary trading activity and make a written record of such review. In addition. NFA members that are FCMs or IBs also must ensure that the AP directing the trading in the account has a minimum of two years of experience."
       },
       {
         "id": "c",
         "text": "In the case of an FCM or IB, ensure that the AP has a minimum of two years of experience.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA members directing the trading in discretionary accounts must adopt and must regularly review discretionary trading activity and make a written record of such review. In addition. NFA members that are FCMs or IBs also must ensure that the AP directing the trading in the account has a minimum of two years of experience."
+        "rationale": "Incorrect. NFA members directing the trading in discretionary accounts must adopt and must regularly review discretionary trading activity and make a written record of such review. In addition. NFA members that are FCMs or IBs also must ensure that the AP directing the trading in the account has a minimum of two years of experience."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA members directing the trading in discretionary accounts must adopt and must regularly review discretionary trading activity and make a written record of such review. In addition. NFA members that are FCMs or IBs also must ensure that the AP directing the trading in the account has a minimum of two years of experience."
+        "rationale": "Correct. NFA members directing the trading in discretionary accounts must adopt and must regularly review discretionary trading activity and make a written record of such review. In addition. NFA members that are FCMs or IBs also must ensure that the AP directing the trading in the account has a minimum of two years of experience."
       }
     ],
     "explanation": "NFA members directing the trading in discretionary accounts must adopt and must regularly review discretionary trading activity and make a written record of such review. In addition. NFA members that are FCMs or IBs also must ensure that the AP directing the trading in the account has a minimum of two years of experience.",
@@ -4721,19 +4721,19 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "performance-records",
     "difficulty": "hard",
     "questionType": "true_false",
-    "stem": "In addition to an annual report, a CPO must attach to its disclosure document the CPO's most current account statement, unless the performance information in the disclosure document is current as ofa date not more than 60 days prior to the date on Which the disclosure document is provided to a prospective participant.",
+    "stem": "In addition to an annual report, a CPO must attach to its disclosure document the CPO's most current account statement, unless the performance information in the disclosure document is current as of a date not more than 60 days prior to the date on Which the disclosure document is provided to a prospective participant.",
     "choices": [
       {
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CPOs are required to attach to their dlisclosure documents their most current account statements and annual reports."
+        "rationale": "Correct. (True) CPOs are required to attach to their dlisclosure documents their most current account statements and annual reports."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CPOs are required to attach to their dlisclosure documents their most current account statements and annual reports."
+        "rationale": "Incorrect. (True) CPOs are required to attach to their dlisclosure documents their most current account statements and annual reports."
       }
     ],
     "explanation": "(True) CPOs are required to attach to their dlisclosure documents their most current account statements and annual reports.",
@@ -4767,25 +4767,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Only for hedge accounts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Cross-trades may only be executed in accordance with written exchange rules that have been approved by the CFTC."
+        "rationale": "Incorrect. Cross-trades may only be executed in accordance with written exchange rules that have been approved by the CFTC."
       },
       {
         "id": "b",
         "text": "Only against proprictary trades.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Cross-trades may only be executed in accordance with written exchange rules that have been approved by the CFTC."
+        "rationale": "Incorrect. Cross-trades may only be executed in accordance with written exchange rules that have been approved by the CFTC."
       },
       {
         "id": "c",
         "text": "In accordance with the written rules of a particular exchange.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Cross-trades may only be executed in accordance with written exchange rules that have been approved by the CFTC."
+        "rationale": "Correct. Cross-trades may only be executed in accordance with written exchange rules that have been approved by the CFTC."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Cross-trades may only be executed in accordance with written exchange rules that have been approved by the CFTC."
+        "rationale": "Incorrect. Cross-trades may only be executed in accordance with written exchange rules that have been approved by the CFTC."
       }
     ],
     "explanation": "Cross-trades may only be executed in accordance with written exchange rules that have been approved by the CFTC.",
@@ -4812,31 +4812,31 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cftc-registration",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "With passage of the Dodd-Frank Act, which of the following are now included within the definition of \"derivative\":",
+    "stem": "with passage of the Dodd-Frank Act, which of the following are now included within the definition of \"derivative\":",
     "choices": [
       {
         "id": "a",
         "text": "Futures and options on futures.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Under the Dodd-Frank Act, futures, options on futures, retail foreign exchange contracts. and swaps all fall within the definition of a derivative."
+        "rationale": "Incorrect. Under the Dodd-Frank Act, futures, options on futures, retail foreign exchange contracts. and swaps all fall within the definition of a derivative."
       },
       {
         "id": "b",
         "text": "Retail foreign exchange contracts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Under the Dodd-Frank Act, futures, options on futures, retail foreign exchange contracts. and swaps all fall within the definition of a derivative."
+        "rationale": "Incorrect. Under the Dodd-Frank Act, futures, options on futures, retail foreign exchange contracts. and swaps all fall within the definition of a derivative."
       },
       {
         "id": "c",
         "text": "Swaps.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Under the Dodd-Frank Act, futures, options on futures, retail foreign exchange contracts. and swaps all fall within the definition of a derivative."
+        "rationale": "Incorrect. Under the Dodd-Frank Act, futures, options on futures, retail foreign exchange contracts. and swaps all fall within the definition of a derivative."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Under the Dodd-Frank Act, futures, options on futures, retail foreign exchange contracts. and swaps all fall within the definition of a derivative."
+        "rationale": "Correct. Under the Dodd-Frank Act, futures, options on futures, retail foreign exchange contracts. and swaps all fall within the definition of a derivative."
       }
     ],
     "explanation": "Under the Dodd-Frank Act, futures, options on futures, retail foreign exchange contracts. and swaps all fall within the definition of a derivative.",
@@ -4869,25 +4869,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Be commingled as long as generally accepted accounting principles are followed.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit an FCM from funds belonging to the FCM."
+        "rationale": "Incorrect. CFTC regulations prohibit an FCM from funds belonging to the FCM."
       },
       {
         "id": "b",
         "text": "Not be commingled.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations prohibit an FCM from funds belonging to the FCM."
+        "rationale": "Correct. CFTC regulations prohibit an FCM from funds belonging to the FCM."
       },
       {
         "id": "c",
         "text": "Be commingled only at the clearinghouse level.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit an FCM from funds belonging to the FCM."
+        "rationale": "Incorrect. CFTC regulations prohibit an FCM from funds belonging to the FCM."
       },
       {
         "id": "d",
         "text": "Be commingled only with the customer's written consent.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit an FCM from funds belonging to the FCM."
+        "rationale": "Incorrect. CFTC regulations prohibit an FCM from funds belonging to the FCM."
       }
     ],
     "explanation": "CFTC regulations prohibit an FCM from funds belonging to the FCM.",
@@ -4921,25 +4921,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Weekly.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Each FCM must compute on a daily basis, as of the close of each business day, the following information: (a) the total amount of customer funds on deposit in segregated accounts; (b) the total amount of customer funds required to be on deposit in segregated accounts; and (c) the amount of the FCM's residual interest in customer segregated funds. FCMs also are required to prepare, on a daily basis, a similar record for forcign futures and options secured amounts."
+        "rationale": "Incorrect. Each FCM must compute on a daily basis, as of the close of each business day, the following information: (a) the total amount of customer funds on deposit in segregated accounts; (b) the total amount of customer funds required to be on deposit in segregated accounts; and (c) the amount of the FCM's residual interest in customer segregated funds. FCMs also are required to prepare, on a daily basis, a similar record for forcign futures and options secured amounts."
       },
       {
         "id": "b",
         "text": "Daily.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Each FCM must compute on a daily basis, as of the close of each business day, the following information: (a) the total amount of customer funds on deposit in segregated accounts; (b) the total amount of customer funds required to be on deposit in segregated accounts; and (c) the amount of the FCM's residual interest in customer segregated funds. FCMs also are required to prepare, on a daily basis, a similar record for forcign futures and options secured amounts."
+        "rationale": "Correct. Each FCM must compute on a daily basis, as of the close of each business day, the following information: (a) the total amount of customer funds on deposit in segregated accounts; (b) the total amount of customer funds required to be on deposit in segregated accounts; and (c) the amount of the FCM's residual interest in customer segregated funds. FCMs also are required to prepare, on a daily basis, a similar record for forcign futures and options secured amounts."
       },
       {
         "id": "c",
         "text": "Monthly.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Each FCM must compute on a daily basis, as of the close of each business day, the following information: (a) the total amount of customer funds on deposit in segregated accounts; (b) the total amount of customer funds required to be on deposit in segregated accounts; and (c) the amount of the FCM's residual interest in customer segregated funds. FCMs also are required to prepare, on a daily basis, a similar record for forcign futures and options secured amounts."
+        "rationale": "Incorrect. Each FCM must compute on a daily basis, as of the close of each business day, the following information: (a) the total amount of customer funds on deposit in segregated accounts; (b) the total amount of customer funds required to be on deposit in segregated accounts; and (c) the amount of the FCM's residual interest in customer segregated funds. FCMs also are required to prepare, on a daily basis, a similar record for forcign futures and options secured amounts."
       },
       {
         "id": "d",
         "text": "Quarterly.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Each FCM must compute on a daily basis, as of the close of each business day, the following information: (a) the total amount of customer funds on deposit in segregated accounts; (b) the total amount of customer funds required to be on deposit in segregated accounts; and (c) the amount of the FCM's residual interest in customer segregated funds. FCMs also are required to prepare, on a daily basis, a similar record for forcign futures and options secured amounts."
+        "rationale": "Incorrect. Each FCM must compute on a daily basis, as of the close of each business day, the following information: (a) the total amount of customer funds on deposit in segregated accounts; (b) the total amount of customer funds required to be on deposit in segregated accounts; and (c) the amount of the FCM's residual interest in customer segregated funds. FCMs also are required to prepare, on a daily basis, a similar record for forcign futures and options secured amounts."
       }
     ],
     "explanation": "Each FCM must compute on a daily basis, as of the close of each business day, the following information: (a) the total amount of customer funds on deposit in segregated accounts; (b) the total amount of customer funds required to be on deposit in segregated accounts; and (c) the amount of the FCM's residual interest in customer segregated funds. FCMs also are required to prepare, on a daily basis, a similar record for forcign futures and options secured amounts.",
@@ -4973,16 +4973,16 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Research analysts cannot be under the control and supervision ofthe trading or clearing departments pursuant to new CFTC Regulation 1.71, which covers a number of situations regarding conflicts of interest between trading and clearing functions and research functions."
+        "rationale": "Incorrect. Research analysts cannot be under the control and supervision of the trading or clearing departments pursuant to new CFTC Regulation 1.71, which covers a number of situations regarding conflicts of interest between trading and clearing functions and research functions."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Research analysts cannot be under the control and supervision ofthe trading or clearing departments pursuant to new CFTC Regulation 1.71, which covers a number of situations regarding conflicts of interest between trading and clearing functions and research functions."
+        "rationale": "Correct. Research analysts cannot be under the control and supervision of the trading or clearing departments pursuant to new CFTC Regulation 1.71, which covers a number of situations regarding conflicts of interest between trading and clearing functions and research functions."
       }
     ],
-    "explanation": "Research analysts cannot be under the control and supervision ofthe trading or clearing departments pursuant to new CFTC Regulation 1.71, which covers a number of situations regarding conflicts of interest between trading and clearing functions and research functions.",
+    "explanation": "Research analysts cannot be under the control and supervision of the trading or clearing departments pursuant to new CFTC Regulation 1.71, which covers a number of situations regarding conflicts of interest between trading and clearing functions and research functions.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -5012,25 +5012,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The ruling of an administrative law judge may be appealed to the Commission.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Either party may appeal a decision of a CFTC Administrative Law Judge to the Commission, and the respondent may appeal a Commission decision to the U.S. Court of Appeals."
+        "rationale": "Incorrect. Either party may appeal a decision of a CFTC Administrative Law Judge to the Commission, and the respondent may appeal a Commission decision to the U.S. Court of Appeals."
       },
       {
         "id": "b",
         "text": "The Commission's order on review of an ALJ's decision may be appealed, by the Iespondent, to the U.S. Couit of Appeals.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Either party may appeal a decision of a CFTC Administrative Law Judge to the Commission, and the respondent may appeal a Commission decision to the U.S. Court of Appeals."
+        "rationale": "Incorrect. Either party may appeal a decision of a CFTC Administrative Law Judge to the Commission, and the respondent may appeal a Commission decision to the U.S. Court of Appeals."
       },
       {
         "id": "c",
-        "text": "No appeal is permitted .",
+        "text": "No appeal is permitted.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Either party may appeal a decision of a CFTC Administrative Law Judge to the Commission, and the respondent may appeal a Commission decision to the U.S. Court of Appeals."
+        "rationale": "Incorrect. Either party may appeal a decision of a CFTC Administrative Law Judge to the Commission, and the respondent may appeal a Commission decision to the U.S. Court of Appeals."
       },
       {
         "id": "d",
         "text": "A and B, only.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Either party may appeal a decision of a CFTC Administrative Law Judge to the Commission, and the respondent may appeal a Commission decision to the U.S. Court of Appeals."
+        "rationale": "Correct. Either party may appeal a decision of a CFTC Administrative Law Judge to the Commission, and the respondent may appeal a Commission decision to the U.S. Court of Appeals."
       }
     ],
     "explanation": "Either party may appeal a decision of a CFTC Administrative Law Judge to the Commission, and the respondent may appeal a Commission decision to the U.S. Court of Appeals.",
@@ -5041,7 +5041,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "disciplinary procedures",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 113; source code 10_IM_17.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "113",
     "sourceQuestionNumber": 113,
@@ -5063,25 +5063,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "NFA board of directors.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A respondent in an NFA complaint may appeal any adverse action issued by the NFA hearing committee or hearing panel directly to the NFA appeals committee."
+        "rationale": "Incorrect. A respondent in an NFA complaint may appeal any adverse action issued by the NFA hearing committee or hearing panel directly to the NFA appeals committee."
       },
       {
         "id": "b",
         "text": "NFA appeals committee.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A respondent in an NFA complaint may appeal any adverse action issued by the NFA hearing committee or hearing panel directly to the NFA appeals committee."
+        "rationale": "Correct. A respondent in an NFA complaint may appeal any adverse action issued by the NFA hearing committee or hearing panel directly to the NFA appeals committee."
       },
       {
         "id": "c",
         "text": "CFTC.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A respondent in an NFA complaint may appeal any adverse action issued by the NFA hearing committee or hearing panel directly to the NFA appeals committee."
+        "rationale": "Incorrect. A respondent in an NFA complaint may appeal any adverse action issued by the NFA hearing committee or hearing panel directly to the NFA appeals committee."
       },
       {
         "id": "d",
         "text": "Appropriate NFA regional business conduct committee.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A respondent in an NFA complaint may appeal any adverse action issued by the NFA hearing committee or hearing panel directly to the NFA appeals committee."
+        "rationale": "Incorrect. A respondent in an NFA complaint may appeal any adverse action issued by the NFA hearing committee or hearing panel directly to the NFA appeals committee."
       }
     ],
     "explanation": "A respondent in an NFA complaint may appeal any adverse action issued by the NFA hearing committee or hearing panel directly to the NFA appeals committee.",
@@ -5114,13 +5114,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) A registrant under investigation by the CFTC or NFA is not permitted to withdraw from registration under the Commodity Exchange Act."
+        "rationale": "Incorrect. (False) A registrant under investigation by the CFTC or NFA is not permitted to withdraw from registration under the Commodity Exchange Act."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) A registrant under investigation by the CFTC or NFA is not permitted to withdraw from registration under the Commodity Exchange Act."
+        "rationale": "Correct. (False) A registrant under investigation by the CFTC or NFA is not permitted to withdraw from registration under the Commodity Exchange Act."
       }
     ],
     "explanation": "(False) A registrant under investigation by the CFTC or NFA is not permitted to withdraw from registration under the Commodity Exchange Act.",
@@ -5153,13 +5153,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) CFTC regulations require aggregation, for position-reporting purposes, of accounts under common control or ownership (10 percent or more except as a shareholder or limited partner in a pool). For CFTC and exchange position-limit purposes. positions also must be aggregated based on common ownership and control as well as for any e o purensnd Bupen sjunosoe jo dnoia expressed or implied agrecment."
+        "rationale": "Correct. (True) CFTC regulations require aggregation, for position-reporting purposes, of accounts under common control or ownership (10 percent or more except as a shareholder or limited partner in a pool). For CFTC and exchange position-limit purposes. positions also must be aggregated based on common ownership and control as well as for any e o purensnd Bupen sjunosoe jo dnoia expressed or implied agrecment."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) CFTC regulations require aggregation, for position-reporting purposes, of accounts under common control or ownership (10 percent or more except as a shareholder or limited partner in a pool). For CFTC and exchange position-limit purposes. positions also must be aggregated based on common ownership and control as well as for any e o purensnd Bupen sjunosoe jo dnoia expressed or implied agrecment."
+        "rationale": "Incorrect. (True) CFTC regulations require aggregation, for position-reporting purposes, of accounts under common control or ownership (10 percent or more except as a shareholder or limited partner in a pool). For CFTC and exchange position-limit purposes. positions also must be aggregated based on common ownership and control as well as for any e o purensnd Bupen sjunosoe jo dnoia expressed or implied agrecment."
       }
     ],
     "explanation": "(True) CFTC regulations require aggregation, for position-reporting purposes, of accounts under common control or ownership (10 percent or more except as a shareholder or limited partner in a pool). For CFTC and exchange position-limit purposes. positions also must be aggregated based on common ownership and control as well as for any e o purensnd Bupen sjunosoe jo dnoia expressed or implied agrecment.",
@@ -5192,25 +5192,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The aggregate amount of the claims, exclusive of interest and costs, do not exceed $5,000.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA arbitration will be considered entirely through written submissions under any of the listed three situations."
+        "rationale": "Incorrect. An NFA arbitration will be considered entirely through written submissions under any of the listed three situations."
       },
       {
         "id": "b",
-        "text": "The aggregate amount of the claims, exclusive of interest and costs, are more than $5,000 but do not exceed $10,000 and none ofthe parties requests an oral hearing.",
+        "text": "The aggregate amount of the claims, exclusive of interest and costs, are more than $5,000 but do not exceed $10,000 and none of the parties requests an oral hearing.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA arbitration will be considered entirely through written submissions under any of the listed three situations."
+        "rationale": "Incorrect. An NFA arbitration will be considered entirely through written submissions under any of the listed three situations."
       },
       {
         "id": "c",
         "text": "The panel has consented to the written agreement of the parties to waive oral hearing.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA arbitration will be considered entirely through written submissions under any of the listed three situations."
+        "rationale": "Incorrect. An NFA arbitration will be considered entirely through written submissions under any of the listed three situations."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. An NFA arbitration will be considered entirely through written submissions under any of the listed three situations."
+        "rationale": "Correct. An NFA arbitration will be considered entirely through written submissions under any of the listed three situations."
       }
     ],
     "explanation": "An NFA arbitration will be considered entirely through written submissions under any of the listed three situations.",
@@ -5243,13 +5243,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) A CPO disclosure document must identify each \"major CTA\", that is, any CTA allocated or intended to be allocated at least 10 percent of the pools funds available for commodity interest trading."
+        "rationale": "Correct. (True) A CPO disclosure document must identify each \"major CTA\", that is, any CTA allocated or intended to be allocated at least 10 percent of the pools funds available for commodity interest trading."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) A CPO disclosure document must identify each \"major CTA\", that is, any CTA allocated or intended to be allocated at least 10 percent of the pools funds available for commodity interest trading."
+        "rationale": "Incorrect. (True) A CPO disclosure document must identify each \"major CTA\", that is, any CTA allocated or intended to be allocated at least 10 percent of the pools funds available for commodity interest trading."
       }
     ],
     "explanation": "(True) A CPO disclosure document must identify each \"major CTA\", that is, any CTA allocated or intended to be allocated at least 10 percent of the pools funds available for commodity interest trading.",
@@ -5277,40 +5277,40 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "discretionary-accounts",
     "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "For an AP of an FCM or an IB to accept a discretionary account, the following must occur:",
+    "stem": "For an AP of an FCM or IB to handle a discretionary account, which listed requirements are correctly stated?",
     "choices": [
       {
-        "id": "a",
-        "text": "The customer must execute a power of attomey/trading authorization.",
+        "text": "The customer must execute a power of attorney or trading authorization only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: To handle discretionary accounts an AP of an FCM or IB must have a signed power of attorney or trading authorization from the customer and must have been registered and have acted in the capacity of a registrant for at least two years. In addition. the AP's supervisor must review all activity in a discretionary account."
+        "rationale": "Incorrect. A discretionary account requires written customer authorization, such as a power of attorney or trading authorization, and supervisory review of the discretionary activity. The source choice stating a 3-year experience requirement is not correct; the regulatory experience requirement is two years for an AP exercising discretion.",
+        "id": "a"
       },
       {
-        "id": "b",
-        "text": "The AP handling the account must have at least 3 years of experience.",
+        "text": "The AP must have at least 3 years of experience only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: To handle discretionary accounts an AP of an FCM or IB must have a signed power of attorney or trading authorization from the customer and must have been registered and have acted in the capacity of a registrant for at least two years. In addition. the AP's supervisor must review all activity in a discretionary account."
+        "rationale": "Incorrect. A discretionary account requires written customer authorization, such as a power of attorney or trading authorization, and supervisory review of the discretionary activity. The source choice stating a 3-year experience requirement is not correct; the regulatory experience requirement is two years for an AP exercising discretion.",
+        "id": "b"
       },
       {
-        "id": "c",
-        "text": "The AP's supervisor must review all trades executed in the discretionary account.",
+        "text": "The AP's supervisor must review discretionary account activity only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: To handle discretionary accounts an AP of an FCM or IB must have a signed power of attorney or trading authorization from the customer and must have been registered and have acted in the capacity of a registrant for at least two years. In addition. the AP's supervisor must review all activity in a discretionary account."
+        "rationale": "Incorrect. A discretionary account requires written customer authorization, such as a power of attorney or trading authorization, and supervisory review of the discretionary activity. The source choice stating a 3-year experience requirement is not correct; the regulatory experience requirement is two years for an AP exercising discretion.",
+        "id": "c"
       },
       {
-        "id": "d",
-        "text": "A &B, only",
+        "text": "Power of attorney or trading authorization plus the stated 3-year AP experience requirement.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: To handle discretionary accounts an AP of an FCM or IB must have a signed power of attorney or trading authorization from the customer and must have been registered and have acted in the capacity of a registrant for at least two years. In addition. the AP's supervisor must review all activity in a discretionary account."
+        "rationale": "Incorrect. A discretionary account requires written customer authorization, such as a power of attorney or trading authorization, and supervisory review of the discretionary activity. The source choice stating a 3-year experience requirement is not correct; the regulatory experience requirement is two years for an AP exercising discretion.",
+        "id": "d"
       },
       {
-        "id": "e",
-        "text": "A & C.only",
+        "text": "Power of attorney or trading authorization plus supervisor review of discretionary account activity.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. To handle discretionary accounts an AP of an FCM or IB must have a signed power of attorney or trading authorization from the customer and must have been registered and have acted in the capacity of a registrant for at least two years. In addition. the AP's supervisor must review all activity in a discretionary account."
+        "rationale": "Correct. A discretionary account requires written customer authorization, such as a power of attorney or trading authorization, and supervisory review of the discretionary activity. The source choice stating a 3-year experience requirement is not correct; the regulatory experience requirement is two years for an AP exercising discretion.",
+        "id": "e"
       }
     ],
-    "explanation": "To handle discretionary accounts an AP of an FCM or IB must have a signed power of attorney or trading authorization from the customer and must have been registered and have acted in the capacity of a registrant for at least two years. In addition. the AP's supervisor must review all activity in a discretionary account.",
+    "explanation": "A discretionary account requires written customer authorization, such as a power of attorney or trading authorization, and supervisory review of the discretionary activity. The source choice stating a 3-year experience requirement is not correct; the regulatory experience requirement is two years for an AP exercising discretion.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -5319,7 +5319,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "discretionary accounts",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 119; source code 10_IM_80.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "119",
     "sourceQuestionNumber": 119,
@@ -5341,19 +5341,19 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Be prepared to translate the material on request by the NFA",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC rule 1.31 stipulates that you maintain English translations of all foreign-language promotional material, including disclosure documents and Web sites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
+        "rationale": "Incorrect. CFTC rule 1.31 stipulates that you maintain English translations of all foreign-language promotional material, including disclosure documents and Web sites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
       },
       {
         "id": "b",
         "text": "Maintain English translations of all foreign language promotional material translations can be subjective",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC rule 1.31 stipulates that you maintain English translations of all foreign-language promotional material, including disclosure documents and Web sites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
+        "rationale": "Correct. CFTC rule 1.31 stipulates that you maintain English translations of all foreign-language promotional material, including disclosure documents and Web sites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
       },
       {
         "id": "d",
         "text": "A and B",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC rule 1.31 stipulates that you maintain English translations of all foreign-language promotional material, including disclosure documents and Web sites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
+        "rationale": "Incorrect. CFTC rule 1.31 stipulates that you maintain English translations of all foreign-language promotional material, including disclosure documents and Web sites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
       }
     ],
     "explanation": "CFTC rule 1.31 stipulates that you maintain English translations of all foreign-language promotional material, including disclosure documents and Web sites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions.",
@@ -5365,7 +5365,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 120; source code 10_IM_95.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "120",
     "sourceQuestionNumber": 120,
@@ -5387,25 +5387,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "SEC.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person."
+        "rationale": "Incorrect. Foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person."
       },
       {
         "id": "b",
         "text": "NFA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person."
+        "rationale": "Incorrect. Foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person."
       },
       {
         "id": "c",
         "text": "CFTC.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person."
+        "rationale": "Correct. Foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person."
+        "rationale": "Incorrect. Foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person."
       }
     ],
     "explanation": "Foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person.",
@@ -5438,25 +5438,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Management fee.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A fee charged by a money manager based on account performance is referred to as an incentive fe. CTAs and CPOs are required to disclose in their disclosure documents information regarding the use of incentive fees."
+        "rationale": "Incorrect. A fee charged by a money manager based on account performance is referred to as an incentive fe. CTAs and CPOs are required to disclose in their disclosure documents information regarding the use of incentive fees."
       },
       {
         "id": "b",
         "text": "Administrative fee.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A fee charged by a money manager based on account performance is referred to as an incentive fe. CTAs and CPOs are required to disclose in their disclosure documents information regarding the use of incentive fees."
+        "rationale": "Incorrect. A fee charged by a money manager based on account performance is referred to as an incentive fe. CTAs and CPOs are required to disclose in their disclosure documents information regarding the use of incentive fees."
       },
       {
         "id": "c",
         "text": "Incentive fee.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A fee charged by a money manager based on account performance is referred to as an incentive fe. CTAs and CPOs are required to disclose in their disclosure documents information regarding the use of incentive fees."
+        "rationale": "Correct. A fee charged by a money manager based on account performance is referred to as an incentive fe. CTAs and CPOs are required to disclose in their disclosure documents information regarding the use of incentive fees."
       },
       {
         "id": "d",
         "text": "Commission",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A fee charged by a money manager based on account performance is referred to as an incentive fe. CTAs and CPOs are required to disclose in their disclosure documents information regarding the use of incentive fees."
+        "rationale": "Incorrect. A fee charged by a money manager based on account performance is referred to as an incentive fe. CTAs and CPOs are required to disclose in their disclosure documents information regarding the use of incentive fees."
       }
     ],
     "explanation": "A fee charged by a money manager based on account performance is referred to as an incentive fe. CTAs and CPOs are required to disclose in their disclosure documents information regarding the use of incentive fees.",
@@ -5490,31 +5490,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "CFTC.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The CFTC and exchanges have posion limit requirements. CFTC regulations provide fof specific limits for grains (including the soybean complex) and cotton. The exchanges provide for position limits or position accountability limits for other commodities. In some cases, exchange and CFTC limits both apply. Exchange position-limit rnules and levels must be approved by the CFTC."
+        "rationale": "Incorrect. The CFTC and exchanges have posion limit requirements. CFTC regulations provide fof specific limits for grains (including the soybean complex) and cotton. The exchanges provide for position limits or position accountability limits for other commodities. In some cases, exchange and CFTC limits both apply. Exchange position-limit rnules and levels must be approved by the CFTC."
       },
       {
         "id": "b",
         "text": "Futures and options exchanges.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The CFTC and exchanges have posion limit requirements. CFTC regulations provide fof specific limits for grains (including the soybean complex) and cotton. The exchanges provide for position limits or position accountability limits for other commodities. In some cases, exchange and CFTC limits both apply. Exchange position-limit rnules and levels must be approved by the CFTC."
+        "rationale": "Incorrect. The CFTC and exchanges have posion limit requirements. CFTC regulations provide fof specific limits for grains (including the soybean complex) and cotton. The exchanges provide for position limits or position accountability limits for other commodities. In some cases, exchange and CFTC limits both apply. Exchange position-limit rnules and levels must be approved by the CFTC."
       },
       {
         "id": "c",
         "text": "NFA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The CFTC and exchanges have posion limit requirements. CFTC regulations provide fof specific limits for grains (including the soybean complex) and cotton. The exchanges provide for position limits or position accountability limits for other commodities. In some cases, exchange and CFTC limits both apply. Exchange position-limit rnules and levels must be approved by the CFTC."
+        "rationale": "Incorrect. The CFTC and exchanges have posion limit requirements. CFTC regulations provide fof specific limits for grains (including the soybean complex) and cotton. The exchanges provide for position limits or position accountability limits for other commodities. In some cases, exchange and CFTC limits both apply. Exchange position-limit rnules and levels must be approved by the CFTC."
       },
       {
         "id": "d",
         "text": "A, B and C.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The CFTC and exchanges have posion limit requirements. CFTC regulations provide fof specific limits for grains (including the soybean complex) and cotton. The exchanges provide for position limits or position accountability limits for other commodities. In some cases, exchange and CFTC limits both apply. Exchange position-limit rnules and levels must be approved by the CFTC."
+        "rationale": "Incorrect. The CFTC and exchanges have posion limit requirements. CFTC regulations provide fof specific limits for grains (including the soybean complex) and cotton. The exchanges provide for position limits or position accountability limits for other commodities. In some cases, exchange and CFTC limits both apply. Exchange position-limit rnules and levels must be approved by the CFTC."
       },
       {
         "id": "e",
         "text": "A and B. only.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The CFTC and exchanges have posion limit requirements. CFTC regulations provide fof specific limits for grains (including the soybean complex) and cotton. The exchanges provide for position limits or position accountability limits for other commodities. In some cases, exchange and CFTC limits both apply. Exchange position-limit rnules and levels must be approved by the CFTC."
+        "rationale": "Correct. The CFTC and exchanges have posion limit requirements. CFTC regulations provide fof specific limits for grains (including the soybean complex) and cotton. The exchanges provide for position limits or position accountability limits for other commodities. In some cases, exchange and CFTC limits both apply. Exchange position-limit rnules and levels must be approved by the CFTC."
       }
     ],
     "explanation": "The CFTC and exchanges have posion limit requirements. CFTC regulations provide fof specific limits for grains (including the soybean complex) and cotton. The exchanges provide for position limits or position accountability limits for other commodities. In some cases, exchange and CFTC limits both apply. Exchange position-limit rnules and levels must be approved by the CFTC.",
@@ -5525,7 +5525,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "speculative position limits",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 123; source code 10_IM_11.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "123",
     "sourceQuestionNumber": 123,
@@ -5547,13 +5547,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) Promotional material may mention potential gains or profit, but any such representations must be accompanied by an equally prominent statement of the risk of loss."
+        "rationale": "Incorrect. (False) Promotional material may mention potential gains or profit, but any such representations must be accompanied by an equally prominent statement of the risk of loss."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) Promotional material may mention potential gains or profit, but any such representations must be accompanied by an equally prominent statement of the risk of loss."
+        "rationale": "Correct. (False) Promotional material may mention potential gains or profit, but any such representations must be accompanied by an equally prominent statement of the risk of loss."
       }
     ],
     "explanation": "(False) Promotional material may mention potential gains or profit, but any such representations must be accompanied by an equally prominent statement of the risk of loss.",
@@ -5587,25 +5587,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "CPO",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A money manager who directs trading of individual accounts is known as a Commodity Trading Advisor (CTA)."
+        "rationale": "Incorrect. A money manager who directs trading of individual accounts is known as a Commodity Trading Advisor (CTA)."
       },
       {
         "id": "b",
         "text": "CTA",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A money manager who directs trading of individual accounts is known as a Commodity Trading Advisor (CTA)."
+        "rationale": "Correct. A money manager who directs trading of individual accounts is known as a Commodity Trading Advisor (CTA)."
       },
       {
         "id": "c",
         "text": "IB",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A money manager who directs trading of individual accounts is known as a Commodity Trading Advisor (CTA)."
+        "rationale": "Incorrect. A money manager who directs trading of individual accounts is known as a Commodity Trading Advisor (CTA)."
       },
       {
         "id": "d",
         "text": "Guaranteed IB",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A money manager who directs trading of individual accounts is known as a Commodity Trading Advisor (CTA)."
+        "rationale": "Incorrect. A money manager who directs trading of individual accounts is known as a Commodity Trading Advisor (CTA)."
       }
     ],
     "explanation": "A money manager who directs trading of individual accounts is known as a Commodity Trading Advisor (CTA).",
@@ -5639,31 +5639,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Customer funds on deposit",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A customer's funds on deposit, open-trade equity, and customer-owned Treasury bills must be treated as segregated funds, equity. and property belonging to or accruing to the customer and may not be commingled with funds. equities. or property belonging to the FCM."
+        "rationale": "Incorrect. A customer's funds on deposit, open-trade equity, and customer-owned Treasury bills must be treated as segregated funds, equity. and property belonging to or accruing to the customer and may not be commingled with funds. equities. or property belonging to the FCM."
       },
       {
         "id": "b",
         "text": "Customer open-trade futures cquity",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A customer's funds on deposit, open-trade equity, and customer-owned Treasury bills must be treated as segregated funds, equity. and property belonging to or accruing to the customer and may not be commingled with funds. equities. or property belonging to the FCM."
+        "rationale": "Incorrect. A customer's funds on deposit, open-trade equity, and customer-owned Treasury bills must be treated as segregated funds, equity. and property belonging to or accruing to the customer and may not be commingled with funds. equities. or property belonging to the FCM."
       },
       {
         "id": "c",
         "text": "Customer-owned Treasury bills",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A customer's funds on deposit, open-trade equity, and customer-owned Treasury bills must be treated as segregated funds, equity. and property belonging to or accruing to the customer and may not be commingled with funds. equities. or property belonging to the FCM."
+        "rationale": "Incorrect. A customer's funds on deposit, open-trade equity, and customer-owned Treasury bills must be treated as segregated funds, equity. and property belonging to or accruing to the customer and may not be commingled with funds. equities. or property belonging to the FCM."
       },
       {
         "id": "d",
         "text": "A, B and C",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A customer's funds on deposit, open-trade equity, and customer-owned Treasury bills must be treated as segregated funds, equity. and property belonging to or accruing to the customer and may not be commingled with funds. equities. or property belonging to the FCM."
+        "rationale": "Correct. A customer's funds on deposit, open-trade equity, and customer-owned Treasury bills must be treated as segregated funds, equity. and property belonging to or accruing to the customer and may not be commingled with funds. equities. or property belonging to the FCM."
       },
       {
         "id": "e",
         "text": "A and B, only",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A customer's funds on deposit, open-trade equity, and customer-owned Treasury bills must be treated as segregated funds, equity. and property belonging to or accruing to the customer and may not be commingled with funds. equities. or property belonging to the FCM."
+        "rationale": "Incorrect. A customer's funds on deposit, open-trade equity, and customer-owned Treasury bills must be treated as segregated funds, equity. and property belonging to or accruing to the customer and may not be commingled with funds. equities. or property belonging to the FCM."
       }
     ],
     "explanation": "A customer's funds on deposit, open-trade equity, and customer-owned Treasury bills must be treated as segregated funds, equity. and property belonging to or accruing to the customer and may not be commingled with funds. equities. or property belonging to the FCM.",
@@ -5675,7 +5675,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "accepting and segregating customer funds",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 126; source code 10_IM_36.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "126",
     "sourceQuestionNumber": 126,
@@ -5697,13 +5697,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) CFTC regulations require FCMs to become and remain a member of at least one futures association that is registered by the CFTC. At the present time, the NFA is the only CFTC-registered futures association."
+        "rationale": "Incorrect. (False) CFTC regulations require FCMs to become and remain a member of at least one futures association that is registered by the CFTC. At the present time, the NFA is the only CFTC-registered futures association."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) CFTC regulations require FCMs to become and remain a member of at least one futures association that is registered by the CFTC. At the present time, the NFA is the only CFTC-registered futures association."
+        "rationale": "Correct. (False) CFTC regulations require FCMs to become and remain a member of at least one futures association that is registered by the CFTC. At the present time, the NFA is the only CFTC-registered futures association."
       }
     ],
     "explanation": "(False) CFTC regulations require FCMs to become and remain a member of at least one futures association that is registered by the CFTC. At the present time, the NFA is the only CFTC-registered futures association.",
@@ -5730,31 +5730,31 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "margin-deposit-collection",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A customer's stock account has S5,000 in excess funds. His commodities account at the same firm has a margin call for $2.500. The broker can transfer funds from the stock account to the commodities account:",
+    "stem": "A customer's stock account has $5,000 in excess funds. His commodities account at the same firm has a margin call for $2.500. The broker can transfer funds from the stock account to the commodities account:",
     "choices": [
       {
         "id": "a",
         "text": "Only with the customer's written permission.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A customer must provide written permission for a broker to transfer funds from a stock account to a commodity account. This is often accomplished through a separately signed agreement known as a transfer authorization."
+        "rationale": "Correct. A customer must provide written permission for a broker to transfer funds from a stock account to a commodity account. This is often accomplished through a separately signed agreement known as a transfer authorization."
       },
       {
         "id": "b",
         "text": "At the broker's discretion.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A customer must provide written permission for a broker to transfer funds from a stock account to a commodity account. This is often accomplished through a separately signed agreement known as a transfer authorization."
+        "rationale": "Incorrect. A customer must provide written permission for a broker to transfer funds from a stock account to a commodity account. This is often accomplished through a separately signed agreement known as a transfer authorization."
       },
       {
         "id": "c",
         "text": "Only if the customer is unavailable and immediate action is deemed necessary.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A customer must provide written permission for a broker to transfer funds from a stock account to a commodity account. This is often accomplished through a separately signed agreement known as a transfer authorization."
+        "rationale": "Incorrect. A customer must provide written permission for a broker to transfer funds from a stock account to a commodity account. This is often accomplished through a separately signed agreement known as a transfer authorization."
       },
       {
         "id": "d",
         "text": "Under no circumstances.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A customer must provide written permission for a broker to transfer funds from a stock account to a commodity account. This is often accomplished through a separately signed agreement known as a transfer authorization."
+        "rationale": "Incorrect. A customer must provide written permission for a broker to transfer funds from a stock account to a commodity account. This is often accomplished through a separately signed agreement known as a transfer authorization."
       }
     ],
     "explanation": "A customer must provide written permission for a broker to transfer funds from a stock account to a commodity account. This is often accomplished through a separately signed agreement known as a transfer authorization.",
@@ -5788,31 +5788,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Note that its activities have been approved or sponsored by the NFA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA member of associate may state the fact of membership in the NFA, provided that the effect of NFA membership is not misrepresented, and may also explain the functions and purposes of the NFA."
+        "rationale": "Incorrect. An NFA member of associate may state the fact of membership in the NFA, provided that the effect of NFA membership is not misrepresented, and may also explain the functions and purposes of the NFA."
       },
       {
         "id": "b",
         "text": "State the fact that it is an NFA member.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA member of associate may state the fact of membership in the NFA, provided that the effect of NFA membership is not misrepresented, and may also explain the functions and purposes of the NFA."
+        "rationale": "Incorrect. An NFA member of associate may state the fact of membership in the NFA, provided that the effect of NFA membership is not misrepresented, and may also explain the functions and purposes of the NFA."
       },
       {
         "id": "c",
         "text": "Discuss or explain the functions of the NFA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA member of associate may state the fact of membership in the NFA, provided that the effect of NFA membership is not misrepresented, and may also explain the functions and purposes of the NFA."
+        "rationale": "Incorrect. An NFA member of associate may state the fact of membership in the NFA, provided that the effect of NFA membership is not misrepresented, and may also explain the functions and purposes of the NFA."
       },
       {
         "id": "d",
         "text": "A, B and C.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An NFA member of associate may state the fact of membership in the NFA, provided that the effect of NFA membership is not misrepresented, and may also explain the functions and purposes of the NFA."
+        "rationale": "Incorrect. An NFA member of associate may state the fact of membership in the NFA, provided that the effect of NFA membership is not misrepresented, and may also explain the functions and purposes of the NFA."
       },
       {
         "id": "e",
         "text": "B and C, only.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. An NFA member of associate may state the fact of membership in the NFA, provided that the effect of NFA membership is not misrepresented, and may also explain the functions and purposes of the NFA."
+        "rationale": "Correct. An NFA member of associate may state the fact of membership in the NFA, provided that the effect of NFA membership is not misrepresented, and may also explain the functions and purposes of the NFA."
       }
     ],
     "explanation": "An NFA member of associate may state the fact of membership in the NFA, provided that the effect of NFA membership is not misrepresented, and may also explain the functions and purposes of the NFA.",
@@ -5823,7 +5823,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "NFA membership",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 130; source code 10_IM_47.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "130",
     "sourceQuestionNumber": 129,
@@ -5845,31 +5845,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The performance of the offered trading program.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA, in its Disclosure Document, must disclose the performance of the offered other accounts directed by the CTA; and the performance information for all other accounts directed by each of its trading principals."
+        "rationale": "Incorrect. A CTA, in its Disclosure Document, must disclose the performance of the offered other accounts directed by the CTA; and the performance information for all other accounts directed by each of its trading principals."
       },
       {
         "id": "b",
         "text": "The performance information for all other accounts directed by the CTA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA, in its Disclosure Document, must disclose the performance of the offered other accounts directed by the CTA; and the performance information for all other accounts directed by each of its trading principals."
+        "rationale": "Incorrect. A CTA, in its Disclosure Document, must disclose the performance of the offered other accounts directed by the CTA; and the performance information for all other accounts directed by each of its trading principals."
       },
       {
         "id": "c",
         "text": "The performance information for all other accounts directed by each of its trading principals.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA, in its Disclosure Document, must disclose the performance of the offered other accounts directed by the CTA; and the performance information for all other accounts directed by each of its trading principals."
+        "rationale": "Incorrect. A CTA, in its Disclosure Document, must disclose the performance of the offered other accounts directed by the CTA; and the performance information for all other accounts directed by each of its trading principals."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A CTA, in its Disclosure Document, must disclose the performance of the offered other accounts directed by the CTA; and the performance information for all other accounts directed by each of its trading principals."
+        "rationale": "Correct. A CTA, in its Disclosure Document, must disclose the performance of the offered other accounts directed by the CTA; and the performance information for all other accounts directed by each of its trading principals."
       },
       {
         "id": "e",
         "text": "A and B only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA, in its Disclosure Document, must disclose the performance of the offered other accounts directed by the CTA; and the performance information for all other accounts directed by each of its trading principals."
+        "rationale": "Incorrect. A CTA, in its Disclosure Document, must disclose the performance of the offered other accounts directed by the CTA; and the performance information for all other accounts directed by each of its trading principals."
       }
     ],
     "explanation": "A CTA, in its Disclosure Document, must disclose the performance of the offered other accounts directed by the CTA; and the performance information for all other accounts directed by each of its trading principals.",
@@ -5880,7 +5880,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 129; source code 10_IM_115.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "129",
     "sourceQuestionNumber": 130,
@@ -5902,25 +5902,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Incentive fees.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If properly disclosed, a CTA may receive compensation based on incentive fees. management fees, and commission sharing."
+        "rationale": "Incorrect. If properly disclosed, a CTA may receive compensation based on incentive fees. management fees, and commission sharing."
       },
       {
         "id": "b",
         "text": "Management fees.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If properly disclosed, a CTA may receive compensation based on incentive fees. management fees, and commission sharing."
+        "rationale": "Incorrect. If properly disclosed, a CTA may receive compensation based on incentive fees. management fees, and commission sharing."
       },
       {
         "id": "c",
         "text": "Commissions.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If properly disclosed, a CTA may receive compensation based on incentive fees. management fees, and commission sharing."
+        "rationale": "Incorrect. If properly disclosed, a CTA may receive compensation based on incentive fees. management fees, and commission sharing."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. If properly disclosed, a CTA may receive compensation based on incentive fees. management fees, and commission sharing."
+        "rationale": "Correct. If properly disclosed, a CTA may receive compensation based on incentive fees. management fees, and commission sharing."
       }
     ],
     "explanation": "If properly disclosed, a CTA may receive compensation based on incentive fees. management fees, and commission sharing.",
@@ -5954,31 +5954,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The customer's true name, address, and principal occupation.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) requires members to obtain from customers who are individuals at least the following information: (1) the customer's true name, address, and principal occupation or business: (2) the customer's current estimated annual income and net worth: (3) the customer's approximate age; and (4) an indication of the customer's previous investment and futures-trading experience. Also, CFTC regulations require FCMs, IBs. and members of contract markets to obtain \"the true name and address of the person for whom the account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to"
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires members to obtain from customers who are individuals at least the following information: (1) the customer's true name, address, and principal occupation or business: (2) the customer's current estimated annual income and net worth: (3) the customer's approximate age; and (4) an indication of the customer's previous investment and futures-trading experience. Also, CFTC regulations require FCMs, IBs. and members of contract markets to obtain \"the true name and address of the person for whom the account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to"
       },
       {
         "id": "b",
         "text": "The customer's current estimated annual income and net worth.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) requires members to obtain from customers who are individuals at least the following information: (1) the customer's true name, address, and principal occupation or business: (2) the customer's current estimated annual income and net worth: (3) the customer's approximate age; and (4) an indication of the customer's previous investment and futures-trading experience. Also, CFTC regulations require FCMs, IBs. and members of contract markets to obtain \"the true name and address of the person for whom the account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to"
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires members to obtain from customers who are individuals at least the following information: (1) the customer's true name, address, and principal occupation or business: (2) the customer's current estimated annual income and net worth: (3) the customer's approximate age; and (4) an indication of the customer's previous investment and futures-trading experience. Also, CFTC regulations require FCMs, IBs. and members of contract markets to obtain \"the true name and address of the person for whom the account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to"
       },
       {
         "id": "c",
         "text": "The customer's approximate age.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) requires members to obtain from customers who are individuals at least the following information: (1) the customer's true name, address, and principal occupation or business: (2) the customer's current estimated annual income and net worth: (3) the customer's approximate age; and (4) an indication of the customer's previous investment and futures-trading experience. Also, CFTC regulations require FCMs, IBs. and members of contract markets to obtain \"the true name and address of the person for whom the account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to"
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires members to obtain from customers who are individuals at least the following information: (1) the customer's true name, address, and principal occupation or business: (2) the customer's current estimated annual income and net worth: (3) the customer's approximate age; and (4) an indication of the customer's previous investment and futures-trading experience. Also, CFTC regulations require FCMs, IBs. and members of contract markets to obtain \"the true name and address of the person for whom the account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to"
       },
       {
         "id": "d",
         "text": "An indication of the customer's previous investment and futures trading experience.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) requires members to obtain from customers who are individuals at least the following information: (1) the customer's true name, address, and principal occupation or business: (2) the customer's current estimated annual income and net worth: (3) the customer's approximate age; and (4) an indication of the customer's previous investment and futures-trading experience. Also, CFTC regulations require FCMs, IBs. and members of contract markets to obtain \"the true name and address of the person for whom the account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to"
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires members to obtain from customers who are individuals at least the following information: (1) the customer's true name, address, and principal occupation or business: (2) the customer's current estimated annual income and net worth: (3) the customer's approximate age; and (4) an indication of the customer's previous investment and futures-trading experience. Also, CFTC regulations require FCMs, IBs. and members of contract markets to obtain \"the true name and address of the person for whom the account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to"
       },
       {
         "id": "e",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires members to obtain from customers who are individuals at least the following information: (1) the customer's true name, address, and principal occupation or business: (2) the customer's current estimated annual income and net worth: (3) the customer's approximate age; and (4) an indication of the customer's previous investment and futures-trading experience. Also, CFTC regulations require FCMs, IBs. and members of contract markets to obtain \"the true name and address of the person for whom the account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to"
+        "rationale": "Correct. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires members to obtain from customers who are individuals at least the following information: (1) the customer's true name, address, and principal occupation or business: (2) the customer's current estimated annual income and net worth: (3) the customer's approximate age; and (4) an indication of the customer's previous investment and futures-trading experience. Also, CFTC regulations require FCMs, IBs. and members of contract markets to obtain \"the true name and address of the person for whom the account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to"
       }
     ],
     "explanation": "NFA Rule 2-30 (Customer Information and Risk Disclosure) requires members to obtain from customers who are individuals at least the following information: (1) the customer's true name, address, and principal occupation or business: (2) the customer's current estimated annual income and net worth: (3) the customer's approximate age; and (4) an indication of the customer's previous investment and futures-trading experience. Also, CFTC regulations require FCMs, IBs. and members of contract markets to obtain \"the true name and address of the person for whom the account is carried or introduced and the principal occupation or business of such person as well as the name of any other person guaranteeing such account or exercising any trading control with respect to",
@@ -6012,31 +6012,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Speculative accounts",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC and exchange reporting requirements apply to all accounts holding reportable positions and do not distinguish, for purposes of filing the reports, between various types of accounts."
+        "rationale": "Incorrect. CFTC and exchange reporting requirements apply to all accounts holding reportable positions and do not distinguish, for purposes of filing the reports, between various types of accounts."
       },
       {
         "id": "b",
         "text": "Hedge accounts",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC and exchange reporting requirements apply to all accounts holding reportable positions and do not distinguish, for purposes of filing the reports, between various types of accounts."
+        "rationale": "Incorrect. CFTC and exchange reporting requirements apply to all accounts holding reportable positions and do not distinguish, for purposes of filing the reports, between various types of accounts."
       },
       {
         "id": "c",
         "text": "Proprietary accounts",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC and exchange reporting requirements apply to all accounts holding reportable positions and do not distinguish, for purposes of filing the reports, between various types of accounts."
+        "rationale": "Incorrect. CFTC and exchange reporting requirements apply to all accounts holding reportable positions and do not distinguish, for purposes of filing the reports, between various types of accounts."
       },
       {
         "id": "d",
         "text": "A, B, and C",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC and exchange reporting requirements apply to all accounts holding reportable positions and do not distinguish, for purposes of filing the reports, between various types of accounts."
+        "rationale": "Correct. CFTC and exchange reporting requirements apply to all accounts holding reportable positions and do not distinguish, for purposes of filing the reports, between various types of accounts."
       },
       {
         "id": "e",
         "text": "A and C. only",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC and exchange reporting requirements apply to all accounts holding reportable positions and do not distinguish, for purposes of filing the reports, between various types of accounts."
+        "rationale": "Incorrect. CFTC and exchange reporting requirements apply to all accounts holding reportable positions and do not distinguish, for purposes of filing the reports, between various types of accounts."
       }
     ],
     "explanation": "CFTC and exchange reporting requirements apply to all accounts holding reportable positions and do not distinguish, for purposes of filing the reports, between various types of accounts.",
@@ -6047,7 +6047,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "position reporting",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 134; source code 10_IM_24.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "134",
     "sourceQuestionNumber": 133,
@@ -6067,27 +6067,27 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "A Commodity Trading Advisor.",
+        "text": "Commodity Trading Advisor.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A person who, for compensation or profit, engages in the business of advising others. either directly cr indirectly through publications, writing or electronic media as to the value of or the advisability of trading futures is known as a Commodity Trading Advisor."
+        "rationale": "Correct. A person who, for compensation or profit, engages in the business of advising others. either directly cr indirectly through publications, writing or electronic media as to the value of or the advisability of trading futures is known as a Commodity Trading Advisor."
       },
       {
         "id": "b",
-        "text": "A Financial Advisor.",
+        "text": "Financial Advisor.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A person who, for compensation or profit, engages in the business of advising others. either directly cr indirectly through publications, writing or electronic media as to the value of or the advisability of trading futures is known as a Commodity Trading Advisor."
+        "rationale": "Incorrect. A person who, for compensation or profit, engages in the business of advising others. either directly cr indirectly through publications, writing or electronic media as to the value of or the advisability of trading futures is known as a Commodity Trading Advisor."
       },
       {
         "id": "c",
         "text": "An Introducing Broker.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A person who, for compensation or profit, engages in the business of advising others. either directly cr indirectly through publications, writing or electronic media as to the value of or the advisability of trading futures is known as a Commodity Trading Advisor."
+        "rationale": "Incorrect. A person who, for compensation or profit, engages in the business of advising others. either directly cr indirectly through publications, writing or electronic media as to the value of or the advisability of trading futures is known as a Commodity Trading Advisor."
       },
       {
         "id": "d",
-        "text": "A Commodity Trading Counselor.",
+        "text": "Commodity Trading Counselor.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A person who, for compensation or profit, engages in the business of advising others. either directly cr indirectly through publications, writing or electronic media as to the value of or the advisability of trading futures is known as a Commodity Trading Advisor."
+        "rationale": "Incorrect. A person who, for compensation or profit, engages in the business of advising others. either directly cr indirectly through publications, writing or electronic media as to the value of or the advisability of trading futures is known as a Commodity Trading Advisor."
       }
     ],
     "explanation": "A person who, for compensation or profit, engages in the business of advising others. either directly cr indirectly through publications, writing or electronic media as to the value of or the advisability of trading futures is known as a Commodity Trading Advisor.",
@@ -6098,7 +6098,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 135; source code 10_IM_111.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "135",
     "sourceQuestionNumber": 134,
@@ -6120,31 +6120,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "A customer exhibits an unusual level of concern for secrecy.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the above examples in question 201 are examples of suspicious activity that could warrant further review."
+        "rationale": "Incorrect. All of the above examples in question 201 are examples of suspicious activity that could warrant further review."
       },
       {
         "id": "b",
         "text": "A corporate customer lacks general knowledge of its own industry.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the above examples in question 201 are examples of suspicious activity that could warrant further review."
+        "rationale": "Incorrect. All of the above examples in question 201 are examples of suspicious activity that could warrant further review."
       },
       {
         "id": "c",
         "text": "A customer engages in extensive, sudden, or unexplained wire activity.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the above examples in question 201 are examples of suspicious activity that could warrant further review."
+        "rationale": "Incorrect. All of the above examples in question 201 are examples of suspicious activity that could warrant further review."
       },
       {
         "id": "d",
         "text": "A customer makes a funds deposit followed by a request that the money be wired out or transferred to a third party without any apparent business purpose.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the above examples in question 201 are examples of suspicious activity that could warrant further review."
+        "rationale": "Incorrect. All of the above examples in question 201 are examples of suspicious activity that could warrant further review."
       },
       {
         "id": "e",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. All of the above examples in question 201 are examples of suspicious activity that could warrant further review."
+        "rationale": "Correct. All of the above examples in question 201 are examples of suspicious activity that could warrant further review."
       }
     ],
     "explanation": "All of the above examples in question 201 are examples of suspicious activity that could warrant further review.",
@@ -6177,25 +6177,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Past trading results may not be presented.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that use of past trading results be accompanied by a statement noting that past results are not necessarily indicative of future results."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that use of past trading results be accompanied by a statement noting that past results are not necessarily indicative of future results."
       },
       {
         "id": "b",
         "text": "A discussion of past trading results must state that past results are not necessarily indicative of future results.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that use of past trading results be accompanied by a statement noting that past results are not necessarily indicative of future results."
+        "rationale": "Correct. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that use of past trading results be accompanied by a statement noting that past results are not necessarily indicative of future results."
       },
       {
         "id": "c",
         "text": "Past trading results must be compared with hypothetical results.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that use of past trading results be accompanied by a statement noting that past results are not necessarily indicative of future results."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that use of past trading results be accompanied by a statement noting that past results are not necessarily indicative of future results."
       },
       {
         "id": "d",
         "text": "All promotional material containing past trading results must have prior NFA approval.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that use of past trading results be accompanied by a statement noting that past results are not necessarily indicative of future results."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that use of past trading results be accompanied by a statement noting that past results are not necessarily indicative of future results."
       }
     ],
     "explanation": "NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that use of past trading results be accompanied by a statement noting that past results are not necessarily indicative of future results.",
@@ -6229,31 +6229,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Cannot commingle the property of any pool that it operates with the property of any other person.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In regard 1o handling customer funds, a CPO: (a) cannot commingle the property of any other person; (b) must operate each pool as a separate entity; and (c) must receive all funds in the name of the pool."
+        "rationale": "Incorrect. In regard 1o handling customer funds, a CPO: (a) cannot commingle the property of any other person; (b) must operate each pool as a separate entity; and (c) must receive all funds in the name of the pool."
       },
       {
         "id": "b",
         "text": "Must operate each pool as a separate entity.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In regard 1o handling customer funds, a CPO: (a) cannot commingle the property of any other person; (b) must operate each pool as a separate entity; and (c) must receive all funds in the name of the pool."
+        "rationale": "Incorrect. In regard 1o handling customer funds, a CPO: (a) cannot commingle the property of any other person; (b) must operate each pool as a separate entity; and (c) must receive all funds in the name of the pool."
       },
       {
         "id": "c",
         "text": "Must receive all funds in the name of the pool.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In regard 1o handling customer funds, a CPO: (a) cannot commingle the property of any other person; (b) must operate each pool as a separate entity; and (c) must receive all funds in the name of the pool."
+        "rationale": "Incorrect. In regard 1o handling customer funds, a CPO: (a) cannot commingle the property of any other person; (b) must operate each pool as a separate entity; and (c) must receive all funds in the name of the pool."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. In regard 1o handling customer funds, a CPO: (a) cannot commingle the property of any other person; (b) must operate each pool as a separate entity; and (c) must receive all funds in the name of the pool."
+        "rationale": "Correct. In regard 1o handling customer funds, a CPO: (a) cannot commingle the property of any other person; (b) must operate each pool as a separate entity; and (c) must receive all funds in the name of the pool."
       },
       {
         "id": "e",
         "text": "A and C only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In regard 1o handling customer funds, a CPO: (a) cannot commingle the property of any other person; (b) must operate each pool as a separate entity; and (c) must receive all funds in the name of the pool."
+        "rationale": "Incorrect. In regard 1o handling customer funds, a CPO: (a) cannot commingle the property of any other person; (b) must operate each pool as a separate entity; and (c) must receive all funds in the name of the pool."
       }
     ],
     "explanation": "In regard 1o handling customer funds, a CPO: (a) cannot commingle the property of any other person; (b) must operate each pool as a separate entity; and (c) must receive all funds in the name of the pool.",
@@ -6265,7 +6265,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "accepting and segregating customer funds",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 139; source code 10_IM_113.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "139",
     "sourceQuestionNumber": 138,
@@ -6287,25 +6287,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Use their own new account forms.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit IBs from accepting or handling customer funds in the IB's own name."
+        "rationale": "Incorrect. CFTC regulations prohibit IBs from accepting or handling customer funds in the IB's own name."
       },
       {
         "id": "b",
         "text": "Handle customer funds.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations prohibit IBs from accepting or handling customer funds in the IB's own name."
+        "rationale": "Correct. CFTC regulations prohibit IBs from accepting or handling customer funds in the IB's own name."
       },
       {
         "id": "c",
         "text": "Give trading advice directly to customers.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit IBs from accepting or handling customer funds in the IB's own name."
+        "rationale": "Incorrect. CFTC regulations prohibit IBs from accepting or handling customer funds in the IB's own name."
       },
       {
         "id": "d",
         "text": "Handle discretionary trading accounts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit IBs from accepting or handling customer funds in the IB's own name."
+        "rationale": "Incorrect. CFTC regulations prohibit IBs from accepting or handling customer funds in the IB's own name."
       }
     ],
     "explanation": "CFTC regulations prohibit IBs from accepting or handling customer funds in the IB's own name.",
@@ -6339,28 +6339,28 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Liable for 50 percent of all awarded damage claims.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA rules provide that any member FCM P m uaeaiie aaiueena e ou siaue ne member IB shall be jointly and severally subject to discipline under NFA compliance rules for the acts and omissions of the IB that violate NFA requirements occurring during the term of the guarantee agreement."
+        "rationale": "Incorrect. NFA rules provide that any member FCM P in uaeaiie aaiueena e ou siaue ne member IB shall be jointly and severally subject to discipline under NFA compliance rules for the acts and omissions of the IB that violate NFA requirements occurring during the term of the guarantee agreement."
       },
       {
         "id": "b",
         "text": "Liable for only those claims resulting from the FCM's own conduct.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA rules provide that any member FCM P m uaeaiie aaiueena e ou siaue ne member IB shall be jointly and severally subject to discipline under NFA compliance rules for the acts and omissions of the IB that violate NFA requirements occurring during the term of the guarantee agreement."
+        "rationale": "Incorrect. NFA rules provide that any member FCM P in uaeaiie aaiueena e ou siaue ne member IB shall be jointly and severally subject to discipline under NFA compliance rules for the acts and omissions of the IB that violate NFA requirements occurring during the term of the guarantee agreement."
       },
       {
         "id": "c",
         "text": "Liable only for monetary damages.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA rules provide that any member FCM P m uaeaiie aaiueena e ou siaue ne member IB shall be jointly and severally subject to discipline under NFA compliance rules for the acts and omissions of the IB that violate NFA requirements occurring during the term of the guarantee agreement."
+        "rationale": "Incorrect. NFA rules provide that any member FCM P in uaeaiie aaiueena e ou siaue ne member IB shall be jointly and severally subject to discipline under NFA compliance rules for the acts and omissions of the IB that violate NFA requirements occurring during the term of the guarantee agreement."
       },
       {
         "id": "d",
         "text": "Jointly and severally subject to discipline under NFA rules for the acts and omissions of the IB that violate NFA rules.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA rules provide that any member FCM P m uaeaiie aaiueena e ou siaue ne member IB shall be jointly and severally subject to discipline under NFA compliance rules for the acts and omissions of the IB that violate NFA requirements occurring during the term of the guarantee agreement."
+        "rationale": "Correct. NFA rules provide that any member FCM P in uaeaiie aaiueena e ou siaue ne member IB shall be jointly and severally subject to discipline under NFA compliance rules for the acts and omissions of the IB that violate NFA requirements occurring during the term of the guarantee agreement."
       }
     ],
-    "explanation": "NFA rules provide that any member FCM P m uaeaiie aaiueena e ou siaue ne member IB shall be jointly and severally subject to discipline under NFA compliance rules for the acts and omissions of the IB that violate NFA requirements occurring during the term of the guarantee agreement.",
+    "explanation": "NFA rules provide that any member FCM P in uaeaiie aaiueena e ou siaue ne member IB shall be jointly and severally subject to discipline under NFA compliance rules for the acts and omissions of the IB that violate NFA requirements occurring during the term of the guarantee agreement.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -6370,7 +6370,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "concept": "guaranteed introducing brokers",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 141; source code 10_IM_49.",
     "reviewStatus": "reviewed",
-    "extractionConfidence": "medium",
+    "extractionConfidence": "high",
     "sourcePageRange": "141",
     "sourceQuestionNumber": 140,
     "sourceCode": "10_IM_49",
@@ -6391,25 +6391,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Market letters.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The NFA definition of promotional materials includes market letters, seminars, and broadcasts."
+        "rationale": "Incorrect. The NFA definition of promotional materials includes market letters, seminars, and broadcasts."
       },
       {
         "id": "b",
         "text": "Broadcasts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The NFA definition of promotional materials includes market letters, seminars, and broadcasts."
+        "rationale": "Incorrect. The NFA definition of promotional materials includes market letters, seminars, and broadcasts."
       },
       {
         "id": "c",
         "text": "Seminars.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The NFA definition of promotional materials includes market letters, seminars, and broadcasts."
+        "rationale": "Incorrect. The NFA definition of promotional materials includes market letters, seminars, and broadcasts."
       },
       {
         "id": "d",
         "text": "None of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The NFA definition of promotional materials includes market letters, seminars, and broadcasts."
+        "rationale": "Correct. The NFA definition of promotional materials includes market letters, seminars, and broadcasts."
       }
     ],
     "explanation": "The NFA definition of promotional materials includes market letters, seminars, and broadcasts.",
@@ -6422,7 +6422,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 142; source code 10_IM_63.",
     "reviewStatus": "reviewed",
-    "extractionConfidence": "medium",
+    "extractionConfidence": "high",
     "sourcePageRange": "142",
     "sourceQuestionNumber": 141,
     "sourceCode": "10_IM_63",
@@ -6443,13 +6443,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) Among the CFTC's statutory authorities is the power to subpoena documents iwthout need of approval from a federal court."
+        "rationale": "Correct. (True) Among the CFTC's statutory authorities is the power to subpoena documents iwthout need of approval from a federal court."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) Among the CFTC's statutory authorities is the power to subpoena documents iwthout need of approval from a federal court."
+        "rationale": "Incorrect. (True) Among the CFTC's statutory authorities is the power to subpoena documents iwthout need of approval from a federal court."
       }
     ],
     "explanation": "(True) Among the CFTC's statutory authorities is the power to subpoena documents iwthout need of approval from a federal court.",
@@ -6482,25 +6482,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Not later than the following business day.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations provide that an FCM must., not later than the next business day. furnish to each customer a written confirmation of each futures and options transaction. FCMs also are required to provide monthly summary statements to customers."
+        "rationale": "Correct. CFTC regulations provide that an FCM must., not later than the next business day. furnish to each customer a written confirmation of each futures and options transaction. FCMs also are required to provide monthly summary statements to customers."
       },
       {
         "id": "b",
         "text": "Within five business days.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations provide that an FCM must., not later than the next business day. furnish to each customer a written confirmation of each futures and options transaction. FCMs also are required to provide monthly summary statements to customers."
+        "rationale": "Incorrect. CFTC regulations provide that an FCM must., not later than the next business day. furnish to each customer a written confirmation of each futures and options transaction. FCMs also are required to provide monthly summary statements to customers."
       },
       {
         "id": "c",
         "text": "Once a month.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations provide that an FCM must., not later than the next business day. furnish to each customer a written confirmation of each futures and options transaction. FCMs also are required to provide monthly summary statements to customers."
+        "rationale": "Incorrect. CFTC regulations provide that an FCM must., not later than the next business day. furnish to each customer a written confirmation of each futures and options transaction. FCMs also are required to provide monthly summary statements to customers."
       },
       {
         "id": "d",
         "text": "Within 48 hours.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations provide that an FCM must., not later than the next business day. furnish to each customer a written confirmation of each futures and options transaction. FCMs also are required to provide monthly summary statements to customers."
+        "rationale": "Incorrect. CFTC regulations provide that an FCM must., not later than the next business day. furnish to each customer a written confirmation of each futures and options transaction. FCMs also are required to provide monthly summary statements to customers."
       }
     ],
     "explanation": "CFTC regulations provide that an FCM must., not later than the next business day. furnish to each customer a written confirmation of each futures and options transaction. FCMs also are required to provide monthly summary statements to customers.",
@@ -6534,25 +6534,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Simply ensure that the statement is mailed to the customer.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An FCM or IB must receive from the customer an acknowledgment, signed and dated by the customer, noting that the customer has received and understood the risk-disclosure statement. provided to the customer."
+        "rationale": "Incorrect. An FCM or IB must receive from the customer an acknowledgment, signed and dated by the customer, noting that the customer has received and understood the risk-disclosure statement. provided to the customer."
       },
       {
         "id": "b",
         "text": "Obtain a signed and dated acknowledgment that the customer has reccived and Understood the diselosure statement.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. An FCM or IB must receive from the customer an acknowledgment, signed and dated by the customer, noting that the customer has received and understood the risk-disclosure statement. provided to the customer."
+        "rationale": "Correct. An FCM or IB must receive from the customer an acknowledgment, signed and dated by the customer, noting that the customer has received and understood the risk-disclosure statement. provided to the customer."
       },
       {
         "id": "c",
         "text": "At a minimum, receive a telephone acknowledgment of receipt by the customer.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An FCM or IB must receive from the customer an acknowledgment, signed and dated by the customer, noting that the customer has received and understood the risk-disclosure statement. provided to the customer."
+        "rationale": "Incorrect. An FCM or IB must receive from the customer an acknowledgment, signed and dated by the customer, noting that the customer has received and understood the risk-disclosure statement. provided to the customer."
       },
       {
         "id": "d",
         "text": "Be able to demonstrate that the risk-disclosure statement was among the general customer agreement documents provided to the customer.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An FCM or IB must receive from the customer an acknowledgment, signed and dated by the customer, noting that the customer has received and understood the risk-disclosure statement. provided to the customer."
+        "rationale": "Incorrect. An FCM or IB must receive from the customer an acknowledgment, signed and dated by the customer, noting that the customer has received and understood the risk-disclosure statement. provided to the customer."
       }
     ],
     "explanation": "An FCM or IB must receive from the customer an acknowledgment, signed and dated by the customer, noting that the customer has received and understood the risk-disclosure statement. provided to the customer.",
@@ -6586,25 +6586,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Be able to demonstrate to the NFA that the information is representative of the actual perfoimance of all reasonably comparable accounts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member's promotional material includes any specific numerical or statistical information about past performance of any actual accounts, including rate-of-return, then the Member must be able to demonstrate to the NFA that: (a) the information is representative of the actual performance of allreasonably comparable accounts, and (b) must calculate any rate-of-return figures in a manner consistent with CFTC Regulations."
+        "rationale": "Incorrect. If a Member's promotional material includes any specific numerical or statistical information about past performance of any actual accounts, including rate-of-return, then the Member must be able to demonstrate to the NFA that: (a) the information is representative of the actual performance of allreasonably comparable accounts, and (b) must calculate any rate-of-return figures in a manner consistent with CFTC Regulations."
       },
       {
         "id": "b",
         "text": "Calculate any rate-of-return figures in a manner consistent with CFTC Regulations.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member's promotional material includes any specific numerical or statistical information about past performance of any actual accounts, including rate-of-return, then the Member must be able to demonstrate to the NFA that: (a) the information is representative of the actual performance of allreasonably comparable accounts, and (b) must calculate any rate-of-return figures in a manner consistent with CFTC Regulations."
+        "rationale": "Incorrect. If a Member's promotional material includes any specific numerical or statistical information about past performance of any actual accounts, including rate-of-return, then the Member must be able to demonstrate to the NFA that: (a) the information is representative of the actual performance of allreasonably comparable accounts, and (b) must calculate any rate-of-return figures in a manner consistent with CFTC Regulations."
       },
       {
         "id": "c",
         "text": "Include the NFA requirement cautionary statement.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member's promotional material includes any specific numerical or statistical information about past performance of any actual accounts, including rate-of-return, then the Member must be able to demonstrate to the NFA that: (a) the information is representative of the actual performance of allreasonably comparable accounts, and (b) must calculate any rate-of-return figures in a manner consistent with CFTC Regulations."
+        "rationale": "Incorrect. If a Member's promotional material includes any specific numerical or statistical information about past performance of any actual accounts, including rate-of-return, then the Member must be able to demonstrate to the NFA that: (a) the information is representative of the actual performance of allreasonably comparable accounts, and (b) must calculate any rate-of-return figures in a manner consistent with CFTC Regulations."
       },
       {
         "id": "d",
         "text": "A and B only.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. If a Member's promotional material includes any specific numerical or statistical information about past performance of any actual accounts, including rate-of-return, then the Member must be able to demonstrate to the NFA that: (a) the information is representative of the actual performance of allreasonably comparable accounts, and (b) must calculate any rate-of-return figures in a manner consistent with CFTC Regulations."
+        "rationale": "Correct. If a Member's promotional material includes any specific numerical or statistical information about past performance of any actual accounts, including rate-of-return, then the Member must be able to demonstrate to the NFA that: (a) the information is representative of the actual performance of allreasonably comparable accounts, and (b) must calculate any rate-of-return figures in a manner consistent with CFTC Regulations."
       }
     ],
     "explanation": "If a Member's promotional material includes any specific numerical or statistical information about past performance of any actual accounts, including rate-of-return, then the Member must be able to demonstrate to the NFA that: (a) the information is representative of the actual performance of allreasonably comparable accounts, and (b) must calculate any rate-of-return figures in a manner consistent with CFTC Regulations.",
@@ -6616,7 +6616,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 147; source code 10_IM_104.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "147",
     "sourceQuestionNumber": 146,
@@ -6638,31 +6638,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Solicitation of a customer order.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any of the three activities listed in the question would require registration as an associated person: solicitation of a customef order, acceptance of a customer order (other than in a clerical capacity), and supervision of an AP."
+        "rationale": "Incorrect. Any of the three activities listed in the question would require registration as an associated person: solicitation of a customef order, acceptance of a customer order (other than in a clerical capacity), and supervision of an AP."
       },
       {
         "id": "b",
         "text": "Acceptance of a customer order (other than in a clerical capacity).",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any of the three activities listed in the question would require registration as an associated person: solicitation of a customef order, acceptance of a customer order (other than in a clerical capacity), and supervision of an AP."
+        "rationale": "Incorrect. Any of the three activities listed in the question would require registration as an associated person: solicitation of a customef order, acceptance of a customer order (other than in a clerical capacity), and supervision of an AP."
       },
       {
         "id": "c",
         "text": "Supervision of any Associated Person.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any of the three activities listed in the question would require registration as an associated person: solicitation of a customef order, acceptance of a customer order (other than in a clerical capacity), and supervision of an AP."
+        "rationale": "Incorrect. Any of the three activities listed in the question would require registration as an associated person: solicitation of a customef order, acceptance of a customer order (other than in a clerical capacity), and supervision of an AP."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Any of the three activities listed in the question would require registration as an associated person: solicitation of a customef order, acceptance of a customer order (other than in a clerical capacity), and supervision of an AP."
+        "rationale": "Correct. Any of the three activities listed in the question would require registration as an associated person: solicitation of a customef order, acceptance of a customer order (other than in a clerical capacity), and supervision of an AP."
       },
       {
         "id": "e",
         "text": "A and B only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any of the three activities listed in the question would require registration as an associated person: solicitation of a customef order, acceptance of a customer order (other than in a clerical capacity), and supervision of an AP."
+        "rationale": "Incorrect. Any of the three activities listed in the question would require registration as an associated person: solicitation of a customef order, acceptance of a customer order (other than in a clerical capacity), and supervision of an AP."
       }
     ],
     "explanation": "Any of the three activities listed in the question would require registration as an associated person: solicitation of a customef order, acceptance of a customer order (other than in a clerical capacity), and supervision of an AP.",
@@ -6673,7 +6673,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "time-stamping and order records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 148; source code 10_IM_97.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "148",
     "sourceQuestionNumber": 147,
@@ -6695,25 +6695,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Any time prior to the document's first use or intended use.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA or CPO generally must file a disclosure document with the CFTC and the NFA at least 2l days prior to the document's first use or intended use."
+        "rationale": "Incorrect. A CTA or CPO generally must file a disclosure document with the CFTC and the NFA at least 2l days prior to the document's first use or intended use."
       },
       {
         "id": "b",
         "text": "Within 10 days of its first use.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA or CPO generally must file a disclosure document with the CFTC and the NFA at least 2l days prior to the document's first use or intended use."
+        "rationale": "Incorrect. A CTA or CPO generally must file a disclosure document with the CFTC and the NFA at least 2l days prior to the document's first use or intended use."
       },
       {
         "id": "c",
         "text": "Within 30 days of its first use.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA or CPO generally must file a disclosure document with the CFTC and the NFA at least 2l days prior to the document's first use or intended use."
+        "rationale": "Incorrect. A CTA or CPO generally must file a disclosure document with the CFTC and the NFA at least 2l days prior to the document's first use or intended use."
       },
       {
         "id": "d",
         "text": "At least 21 days prior to its first use or intended use.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A CTA or CPO generally must file a disclosure document with the CFTC and the NFA at least 2l days prior to the document's first use or intended use."
+        "rationale": "Correct. A CTA or CPO generally must file a disclosure document with the CFTC and the NFA at least 2l days prior to the document's first use or intended use."
       }
     ],
     "explanation": "A CTA or CPO generally must file a disclosure document with the CFTC and the NFA at least 2l days prior to the document's first use or intended use.",
@@ -6741,34 +6741,34 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "account-supervision-review",
     "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "In regard to supervision of its employees and agents in the conduct of futures and Options business, each NFA member and supervisory associate must:",
+    "stem": "In regard to supervision of its employees and agents in the conduct of futures and options business, each NFA member and supervisory associate must:",
     "choices": [
       {
         "id": "a",
         "text": "Make a reasonable effort to supervise employees and their activities.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-9 (Supervision) requires that each NFA member \"diligently supervise its commodity futures [and options] activities for or on behalf of the Member.\" Also. CFTC Rule 166.3 requires that each registrant. except for APs who have no supervisory duties, \"diligently supervise the handling. .of all commodity interest accounts carried. operated, advised or introduced by the registrant . ."
+        "rationale": "Incorrect. NFA Rule 2-9 (Supervision) requires that each NFA member \"diligently supervise its commodity futures [and options] activities for or on behalf of the Member.\" Also. CFTC Rule 166.3 requires that each registrant. except for APs who have no supervisory duties, \"diligently supervise the handling of all commodity interest accounts carried. operated, advised or introduced by the registrant."
       },
       {
         "id": "b",
-        "text": "Diligently supervise eimployees and agents.",
+        "text": "Diligently supervise employees and agents.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-9 (Supervision) requires that each NFA member \"diligently supervise its commodity futures [and options] activities for or on behalf of the Member.\" Also. CFTC Rule 166.3 requires that each registrant. except for APs who have no supervisory duties, \"diligently supervise the handling. .of all commodity interest accounts carried. operated, advised or introduced by the registrant . ."
+        "rationale": "Correct. NFA Rule 2-9 (Supervision) requires that each NFA member \"diligently supervise its commodity futures [and options] activities for or on behalf of the Member.\" Also. CFTC Rule 166.3 requires that each registrant. except for APs who have no supervisory duties, \"diligently supervise the handling of all commodity interest accounts carried. operated, advised or introduced by the registrant."
       },
       {
         "id": "c",
         "text": "Ensure only that supervisory procedures are in place.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-9 (Supervision) requires that each NFA member \"diligently supervise its commodity futures [and options] activities for or on behalf of the Member.\" Also. CFTC Rule 166.3 requires that each registrant. except for APs who have no supervisory duties, \"diligently supervise the handling. .of all commodity interest accounts carried. operated, advised or introduced by the registrant . ."
+        "rationale": "Incorrect. NFA Rule 2-9 (Supervision) requires that each NFA member \"diligently supervise its commodity futures [and options] activities for or on behalf of the Member.\" Also. CFTC Rule 166.3 requires that each registrant. except for APs who have no supervisory duties, \"diligently supervise the handling of all commodity interest accounts carried. operated, advised or introduced by the registrant."
       },
       {
         "id": "d",
         "text": "Follow the specific supervisory checklists contained in CFTC Rule 166.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-9 (Supervision) requires that each NFA member \"diligently supervise its commodity futures [and options] activities for or on behalf of the Member.\" Also. CFTC Rule 166.3 requires that each registrant. except for APs who have no supervisory duties, \"diligently supervise the handling. .of all commodity interest accounts carried. operated, advised or introduced by the registrant . ."
+        "rationale": "Incorrect. NFA Rule 2-9 (Supervision) requires that each NFA member \"diligently supervise its commodity futures [and options] activities for or on behalf of the Member.\" Also. CFTC Rule 166.3 requires that each registrant. except for APs who have no supervisory duties, \"diligently supervise the handling of all commodity interest accounts carried. operated, advised or introduced by the registrant."
       }
     ],
-    "explanation": "NFA Rule 2-9 (Supervision) requires that each NFA member \"diligently supervise its commodity futures [and options] activities for or on behalf of the Member.\" Also. CFTC Rule 166.3 requires that each registrant. except for APs who have no supervisory duties, \"diligently supervise the handling. .of all commodity interest accounts carried. operated, advised or introduced by the registrant . .",
+    "explanation": "NFA Rule 2-9 (Supervision) requires that each NFA member \"diligently supervise its commodity futures [and options] activities for or on behalf of the Member.\" Also. CFTC Rule 166.3 requires that each registrant. except for APs who have no supervisory duties, \"diligently supervise the handling of all commodity interest accounts carried. operated, advised or introduced by the registrant.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -6798,13 +6798,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) Contributions to a commodity pool must be stated before such fees are deducted. As a result, up-front fees and organizational expenses are reflected as a reduction of net performance in the period the contributions were made - unless such fees and expenses can be amortized pursuant to generally accepted accounting principles."
+        "rationale": "Correct. (True) Contributions to a commodity pool must be stated before such fees are deducted. As a result, up-front fees and organizational expenses are reflected as a reduction of net performance in the period the contributions were made - unless such fees and expenses can be amortized pursuant to generally accepted accounting principles."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) Contributions to a commodity pool must be stated before such fees are deducted. As a result, up-front fees and organizational expenses are reflected as a reduction of net performance in the period the contributions were made - unless such fees and expenses can be amortized pursuant to generally accepted accounting principles."
+        "rationale": "Incorrect. (True) Contributions to a commodity pool must be stated before such fees are deducted. As a result, up-front fees and organizational expenses are reflected as a reduction of net performance in the period the contributions were made - unless such fees and expenses can be amortized pursuant to generally accepted accounting principles."
       }
     ],
     "explanation": "(True) Contributions to a commodity pool must be stated before such fees are deducted. As a result, up-front fees and organizational expenses are reflected as a reduction of net performance in the period the contributions were made - unless such fees and expenses can be amortized pursuant to generally accepted accounting principles.",
@@ -6838,25 +6838,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "A calculation showing how the profit could be obtained.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member's promotional material mentions the possibility of profit, then the material must, among other requirements of NFA Rule 2-29, be accompanied by an equally prominent statement of the risk of loss."
+        "rationale": "Incorrect. If a Member's promotional material mentions the possibility of profit, then the material must, among other requirements of NFA Rule 2-29, be accompanied by an equally prominent statement of the risk of loss."
       },
       {
         "id": "b",
         "text": "An equally prominent statement of the risk of loss.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. If a Member's promotional material mentions the possibility of profit, then the material must, among other requirements of NFA Rule 2-29, be accompanied by an equally prominent statement of the risk of loss."
+        "rationale": "Correct. If a Member's promotional material mentions the possibility of profit, then the material must, among other requirements of NFA Rule 2-29, be accompanied by an equally prominent statement of the risk of loss."
       },
       {
         "id": "c",
         "text": "The CFTC required Cautionary Statement.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member's promotional material mentions the possibility of profit, then the material must, among other requirements of NFA Rule 2-29, be accompanied by an equally prominent statement of the risk of loss."
+        "rationale": "Incorrect. If a Member's promotional material mentions the possibility of profit, then the material must, among other requirements of NFA Rule 2-29, be accompanied by an equally prominent statement of the risk of loss."
       },
       {
         "id": "d",
         "text": "An explanation of why the Member thinks a profit potential exists.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a Member's promotional material mentions the possibility of profit, then the material must, among other requirements of NFA Rule 2-29, be accompanied by an equally prominent statement of the risk of loss."
+        "rationale": "Incorrect. If a Member's promotional material mentions the possibility of profit, then the material must, among other requirements of NFA Rule 2-29, be accompanied by an equally prominent statement of the risk of loss."
       }
     ],
     "explanation": "If a Member's promotional material mentions the possibility of profit, then the material must, among other requirements of NFA Rule 2-29, be accompanied by an equally prominent statement of the risk of loss.",
@@ -6890,25 +6890,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The CFTC has exclusive regulatory authority over all futures and options on futures traded on an exchange.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and give the CFTC oversight jurisdiction of exchanges and any other self-regulatory organizations."
+        "rationale": "Incorrect. The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and give the CFTC oversight jurisdiction of exchanges and any other self-regulatory organizations."
       },
       {
         "id": "b",
         "text": "Exchanges have an obligation to regulate themselves.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and give the CFTC oversight jurisdiction of exchanges and any other self-regulatory organizations."
+        "rationale": "Incorrect. The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and give the CFTC oversight jurisdiction of exchanges and any other self-regulatory organizations."
       },
       {
         "id": "c",
         "text": "The CFTC has oversight jurisdiction over the exchanges and any other self- fegulatory organizations.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and give the CFTC oversight jurisdiction of exchanges and any other self-regulatory organizations."
+        "rationale": "Incorrect. The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and give the CFTC oversight jurisdiction of exchanges and any other self-regulatory organizations."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and give the CFTC oversight jurisdiction of exchanges and any other self-regulatory organizations."
+        "rationale": "Correct. The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and give the CFTC oversight jurisdiction of exchanges and any other self-regulatory organizations."
       }
     ],
     "explanation": "The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and give the CFTC oversight jurisdiction of exchanges and any other self-regulatory organizations.",
@@ -6941,13 +6941,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) Sharing in the commissions charged by an FCM or IB is an item that must be disclosed in the \"conflict of interest\" section of a CTA or CPO disclosure document."
+        "rationale": "Correct. (True) Sharing in the commissions charged by an FCM or IB is an item that must be disclosed in the \"conflict of interest\" section of a CTA or CPO disclosure document."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) Sharing in the commissions charged by an FCM or IB is an item that must be disclosed in the \"conflict of interest\" section of a CTA or CPO disclosure document."
+        "rationale": "Incorrect. (True) Sharing in the commissions charged by an FCM or IB is an item that must be disclosed in the \"conflict of interest\" section of a CTA or CPO disclosure document."
       }
     ],
     "explanation": "(True) Sharing in the commissions charged by an FCM or IB is an item that must be disclosed in the \"conflict of interest\" section of a CTA or CPO disclosure document.",
@@ -6981,13 +6981,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate shall be entitled to rely on the customer as the sole source for the information obtained under this rule and shall not be required to verify the information."
+        "rationale": "Incorrect. (False) NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate shall be entitled to rely on the customer as the sole source for the information obtained under this rule and shall not be required to verify the information."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate shall be entitled to rely on the customer as the sole source for the information obtained under this rule and shall not be required to verify the information."
+        "rationale": "Correct. (False) NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate shall be entitled to rely on the customer as the sole source for the information obtained under this rule and shall not be required to verify the information."
       }
     ],
     "explanation": "(False) NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate shall be entitled to rely on the customer as the sole source for the information obtained under this rule and shall not be required to verify the information.",
@@ -7015,31 +7015,31 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "performance-records",
     "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "CPOs and CTAs are required to disclose past performance information for the shorter of the life ofthe subject pool or trading program, or which of the following?",
+    "stem": "CPOs and CTAs are required to disclose past performance information for the shorter of the life of the subject pool or trading program, or which of the following?",
     "choices": [
       {
         "id": "a",
         "text": "Two years",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulations require CTAs and CPOs to disclose past performance information for the most recent five years and year-to-date. or for the life of the pool or trading program ifless than five years. If additional performance information beyond the required five years and year-to-date is provided. but the entire history of the pool or program is not covered, then the additional performance results shown must be representative of the results of the entire history of the pool or program."
+        "rationale": "Incorrect. CFTC Regulations require CTAs and CPOs to disclose past performance information for the most recent five years and year-to-date. or for the life of the pool or trading program ifless than five years. If additional performance information beyond the required five years and year-to-date is provided. but the entire history of the pool or program is not covered, then the additional performance results shown must be representative of the results of the entire history of the pool or program."
       },
       {
         "id": "b",
         "text": "Three years",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulations require CTAs and CPOs to disclose past performance information for the most recent five years and year-to-date. or for the life of the pool or trading program ifless than five years. If additional performance information beyond the required five years and year-to-date is provided. but the entire history of the pool or program is not covered, then the additional performance results shown must be representative of the results of the entire history of the pool or program."
+        "rationale": "Incorrect. CFTC Regulations require CTAs and CPOs to disclose past performance information for the most recent five years and year-to-date. or for the life of the pool or trading program ifless than five years. If additional performance information beyond the required five years and year-to-date is provided. but the entire history of the pool or program is not covered, then the additional performance results shown must be representative of the results of the entire history of the pool or program."
       },
       {
         "id": "c",
         "text": "Five years",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulations require CTAs and CPOs to disclose past performance information for the most recent five years and year-to-date. or for the life of the pool or trading program ifless than five years. If additional performance information beyond the required five years and year-to-date is provided. but the entire history of the pool or program is not covered, then the additional performance results shown must be representative of the results of the entire history of the pool or program."
+        "rationale": "Incorrect. CFTC Regulations require CTAs and CPOs to disclose past performance information for the most recent five years and year-to-date. or for the life of the pool or trading program ifless than five years. If additional performance information beyond the required five years and year-to-date is provided. but the entire history of the pool or program is not covered, then the additional performance results shown must be representative of the results of the entire history of the pool or program."
       },
       {
         "id": "d",
         "text": "Five years plus the year-to-date",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC Regulations require CTAs and CPOs to disclose past performance information for the most recent five years and year-to-date. or for the life of the pool or trading program ifless than five years. If additional performance information beyond the required five years and year-to-date is provided. but the entire history of the pool or program is not covered, then the additional performance results shown must be representative of the results of the entire history of the pool or program."
+        "rationale": "Correct. CFTC Regulations require CTAs and CPOs to disclose past performance information for the most recent five years and year-to-date. or for the life of the pool or trading program ifless than five years. If additional performance information beyond the required five years and year-to-date is provided. but the entire history of the pool or program is not covered, then the additional performance results shown must be representative of the results of the entire history of the pool or program."
       }
     ],
     "explanation": "CFTC Regulations require CTAs and CPOs to disclose past performance information for the most recent five years and year-to-date. or for the life of the pool or trading program ifless than five years. If additional performance information beyond the required five years and year-to-date is provided. but the entire history of the pool or program is not covered, then the additional performance results shown must be representative of the results of the entire history of the pool or program.",
@@ -7073,25 +7073,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Unless the checks are promptly deposited in the IB's customer segregated-finds account.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any customer checks received by an IB must be made payable to the carrying FCM, must be accepted in accordance with a written agreement with the FCM, and must be deposited promptly in the FCM's customer segregated-funds account or otherwise promptly transmitted to the FCM"
+        "rationale": "Incorrect. Any customer checks received by an IB must be made payable to the carrying FCM, must be accepted in accordance with a written agreement with the FCM, and must be deposited promptly in the FCM's customer segregated-funds account or otherwise promptly transmitted to the FCM"
       },
       {
         "id": "b",
         "text": "Unless the checks are made payable to the IB's carrying FCM and are promptly deposited in the FCM's qualifying segregated-funds bank account or otherwise transmitted to the FCM.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Any customer checks received by an IB must be made payable to the carrying FCM, must be accepted in accordance with a written agreement with the FCM, and must be deposited promptly in the FCM's customer segregated-funds account or otherwise promptly transmitted to the FCM"
+        "rationale": "Correct. Any customer checks received by an IB must be made payable to the carrying FCM, must be accepted in accordance with a written agreement with the FCM, and must be deposited promptly in the FCM's customer segregated-funds account or otherwise promptly transmitted to the FCM"
       },
       {
         "id": "c",
         "text": "Unless the IB has a signed authorization from the customer.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any customer checks received by an IB must be made payable to the carrying FCM, must be accepted in accordance with a written agreement with the FCM, and must be deposited promptly in the FCM's customer segregated-funds account or otherwise promptly transmitted to the FCM"
+        "rationale": "Incorrect. Any customer checks received by an IB must be made payable to the carrying FCM, must be accepted in accordance with a written agreement with the FCM, and must be deposited promptly in the FCM's customer segregated-funds account or otherwise promptly transmitted to the FCM"
       },
       {
         "id": "d",
         "text": "Under any conditions.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any customer checks received by an IB must be made payable to the carrying FCM, must be accepted in accordance with a written agreement with the FCM, and must be deposited promptly in the FCM's customer segregated-funds account or otherwise promptly transmitted to the FCM"
+        "rationale": "Incorrect. Any customer checks received by an IB must be made payable to the carrying FCM, must be accepted in accordance with a written agreement with the FCM, and must be deposited promptly in the FCM's customer segregated-funds account or otherwise promptly transmitted to the FCM"
       }
     ],
     "explanation": "Any customer checks received by an IB must be made payable to the carrying FCM, must be accepted in accordance with a written agreement with the FCM, and must be deposited promptly in the FCM's customer segregated-funds account or otherwise promptly transmitted to the FCM",
@@ -7119,19 +7119,19 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "associated-person",
     "difficulty": "hard",
     "questionType": "true_false",
-    "stem": "The APs of FCMs that are noticed registered as broker-dealers must be noticed fegistered as securities registered representatives (RRs).",
+    "stem": "The APs of FCMs that are notice-registered as broker-dealers must be notice-registered as securities registered representatives (RRs).",
     "choices": [
       {
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Unlike FCMs or broker-dealers, APs are not required to be notice-registered. APs, however, must hold CFTC registration."
+        "rationale": "Incorrect. Unlike FCMs or broker-dealers, APs are not required to be notice-registered. APs, however, must hold CFTC registration."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Unlike FCMs or broker-dealers, APs are not required to be notice-registered. APs, however, must hold CFTC registration."
+        "rationale": "Correct. Unlike FCMs or broker-dealers, APs are not required to be notice-registered. APs, however, must hold CFTC registration."
       }
     ],
     "explanation": "Unlike FCMs or broker-dealers, APs are not required to be notice-registered. APs, however, must hold CFTC registration.",
@@ -7164,28 +7164,28 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Futures and options cxchangcs.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.55 prescribes the specific Wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the altemative use ofa CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
+        "rationale": "Incorrect. CFTC Regulation 1.55 prescribes the specific wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the alternative use of a CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
       },
       {
         "id": "b",
         "text": "CFTC.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC Regulation 1.55 prescribes the specific Wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the altemative use ofa CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
+        "rationale": "Correct. CFTC Regulation 1.55 prescribes the specific wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the alternative use of a CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
       },
       {
         "id": "c",
         "text": "NFA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.55 prescribes the specific Wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the altemative use ofa CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
+        "rationale": "Incorrect. CFTC Regulation 1.55 prescribes the specific wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the alternative use of a CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
       },
       {
         "id": "d",
         "text": "FCM handling the account.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.55 prescribes the specific Wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the altemative use ofa CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
+        "rationale": "Incorrect. CFTC Regulation 1.55 prescribes the specific wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the alternative use of a CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries."
       }
     ],
-    "explanation": "CFTC Regulation 1.55 prescribes the specific Wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the altemative use ofa CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries.",
+    "explanation": "CFTC Regulation 1.55 prescribes the specific wording for the futures risk-disclosure statement, and Regulation 33.7 contains specific wording that must be contained in an options risk-disclosure statement. NOTE: Appendix A to CFTC Rule 1.55(c) provides for the alternative use of a CFTC-specified. multi-jurisdictional \" generic risk disclosure statement\" for futures and options. As of the first quarter of 1998, the generic risk- disclosure statement was accepted for specified instruments in the United States, the United Kingdom, Italy and Ireland and was under review in a number of other countries.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -7216,25 +7216,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The customer must sign a power of attorney.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A discretionary account permits an associated person who had power of attorney from a customer to execute trades on behalf of the customer without prior authorization of such trades by the client."
+        "rationale": "Incorrect. A discretionary account permits an associated person who had power of attorney from a customer to execute trades on behalf of the customer without prior authorization of such trades by the client."
       },
       {
         "id": "b",
         "text": "The customer must receive confirmations after trades are executed.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A discretionary account permits an associated person who had power of attorney from a customer to execute trades on behalf of the customer without prior authorization of such trades by the client."
+        "rationale": "Incorrect. A discretionary account permits an associated person who had power of attorney from a customer to execute trades on behalf of the customer without prior authorization of such trades by the client."
       },
       {
         "id": "c",
         "text": "The customer must feceive a fisk disclosure statement.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A discretionary account permits an associated person who had power of attorney from a customer to execute trades on behalf of the customer without prior authorization of such trades by the client."
+        "rationale": "Incorrect. A discretionary account permits an associated person who had power of attorney from a customer to execute trades on behalf of the customer without prior authorization of such trades by the client."
       },
       {
         "id": "d",
         "text": "The customer must be informed of all orders before they are executed.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A discretionary account permits an associated person who had power of attorney from a customer to execute trades on behalf of the customer without prior authorization of such trades by the client."
+        "rationale": "Correct. A discretionary account permits an associated person who had power of attorney from a customer to execute trades on behalf of the customer without prior authorization of such trades by the client."
       }
     ],
     "explanation": "A discretionary account permits an associated person who had power of attorney from a customer to execute trades on behalf of the customer without prior authorization of such trades by the client.",
@@ -7268,25 +7268,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Within ten days of opening the account.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) requires that new customer account information must be obtained, and risk disclosure provided, at or before the time a customer opens an account."
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires that new customer account information must be obtained, and risk disclosure provided, at or before the time a customer opens an account."
       },
       {
         "id": "b",
         "text": "At least two days before an account is opened.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) requires that new customer account information must be obtained, and risk disclosure provided, at or before the time a customer opens an account."
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires that new customer account information must be obtained, and risk disclosure provided, at or before the time a customer opens an account."
       },
       {
         "id": "c",
         "text": "At least 48 hours before the first trade is made.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) requires that new customer account information must be obtained, and risk disclosure provided, at or before the time a customer opens an account."
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires that new customer account information must be obtained, and risk disclosure provided, at or before the time a customer opens an account."
       },
       {
         "id": "d",
         "text": "At or before the time a customer opens an account.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires that new customer account information must be obtained, and risk disclosure provided, at or before the time a customer opens an account."
+        "rationale": "Correct. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires that new customer account information must be obtained, and risk disclosure provided, at or before the time a customer opens an account."
       }
     ],
     "explanation": "NFA Rule 2-30 (Customer Information and Risk Disclosure) requires that new customer account information must be obtained, and risk disclosure provided, at or before the time a customer opens an account.",
@@ -7320,31 +7320,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The trader's name, address, and business telephone number.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the following are required to be reported on a CFTC Form 40 (Statement of Reporting Trader): (a) the trader's name, address, and business telephone number; (b) the trader's principal business and occupation: and (c) the FCMs. IBs. and foreign brokers carrying the trader's futures accounts."
+        "rationale": "Incorrect. All of the following are required to be reported on a CFTC Form 40 (Statement of Reporting Trader): (a) the trader's name, address, and business telephone number; (b) the trader's principal business and occupation: and (c) the FCMs. IBs. and foreign brokers carrying the trader's futures accounts."
       },
       {
         "id": "b",
         "text": "The trader's principal business and occupation.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the following are required to be reported on a CFTC Form 40 (Statement of Reporting Trader): (a) the trader's name, address, and business telephone number; (b) the trader's principal business and occupation: and (c) the FCMs. IBs. and foreign brokers carrying the trader's futures accounts."
+        "rationale": "Incorrect. All of the following are required to be reported on a CFTC Form 40 (Statement of Reporting Trader): (a) the trader's name, address, and business telephone number; (b) the trader's principal business and occupation: and (c) the FCMs. IBs. and foreign brokers carrying the trader's futures accounts."
       },
       {
         "id": "c",
         "text": "The FCMs, IBs, and foreign brokers carrying the trader's account.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the following are required to be reported on a CFTC Form 40 (Statement of Reporting Trader): (a) the trader's name, address, and business telephone number; (b) the trader's principal business and occupation: and (c) the FCMs. IBs. and foreign brokers carrying the trader's futures accounts."
+        "rationale": "Incorrect. All of the following are required to be reported on a CFTC Form 40 (Statement of Reporting Trader): (a) the trader's name, address, and business telephone number; (b) the trader's principal business and occupation: and (c) the FCMs. IBs. and foreign brokers carrying the trader's futures accounts."
       },
       {
         "id": "d",
         "text": "A, B and C.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. All of the following are required to be reported on a CFTC Form 40 (Statement of Reporting Trader): (a) the trader's name, address, and business telephone number; (b) the trader's principal business and occupation: and (c) the FCMs. IBs. and foreign brokers carrying the trader's futures accounts."
+        "rationale": "Correct. All of the following are required to be reported on a CFTC Form 40 (Statement of Reporting Trader): (a) the trader's name, address, and business telephone number; (b) the trader's principal business and occupation: and (c) the FCMs. IBs. and foreign brokers carrying the trader's futures accounts."
       },
       {
         "id": "e",
         "text": "A and B, only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the following are required to be reported on a CFTC Form 40 (Statement of Reporting Trader): (a) the trader's name, address, and business telephone number; (b) the trader's principal business and occupation: and (c) the FCMs. IBs. and foreign brokers carrying the trader's futures accounts."
+        "rationale": "Incorrect. All of the following are required to be reported on a CFTC Form 40 (Statement of Reporting Trader): (a) the trader's name, address, and business telephone number; (b) the trader's principal business and occupation: and (c) the FCMs. IBs. and foreign brokers carrying the trader's futures accounts."
       }
     ],
     "explanation": "All of the following are required to be reported on a CFTC Form 40 (Statement of Reporting Trader): (a) the trader's name, address, and business telephone number; (b) the trader's principal business and occupation: and (c) the FCMs. IBs. and foreign brokers carrying the trader's futures accounts.",
@@ -7355,7 +7355,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 162; source code 10_IM_28.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "162",
     "sourceQuestionNumber": 161,
@@ -7377,25 +7377,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The NFA member carrying the account.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that \"In the case of anl account which is introduced by an FCM or IB or for which a CTA directs trading. it shall be the responsibility of the Member soliciting the account to comply with this Rule.\""
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that \"In the case of anl account which is introduced by an FCM or IB or for which a CTA directs trading. it shall be the responsibility of the Member soliciting the account to comply with this Rule.\""
       },
       {
         "id": "b",
         "text": "The firm whose name appears on the customer agreement.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that \"In the case of anl account which is introduced by an FCM or IB or for which a CTA directs trading. it shall be the responsibility of the Member soliciting the account to comply with this Rule.\""
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that \"In the case of anl account which is introduced by an FCM or IB or for which a CTA directs trading. it shall be the responsibility of the Member soliciting the account to comply with this Rule.\""
       },
       {
         "id": "c",
         "text": "The NFA member soliciting the account.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that \"In the case of anl account which is introduced by an FCM or IB or for which a CTA directs trading. it shall be the responsibility of the Member soliciting the account to comply with this Rule.\""
+        "rationale": "Correct. NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that \"In the case of anl account which is introduced by an FCM or IB or for which a CTA directs trading. it shall be the responsibility of the Member soliciting the account to comply with this Rule.\""
       },
       {
         "id": "d",
         "text": "The firm required to do so by exchange rules.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that \"In the case of anl account which is introduced by an FCM or IB or for which a CTA directs trading. it shall be the responsibility of the Member soliciting the account to comply with this Rule.\""
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that \"In the case of anl account which is introduced by an FCM or IB or for which a CTA directs trading. it shall be the responsibility of the Member soliciting the account to comply with this Rule.\""
       }
     ],
     "explanation": "NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that \"In the case of anl account which is introduced by an FCM or IB or for which a CTA directs trading. it shall be the responsibility of the Member soliciting the account to comply with this Rule.\"",
@@ -7429,13 +7429,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) A CPO may limit its presentation of past performance information only to the offered pool, provided the pool has at least a three-year history of trading and, during the minimum three-year period, at least 75 percent of the pool's assets were contributed by persons not affiliated with the CPO. trading manager, CTA, or FCM for the pool."
+        "rationale": "Correct. (True) A CPO may limit its presentation of past performance information only to the offered pool, provided the pool has at least a three-year history of trading and, during the minimum three-year period, at least 75 percent of the pool's assets were contributed by persons not affiliated with the CPO. trading manager, CTA, or FCM for the pool."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) A CPO may limit its presentation of past performance information only to the offered pool, provided the pool has at least a three-year history of trading and, during the minimum three-year period, at least 75 percent of the pool's assets were contributed by persons not affiliated with the CPO. trading manager, CTA, or FCM for the pool."
+        "rationale": "Incorrect. (True) A CPO may limit its presentation of past performance information only to the offered pool, provided the pool has at least a three-year history of trading and, during the minimum three-year period, at least 75 percent of the pool's assets were contributed by persons not affiliated with the CPO. trading manager, CTA, or FCM for the pool."
       }
     ],
     "explanation": "(True) A CPO may limit its presentation of past performance information only to the offered pool, provided the pool has at least a three-year history of trading and, during the minimum three-year period, at least 75 percent of the pool's assets were contributed by persons not affiliated with the CPO. trading manager, CTA, or FCM for the pool.",
@@ -7469,28 +7469,28 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "An FCM.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations define an FCM to include individuals, associations, partnerships. corporations, or trusts engaged in soliciting Or in accepting orders for the purchase or sale of any commodity for future delivery (or option contract) and that. in connection with such solicitation or acceptance of orders. accepts any money. securities, or property to margin, guarantee, or secure any trades or contracts that result or may result therefrom."
+        "rationale": "Correct. CFTC regulations define an FCM to include individuals, associations, partnerships. corporations, or trusts engaged in soliciting or in accepting orders for the purchase or sale of any commodity for future delivery (or option contract) and that. in connection with such solicitation or acceptance of orders. accepts any money. securities, or property to margin, guarantee, or secure any trades or contracts that result or may result therefrom."
       },
       {
         "id": "b",
         "text": "An FCM or IB.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations define an FCM to include individuals, associations, partnerships. corporations, or trusts engaged in soliciting Or in accepting orders for the purchase or sale of any commodity for future delivery (or option contract) and that. in connection with such solicitation or acceptance of orders. accepts any money. securities, or property to margin, guarantee, or secure any trades or contracts that result or may result therefrom."
+        "rationale": "Incorrect. CFTC regulations define an FCM to include individuals, associations, partnerships. corporations, or trusts engaged in soliciting or in accepting orders for the purchase or sale of any commodity for future delivery (or option contract) and that. in connection with such solicitation or acceptance of orders. accepts any money. securities, or property to margin, guarantee, or secure any trades or contracts that result or may result therefrom."
       },
       {
         "id": "c",
         "text": "An FCM, IB or CTA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations define an FCM to include individuals, associations, partnerships. corporations, or trusts engaged in soliciting Or in accepting orders for the purchase or sale of any commodity for future delivery (or option contract) and that. in connection with such solicitation or acceptance of orders. accepts any money. securities, or property to margin, guarantee, or secure any trades or contracts that result or may result therefrom."
+        "rationale": "Incorrect. CFTC regulations define an FCM to include individuals, associations, partnerships. corporations, or trusts engaged in soliciting or in accepting orders for the purchase or sale of any commodity for future delivery (or option contract) and that. in connection with such solicitation or acceptance of orders. accepts any money. securities, or property to margin, guarantee, or secure any trades or contracts that result or may result therefrom."
       },
       {
         "id": "d",
         "text": "An exchange.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations define an FCM to include individuals, associations, partnerships. corporations, or trusts engaged in soliciting Or in accepting orders for the purchase or sale of any commodity for future delivery (or option contract) and that. in connection with such solicitation or acceptance of orders. accepts any money. securities, or property to margin, guarantee, or secure any trades or contracts that result or may result therefrom."
+        "rationale": "Incorrect. CFTC regulations define an FCM to include individuals, associations, partnerships. corporations, or trusts engaged in soliciting or in accepting orders for the purchase or sale of any commodity for future delivery (or option contract) and that. in connection with such solicitation or acceptance of orders. accepts any money. securities, or property to margin, guarantee, or secure any trades or contracts that result or may result therefrom."
       }
     ],
-    "explanation": "CFTC regulations define an FCM to include individuals, associations, partnerships. corporations, or trusts engaged in soliciting Or in accepting orders for the purchase or sale of any commodity for future delivery (or option contract) and that. in connection with such solicitation or acceptance of orders. accepts any money. securities, or property to margin, guarantee, or secure any trades or contracts that result or may result therefrom.",
+    "explanation": "CFTC regulations define an FCM to include individuals, associations, partnerships. corporations, or trusts engaged in soliciting or in accepting orders for the purchase or sale of any commodity for future delivery (or option contract) and that. in connection with such solicitation or acceptance of orders. accepts any money. securities, or property to margin, guarantee, or secure any trades or contracts that result or may result therefrom.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -7521,13 +7521,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. If hypothetical trading resulis are included in a Disclosure Document they must appear as the last disclosure in the document."
+        "rationale": "Correct. If hypothetical trading resulis are included in a Disclosure Document they must appear as the last disclosure in the document."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If hypothetical trading resulis are included in a Disclosure Document they must appear as the last disclosure in the document."
+        "rationale": "Incorrect. If hypothetical trading resulis are included in a Disclosure Document they must appear as the last disclosure in the document."
       }
     ],
     "explanation": "If hypothetical trading resulis are included in a Disclosure Document they must appear as the last disclosure in the document.",
@@ -7538,7 +7538,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 166; source code 10_IM_117.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "166",
     "sourceQuestionNumber": 165,
@@ -7560,25 +7560,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Must maintain English translations for a period of five years from the date of last use",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA rule 2-29 stipulates that you maintain English translations of all foreign-language promotional material, disclosure documents. a Websites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
+        "rationale": "Correct. NFA rule 2-29 stipulates that you maintain English translations of all foreign-language promotional material, disclosure documents. a Websites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
       },
       {
         "id": "b",
         "text": "Must maintain English translations for a period of three years from the date of last use",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA rule 2-29 stipulates that you maintain English translations of all foreign-language promotional material, disclosure documents. a Websites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
+        "rationale": "Incorrect. NFA rule 2-29 stipulates that you maintain English translations of all foreign-language promotional material, disclosure documents. a Websites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
       },
       {
         "id": "c",
         "text": "Do not need to translate the Russian text into English if the person who wrote the Russian text is a bona fide English speaker employed by a professional language translation agency",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA rule 2-29 stipulates that you maintain English translations of all foreign-language promotional material, disclosure documents. a Websites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
+        "rationale": "Incorrect. NFA rule 2-29 stipulates that you maintain English translations of all foreign-language promotional material, disclosure documents. a Websites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
       },
       {
         "id": "d",
         "text": "Are not required to translate the Russian text into English as long as you can make a peison available to translate the document if requested by NFA",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA rule 2-29 stipulates that you maintain English translations of all foreign-language promotional material, disclosure documents. a Websites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
+        "rationale": "Incorrect. NFA rule 2-29 stipulates that you maintain English translations of all foreign-language promotional material, disclosure documents. a Websites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions."
       }
     ],
     "explanation": "NFA rule 2-29 stipulates that you maintain English translations of all foreign-language promotional material, disclosure documents. a Websites, distributed to or intended for viewing by customers located in the United States. its territories. or possessions.",
@@ -7612,13 +7612,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) CFTC regulations specify that the signing of a pre-dispute resolution (arbitration) agreement must be voluntary."
+        "rationale": "Incorrect. (False) CFTC regulations specify that the signing of a pre-dispute resolution (arbitration) agreement must be voluntary."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) CFTC regulations specify that the signing of a pre-dispute resolution (arbitration) agreement must be voluntary."
+        "rationale": "Correct. (False) CFTC regulations specify that the signing of a pre-dispute resolution (arbitration) agreement must be voluntary."
       }
     ],
     "explanation": "(False) CFTC regulations specify that the signing of a pre-dispute resolution (arbitration) agreement must be voluntary.",
@@ -7651,25 +7651,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "On a fully disclosed basis with its carrying broker.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. In accordance with CFTC regulations, all IB- introduced accounts must be carried on a fully disclosed basis with a carrying FCM."
+        "rationale": "Correct. In accordance with CFTC regulations, all IB- introduced accounts must be carried on a fully disclosed basis with a carrying FCM."
       },
       {
         "id": "b",
         "text": "Either on a fully-disclosed basis or through a specifically designated customer omnibus account.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In accordance with CFTC regulations, all IB- introduced accounts must be carried on a fully disclosed basis with a carrying FCM."
+        "rationale": "Incorrect. In accordance with CFTC regulations, all IB- introduced accounts must be carried on a fully disclosed basis with a carrying FCM."
       },
       {
         "id": "c",
         "text": "As directed by the carrying broker's agreement.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In accordance with CFTC regulations, all IB- introduced accounts must be carried on a fully disclosed basis with a carrying FCM."
+        "rationale": "Incorrect. In accordance with CFTC regulations, all IB- introduced accounts must be carried on a fully disclosed basis with a carrying FCM."
       },
       {
         "id": "d",
         "text": "In the same manner as would be done by an FCM.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In accordance with CFTC regulations, all IB- introduced accounts must be carried on a fully disclosed basis with a carrying FCM."
+        "rationale": "Incorrect. In accordance with CFTC regulations, all IB- introduced accounts must be carried on a fully disclosed basis with a carrying FCM."
       }
     ],
     "explanation": "In accordance with CFTC regulations, all IB- introduced accounts must be carried on a fully disclosed basis with a carrying FCM.",
@@ -7703,31 +7703,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The grant of discretion must be in writing.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-8 (Discretionary Trading) applies all of the factors listed in this question to the handling of discretionary accounts."
+        "rationale": "Incorrect. NFA Rule 2-8 (Discretionary Trading) applies all of the factors listed in this question to the handling of discretionary accounts."
       },
       {
         "id": "b",
         "text": "The member's records systems must clearly identify diseretionary accounts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-8 (Discretionary Trading) applies all of the factors listed in this question to the handling of discretionary accounts."
+        "rationale": "Incorrect. NFA Rule 2-8 (Discretionary Trading) applies all of the factors listed in this question to the handling of discretionary accounts."
       },
       {
         "id": "c",
         "text": "Each trade must be marked as discretionary.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-8 (Discretionary Trading) applies all of the factors listed in this question to the handling of discretionary accounts."
+        "rationale": "Incorrect. NFA Rule 2-8 (Discretionary Trading) applies all of the factors listed in this question to the handling of discretionary accounts."
       },
       {
         "id": "d",
         "text": "The member must have written procedures for review of discretionary trading.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-8 (Discretionary Trading) applies all of the factors listed in this question to the handling of discretionary accounts."
+        "rationale": "Incorrect. NFA Rule 2-8 (Discretionary Trading) applies all of the factors listed in this question to the handling of discretionary accounts."
       },
       {
         "id": "e",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-8 (Discretionary Trading) applies all of the factors listed in this question to the handling of discretionary accounts."
+        "rationale": "Correct. NFA Rule 2-8 (Discretionary Trading) applies all of the factors listed in this question to the handling of discretionary accounts."
       }
     ],
     "explanation": "NFA Rule 2-8 (Discretionary Trading) applies all of the factors listed in this question to the handling of discretionary accounts.",
@@ -7738,7 +7738,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 170; source code 10_IM_46.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "170",
     "sourceQuestionNumber": 169,
@@ -7760,25 +7760,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The customer agreement provides that the statements will be sent electronically.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An FCM may provide daily and monthly account statements to customers by electronic media if the customer gives written consent in a statement that contains the electronic disclosure information required by the NFA."
+        "rationale": "Incorrect. An FCM may provide daily and monthly account statements to customers by electronic media if the customer gives written consent in a statement that contains the electronic disclosure information required by the NFA."
       },
       {
         "id": "b",
         "text": "That monthly statements will be mailed as well as delivered electronically.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An FCM may provide daily and monthly account statements to customers by electronic media if the customer gives written consent in a statement that contains the electronic disclosure information required by the NFA."
+        "rationale": "Incorrect. An FCM may provide daily and monthly account statements to customers by electronic media if the customer gives written consent in a statement that contains the electronic disclosure information required by the NFA."
       },
       {
         "id": "c",
         "text": "The customer gives written consent in a statement that contains electronic disclosure information required by the NFA.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. An FCM may provide daily and monthly account statements to customers by electronic media if the customer gives written consent in a statement that contains the electronic disclosure information required by the NFA."
+        "rationale": "Correct. An FCM may provide daily and monthly account statements to customers by electronic media if the customer gives written consent in a statement that contains the electronic disclosure information required by the NFA."
       },
       {
         "id": "d",
         "text": "The FCM notifies the customer that the statements will only be provided electronically.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An FCM may provide daily and monthly account statements to customers by electronic media if the customer gives written consent in a statement that contains the electronic disclosure information required by the NFA."
+        "rationale": "Incorrect. An FCM may provide daily and monthly account statements to customers by electronic media if the customer gives written consent in a statement that contains the electronic disclosure information required by the NFA."
       }
     ],
     "explanation": "An FCM may provide daily and monthly account statements to customers by electronic media if the customer gives written consent in a statement that contains the electronic disclosure information required by the NFA.",
@@ -7812,16 +7812,16 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) Umless a CTA is also registered as an FCM, it may not solicit, accept, or receive firom an existing or prospective client funds. securities, or other property in the trading advisor's name to purchase, margin. guarantee. or secure any commodity interest of a client. Customer funds must be received by an FCM."
+        "rationale": "Correct. (True) Umless a CTA is also registered as an FCM, it may not solicit, accept, or receive from an existing or prospective client funds. securities, or other property in the trading advisor's name to purchase, margin. guarantee. or secure any commodity interest of a client. Customer funds must be received by an FCM."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) Umless a CTA is also registered as an FCM, it may not solicit, accept, or receive firom an existing or prospective client funds. securities, or other property in the trading advisor's name to purchase, margin. guarantee. or secure any commodity interest of a client. Customer funds must be received by an FCM."
+        "rationale": "Incorrect. (True) Umless a CTA is also registered as an FCM, it may not solicit, accept, or receive from an existing or prospective client funds. securities, or other property in the trading advisor's name to purchase, margin. guarantee. or secure any commodity interest of a client. Customer funds must be received by an FCM."
       }
     ],
-    "explanation": "(True) Umless a CTA is also registered as an FCM, it may not solicit, accept, or receive firom an existing or prospective client funds. securities, or other property in the trading advisor's name to purchase, margin. guarantee. or secure any commodity interest of a client. Customer funds must be received by an FCM.",
+    "explanation": "(True) Umless a CTA is also registered as an FCM, it may not solicit, accept, or receive from an existing or prospective client funds. securities, or other property in the trading advisor's name to purchase, margin. guarantee. or secure any commodity interest of a client. Customer funds must be received by an FCM.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -7852,25 +7852,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The CTA has provided advice to not more then 15 persons during the last year and does not hold itself out to the public as providing trading advice.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CTA registration is generally notrequired if the trading advisor has provided advice to not more than 15 persons during the last year and does not hold itself out to the public as providing trading advice."
+        "rationale": "Correct. CTA registration is generally notrequired if the trading advisor has provided advice to not more than 15 persons during the last year and does not hold itself out to the public as providing trading advice."
       },
       {
         "id": "b",
         "text": "The CTA has not made money during the last twelve months.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CTA registration is generally notrequired if the trading advisor has provided advice to not more than 15 persons during the last year and does not hold itself out to the public as providing trading advice."
+        "rationale": "Incorrect. CTA registration is generally notrequired if the trading advisor has provided advice to not more than 15 persons during the last year and does not hold itself out to the public as providing trading advice."
       },
       {
         "id": "c",
         "text": "The CTA is registered with the FINRA even though its principal business is providing commodity trading advice.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CTA registration is generally notrequired if the trading advisor has provided advice to not more than 15 persons during the last year and does not hold itself out to the public as providing trading advice."
+        "rationale": "Incorrect. CTA registration is generally notrequired if the trading advisor has provided advice to not more than 15 persons during the last year and does not hold itself out to the public as providing trading advice."
       },
       {
         "id": "d",
         "text": "A and C.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CTA registration is generally notrequired if the trading advisor has provided advice to not more than 15 persons during the last year and does not hold itself out to the public as providing trading advice."
+        "rationale": "Incorrect. CTA registration is generally notrequired if the trading advisor has provided advice to not more than 15 persons during the last year and does not hold itself out to the public as providing trading advice."
       }
     ],
     "explanation": "CTA registration is generally notrequired if the trading advisor has provided advice to not more than 15 persons during the last year and does not hold itself out to the public as providing trading advice.",
@@ -7882,7 +7882,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 173; source code 10_IM_86.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "173",
     "sourceQuestionNumber": 172,
@@ -7904,25 +7904,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Must attempt to use at least one other means to verify the information.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate is entitled to rely on the customer as the sole source for the information obtained under this rule and that the member or associate is not fequired to verify the information."
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate is entitled to rely on the customer as the sole source for the information obtained under this rule and that the member or associate is not fequired to verify the information."
       },
       {
         "id": "b",
         "text": "Must verify at least the customer's income and net worth.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate is entitled to rely on the customer as the sole source for the information obtained under this rule and that the member or associate is not fequired to verify the information."
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate is entitled to rely on the customer as the sole source for the information obtained under this rule and that the member or associate is not fequired to verify the information."
       },
       {
         "id": "c",
         "text": "Is entitled to rely on the customer as the sole source for the information.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate is entitled to rely on the customer as the sole source for the information obtained under this rule and that the member or associate is not fequired to verify the information."
+        "rationale": "Correct. NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate is entitled to rely on the customer as the sole source for the information obtained under this rule and that the member or associate is not fequired to verify the information."
       },
       {
         "id": "d",
         "text": "Must verify the customer's net worth and income only if no previous trading experience has been disclosed.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate is entitled to rely on the customer as the sole source for the information obtained under this rule and that the member or associate is not fequired to verify the information."
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate is entitled to rely on the customer as the sole source for the information obtained under this rule and that the member or associate is not fequired to verify the information."
       }
     ],
     "explanation": "NFA Rule 2-30 (Customer Information and Risk Disclosure) provides that a member or associate is entitled to rely on the customer as the sole source for the information obtained under this rule and that the member or associate is not fequired to verify the information.",
@@ -7956,25 +7956,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "AML Alert Bulletin.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The anti-money laundering report that is fequired to be filed regarding a suspicious transaction is know as a Suspicious Activity Report (\"SAR\")."
+        "rationale": "Incorrect. The anti-money laundering report that is fequired to be filed regarding a suspicious transaction is know as a Suspicious Activity Report (\"SAR\")."
       },
       {
         "id": "b",
         "text": "Suspicious Aetivity Report.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The anti-money laundering report that is fequired to be filed regarding a suspicious transaction is know as a Suspicious Activity Report (\"SAR\")."
+        "rationale": "Correct. The anti-money laundering report that is fequired to be filed regarding a suspicious transaction is know as a Suspicious Activity Report (\"SAR\")."
       },
       {
         "id": "c",
         "text": "Suspicious Transaction Report.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The anti-money laundering report that is fequired to be filed regarding a suspicious transaction is know as a Suspicious Activity Report (\"SAR\")."
+        "rationale": "Incorrect. The anti-money laundering report that is fequired to be filed regarding a suspicious transaction is know as a Suspicious Activity Report (\"SAR\")."
       },
       {
         "id": "d",
         "text": "FinCEN Notification.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The anti-money laundering report that is fequired to be filed regarding a suspicious transaction is know as a Suspicious Activity Report (\"SAR\")."
+        "rationale": "Incorrect. The anti-money laundering report that is fequired to be filed regarding a suspicious transaction is know as a Suspicious Activity Report (\"SAR\")."
       }
     ],
     "explanation": "The anti-money laundering report that is fequired to be filed regarding a suspicious transaction is know as a Suspicious Activity Report (\"SAR\").",
@@ -8007,25 +8007,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Under any conditions.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-3 (Sharing in Profits) prohibits a member or associate from sharing. directly or indirectly, in profits or losses accruing in a customer account unless the customer's prior written authorization is obtained."
+        "rationale": "Incorrect. NFA Rule 2-3 (Sharing in Profits) prohibits a member or associate from sharing. directly or indirectly, in profits or losses accruing in a customer account unless the customer's prior written authorization is obtained."
       },
       {
         "id": "b",
         "text": "Unless prior notice is given to the NFA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-3 (Sharing in Profits) prohibits a member or associate from sharing. directly or indirectly, in profits or losses accruing in a customer account unless the customer's prior written authorization is obtained."
+        "rationale": "Incorrect. NFA Rule 2-3 (Sharing in Profits) prohibits a member or associate from sharing. directly or indirectly, in profits or losses accruing in a customer account unless the customer's prior written authorization is obtained."
       },
       {
         "id": "c",
         "text": "Unless prior written authorization is received from the customer.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-3 (Sharing in Profits) prohibits a member or associate from sharing. directly or indirectly, in profits or losses accruing in a customer account unless the customer's prior written authorization is obtained."
+        "rationale": "Correct. NFA Rule 2-3 (Sharing in Profits) prohibits a member or associate from sharing. directly or indirectly, in profits or losses accruing in a customer account unless the customer's prior written authorization is obtained."
       },
       {
         "id": "d",
         "text": "Unless it is a joint account.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-3 (Sharing in Profits) prohibits a member or associate from sharing. directly or indirectly, in profits or losses accruing in a customer account unless the customer's prior written authorization is obtained."
+        "rationale": "Incorrect. NFA Rule 2-3 (Sharing in Profits) prohibits a member or associate from sharing. directly or indirectly, in profits or losses accruing in a customer account unless the customer's prior written authorization is obtained."
       }
     ],
     "explanation": "NFA Rule 2-3 (Sharing in Profits) prohibits a member or associate from sharing. directly or indirectly, in profits or losses accruing in a customer account unless the customer's prior written authorization is obtained.",
@@ -8058,13 +8058,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) Any person whose registration as an AP has terminated within the preceding 60 days and who becomes associated with a new sponsor may be granted a temporary license to act as an AP upon the submission, by the new sponsor. of a Form 8-R and fingerprint card of the applicant, provided that the AP otherwise continues to satisfy the requirements for registration."
+        "rationale": "Correct. (True) Any person whose registration as an AP has terminated within the preceding 60 days and who becomes associated with a new sponsor may be granted a temporary license to act as an AP upon the submission, by the new sponsor. of a Form 8-R and fingerprint card of the applicant, provided that the AP otherwise continues to satisfy the requirements for registration."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) Any person whose registration as an AP has terminated within the preceding 60 days and who becomes associated with a new sponsor may be granted a temporary license to act as an AP upon the submission, by the new sponsor. of a Form 8-R and fingerprint card of the applicant, provided that the AP otherwise continues to satisfy the requirements for registration."
+        "rationale": "Incorrect. (True) Any person whose registration as an AP has terminated within the preceding 60 days and who becomes associated with a new sponsor may be granted a temporary license to act as an AP upon the submission, by the new sponsor. of a Form 8-R and fingerprint card of the applicant, provided that the AP otherwise continues to satisfy the requirements for registration."
       }
     ],
     "explanation": "(True) Any person whose registration as an AP has terminated within the preceding 60 days and who becomes associated with a new sponsor may be granted a temporary license to act as an AP upon the submission, by the new sponsor. of a Form 8-R and fingerprint card of the applicant, provided that the AP otherwise continues to satisfy the requirements for registration.",
@@ -8097,31 +8097,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Advising more than 15 persons during the previous 12 months.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed examples would require registration as a CTA."
+        "rationale": "Incorrect. All of the listed examples would require registration as a CTA."
       },
       {
         "id": "b",
         "text": "Holding yourself out to the public as a trading advisor.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed examples would require registration as a CTA."
+        "rationale": "Incorrect. All of the listed examples would require registration as a CTA."
       },
       {
         "id": "c",
         "text": "Allocating assets to CTAs or investee pools.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed examples would require registration as a CTA."
+        "rationale": "Incorrect. All of the listed examples would require registration as a CTA."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. All of the listed examples would require registration as a CTA."
+        "rationale": "Correct. All of the listed examples would require registration as a CTA."
       },
       {
         "id": "e",
         "text": "A and C only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the listed examples would require registration as a CTA."
+        "rationale": "Incorrect. All of the listed examples would require registration as a CTA."
       }
     ],
     "explanation": "All of the listed examples would require registration as a CTA.",
@@ -8133,7 +8133,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 178; source code 10_IM_110.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "178",
     "sourceQuestionNumber": 177,
@@ -8155,13 +8155,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-8 (Discretionary Accounts) provides that each futures trade initiated in an account that a Member or Associate has written authorization to trade shall be presumed to have been made pursuant to the trading authorization unless otherwise indicated in writing at the time the trade was made."
+        "rationale": "Correct. NFA Rule 2-8 (Discretionary Accounts) provides that each futures trade initiated in an account that a Member or Associate has written authorization to trade shall be presumed to have been made pursuant to the trading authorization unless otherwise indicated in writing at the time the trade was made."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-8 (Discretionary Accounts) provides that each futures trade initiated in an account that a Member or Associate has written authorization to trade shall be presumed to have been made pursuant to the trading authorization unless otherwise indicated in writing at the time the trade was made."
+        "rationale": "Incorrect. NFA Rule 2-8 (Discretionary Accounts) provides that each futures trade initiated in an account that a Member or Associate has written authorization to trade shall be presumed to have been made pursuant to the trading authorization unless otherwise indicated in writing at the time the trade was made."
       }
     ],
     "explanation": "NFA Rule 2-8 (Discretionary Accounts) provides that each futures trade initiated in an account that a Member or Associate has written authorization to trade shall be presumed to have been made pursuant to the trading authorization unless otherwise indicated in writing at the time the trade was made.",
@@ -8194,13 +8194,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) Principal-protected pools are permitted by CFTC regulation. However, the fact that the pool is principal protected must be disclosed as well as the protection mechanism. In addition the cost of purchasing and carrying the assets to fund the principal-protection feature must be included in the break-even calculation expressed as a percentage of a unit of participation."
+        "rationale": "Incorrect. (False) Principal-protected pools are permitted by CFTC regulation. However, the fact that the pool is principal protected must be disclosed as well as the protection mechanism. In addition the cost of purchasing and carrying the assets to fund the principal-protection feature must be included in the break-even calculation expressed as a percentage of a unit of participation."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) Principal-protected pools are permitted by CFTC regulation. However, the fact that the pool is principal protected must be disclosed as well as the protection mechanism. In addition the cost of purchasing and carrying the assets to fund the principal-protection feature must be included in the break-even calculation expressed as a percentage of a unit of participation."
+        "rationale": "Correct. (False) Principal-protected pools are permitted by CFTC regulation. However, the fact that the pool is principal protected must be disclosed as well as the protection mechanism. In addition the cost of purchasing and carrying the assets to fund the principal-protection feature must be included in the break-even calculation expressed as a percentage of a unit of participation."
       }
     ],
     "explanation": "(False) Principal-protected pools are permitted by CFTC regulation. However, the fact that the pool is principal protected must be disclosed as well as the protection mechanism. In addition the cost of purchasing and carrying the assets to fund the principal-protection feature must be included in the break-even calculation expressed as a percentage of a unit of participation.",
@@ -8234,31 +8234,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Guarantee a person against loss.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.56 prohibits an FCM, IB. or any person from representing that the FCM or IB will: (1) guarantee such person against loss; (2) limit the loss of such person; or (3) not call for or attempt to collect initial and maintenance margins as established by the exchange or clearinghouse."
+        "rationale": "Incorrect. CFTC Regulation 1.56 prohibits an FCM, IB. or any person from representing that the FCM or IB will: (1) guarantee such person against loss; (2) limit the loss of such person; or (3) not call for or attempt to collect initial and maintenance margins as established by the exchange or clearinghouse."
       },
       {
         "id": "b",
         "text": "Limit the loss of a person.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.56 prohibits an FCM, IB. or any person from representing that the FCM or IB will: (1) guarantee such person against loss; (2) limit the loss of such person; or (3) not call for or attempt to collect initial and maintenance margins as established by the exchange or clearinghouse."
+        "rationale": "Incorrect. CFTC Regulation 1.56 prohibits an FCM, IB. or any person from representing that the FCM or IB will: (1) guarantee such person against loss; (2) limit the loss of such person; or (3) not call for or attempt to collect initial and maintenance margins as established by the exchange or clearinghouse."
       },
       {
         "id": "c",
         "text": "Not call for exchange-fequired margin.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.56 prohibits an FCM, IB. or any person from representing that the FCM or IB will: (1) guarantee such person against loss; (2) limit the loss of such person; or (3) not call for or attempt to collect initial and maintenance margins as established by the exchange or clearinghouse."
+        "rationale": "Incorrect. CFTC Regulation 1.56 prohibits an FCM, IB. or any person from representing that the FCM or IB will: (1) guarantee such person against loss; (2) limit the loss of such person; or (3) not call for or attempt to collect initial and maintenance margins as established by the exchange or clearinghouse."
       },
       {
         "id": "d",
         "text": "A, B and C.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC Regulation 1.56 prohibits an FCM, IB. or any person from representing that the FCM or IB will: (1) guarantee such person against loss; (2) limit the loss of such person; or (3) not call for or attempt to collect initial and maintenance margins as established by the exchange or clearinghouse."
+        "rationale": "Correct. CFTC Regulation 1.56 prohibits an FCM, IB. or any person from representing that the FCM or IB will: (1) guarantee such person against loss; (2) limit the loss of such person; or (3) not call for or attempt to collect initial and maintenance margins as established by the exchange or clearinghouse."
       },
       {
         "id": "e",
         "text": "A and B, only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.56 prohibits an FCM, IB. or any person from representing that the FCM or IB will: (1) guarantee such person against loss; (2) limit the loss of such person; or (3) not call for or attempt to collect initial and maintenance margins as established by the exchange or clearinghouse."
+        "rationale": "Incorrect. CFTC Regulation 1.56 prohibits an FCM, IB. or any person from representing that the FCM or IB will: (1) guarantee such person against loss; (2) limit the loss of such person; or (3) not call for or attempt to collect initial and maintenance margins as established by the exchange or clearinghouse."
       }
     ],
     "explanation": "CFTC Regulation 1.56 prohibits an FCM, IB. or any person from representing that the FCM or IB will: (1) guarantee such person against loss; (2) limit the loss of such person; or (3) not call for or attempt to collect initial and maintenance margins as established by the exchange or clearinghouse.",
@@ -8270,7 +8270,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "futures commission merchant",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 181; source code 10_IM_10.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "181",
     "sourceQuestionNumber": 180,
@@ -8290,27 +8290,27 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "A CTA is prohibited from showing extracted performance results.",
+        "text": "CTA is prohibited from showing extracted performance results.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Extracted trading resulis in a Disclosure Document is permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program."
+        "rationale": "Incorrect. Extracted trading resulis in a Disclosure Document is permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program."
       },
       {
         "id": "b",
         "text": "Extracted performance results can only be used with prior approval of the NFA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Extracted trading resulis in a Disclosure Document is permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program."
+        "rationale": "Incorrect. Extracted trading resulis in a Disclosure Document is permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program."
       },
       {
         "id": "c",
         "text": "Extracted performance can only be used if presented in the CFTC specified Extracted Performance Table.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Extracted trading resulis in a Disclosure Document is permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program."
+        "rationale": "Incorrect. Extracted trading resulis in a Disclosure Document is permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program."
       },
       {
         "id": "d",
         "text": "Extracted performance is permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Extracted trading resulis in a Disclosure Document is permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program."
+        "rationale": "Correct. Extracted trading resulis in a Disclosure Document is permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program."
       }
     ],
     "explanation": "Extracted trading resulis in a Disclosure Document is permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program.",
@@ -8344,13 +8344,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A CTA's Disclosure Document must follow a CFTC specified format."
+        "rationale": "Correct. A CTA's Disclosure Document must follow a CFTC specified format."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA's Disclosure Document must follow a CFTC specified format."
+        "rationale": "Incorrect. A CTA's Disclosure Document must follow a CFTC specified format."
       }
     ],
     "explanation": "A CTA's Disclosure Document must follow a CFTC specified format.",
@@ -8384,25 +8384,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "All filled orders",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.35 requires all orders (filled, unfilled, and canceled) to be retained by FCMs, IBs, and members of contract markets. CFTC Regulation 1.31 requires orders and other fequired records to be retained for a period of at least five years."
+        "rationale": "Incorrect. CFTC Regulation 1.35 requires all orders (filled, unfilled, and canceled) to be retained by FCMs, IBs, and members of contract markets. CFTC Regulation 1.31 requires orders and other fequired records to be retained for a period of at least five years."
       },
       {
         "id": "b",
         "text": "All filled and unfilled orders",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.35 requires all orders (filled, unfilled, and canceled) to be retained by FCMs, IBs, and members of contract markets. CFTC Regulation 1.31 requires orders and other fequired records to be retained for a period of at least five years."
+        "rationale": "Incorrect. CFTC Regulation 1.35 requires all orders (filled, unfilled, and canceled) to be retained by FCMs, IBs, and members of contract markets. CFTC Regulation 1.31 requires orders and other fequired records to be retained for a period of at least five years."
       },
       {
         "id": "c",
         "text": "All filled, unfilled, and canceled orders",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC Regulation 1.35 requires all orders (filled, unfilled, and canceled) to be retained by FCMs, IBs, and members of contract markets. CFTC Regulation 1.31 requires orders and other fequired records to be retained for a period of at least five years."
+        "rationale": "Correct. CFTC Regulation 1.35 requires all orders (filled, unfilled, and canceled) to be retained by FCMs, IBs, and members of contract markets. CFTC Regulation 1.31 requires orders and other fequired records to be retained for a period of at least five years."
       },
       {
         "id": "d",
         "text": "None of the above",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulation 1.35 requires all orders (filled, unfilled, and canceled) to be retained by FCMs, IBs, and members of contract markets. CFTC Regulation 1.31 requires orders and other fequired records to be retained for a period of at least five years."
+        "rationale": "Incorrect. CFTC Regulation 1.35 requires all orders (filled, unfilled, and canceled) to be retained by FCMs, IBs, and members of contract markets. CFTC Regulation 1.31 requires orders and other fequired records to be retained for a period of at least five years."
       }
     ],
     "explanation": "CFTC Regulation 1.35 requires all orders (filled, unfilled, and canceled) to be retained by FCMs, IBs, and members of contract markets. CFTC Regulation 1.31 requires orders and other fequired records to be retained for a period of at least five years.",
@@ -8413,7 +8413,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "time-stamping and order records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 184; source code 10_IM_13.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "184",
     "sourceQuestionNumber": 183,
@@ -8429,31 +8429,31 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "customer-information",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "When must an NFA member or associate obtain the information and provide the risk disclosure required by NFA Rule 2-30 (Customer Infommation and Risk Disclosure)?",
+    "stem": "When must an NFA member or associate obtain the information and provide the risk disclosure required by NFA Rule 2-30 (Customer Information and Risk Disclosure)?",
     "choices": [
       {
         "id": "a",
         "text": "Within 48 hours of meating the customer.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) requires the specified information to be obtained and the risk disclosure to be provided at or before the time a customer first opens a futures of options trading account."
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires the specified information to be obtained and the risk disclosure to be provided at or before the time a customer first opens a futures of options trading account."
       },
       {
         "id": "b",
         "text": "At or before the time the customer first opens the account.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires the specified information to be obtained and the risk disclosure to be provided at or before the time a customer first opens a futures of options trading account."
+        "rationale": "Correct. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires the specified information to be obtained and the risk disclosure to be provided at or before the time a customer first opens a futures of options trading account."
       },
       {
         "id": "c",
         "text": "Within 5 days of deposit of the initial account funds.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) requires the specified information to be obtained and the risk disclosure to be provided at or before the time a customer first opens a futures of options trading account."
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires the specified information to be obtained and the risk disclosure to be provided at or before the time a customer first opens a futures of options trading account."
       },
       {
         "id": "d",
         "text": "As required by the carrying broker's intemal procedures.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-30 (Customer Information and Risk Disclosure) requires the specified information to be obtained and the risk disclosure to be provided at or before the time a customer first opens a futures of options trading account."
+        "rationale": "Incorrect. NFA Rule 2-30 (Customer Information and Risk Disclosure) requires the specified information to be obtained and the risk disclosure to be provided at or before the time a customer first opens a futures of options trading account."
       }
     ],
     "explanation": "NFA Rule 2-30 (Customer Information and Risk Disclosure) requires the specified information to be obtained and the risk disclosure to be provided at or before the time a customer first opens a futures of options trading account.",
@@ -8481,40 +8481,40 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "net-capital-requirements",
     "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "NFA financial rules require FCMs to maintain adjusted net capital equal to or in excess of the higher of $1.000.000 or which ofthe following:",
+    "stem": "NFA financial rules require FCMs to maintain adjusted net capital equal to or in excess of the higher of $1,000,000 or which of the following?",
     "choices": [
       {
         "id": "a",
         "text": "Four percent (six to avoid early warning status) of the funds required to be Segregated plus a similar computation of foreign futures and options secured amounts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: FCMs must, at alltimes, maintain adjusted net capital equal to or in excess of the highest computation outlined in this question."
+        "rationale": "Incorrect. FCMs must maintain adjusted net capital equal to or in excess of the highest applicable computation listed in the rule, including the customer funds-based computation, IB/AP-related computations, and any broker-dealer net capital requirement that applies."
       },
       {
         "id": "b",
         "text": "$6,000 for each branch office or guaranteed IB and IB branch office.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: FCMs must, at alltimes, maintain adjusted net capital equal to or in excess of the highest computation outlined in this question."
+        "rationale": "Incorrect. FCMs must maintain adjusted net capital equal to or in excess of the highest applicable computation listed in the rule, including the customer funds-based computation, IB/AP-related computations, and any broker-dealer net capital requirement that applies."
       },
       {
         "id": "c",
         "text": "$3,000 for each sponsored AP, including APs sponsored by guaranteed IBs.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: FCMs must, at alltimes, maintain adjusted net capital equal to or in excess of the highest computation outlined in this question."
+        "rationale": "Incorrect. FCMs must maintain adjusted net capital equal to or in excess of the highest applicable computation listed in the rule, including the customer funds-based computation, IB/AP-related computations, and any broker-dealer net capital requirement that applies."
       },
       {
         "id": "d",
         "text": "For a broker-dealer the net capital required by SEC regulations.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: FCMs must, at alltimes, maintain adjusted net capital equal to or in excess of the highest computation outlined in this question."
+        "rationale": "Incorrect. FCMs must maintain adjusted net capital equal to or in excess of the highest applicable computation listed in the rule, including the customer funds-based computation, IB/AP-related computations, and any broker-dealer net capital requirement that applies."
       },
       {
         "id": "e",
         "text": "The highest of any of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. FCMs must, at alltimes, maintain adjusted net capital equal to or in excess of the highest computation outlined in this question."
+        "rationale": "Correct. FCMs must maintain adjusted net capital equal to or in excess of the highest applicable computation listed in the rule, including the customer funds-based computation, IB/AP-related computations, and any broker-dealer net capital requirement that applies."
       }
     ],
-    "explanation": "FCMs must, at alltimes, maintain adjusted net capital equal to or in excess of the highest computation outlined in this question.",
+    "explanation": "FCMs must maintain adjusted net capital equal to or in excess of the highest applicable computation listed in the rule, including the customer funds-based computation, IB/AP-related computations, and any broker-dealer net capital requirement that applies.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -8544,13 +8544,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (True) NFA Rule 2-13 requires CPO disclosure documents to contain a break-even analysis that includes a tabular presentation of fees and expenses. The tabular presentation must show customers how much trading profit they need in the first year of their investment in the pool to break even on their original investment."
+        "rationale": "Correct. (True) NFA Rule 2-13 requires CPO disclosure documents to contain a break-even analysis that includes a tabular presentation of fees and expenses. The tabular presentation must show customers how much trading profit they need in the first year of their investment in the pool to break even on their original investment."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (True) NFA Rule 2-13 requires CPO disclosure documents to contain a break-even analysis that includes a tabular presentation of fees and expenses. The tabular presentation must show customers how much trading profit they need in the first year of their investment in the pool to break even on their original investment."
+        "rationale": "Incorrect. (True) NFA Rule 2-13 requires CPO disclosure documents to contain a break-even analysis that includes a tabular presentation of fees and expenses. The tabular presentation must show customers how much trading profit they need in the first year of their investment in the pool to break even on their original investment."
       }
     ],
     "explanation": "(True) NFA Rule 2-13 requires CPO disclosure documents to contain a break-even analysis that includes a tabular presentation of fees and expenses. The tabular presentation must show customers how much trading profit they need in the first year of their investment in the pool to break even on their original investment.",
@@ -8584,13 +8584,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) FCMs are required to file financial reports on a monthly basis. The year-end financial report must be certified by an independent public accountant"
+        "rationale": "Incorrect. (False) FCMs are required to file financial reports on a monthly basis. The year-end financial report must be certified by an independent public accountant"
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) FCMs are required to file financial reports on a monthly basis. The year-end financial report must be certified by an independent public accountant"
+        "rationale": "Correct. (False) FCMs are required to file financial reports on a monthly basis. The year-end financial report must be certified by an independent public accountant"
       }
     ],
     "explanation": "(False) FCMs are required to file financial reports on a monthly basis. The year-end financial report must be certified by an independent public accountant",
@@ -8623,25 +8623,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Passed a qualification examination for directing accounts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-8 (Discretionary Accounts) requires, among other things, that an AP exercising discretion over a customer's account have been continuously registered for a minimum of two years and have worked in that registered capacity for that period of time. This requirement may. in the NFA's discretion, be waived upon a showing of equivalent experience."
+        "rationale": "Incorrect. NFA Rule 2-8 (Discretionary Accounts) requires, among other things, that an AP exercising discretion over a customer's account have been continuously registered for a minimum of two years and have worked in that registered capacity for that period of time. This requirement may. in the NFA's discretion, be waived upon a showing of equivalent experience."
       },
       {
         "id": "b",
         "text": "Been continuously registered and to have worked as an associated person for at least two years.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-8 (Discretionary Accounts) requires, among other things, that an AP exercising discretion over a customer's account have been continuously registered for a minimum of two years and have worked in that registered capacity for that period of time. This requirement may. in the NFA's discretion, be waived upon a showing of equivalent experience."
+        "rationale": "Correct. NFA Rule 2-8 (Discretionary Accounts) requires, among other things, that an AP exercising discretion over a customer's account have been continuously registered for a minimum of two years and have worked in that registered capacity for that period of time. This requirement may. in the NFA's discretion, be waived upon a showing of equivalent experience."
       },
       {
         "id": "c",
         "text": "At least three years of qualifying experience.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-8 (Discretionary Accounts) requires, among other things, that an AP exercising discretion over a customer's account have been continuously registered for a minimum of two years and have worked in that registered capacity for that period of time. This requirement may. in the NFA's discretion, be waived upon a showing of equivalent experience."
+        "rationale": "Incorrect. NFA Rule 2-8 (Discretionary Accounts) requires, among other things, that an AP exercising discretion over a customer's account have been continuously registered for a minimum of two years and have worked in that registered capacity for that period of time. This requirement may. in the NFA's discretion, be waived upon a showing of equivalent experience."
       },
       {
         "id": "d",
         "text": "CFTC approval to handle discretionary accounts.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-8 (Discretionary Accounts) requires, among other things, that an AP exercising discretion over a customer's account have been continuously registered for a minimum of two years and have worked in that registered capacity for that period of time. This requirement may. in the NFA's discretion, be waived upon a showing of equivalent experience."
+        "rationale": "Incorrect. NFA Rule 2-8 (Discretionary Accounts) requires, among other things, that an AP exercising discretion over a customer's account have been continuously registered for a minimum of two years and have worked in that registered capacity for that period of time. This requirement may. in the NFA's discretion, be waived upon a showing of equivalent experience."
       }
     ],
     "explanation": "NFA Rule 2-8 (Discretionary Accounts) requires, among other things, that an AP exercising discretion over a customer's account have been continuously registered for a minimum of two years and have worked in that registered capacity for that period of time. This requirement may. in the NFA's discretion, be waived upon a showing of equivalent experience.",
@@ -8675,25 +8675,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "CFTC's division of trading and markets.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The CFTC, by regulation, has authorized the NFA to perform various registration functions on behalf of the Commission."
+        "rationale": "Incorrect. The CFTC, by regulation, has authorized the NFA to perform various registration functions on behalf of the Commission."
       },
       {
         "id": "b",
         "text": "FINRA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The CFTC, by regulation, has authorized the NFA to perform various registration functions on behalf of the Commission."
+        "rationale": "Incorrect. The CFTC, by regulation, has authorized the NFA to perform various registration functions on behalf of the Commission."
       },
       {
         "id": "c",
         "text": "NFA.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The CFTC, by regulation, has authorized the NFA to perform various registration functions on behalf of the Commission."
+        "rationale": "Correct. The CFTC, by regulation, has authorized the NFA to perform various registration functions on behalf of the Commission."
       },
       {
         "id": "d",
         "text": "SEC.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The CFTC, by regulation, has authorized the NFA to perform various registration functions on behalf of the Commission."
+        "rationale": "Incorrect. The CFTC, by regulation, has authorized the NFA to perform various registration functions on behalf of the Commission."
       }
     ],
     "explanation": "The CFTC, by regulation, has authorized the NFA to perform various registration functions on behalf of the Commission.",
@@ -8726,13 +8726,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) The NFA permits promotional material to refer to actual past trading profits provided the material mentions that past results are not necessarily indicative of future results."
+        "rationale": "Incorrect. (False) The NFA permits promotional material to refer to actual past trading profits provided the material mentions that past results are not necessarily indicative of future results."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) The NFA permits promotional material to refer to actual past trading profits provided the material mentions that past results are not necessarily indicative of future results."
+        "rationale": "Correct. (False) The NFA permits promotional material to refer to actual past trading profits provided the material mentions that past results are not necessarily indicative of future results."
       }
     ],
     "explanation": "(False) The NFA permits promotional material to refer to actual past trading profits provided the material mentions that past results are not necessarily indicative of future results.",
@@ -8766,25 +8766,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Is prohibited.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CPO's use of hypothetical trading performance must be accompanied by a CFTCspecified qualification statement that highlights certain inherent limitations of hypothetical or simulated performance results."
+        "rationale": "Incorrect. A CPO's use of hypothetical trading performance must be accompanied by a CFTCspecified qualification statement that highlights certain inherent limitations of hypothetical or simulated performance results."
       },
       {
         "id": "b",
         "text": "Is permitted provided it is accompanied by a qualifying statement.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A CPO's use of hypothetical trading performance must be accompanied by a CFTCspecified qualification statement that highlights certain inherent limitations of hypothetical or simulated performance results."
+        "rationale": "Correct. A CPO's use of hypothetical trading performance must be accompanied by a CFTCspecified qualification statement that highlights certain inherent limitations of hypothetical or simulated performance results."
       },
       {
         "id": "c",
         "text": "Has no restrictions.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CPO's use of hypothetical trading performance must be accompanied by a CFTCspecified qualification statement that highlights certain inherent limitations of hypothetical or simulated performance results."
+        "rationale": "Incorrect. A CPO's use of hypothetical trading performance must be accompanied by a CFTCspecified qualification statement that highlights certain inherent limitations of hypothetical or simulated performance results."
       },
       {
         "id": "d",
         "text": "Must include an example of a hypothetical trading loss.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CPO's use of hypothetical trading performance must be accompanied by a CFTCspecified qualification statement that highlights certain inherent limitations of hypothetical or simulated performance results."
+        "rationale": "Incorrect. A CPO's use of hypothetical trading performance must be accompanied by a CFTCspecified qualification statement that highlights certain inherent limitations of hypothetical or simulated performance results."
       }
     ],
     "explanation": "A CPO's use of hypothetical trading performance must be accompanied by a CFTCspecified qualification statement that highlights certain inherent limitations of hypothetical or simulated performance results.",
@@ -8795,7 +8795,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 193; source code 10_IM_83.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "193",
     "sourceQuestionNumber": 192,
@@ -8817,25 +8817,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "One year.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require records to be retained for a period of at least five years."
+        "rationale": "Incorrect. CFTC regulations require records to be retained for a period of at least five years."
       },
       {
         "id": "b",
         "text": "Five years.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations require records to be retained for a period of at least five years."
+        "rationale": "Correct. CFTC regulations require records to be retained for a period of at least five years."
       },
       {
         "id": "c",
         "text": "Seven years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require records to be retained for a period of at least five years."
+        "rationale": "Incorrect. CFTC regulations require records to be retained for a period of at least five years."
       },
       {
         "id": "d",
         "text": "Three years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require records to be retained for a period of at least five years."
+        "rationale": "Incorrect. CFTC regulations require records to be retained for a period of at least five years."
       }
     ],
     "explanation": "CFTC regulations require records to be retained for a period of at least five years.",
@@ -8868,31 +8868,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Claims regarding seasonal trades.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Claims regarding seasonal trends, historical price moves, price movements that are characterized as conservative, and claims e are sooaod eod od pr among the areas of potential abuse identified by the NFA."
+        "rationale": "Incorrect. Claims regarding seasonal trends, historical price moves, price movements that are characterized as conservative, and claims e are sooaod eod od pr among the areas of potential abuse identified by the NFA."
       },
       {
         "id": "b",
         "text": "Claims regarding historical price moves.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Claims regarding seasonal trends, historical price moves, price movements that are characterized as conservative, and claims e are sooaod eod od pr among the areas of potential abuse identified by the NFA."
+        "rationale": "Incorrect. Claims regarding seasonal trends, historical price moves, price movements that are characterized as conservative, and claims e are sooaod eod od pr among the areas of potential abuse identified by the NFA."
       },
       {
         "id": "c",
         "text": "Claims regarding price movements that are characterized as conservative.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Claims regarding seasonal trends, historical price moves, price movements that are characterized as conservative, and claims e are sooaod eod od pr among the areas of potential abuse identified by the NFA."
+        "rationale": "Incorrect. Claims regarding seasonal trends, historical price moves, price movements that are characterized as conservative, and claims e are sooaod eod od pr among the areas of potential abuse identified by the NFA."
       },
       {
         "id": "d",
         "text": "Claims regarding profit potential projections.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Claims regarding seasonal trends, historical price moves, price movements that are characterized as conservative, and claims e are sooaod eod od pr among the areas of potential abuse identified by the NFA."
+        "rationale": "Incorrect. Claims regarding seasonal trends, historical price moves, price movements that are characterized as conservative, and claims e are sooaod eod od pr among the areas of potential abuse identified by the NFA."
       },
       {
         "id": "e",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Claims regarding seasonal trends, historical price moves, price movements that are characterized as conservative, and claims e are sooaod eod od pr among the areas of potential abuse identified by the NFA."
+        "rationale": "Correct. Claims regarding seasonal trends, historical price moves, price movements that are characterized as conservative, and claims e are sooaod eod od pr among the areas of potential abuse identified by the NFA."
       }
     ],
     "explanation": "Claims regarding seasonal trends, historical price moves, price movements that are characterized as conservative, and claims e are sooaod eod od pr among the areas of potential abuse identified by the NFA.",
@@ -8903,8 +8903,8 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 196; source code 10_IM_124.",
-    "reviewStatus": "needs_review",
-    "extractionConfidence": "medium",
+    "reviewStatus": "reviewed",
+    "extractionConfidence": "high",
     "sourcePageRange": "196",
     "sourceQuestionNumber": 195,
     "sourceCode": "10_IM_124",
@@ -8925,31 +8925,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The handling of discretionary accounts",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the activities listed in this question require written supervisory procedures."
+        "rationale": "Incorrect. All of the activities listed in this question require written supervisory procedures."
       },
       {
         "id": "b",
         "text": "The handling of option accounts",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the activities listed in this question require written supervisory procedures."
+        "rationale": "Incorrect. All of the activities listed in this question require written supervisory procedures."
       },
       {
         "id": "c",
         "text": "The preparation and distribution of promotional material",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the activities listed in this question require written supervisory procedures."
+        "rationale": "Incorrect. All of the activities listed in this question require written supervisory procedures."
       },
       {
         "id": "d",
         "text": "A, B and C",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. All of the activities listed in this question require written supervisory procedures."
+        "rationale": "Correct. All of the activities listed in this question require written supervisory procedures."
       },
       {
         "id": "e",
         "text": "A and C, only",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All of the activities listed in this question require written supervisory procedures."
+        "rationale": "Incorrect. All of the activities listed in this question require written supervisory procedures."
       }
     ],
     "explanation": "All of the activities listed in this question require written supervisory procedures.",
@@ -8961,7 +8961,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 197; source code 10_IM_69.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "197",
     "sourceQuestionNumber": 196,
@@ -8983,31 +8983,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Maintain specific allocation procedures that are fair and balanced.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CTA's handing bunched (block) orders must follow all of the above listed requirements."
+        "rationale": "Incorrect. CTA's handing bunched (block) orders must follow all of the above listed requirements."
       },
       {
         "id": "b",
         "text": "Ensure that all customer accounts have the correct allocations of contracts on cach trade.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CTA's handing bunched (block) orders must follow all of the above listed requirements."
+        "rationale": "Incorrect. CTA's handing bunched (block) orders must follow all of the above listed requirements."
       },
       {
         "id": "c",
         "text": "Review each trading program at least once a quaiter to ensure that the allocation method has been fair and equitable.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CTA's handing bunched (block) orders must follow all of the above listed requirements."
+        "rationale": "Incorrect. CTA's handing bunched (block) orders must follow all of the above listed requirements."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CTA's handing bunched (block) orders must follow all of the above listed requirements."
+        "rationale": "Correct. CTA's handing bunched (block) orders must follow all of the above listed requirements."
       },
       {
         "id": "e",
         "text": "A and B only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CTA's handing bunched (block) orders must follow all of the above listed requirements."
+        "rationale": "Incorrect. CTA's handing bunched (block) orders must follow all of the above listed requirements."
       }
     ],
     "explanation": "CTA's handing bunched (block) orders must follow all of the above listed requirements.",
@@ -9019,7 +9019,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "bunched orders",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 198; source code 10_IM_114.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "198",
     "sourceQuestionNumber": 197,
@@ -9041,13 +9041,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) CPO disclosure documents must include the minimum aggregate amount of funds for the pool to commence and to cease trading."
+        "rationale": "Incorrect. (False) CPO disclosure documents must include the minimum aggregate amount of funds for the pool to commence and to cease trading."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) CPO disclosure documents must include the minimum aggregate amount of funds for the pool to commence and to cease trading."
+        "rationale": "Correct. (False) CPO disclosure documents must include the minimum aggregate amount of funds for the pool to commence and to cease trading."
       }
     ],
     "explanation": "(False) CPO disclosure documents must include the minimum aggregate amount of funds for the pool to commence and to cease trading.",
@@ -9081,25 +9081,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The CFTC has exclusive regulatory authority over all futures and options on futures taking place on an exchangc.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and gives the CFTC oversight jurisdiction over exchanges and any other self-regulatory organizations."
+        "rationale": "Incorrect. The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and gives the CFTC oversight jurisdiction over exchanges and any other self-regulatory organizations."
       },
       {
         "id": "b",
         "text": "Exchanges have an obligation to regulate themselves.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and gives the CFTC oversight jurisdiction over exchanges and any other self-regulatory organizations."
+        "rationale": "Incorrect. The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and gives the CFTC oversight jurisdiction over exchanges and any other self-regulatory organizations."
       },
       {
         "id": "c",
         "text": "The CFTC has oversight jurisdiction over the exchanges and any other self- fegulatory organizations.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and gives the CFTC oversight jurisdiction over exchanges and any other self-regulatory organizations."
+        "rationale": "Incorrect. The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and gives the CFTC oversight jurisdiction over exchanges and any other self-regulatory organizations."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and gives the CFTC oversight jurisdiction over exchanges and any other self-regulatory organizations."
+        "rationale": "Correct. The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and gives the CFTC oversight jurisdiction over exchanges and any other self-regulatory organizations."
       }
     ],
     "explanation": "The Commodity Exchange Act gives the CFTC exclusive jurisdiction over furures and options on futures traded on exchanges. The Act and regulations also assign self- regulatory responsibilities to futures and options exchanges and gives the CFTC oversight jurisdiction over exchanges and any other self-regulatory organizations.",
@@ -9132,25 +9132,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Solicitation of accounts",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An IB is prohibited from accepting or handling customer funds in its own name. Any checks received must be payable to the carrying FCM, must be received in accordance with the FCMs written authorization. and must be promptly deposited in the FCM's customer segregated account or otherwise promptly transmitted to the FCM. Wire transfers must be sent directly to the FCM by the customer."
+        "rationale": "Incorrect. An IB is prohibited from accepting or handling customer funds in its own name. Any checks received must be payable to the carrying FCM, must be received in accordance with the FCMs written authorization. and must be promptly deposited in the FCM's customer segregated account or otherwise promptly transmitted to the FCM. Wire transfers must be sent directly to the FCM by the customer."
       },
       {
         "id": "b",
         "text": "Acccptance of orders",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An IB is prohibited from accepting or handling customer funds in its own name. Any checks received must be payable to the carrying FCM, must be received in accordance with the FCMs written authorization. and must be promptly deposited in the FCM's customer segregated account or otherwise promptly transmitted to the FCM. Wire transfers must be sent directly to the FCM by the customer."
+        "rationale": "Incorrect. An IB is prohibited from accepting or handling customer funds in its own name. Any checks received must be payable to the carrying FCM, must be received in accordance with the FCMs written authorization. and must be promptly deposited in the FCM's customer segregated account or otherwise promptly transmitted to the FCM. Wire transfers must be sent directly to the FCM by the customer."
       },
       {
         "id": "c",
         "text": "Acceptance of customer funds in its own name",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. An IB is prohibited from accepting or handling customer funds in its own name. Any checks received must be payable to the carrying FCM, must be received in accordance with the FCMs written authorization. and must be promptly deposited in the FCM's customer segregated account or otherwise promptly transmitted to the FCM. Wire transfers must be sent directly to the FCM by the customer."
+        "rationale": "Correct. An IB is prohibited from accepting or handling customer funds in its own name. Any checks received must be payable to the carrying FCM, must be received in accordance with the FCMs written authorization. and must be promptly deposited in the FCM's customer segregated account or otherwise promptly transmitted to the FCM. Wire transfers must be sent directly to the FCM by the customer."
       },
       {
         "id": "d",
         "text": "Handling of discretionary accounts",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An IB is prohibited from accepting or handling customer funds in its own name. Any checks received must be payable to the carrying FCM, must be received in accordance with the FCMs written authorization. and must be promptly deposited in the FCM's customer segregated account or otherwise promptly transmitted to the FCM. Wire transfers must be sent directly to the FCM by the customer."
+        "rationale": "Incorrect. An IB is prohibited from accepting or handling customer funds in its own name. Any checks received must be payable to the carrying FCM, must be received in accordance with the FCMs written authorization. and must be promptly deposited in the FCM's customer segregated account or otherwise promptly transmitted to the FCM. Wire transfers must be sent directly to the FCM by the customer."
       }
     ],
     "explanation": "An IB is prohibited from accepting or handling customer funds in its own name. Any checks received must be payable to the carrying FCM, must be received in accordance with the FCMs written authorization. and must be promptly deposited in the FCM's customer segregated account or otherwise promptly transmitted to the FCM. Wire transfers must be sent directly to the FCM by the customer.",
@@ -9184,31 +9184,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Hedge accounts and day trades",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Hedge accounts, day trades, and position offsets in accordance with specific customef instructions are exceptions to the general requirement to offset trades against the oldest open position. FCMs, IBs, or one of their APs directing a customer's discretionary account are generally not permitted to submit special offset instructions."
+        "rationale": "Incorrect. Hedge accounts, day trades, and position offsets in accordance with specific customef instructions are exceptions to the general requirement to offset trades against the oldest open position. FCMs, IBs, or one of their APs directing a customer's discretionary account are generally not permitted to submit special offset instructions."
       },
       {
         "id": "b",
         "text": "Positions offset in accordanee with specifie customer instructions",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Hedge accounts, day trades, and position offsets in accordance with specific customef instructions are exceptions to the general requirement to offset trades against the oldest open position. FCMs, IBs, or one of their APs directing a customer's discretionary account are generally not permitted to submit special offset instructions."
+        "rationale": "Incorrect. Hedge accounts, day trades, and position offsets in accordance with specific customef instructions are exceptions to the general requirement to offset trades against the oldest open position. FCMs, IBs, or one of their APs directing a customer's discretionary account are generally not permitted to submit special offset instructions."
       },
       {
         "id": "c",
         "text": "Discretionary accounts directed by an FCM, IB, or one of their APs",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Hedge accounts, day trades, and position offsets in accordance with specific customef instructions are exceptions to the general requirement to offset trades against the oldest open position. FCMs, IBs, or one of their APs directing a customer's discretionary account are generally not permitted to submit special offset instructions."
+        "rationale": "Incorrect. Hedge accounts, day trades, and position offsets in accordance with specific customef instructions are exceptions to the general requirement to offset trades against the oldest open position. FCMs, IBs, or one of their APs directing a customer's discretionary account are generally not permitted to submit special offset instructions."
       },
       {
         "id": "d",
         "text": "A, B and C",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Hedge accounts, day trades, and position offsets in accordance with specific customef instructions are exceptions to the general requirement to offset trades against the oldest open position. FCMs, IBs, or one of their APs directing a customer's discretionary account are generally not permitted to submit special offset instructions."
+        "rationale": "Incorrect. Hedge accounts, day trades, and position offsets in accordance with specific customef instructions are exceptions to the general requirement to offset trades against the oldest open position. FCMs, IBs, or one of their APs directing a customer's discretionary account are generally not permitted to submit special offset instructions."
       },
       {
         "id": "e",
         "text": "A and B. only",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Hedge accounts, day trades, and position offsets in accordance with specific customef instructions are exceptions to the general requirement to offset trades against the oldest open position. FCMs, IBs, or one of their APs directing a customer's discretionary account are generally not permitted to submit special offset instructions."
+        "rationale": "Correct. Hedge accounts, day trades, and position offsets in accordance with specific customef instructions are exceptions to the general requirement to offset trades against the oldest open position. FCMs, IBs, or one of their APs directing a customer's discretionary account are generally not permitted to submit special offset instructions."
       }
     ],
     "explanation": "Hedge accounts, day trades, and position offsets in accordance with specific customef instructions are exceptions to the general requirement to offset trades against the oldest open position. FCMs, IBs, or one of their APs directing a customer's discretionary account are generally not permitted to submit special offset instructions.",
@@ -9219,7 +9219,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "account offset and adjustment rules",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 202; source code 10_IM_33.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "202",
     "sourceQuestionNumber": 201,
@@ -9241,13 +9241,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) NFA rules prohibit a member or associate from representing or implying in been sponsored, recommended, or approved, or that the member's or associate's abilities have been passed upon by the NFA. A member may. however. state the fact of NFA membership. provided the effect of membership is not misrepresented, and may also explain the functions and purposes of the NFA."
+        "rationale": "Incorrect. (False) NFA rules prohibit a member or associate from representing or implying in been sponsored, recommended, or approved, or that the member's or associate's abilities have been passed upon by the NFA. A member may. however. state the fact of NFA membership. provided the effect of membership is not misrepresented, and may also explain the functions and purposes of the NFA."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) NFA rules prohibit a member or associate from representing or implying in been sponsored, recommended, or approved, or that the member's or associate's abilities have been passed upon by the NFA. A member may. however. state the fact of NFA membership. provided the effect of membership is not misrepresented, and may also explain the functions and purposes of the NFA."
+        "rationale": "Correct. (False) NFA rules prohibit a member or associate from representing or implying in been sponsored, recommended, or approved, or that the member's or associate's abilities have been passed upon by the NFA. A member may. however. state the fact of NFA membership. provided the effect of membership is not misrepresented, and may also explain the functions and purposes of the NFA."
       }
     ],
     "explanation": "(False) NFA rules prohibit a member or associate from representing or implying in been sponsored, recommended, or approved, or that the member's or associate's abilities have been passed upon by the NFA. A member may. however. state the fact of NFA membership. provided the effect of membership is not misrepresented, and may also explain the functions and purposes of the NFA.",
@@ -9279,27 +9279,27 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "Tvo hours cvery tvo years.",
+        "text": "Two hours every two years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require new AP registrants to receive four hours of initial ethics training within six months of their registration and thereafter at least one hour of ethics training every three years."
+        "rationale": "Incorrect. CFTC regulations require new AP registrants to receive four hours of initial ethics training within six months of their registration and thereafter at least one hour of ethics training every three years."
       },
       {
         "id": "b",
         "text": "Three hours every two years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require new AP registrants to receive four hours of initial ethics training within six months of their registration and thereafter at least one hour of ethics training every three years."
+        "rationale": "Incorrect. CFTC regulations require new AP registrants to receive four hours of initial ethics training within six months of their registration and thereafter at least one hour of ethics training every three years."
       },
       {
         "id": "c",
         "text": "One hour every three years.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations require new AP registrants to receive four hours of initial ethics training within six months of their registration and thereafter at least one hour of ethics training every three years."
+        "rationale": "Correct. CFTC regulations require new AP registrants to receive four hours of initial ethics training within six months of their registration and thereafter at least one hour of ethics training every three years."
       },
       {
         "id": "d",
         "text": "One hour every two years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require new AP registrants to receive four hours of initial ethics training within six months of their registration and thereafter at least one hour of ethics training every three years."
+        "rationale": "Incorrect. CFTC regulations require new AP registrants to receive four hours of initial ethics training within six months of their registration and thereafter at least one hour of ethics training every three years."
       }
     ],
     "explanation": "CFTC regulations require new AP registrants to receive four hours of initial ethics training within six months of their registration and thereafter at least one hour of ethics training every three years.",
@@ -9331,13 +9331,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) The Securities and Exchange Commission considers interest in a commodity pool to be an investment requiring SEC approval before the interest may be offered to the public."
+        "rationale": "Incorrect. (False) The Securities and Exchange Commission considers interest in a commodity pool to be an investment requiring SEC approval before the interest may be offered to the public."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) The Securities and Exchange Commission considers interest in a commodity pool to be an investment requiring SEC approval before the interest may be offered to the public."
+        "rationale": "Correct. (False) The Securities and Exchange Commission considers interest in a commodity pool to be an investment requiring SEC approval before the interest may be offered to the public."
       }
     ],
     "explanation": "(False) The Securities and Exchange Commission considers interest in a commodity pool to be an investment requiring SEC approval before the interest may be offered to the public.",
@@ -9370,25 +9370,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Weckly.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require CPOs to distribute account statements at least quarterly in the case of pools with net assets ofless than $500,000. If the net assets are more than $500,000, then the statements are required to be distributed at least monthly. CPOs also are required to distribute to each participant an annual certified statement of financial condition."
+        "rationale": "Incorrect. CFTC regulations require CPOs to distribute account statements at least quarterly in the case of pools with net assets ofless than $500,000. If the net assets are more than $500,000, then the statements are required to be distributed at least monthly. CPOs also are required to distribute to each participant an annual certified statement of financial condition."
       },
       {
         "id": "b",
         "text": "Monthly.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require CPOs to distribute account statements at least quarterly in the case of pools with net assets ofless than $500,000. If the net assets are more than $500,000, then the statements are required to be distributed at least monthly. CPOs also are required to distribute to each participant an annual certified statement of financial condition."
+        "rationale": "Incorrect. CFTC regulations require CPOs to distribute account statements at least quarterly in the case of pools with net assets ofless than $500,000. If the net assets are more than $500,000, then the statements are required to be distributed at least monthly. CPOs also are required to distribute to each participant an annual certified statement of financial condition."
       },
       {
         "id": "c",
         "text": "Quarterly.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations require CPOs to distribute account statements at least quarterly in the case of pools with net assets ofless than $500,000. If the net assets are more than $500,000, then the statements are required to be distributed at least monthly. CPOs also are required to distribute to each participant an annual certified statement of financial condition."
+        "rationale": "Correct. CFTC regulations require CPOs to distribute account statements at least quarterly in the case of pools with net assets ofless than $500,000. If the net assets are more than $500,000, then the statements are required to be distributed at least monthly. CPOs also are required to distribute to each participant an annual certified statement of financial condition."
       },
       {
         "id": "d",
         "text": "Semi-annually.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require CPOs to distribute account statements at least quarterly in the case of pools with net assets ofless than $500,000. If the net assets are more than $500,000, then the statements are required to be distributed at least monthly. CPOs also are required to distribute to each participant an annual certified statement of financial condition."
+        "rationale": "Incorrect. CFTC regulations require CPOs to distribute account statements at least quarterly in the case of pools with net assets ofless than $500,000. If the net assets are more than $500,000, then the statements are required to be distributed at least monthly. CPOs also are required to distribute to each participant an annual certified statement of financial condition."
       }
     ],
     "explanation": "CFTC regulations require CPOs to distribute account statements at least quarterly in the case of pools with net assets ofless than $500,000. If the net assets are more than $500,000, then the statements are required to be distributed at least monthly. CPOs also are required to distribute to each participant an annual certified statement of financial condition.",
@@ -9415,19 +9415,19 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cpo-regulations",
     "difficulty": "hard",
     "questionType": "true_false",
-    "stem": "A CPO may make a loan from a commodity pool to the commodity pool operator or any affliated person or entity as long as the total amount of all loans does not exceed 10% ofthe pool's assets and the CPO has reported the loan to the NFA.",
+    "stem": "A CPO may make a loan from a commodity pool to the commodity pool operator or any affliated person or entity as long as the total amount of all loans does not exceed 10% of the pool's assets and the CPO has reported the loan to the NFA.",
     "choices": [
       {
         "id": "a",
         "text": "Truc",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: No CPO may permit a commodity pool to use any means to make a direct or indirect loan or advance pool assets to the CPO or any affiliated person or entity."
+        "rationale": "Incorrect. No CPO may permit a commodity pool to use any means to make a direct or indirect loan or advance pool assets to the CPO or any affiliated person or entity."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. No CPO may permit a commodity pool to use any means to make a direct or indirect loan or advance pool assets to the CPO or any affiliated person or entity."
+        "rationale": "Correct. No CPO may permit a commodity pool to use any means to make a direct or indirect loan or advance pool assets to the CPO or any affiliated person or entity."
       }
     ],
     "explanation": "No CPO may permit a commodity pool to use any means to make a direct or indirect loan or advance pool assets to the CPO or any affiliated person or entity.",
@@ -9461,25 +9461,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Commission to cquity ratio.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A break-even analysis is the calculation fequired to be in a CPO's Disclosure Document in order to advise the participant of the impact fees and expenses have on the potential profitability of their investment."
+        "rationale": "Incorrect. A break-even analysis is the calculation fequired to be in a CPO's Disclosure Document in order to advise the participant of the impact fees and expenses have on the potential profitability of their investment."
       },
       {
         "id": "b",
         "text": "Break-even analysis.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A break-even analysis is the calculation fequired to be in a CPO's Disclosure Document in order to advise the participant of the impact fees and expenses have on the potential profitability of their investment."
+        "rationale": "Correct. A break-even analysis is the calculation fequired to be in a CPO's Disclosure Document in order to advise the participant of the impact fees and expenses have on the potential profitability of their investment."
       },
       {
         "id": "c",
         "text": "Cost analysis.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A break-even analysis is the calculation fequired to be in a CPO's Disclosure Document in order to advise the participant of the impact fees and expenses have on the potential profitability of their investment."
+        "rationale": "Incorrect. A break-even analysis is the calculation fequired to be in a CPO's Disclosure Document in order to advise the participant of the impact fees and expenses have on the potential profitability of their investment."
       },
       {
         "id": "d",
         "text": "Expense impact analysis.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A break-even analysis is the calculation fequired to be in a CPO's Disclosure Document in order to advise the participant of the impact fees and expenses have on the potential profitability of their investment."
+        "rationale": "Incorrect. A break-even analysis is the calculation fequired to be in a CPO's Disclosure Document in order to advise the participant of the impact fees and expenses have on the potential profitability of their investment."
       }
     ],
     "explanation": "A break-even analysis is the calculation fequired to be in a CPO's Disclosure Document in order to advise the participant of the impact fees and expenses have on the potential profitability of their investment.",
@@ -9507,31 +9507,31 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "transaction-cost-disclosure",
     "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "If an FCM's or IB's fees and charges are not determined on a per-trade or a round-turn basis, which ofthe following applies?",
+    "stem": "If an FCM's or IB's fees and charges are not determined on a per-trade or a round-turn basis, which of the following applies?",
     "choices": [
       {
         "id": "a",
         "text": "The FCM or IB may not charge a fee determined on any other basis.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If fees and charges are not based on a per- trade or round-turn charge, then an FCM or IB must provide the customer with a complete written explanation of the fees and charges, including a reasonable example of the fees and charges on a per-trade or round- turn basis. Where the per-trade or round-turn equivalents may vary widely, the FCM or IB should explain this fact and provide examples demonstrating the reasonably expected range of fees or charges."
+        "rationale": "Incorrect. If fees and charges are not based on a per- trade or round-turn charge, then an FCM or IB must provide the customer with a complete written explanation of the fees and charges, including a reasonable example of the fees and charges on a per-trade or round- turn basis. Where the per-trade or round-turn equivalents may vary widely, the FCM or IB should explain this fact and provide examples demonstrating the reasonably expected range of fees or charges."
       },
       {
         "id": "b",
         "text": "An explanation of such fees and examples of similar fees charged in the securities markets must be provided.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If fees and charges are not based on a per- trade or round-turn charge, then an FCM or IB must provide the customer with a complete written explanation of the fees and charges, including a reasonable example of the fees and charges on a per-trade or round- turn basis. Where the per-trade or round-turn equivalents may vary widely, the FCM or IB should explain this fact and provide examples demonstrating the reasonably expected range of fees or charges."
+        "rationale": "Incorrect. If fees and charges are not based on a per- trade or round-turn charge, then an FCM or IB must provide the customer with a complete written explanation of the fees and charges, including a reasonable example of the fees and charges on a per-trade or round- turn basis. Where the per-trade or round-turn equivalents may vary widely, the FCM or IB should explain this fact and provide examples demonstrating the reasonably expected range of fees or charges."
       },
       {
         "id": "c",
-        "text": "An explanation of such fees and examples in terms of per-trade or round-tum fees. including as needed a reasonable range of prices, must be provided.",
+        "text": "An explanation of such fees and examples in terms of per-trade or round-turn fees. including as needed a reasonable range of prices, must be provided.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. If fees and charges are not based on a per- trade or round-turn charge, then an FCM or IB must provide the customer with a complete written explanation of the fees and charges, including a reasonable example of the fees and charges on a per-trade or round- turn basis. Where the per-trade or round-turn equivalents may vary widely, the FCM or IB should explain this fact and provide examples demonstrating the reasonably expected range of fees or charges."
+        "rationale": "Correct. If fees and charges are not based on a per- trade or round-turn charge, then an FCM or IB must provide the customer with a complete written explanation of the fees and charges, including a reasonable example of the fees and charges on a per-trade or round- turn basis. Where the per-trade or round-turn equivalents may vary widely, the FCM or IB should explain this fact and provide examples demonstrating the reasonably expected range of fees or charges."
       },
       {
         "id": "d",
         "text": "None of the above.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If fees and charges are not based on a per- trade or round-turn charge, then an FCM or IB must provide the customer with a complete written explanation of the fees and charges, including a reasonable example of the fees and charges on a per-trade or round- turn basis. Where the per-trade or round-turn equivalents may vary widely, the FCM or IB should explain this fact and provide examples demonstrating the reasonably expected range of fees or charges."
+        "rationale": "Incorrect. If fees and charges are not based on a per- trade or round-turn charge, then an FCM or IB must provide the customer with a complete written explanation of the fees and charges, including a reasonable example of the fees and charges on a per-trade or round- turn basis. Where the per-trade or round-turn equivalents may vary widely, the FCM or IB should explain this fact and provide examples demonstrating the reasonably expected range of fees or charges."
       }
     ],
     "explanation": "If fees and charges are not based on a per- trade or round-turn charge, then an FCM or IB must provide the customer with a complete written explanation of the fees and charges, including a reasonable example of the fees and charges on a per-trade or round- turn basis. Where the per-trade or round-turn equivalents may vary widely, the FCM or IB should explain this fact and provide examples demonstrating the reasonably expected range of fees or charges.",
@@ -9564,25 +9564,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "One month preceding the date of the document.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CPO's Disclosure Document must be current as of its date except that performance information must be current as of a date not more than three months preceding the date of the document."
+        "rationale": "Incorrect. A CPO's Disclosure Document must be current as of its date except that performance information must be current as of a date not more than three months preceding the date of the document."
       },
       {
         "id": "b",
         "text": "Three months preceding the date of the document.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A CPO's Disclosure Document must be current as of its date except that performance information must be current as of a date not more than three months preceding the date of the document."
+        "rationale": "Correct. A CPO's Disclosure Document must be current as of its date except that performance information must be current as of a date not more than three months preceding the date of the document."
       },
       {
         "id": "c",
         "text": "Nine months preceding the date of the document.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CPO's Disclosure Document must be current as of its date except that performance information must be current as of a date not more than three months preceding the date of the document."
+        "rationale": "Incorrect. A CPO's Disclosure Document must be current as of its date except that performance information must be current as of a date not more than three months preceding the date of the document."
       },
       {
         "id": "d",
         "text": "Twelve months preceding the date of the document.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CPO's Disclosure Document must be current as of its date except that performance information must be current as of a date not more than three months preceding the date of the document."
+        "rationale": "Incorrect. A CPO's Disclosure Document must be current as of its date except that performance information must be current as of a date not more than three months preceding the date of the document."
       }
     ],
     "explanation": "A CPO's Disclosure Document must be current as of its date except that performance information must be current as of a date not more than three months preceding the date of the document.",
@@ -9610,34 +9610,34 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "performance-records",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Ifa CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past:",
+    "stem": "If a CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past:",
     "choices": [
       {
         "id": "a",
         "text": "Year.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Ifa CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past five years."
+        "rationale": "Incorrect. If a CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past five years."
       },
       {
         "id": "b",
         "text": "Two years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Ifa CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past five years."
+        "rationale": "Incorrect. If a CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past five years."
       },
       {
         "id": "c",
         "text": "Three years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Ifa CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past five years."
+        "rationale": "Incorrect. If a CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past five years."
       },
       {
         "id": "d",
         "text": "Five years.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Ifa CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past five years."
+        "rationale": "Correct. If a CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past five years."
       }
     ],
-    "explanation": "Ifa CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past five years.",
+    "explanation": "If a CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past five years.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -9661,34 +9661,34 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "promotional-material",
     "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "Audio pod-casts and videos on the internet that make specific trading recommendations or refer to profits that have been obtained in the past or can be achieved in the future must be:",
+    "stem": "Audio podcasts and videos on the internet that make specific trading recommendations or refer to profits that have been obtained in the past or can be achieved in the future must be:",
     "choices": [
       {
         "id": "a",
         "text": "Submitted to the NFA within 10 days of their first use.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Audio pod-casts and videos on the internet that make specific trading recommendations Or refer to profits that have been obtained in the past or can be achieved in the future must be submitted to the NFA for approval at least 10 days prior to use."
+        "rationale": "Incorrect. Audio podcasts and videos on the internet that make specific trading recommendations or refer to profits that have been obtained in the past or can be achieved in the future must be submitted to the NFA for approval at least 10 days prior to use."
       },
       {
         "id": "b",
         "text": "Be submitted to the NFA on a monthly basis.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Audio pod-casts and videos on the internet that make specific trading recommendations Or refer to profits that have been obtained in the past or can be achieved in the future must be submitted to the NFA for approval at least 10 days prior to use."
+        "rationale": "Incorrect. Audio podcasts and videos on the internet that make specific trading recommendations or refer to profits that have been obtained in the past or can be achieved in the future must be submitted to the NFA for approval at least 10 days prior to use."
       },
       {
         "id": "c",
         "text": "Be submitted to the NFA for approval 10 days prior to use.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Audio pod-casts and videos on the internet that make specific trading recommendations Or refer to profits that have been obtained in the past or can be achieved in the future must be submitted to the NFA for approval at least 10 days prior to use."
+        "rationale": "Correct. Audio podcasts and videos on the internet that make specific trading recommendations or refer to profits that have been obtained in the past or can be achieved in the future must be submitted to the NFA for approval at least 10 days prior to use."
       },
       {
         "id": "d",
         "text": "Be available for NFA review upon request.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Audio pod-casts and videos on the internet that make specific trading recommendations Or refer to profits that have been obtained in the past or can be achieved in the future must be submitted to the NFA for approval at least 10 days prior to use."
+        "rationale": "Incorrect. Audio podcasts and videos on the internet that make specific trading recommendations or refer to profits that have been obtained in the past or can be achieved in the future must be submitted to the NFA for approval at least 10 days prior to use."
       }
     ],
-    "explanation": "Audio pod-casts and videos on the internet that make specific trading recommendations Or refer to profits that have been obtained in the past or can be achieved in the future must be submitted to the NFA for approval at least 10 days prior to use.",
+    "explanation": "Audio podcasts and videos on the internet that make specific trading recommendations or refer to profits that have been obtained in the past or can be achieved in the future must be submitted to the NFA for approval at least 10 days prior to use.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -9719,31 +9719,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Accepting funds in other than the pool's name.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person."
+        "rationale": "Incorrect. CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person."
       },
       {
         "id": "b",
         "text": "Commingling funds of any pool with those of any person.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person."
+        "rationale": "Incorrect. CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person."
       },
       {
         "id": "c",
         "text": "Entering orders directly to an FCM's trading floor desk.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person."
+        "rationale": "Incorrect. CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person."
       },
       {
         "id": "d",
         "text": "A, B and C",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person."
+        "rationale": "Incorrect. CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person."
       },
       {
         "id": "e",
         "text": "A and B, only",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person."
+        "rationale": "Correct. CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person."
       }
     ],
     "explanation": "CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person.",
@@ -9755,7 +9755,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 213; source code 10_DI_15.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "213",
     "sourceQuestionNumber": 212,
@@ -9771,31 +9771,31 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "disclosure-documents",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Ifa CTA or CPO knows or should know that its Disclosure Document is materially inaccurate or incomplete, it must correct the defect and distribute the correction within:",
+    "stem": "If a CTA or CPO knows or should know that its Disclosure Document is materially inaccurate or incomplete, it must correct the defect and distribute the correction within:",
     "choices": [
       {
         "id": "a",
         "text": "21 calendar days.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. If a CTA or CPO knows or should know that its Disclosure Document is materially inaccurate or incomplete, it must correct the defect and distribute the correction within 21 calendar days."
+        "rationale": "Correct. If a CTA or CPO knows or should know that its Disclosure Document is materially inaccurate or incomplete, it must correct the defect and distribute the correction within 21 calendar days."
       },
       {
         "id": "b",
         "text": "30 calendar days.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a CTA or CPO knows or should know that its Disclosure Document is materially inaccurate or incomplete, it must correct the defect and distribute the correction within 21 calendar days."
+        "rationale": "Incorrect. If a CTA or CPO knows or should know that its Disclosure Document is materially inaccurate or incomplete, it must correct the defect and distribute the correction within 21 calendar days."
       },
       {
         "id": "c",
         "text": "45 calendar days.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a CTA or CPO knows or should know that its Disclosure Document is materially inaccurate or incomplete, it must correct the defect and distribute the correction within 21 calendar days."
+        "rationale": "Incorrect. If a CTA or CPO knows or should know that its Disclosure Document is materially inaccurate or incomplete, it must correct the defect and distribute the correction within 21 calendar days."
       },
       {
         "id": "d",
         "text": "60 calendar days.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a CTA or CPO knows or should know that its Disclosure Document is materially inaccurate or incomplete, it must correct the defect and distribute the correction within 21 calendar days."
+        "rationale": "Incorrect. If a CTA or CPO knows or should know that its Disclosure Document is materially inaccurate or incomplete, it must correct the defect and distribute the correction within 21 calendar days."
       }
     ],
     "explanation": "If a CTA or CPO knows or should know that its Disclosure Document is materially inaccurate or incomplete, it must correct the defect and distribute the correction within 21 calendar days.",
@@ -9829,31 +9829,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The NFA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA is required to file its initial disclosure document and amendments to it with the CFTC and to file copies with the NFA."
+        "rationale": "Incorrect. A CTA is required to file its initial disclosure document and amendments to it with the CFTC and to file copies with the NFA."
       },
       {
         "id": "b",
         "text": "The CFTC.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA is required to file its initial disclosure document and amendments to it with the CFTC and to file copies with the NFA."
+        "rationale": "Incorrect. A CTA is required to file its initial disclosure document and amendments to it with the CFTC and to file copies with the NFA."
       },
       {
         "id": "c",
         "text": "The SEC.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA is required to file its initial disclosure document and amendments to it with the CFTC and to file copies with the NFA."
+        "rationale": "Incorrect. A CTA is required to file its initial disclosure document and amendments to it with the CFTC and to file copies with the NFA."
       },
       {
         "id": "d",
         "text": "A, B and C",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CTA is required to file its initial disclosure document and amendments to it with the CFTC and to file copies with the NFA."
+        "rationale": "Incorrect. A CTA is required to file its initial disclosure document and amendments to it with the CFTC and to file copies with the NFA."
       },
       {
         "id": "e",
         "text": "A and B, only.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A CTA is required to file its initial disclosure document and amendments to it with the CFTC and to file copies with the NFA."
+        "rationale": "Correct. A CTA is required to file its initial disclosure document and amendments to it with the CFTC and to file copies with the NFA."
       }
     ],
     "explanation": "A CTA is required to file its initial disclosure document and amendments to it with the CFTC and to file copies with the NFA.",
@@ -9865,7 +9865,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 215; source code 10_DI_25.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "215",
     "sourceQuestionNumber": 214,
@@ -9887,13 +9887,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Even if exempted from registration as a CPO. the antifraud provisions of the Act continue to apply."
+        "rationale": "Correct. Even if exempted from registration as a CPO. the antifraud provisions of the Act continue to apply."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Even if exempted from registration as a CPO. the antifraud provisions of the Act continue to apply."
+        "rationale": "Incorrect. Even if exempted from registration as a CPO. the antifraud provisions of the Act continue to apply."
       }
     ],
     "explanation": "Even if exempted from registration as a CPO. the antifraud provisions of the Act continue to apply.",
@@ -9904,7 +9904,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 216; source code 10_DI_30.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "216",
     "sourceQuestionNumber": 215,
@@ -9926,13 +9926,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) Persons who are qualified to take and who pass the Series 33 exam are authorized to offer and sell futures and opticns on futures on stock-index, foreign-currency and interest-rate products, but not precious metals."
+        "rationale": "Incorrect. (False) Persons who are qualified to take and who pass the Series 33 exam are authorized to offer and sell futures and opticns on futures on stock-index, foreign-currency and interest-rate products, but not precious metals."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) Persons who are qualified to take and who pass the Series 33 exam are authorized to offer and sell futures and opticns on futures on stock-index, foreign-currency and interest-rate products, but not precious metals."
+        "rationale": "Correct. (False) Persons who are qualified to take and who pass the Series 33 exam are authorized to offer and sell futures and opticns on futures on stock-index, foreign-currency and interest-rate products, but not precious metals."
       }
     ],
     "explanation": "(False) Persons who are qualified to take and who pass the Series 33 exam are authorized to offer and sell futures and opticns on futures on stock-index, foreign-currency and interest-rate products, but not precious metals.",
@@ -9965,25 +9965,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "A daily basis.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations require FCMs and clearing members to file reports on futures and options positions on a daily basis and to submit a special account information form for each reportable account. Exchanges have similar reporting requirements for futures and options. In addition, CFTC regulations providle that a trader also must file a Statement of Reporting Trader (CFTC Form 40) upon special call of the Commission, and also may be required to file daily reports if requested by the CFTC."
+        "rationale": "Correct. CFTC regulations require FCMs and clearing members to file reports on futures and options positions on a daily basis and to submit a special account information form for each reportable account. Exchanges have similar reporting requirements for futures and options. In addition, CFTC regulations providle that a trader also must file a Statement of Reporting Trader (CFTC Form 40) upon special call of the Commission, and also may be required to file daily reports if requested by the CFTC."
       },
       {
         "id": "b",
         "text": "A weekly basis as of each Friday.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require FCMs and clearing members to file reports on futures and options positions on a daily basis and to submit a special account information form for each reportable account. Exchanges have similar reporting requirements for futures and options. In addition, CFTC regulations providle that a trader also must file a Statement of Reporting Trader (CFTC Form 40) upon special call of the Commission, and also may be required to file daily reports if requested by the CFTC."
+        "rationale": "Incorrect. CFTC regulations require FCMs and clearing members to file reports on futures and options positions on a daily basis and to submit a special account information form for each reportable account. Exchanges have similar reporting requirements for futures and options. In addition, CFTC regulations providle that a trader also must file a Statement of Reporting Trader (CFTC Form 40) upon special call of the Commission, and also may be required to file daily reports if requested by the CFTC."
       },
       {
         "id": "c",
         "text": "A monthly basis unless requested by the CFTC on a more frequent basis.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require FCMs and clearing members to file reports on futures and options positions on a daily basis and to submit a special account information form for each reportable account. Exchanges have similar reporting requirements for futures and options. In addition, CFTC regulations providle that a trader also must file a Statement of Reporting Trader (CFTC Form 40) upon special call of the Commission, and also may be required to file daily reports if requested by the CFTC."
+        "rationale": "Incorrect. CFTC regulations require FCMs and clearing members to file reports on futures and options positions on a daily basis and to submit a special account information form for each reportable account. Exchanges have similar reporting requirements for futures and options. In addition, CFTC regulations providle that a trader also must file a Statement of Reporting Trader (CFTC Form 40) upon special call of the Commission, and also may be required to file daily reports if requested by the CFTC."
       },
       {
         "id": "d",
         "text": "Only on an \"as requested' basis.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require FCMs and clearing members to file reports on futures and options positions on a daily basis and to submit a special account information form for each reportable account. Exchanges have similar reporting requirements for futures and options. In addition, CFTC regulations providle that a trader also must file a Statement of Reporting Trader (CFTC Form 40) upon special call of the Commission, and also may be required to file daily reports if requested by the CFTC."
+        "rationale": "Incorrect. CFTC regulations require FCMs and clearing members to file reports on futures and options positions on a daily basis and to submit a special account information form for each reportable account. Exchanges have similar reporting requirements for futures and options. In addition, CFTC regulations providle that a trader also must file a Statement of Reporting Trader (CFTC Form 40) upon special call of the Commission, and also may be required to file daily reports if requested by the CFTC."
       }
     ],
     "explanation": "CFTC regulations require FCMs and clearing members to file reports on futures and options positions on a daily basis and to submit a special account information form for each reportable account. Exchanges have similar reporting requirements for futures and options. In addition, CFTC regulations providle that a trader also must file a Statement of Reporting Trader (CFTC Form 40) upon special call of the Commission, and also may be required to file daily reports if requested by the CFTC.",
@@ -10016,25 +10016,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "One month preceding the date of the document.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations provide that the performance information in a CTA disclosure document must be current as of a date not more than three months preceding the date of the document."
+        "rationale": "Incorrect. CFTC regulations provide that the performance information in a CTA disclosure document must be current as of a date not more than three months preceding the date of the document."
       },
       {
         "id": "b",
         "text": "Three months preceding the date of the document.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations provide that the performance information in a CTA disclosure document must be current as of a date not more than three months preceding the date of the document."
+        "rationale": "Correct. CFTC regulations provide that the performance information in a CTA disclosure document must be current as of a date not more than three months preceding the date of the document."
       },
       {
         "id": "c",
         "text": "Six months preceding the date of the document.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations provide that the performance information in a CTA disclosure document must be current as of a date not more than three months preceding the date of the document."
+        "rationale": "Incorrect. CFTC regulations provide that the performance information in a CTA disclosure document must be current as of a date not more than three months preceding the date of the document."
       },
       {
         "id": "d",
         "text": "Twelve months preceding the date of the document.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations provide that the performance information in a CTA disclosure document must be current as of a date not more than three months preceding the date of the document."
+        "rationale": "Incorrect. CFTC regulations provide that the performance information in a CTA disclosure document must be current as of a date not more than three months preceding the date of the document."
       }
     ],
     "explanation": "CFTC regulations provide that the performance information in a CTA disclosure document must be current as of a date not more than three months preceding the date of the document.",
@@ -10068,25 +10068,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Separate SEC required Disclosure Document.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In addition to providing a Disclosure Document, a CPO who must register with the SEC also must provide participants with a Statement of Additional Information."
+        "rationale": "Incorrect. In addition to providing a Disclosure Document, a CPO who must register with the SEC also must provide participants with a Statement of Additional Information."
       },
       {
         "id": "b",
         "text": "SEC specified Supplemental Statement.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In addition to providing a Disclosure Document, a CPO who must register with the SEC also must provide participants with a Statement of Additional Information."
+        "rationale": "Incorrect. In addition to providing a Disclosure Document, a CPO who must register with the SEC also must provide participants with a Statement of Additional Information."
       },
       {
         "id": "c",
         "text": "CFTC/SEC Combined Disclosure Document.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In addition to providing a Disclosure Document, a CPO who must register with the SEC also must provide participants with a Statement of Additional Information."
+        "rationale": "Incorrect. In addition to providing a Disclosure Document, a CPO who must register with the SEC also must provide participants with a Statement of Additional Information."
       },
       {
         "id": "d",
         "text": "Statement of Additional Information.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. In addition to providing a Disclosure Document, a CPO who must register with the SEC also must provide participants with a Statement of Additional Information."
+        "rationale": "Correct. In addition to providing a Disclosure Document, a CPO who must register with the SEC also must provide participants with a Statement of Additional Information."
       }
     ],
     "explanation": "In addition to providing a Disclosure Document, a CPO who must register with the SEC also must provide participants with a Statement of Additional Information.",
@@ -10120,25 +10120,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "On an annual basis.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Independent IBs are required to file financial reports on at least a semiannual basis."
+        "rationale": "Incorrect. Independent IBs are required to file financial reports on at least a semiannual basis."
       },
       {
         "id": "b",
         "text": "On a scmiannual basis.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Independent IBs are required to file financial reports on at least a semiannual basis."
+        "rationale": "Correct. Independent IBs are required to file financial reports on at least a semiannual basis."
       },
       {
         "id": "c",
         "text": "On a quarterly basis.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Independent IBs are required to file financial reports on at least a semiannual basis."
+        "rationale": "Incorrect. Independent IBs are required to file financial reports on at least a semiannual basis."
       },
       {
         "id": "d",
         "text": "Only when requested by the CFTC or the NFA.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Independent IBs are required to file financial reports on at least a semiannual basis."
+        "rationale": "Incorrect. Independent IBs are required to file financial reports on at least a semiannual basis."
       }
     ],
     "explanation": "Independent IBs are required to file financial reports on at least a semiannual basis.",
@@ -10171,16 +10171,16 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Registration as a commodity pool operator is required if the total gross capital contributions to all of the operators pools is more than S400.000 and there are more than 15 persons in any one pool."
+        "rationale": "Correct. Registration as a commodity pool operator is required if the total gross capital contributions to all of the operators pools is more than $400.000 and there are more than 15 persons in any one pool."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Registration as a commodity pool operator is required if the total gross capital contributions to all of the operators pools is more than S400.000 and there are more than 15 persons in any one pool."
+        "rationale": "Incorrect. Registration as a commodity pool operator is required if the total gross capital contributions to all of the operators pools is more than $400.000 and there are more than 15 persons in any one pool."
       }
     ],
-    "explanation": "Registration as a commodity pool operator is required if the total gross capital contributions to all of the operators pools is more than S400.000 and there are more than 15 persons in any one pool.",
+    "explanation": "Registration as a commodity pool operator is required if the total gross capital contributions to all of the operators pools is more than $400.000 and there are more than 15 persons in any one pool.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -10211,13 +10211,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulations specify the order of presentation of material in a CTA Disclosure Document."
+        "rationale": "Incorrect. CFTC Regulations specify the order of presentation of material in a CTA Disclosure Document."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC Regulations specify the order of presentation of material in a CTA Disclosure Document."
+        "rationale": "Correct. CFTC Regulations specify the order of presentation of material in a CTA Disclosure Document."
       }
     ],
     "explanation": "CFTC Regulations specify the order of presentation of material in a CTA Disclosure Document.",
@@ -10249,27 +10249,27 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "A Final Decision and Order.",
+        "text": "Final Decision and Order.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The president of the NFA, with concurrence of the board of directors or executive committee, may take summary action, known as a Member Responsibility Action (MRA). to suspend, restrict operations, of otherwise direct remedial action when there is reason to believe that the summary action is necessary to protect the markets, customers, or other NFA members."
+        "rationale": "Incorrect. The president of the NFA, with concurrence of the board of directors or executive committee, may take summary action, known as a Member Responsibility Action (MRA). to suspend, restrict operations, of otherwise direct remedial action when there is reason to believe that the summary action is necessary to protect the markets, customers, or other NFA members."
       },
       {
         "id": "b",
         "text": "An Emergency Decision and Order.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The president of the NFA, with concurrence of the board of directors or executive committee, may take summary action, known as a Member Responsibility Action (MRA). to suspend, restrict operations, of otherwise direct remedial action when there is reason to believe that the summary action is necessary to protect the markets, customers, or other NFA members."
+        "rationale": "Incorrect. The president of the NFA, with concurrence of the board of directors or executive committee, may take summary action, known as a Member Responsibility Action (MRA). to suspend, restrict operations, of otherwise direct remedial action when there is reason to believe that the summary action is necessary to protect the markets, customers, or other NFA members."
       },
       {
         "id": "c",
-        "text": "A Summary Decision.",
+        "text": "Summary Decision.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The president of the NFA, with concurrence of the board of directors or executive committee, may take summary action, known as a Member Responsibility Action (MRA). to suspend, restrict operations, of otherwise direct remedial action when there is reason to believe that the summary action is necessary to protect the markets, customers, or other NFA members."
+        "rationale": "Incorrect. The president of the NFA, with concurrence of the board of directors or executive committee, may take summary action, known as a Member Responsibility Action (MRA). to suspend, restrict operations, of otherwise direct remedial action when there is reason to believe that the summary action is necessary to protect the markets, customers, or other NFA members."
       },
       {
         "id": "d",
-        "text": "A Member Responsibility Action.",
+        "text": "Member Responsibility Action.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The president of the NFA, with concurrence of the board of directors or executive committee, may take summary action, known as a Member Responsibility Action (MRA). to suspend, restrict operations, of otherwise direct remedial action when there is reason to believe that the summary action is necessary to protect the markets, customers, or other NFA members."
+        "rationale": "Correct. The president of the NFA, with concurrence of the board of directors or executive committee, may take summary action, known as a Member Responsibility Action (MRA). to suspend, restrict operations, of otherwise direct remedial action when there is reason to believe that the summary action is necessary to protect the markets, customers, or other NFA members."
       }
     ],
     "explanation": "The president of the NFA, with concurrence of the board of directors or executive committee, may take summary action, known as a Member Responsibility Action (MRA). to suspend, restrict operations, of otherwise direct remedial action when there is reason to believe that the summary action is necessary to protect the markets, customers, or other NFA members.",
@@ -10302,13 +10302,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) State \"Blue Sky\" laws have been applied to the offer and sale of commodity pools. As a result, only clients in states where the offering has been registered or is exempt from registration may purchase an investment in a commodity pool."
+        "rationale": "Incorrect. (False) State \"Blue Sky\" laws have been applied to the offer and sale of commodity pools. As a result, only clients in states where the offering has been registered or is exempt from registration may purchase an investment in a commodity pool."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) State \"Blue Sky\" laws have been applied to the offer and sale of commodity pools. As a result, only clients in states where the offering has been registered or is exempt from registration may purchase an investment in a commodity pool."
+        "rationale": "Correct. (False) State \"Blue Sky\" laws have been applied to the offer and sale of commodity pools. As a result, only clients in states where the offering has been registered or is exempt from registration may purchase an investment in a commodity pool."
       }
     ],
     "explanation": "(False) State \"Blue Sky\" laws have been applied to the offer and sale of commodity pools. As a result, only clients in states where the offering has been registered or is exempt from registration may purchase an investment in a commodity pool.",
@@ -10319,7 +10319,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 225; source code 10_DI_18.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "225",
     "sourceQuestionNumber": 224,
@@ -10341,25 +10341,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Three years from the date of last use",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC rule 1.31 stipulates that books and records must be kept for five years from the date thereof, and shall be readily accessible during the first two years of the five-year period."
+        "rationale": "Incorrect. CFTC rule 1.31 stipulates that books and records must be kept for five years from the date thereof, and shall be readily accessible during the first two years of the five-year period."
       },
       {
         "id": "b",
         "text": "Five years fiom the date of publication or first use",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC rule 1.31 stipulates that books and records must be kept for five years from the date thereof, and shall be readily accessible during the first two years of the five-year period."
+        "rationale": "Incorrect. CFTC rule 1.31 stipulates that books and records must be kept for five years from the date thereof, and shall be readily accessible during the first two years of the five-year period."
       },
       {
         "id": "c",
         "text": "Five years from the date thereof and readily accessible during the first two years of the five year period",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC rule 1.31 stipulates that books and records must be kept for five years from the date thereof, and shall be readily accessible during the first two years of the five-year period."
+        "rationale": "Correct. CFTC rule 1.31 stipulates that books and records must be kept for five years from the date thereof, and shall be readily accessible during the first two years of the five-year period."
       },
       {
         "id": "d",
         "text": "Two years from the date thereof",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC rule 1.31 stipulates that books and records must be kept for five years from the date thereof, and shall be readily accessible during the first two years of the five-year period."
+        "rationale": "Incorrect. CFTC rule 1.31 stipulates that books and records must be kept for five years from the date thereof, and shall be readily accessible during the first two years of the five-year period."
       }
     ],
     "explanation": "CFTC rule 1.31 stipulates that books and records must be kept for five years from the date thereof, and shall be readily accessible during the first two years of the five-year period.",
@@ -10392,31 +10392,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Futures on foreign stock indexes",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Foreign stock-index futures and their related options must receive a CFTC no-action 1etter and a foreign government debt obligation must be designated an exempted security by the U.S. Securities and Exchange Commission before futures and related options contracts on these products can be offered or sold to a U.S. person. Currently. these are the only restrictions on the offer and sale of foreign futures and options on futures to U.S. customers."
+        "rationale": "Incorrect. Foreign stock-index futures and their related options must receive a CFTC no-action 1etter and a foreign government debt obligation must be designated an exempted security by the U.S. Securities and Exchange Commission before futures and related options contracts on these products can be offered or sold to a U.S. person. Currently. these are the only restrictions on the offer and sale of foreign futures and options on futures to U.S. customers."
       },
       {
         "id": "b",
         "text": "Futures on foreign debt instruments",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Foreign stock-index futures and their related options must receive a CFTC no-action 1etter and a foreign government debt obligation must be designated an exempted security by the U.S. Securities and Exchange Commission before futures and related options contracts on these products can be offered or sold to a U.S. person. Currently. these are the only restrictions on the offer and sale of foreign futures and options on futures to U.S. customers."
+        "rationale": "Incorrect. Foreign stock-index futures and their related options must receive a CFTC no-action 1etter and a foreign government debt obligation must be designated an exempted security by the U.S. Securities and Exchange Commission before futures and related options contracts on these products can be offered or sold to a U.S. person. Currently. these are the only restrictions on the offer and sale of foreign futures and options on futures to U.S. customers."
       },
       {
         "id": "c",
         "text": "Futures on foreign agricultural products",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Foreign stock-index futures and their related options must receive a CFTC no-action 1etter and a foreign government debt obligation must be designated an exempted security by the U.S. Securities and Exchange Commission before futures and related options contracts on these products can be offered or sold to a U.S. person. Currently. these are the only restrictions on the offer and sale of foreign futures and options on futures to U.S. customers."
+        "rationale": "Incorrect. Foreign stock-index futures and their related options must receive a CFTC no-action 1etter and a foreign government debt obligation must be designated an exempted security by the U.S. Securities and Exchange Commission before futures and related options contracts on these products can be offered or sold to a U.S. person. Currently. these are the only restrictions on the offer and sale of foreign futures and options on futures to U.S. customers."
       },
       {
         "id": "d",
         "text": "A, B and C",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Foreign stock-index futures and their related options must receive a CFTC no-action 1etter and a foreign government debt obligation must be designated an exempted security by the U.S. Securities and Exchange Commission before futures and related options contracts on these products can be offered or sold to a U.S. person. Currently. these are the only restrictions on the offer and sale of foreign futures and options on futures to U.S. customers."
+        "rationale": "Incorrect. Foreign stock-index futures and their related options must receive a CFTC no-action 1etter and a foreign government debt obligation must be designated an exempted security by the U.S. Securities and Exchange Commission before futures and related options contracts on these products can be offered or sold to a U.S. person. Currently. these are the only restrictions on the offer and sale of foreign futures and options on futures to U.S. customers."
       },
       {
         "id": "e",
         "text": "A and B. only",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Foreign stock-index futures and their related options must receive a CFTC no-action 1etter and a foreign government debt obligation must be designated an exempted security by the U.S. Securities and Exchange Commission before futures and related options contracts on these products can be offered or sold to a U.S. person. Currently. these are the only restrictions on the offer and sale of foreign futures and options on futures to U.S. customers."
+        "rationale": "Correct. Foreign stock-index futures and their related options must receive a CFTC no-action 1etter and a foreign government debt obligation must be designated an exempted security by the U.S. Securities and Exchange Commission before futures and related options contracts on these products can be offered or sold to a U.S. person. Currently. these are the only restrictions on the offer and sale of foreign futures and options on futures to U.S. customers."
       }
     ],
     "explanation": "Foreign stock-index futures and their related options must receive a CFTC no-action 1etter and a foreign government debt obligation must be designated an exempted security by the U.S. Securities and Exchange Commission before futures and related options contracts on these products can be offered or sold to a U.S. person. Currently. these are the only restrictions on the offer and sale of foreign futures and options on futures to U.S. customers.",
@@ -10427,7 +10427,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 227; source code 10_DI_12.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "227",
     "sourceQuestionNumber": 226,
@@ -10449,13 +10449,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) A major investee pool is defined as least 10 percent of the net asset value of the pool."
+        "rationale": "Incorrect. (False) A major investee pool is defined as least 10 percent of the net asset value of the pool."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) A major investee pool is defined as least 10 percent of the net asset value of the pool."
+        "rationale": "Correct. (False) A major investee pool is defined as least 10 percent of the net asset value of the pool."
       }
     ],
     "explanation": "(False) A major investee pool is defined as least 10 percent of the net asset value of the pool.",
@@ -10487,25 +10487,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Three months.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit a CTA from using a disclosure document dated more than nine months preceding the date of its use."
+        "rationale": "Incorrect. CFTC regulations prohibit a CTA from using a disclosure document dated more than nine months preceding the date of its use."
       },
       {
         "id": "b",
         "text": "Six months.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit a CTA from using a disclosure document dated more than nine months preceding the date of its use."
+        "rationale": "Incorrect. CFTC regulations prohibit a CTA from using a disclosure document dated more than nine months preceding the date of its use."
       },
       {
         "id": "c",
         "text": "Nine months.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations prohibit a CTA from using a disclosure document dated more than nine months preceding the date of its use."
+        "rationale": "Correct. CFTC regulations prohibit a CTA from using a disclosure document dated more than nine months preceding the date of its use."
       },
       {
         "id": "d",
         "text": "Twelve months.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations prohibit a CTA from using a disclosure document dated more than nine months preceding the date of its use."
+        "rationale": "Incorrect. CFTC regulations prohibit a CTA from using a disclosure document dated more than nine months preceding the date of its use."
       }
     ],
     "explanation": "CFTC regulations prohibit a CTA from using a disclosure document dated more than nine months preceding the date of its use.",
@@ -10538,13 +10538,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Any person claiming an exemption from CTA or CPO registration must annually reaffirm the application notice of exemption within 60 days of the calendar year end. Any person failing to file the notice reaffirming their exemption will be deemed to have requested withdrawal of thei exemption."
+        "rationale": "Incorrect. Any person claiming an exemption from CTA or CPO registration must annually reaffirm the application notice of exemption within 60 days of the calendar year end. Any person failing to file the notice reaffirming their exemption will be deemed to have requested withdrawal of thei exemption."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Any person claiming an exemption from CTA or CPO registration must annually reaffirm the application notice of exemption within 60 days of the calendar year end. Any person failing to file the notice reaffirming their exemption will be deemed to have requested withdrawal of thei exemption."
+        "rationale": "Correct. Any person claiming an exemption from CTA or CPO registration must annually reaffirm the application notice of exemption within 60 days of the calendar year end. Any person failing to file the notice reaffirming their exemption will be deemed to have requested withdrawal of thei exemption."
       }
     ],
     "explanation": "Any person claiming an exemption from CTA or CPO registration must annually reaffirm the application notice of exemption within 60 days of the calendar year end. Any person failing to file the notice reaffirming their exemption will be deemed to have requested withdrawal of thei exemption.",
@@ -10578,25 +10578,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The most recent two years and the year-to-date.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All required performance disclosure in a CPO's Disclosure Document must be presented for the most recent five years and the year-to-date."
+        "rationale": "Incorrect. All required performance disclosure in a CPO's Disclosure Document must be presented for the most recent five years and the year-to-date."
       },
       {
         "id": "b",
         "text": "The most recent three years and the year-to-date.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All required performance disclosure in a CPO's Disclosure Document must be presented for the most recent five years and the year-to-date."
+        "rationale": "Incorrect. All required performance disclosure in a CPO's Disclosure Document must be presented for the most recent five years and the year-to-date."
       },
       {
         "id": "c",
         "text": "The most recent five years and the year-to-date.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. All required performance disclosure in a CPO's Disclosure Document must be presented for the most recent five years and the year-to-date."
+        "rationale": "Correct. All required performance disclosure in a CPO's Disclosure Document must be presented for the most recent five years and the year-to-date."
       },
       {
         "id": "d",
         "text": "The most recent ten years and the year-to-date.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: All required performance disclosure in a CPO's Disclosure Document must be presented for the most recent five years and the year-to-date."
+        "rationale": "Incorrect. All required performance disclosure in a CPO's Disclosure Document must be presented for the most recent five years and the year-to-date."
       }
     ],
     "explanation": "All required performance disclosure in a CPO's Disclosure Document must be presented for the most recent five years and the year-to-date.",
@@ -10607,7 +10607,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 232; source code 10_DI_40.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "232",
     "sourceQuestionNumber": 231,
@@ -10623,34 +10623,34 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cpo-regulations",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "In reference to the previous five-year background infommation that a CTA or CPO must provide in a Disclosure Document, which of the following is required?",
+    "stem": "In reference to the previous five-year background information that a CTA or CPO must provide in a Disclosure Document, which of the following is required?",
     "choices": [
       {
         "id": "a",
         "text": "Only the names of previous employers for the previous five years.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The background information must include names of employers, associations, or ventures (including starting and ending dates) for the previous five-year period, as well as a discussicn of the duties performed for each individual."
+        "rationale": "Incorrect. The background information must include names of employers, associations, or ventures (including starting and ending dates) for the previous five-year period, as well as a discussion of the duties performed for each individual."
       },
       {
         "id": "b",
         "text": "Previous five years of employment history, including the starting and ending dates Of employment.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The background information must include names of employers, associations, or ventures (including starting and ending dates) for the previous five-year period, as well as a discussicn of the duties performed for each individual."
+        "rationale": "Incorrect. The background information must include names of employers, associations, or ventures (including starting and ending dates) for the previous five-year period, as well as a discussion of the duties performed for each individual."
       },
       {
         "id": "c",
         "text": "Names of previous employers along with a description of the duties performed.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The background information must include names of employers, associations, or ventures (including starting and ending dates) for the previous five-year period, as well as a discussicn of the duties performed for each individual."
+        "rationale": "Incorrect. The background information must include names of employers, associations, or ventures (including starting and ending dates) for the previous five-year period, as well as a discussion of the duties performed for each individual."
       },
       {
         "id": "d",
         "text": "b and c.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The background information must include names of employers, associations, or ventures (including starting and ending dates) for the previous five-year period, as well as a discussicn of the duties performed for each individual."
+        "rationale": "Correct. The background information must include names of employers, associations, or ventures (including starting and ending dates) for the previous five-year period, as well as a discussion of the duties performed for each individual."
       }
     ],
-    "explanation": "The background information must include names of employers, associations, or ventures (including starting and ending dates) for the previous five-year period, as well as a discussicn of the duties performed for each individual.",
+    "explanation": "The background information must include names of employers, associations, or ventures (including starting and ending dates) for the previous five-year period, as well as a discussion of the duties performed for each individual.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -10659,7 +10659,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 233; source code 10_DI_46.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "233",
     "sourceQuestionNumber": 232,
@@ -10681,13 +10681,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: (False) Both guaranteed and non-guaranteed Introducing Brokers must introduce all accounts on a fully disclosed basis to a carrying FCM."
+        "rationale": "Incorrect. (False) Both guaranteed and non-guaranteed Introducing Brokers must introduce all accounts on a fully disclosed basis to a carrying FCM."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. (False) Both guaranteed and non-guaranteed Introducing Brokers must introduce all accounts on a fully disclosed basis to a carrying FCM."
+        "rationale": "Correct. (False) Both guaranteed and non-guaranteed Introducing Brokers must introduce all accounts on a fully disclosed basis to a carrying FCM."
       }
     ],
     "explanation": "(False) Both guaranteed and non-guaranteed Introducing Brokers must introduce all accounts on a fully disclosed basis to a carrying FCM.",
@@ -10698,7 +10698,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 234; source code not parsed.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "234",
     "sourceQuestionNumber": 233,
@@ -10717,27 +10717,27 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "A Member Responsibility Action.",
+        "text": "Member Responsibility Action.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The notice of charges issued by an NFA business conduct committee is known as a complaint."
+        "rationale": "Incorrect. The notice of charges issued by an NFA business conduct committee is known as a complaint."
       },
       {
         "id": "b",
         "text": "A complaint.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. The notice of charges issued by an NFA business conduct committee is known as a complaint."
+        "rationale": "Correct. The notice of charges issued by an NFA business conduct committee is known as a complaint."
       },
       {
         "id": "c",
         "text": "An arbitration claim.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The notice of charges issued by an NFA business conduct committee is known as a complaint."
+        "rationale": "Incorrect. The notice of charges issued by an NFA business conduct committee is known as a complaint."
       },
       {
         "id": "d",
         "text": "A cease and desist order.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: The notice of charges issued by an NFA business conduct committee is known as a complaint."
+        "rationale": "Incorrect. The notice of charges issued by an NFA business conduct committee is known as a complaint."
       }
     ],
     "explanation": "The notice of charges issued by an NFA business conduct committee is known as a complaint.",
@@ -10768,30 +10768,30 @@ export const regulatoryPdfQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "The total gross long or short position, all months combined, in the same commodity on all exchanges .",
+        "text": "The total gross long or short position, all months combined, in the same commodity on all exchanges.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In determining CFTC reportable status, the total 1ong or total short gross position in any one month in any one market on any one exchange is used. If this calculation results in a reportable position, the open positions for all months in the same market on the same exchange also must be reported."
+        "rationale": "Incorrect. In determining CFTC reportable status, the total long or total short gross position in any one month in any one market on any one exchange is used. If this calculation results in a reportable position, the open positions for all months in the same market on the same exchange also must be reported."
       },
       {
         "id": "b",
         "text": "The total long or total short position in any one month in any one market on any one exchange.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. In determining CFTC reportable status, the total 1ong or total short gross position in any one month in any one market on any one exchange is used. If this calculation results in a reportable position, the open positions for all months in the same market on the same exchange also must be reported."
+        "rationale": "Correct. In determining CFTC reportable status, the total long or total short gross position in any one month in any one market on any one exchange is used. If this calculation results in a reportable position, the open positions for all months in the same market on the same exchange also must be reported."
       },
       {
         "id": "c",
         "text": "The net long or net short position in the spot month.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In determining CFTC reportable status, the total 1ong or total short gross position in any one month in any one market on any one exchange is used. If this calculation results in a reportable position, the open positions for all months in the same market on the same exchange also must be reported."
+        "rationale": "Incorrect. In determining CFTC reportable status, the total long or total short gross position in any one month in any one market on any one exchange is used. If this calculation results in a reportable position, the open positions for all months in the same market on the same exchange also must be reported."
       },
       {
         "id": "d",
         "text": "The combined total of futures and options in all months of the same commodity.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In determining CFTC reportable status, the total 1ong or total short gross position in any one month in any one market on any one exchange is used. If this calculation results in a reportable position, the open positions for all months in the same market on the same exchange also must be reported."
+        "rationale": "Incorrect. In determining CFTC reportable status, the total long or total short gross position in any one month in any one market on any one exchange is used. If this calculation results in a reportable position, the open positions for all months in the same market on the same exchange also must be reported."
       }
     ],
-    "explanation": "In determining CFTC reportable status, the total 1ong or total short gross position in any one month in any one market on any one exchange is used. If this calculation results in a reportable position, the open positions for all months in the same market on the same exchange also must be reported.",
+    "explanation": "In determining CFTC reportable status, the total long or total short gross position in any one month in any one market on any one exchange is used. If this calculation results in a reportable position, the open positions for all months in the same market on the same exchange also must be reported.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -10821,31 +10821,31 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Cannot be misleading.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulations require that supplemental information included in a CTA Disclosure Document cannot be misleading. must comply with the antifraud provisions of the Act, and must be placed after all required disclosures."
+        "rationale": "Incorrect. CFTC Regulations require that supplemental information included in a CTA Disclosure Document cannot be misleading. must comply with the antifraud provisions of the Act, and must be placed after all required disclosures."
       },
       {
         "id": "b",
         "text": "Must comply with antifraud provisions of the Act.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulations require that supplemental information included in a CTA Disclosure Document cannot be misleading. must comply with the antifraud provisions of the Act, and must be placed after all required disclosures."
+        "rationale": "Incorrect. CFTC Regulations require that supplemental information included in a CTA Disclosure Document cannot be misleading. must comply with the antifraud provisions of the Act, and must be placed after all required disclosures."
       },
       {
         "id": "c",
         "text": "Must be placed after all required disclosures.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulations require that supplemental information included in a CTA Disclosure Document cannot be misleading. must comply with the antifraud provisions of the Act, and must be placed after all required disclosures."
+        "rationale": "Incorrect. CFTC Regulations require that supplemental information included in a CTA Disclosure Document cannot be misleading. must comply with the antifraud provisions of the Act, and must be placed after all required disclosures."
       },
       {
         "id": "d",
         "text": "All of the above.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC Regulations require that supplemental information included in a CTA Disclosure Document cannot be misleading. must comply with the antifraud provisions of the Act, and must be placed after all required disclosures."
+        "rationale": "Correct. CFTC Regulations require that supplemental information included in a CTA Disclosure Document cannot be misleading. must comply with the antifraud provisions of the Act, and must be placed after all required disclosures."
       },
       {
         "id": "e",
         "text": "A and B only.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC Regulations require that supplemental information included in a CTA Disclosure Document cannot be misleading. must comply with the antifraud provisions of the Act, and must be placed after all required disclosures."
+        "rationale": "Incorrect. CFTC Regulations require that supplemental information included in a CTA Disclosure Document cannot be misleading. must comply with the antifraud provisions of the Act, and must be placed after all required disclosures."
       }
     ],
     "explanation": "CFTC Regulations require that supplemental information included in a CTA Disclosure Document cannot be misleading. must comply with the antifraud provisions of the Act, and must be placed after all required disclosures.",
@@ -10857,7 +10857,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 237; source code 10_DI_32.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "237",
     "sourceQuestionNumber": 236,
@@ -10879,34 +10879,34 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "$45,000",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Each of the methods must be used in determining the greatest amount of adjusted net capital required under the altemative scenarios."
+        "rationale": "Incorrect. Each of the methods must be used in determining the greatest amount of adjusted net capital required under the alternative scenarios."
       },
       {
         "id": "b",
         "text": "$6,000 per office operated (for IBs with less than $1 million in adjusted net capital)",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Each of the methods must be used in determining the greatest amount of adjusted net capital required under the altemative scenarios."
+        "rationale": "Incorrect. Each of the methods must be used in determining the greatest amount of adjusted net capital required under the alternative scenarios."
       },
       {
         "id": "c",
-        "text": "S3,000 for each AP sponsored (for IBs with less than $l million in adjusted net capital)",
+        "text": "$3,000 for each AP sponsored (for IBs with less than $l million in adjusted net capital)",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Each of the methods must be used in determining the greatest amount of adjusted net capital required under the altemative scenarios."
+        "rationale": "Incorrect. Each of the methods must be used in determining the greatest amount of adjusted net capital required under the alternative scenarios."
       },
       {
         "id": "d",
         "text": "For a securities broker-dealer, the net capital required by the SEC",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Each of the methods must be used in determining the greatest amount of adjusted net capital required under the altemative scenarios."
+        "rationale": "Incorrect. Each of the methods must be used in determining the greatest amount of adjusted net capital required under the alternative scenarios."
       },
       {
         "id": "e",
         "text": "All of the above",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Each of the methods must be used in determining the greatest amount of adjusted net capital required under the altemative scenarios."
+        "rationale": "Correct. Each of the methods must be used in determining the greatest amount of adjusted net capital required under the alternative scenarios."
       }
     ],
-    "explanation": "Each of the methods must be used in determining the greatest amount of adjusted net capital required under the altemative scenarios.",
+    "explanation": "Each of the methods must be used in determining the greatest amount of adjusted net capital required under the alternative scenarios.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -10914,7 +10914,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "net capital requirements",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 238; source code 10_DI_17.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "238",
     "sourceQuestionNumber": 237,
@@ -10936,34 +10936,34 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "It operates more than one pool at any one time.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt firom CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator."
+        "rationale": "Incorrect. Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt from CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator."
       },
       {
         "id": "b",
         "text": "The total gross capital contribution in all operated pools exceeds $400,000.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt firom CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator."
+        "rationale": "Incorrect. Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt from CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator."
       },
       {
         "id": "c",
         "text": "It uses more than one Commodity Trading Advisor.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt firom CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator."
+        "rationale": "Incorrect. Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt from CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator."
       },
       {
         "id": "d",
         "text": "A, B and C",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt firom CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator."
+        "rationale": "Incorrect. Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt from CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator."
       },
       {
         "id": "e",
         "text": "A and B. only",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt firom CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator."
+        "rationale": "Correct. Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt from CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator."
       }
     ],
-    "explanation": "Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt firom CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator.",
+    "explanation": "Operation of more than one pool at any time and a gross capital contribution in all operated pools of over $400,000 are two factors considered in determining whether or not a commodity pool operator is exempt from CFTC registration. Some other factors include receiving compensation other than reimbursement for ordinary administrative costs of operating a pool and advertising or otherwise holding one's self out to the public as a pool operator.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -10972,7 +10972,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 239; source code 10_DI_24.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "239",
     "sourceQuestionNumber": 238,
@@ -10994,34 +10994,34 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Opinions must be contained in a separate section of the promotional material.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a feasonable basis in fact."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a reasonable basis in fact."
       },
       {
         "id": "b",
         "text": "Opinions must be clearly identified as such.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a feasonable basis in fact."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a reasonable basis in fact."
       },
       {
         "id": "c",
         "text": "Opinions must have a reasonable basis in fact.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a feasonable basis in fact."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a reasonable basis in fact."
       },
       {
         "id": "d",
         "text": "A, B and C.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a feasonable basis in fact."
+        "rationale": "Incorrect. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a reasonable basis in fact."
       },
       {
         "id": "e",
         "text": "B and C, only.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a feasonable basis in fact."
+        "rationale": "Correct. NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a reasonable basis in fact."
       }
     ],
-    "explanation": "NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a feasonable basis in fact.",
+    "explanation": "NFA Rule 2-29 (Communications with the Public and Promotional Material) requires that statements of opinion included in promotional material must be clearly identifiable as such and must have a reasonable basis in fact.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -11030,7 +11030,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 240; source code 10_DI_22.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "240",
     "sourceQuestionNumber": 239,
@@ -11052,25 +11052,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "30 days.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. An AP's sponsor must sign a certification stating that it is the intention of the sponsor to hire or otherwise employ the applicant as an AP within 30 days of receipt of notification of registration. The sponsor also must notify the CFTC/NFA if the AP is not hired."
+        "rationale": "Correct. An AP's sponsor must sign a certification stating that it is the intention of the sponsor to hire or otherwise employ the applicant as an AP within 30 days of receipt of notification of registration. The sponsor also must notify the CFTC/NFA if the AP is not hired."
       },
       {
         "id": "b",
         "text": "60 days.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An AP's sponsor must sign a certification stating that it is the intention of the sponsor to hire or otherwise employ the applicant as an AP within 30 days of receipt of notification of registration. The sponsor also must notify the CFTC/NFA if the AP is not hired."
+        "rationale": "Incorrect. An AP's sponsor must sign a certification stating that it is the intention of the sponsor to hire or otherwise employ the applicant as an AP within 30 days of receipt of notification of registration. The sponsor also must notify the CFTC/NFA if the AP is not hired."
       },
       {
         "id": "c",
         "text": "90 days.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An AP's sponsor must sign a certification stating that it is the intention of the sponsor to hire or otherwise employ the applicant as an AP within 30 days of receipt of notification of registration. The sponsor also must notify the CFTC/NFA if the AP is not hired."
+        "rationale": "Incorrect. An AP's sponsor must sign a certification stating that it is the intention of the sponsor to hire or otherwise employ the applicant as an AP within 30 days of receipt of notification of registration. The sponsor also must notify the CFTC/NFA if the AP is not hired."
       },
       {
         "id": "d",
         "text": "Six months.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: An AP's sponsor must sign a certification stating that it is the intention of the sponsor to hire or otherwise employ the applicant as an AP within 30 days of receipt of notification of registration. The sponsor also must notify the CFTC/NFA if the AP is not hired."
+        "rationale": "Incorrect. An AP's sponsor must sign a certification stating that it is the intention of the sponsor to hire or otherwise employ the applicant as an AP within 30 days of receipt of notification of registration. The sponsor also must notify the CFTC/NFA if the AP is not hired."
       }
     ],
     "explanation": "An AP's sponsor must sign a certification stating that it is the intention of the sponsor to hire or otherwise employ the applicant as an AP within 30 days of receipt of notification of registration. The sponsor also must notify the CFTC/NFA if the AP is not hired.",
@@ -11097,34 +11097,34 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "disclosure-documents",
     "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "A CPOs Disclosure Document cannot be older than:",
+    "stem": "A CPO's Disclosure Document cannot be older than:",
     "choices": [
       {
         "id": "a",
         "text": "Three months.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CPOs Disclosure Document must be updated at least every twelve months, and may require more frequent updates if there are any material changes that must be disclosed."
+        "rationale": "Incorrect. A CPO's Disclosure Document must be updated at least every twelve months, and may require more frequent updates if there are any material changes that must be disclosed."
       },
       {
         "id": "b",
         "text": "Six months.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CPOs Disclosure Document must be updated at least every twelve months, and may require more frequent updates if there are any material changes that must be disclosed."
+        "rationale": "Incorrect. A CPO's Disclosure Document must be updated at least every twelve months, and may require more frequent updates if there are any material changes that must be disclosed."
       },
       {
         "id": "c",
         "text": "Nine months.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A CPOs Disclosure Document must be updated at least every twelve months, and may require more frequent updates if there are any material changes that must be disclosed."
+        "rationale": "Incorrect. A CPO's Disclosure Document must be updated at least every twelve months, and may require more frequent updates if there are any material changes that must be disclosed."
       },
       {
         "id": "d",
         "text": "Twelve months.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A CPOs Disclosure Document must be updated at least every twelve months, and may require more frequent updates if there are any material changes that must be disclosed."
+        "rationale": "Correct. A CPO's Disclosure Document must be updated at least every twelve months, and may require more frequent updates if there are any material changes that must be disclosed."
       }
     ],
-    "explanation": "A CPOs Disclosure Document must be updated at least every twelve months, and may require more frequent updates if there are any material changes that must be disclosed.",
+    "explanation": "A CPO's Disclosure Document must be updated at least every twelve months, and may require more frequent updates if there are any material changes that must be disclosed.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -11155,28 +11155,28 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "No additional documentation.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-8 (Discretionary Accounts) requires, in the case of accounts controlled by third parties other than by members of the same family, that FCMs and IBs obtain: (1) a copy of the account controller's written trading authorization or an acknowledgment from the customer that the authorization has been given, and (2) an acknowledgment fom the customer that a disclosure document has been received from the account controller or a written statement explaining why a disclosure document is not required."
+        "rationale": "Incorrect. NFA Rule 2-8 (Discretionary Accounts) requires, in the case of accounts controlled by third parties other than by members of the same family, that FCMs and IBs obtain: (1) a copy of the account controller's written trading authorization or an acknowledgment from the customer that the authorization has been given, and (2) an acknowledgment from the customer that a disclosure document has been received from the account controller or a written statement explaining why a disclosure document is not required."
       },
       {
         "id": "b",
         "text": "The FCM or IB to obtain a copy of the account controller's trading authorization of Written acknowledgment from the customer that such authorization has been given.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-8 (Discretionary Accounts) requires, in the case of accounts controlled by third parties other than by members of the same family, that FCMs and IBs obtain: (1) a copy of the account controller's written trading authorization or an acknowledgment from the customer that the authorization has been given, and (2) an acknowledgment fom the customer that a disclosure document has been received from the account controller or a written statement explaining why a disclosure document is not required."
+        "rationale": "Incorrect. NFA Rule 2-8 (Discretionary Accounts) requires, in the case of accounts controlled by third parties other than by members of the same family, that FCMs and IBs obtain: (1) a copy of the account controller's written trading authorization or an acknowledgment from the customer that the authorization has been given, and (2) an acknowledgment from the customer that a disclosure document has been received from the account controller or a written statement explaining why a disclosure document is not required."
       },
       {
         "id": "c",
         "text": "The FCM or IB to obtain an acknowledgment from the customer that the customer has received either a disclosure document or a written statement from the account controller explaining why the document is not required.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-8 (Discretionary Accounts) requires, in the case of accounts controlled by third parties other than by members of the same family, that FCMs and IBs obtain: (1) a copy of the account controller's written trading authorization or an acknowledgment from the customer that the authorization has been given, and (2) an acknowledgment fom the customer that a disclosure document has been received from the account controller or a written statement explaining why a disclosure document is not required."
+        "rationale": "Incorrect. NFA Rule 2-8 (Discretionary Accounts) requires, in the case of accounts controlled by third parties other than by members of the same family, that FCMs and IBs obtain: (1) a copy of the account controller's written trading authorization or an acknowledgment from the customer that the authorization has been given, and (2) an acknowledgment from the customer that a disclosure document has been received from the account controller or a written statement explaining why a disclosure document is not required."
       },
       {
         "id": "d",
         "text": "Both B and C.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-8 (Discretionary Accounts) requires, in the case of accounts controlled by third parties other than by members of the same family, that FCMs and IBs obtain: (1) a copy of the account controller's written trading authorization or an acknowledgment from the customer that the authorization has been given, and (2) an acknowledgment fom the customer that a disclosure document has been received from the account controller or a written statement explaining why a disclosure document is not required."
+        "rationale": "Correct. NFA Rule 2-8 (Discretionary Accounts) requires, in the case of accounts controlled by third parties other than by members of the same family, that FCMs and IBs obtain: (1) a copy of the account controller's written trading authorization or an acknowledgment from the customer that the authorization has been given, and (2) an acknowledgment from the customer that a disclosure document has been received from the account controller or a written statement explaining why a disclosure document is not required."
       }
     ],
-    "explanation": "NFA Rule 2-8 (Discretionary Accounts) requires, in the case of accounts controlled by third parties other than by members of the same family, that FCMs and IBs obtain: (1) a copy of the account controller's written trading authorization or an acknowledgment from the customer that the authorization has been given, and (2) an acknowledgment fom the customer that a disclosure document has been received from the account controller or a written statement explaining why a disclosure document is not required.",
+    "explanation": "NFA Rule 2-8 (Discretionary Accounts) requires, in the case of accounts controlled by third parties other than by members of the same family, that FCMs and IBs obtain: (1) a copy of the account controller's written trading authorization or an acknowledgment from the customer that the authorization has been given, and (2) an acknowledgment from the customer that a disclosure document has been received from the account controller or a written statement explaining why a disclosure document is not required.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -11185,7 +11185,7 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "discretionary accounts",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 243; source code 10_DI_21.",
-    "reviewStatus": "needs_review",
+    "reviewStatus": "reviewed",
     "extractionConfidence": "high",
     "sourcePageRange": "243",
     "sourceQuestionNumber": 242,
@@ -11207,13 +11207,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CTAs and CPOs who service only high net worth clients known as \"Qualified Eligible Persons\" are exempted from various disclosure, reporting, and recordkeeping requirements."
+        "rationale": "Correct. CTAs and CPOs who service only high net worth clients known as \"Qualified Eligible Persons\" are exempted from various disclosure, reporting, and recordkeeping requirements."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CTAs and CPOs who service only high net worth clients known as \"Qualified Eligible Persons\" are exempted from various disclosure, reporting, and recordkeeping requirements."
+        "rationale": "Incorrect. CTAs and CPOs who service only high net worth clients known as \"Qualified Eligible Persons\" are exempted from various disclosure, reporting, and recordkeeping requirements."
       }
     ],
     "explanation": "CTAs and CPOs who service only high net worth clients known as \"Qualified Eligible Persons\" are exempted from various disclosure, reporting, and recordkeeping requirements.",
@@ -11247,13 +11247,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. A commodity pool includes any investment, trust, syndicate or similar form of enterprise operated for the purpose of trading commodity interests by pooling funds of customers."
+        "rationale": "Correct. A commodity pool includes any investment, trust, syndicate or similar form of enterprise operated for the purpose of trading commodity interests by pooling funds of customers."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: A commodity pool includes any investment, trust, syndicate or similar form of enterprise operated for the purpose of trading commodity interests by pooling funds of customers."
+        "rationale": "Incorrect. A commodity pool includes any investment, trust, syndicate or similar form of enterprise operated for the purpose of trading commodity interests by pooling funds of customers."
       }
     ],
     "explanation": "A commodity pool includes any investment, trust, syndicate or similar form of enterprise operated for the purpose of trading commodity interests by pooling funds of customers.",
@@ -11281,34 +11281,34 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "customer-information",
     "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "Ifa U.S. customer refuses to provide certain of the customer information requested pursuant to NFA Rule 2-30 (Customer Information and Risk Disclosure) the FCM or IB must:",
+    "stem": "If a U.S. customer refuses to provide certain of the customer information requested pursuant to NFA Rule 2-30 (Customer Information and Risk Disclosure) the FCM or IB must:",
     "choices": [
       {
         "id": "a",
         "text": "Refuse to accept the account.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a U.S. customer refuses to provide the fequested information, the NFA member or associate must make a written notation to that effect and may accept the account only upon the approval of an officer or supervisor of the firm. (No such written notation is required in the case of a non-U.S. person.) NOTE: CFTC regulations require FCMs, IBs, and members of exchanges to obtain, at a minimum, the true name and address and the principal occupation or business of the person for whom the account is carried cr introduced."
+        "rationale": "Incorrect. If a U.S. customer refuses to provide the requested information, the NFA member or associate must make a written notation to that effect and may accept the account only upon the approval of an officer or supervisor of the firm. (No such written notation is required in the case of a non-U.S. person.) NOTE: CFTC regulations require FCMs, IBs, and members of exchanges to obtain, at a minimum, the true name and address and the principal occupation or business of the person for whom the account is carried or introduced."
       },
       {
         "id": "b",
         "text": "Make a written notation to that effect and may accept the account only upon the approval of a designated officer of the NFA member firm.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. If a U.S. customer refuses to provide the fequested information, the NFA member or associate must make a written notation to that effect and may accept the account only upon the approval of an officer or supervisor of the firm. (No such written notation is required in the case of a non-U.S. person.) NOTE: CFTC regulations require FCMs, IBs, and members of exchanges to obtain, at a minimum, the true name and address and the principal occupation or business of the person for whom the account is carried cr introduced."
+        "rationale": "Correct. If a U.S. customer refuses to provide the requested information, the NFA member or associate must make a written notation to that effect and may accept the account only upon the approval of an officer or supervisor of the firm. (No such written notation is required in the case of a non-U.S. person.) NOTE: CFTC regulations require FCMs, IBs, and members of exchanges to obtain, at a minimum, the true name and address and the principal occupation or business of the person for whom the account is carried or introduced."
       },
       {
         "id": "c",
         "text": "Provide a specific NFA notice to the customer.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a U.S. customer refuses to provide the fequested information, the NFA member or associate must make a written notation to that effect and may accept the account only upon the approval of an officer or supervisor of the firm. (No such written notation is required in the case of a non-U.S. person.) NOTE: CFTC regulations require FCMs, IBs, and members of exchanges to obtain, at a minimum, the true name and address and the principal occupation or business of the person for whom the account is carried cr introduced."
+        "rationale": "Incorrect. If a U.S. customer refuses to provide the requested information, the NFA member or associate must make a written notation to that effect and may accept the account only upon the approval of an officer or supervisor of the firm. (No such written notation is required in the case of a non-U.S. person.) NOTE: CFTC regulations require FCMs, IBs, and members of exchanges to obtain, at a minimum, the true name and address and the principal occupation or business of the person for whom the account is carried or introduced."
       },
       {
         "id": "d",
         "text": "Take no special action.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: If a U.S. customer refuses to provide the fequested information, the NFA member or associate must make a written notation to that effect and may accept the account only upon the approval of an officer or supervisor of the firm. (No such written notation is required in the case of a non-U.S. person.) NOTE: CFTC regulations require FCMs, IBs, and members of exchanges to obtain, at a minimum, the true name and address and the principal occupation or business of the person for whom the account is carried cr introduced."
+        "rationale": "Incorrect. If a U.S. customer refuses to provide the requested information, the NFA member or associate must make a written notation to that effect and may accept the account only upon the approval of an officer or supervisor of the firm. (No such written notation is required in the case of a non-U.S. person.) NOTE: CFTC regulations require FCMs, IBs, and members of exchanges to obtain, at a minimum, the true name and address and the principal occupation or business of the person for whom the account is carried or introduced."
       }
     ],
-    "explanation": "If a U.S. customer refuses to provide the fequested information, the NFA member or associate must make a written notation to that effect and may accept the account only upon the approval of an officer or supervisor of the firm. (No such written notation is required in the case of a non-U.S. person.) NOTE: CFTC regulations require FCMs, IBs, and members of exchanges to obtain, at a minimum, the true name and address and the principal occupation or business of the person for whom the account is carried cr introduced.",
+    "explanation": "If a U.S. customer refuses to provide the requested information, the NFA member or associate must make a written notation to that effect and may accept the account only upon the approval of an officer or supervisor of the firm. (No such written notation is required in the case of a non-U.S. person.) NOTE: CFTC regulations require FCMs, IBs, and members of exchanges to obtain, at a minimum, the true name and address and the principal occupation or business of the person for whom the account is carried or introduced.",
     "sourceType": "imported",
     "active": true,
     "regulatoryFocus": [
@@ -11339,25 +11339,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "One of the sponsors agrees to take full responsibility for the AP's employment activities.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In cases of dual affiliation of an AP, each sponsor must acknowledge that in addition to each sponsor's responsibility to supervise such AP, each sponsor is jointly and severally responsible for the AP's conduct."
+        "rationale": "Incorrect. In cases of dual affiliation of an AP, each sponsor must acknowledge that in addition to each sponsor's responsibility to supervise such AP, each sponsor is jointly and severally responsible for the AP's conduct."
       },
       {
         "id": "b",
         "text": "The original sponsor agrees to take full responsibility.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In cases of dual affiliation of an AP, each sponsor must acknowledge that in addition to each sponsor's responsibility to supervise such AP, each sponsor is jointly and severally responsible for the AP's conduct."
+        "rationale": "Incorrect. In cases of dual affiliation of an AP, each sponsor must acknowledge that in addition to each sponsor's responsibility to supervise such AP, each sponsor is jointly and severally responsible for the AP's conduct."
       },
       {
         "id": "c",
         "text": "Each sponsor accepts joint and several responsibility.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. In cases of dual affiliation of an AP, each sponsor must acknowledge that in addition to each sponsor's responsibility to supervise such AP, each sponsor is jointly and severally responsible for the AP's conduct."
+        "rationale": "Correct. In cases of dual affiliation of an AP, each sponsor must acknowledge that in addition to each sponsor's responsibility to supervise such AP, each sponsor is jointly and severally responsible for the AP's conduct."
       },
       {
         "id": "d",
         "text": "The NFA grants an exemption from the dual affiliation prohibition.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: In cases of dual affiliation of an AP, each sponsor must acknowledge that in addition to each sponsor's responsibility to supervise such AP, each sponsor is jointly and severally responsible for the AP's conduct."
+        "rationale": "Incorrect. In cases of dual affiliation of an AP, each sponsor must acknowledge that in addition to each sponsor's responsibility to supervise such AP, each sponsor is jointly and severally responsible for the AP's conduct."
       }
     ],
     "explanation": "In cases of dual affiliation of an AP, each sponsor must acknowledge that in addition to each sponsor's responsibility to supervise such AP, each sponsor is jointly and severally responsible for the AP's conduct.",
@@ -11390,25 +11390,25 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Prior to the opening of an account at an FCM or IB.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require CTAs directing clients' trading accounts to deliver to a prospective client a disclosure document for the trading program \"at or before the time it engages in the solicitation or enters into the agreement (whichever is earlier)\" to direct a client's account."
+        "rationale": "Incorrect. CFTC regulations require CTAs directing clients' trading accounts to deliver to a prospective client a disclosure document for the trading program \"at or before the time it engages in the solicitation or enters into the agreement (whichever is earlier)\" to direct a client's account."
       },
       {
         "id": "b",
         "text": "Before entering into an agreement or engaging in the solicitation of business.",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. CFTC regulations require CTAs directing clients' trading accounts to deliver to a prospective client a disclosure document for the trading program \"at or before the time it engages in the solicitation or enters into the agreement (whichever is earlier)\" to direct a client's account."
+        "rationale": "Correct. CFTC regulations require CTAs directing clients' trading accounts to deliver to a prospective client a disclosure document for the trading program \"at or before the time it engages in the solicitation or enters into the agreement (whichever is earlier)\" to direct a client's account."
       },
       {
         "id": "c",
         "text": "Prior to execution of the first order.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require CTAs directing clients' trading accounts to deliver to a prospective client a disclosure document for the trading program \"at or before the time it engages in the solicitation or enters into the agreement (whichever is earlier)\" to direct a client's account."
+        "rationale": "Incorrect. CFTC regulations require CTAs directing clients' trading accounts to deliver to a prospective client a disclosure document for the trading program \"at or before the time it engages in the solicitation or enters into the agreement (whichever is earlier)\" to direct a client's account."
       },
       {
         "id": "d",
         "text": "Within 30 days of the initial solicitation of the account.",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: CFTC regulations require CTAs directing clients' trading accounts to deliver to a prospective client a disclosure document for the trading program \"at or before the time it engages in the solicitation or enters into the agreement (whichever is earlier)\" to direct a client's account."
+        "rationale": "Incorrect. CFTC regulations require CTAs directing clients' trading accounts to deliver to a prospective client a disclosure document for the trading program \"at or before the time it engages in the solicitation or enters into the agreement (whichever is earlier)\" to direct a client's account."
       }
     ],
     "explanation": "CFTC regulations require CTAs directing clients' trading accounts to deliver to a prospective client a disclosure document for the trading program \"at or before the time it engages in the solicitation or enters into the agreement (whichever is earlier)\" to direct a client's account.",
@@ -11441,13 +11441,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Truc",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: NFA Rule 2-35 (CPO/CTA Disclosure Documents) requires that Disclosure Documents must be as clear and concise as possible, using plain English principles."
+        "rationale": "Incorrect. NFA Rule 2-35 (CPO/CTA Disclosure Documents) requires that Disclosure Documents must be as clear and concise as possible, using plain English principles."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. NFA Rule 2-35 (CPO/CTA Disclosure Documents) requires that Disclosure Documents must be as clear and concise as possible, using plain English principles."
+        "rationale": "Correct. NFA Rule 2-35 (CPO/CTA Disclosure Documents) requires that Disclosure Documents must be as clear and concise as possible, using plain English principles."
       }
     ],
     "explanation": "NFA Rule 2-35 (CPO/CTA Disclosure Documents) requires that Disclosure Documents must be as clear and concise as possible, using plain English principles.",
@@ -11481,13 +11481,13 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Correct according to the source explanation. Copies of CTA and CPO Disclosure Documents must be submitted to the NFA and a letter of acceptance received back before the documents may be used."
+        "rationale": "Correct. Copies of CTA and CPO Disclosure Documents must be submitted to the NFA and a letter of acceptance received back before the documents may be used."
       },
       {
         "id": "b",
         "text": "False",
         "isCorrect": false,
-        "rationale": "This is not the source-indicated answer. Review the explanation: Copies of CTA and CPO Disclosure Documents must be submitted to the NFA and a letter of acceptance received back before the documents may be used."
+        "rationale": "Incorrect. Copies of CTA and CPO Disclosure Documents must be submitted to the NFA and a letter of acceptance received back before the documents may be used."
       }
     ],
     "explanation": "Copies of CTA and CPO Disclosure Documents must be submitted to the NFA and a letter of acceptance received back before the documents may be used.",
