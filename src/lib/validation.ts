@@ -1,9 +1,29 @@
 import { allSubtopics, getTopic, syllabus } from "../data/syllabus";
-import { DIFFICULTIES, SECTION_IDS, type ImportValidationReport, type Question, type ValidationIssue } from "../types";
+import {
+  DIFFICULTIES,
+  SECTION_IDS,
+  type ImportValidationReport,
+  type IssueType,
+  type QualityStatus,
+  type Question,
+  type ValidationIssue
+} from "../types";
 
 const bannedChoicePattern = /\b(all of the above|none of the above)\b/i;
 const answerLetterReferencePattern =
   /\b(both|either|neither)\s+[ABCDE]\b|\b[ABCDE]\s*(and|or|&)\s*[ABCDE]\b|\banswers?\s+[ABCDE]\b/i;
+const qualityStatuses: QualityStatus[] = ["verified", "needs_review", "rejected"];
+const issueTypes: IssueType[] = [
+  "OCR/transcription",
+  "wrong_answer",
+  "ambiguous",
+  "outdated_rule",
+  "weak_explanation",
+  "bad_distractors",
+  "duplicate",
+  "wrong_taxonomy",
+  "calculation_error"
+];
 
 export function validateQuestion(question: Question): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
@@ -78,6 +98,12 @@ export function validateQuestion(question: Question): ValidationIssue[] {
   if (!question.explanation?.trim()) add("error", "explanation", "Detailed explanation is required.");
   if (!["sample", "rewritten", "imported", "user-authored"].includes(question.sourceType)) {
     add("error", "sourceType", "Source type must be sample, rewritten, imported, or user-authored.");
+  }
+  if (!question.qualityStatus || !qualityStatuses.includes(question.qualityStatus)) {
+    add("error", "qualityStatus", "Quality status must be verified, needs_review, or rejected.");
+  }
+  if (question.issueTypes?.some((issueType) => !issueTypes.includes(issueType))) {
+    add("error", "issueTypes", "Issue types must use the approved quality taxonomy.");
   }
 
   return issues;

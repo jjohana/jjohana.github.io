@@ -4,6 +4,7 @@ import { marketKnowledgeQuestions } from "./marketQuestions";
 import { s3MarketDocxQuestions } from "./s3MarketDocxQuestions";
 import { regulatoryPdfQuestions } from "./s3RegulatoryPdfQuestions";
 import { regulatoryRemodelQuestions } from "./regulatoryQuestions";
+import { applyQuestionQualityDefaults } from "../lib/quality";
 
 type PrivateQuestionModule = {
   privateRegulatoryQuestions?: Question[];
@@ -570,4 +571,4 @@ export const sampleQuestions: Question[] = uniqueQuestions([
   ...regulatoryRemodelQuestions,
   ...regulatoryPdfQuestions,
   ...privateRegulatoryQuestions
-]);
+]).map(applyQuestionQualityDefaults);

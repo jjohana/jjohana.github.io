@@ -34,6 +34,11 @@ function q(params: {
     explanation: params.explanation,
     sourceType: "user-authored",
     active: true,
+    qualityStatus: "verified",
+    issueTypes: [],
+    qualityNotes: "Original authored Market Knowledge question reviewed by automated quality gates.",
+    verifiedAt: createdAt,
+    verifiedBy: "Codex authored-question audit",
     createdAt
   };
 }

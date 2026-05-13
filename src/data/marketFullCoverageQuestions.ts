@@ -36,6 +36,11 @@ function q(spec: CoverageSpec): Question {
     explanation: spec.explanation,
     sourceType: "user-authored",
     active: true,
+    qualityStatus: "verified",
+    issueTypes: [],
+    qualityNotes: "Original authored Market Knowledge coverage question reviewed by automated quality gates.",
+    verifiedAt: createdAt,
+    verifiedBy: "Codex authored-question audit",
     createdAt
   };
 }

@@ -8,6 +8,18 @@ export type DifficultyFilter = Difficulty | "mixed";
 export type QuestionType = "multiple_choice" | "true_false";
 export type SourceType = "sample" | "rewritten" | "imported" | "user-authored";
 export type SourceBankFilter = "all" | "s3-imported" | "s3-market-docx" | "s3-regulatory-pdf" | "authored";
+export type QualityStatus = "verified" | "needs_review" | "rejected";
+export type QualityFilter = "verified" | "usable" | "needs_review" | "rejected" | "all";
+export type IssueType =
+  | "OCR/transcription"
+  | "wrong_answer"
+  | "ambiguous"
+  | "outdated_rule"
+  | "weak_explanation"
+  | "bad_distractors"
+  | "duplicate"
+  | "wrong_taxonomy"
+  | "calculation_error";
 export type FeedbackMode = "immediate" | "delayed";
 export type SessionType = "practice" | "mock" | "mistakes";
 export type SessionStatus = "in_progress" | "completed";
@@ -55,6 +67,11 @@ export interface Question {
   concept?: string;
   sourceNote?: string;
   reviewStatus?: "reviewed" | "needs_review";
+  qualityStatus?: QualityStatus;
+  qualityNotes?: string;
+  verifiedAt?: string;
+  verifiedBy?: string;
+  issueTypes?: IssueType[];
   extractionConfidence?: "high" | "medium" | "low";
   sourcePageRange?: string;
   sourceQuestionNumber?: number;
@@ -92,6 +109,7 @@ export interface SessionFilters {
   prioritizeWeak?: boolean;
   regulatoryFocus?: string;
   sourceBank?: SourceBankFilter;
+  qualityStatus?: QualityFilter;
 }
 
 export interface Session {
@@ -149,6 +167,9 @@ export interface CoverageNode {
   rewritten: number;
   imported: number;
   userAuthored: number;
+  verified: number;
+  needsReview: number;
+  rejected: number;
   easy: number;
   medium: number;
   hard: number;

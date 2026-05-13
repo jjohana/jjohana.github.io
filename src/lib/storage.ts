@@ -1,5 +1,6 @@
 import { sampleQuestions } from "../data/questions";
 import type { AppState, Question, UserSettings } from "../types";
+import { applyQuestionQualityDefaults } from "./quality";
 
 export const STORAGE_KEY = "series3-qcm-state-v1";
 
@@ -22,9 +23,10 @@ export function defaultState(): AppState {
 function mergeQuestions(stored: Question[] | undefined): Question[] {
   const byId = new Map(sampleQuestions.map((question) => [question.id, question]));
   for (const question of stored ?? []) {
-    byId.set(question.id, question);
+    const seeded = byId.get(question.id);
+    byId.set(question.id, applyQuestionQualityDefaults({ ...seeded, ...question }));
   }
-  return [...byId.values()];
+  return [...byId.values()].map(applyQuestionQualityDefaults);
 }
 
 export function loadState(): AppState {

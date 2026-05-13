@@ -1,6 +1,7 @@
 import { getSection, getTopic, syllabus } from "../data/syllabus";
-import type { ImportValidationReport, Question, SectionId, ValidationIssue } from "../types";
+import type { ImportValidationReport, IssueType, QualityStatus, Question, SectionId, ValidationIssue } from "../types";
 import { makeId } from "./prng";
+import { applyQuestionQualityDefaults } from "./quality";
 import { validateQuestion } from "./validation";
 
 function normalizeSectionId(value: string): SectionId {
@@ -26,8 +27,10 @@ function normalizeQuestion(raw: Record<string, unknown>, rowNumber: number): Que
   const regulatoryFocusRaw = raw.regulatoryFocus ?? raw.regulatory_focus;
   const reviewStatus = String(raw.reviewStatus ?? raw.review_status ?? "");
   const extractionConfidence = String(raw.extractionConfidence ?? raw.extraction_confidence ?? "");
+  const qualityStatus = String(raw.qualityStatus ?? raw.quality_status ?? "");
+  const issueTypesRaw = raw.issueTypes ?? raw.issue_types;
 
-  return {
+  return applyQuestionQualityDefaults({
     id: String(raw.id ?? makeId(`import-row-${rowNumber}`)),
     sectionId,
     topicId: String(raw.topicId ?? raw.topic ?? ""),
@@ -43,6 +46,17 @@ function normalizeQuestion(raw: Record<string, unknown>, rowNumber: number): Que
     concept: raw.concept === undefined ? undefined : String(raw.concept),
     sourceNote: raw.sourceNote === undefined && raw.source_note === undefined ? undefined : String(raw.sourceNote ?? raw.source_note),
     reviewStatus: reviewStatus === "reviewed" || reviewStatus === "needs_review" ? reviewStatus : undefined,
+    qualityStatus:
+      qualityStatus === "verified" || qualityStatus === "needs_review" || qualityStatus === "rejected"
+        ? (qualityStatus as QualityStatus)
+        : "needs_review",
+    qualityNotes:
+      raw.qualityNotes === undefined && raw.quality_notes === undefined
+        ? "User-imported question; requires manual content review before certification."
+        : String(raw.qualityNotes ?? raw.quality_notes),
+    verifiedAt: raw.verifiedAt === undefined && raw.verified_at === undefined ? undefined : String(raw.verifiedAt ?? raw.verified_at),
+    verifiedBy: raw.verifiedBy === undefined && raw.verified_by === undefined ? undefined : String(raw.verifiedBy ?? raw.verified_by),
+    issueTypes: Array.isArray(issueTypesRaw) ? issueTypesRaw.map(String) as IssueType[] : undefined,
     extractionConfidence:
       extractionConfidence === "high" || extractionConfidence === "medium" || extractionConfidence === "low"
         ? extractionConfidence
@@ -58,7 +72,7 @@ function normalizeQuestion(raw: Record<string, unknown>, rowNumber: number): Que
     sourceCode: raw.sourceCode === undefined && raw.source_code === undefined ? undefined : String(raw.sourceCode ?? raw.source_code),
     shuffleDisabled: Boolean(raw.shuffleDisabled ?? raw.shuffle_disabled),
     createdAt: new Date().toISOString()
-  };
+  });
 }
 
 export function parseJsonlQuestions(text: string): { questions: Question[]; report: ImportValidationReport } {
@@ -181,6 +195,8 @@ export function questionsToCsv(questions: Question[]): string {
     "subtopicId",
     "difficulty",
     "questionType",
+    "qualityStatus",
+    "issueTypes",
     "stem",
     "explanation",
     "choice1",
@@ -205,6 +221,8 @@ export function questionsToCsv(questions: Question[]): string {
       question.subtopicId,
       question.difficulty,
       question.questionType,
+      question.qualityStatus ?? "",
+      question.issueTypes?.join(";") ?? "",
       question.stem,
       question.explanation,
       ...choices.flatMap((choice) => [choice?.text ?? "", choice?.isCorrect ?? "", choice?.rationale ?? ""])
@@ -232,6 +250,8 @@ export function questionBankTemplateJsonl(): string {
       { id: "d", text: "-6.92", isCorrect: false, rationale: "This uses the sum, not the difference." }
     ],
     explanation: "Basis equals cash price minus futures price.",
+    qualityStatus: "needs_review",
+    qualityNotes: "Template import row; certify after review.",
     active: true
   });
 }

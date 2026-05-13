@@ -35,7 +35,8 @@ describe("question selection", () => {
     const selected = filterQuestionPool(sampleQuestions, {
       sectionId: "market_knowledge",
       sourceBank: "s3-market-docx",
-      difficulty: "mixed"
+      difficulty: "mixed",
+      qualityStatus: "all"
     });
 
     expect(selected.length).toBe(444);
@@ -46,7 +47,8 @@ describe("question selection", () => {
     const selected = filterQuestionPool(sampleQuestions, {
       sectionId: "us_regulations",
       sourceBank: "s3-regulatory-pdf",
-      difficulty: "mixed"
+      difficulty: "mixed",
+      qualityStatus: "usable"
     });
 
     expect(selected.length).toBe(242);
@@ -56,19 +58,38 @@ describe("question selection", () => {
   it("prioritizes S3 imported questions for practice and mock selections", () => {
     const practice = selectPracticeQuestions(
       sampleQuestions,
-      { sectionId: "market_knowledge", topicId: "hedging-basis", difficulty: "mixed", questionCount: 10 },
+      { sectionId: "market_knowledge", topicId: "hedging-basis", difficulty: "mixed", questionCount: 10, qualityStatus: "usable" },
       "practice"
     );
-    const mock = selectMockQuestions(sampleQuestions, "mock", 120, { sourceBank: "s3-imported" });
+    const mock = selectMockQuestions(sampleQuestions, "mock", 120, { sourceBank: "s3-imported", qualityStatus: "usable" });
 
     expect(practice.every(isS3ImportedQuestion)).toBe(true);
     expect(mock.every(isS3ImportedQuestion)).toBe(true);
   });
 
   it("can generate a mock from authored and rewritten questions only", () => {
-    const mock = selectMockQuestions(sampleQuestions, "mock", 120, { sourceBank: "authored" });
+    const mock = selectMockQuestions(sampleQuestions, "mock", 120, { sourceBank: "authored", qualityStatus: "verified" });
 
     expect(mock).toHaveLength(120);
     expect(mock.every((question) => !isS3ImportedQuestion(question))).toBe(true);
+  });
+
+  it("excludes rejected questions from default practice and mock selection", () => {
+    const rejected = {
+      ...sampleQuestions[0],
+      id: "rejected-selection-test",
+      qualityStatus: "rejected" as const,
+      issueTypes: ["duplicate" as const]
+    };
+    const pool = [rejected, ...sampleQuestions];
+    const practice = selectPracticeQuestions(pool, { difficulty: "mixed", questionCount: 20 }, "practice");
+    const mock = selectMockQuestions(pool, "mock", 120);
+    const rejectedPractice = selectPracticeQuestions(pool, { difficulty: "mixed", questionCount: 20, qualityStatus: "rejected" }, "practice");
+    const rejectedMock = selectMockQuestions(pool, "mock", 120, { qualityStatus: "rejected" });
+
+    expect(practice.some((question) => question.id === rejected.id)).toBe(false);
+    expect(mock.some((question) => question.id === rejected.id)).toBe(false);
+    expect(rejectedPractice).toHaveLength(0);
+    expect(rejectedMock).toHaveLength(0);
   });
 });

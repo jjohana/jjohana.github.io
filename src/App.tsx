@@ -30,6 +30,7 @@ import {
   questionsToJsonl
 } from "./lib/importExport";
 import { makeId } from "./lib/prng";
+import { inferredQualityStatus, ISSUE_TYPE_LABELS, ISSUE_TYPE_OPTIONS, QUALITY_FILTER_OPTIONS, qualitySummary } from "./lib/quality";
 import { scoreSession, buildTopicBreakdown } from "./lib/scoring";
 import {
   filterQuestionPool,
@@ -49,6 +50,8 @@ import type {
   DifficultyFilter,
   FeedbackMode,
   ImportValidationReport,
+  IssueType,
+  QualityFilter,
   Question,
   SectionId,
   Session,
@@ -166,7 +169,8 @@ function App() {
     questionCount: DEFAULT_SETTINGS.defaultDrillSize,
     prioritizeWeak: false,
     regulatoryFocus: "all",
-    sourceBank: "s3-imported"
+    sourceBank: "s3-imported",
+    qualityStatus: "verified"
   });
   const [bankFilters, setBankFilters] = useState<SessionFilters>({
     sectionId: undefined,
@@ -174,14 +178,17 @@ function App() {
     subtopicId: "",
     difficulty: "mixed",
     regulatoryFocus: "all",
-    sourceBank: "s3-imported"
+    sourceBank: "s3-imported",
+    qualityStatus: "usable"
   });
   const [mockFilters, setMockFilters] = useState<SessionFilters>({
     difficulty: "mixed",
-    sourceBank: "s3-imported"
+    sourceBank: "s3-imported",
+    qualityStatus: "verified"
   });
   const [bankSearch, setBankSearch] = useState("");
   const [bankStatus, setBankStatus] = useState("all");
+  const [bankIssueType, setBankIssueType] = useState<IssueType | "all">("all");
   const [importText, setImportText] = useState("");
   const [importFormat, setImportFormat] = useState<"jsonl" | "csv">("jsonl");
   const [importReport, setImportReport] = useState<ImportValidationReport | null>(null);
@@ -483,6 +490,8 @@ function App() {
             setSearch={setBankSearch}
             status={bankStatus}
             setStatus={setBankStatus}
+            issueType={bankIssueType}
+            setIssueType={setBankIssueType}
             mistakeIds={mistakeIds}
             importText={importText}
             setImportText={setImportText}
@@ -582,6 +591,7 @@ function Dashboard({
   const totalAnswers = state.sessions.reduce((sum, session) => sum + session.answers.length, 0);
   const completed = state.sessions.filter((session) => session.status === "completed").length;
   const activeQuestions = state.questions.filter((question) => question.active).length;
+  const quality = qualitySummary(state.questions);
   const sectionRows = coverage.sections;
 
   return (
@@ -591,6 +601,13 @@ function Dashboard({
         <Metric label="Answered" value={totalAnswers} detail="all sessions" />
         <Metric label="Completed sessions" value={completed} detail="drills and exams" />
         <Metric label="Coverage gaps" value={coverage.gaps.length} detail="empty subtopics" />
+      </div>
+
+      <div className="stats-grid full">
+        <Metric label="Verified" value={quality.verified} detail="default drill/mock pool" />
+        <Metric label="Needs review" value={quality.needs_review} detail="optional study pool" />
+        <Metric label="Rejected" value={quality.rejected} detail="blocked from sessions" />
+        <Metric label="Quality coverage" value={`${Math.round((quality.verified / Math.max(1, activeQuestions)) * 100)}%`} detail="active bank verified" />
       </div>
 
       <div className="panel span-7">
@@ -680,6 +697,8 @@ function QcmBank({
   setSearch,
   status,
   setStatus,
+  issueType,
+  setIssueType,
   mistakeIds,
   importText,
   setImportText,
@@ -697,6 +716,8 @@ function QcmBank({
   setSearch: (value: string) => void;
   status: string;
   setStatus: (value: string) => void;
+  issueType: IssueType | "all";
+  setIssueType: (value: IssueType | "all") => void;
   mistakeIds: Set<string>;
   importText: string;
   setImportText: (value: string) => void;
@@ -721,9 +742,10 @@ function QcmBank({
           const answered = state.sessions.some((session) => session.answers.some((answer) => answer.questionId === question.id));
           if (answered) return false;
         }
+        if (issueType !== "all" && !question.issueTypes?.includes(issueType)) return false;
         return true;
       });
-  }, [mistakeIds, scopedQuestions, search, state.sessions, status]);
+  }, [issueType, mistakeIds, scopedQuestions, search, state.sessions, status]);
 
   const scopedCoverage = useMemo(() => buildCoverageReport(scopedQuestions, state.sessions), [scopedQuestions, state.sessions]);
   const scopedQuestionIds = useMemo(() => new Set(scopedQuestions.map((question) => question.id)), [scopedQuestions]);
@@ -744,6 +766,7 @@ function QcmBank({
         <ScopeSelector filters={filters} setFilters={setFilters} includeAllSections includeAllTopics includeAllSubtopics />
         <div className="filter-stack">
           <SourceBankSelector filters={filters} setFilters={setFilters} />
+          <QualitySelector filters={filters} setFilters={setFilters} allowRejected />
           <label>
             Difficulty
             <select
@@ -762,6 +785,17 @@ function QcmBank({
               <option value="all">All active questions</option>
               <option value="mistakes">Mistakes</option>
               <option value="unanswered">Never answered</option>
+            </select>
+          </label>
+          <label>
+            Issue type
+            <select value={issueType} onChange={(event) => setIssueType(event.target.value as IssueType | "all")}>
+              <option value="all">All issue types</option>
+              {ISSUE_TYPE_OPTIONS.map((option) => (
+                <option key={option} value={option}>
+                  {ISSUE_TYPE_LABELS[option]}
+                </option>
+              ))}
             </select>
           </label>
           {filters.sectionId === "us_regulations" && (
@@ -817,11 +851,18 @@ function QcmBank({
                 <span className={`pill ${question.sectionId === "market_knowledge" ? "blue" : "green"}`}>{getSection(question.sectionId).shortTitle}</span>
                 <span className="pill">{question.difficulty}</span>
                 <span className="pill">{questionSourceBankLabel(question)}</span>
+                <span className={`pill ${inferredQualityStatus(question) === "verified" ? "green" : inferredQualityStatus(question) === "rejected" ? "red" : "amber"}`}>
+                  {inferredQualityStatus(question).replace("_", " ")}
+                </span>
                 {question.shuffleDisabled && <span className="pill amber">fixed order</span>}
                 {question.sourceQuestionNumber && <span className="pill">PDF #{question.sourceQuestionNumber}</span>}
+                {question.issueTypes?.map((issue) => (
+                  <span className="pill amber" key={issue}>{ISSUE_TYPE_LABELS[issue]}</span>
+                ))}
               </div>
               <h3>{question.stem}</h3>
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>
+              {question.qualityNotes && <p className="muted">{question.qualityNotes}</p>}
               <details>
                 <summary>Show answer and rationales</summary>
                 <ul className="rationale-list">
@@ -929,7 +970,7 @@ function RegulatoryOverview({
   const unanswered = coverage.subtopics.filter(
     (node) => node.sectionId === "us_regulations" && node.total > 0 && node.answered === 0
   ).length;
-  const needsReview = regulatoryQuestions.filter((question) => question.reviewStatus === "needs_review").length;
+  const needsReview = regulatoryQuestions.filter((question) => inferredQualityStatus(question) === "needs_review").length;
   const focusCounts = REGULATORY_FOCUS_OPTIONS.filter((option) => option.value !== "all").map((option) => ({
     ...option,
     count: regulatoryQuestions.filter((question) => question.regulatoryFocus?.includes(option.value)).length
@@ -994,6 +1035,7 @@ function Practice({
         <ScopeSelector filters={filters} setFilters={setFilters} includeAllSections includeAllTopics includeAllSubtopics />
         <div className="filter-stack">
           <SourceBankSelector filters={filters} setFilters={setFilters} />
+          <QualitySelector filters={filters} setFilters={setFilters} />
           <label>
             Difficulty
             <select
@@ -1073,6 +1115,9 @@ function Practice({
             <article className="question-card" key={question.id}>
               <span className="pill">{question.difficulty}</span>
               <span className="pill">{questionSourceBankLabel(question)}</span>
+              <span className={`pill ${inferredQualityStatus(question) === "verified" ? "green" : "amber"}`}>
+                {inferredQualityStatus(question).replace("_", " ")}
+              </span>
               <h3>{question.stem}</h3>
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>
             </article>
@@ -1112,10 +1157,14 @@ function MockExam({
         </div>
         <div className="filter-stack mock-filter-stack">
           <SourceBankSelector filters={filters} setFilters={setFilters} scopeOnSpecificBank={false} />
+          <QualitySelector filters={filters} setFilters={setFilters} />
         </div>
         <div className={fullMockReady ? "report-box mock-source-ready" : "report-box mock-source-warning"}>
           <strong>{sourceLabel}</strong>
           <span>{unique} matching active QCMs will be used for mock selection.</span>
+          {filters.qualityStatus === "verified" && unique < 120 && (
+            <span>There are fewer than 120 verified questions in this exact source filter. Include needs-review questions only if you accept audit risk.</span>
+          )}
           {!fullMockReady && <span>For a full Series 3 mock, choose a source with both Market Knowledge and U.S. Regulations.</span>}
         </div>
         <div className="check-list">
@@ -1167,7 +1216,7 @@ function Mistakes({
   setBankFilters: (filters: SessionFilters) => void;
   setView: (view: View) => void;
 }) {
-  const questions = state.questions.filter((question) => mistakeIds.has(question.id));
+  const questions = state.questions.filter((question) => mistakeIds.has(question.id) && inferredQualityStatus(question) !== "rejected");
 
   return (
     <section className="content-grid">
@@ -1279,6 +1328,9 @@ function SessionScreen({
           <span className="pill">{subtopicLabel(question.topicId, question.subtopicId)}</span>
           <span className="pill">{question.difficulty}</span>
           <span className="pill">{questionSourceBankLabel(question)}</span>
+          <span className={`pill ${inferredQualityStatus(question) === "verified" ? "green" : "amber"}`}>
+            {inferredQualityStatus(question).replace("_", " ")}
+          </span>
           {sessionQuestion.isExperimental && <span className="pill amber">experimental</span>}
         </div>
 
@@ -1863,6 +1915,35 @@ function SourceBankSelector({
   );
 }
 
+function QualitySelector({
+  filters,
+  setFilters,
+  allowRejected = false
+}: {
+  filters: SessionFilters;
+  setFilters: (filters: SessionFilters) => void;
+  allowRejected?: boolean;
+}) {
+  const options = allowRejected
+    ? QUALITY_FILTER_OPTIONS
+    : QUALITY_FILTER_OPTIONS.filter((option) => option.value !== "rejected" && option.value !== "all");
+  return (
+    <label>
+      Quality status
+      <select
+        value={filters.qualityStatus ?? "verified"}
+        onChange={(event) => setFilters({ ...filters, qualityStatus: event.target.value as QualityFilter })}
+      >
+        {options.map((option) => (
+          <option key={option.value} value={option.value}>
+            {option.label}
+          </option>
+        ))}
+      </select>
+    </label>
+  );
+}
+
 function CoverageMatrix({
   coverage,
   compact
@@ -1884,6 +1965,8 @@ function CoverageMatrix({
             <span>{node.sample} sample</span>
             <span>{node.rewritten} rewritten</span>
             <span>{node.imported} imported</span>
+            <span>{node.verified} verified</span>
+            <span>{node.needsReview} review</span>
             <span>{node.accuracy === null ? "no accuracy" : `${node.accuracy}%`}</span>
           </div>
         </div>

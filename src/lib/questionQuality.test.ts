@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { sampleQuestions } from "../data/questions";
 import type { Question } from "../types";
+import { inferredQualityStatus } from "./quality";
+import { filterQuestionPool } from "./selection";
 import { validateQuestionBank } from "./validation";
 
 const visibleQuestionFields = (question: Question) => [
@@ -18,6 +20,7 @@ const ocrArtifactPatterns = [
   /[\uFFFD\u20AC\u2022_{}]/,
   /source-indicated|not parsed from OCR|Review the explanation/i,
   /\b(?:fritures|fttures|underlymg|dellvery|clellvery|speclfied|volatillty|speculatlon)\b/i,
+  /\b(?:knoum|classlfy|cmdes|mstmment|mstmt|exerctsmg|vatymg|prevallmg)\b/i,
   /\b(?:wofth|wolth|wotth|wofih|penod|carnes|dissimilant\w*|commodlty|instmment\w*)\b/i,
   /\b(?:benveen|Marein|intermet|feference\w*|ofthe|ofthese|Treasuty|addltlonal)\b/i,
   /\b(?:margm|margtn|mamtam|clifference|clifferent|posltlon|positlon|retum|equlty)\b/i,
@@ -61,6 +64,21 @@ describe("published question quality", () => {
       .map((question) => `${question.id}: ${question.reviewStatus ?? "missing"} / ${question.extractionConfidence ?? "missing"}`);
 
     expect(findings).toEqual([]);
+  });
+
+  it("assigns a quality status to every active question", () => {
+    const findings = activeQuestions
+      .filter((question) => !["verified", "needs_review", "rejected"].includes(inferredQualityStatus(question)))
+      .map((question) => question.id);
+
+    expect(findings).toEqual([]);
+  });
+
+  it("excludes rejected questions from the default session pool", () => {
+    const pool = filterQuestionPool(activeQuestions, { difficulty: "mixed" });
+    const rejectedIds = pool.filter((question) => inferredQualityStatus(question) === "rejected").map((question) => question.id);
+
+    expect(rejectedIds).toEqual([]);
   });
 
   it("publishes only structurally valid active questions", () => {

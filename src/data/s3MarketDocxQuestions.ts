@@ -3921,30 +3921,30 @@ export const s3MarketDocxQuestions: Question[] = [
     "choices": [
       {
         "id": "a",
-        "text": "The net of deposits: and realized profits and losses in a futures account.",
+        "text": "Only the account's cash balance from deposits, withdrawals, and realized profits or losses.",
         "isCorrect": false,
-        "rationale": "Incorrect. Equity is the sum of a futures account's cash balance (the net of deposits: withdrawals and realized profits and losses) and unrealized profits and losses (the net status of contracts currently open and marked to market). Equity can be defined as the net value of a futures account through each day's settlement price Also knoum as \"trader's capital:\" it is 'What the account would be worth if all positions were offset at the settlement prices: although equity does not usually account for commissions that may be owed but not yet collected"
+        "rationale": "Incorrect. Cash balance alone is incomplete. Futures account equity equals the account cash balance plus unrealized profits or losses on open positions after they are marked to market."
       },
       {
         "id": "b",
         "text": "Margin funds available to margin additional positions.",
         "isCorrect": false,
-        "rationale": "Incorrect. Equity is the sum of a futures account's cash balance (the net of deposits: withdrawals and realized profits and losses) and unrealized profits and losses (the net status of contracts currently open and marked to market). Equity can be defined as the net value of a futures account through each day's settlement price Also knoum as \"trader's capital:\" it is 'What the account would be worth if all positions were offset at the settlement prices: although equity does not usually account for commissions that may be owed but not yet collected"
+        "rationale": "Incorrect. Funds available for new positions are a margin-availability concept. Equity is the net marked-to-market value of the account."
       },
       {
         "id": "c",
         "text": "The net status of contracts currently open and marked to market.",
         "isCorrect": false,
-        "rationale": "Incorrect. Equity is the sum of a futures account's cash balance (the net of deposits: withdrawals and realized profits and losses) and unrealized profits and losses (the net status of contracts currently open and marked to market). Equity can be defined as the net value of a futures account through each day's settlement price Also knoum as \"trader's capital:\" it is 'What the account would be worth if all positions were offset at the settlement prices: although equity does not usually account for commissions that may be owed but not yet collected"
+        "rationale": "Incorrect. Unrealized gains or losses on open contracts are only one component of equity; the account cash balance must also be included."
       },
       {
         "id": "d",
-        "text": "The sum of A and C.",
+        "text": "The account cash balance plus unrealized profits or losses on open contracts.",
         "isCorrect": true,
-        "rationale": "Correct. Equity is the sum of a futures account's cash balance (the net of deposits: withdrawals and realized profits and losses) and unrealized profits and losses (the net status of contracts currently open and marked to market). Equity can be defined as the net value of a futures account through each day's settlement price Also knoum as \"trader's capital:\" it is 'What the account would be worth if all positions were offset at the settlement prices: although equity does not usually account for commissions that may be owed but not yet collected"
+        "rationale": "Correct. Futures account equity is the marked-to-market value of the account: cash balance plus unrealized profits or losses on open positions."
       }
     ],
-    "explanation": "Equity is the sum of a futures account's cash balance (the net of deposits: withdrawals and realized profits and losses) and unrealized profits and losses (the net status of contracts currently open and marked to market). Equity can be defined as the net value of a futures account through each day's settlement price Also knoum as \"trader's capital:\" it is 'What the account would be worth if all positions were offset at the settlement prices: although equity does not usually account for commissions that may be owed but not yet collected",
+    "explanation": "Equity is the net marked-to-market value of a futures account. It includes the account cash balance, adjusted for deposits, withdrawals, and realized gains or losses, plus unrealized gains or losses on open contracts after settlement-price marking.",
     "sourceType": "imported",
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
@@ -16592,8 +16592,8 @@ export const s3MarketDocxQuestions: Question[] = [
   {
     "id": "s3-market-docx-374",
     "sectionId": "market_knowledge",
-    "topicId": "options-futures",
-    "subtopicId": "option-profit",
+    "topicId": "futures-theory",
+    "subtopicId": "basis-grade-premiums-discounts",
     "difficulty": "easy",
     "questionType": "multiple_choice",
     "stem": "The grantor of an option:",
@@ -18786,28 +18786,28 @@ export const s3MarketDocxQuestions: Question[] = [
         "id": "a",
         "text": "Sulfur content",
         "isCorrect": false,
-        "rationale": "Incorrect. Because crude oil is not a homogenous commodity: with more than 5,000 knoum varieties: industry practice tends to classlfy cmdes on the basis of gravity: sulfur content, and field of origin In some cases pipeline streams or ports of shipment are used in place of the field name."
+        "rationale": "Incorrect. Sulfur content is one classification factor, but crude oil is commonly classified using gravity, sulfur content, and field of origin."
       },
       {
         "id": "b",
         "text": "Field of origin",
         "isCorrect": false,
-        "rationale": "Incorrect. Because crude oil is not a homogenous commodity: with more than 5,000 knoum varieties: industry practice tends to classlfy cmdes on the basis of gravity: sulfur content, and field of origin In some cases pipeline streams or ports of shipment are used in place of the field name."
+        "rationale": "Incorrect. Field of origin is one classification factor, but it is not the only characteristic used."
       },
       {
         "id": "c",
         "text": "Gravity",
         "isCorrect": false,
-        "rationale": "Incorrect. Because crude oil is not a homogenous commodity: with more than 5,000 knoum varieties: industry practice tends to classlfy cmdes on the basis of gravity: sulfur content, and field of origin In some cases pipeline streams or ports of shipment are used in place of the field name."
+        "rationale": "Incorrect. Gravity is one classification factor, but crude oil quality is also described by sulfur content and field of origin."
       },
       {
         "id": "d",
-        "text": "All of the above",
+        "text": "Gravity, sulfur content, and field of origin",
         "isCorrect": true,
-        "rationale": "Correct. Because crude oil is not a homogenous commodity: with more than 5,000 knoum varieties: industry practice tends to classlfy cmdes on the basis of gravity: sulfur content, and field of origin In some cases pipeline streams or ports of shipment are used in place of the field name."
+        "rationale": "Correct. Crude oil is not homogeneous, so market practice classifies crude by gravity, sulfur content, and field of origin; sometimes pipeline stream or port of shipment is used instead of field name."
       }
     ],
-    "explanation": "Because crude oil is not a homogenous commodity: with more than 5,000 knoum varieties: industry practice tends to classlfy cmdes on the basis of gravity: sulfur content, and field of origin In some cases pipeline streams or ports of shipment are used in place of the field name.",
+    "explanation": "Crude oil is not homogeneous. Market practice classifies crude by gravity, sulfur content, and field of origin; in some cases a pipeline stream or port of shipment is used in place of the field name.",
     "sourceType": "imported",
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",

@@ -1,6 +1,7 @@
 import { allTopics } from "../data/syllabus";
 import type { DifficultyFilter, Question, Session, SessionFilters, SourceBankFilter } from "../types";
 import { createSeededRng } from "./prng";
+import { inferredQualityStatus, questionMatchesQualityFilter } from "./quality";
 import { seededShuffle } from "./shuffle";
 
 export const SOURCE_BANK_OPTIONS: { value: SourceBankFilter; label: string }[] = [
@@ -42,6 +43,7 @@ export function questionSourcePriority(question: Question): number {
 export function filterQuestionPool(questions: Question[], filters: SessionFilters): Question[] {
   return questions.filter((question) => {
     if (!question.active) return false;
+    if (!questionMatchesQualityFilter(question, filters.qualityStatus)) return false;
     if (!matchesSourceBank(question, filters.sourceBank)) return false;
     if (filters.sectionId && question.sectionId !== filters.sectionId) return false;
     if (filters.topicId && question.topicId !== filters.topicId) return false;
@@ -88,7 +90,7 @@ export function selectPracticeQuestions(
   sessions: Session[] = []
 ): Question[] {
   const rng = createSeededRng(seed);
-  const pool = filterQuestionPool(questions, filters);
+  const pool = filterQuestionPool(questions, filters).filter((question) => inferredQualityStatus(question) !== "rejected");
   const previousSession = sessions.length > 0 ? sessions[sessions.length - 1] : undefined;
   const previousQuestionIds = new Set(previousSession?.questions.map((question) => question.questionId) ?? []);
   const sorted = seededShuffle(pool, rng).sort((a, b) => {
@@ -105,7 +107,7 @@ export function selectPracticeQuestions(
 
 export function selectMockQuestions(questions: Question[], seed: string, desiredCount = 120, filters: SessionFilters = {}): Question[] {
   const rng = createSeededRng(seed);
-  const active = filterQuestionPool(questions, filters);
+  const active = filterQuestionPool(questions, filters).filter((question) => inferredQualityStatus(question) !== "rejected");
   const selected: Question[] = [];
 
   for (const topic of allTopics) {

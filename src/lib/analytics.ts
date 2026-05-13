@@ -1,5 +1,6 @@
 import { syllabus, topicLabel, subtopicLabel } from "../data/syllabus";
 import type { AppState, CoverageNode, Question, QuestionBankCoverageReport, SectionId, Session } from "../types";
+import { inferredQualityStatus } from "./quality";
 
 function questionStats(sessions: Session[]) {
   const stats = new Map<string, { answered: number; correct: number }>();
@@ -37,6 +38,9 @@ function createNode(
     rewritten: scoped.filter((question) => question.sourceType === "rewritten").length,
     imported: scoped.filter((question) => question.sourceType === "imported").length,
     userAuthored: scoped.filter((question) => question.sourceType === "user-authored").length,
+    verified: scoped.filter((question) => inferredQualityStatus(question) === "verified").length,
+    needsReview: scoped.filter((question) => inferredQualityStatus(question) === "needs_review").length,
+    rejected: scoped.filter((question) => inferredQualityStatus(question) === "rejected").length,
     easy: scoped.filter((question) => question.difficulty === "easy").length,
     medium: scoped.filter((question) => question.difficulty === "medium").length,
     hard: scoped.filter((question) => question.difficulty === "hard").length,
