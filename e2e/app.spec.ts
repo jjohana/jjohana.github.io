@@ -43,6 +43,8 @@ test("opens the integrated course and launches filtered practice", async ({ page
   await page.getByRole("button", { name: "Course" }).click();
   await expect(page.getByRole("heading", { name: "Series 3 Course" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Chapters" })).toBeVisible();
+  await page.getByLabel("Search course").fill("CFTC");
+  await expect(page.getByRole("img", { name: /Key roles in the futures industry/i })).toBeVisible();
   await page.getByLabel("Search course").fill("basis");
   await expect(page.getByRole("button", { name: /Basis Calculations|Basis Calculation/i }).first()).toBeVisible();
   await page.getByRole("button", { name: /Basis Calculations|Basis Calculation/i }).first().click();

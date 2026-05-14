@@ -28,7 +28,7 @@ export function mergeQuestions(stored: Question[] | undefined): Question[] {
     if (byId.has(question.id)) continue;
     byId.set(question.id, applyQuestionQualityDefaults(cleanQuestionContent(question)));
   }
-  return [...byId.values()].map((question) => applyQuestionQualityDefaults(cleanQuestionContent(question)));
+  return [...byId.values()];
 }
 
 export function loadState(): AppState {

@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700" role="img" aria-labelledby="title desc">
+  <title id="title">Key Roles in the Futures Industry</title>
+  <desc id="desc">Study infographic explaining customers, APs, IBs, FCMs, CTAs, CPOs, principals, exchanges, the CFTC, the NFA, and their relationships.</desc>
+  <style>
+    .bg { fill: #f8fbff; }
+    .title { font: 800 48px Arial, sans-serif; fill: #082655; }
+    .subtitle { font: italic 24px Arial, sans-serif; fill: #142d56; }
+    .bar-blue { fill: #0b3a78; }
+    .bar-red { fill: #a40f14; }
+    .bar-green { fill: #176636; }
+    .bar-purple { fill: #5a2f8f; }
+    .bar-text { font: 800 22px Arial, sans-serif; fill: #fff; letter-spacing: .5px; }
+    .card { fill: #fff; stroke: #0f55a6; stroke-width: 1.7; }
+    .card-red { fill: #fff; stroke: #b51d22; stroke-width: 1.7; }
+    .card-green { fill: #fff; stroke: #1c7a3a; stroke-width: 1.7; }
+    .card-purple { fill: #fff; stroke: #7446a6; stroke-width: 1.7; }
+    .num { fill: #0f55a6; }
+    .num-text { font: 800 22px Arial, sans-serif; fill: #fff; }
+    .h { font: 800 18px Arial, sans-serif; fill: #0b3a78; }
+    .h-red { font: 800 18px Arial, sans-serif; fill: #a40f14; }
+    .h-green { font: 800 18px Arial, sans-serif; fill: #176636; }
+    .h-purple { font: 800 18px Arial, sans-serif; fill: #5a2f8f; }
+    .small { font: 14px Arial, sans-serif; fill: #111827; }
+    .mini { font: 12px Arial, sans-serif; fill: #111827; }
+    .label { font: 800 15px Arial, sans-serif; fill: #0b3a78; }
+    .route { font: 800 14px Arial, sans-serif; fill: #0b3a78; }
+    .route-green { font: 800 14px Arial, sans-serif; fill: #176636; }
+    .route-purple { font: 800 14px Arial, sans-serif; fill: #5a2f8f; }
+    .line-blue { stroke: #0b55a6; stroke-width: 3; fill: none; marker-end: url(#arrow-blue); }
+    .line-green { stroke: #23824a; stroke-width: 3; fill: none; stroke-dasharray: 8 5; marker-end: url(#arrow-green); }
+    .line-purple { stroke: #7446a6; stroke-width: 3; fill: none; marker-end: url(#arrow-purple); }
+    .line-red { stroke: #b51d22; stroke-width: 3; fill: none; stroke-dasharray: 8 5; marker-end: url(#arrow-red); }
+    .line-gray { stroke: #6b7280; stroke-width: 3; fill: none; stroke-dasharray: 8 5; marker-end: url(#arrow-gray); }
+  </style>
+  <defs>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0b55a6"/></marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#23824a"/></marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7446a6"/></marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b51d22"/></marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6b7280"/></marker>
+    <g id="person">
+      <circle cx="0" cy="-16" r="14" fill="#0d66ad"/>
+      <path d="M -27 18 Q 0 -8 27 18 Z" fill="#0d66ad"/>
+    </g>
+    <g id="building">
+      <path d="M -38 -24 L 0 -50 L 38 -24 Z" fill="#0b3a78"/>
+      <rect x="-32" y="-20" width="64" height="8" fill="#0b3a78"/>
+      <rect x="-28" y="-12" width="12" height="54" fill="#0b3a78"/>
+      <rect x="-6" y="-12" width="12" height="54" fill="#0b3a78"/>
+      <rect x="16" y="-12" width="12" height="54" fill="#0b3a78"/>
+      <rect x="-36" y="44" width="72" height="8" fill="#0b3a78"/>
+    </g>
+    <g id="globe">
+      <circle cx="0" cy="0" r="38" fill="none" stroke="#168bd0" stroke-width="5"/>
+      <path d="M -38 0 H 38 M 0 -38 V 38 M -26 -26 C -8 -12 8 -12 26 -26 M -26 26 C -8 12 8 12 26 26" fill="none" stroke="#168bd0" stroke-width="4"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="1700" class="bg"/>
+  <text x="600" y="48" text-anchor="middle" class="title">Key Roles in the Futures Industry</text>
+  <text x="600" y="82" text-anchor="middle" class="subtitle">Who does what in the U.S. futures and derivatives ecosystem</text>
+
+  <rect x="352" y="102" width="496" height="34" rx="7" class="bar-blue"/>
+  <text x="600" y="126" text-anchor="middle" class="bar-text">SECTION 1 - MARKET PARTICIPANTS</text>
+
+  <rect x="18" y="150" width="268" height="235" rx="10" class="card"/>
+  <circle cx="46" cy="178" r="18" class="num"/><text x="46" y="186" text-anchor="middle" class="num-text">1</text>
+  <use href="#person" x="70" y="260"/>
+  <text x="120" y="178" class="h">Customer</text>
+  <text x="105" y="212" class="small"><tspan x="105" dy="0">- Individual or institution</tspan><tspan x="105" dy="19">  that wants futures or options.</tspan><tspan x="105" dy="27">- Places orders through an</tspan><tspan x="105" dy="19">  intermediary.</tspan><tspan x="105" dy="27">- Provides margin or funds.</tspan><tspan x="105" dy="27">- End user of brokerage and</tspan><tspan x="105" dy="19">  advisory services.</tspan></text>
+
+  <rect x="298" y="150" width="268" height="235" rx="10" class="card"/>
+  <circle cx="326" cy="178" r="18" class="num"/><text x="326" y="186" text-anchor="middle" class="num-text">2</text>
+  <use href="#person" x="345" y="262"/>
+  <text x="410" y="170" text-anchor="middle" class="h">AP -</text>
+  <text x="410" y="192" text-anchor="middle" class="h">Associated Person</text>
+  <text x="385" y="226" class="small"><tspan x="385" dy="0">- Individual associated with</tspan><tspan x="385" dy="19">  an FCM, IB, CTA, or CPO.</tspan><tspan x="385" dy="27">- Solicits orders, clients,</tspan><tspan x="385" dy="19">  or funds.</tspan><tspan x="385" dy="27">- Often interacts directly</tspan><tspan x="385" dy="19">  with customers.</tspan><tspan x="385" dy="27">- Usually must be registered.</tspan></text>
+
+  <rect x="578" y="150" width="268" height="235" rx="10" class="card"/>
+  <circle cx="606" cy="178" r="18" class="num"/><text x="606" y="186" text-anchor="middle" class="num-text">3</text>
+  <path d="M626 278 C660 240 690 240 720 278 C750 240 782 240 816 278" stroke="#0d66ad" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <text x="720" y="180" text-anchor="middle" class="h">IB -</text>
+  <text x="720" y="202" text-anchor="middle" class="h">Introducing Broker</text>
+  <text x="666" y="236" class="small"><tspan x="666" dy="0">- Solicits or accepts</tspan><tspan x="666" dy="19">  customer orders.</tspan><tspan x="666" dy="27">- Does not hold customer funds.</tspan><tspan x="666" dy="27">- Introduces accounts to an FCM.</tspan><tspan x="666" dy="27">- Acts between customer and FCM.</tspan></text>
+
+  <rect x="858" y="150" width="324" height="235" rx="10" class="card"/>
+  <circle cx="886" cy="178" r="18" class="num"/><text x="886" y="186" text-anchor="middle" class="num-text">4</text>
+  <use href="#building" x="930" y="275"/>
+  <text x="1040" y="170" text-anchor="middle" class="h">FCM -</text>
+  <text x="1040" y="192" text-anchor="middle" class="h">Futures Commission Merchant</text>
+  <text x="990" y="226" class="small"><tspan x="990" dy="0">- Accepts futures/options orders.</tspan><tspan x="990" dy="27">- Holds customer funds and margin.</tspan><tspan x="990" dy="27">- Carries customer accounts and</tspan><tspan x="990" dy="19">  handles trade processing.</tspan><tspan x="990" dy="27">- Main brokerage firm in the market.</tspan></text>
+
+  <rect x="18" y="398" width="378" height="208" rx="10" class="card"/>
+  <circle cx="46" cy="426" r="18" class="num"/><text x="46" y="434" text-anchor="middle" class="num-text">5</text>
+  <path d="M70 545 L70 505 L93 505 L93 545 M107 545 L107 482 L130 482 L130 545 M144 545 L144 458 L167 458 L167 545" fill="#0d66ad"/>
+  <path d="M63 489 L95 465 L122 472 L166 430" stroke="#0d66ad" stroke-width="6" fill="none" marker-end="url(#arrow-blue)"/>
+  <text x="228" y="426" text-anchor="middle" class="h">CTA -</text>
+  <text x="228" y="448" text-anchor="middle" class="h">Commodity Trading Advisor</text>
+  <text x="142" y="482" class="small"><tspan x="142" dy="0">- Provides advice on futures,</tspan><tspan x="142" dy="19">  options, swaps, or commodity interests.</tspan><tspan x="142" dy="27">- May manage accounts or recommend</tspan><tspan x="142" dy="19">  strategies.</tspan><tspan x="142" dy="27">- Advises customers for compensation.</tspan><tspan x="142" dy="27">- Advice, not fund pooling.</tspan></text>
+
+  <rect x="408" y="398" width="358" height="208" rx="10" class="card"/>
+  <circle cx="436" cy="426" r="18" class="num"/><text x="436" y="434" text-anchor="middle" class="num-text">6</text>
+  <use href="#person" x="478" y="510"/><use href="#person" x="520" y="510"/><use href="#person" x="562" y="510"/>
+  <circle cx="520" cy="548" r="32" fill="#6a9c2d"/><text x="520" y="560" text-anchor="middle" font-family="Arial" font-size="34" font-weight="800" fill="#fff">$</text>
+  <text x="600" y="426" text-anchor="middle" class="h">CPO -</text>
+  <text x="600" y="448" text-anchor="middle" class="h">Commodity Pool Operator</text>
+  <text x="535" y="482" class="small"><tspan x="535" dy="0">- Operates a commodity pool.</tspan><tspan x="535" dy="27">- Pools money from multiple investors.</tspan><tspan x="535" dy="27">- Uses pooled capital to trade</tspan><tspan x="535" dy="19">  commodity interests.</tspan><tspan x="535" dy="27">- Similar to fund manager for a pool.</tspan></text>
+
+  <rect x="778" y="398" width="404" height="208" rx="10" class="card"/>
+  <circle cx="806" cy="426" r="18" class="num"/><text x="806" y="434" text-anchor="middle" class="num-text">7</text>
+  <use href="#person" x="842" y="494"/>
+  <path d="M842 520 V560 M790 560 H895 M790 560 V588 M842 560 V588 M895 560 V588" stroke="#0b3a78" stroke-width="5" fill="none"/>
+  <use href="#person" x="790" y="625" transform="scale(.72)"/><use href="#person" x="842" y="625" transform="scale(.72)"/><use href="#person" x="895" y="625" transform="scale(.72)"/>
+  <text x="980" y="426" class="h">Principal</text>
+  <text x="930" y="462" class="small"><tspan x="930" dy="0">- Owner, partner, officer, director,</tspan><tspan x="930" dy="19">  or controlling person of a firm.</tspan><tspan x="930" dy="27">- Has supervisory or managerial</tspan><tspan x="930" dy="19">  responsibility.</tspan><tspan x="930" dy="27">- Responsible for oversight and</tspan><tspan x="930" dy="19">  compliance.</tspan><tspan x="930" dy="27">- Senior person tied to firm control.</tspan></text>
+
+  <rect x="18" y="628" width="548" height="34" rx="7" class="bar-blue"/>
+  <text x="292" y="652" text-anchor="middle" class="bar-text">SECTION 2 - MARKET INFRASTRUCTURE</text>
+  <rect x="18" y="662" width="548" height="230" rx="10" class="card"/>
+  <circle cx="180" cy="706" r="18" class="num"/><text x="180" y="714" text-anchor="middle" class="num-text">8</text>
+  <use href="#globe" x="92" y="760"/>
+  <text x="205" y="706" class="h">Exchange</text>
+  <text x="205" y="742" class="small"><tspan x="205" dy="0">- Organized marketplace where futures and options on</tspan><tspan x="205" dy="19">  futures are listed and traded.</tspan><tspan x="205" dy="27">- Provides trading rules, contract specifications, and</tspan><tspan x="205" dy="19">  market access.</tspan><tspan x="205" dy="27">- Central place where buyers and sellers meet.</tspan><tspan x="205" dy="27">- Example function: lists standardized contracts.</tspan></text>
+
+  <rect x="586" y="628" width="596" height="34" rx="7" class="bar-red"/>
+  <text x="884" y="652" text-anchor="middle" class="bar-text">SECTION 3 - REGULATION AND OVERSIGHT</text>
+  <rect x="586" y="662" width="288" height="230" rx="10" class="card-red"/>
+  <use href="#building" x="640" y="760"/>
+  <text x="700" y="700" class="h-red">CFTC -</text>
+  <text x="700" y="722" class="h-red">Commodity Futures</text>
+  <text x="700" y="744" class="h-red">Trading Commission</text>
+  <text x="700" y="778" class="small"><tspan x="700" dy="0">- U.S. federal regulator.</tspan><tspan x="700" dy="25">- Oversees futures, options on</tspan><tspan x="700" dy="19">  futures, and swaps markets.</tspan><tspan x="700" dy="25">- Writes and enforces core rules.</tspan><tspan x="700" dy="25">- Protects market integrity.</tspan></text>
+  <rect x="894" y="662" width="288" height="230" rx="10" class="card-red"/>
+  <path d="M948 710 L1002 732 V790 C1002 826 975 846 948 858 C921 846 894 826 894 790 V732 Z" fill="none" stroke="#b51d22" stroke-width="7"/>
+  <circle cx="930" cy="776" r="12" fill="#b51d22"/><circle cx="948" cy="772" r="14" fill="#b51d22"/><circle cx="966" cy="776" r="12" fill="#b51d22"/>
+  <text x="1020" y="700" class="h-red">NFA -</text>
+  <text x="1020" y="722" class="h-red">National Futures</text>
+  <text x="1020" y="744" class="h-red">Association</text>
+  <text x="1020" y="778" class="small"><tspan x="1020" dy="0">- Industry self-regulatory body.</tspan><tspan x="1020" dy="25">- Registers many firms and people.</tspan><tspan x="1020" dy="25">- Monitors compliance and conduct.</tspan><tspan x="1020" dy="25">- Handles audits, rules, and discipline.</tspan></text>
+
+  <rect x="295" y="908" width="610" height="34" rx="7" class="bar-blue"/>
+  <text x="600" y="932" text-anchor="middle" class="bar-text">RELATIONSHIP DIAGRAM - THE ECOSYSTEM AT A GLANCE</text>
+  <rect x="18" y="948" width="1164" height="488" rx="10" class="card"/>
+
+  <rect x="166" y="970" width="250" height="64" rx="8" class="card-red"/>
+  <text x="291" y="996" text-anchor="middle" class="h-red">CFTC</text>
+  <text x="291" y="1018" text-anchor="middle" class="small">Federal regulator</text>
+  <rect x="470" y="970" width="260" height="64" rx="8" class="card-red"/>
+  <text x="600" y="995" text-anchor="middle" class="small">Oversight, rulemaking,</text>
+  <text x="600" y="1016" text-anchor="middle" class="small">registration, exams, enforcement</text>
+  <rect x="784" y="970" width="250" height="64" rx="8" class="card-red"/>
+  <text x="909" y="996" text-anchor="middle" class="h-red">NFA</text>
+  <text x="909" y="1018" text-anchor="middle" class="small">Self-regulatory organization</text>
+  <path d="M416 1002 H470 M730 1002 H784" class="line-red"/>
+
+  <rect x="38" y="1100" width="120" height="152" rx="8" class="card-green"/>
+  <text x="98" y="1126" text-anchor="middle" class="h-green">Principal</text>
+  <text x="98" y="1160" text-anchor="middle" class="mini">Supervisory /</text>
+  <text x="98" y="1178" text-anchor="middle" class="mini">controlling person</text>
+  <text x="98" y="1196" text-anchor="middle" class="mini">over firms</text>
+  <use href="#person" x="98" y="1228" transform="scale(.8)"/>
+
+  <rect x="188" y="1092" width="130" height="162" rx="8" class="card"/>
+  <text x="253" y="1120" text-anchor="middle" class="label">AP</text>
+  <text x="253" y="1138" text-anchor="middle" class="mini">Associated Person</text>
+  <text x="253" y="1180" text-anchor="middle" class="mini">Client-facing</text>
+  <text x="253" y="1198" text-anchor="middle" class="mini">solicits orders,</text>
+  <text x="253" y="1216" text-anchor="middle" class="mini">clients, or funds</text>
+  <rect x="360" y="1092" width="130" height="162" rx="8" class="card"/>
+  <text x="425" y="1120" text-anchor="middle" class="label">IB</text>
+  <text x="425" y="1138" text-anchor="middle" class="mini">Introducing Broker</text>
+  <text x="425" y="1180" text-anchor="middle" class="mini">Solicits orders;</text>
+  <text x="425" y="1198" text-anchor="middle" class="mini">introduces to FCM;</text>
+  <text x="425" y="1216" text-anchor="middle" class="mini">does not hold funds</text>
+  <rect x="532" y="1092" width="130" height="162" rx="8" class="card"/>
+  <text x="597" y="1120" text-anchor="middle" class="label">FCM</text>
+  <text x="597" y="1138" text-anchor="middle" class="mini">Futures Commission</text>
+  <text x="597" y="1156" text-anchor="middle" class="mini">Merchant</text>
+  <text x="597" y="1190" text-anchor="middle" class="mini">Carries accounts;</text>
+  <text x="597" y="1208" text-anchor="middle" class="mini">holds funds;</text>
+  <text x="597" y="1226" text-anchor="middle" class="mini">executes processing</text>
+  <rect x="704" y="1092" width="130" height="162" rx="8" class="card"/>
+  <text x="769" y="1120" text-anchor="middle" class="label">Exchange</text>
+  <text x="769" y="1138" text-anchor="middle" class="mini">Marketplace</text>
+  <text x="769" y="1156" text-anchor="middle" class="mini">Infrastructure</text>
+  <text x="769" y="1190" text-anchor="middle" class="mini">Contracts listed</text>
+  <text x="769" y="1208" text-anchor="middle" class="mini">and traded</text>
+  <rect x="890" y="1092" width="130" height="162" rx="8" class="card-green"/>
+  <text x="955" y="1120" text-anchor="middle" class="h-green">CTA</text>
+  <text x="955" y="1138" text-anchor="middle" class="mini">Commodity</text>
+  <text x="955" y="1156" text-anchor="middle" class="mini">Trading Advisor</text>
+  <text x="955" y="1190" text-anchor="middle" class="mini">Provides trading</text>
+  <text x="955" y="1208" text-anchor="middle" class="mini">advice or manages</text>
+  <text x="955" y="1226" text-anchor="middle" class="mini">accounts</text>
+  <rect x="1040" y="1092" width="120" height="162" rx="8" class="card-green"/>
+  <text x="1100" y="1120" text-anchor="middle" class="h-green">CPO</text>
+  <text x="1100" y="1138" text-anchor="middle" class="mini">Commodity Pool</text>
+  <text x="1100" y="1156" text-anchor="middle" class="mini">Operator</text>
+  <text x="1100" y="1190" text-anchor="middle" class="mini">Operates a pool;</text>
+  <text x="1100" y="1208" text-anchor="middle" class="mini">pools investor</text>
+  <text x="1100" y="1226" text-anchor="middle" class="mini">capital</text>
+
+  <path d="M158 1174 H188" class="line-gray"/>
+  <path d="M318 1174 H360" class="line-blue"/>
+  <path d="M490 1174 H532" class="line-blue"/>
+  <path d="M662 1174 H704" class="line-blue"/>
+  <path d="M600 1034 V1070 H253 V1092 M600 1070 H425 V1092 M600 1070 H597 V1092 M600 1070 H769 V1092 M600 1070 H955 V1092 M600 1070 H1100 V1092" class="line-red"/>
+
+  <rect x="48" y="1292" width="150" height="116" rx="8" class="card"/>
+  <text x="123" y="1318" text-anchor="middle" class="label">Legend</text>
+  <path d="M70 1345 H116" class="line-blue"/><text x="128" y="1350" class="mini">Order flow</text>
+  <path d="M70 1372 H116" class="line-green"/><text x="128" y="1377" class="mini">Advice relationship</text>
+  <path d="M70 1399 H116" class="line-purple"/><text x="128" y="1404" class="mini">Pool / investment flow</text>
+
+  <text x="235" y="1322" class="route">A</text>
+  <rect x="270" y="1298" width="95" height="48" rx="7" class="card"/><text x="317" y="1327" text-anchor="middle" class="mini">Customer</text>
+  <rect x="430" y="1298" width="125" height="48" rx="7" class="card"/><text x="492" y="1327" text-anchor="middle" class="mini">IB</text>
+  <rect x="620" y="1298" width="135" height="48" rx="7" class="card"/><text x="687" y="1327" text-anchor="middle" class="mini">FCM</text>
+  <rect x="820" y="1298" width="135" height="48" rx="7" class="card"/><text x="887" y="1327" text-anchor="middle" class="mini">Exchange</text>
+  <path d="M365 1322 H430 M555 1322 H620 M755 1322 H820" class="line-blue"/>
+  <text x="1000" y="1315" class="route">Route A</text><text x="1000" y="1335" class="mini">Customer -> IB -> FCM -> Exchange</text>
+
+  <text x="235" y="1380" class="route">B</text>
+  <rect x="270" y="1356" width="95" height="48" rx="7" class="card"/><text x="317" y="1385" text-anchor="middle" class="mini">Customer</text>
+  <rect x="620" y="1356" width="135" height="48" rx="7" class="card"/><text x="687" y="1385" text-anchor="middle" class="mini">FCM</text>
+  <rect x="820" y="1356" width="135" height="48" rx="7" class="card"/><text x="887" y="1385" text-anchor="middle" class="mini">Exchange</text>
+  <path d="M365 1380 H620 M755 1380 H820" class="line-blue"/>
+  <text x="1000" y="1373" class="route">Route B</text><text x="1000" y="1393" class="mini">Customer -> FCM -> Exchange</text>
+
+  <text x="235" y="1438" class="route-green">C</text>
+  <rect x="270" y="1414" width="115" height="48" rx="7" class="card-green"/><text x="327" y="1443" text-anchor="middle" class="mini">Customer / client</text>
+  <rect x="620" y="1414" width="145" height="48" rx="7" class="card-green"/><text x="692" y="1435" text-anchor="middle" class="mini">CTA</text><text x="692" y="1452" text-anchor="middle" class="mini">Trading Advisor</text>
+  <path d="M385 1438 H620" class="line-green"/>
+  <text x="1000" y="1431" class="route-green">Route C</text><text x="1000" y="1451" class="mini">Customer <-> CTA advice relationship</text>
+
+  <text x="235" y="1496" class="route-purple">D</text>
+  <rect x="270" y="1472" width="115" height="48" rx="7" class="card-purple"/><text x="327" y="1501" text-anchor="middle" class="mini">Investors</text>
+  <rect x="430" y="1472" width="125" height="48" rx="7" class="card-purple"/><text x="492" y="1501" text-anchor="middle" class="mini">CPO</text>
+  <rect x="620" y="1472" width="145" height="48" rx="7" class="card-purple"/><text x="692" y="1501" text-anchor="middle" class="mini">Commodity Pool</text>
+  <rect x="820" y="1472" width="135" height="48" rx="7" class="card"/><text x="887" y="1501" text-anchor="middle" class="mini">FCM</text>
+  <rect x="1000" y="1472" width="135" height="48" rx="7" class="card"/><text x="1067" y="1501" text-anchor="middle" class="mini">Exchange</text>
+  <path d="M385 1496 H430 M555 1496 H620 M765 1496 H820 M955 1496 H1000" class="line-purple"/>
+  <text x="1000" y="1554" class="route-purple">Route D: Investors -> CPO -> Pool -> FCM -> Exchange</text>
+
+  <rect x="18" y="1462" width="1164" height="208" rx="10" class="card"/>
+  <rect x="440" y="1444" width="320" height="34" rx="7" class="bar-blue"/>
+  <text x="600" y="1468" text-anchor="middle" class="bar-text">QUICK DISTINCTIONS</text>
+  <line x1="18" y1="1522" x2="1182" y2="1522" stroke="#b7c3d0"/>
+  <line x1="18" y1="1572" x2="1182" y2="1572" stroke="#b7c3d0"/>
+  <line x1="18" y1="1622" x2="1182" y2="1622" stroke="#b7c3d0"/>
+  <line x1="125" y1="1462" x2="125" y2="1670" stroke="#b7c3d0"/>
+  <line x1="360" y1="1462" x2="360" y2="1670" stroke="#b7c3d0"/>
+  <text x="170" y="1500" class="h">IB vs FCM:</text><text x="385" y="1500" class="small">IB introduces and solicits; FCM carries accounts and holds funds.</text>
+  <text x="170" y="1550" class="h-green">CTA vs CPO:</text><text x="385" y="1550" class="small">CTA gives advice; CPO pools investor money and operates a pool.</text>
+  <text x="170" y="1600" class="h-red">NFA vs CFTC:</text><text x="385" y="1600" class="small">NFA is the industry self-regulator; CFTC is the federal regulator.</text>
+  <text x="170" y="1650" class="h-purple">AP vs Principal:</text><text x="385" y="1650" class="small">AP is usually client-facing; Principal is supervisory or control-oriented.</text>
+</svg>

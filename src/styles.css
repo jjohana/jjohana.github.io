@@ -876,6 +876,33 @@ button:focus-visible {
   gap: 10px;
 }
 
+.course-visual {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #bad0f7;
+  border-radius: 8px;
+  background: #f7faff;
+}
+
+.course-visual img {
+  display: block;
+  width: 100%;
+  max-height: 860px;
+  border: 1px solid #d0d9e6;
+  border-radius: 6px;
+  background: #fff;
+  object-fit: contain;
+}
+
+.course-visual figcaption {
+  color: #475467;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
 .course-callout {
   display: flex;
   gap: 10px;

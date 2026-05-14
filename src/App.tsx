@@ -770,6 +770,7 @@ function CoursePage({
   const selectedProgress = selected ? courseProgress(selected, sessions) : undefined;
   const totalLinked = allSubchapters.reduce((sum, subchapter) => sum + subchapter.linkedQuestions.length, 0);
   const gapCount = allSubchapters.filter((subchapter) => subchapter.linkedQuestions.length === 0).length;
+  const shouldShowRolesDiagram = selected?.sectionId === "us_regulations";
   const displayedByChapter = chapters
     .map((chapter) => ({
       ...chapter,
@@ -866,6 +867,19 @@ function CoursePage({
             Review weak questions for this topic
           </button>
         </div>
+
+        {shouldShowRolesDiagram && (
+          <figure className="course-visual">
+            <img
+              src="course/futures-industry-roles.svg"
+              alt="Key roles in the futures industry: customer, AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA relationships."
+            />
+            <figcaption>
+              Key roles and relationships in the U.S. futures industry. Use this as the map for AP, IB, FCM, CTA, CPO,
+              principal, exchange, CFTC, and NFA questions.
+            </figcaption>
+          </figure>
+        )}
 
         {selected.coverageNote && (
           <div className="course-callout amber">
