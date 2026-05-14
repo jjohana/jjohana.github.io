@@ -174,7 +174,7 @@ const commonReplacements: Replacement[] = [
   [/_+/g, " "],
   [/\s+([,.;:?])/g, "$1"],
   [/(?<!\d)([.!?])(?=[A-Z])/g, "$1 "],
-  [/\s{2,}/g, " "]
+  [/ {2,}/g, " "]
 ];
 
 export const UNSAFE_DISPLAY_PATTERNS = [

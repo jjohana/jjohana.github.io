@@ -6270,7 +6270,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "intrinsic-value",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Based on the following hog futures and options table, which option has intrinsic value? FUTURE CALL STRIKE PRICE PUT STRIKE PRICE FUTURES PRICE April 52 52 52.66 July 53 53 53.20 October 54 54 53.80",
+    "stem": "Based on the following hog futures and options table, which option has intrinsic value?\n\nFuture\tCall strike price\tPut strike price\tFutures price\nApril\t52\t52\t52.66\nJuly\t53\t53\t53.20\nOctober\t54\t54\t53.80",
     "choices": [
       {
         "id": "a",
@@ -6374,7 +6374,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "intrinsic-value",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Use this information to answer the following question: Future Call Strike Price Put Strike Price Futures Price April 42 42 42.66 July 43 43 43.20 October 44 44 43.80 Which of the following options has the largest intrinsic value?",
+    "stem": "Use this information to answer the following question:\n\nFuture\tCall strike price\tPut strike price\tFutures price\nApril\t42\t42\t42.66\nJuly\t43\t43\t43.20\nOctober\t44\t44\t43.80\n\nWhich of the following options has the largest intrinsic value?",
     "choices": [
       {
         "id": "a",
@@ -21136,7 +21136,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "intrinsic-value",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Which of the following options from the table has the largest intrinsic value? HOG FUTURES AND OPTIONS FUTURE CALL STRIKE PRICE PUT STRIKE PRICE FUTURES PRICE April 52 52 52.66 July 53 53 53.20 October 54 54 53.80",
+    "stem": "Which of the following options from the table has the largest intrinsic value?\n\nHog futures and options\n\nFuture\tCall strike price\tPut strike price\tFutures price\nApril\t52\t52\t52.66\nJuly\t53\t53\t53.20\nOctober\t54\t54\t53.80",
     "choices": [
       {
         "id": "a",

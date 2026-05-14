@@ -97,6 +97,32 @@ describe("published question quality", () => {
     expect(findings).toEqual([]);
   });
 
+  it("formats embedded futures/options tables instead of publishing flattened row text", () => {
+    const compressedTablePatterns = [
+      /FUTURE CALL STRIKE PRICE PUT STRIKE PRICE FUTURES PRICE/i,
+      /Future Call Strike Price Put Strike Price Futures Price/i,
+      /HOG FUTURES AND OPTIONS FUTURE CALL/i
+    ];
+    const findings = activeQuestions
+      .filter((question) => inferredQualityStatus(question) === "verified")
+      .flatMap((question) =>
+        visibleQuestionFields(question)
+          .filter(([field]) => field === "stem")
+          .filter(([, value]) => compressedTablePatterns.some((pattern) => pattern.test(value)))
+          .map(([field, value]) => `${question.id} ${field}: ${value}`)
+      );
+
+    expect(findings).toEqual([]);
+
+    const tableQuestions = ["s3-market-docx-131", "s3-market-docx-133", "s3-market-docx-410"];
+    for (const questionId of tableQuestions) {
+      const question = activeQuestions.find((item) => item.id === questionId);
+      expect(question?.stem).toContain("\n\nFuture\tCall strike price\tPut strike price\tFutures price");
+      expect(question?.stem).toContain("\nApril\t");
+      expect(question?.stem).toContain("\nOctober\t");
+    }
+  });
+
   it("does not trust a legacy imported verified status without LLM audit metadata", () => {
     const verifiedImportedQuestion = importedQuestions.find((question) => inferredQualityStatus(question) === "verified");
     expect(verifiedImportedQuestion).toBeDefined();
