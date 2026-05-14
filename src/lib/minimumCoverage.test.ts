@@ -30,7 +30,7 @@ describe("minimum subtopic coverage", () => {
     );
     const certifiedGaps = coverageRows.filter((row) => row.count < 3);
 
-    expect(activeVerified.length).toBeGreaterThan(400);
+    expect(activeVerified.length).toBeGreaterThan(350);
     expect(certifiedGaps.length).toBeGreaterThan(0);
   });
 });

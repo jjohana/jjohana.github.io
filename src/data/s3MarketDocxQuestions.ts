@@ -46,14 +46,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0001-image1.png; source code 01_EZ_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0001",
     "sourceQuestionNumber": 1,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_17",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-2",
@@ -94,14 +99,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0002-image2.png; source code 01_EZ_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0002",
     "sourceQuestionNumber": 2,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-3",
@@ -136,14 +146,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0003-image3.png; source code 01_EZ_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0003",
     "sourceQuestionNumber": 3,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-4",
@@ -190,14 +205,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0004-image4.png; source code 01_EZ_25.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0004",
     "sourceQuestionNumber": 4,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_25",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-5",
@@ -238,14 +258,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0005-image5.png; source code 01_EZ_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0005",
     "sourceQuestionNumber": 5,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_14",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-6",
@@ -274,14 +299,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0006-image6.png; source code 01_EZ_26.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0006",
     "sourceQuestionNumber": 6,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_26",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-7",
@@ -310,14 +340,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0007-image7.png; source code 01_EZ_22.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0007",
     "sourceQuestionNumber": 7,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_22",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-8",
@@ -352,14 +387,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0008-image8.png; source code 01_EZ_18.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0008",
     "sourceQuestionNumber": 8,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_18",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-9",
@@ -394,14 +434,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0009-image9.png; source code 01_EZ_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0009",
     "sourceQuestionNumber": 9,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-10",
@@ -442,14 +487,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0010-image10.png; source code 01_EZ_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0010",
     "sourceQuestionNumber": 10,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-11",
@@ -490,14 +540,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0011-image11.png; source code 01_EZ_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0011",
     "sourceQuestionNumber": 11,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-12",
@@ -532,14 +587,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0012-image12.png; source code 01_EZ_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0012",
     "sourceQuestionNumber": 12,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-13",
@@ -568,14 +628,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0013-image13.png; source code 01_EZ_21.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0013",
     "sourceQuestionNumber": 13,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_21",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-14",
@@ -616,14 +681,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0014-image14.png; source code 01_EZ_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0014",
     "sourceQuestionNumber": 14,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-15",
@@ -664,14 +734,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0015-image15.png; source code 01_EZ_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0015",
     "sourceQuestionNumber": 15,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_15",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-16",
@@ -712,13 +787,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0016-image16.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0016",
     "sourceQuestionNumber": 16,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-17",
@@ -759,14 +839,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0017-image17.png; source code 01_EZ_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0017",
     "sourceQuestionNumber": 17,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_16",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-18",
@@ -795,14 +880,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0018-image18.png; source code 01_EZ_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0018",
     "sourceQuestionNumber": 18,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-19",
@@ -831,14 +921,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0019-image19.png; source code 01_EZ_19.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0019",
     "sourceQuestionNumber": 19,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_19",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-20",
@@ -867,14 +962,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0020-image20.png; source code 01_EZ_24.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0020",
     "sourceQuestionNumber": 20,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_24",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-21",
@@ -909,14 +1009,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0021-image21.png; source code 01_EZ_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0021",
     "sourceQuestionNumber": 21,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-22",
@@ -957,14 +1062,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0022-image22.png; source code 01_EZ_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0022",
     "sourceQuestionNumber": 22,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-23",
@@ -993,14 +1103,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0023-image23.png; source code 01_EZ_20.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0023",
     "sourceQuestionNumber": 23,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_20",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-24",
@@ -1047,14 +1162,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0024-image24.png; source code 01_EZ_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0024",
     "sourceQuestionNumber": 24,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-25",
@@ -1095,14 +1215,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0025-image25.png; source code 01_EZ_23.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0025",
     "sourceQuestionNumber": 25,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_23",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-26",
@@ -1131,14 +1256,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0026-image26.png; source code 01_EZ_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0026",
     "sourceQuestionNumber": 26,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_EZ_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-27",
@@ -1179,14 +1309,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0027-image27.png; source code 01_IM_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0027",
     "sourceQuestionNumber": 27,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-28",
@@ -1227,14 +1362,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0028-image28.png; source code 01_IM_29.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0028",
     "sourceQuestionNumber": 28,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_29",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-29",
@@ -1263,14 +1403,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0029-image29.png; source code 01_IM_28.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0029",
     "sourceQuestionNumber": 29,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_28",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-30",
@@ -1305,14 +1450,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0030-image30.png; source code 01_IM_19.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0030",
     "sourceQuestionNumber": 30,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_19",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-31",
@@ -1353,14 +1503,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0031-image31.png; source code 01_IM_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0031",
     "sourceQuestionNumber": 31,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-32",
@@ -1401,14 +1556,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0032-image32.png; source code 01_IM_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0032",
     "sourceQuestionNumber": 32,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_17",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-33",
@@ -1449,14 +1609,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0033-image33.png; source code 01_IM_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0033",
     "sourceQuestionNumber": 33,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-34",
@@ -1497,14 +1662,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0034-image34.png; source code 01_IM_23.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0034",
     "sourceQuestionNumber": 34,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_23",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-35",
@@ -1533,14 +1703,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0035-image35.png; source code 01_IM_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0035",
     "sourceQuestionNumber": 35,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-36",
@@ -1581,14 +1756,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0036-image36.png; source code 01_IM_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0036",
     "sourceQuestionNumber": 36,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-37",
@@ -1635,14 +1815,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0037-image37.png; source code 01_IM_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0037",
     "sourceQuestionNumber": 37,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-38",
@@ -1683,14 +1868,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0038-image38.png; source code 01_IM_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0038",
     "sourceQuestionNumber": 38,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-39",
@@ -1731,14 +1921,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0039-image39.png; source code 01_IM_26.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0039",
     "sourceQuestionNumber": 39,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_26",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-40",
@@ -1779,14 +1974,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0040-image40.png; source code 01_IM_27.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0040",
     "sourceQuestionNumber": 40,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_27",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-41",
@@ -1815,14 +2015,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0041-image41.png; source code 01_IM_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0041",
     "sourceQuestionNumber": 41,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_14",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-42",
@@ -1857,14 +2062,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0042-image42.png; source code 01_IM_22.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0042",
     "sourceQuestionNumber": 42,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_22",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-43",
@@ -1893,14 +2103,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0043-image43.png; source code 01_IM_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0043",
     "sourceQuestionNumber": 43,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-44",
@@ -1941,14 +2156,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0044-image44.png; source code 01_IM_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0044",
     "sourceQuestionNumber": 44,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-45",
@@ -1989,14 +2209,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0045-image45.png; source code 01_IM_20.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0045",
     "sourceQuestionNumber": 45,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_20",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-46",
@@ -2043,14 +2268,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0047-image47.png; source code 01_IM_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0047",
     "sourceQuestionNumber": 46,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_16",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-47",
@@ -2091,14 +2321,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0048-image48.png; source code 01_IM_32.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0048",
     "sourceQuestionNumber": 47,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_32",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-48",
@@ -2139,14 +2374,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0049-image49.png; source code 01_IM_25.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0049",
     "sourceQuestionNumber": 48,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_25",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-49",
@@ -2187,14 +2427,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0050-image50.png; source code 01_IM_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0050",
     "sourceQuestionNumber": 49,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-50",
@@ -2229,14 +2474,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0051-image51.png; source code 01_IM_18.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0051",
     "sourceQuestionNumber": 50,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_18",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-51",
@@ -2265,14 +2515,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0052-image52.png; source code 01_IM_31.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0052",
     "sourceQuestionNumber": 51,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_31",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-52",
@@ -2307,14 +2562,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0053-image53.png; source code 01_IM_21.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0053",
     "sourceQuestionNumber": 52,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_21",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-53",
@@ -2355,14 +2615,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0054-image54.png; source code 01_IM_24.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0054",
     "sourceQuestionNumber": 53,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_24",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-54",
@@ -2403,14 +2668,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0055-image55.png; source code 01_IM_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0055",
     "sourceQuestionNumber": 54,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-55",
@@ -2445,14 +2715,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0056-image56.png; source code 01_IM_30.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0056",
     "sourceQuestionNumber": 55,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_30",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-56",
@@ -2481,14 +2756,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0057-image57.png; source code 01_IM_8.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0057",
     "sourceQuestionNumber": 56,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_8",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-57",
@@ -2529,14 +2809,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0058-image58.png; source code 01_IM_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0058",
     "sourceQuestionNumber": 57,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_15",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-58",
@@ -2577,14 +2862,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0059-image59.png; source code 01_IM_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0059",
     "sourceQuestionNumber": 58,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "01_IM_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-59",
@@ -2625,13 +2915,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0060-image60.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0060",
     "sourceQuestionNumber": 59,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-60",
@@ -2666,13 +2961,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0061-image61.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0061",
     "sourceQuestionNumber": 60,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-61",
@@ -2707,13 +3007,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0062-image62.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0062",
     "sourceQuestionNumber": 61,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-62",
@@ -2754,13 +3059,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0063-image63.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0063",
     "sourceQuestionNumber": 62,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-63",
@@ -2801,13 +3111,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0064-image64.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0064",
     "sourceQuestionNumber": 63,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-64",
@@ -2848,13 +3163,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0065-image65.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0065",
     "sourceQuestionNumber": 64,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-65",
@@ -2895,13 +3215,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0066-image66.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0066",
     "sourceQuestionNumber": 65,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-66",
@@ -2942,13 +3267,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0067-image67.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0067",
     "sourceQuestionNumber": 66,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-67",
@@ -2983,13 +3313,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0068-image68.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0068",
     "sourceQuestionNumber": 67,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-68",
@@ -3030,13 +3365,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0069-image69.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0069",
     "sourceQuestionNumber": 68,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-69",
@@ -3077,13 +3417,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0070-image70.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0070",
     "sourceQuestionNumber": 69,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-70",
@@ -3130,13 +3475,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0071-image71.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0071",
     "sourceQuestionNumber": 70,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-72",
@@ -3165,13 +3515,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0072-image72.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0072",
     "sourceQuestionNumber": 72,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-73",
@@ -3200,13 +3555,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0073-image73.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0073",
     "sourceQuestionNumber": 73,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-74",
@@ -3247,14 +3607,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0074-image74.png; source code 02_EZ_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0074",
     "sourceQuestionNumber": 74,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-75",
@@ -3283,14 +3648,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0075-image75.png; source code 02_EZ_23.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0075",
     "sourceQuestionNumber": 75,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_23",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-76",
@@ -3319,14 +3689,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0076-image76.png; source code 02_EZ_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0076",
     "sourceQuestionNumber": 76,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-77",
@@ -3355,14 +3730,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0077-image77.png; source code 02_EZ_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0077",
     "sourceQuestionNumber": 77,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-78",
@@ -3403,14 +3783,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0078-image78.png; source code 02_EZ_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0078",
     "sourceQuestionNumber": 78,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-79",
@@ -3439,14 +3824,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0079-image79.png; source code 02_EZ_18.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0079",
     "sourceQuestionNumber": 79,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_18",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-80",
@@ -3475,14 +3865,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0080-image80.png; source code 02_EZ_22.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0080",
     "sourceQuestionNumber": 80,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_22",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-81",
@@ -3523,14 +3918,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0081-image81.png; source code 02_EZ_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0081",
     "sourceQuestionNumber": 81,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-82",
@@ -3559,14 +3959,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0082-image82.png; source code 02_EZ_24.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0082",
     "sourceQuestionNumber": 82,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_24",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-83",
@@ -3595,14 +4000,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0083-image83.png; source code 02_EZ_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0083",
     "sourceQuestionNumber": 83,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-84",
@@ -3643,14 +4053,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0084-image84.png; source code 02_EZ_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0084",
     "sourceQuestionNumber": 84,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_16",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-85",
@@ -3691,14 +4106,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0085-image85.png; source code 02_EZ_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0085",
     "sourceQuestionNumber": 85,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_15",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-86",
@@ -3733,14 +4153,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0086-image86.png; source code 02_EZ_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0086",
     "sourceQuestionNumber": 86,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-87",
@@ -3781,14 +4206,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0087-image87.png; source code 02_EZ_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0087",
     "sourceQuestionNumber": 87,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-88",
@@ -3817,14 +4247,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0088-image88.png; source code 02_EZ_20.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0088",
     "sourceQuestionNumber": 88,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_20",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-89",
@@ -3865,14 +4300,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0089-image89.png; source code 02_EZ_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0089",
     "sourceQuestionNumber": 89,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-90",
@@ -3901,14 +4341,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0090-image90.png; source code 02_EZ_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0090",
     "sourceQuestionNumber": 90,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-91",
@@ -3949,14 +4394,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0091-image91.png; source code 02_EZ_26.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0091",
     "sourceQuestionNumber": 91,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_26",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-92",
@@ -3997,14 +4447,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0092-image92.png; source code 02_EZ_19.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0092",
     "sourceQuestionNumber": 92,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_19",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-93",
@@ -4051,14 +4506,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0093-image93.png; source code 02_EZ_27.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0093",
     "sourceQuestionNumber": 93,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_27",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-94",
@@ -4093,14 +4553,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0094-image94.png; source code 02_EZ_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0094",
     "sourceQuestionNumber": 94,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_14",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-95",
@@ -4141,14 +4606,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0095-image95.png; source code 02_EZ_21.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0095",
     "sourceQuestionNumber": 95,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_21",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-96",
@@ -4177,14 +4647,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0096-image96.png; source code 02_EZ_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0096",
     "sourceQuestionNumber": 96,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_17",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-97",
@@ -4225,14 +4700,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0097-image97.png; source code 02_EZ_8.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0097",
     "sourceQuestionNumber": 97,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_8",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-98",
@@ -4261,14 +4741,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0098-image98.png; source code 02_EZ_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0098",
     "sourceQuestionNumber": 98,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-99",
@@ -4309,14 +4794,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0099-image99.png; source code 02_EZ_25.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0099",
     "sourceQuestionNumber": 99,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_25",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-100",
@@ -4357,14 +4847,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0100-image100.png; source code 02_EZ_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0100",
     "sourceQuestionNumber": 100,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_EZ_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-101",
@@ -4405,14 +4900,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0101-image101.png; source code 02_IM_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0101",
     "sourceQuestionNumber": 101,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_17",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-102",
@@ -4447,14 +4947,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0102-image102.png; source code 02_IM_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0102",
     "sourceQuestionNumber": 102,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-103",
@@ -4483,14 +4988,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0103-image103.png; source code 02_IM_28.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0103",
     "sourceQuestionNumber": 103,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_28",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-104",
@@ -4531,14 +5041,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0104-image104.png; source code 02_IM_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0104",
     "sourceQuestionNumber": 104,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-105",
@@ -4567,14 +5082,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0105-image105.png; source code 02_IM_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0105",
     "sourceQuestionNumber": 105,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-106",
@@ -4615,14 +5135,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0106-image106.png; source code 02_IM_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0106",
     "sourceQuestionNumber": 106,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-107",
@@ -4651,14 +5176,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0107-image107.png; source code 02_IM_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0107",
     "sourceQuestionNumber": 107,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-108",
@@ -4699,14 +5229,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0108-image108.png; source code 02_IM_27.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0108",
     "sourceQuestionNumber": 108,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_27",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-109",
@@ -4741,14 +5276,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0109-image109.png; source code 02_IM_8.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0109",
     "sourceQuestionNumber": 109,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_8",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-110",
@@ -4789,14 +5329,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0110-image110.png; source code 02_IM_19.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0110",
     "sourceQuestionNumber": 110,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_19",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-111",
@@ -4837,14 +5382,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0111-image111.png; source code 02_IM_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0111",
     "sourceQuestionNumber": 111,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-112",
@@ -4873,14 +5423,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0112-image112.png; source code 02_IM_20.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0112",
     "sourceQuestionNumber": 112,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_20",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-113",
@@ -4921,14 +5476,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0113-image113.png; source code 02_IM_21.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0113",
     "sourceQuestionNumber": 113,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_21",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-114",
@@ -4969,14 +5529,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0114-image114.png; source code 02_IM_23.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0114",
     "sourceQuestionNumber": 114,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_23",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-115",
@@ -5011,14 +5576,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0115-image115.png; source code 02_IM_25.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0115",
     "sourceQuestionNumber": 115,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_25",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-116",
@@ -5047,14 +5617,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0116-image116.png; source code 02_IM_18.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0116",
     "sourceQuestionNumber": 116,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_18",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-117",
@@ -5083,14 +5658,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0117-image117.png; source code 02_IM_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0117",
     "sourceQuestionNumber": 117,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-118",
@@ -5119,14 +5699,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0118-image118.png; source code 02_IM_30.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0118",
     "sourceQuestionNumber": 118,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_30",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-119",
@@ -5167,14 +5752,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0119-image119.png; source code 02_IM_22.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0119",
     "sourceQuestionNumber": 119,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_22",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-120",
@@ -5215,14 +5805,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0120-image120.png; source code 02_IM_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0120",
     "sourceQuestionNumber": 120,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_15",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-121",
@@ -5251,14 +5846,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0121-image121.png; source code 02_IM_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0121",
     "sourceQuestionNumber": 121,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-122",
@@ -5299,14 +5899,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0122-image122.png; source code 02_IM_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0122",
     "sourceQuestionNumber": 122,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-123",
@@ -5347,14 +5952,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0123-image123.png; source code 02_IM_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0123",
     "sourceQuestionNumber": 123,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-124",
@@ -5389,14 +5999,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0124-image124.png; source code 02_IM_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0124",
     "sourceQuestionNumber": 124,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_16",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-125",
@@ -5431,14 +6046,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0125-image125.png; source code 02_IM_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0125",
     "sourceQuestionNumber": 125,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-126",
@@ -5479,14 +6099,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0126-image126.png; source code 02_IM_31.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0126",
     "sourceQuestionNumber": 126,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_31",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-127",
@@ -5527,14 +6152,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0127-image127.png; source code 02_IM_24.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0127",
     "sourceQuestionNumber": 127,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_24",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-128",
@@ -5575,14 +6205,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0128-image128.png; source code 02_IM_29.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0128",
     "sourceQuestionNumber": 128,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_29",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-129",
@@ -5623,14 +6258,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0129-image129.png; source code 02_IM_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0129",
     "sourceQuestionNumber": 129,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_14",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-130",
@@ -5665,14 +6305,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0130-image130.png; source code 02_IM_26.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0130",
     "sourceQuestionNumber": 130,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_26",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-131",
@@ -5719,14 +6364,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0131-image131.png; source code 02_IM_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0131",
     "sourceQuestionNumber": 131,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-132",
@@ -5767,14 +6417,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0132-image132.png; source code 02_IM_32.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0132",
     "sourceQuestionNumber": 132,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "02_IM_32",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-133",
@@ -5815,13 +6470,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0133-image133.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0133",
     "sourceQuestionNumber": 133,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-134",
@@ -5862,13 +6522,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0134-image134.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0134",
     "sourceQuestionNumber": 134,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-135",
@@ -5909,13 +6574,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0135-image135.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0135",
     "sourceQuestionNumber": 135,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-136",
@@ -5956,13 +6626,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0136-image136.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0136",
     "sourceQuestionNumber": 136,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-137",
@@ -6003,13 +6678,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0137-image137.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0137",
     "sourceQuestionNumber": 137,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-138",
@@ -6050,13 +6730,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0138-image138.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0138",
     "sourceQuestionNumber": 138,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-139",
@@ -6097,13 +6782,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0139-image139.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0139",
     "sourceQuestionNumber": 139,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-140",
@@ -6138,13 +6828,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0140-image140.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0140",
     "sourceQuestionNumber": 140,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-141",
@@ -6185,13 +6880,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0142-image142.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0142",
     "sourceQuestionNumber": 141,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-142",
@@ -6226,13 +6926,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0143-image143.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0143",
     "sourceQuestionNumber": 142,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-143",
@@ -6273,13 +6978,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0144-image144.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0144",
     "sourceQuestionNumber": 143,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-144",
@@ -6320,13 +7030,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0145-image145.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0145",
     "sourceQuestionNumber": 144,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-145",
@@ -6361,13 +7076,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0146-image146.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0146",
     "sourceQuestionNumber": 145,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-146",
@@ -6408,14 +7128,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0147-image147.png; source code 03_EZ_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0147",
     "sourceQuestionNumber": 146,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-147",
@@ -6450,14 +7175,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0148-image148.png; source code 03_EZ_8.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0148",
     "sourceQuestionNumber": 147,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_8",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-148",
@@ -6498,14 +7228,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0149-image149.png; source code 03_EZ_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0149",
     "sourceQuestionNumber": 148,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-149",
@@ -6546,14 +7281,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0150-image150.png; source code 03_EZ_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0150",
     "sourceQuestionNumber": 149,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-150",
@@ -6588,14 +7328,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0151-image151.png; source code 03_EZ_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0151",
     "sourceQuestionNumber": 150,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-151",
@@ -6624,14 +7369,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0152-image152.png; source code 03_EZ_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0152",
     "sourceQuestionNumber": 151,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-152",
@@ -6678,14 +7428,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0153-image153.png; source code 03_EZ_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0153",
     "sourceQuestionNumber": 152,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-153",
@@ -6726,14 +7481,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0154-image154.png; source code 03_EZ_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0154",
     "sourceQuestionNumber": 153,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-154",
@@ -6774,14 +7534,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0155-image155.png; source code 03_EZ_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0155",
     "sourceQuestionNumber": 154,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-155",
@@ -6816,14 +7581,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0156-image156.png; source code 03_EZ_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0156",
     "sourceQuestionNumber": 155,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-156",
@@ -6852,14 +7622,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0157-image157.png; source code 03_EZ_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0157",
     "sourceQuestionNumber": 156,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-157",
@@ -6900,14 +7675,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0158-image158.png; source code 03_EZ_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0158",
     "sourceQuestionNumber": 157,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-158",
@@ -6948,14 +7728,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0159-image159.png; source code 03_EZ_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0159",
     "sourceQuestionNumber": 158,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_EZ_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-159",
@@ -6990,14 +7775,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0160-image160.png; source code 03_IM_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0160",
     "sourceQuestionNumber": 159,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-160",
@@ -7038,14 +7828,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0161-image161.png; source code 03_IM_21.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0161",
     "sourceQuestionNumber": 160,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_21",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-161",
@@ -7080,14 +7875,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0162-image162.png; source code 03_IM_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0162",
     "sourceQuestionNumber": 161,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-162",
@@ -7128,14 +7928,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0163-image163.png; source code 03_IM_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0163",
     "sourceQuestionNumber": 162,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-163",
@@ -7164,13 +7969,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0164-image164.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0164",
     "sourceQuestionNumber": 163,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-164",
@@ -7211,14 +8021,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0165-image165.png; source code 03_IM_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0165",
     "sourceQuestionNumber": 164,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-165",
@@ -7259,14 +8074,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0166-image166.png; source code 03_IM_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0166",
     "sourceQuestionNumber": 165,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_15",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-166",
@@ -7307,14 +8127,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0167-image167.png; source code 03_IM_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0167",
     "sourceQuestionNumber": 166,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-167",
@@ -7355,14 +8180,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0168-image168.png; source code 03_IM_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0168",
     "sourceQuestionNumber": 167,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-168",
@@ -7397,14 +8227,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0169-image169.png; source code 03_IM_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0169",
     "sourceQuestionNumber": 168,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-169",
@@ -7445,14 +8280,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0170-image170.png; source code 03_IM_23.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0170",
     "sourceQuestionNumber": 169,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_23",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-170",
@@ -7481,14 +8321,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0171-image171.png; source code 03_IM_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0171",
     "sourceQuestionNumber": 170,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-171",
@@ -7529,14 +8374,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0172-image172.png; source code 03_IM_22.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0172",
     "sourceQuestionNumber": 171,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_22",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-172",
@@ -7571,14 +8421,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0173-image173.png; source code 03_IM_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0173",
     "sourceQuestionNumber": 172,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-173",
@@ -7619,14 +8474,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0174-image174.png; source code 03_IM_19.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0174",
     "sourceQuestionNumber": 173,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_19",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-174",
@@ -7673,14 +8533,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0175-image175.png; source code 03_IM_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0175",
     "sourceQuestionNumber": 174,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_16",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-175",
@@ -7715,14 +8580,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0176-image176.png; source code 03_IM_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0176",
     "sourceQuestionNumber": 175,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-176",
@@ -7763,14 +8633,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0177-image177.png; source code 03_IM_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0177",
     "sourceQuestionNumber": 176,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-177",
@@ -7811,13 +8686,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0178-image178.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0178",
     "sourceQuestionNumber": 177,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-178",
@@ -7846,14 +8726,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0179-image179.png; source code 03_IM_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0179",
     "sourceQuestionNumber": 178,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-179",
@@ -7894,14 +8779,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0180-image180.png; source code 03_IM_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0180",
     "sourceQuestionNumber": 179,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_14",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-180",
@@ -7948,14 +8838,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0181-image181.png; source code 03_IM_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0181",
     "sourceQuestionNumber": 180,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_17",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-181",
@@ -7984,14 +8879,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0182-image182.png; source code 03_IM_20.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0182",
     "sourceQuestionNumber": 181,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "03_IM_20",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-182",
@@ -8032,13 +8932,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0183-image183.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0183",
     "sourceQuestionNumber": 182,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-183",
@@ -8067,13 +8972,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0184-image184.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0184",
     "sourceQuestionNumber": 183,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-184",
@@ -8114,13 +9024,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0185-image185.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0185",
     "sourceQuestionNumber": 184,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-185",
@@ -8161,13 +9076,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0186-image186.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0186",
     "sourceQuestionNumber": 185,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-186",
@@ -8208,13 +9128,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0187-image187.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0187",
     "sourceQuestionNumber": 186,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-187",
@@ -8255,13 +9180,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0188-image188.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0188",
     "sourceQuestionNumber": 187,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-188",
@@ -8290,13 +9220,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0189-image189.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0189",
     "sourceQuestionNumber": 188,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-189",
@@ -8337,13 +9272,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0190-image190.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0190",
     "sourceQuestionNumber": 189,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-190",
@@ -8384,13 +9324,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0191-image191.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0191",
     "sourceQuestionNumber": 190,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-191",
@@ -8431,13 +9376,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0192-image192.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0192",
     "sourceQuestionNumber": 191,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-192",
@@ -8478,13 +9428,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0193-image193.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0193",
     "sourceQuestionNumber": 192,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-193",
@@ -8525,13 +9480,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Types of Orders, Customer Accounts, Price Analysis",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0194-image194.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0194",
     "sourceQuestionNumber": 193,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-194",
@@ -8572,14 +9532,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0195-image195.png; source code 04_EZ_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0195",
     "sourceQuestionNumber": 194,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_EZ_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-195",
@@ -8620,14 +9585,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0196-image196.png; source code 04_EZ_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0196",
     "sourceQuestionNumber": 195,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_EZ_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-196",
@@ -8656,14 +9626,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0197-image197.png; source code 04_EZ_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0197",
     "sourceQuestionNumber": 196,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_EZ_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-197",
@@ -8704,13 +9679,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0198-image198.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0198",
     "sourceQuestionNumber": 197,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-198",
@@ -8751,14 +9731,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0199-image199.png; source code 04_EZ_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0199",
     "sourceQuestionNumber": 198,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_EZ_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-199",
@@ -8799,14 +9784,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0200-image200.png; source code 04_EZ_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0200",
     "sourceQuestionNumber": 199,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_EZ_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-200",
@@ -8835,14 +9825,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0201-image201.png; source code 04_EZ_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0201",
     "sourceQuestionNumber": 200,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_EZ_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-201",
@@ -8883,14 +9878,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0202-image202.png; source code 04_EZ_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0202",
     "sourceQuestionNumber": 201,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_EZ_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-202",
@@ -8919,14 +9919,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0203-image203.png; source code 04_EZ_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0203",
     "sourceQuestionNumber": 202,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_EZ_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-203",
@@ -8967,14 +9972,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0204-image204.png; source code 04_EZ_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0204",
     "sourceQuestionNumber": 203,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_EZ_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-204",
@@ -9015,14 +10025,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0205-image205.png; source code 04_EZ_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0205",
     "sourceQuestionNumber": 204,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_EZ_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-205",
@@ -9063,14 +10078,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0206-image206.png; source code 04_IM_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0206",
     "sourceQuestionNumber": 205,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-206",
@@ -9105,14 +10125,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0207-image207.png; source code 04_IM_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0207",
     "sourceQuestionNumber": 206,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_14",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-207",
@@ -9153,14 +10178,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0208-image208.png; source code 04_IM_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0208",
     "sourceQuestionNumber": 207,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-208",
@@ -9201,14 +10231,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0209-image209.png; source code 04_IM_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0209",
     "sourceQuestionNumber": 208,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-209",
@@ -9249,14 +10284,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0210-image210.png; source code 04_IM_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0210",
     "sourceQuestionNumber": 209,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-210",
@@ -9297,14 +10337,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0211-image211.png; source code 04_IM_18.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0211",
     "sourceQuestionNumber": 210,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_18",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-211",
@@ -9351,14 +10396,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0213-image213.png; source code 04_IM_20.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0213",
     "sourceQuestionNumber": 211,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_20",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-212",
@@ -9393,14 +10443,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0214-image214.png; source code 04_IM_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0214",
     "sourceQuestionNumber": 212,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_17",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-213",
@@ -9429,14 +10484,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0215-image215.png; source code 04_IM_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0215",
     "sourceQuestionNumber": 213,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-214",
@@ -9477,14 +10537,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0216-image216.png; source code 04_IM_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0216",
     "sourceQuestionNumber": 214,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-215",
@@ -9525,14 +10590,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0217-image217.png; source code 04_IM_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0217",
     "sourceQuestionNumber": 215,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-216",
@@ -9567,14 +10637,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0218-image218.png; source code 04_IM_19.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0218",
     "sourceQuestionNumber": 216,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_19",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-217",
@@ -9615,13 +10690,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0219-image219.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0219",
     "sourceQuestionNumber": 217,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-218",
@@ -9650,14 +10730,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0220-image220.png; source code 04_IM_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0220",
     "sourceQuestionNumber": 218,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-219",
@@ -9698,14 +10783,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0221-image221.png; source code 04_IM_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0221",
     "sourceQuestionNumber": 219,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-220",
@@ -9746,14 +10836,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0222-image222.png; source code 04_IM_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0222",
     "sourceQuestionNumber": 220,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_15",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-221",
@@ -9782,14 +10877,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0223-image223.png; source code 04_IM_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0223",
     "sourceQuestionNumber": 221,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_16",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-222",
@@ -9830,14 +10930,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0224-image224.png; source code 04_IM_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0224",
     "sourceQuestionNumber": 222,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-223",
@@ -9866,14 +10971,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0225-image225.png; source code 04_IM_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0225",
     "sourceQuestionNumber": 223,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-224",
@@ -9914,14 +11024,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0226-image226.png; source code 04_IM_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0226",
     "sourceQuestionNumber": 224,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "04_IM_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-225",
@@ -9956,13 +11071,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0227-image227.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0227",
     "sourceQuestionNumber": 225,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-226",
@@ -10003,13 +11123,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0228-image228.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0228",
     "sourceQuestionNumber": 226,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-227",
@@ -10056,13 +11181,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0229-image229.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0229",
     "sourceQuestionNumber": 227,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-228",
@@ -10103,13 +11233,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0231-image231.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0231",
     "sourceQuestionNumber": 228,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-229",
@@ -10150,13 +11285,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0232-image232.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0232",
     "sourceQuestionNumber": 229,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-230",
@@ -10203,13 +11343,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0233-image233.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0233",
     "sourceQuestionNumber": 230,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-231",
@@ -10250,13 +11395,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0234-image234.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0234",
     "sourceQuestionNumber": 231,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-232",
@@ -10297,13 +11447,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0235-image235.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0235",
     "sourceQuestionNumber": 232,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-233",
@@ -10344,13 +11499,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0236-image236.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0236",
     "sourceQuestionNumber": 233,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-234",
@@ -10391,13 +11551,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0237-image237.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0237",
     "sourceQuestionNumber": 234,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-235",
@@ -10438,13 +11603,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0238-image238.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0238",
     "sourceQuestionNumber": 235,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-236",
@@ -10485,13 +11655,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0239-image239.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0239",
     "sourceQuestionNumber": 236,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-237",
@@ -10532,14 +11707,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0241-image241.png; source code 05_EZ_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0241",
     "sourceQuestionNumber": 237,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "05_EZ_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-238",
@@ -10580,13 +11760,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0242-image242.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0242",
     "sourceQuestionNumber": 238,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-239",
@@ -10639,14 +11824,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0243-image243.png; source code 05_EZ_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0243",
     "sourceQuestionNumber": 239,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "05_EZ_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-240",
@@ -10675,13 +11865,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0244-image244.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0244",
     "sourceQuestionNumber": 240,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-241",
@@ -10722,13 +11917,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0245-image245.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0245",
     "sourceQuestionNumber": 241,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-242",
@@ -10769,14 +11969,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0246-image246.png; source code 05_EZ_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0246",
     "sourceQuestionNumber": 242,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "05_EZ_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-243",
@@ -10817,13 +12022,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0247-image247.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0247",
     "sourceQuestionNumber": 243,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-244",
@@ -10864,14 +12074,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0248-image248.png; source code 05_EZ_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0248",
     "sourceQuestionNumber": 244,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "05_EZ_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-246",
@@ -10912,13 +12127,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0249-image249.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0249",
     "sourceQuestionNumber": 246,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-247",
@@ -10959,13 +12179,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0250-image250.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0250",
     "sourceQuestionNumber": 247,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-248",
@@ -11006,13 +12231,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0251-image251.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0251",
     "sourceQuestionNumber": 248,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-249",
@@ -11053,13 +12283,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0252-image252.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0252",
     "sourceQuestionNumber": 249,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-250",
@@ -11112,14 +12347,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0253-image253.png; source code 05_IM_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0253",
     "sourceQuestionNumber": 250,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "05_IM_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-251",
@@ -11154,13 +12394,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0254-image254.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0254",
     "sourceQuestionNumber": 251,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-252",
@@ -11195,13 +12440,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0255-image255.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0255",
     "sourceQuestionNumber": 252,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-253",
@@ -11242,13 +12492,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0256-image256.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0256",
     "sourceQuestionNumber": 253,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-254",
@@ -11289,14 +12544,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0257-image257.png; source code 05_IM_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0257",
     "sourceQuestionNumber": 254,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "05_IM_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-255",
@@ -11337,14 +12597,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0258-image258.png; source code 05_IM_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0258",
     "sourceQuestionNumber": 255,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "05_IM_15",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-256",
@@ -11373,14 +12638,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0259-image259.png; source code 05_IM_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0259",
     "sourceQuestionNumber": 256,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "05_IM_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-257",
@@ -11421,14 +12691,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0260-image260.png; source code 05_IM_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0260",
     "sourceQuestionNumber": 257,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "05_IM_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-258",
@@ -11475,13 +12750,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0261-image261.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0261",
     "sourceQuestionNumber": 258,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-259",
@@ -11522,13 +12802,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0263-image263.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0263",
     "sourceQuestionNumber": 259,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-260",
@@ -11569,13 +12854,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0264-image264.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0264",
     "sourceQuestionNumber": 260,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-261",
@@ -11616,14 +12906,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0265-image265.png; source code 05_IM_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0265",
     "sourceQuestionNumber": 261,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "05_IM_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-262",
@@ -11664,13 +12959,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0266-image266.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0266",
     "sourceQuestionNumber": 262,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-263",
@@ -11711,13 +13011,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0267-image267.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0267",
     "sourceQuestionNumber": 263,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-264",
@@ -11758,13 +13063,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0268-image268.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0268",
     "sourceQuestionNumber": 264,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-265",
@@ -11805,13 +13115,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0269-image269.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0269",
     "sourceQuestionNumber": 265,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-266",
@@ -11852,13 +13167,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0270-image270.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0270",
     "sourceQuestionNumber": 266,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-267",
@@ -11899,13 +13219,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0271-image271.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0271",
     "sourceQuestionNumber": 267,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-268",
@@ -11952,13 +13277,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0273-image273.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0273",
     "sourceQuestionNumber": 268,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-269",
@@ -11999,13 +13329,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0274-image274.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0274",
     "sourceQuestionNumber": 269,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-270",
@@ -12046,13 +13381,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0275-image275.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0275",
     "sourceQuestionNumber": 270,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-271",
@@ -12099,13 +13439,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0276-image276.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0276",
     "sourceQuestionNumber": 271,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-272",
@@ -12140,14 +13485,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0277-image277.png; source code 06_EZ_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0277",
     "sourceQuestionNumber": 272,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_EZ_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-273",
@@ -12188,14 +13538,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0278-image278.png; source code 06_EZ_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0278",
     "sourceQuestionNumber": 273,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_EZ_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-274",
@@ -12224,13 +13579,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0279-image279.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0279",
     "sourceQuestionNumber": 274,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-275",
@@ -12259,14 +13619,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0280-image280.png; source code 06_EZ_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0280",
     "sourceQuestionNumber": 275,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_EZ_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-276",
@@ -12295,14 +13660,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0281-image281.png; source code 06_EZ_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0281",
     "sourceQuestionNumber": 276,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_EZ_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-277",
@@ -12343,14 +13713,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0282-image282.png; source code 06_EZ_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0282",
     "sourceQuestionNumber": 277,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_EZ_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-278",
@@ -12385,14 +13760,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0283-image283.png; source code 06_EZ_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0283",
     "sourceQuestionNumber": 278,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_EZ_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-279",
@@ -12433,13 +13813,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0284-image284.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0284",
     "sourceQuestionNumber": 279,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-280",
@@ -12480,14 +13865,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0285-image285.png; source code 06_EZ_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0285",
     "sourceQuestionNumber": 280,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_EZ_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-281",
@@ -12522,13 +13912,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0286-image286.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0286",
     "sourceQuestionNumber": 281,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-282",
@@ -12569,14 +13964,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0287-image287.png; source code 06_IM_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0287",
     "sourceQuestionNumber": 282,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-283",
@@ -12605,14 +14005,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0288-image288.png; source code 06_IM_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0288",
     "sourceQuestionNumber": 283,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-284",
@@ -12653,14 +14058,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0289-image289.png; source code 06_IM_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0289",
     "sourceQuestionNumber": 284,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-285",
@@ -12701,14 +14111,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0290-image290.png; source code 06_IM_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0290",
     "sourceQuestionNumber": 285,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-286",
@@ -12755,14 +14170,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0291-image291.png; source code 06_IM_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0291",
     "sourceQuestionNumber": 286,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_16",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-287",
@@ -12803,14 +14223,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0292-image292.png; source code 06_IM_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0292",
     "sourceQuestionNumber": 287,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-288",
@@ -12851,14 +14276,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0293-image293.png; source code 06_IM_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0293",
     "sourceQuestionNumber": 288,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_17",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-289",
@@ -12899,14 +14329,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0294-image294.png; source code 06_IM_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0294",
     "sourceQuestionNumber": 289,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-290",
@@ -12935,14 +14370,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0295-image295.png; source code 06_IM_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0295",
     "sourceQuestionNumber": 290,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-291",
@@ -12983,14 +14423,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0296-image296.png; source code 06_IM_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0296",
     "sourceQuestionNumber": 291,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_15",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-292",
@@ -13031,14 +14476,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0297-image297.png; source code 06_IM_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0297",
     "sourceQuestionNumber": 292,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-293",
@@ -13079,14 +14529,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0298-image298.png; source code 06_IM_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0298",
     "sourceQuestionNumber": 293,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-294",
@@ -13127,14 +14582,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0299-image299.png; source code 06_IM_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0299",
     "sourceQuestionNumber": 294,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-295",
@@ -13163,13 +14623,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0300-image300.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0300",
     "sourceQuestionNumber": 295,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-296",
@@ -13210,14 +14675,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0301-image301.png; source code 06_IM_18.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0301",
     "sourceQuestionNumber": 296,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_18",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-297",
@@ -13258,14 +14728,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0302-image302.png; source code 06_IM_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0302",
     "sourceQuestionNumber": 297,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_14",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-298",
@@ -13300,14 +14775,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0303-image303.png; source code 06_IM_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0303",
     "sourceQuestionNumber": 298,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "06_IM_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-299",
@@ -13336,13 +14816,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0304-image304.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0304",
     "sourceQuestionNumber": 299,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-300",
@@ -13371,13 +14856,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0305-image305.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0305",
     "sourceQuestionNumber": 300,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-301",
@@ -13418,13 +14908,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0307-image307.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0307",
     "sourceQuestionNumber": 301,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-302",
@@ -13471,13 +14966,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0308-image308.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0308",
     "sourceQuestionNumber": 302,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-303",
@@ -13506,13 +15006,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0310-image310.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0310",
     "sourceQuestionNumber": 303,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-304",
@@ -13553,13 +15058,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0311-image311.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0311",
     "sourceQuestionNumber": 304,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-305",
@@ -13600,13 +15110,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0312-image312.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0312",
     "sourceQuestionNumber": 305,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-307",
@@ -13635,13 +15150,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0313-image313.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0313",
     "sourceQuestionNumber": 307,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-308",
@@ -13682,14 +15202,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0314-image314.png; source code 07_EZ_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0314",
     "sourceQuestionNumber": 308,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_EZ_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-309",
@@ -13730,14 +15255,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0315-image315.png; source code 07_EZ_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0315",
     "sourceQuestionNumber": 309,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_EZ_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-310",
@@ -13778,14 +15308,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0316-image316.png; source code 07_EZ_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0316",
     "sourceQuestionNumber": 310,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_EZ_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-311",
@@ -13826,14 +15361,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0317-image317.png; source code 07_EZ_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0317",
     "sourceQuestionNumber": 311,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_EZ_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-312",
@@ -13862,14 +15402,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0318-image318.png; source code 07_EZ_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0318",
     "sourceQuestionNumber": 312,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_EZ_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-313",
@@ -13904,14 +15449,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0319-image319.png; source code 07_EZ_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0319",
     "sourceQuestionNumber": 313,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_EZ_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-314",
@@ -13952,14 +15502,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0320-image320.png; source code 07_EZ_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0320",
     "sourceQuestionNumber": 314,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_EZ_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-315",
@@ -13988,14 +15543,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0322-image322.png; source code 07_EZ_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0322",
     "sourceQuestionNumber": 315,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_EZ_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-316",
@@ -14024,13 +15584,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0323-image323.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0323",
     "sourceQuestionNumber": 316,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-317",
@@ -14059,14 +15624,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0324-image324.png; source code 07_EZ_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0324",
     "sourceQuestionNumber": 317,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_EZ_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-318",
@@ -14095,14 +15665,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0325-image325.png; source code 07_EZ_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0325",
     "sourceQuestionNumber": 318,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_EZ_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-319",
@@ -14143,14 +15718,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0326-image326.png; source code 07_EZ_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0326",
     "sourceQuestionNumber": 319,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_EZ_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-320",
@@ -14191,14 +15771,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0327-image327.png; source code 07_IM_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0327",
     "sourceQuestionNumber": 320,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-321",
@@ -14239,14 +15824,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0328-image328.png; source code 07_IM_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0328",
     "sourceQuestionNumber": 321,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-322",
@@ -14287,14 +15877,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0329-image329.png; source code 07_IM_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0329",
     "sourceQuestionNumber": 322,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-323",
@@ -14323,14 +15918,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0330-image330.png; source code 07_IM_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0330",
     "sourceQuestionNumber": 323,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-324",
@@ -14371,14 +15971,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0331-image331.png; source code 07_IM_8.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0331",
     "sourceQuestionNumber": 324,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_8",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-325",
@@ -14407,14 +16012,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0332-image332.png; source code 07_IM_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0332",
     "sourceQuestionNumber": 325,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-326",
@@ -14455,14 +16065,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0333-image333.png; source code 07_IM_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0333",
     "sourceQuestionNumber": 326,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-327",
@@ -14503,14 +16118,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0334-image334.png; source code 07_IM_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0334",
     "sourceQuestionNumber": 327,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-328",
@@ -14551,14 +16171,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0335-image335.png; source code 07_IM_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0335",
     "sourceQuestionNumber": 328,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-329",
@@ -14593,14 +16218,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0336-image336.png; source code 07_IM_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0336",
     "sourceQuestionNumber": 329,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-330",
@@ -14641,14 +16271,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0337-image337.png; source code 07_IM_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0337",
     "sourceQuestionNumber": 330,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-331",
@@ -14677,14 +16312,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0338-image338.png; source code 07_IM_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0338",
     "sourceQuestionNumber": 331,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-332",
@@ -14725,14 +16365,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0339-image339.png; source code 07_IM_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0339",
     "sourceQuestionNumber": 332,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "07_IM_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-333",
@@ -14779,13 +16424,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0340-image340.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0340",
     "sourceQuestionNumber": 333,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-334",
@@ -14820,13 +16470,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0342-image342.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0342",
     "sourceQuestionNumber": 334,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-335",
@@ -14867,13 +16522,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0343-image343.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0343",
     "sourceQuestionNumber": 335,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-336",
@@ -14914,13 +16574,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0345-image345.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0345",
     "sourceQuestionNumber": 336,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-337",
@@ -14955,13 +16620,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0346-image346.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0346",
     "sourceQuestionNumber": 337,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-338",
@@ -15002,13 +16672,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0349-image348.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0349",
     "sourceQuestionNumber": 338,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-339",
@@ -15049,13 +16724,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0351-image350.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0351",
     "sourceQuestionNumber": 339,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-340",
@@ -15084,13 +16764,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0352-image351.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0352",
     "sourceQuestionNumber": 340,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-341",
@@ -15119,13 +16804,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0353-image352.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0353",
     "sourceQuestionNumber": 341,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-342",
@@ -15166,13 +16856,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0354-image353.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0354",
     "sourceQuestionNumber": 342,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-343",
@@ -15213,14 +16908,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0355-image354.png; source code 08_EZ_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0355",
     "sourceQuestionNumber": 343,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_EZ_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-344",
@@ -15255,13 +16955,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0356-image355.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0356",
     "sourceQuestionNumber": 344,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-345",
@@ -15302,14 +17007,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0357-image356.png; source code 08_EZ_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0357",
     "sourceQuestionNumber": 345,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_EZ_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-346",
@@ -15350,14 +17060,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0358-image357.png; source code 08_EZ_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0358",
     "sourceQuestionNumber": 346,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_EZ_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-347",
@@ -15392,13 +17107,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0359-image358.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0359",
     "sourceQuestionNumber": 347,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-348",
@@ -15427,13 +17147,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0360-image359.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0360",
     "sourceQuestionNumber": 348,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-349",
@@ -15474,13 +17199,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0361-image360.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0361",
     "sourceQuestionNumber": 349,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-350",
@@ -15521,14 +17251,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0362-image361.png; source code 08_EZ_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0362",
     "sourceQuestionNumber": 350,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_EZ_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-351",
@@ -15557,13 +17292,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0363-image362.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0363",
     "sourceQuestionNumber": 351,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-352",
@@ -15604,14 +17344,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0364-image363.png; source code 08_EZ_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0364",
     "sourceQuestionNumber": 352,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_EZ_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-353",
@@ -15652,14 +17397,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0365-image364.png; source code 08_IM_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0365",
     "sourceQuestionNumber": 353,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-354",
@@ -15700,13 +17450,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0366-image365.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0366",
     "sourceQuestionNumber": 354,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-355",
@@ -15747,13 +17502,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0367-image366.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0367",
     "sourceQuestionNumber": 355,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-356",
@@ -15794,14 +17554,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0369-image368.png; source code 08_IM_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0369",
     "sourceQuestionNumber": 356,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_15",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-357",
@@ -15842,13 +17607,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0371-image370.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0371",
     "sourceQuestionNumber": 357,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-358",
@@ -15889,14 +17659,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0372-image371.png; source code 08_IM_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0372",
     "sourceQuestionNumber": 358,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-359",
@@ -15937,14 +17712,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0373-image372.png; source code 08_IM_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0373",
     "sourceQuestionNumber": 359,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-360",
@@ -15985,14 +17765,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0374-image373.png; source code 08_IM_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0374",
     "sourceQuestionNumber": 360,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-361",
@@ -16027,14 +17812,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0375-image374.png; source code 08_IM_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0375",
     "sourceQuestionNumber": 361,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-362",
@@ -16075,14 +17865,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0377-image376.png; source code 08_IM_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0377",
     "sourceQuestionNumber": 362,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-363",
@@ -16123,14 +17918,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0378-image377.png; source code 08_IM_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0378",
     "sourceQuestionNumber": 363,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-364",
@@ -16159,14 +17959,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0379-image378.png; source code 08_IM_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0379",
     "sourceQuestionNumber": 364,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-365",
@@ -16207,14 +18012,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0380-image379.png; source code 08_IM_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0380",
     "sourceQuestionNumber": 365,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-366",
@@ -16255,13 +18065,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0381-image380.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0381",
     "sourceQuestionNumber": 366,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-367",
@@ -16302,14 +18117,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0383-image382.png; source code 08_IM_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0383",
     "sourceQuestionNumber": 367,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_17",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-368",
@@ -16356,14 +18176,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0384-image383.png; source code 08_IM_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0384",
     "sourceQuestionNumber": 368,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_16",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-369",
@@ -16404,14 +18229,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0385-image384.png; source code 08_IM_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0385",
     "sourceQuestionNumber": 369,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "08_IM_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-370",
@@ -16452,13 +18282,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0386-image385.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0386",
     "sourceQuestionNumber": 370,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-371",
@@ -16493,13 +18328,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0388-image387.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0388",
     "sourceQuestionNumber": 371,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-372",
@@ -16540,13 +18380,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0389-image388.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0389",
     "sourceQuestionNumber": 372,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-373",
@@ -16581,13 +18426,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Speculating in Futures",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0390-image389.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0390",
     "sourceQuestionNumber": 373,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-374",
@@ -16628,14 +18478,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0392-image391.png; source code 09_EZ_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0392",
     "sourceQuestionNumber": 374,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_15",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-375",
@@ -16664,14 +18519,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0393-image392.png; source code 09_EZ_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0393",
     "sourceQuestionNumber": 375,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-376",
@@ -16700,14 +18560,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0394-image393.png; source code 09_EZ_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0394",
     "sourceQuestionNumber": 376,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-377",
@@ -16736,14 +18601,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0395-image394.png; source code 09_EZ_8.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0395",
     "sourceQuestionNumber": 377,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_8",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-378",
@@ -16778,14 +18648,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0396-image395.png; source code 09_EZ_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0396",
     "sourceQuestionNumber": 378,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-379",
@@ -16814,14 +18689,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0397-image396.png; source code 09_EZ_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0397",
     "sourceQuestionNumber": 379,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-380",
@@ -16868,14 +18748,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0398-image397.png; source code 09_EZ_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0398",
     "sourceQuestionNumber": 380,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-381",
@@ -16910,14 +18795,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0399-image398.png; source code 09_EZ_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0399",
     "sourceQuestionNumber": 381,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_14",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-382",
@@ -16958,14 +18848,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0400-image399.png; source code 09_EZ_18.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0400",
     "sourceQuestionNumber": 382,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_18",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-383",
@@ -17006,14 +18901,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0401-image400.png; source code 09_EZ_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0401",
     "sourceQuestionNumber": 383,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-384",
@@ -17054,14 +18954,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0402-image401.png; source code 09_EZ_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0402",
     "sourceQuestionNumber": 384,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_16",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-385",
@@ -17102,14 +19007,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0403-image402.png; source code 09_EZ_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0403",
     "sourceQuestionNumber": 385,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-386",
@@ -17138,14 +19048,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0404-image403.png; source code 09_EZ_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0404",
     "sourceQuestionNumber": 386,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-387",
@@ -17180,14 +19095,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0405-image404.png; source code 09_EZ_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0405",
     "sourceQuestionNumber": 387,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-388",
@@ -17228,14 +19148,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0406-image405.png; source code 09_EZ_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0406",
     "sourceQuestionNumber": 388,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-389",
@@ -17270,14 +19195,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0407-image406.png; source code 09_EZ_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0407",
     "sourceQuestionNumber": 389,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-390",
@@ -17318,14 +19248,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0408-image407.png; source code 09_EZ_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0408",
     "sourceQuestionNumber": 390,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_17",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-391",
@@ -17366,14 +19301,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0409-image408.png; source code 09_EZ_19.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0409",
     "sourceQuestionNumber": 391,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_19",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-392",
@@ -17414,14 +19354,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0410-image409.png; source code 09_EZ_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0410",
     "sourceQuestionNumber": 392,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_EZ_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-393",
@@ -17462,14 +19407,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0411-image410.png; source code 09_IM_31.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0411",
     "sourceQuestionNumber": 393,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_31",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-394",
@@ -17510,14 +19460,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0412-image411.png; source code 09_IM_21.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0412",
     "sourceQuestionNumber": 394,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_21",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-395",
@@ -17552,14 +19507,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0413-image412.png; source code 09_IM_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0413",
     "sourceQuestionNumber": 395,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_12",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-396",
@@ -17600,14 +19560,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0414-image413.png; source code 09_IM_8.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0414",
     "sourceQuestionNumber": 396,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_8",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-397",
@@ -17636,14 +19601,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0415-image414.png; source code 09_IM_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0415",
     "sourceQuestionNumber": 397,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_17",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-398",
@@ -17684,14 +19654,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0416-image415.png; source code 09_IM_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0416",
     "sourceQuestionNumber": 398,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_6",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-399",
@@ -17732,14 +19707,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0418-image417.png; source code 09_IM_18.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0418",
     "sourceQuestionNumber": 399,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_18",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-400",
@@ -17774,14 +19754,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0419-image418.png; source code 09_IM_24.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0419",
     "sourceQuestionNumber": 400,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_24",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-401",
@@ -17822,14 +19807,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0420-image419.png; source code 09_IM_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0420",
     "sourceQuestionNumber": 401,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_7",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-402",
@@ -17870,14 +19860,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0421-image420.png; source code 09_IM_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0421",
     "sourceQuestionNumber": 402,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_15",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-403",
@@ -17906,14 +19901,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0422-image421.png; source code 09_IM_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0422",
     "sourceQuestionNumber": 403,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_14",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-404",
@@ -17954,14 +19954,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0423-image422.png; source code 09_IM_27.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0423",
     "sourceQuestionNumber": 404,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_27",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-405",
@@ -17990,14 +19995,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0424-image423.png; source code 09_IM_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0424",
     "sourceQuestionNumber": 405,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_10",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-406",
@@ -18038,14 +20048,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0425-image424.png; source code 09_IM_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0425",
     "sourceQuestionNumber": 406,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_3",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-407",
@@ -18086,14 +20101,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0426-image425.png; source code 09_IM_20.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0426",
     "sourceQuestionNumber": 407,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_20",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-408",
@@ -18134,14 +20154,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0427-image426.png; source code 09_IM_19.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0427",
     "sourceQuestionNumber": 408,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_19",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-409",
@@ -18182,14 +20207,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0428-image427.png; source code 09_IM_28.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0428",
     "sourceQuestionNumber": 409,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_28",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-410",
@@ -18236,14 +20266,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0429-image428.png; source code 09_IM_1.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0429",
     "sourceQuestionNumber": 410,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_1",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-411",
@@ -18284,14 +20319,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0430-image429.png; source code 09_IM_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0430",
     "sourceQuestionNumber": 411,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_5",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-412",
@@ -18332,14 +20372,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0431-image430.png; source code 09_IM_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0431",
     "sourceQuestionNumber": 412,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_16",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-413",
@@ -18380,14 +20425,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0432-image431.png; source code 09_IM_32.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0432",
     "sourceQuestionNumber": 413,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_32",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-414",
@@ -18434,14 +20484,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0433-image432.png; source code 09_IM_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0433",
     "sourceQuestionNumber": 414,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_4",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-415",
@@ -18482,14 +20537,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0435-image434.png; source code 09_IM_34.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0435",
     "sourceQuestionNumber": 415,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_34",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-416",
@@ -18530,14 +20590,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0436-image435.png; source code 09_IM_35.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0436",
     "sourceQuestionNumber": 416,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_35",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-417",
@@ -18584,14 +20649,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0437-image436.png; source code 09_IM_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0437",
     "sourceQuestionNumber": 417,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_11",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-418",
@@ -18632,14 +20702,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0438-image437.png; source code 09_IM_30.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0438",
     "sourceQuestionNumber": 418,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_30",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-419",
@@ -18680,14 +20755,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0439-image438.png; source code 09_IM_22.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0439",
     "sourceQuestionNumber": 419,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_22",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-420",
@@ -18716,14 +20796,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0440-image439.png; source code 09_IM_23.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0440",
     "sourceQuestionNumber": 420,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_23",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-421",
@@ -18764,14 +20849,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0441-image440.png; source code 09_IM_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0441",
     "sourceQuestionNumber": 421,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_9",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-422",
@@ -18812,14 +20902,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0442-image441.png; source code 09_IM_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0442",
     "sourceQuestionNumber": 422,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_2",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-423",
@@ -18854,14 +20949,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0443-image442.png; source code 09_IM_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0443",
     "sourceQuestionNumber": 423,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_13",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-424",
@@ -18902,14 +21002,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0444-image443.png; source code 09_IM_29.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0444",
     "sourceQuestionNumber": 424,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_29",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-425",
@@ -18950,14 +21055,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0445-image444.png; source code 09_IM_33.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0445",
     "sourceQuestionNumber": 425,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_33",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-426",
@@ -18998,14 +21108,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0446-image445.png; source code 09_IM_26.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0446",
     "sourceQuestionNumber": 426,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_26",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-427",
@@ -19046,14 +21161,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0447-image446.png; source code 09_IM_25.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0447",
     "sourceQuestionNumber": 427,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_25",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-428",
@@ -19094,14 +21214,19 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0448-image447.png; source code 09_IM_36.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0448",
     "sourceQuestionNumber": 428,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
     "sourceCode": "09_IM_36",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-429",
@@ -19130,13 +21255,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0449-image448.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0449",
     "sourceQuestionNumber": 429,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-430",
@@ -19177,13 +21307,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0450-image449.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0450",
     "sourceQuestionNumber": 430,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-431",
@@ -19224,13 +21359,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0451-image450.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0451",
     "sourceQuestionNumber": 431,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-432",
@@ -19271,13 +21411,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0452-image451.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0452",
     "sourceQuestionNumber": 432,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-433",
@@ -19318,13 +21463,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0453-image452.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0453",
     "sourceQuestionNumber": 433,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-434",
@@ -19365,13 +21515,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0454-image453.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0454",
     "sourceQuestionNumber": 434,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-435",
@@ -19412,13 +21567,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0455-image454.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0455",
     "sourceQuestionNumber": 435,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-436",
@@ -19465,13 +21625,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0456-image455.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0456",
     "sourceQuestionNumber": 436,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-437",
@@ -19512,13 +21677,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0459-image458.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0459",
     "sourceQuestionNumber": 437,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-438",
@@ -19559,13 +21729,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0460-image459.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0460",
     "sourceQuestionNumber": 438,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-439",
@@ -19600,13 +21775,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0461-image460.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0461",
     "sourceQuestionNumber": 439,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-440",
@@ -19647,13 +21827,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0462-image461.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0462",
     "sourceQuestionNumber": 440,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-441",
@@ -19694,13 +21879,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0463-image462.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0463",
     "sourceQuestionNumber": 441,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-442",
@@ -19729,13 +21919,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0464-image463.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0464",
     "sourceQuestionNumber": 442,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-443",
@@ -19770,13 +21965,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0465-image464.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0465",
     "sourceQuestionNumber": 443,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-444",
@@ -19811,13 +22011,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0466-image465.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0466",
     "sourceQuestionNumber": 444,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-445",
@@ -19858,13 +22063,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0467-image466.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0467",
     "sourceQuestionNumber": 445,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-446",
@@ -19905,13 +22115,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0468-image467.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0468",
     "sourceQuestionNumber": 446,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   },
   {
     "id": "s3-market-docx-447",
@@ -19958,12 +22173,17 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
     "sourceNote": "User-provided S3-Market.docx OCR extraction; source image 0469-image468.png; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "0469",
     "sourceQuestionNumber": 447,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Market.docx; pending LLM certification."
   }
 ];

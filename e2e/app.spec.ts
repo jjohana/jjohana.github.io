@@ -7,17 +7,17 @@ test("opens the dashboard and browses the QCM bank", async ({ page }) => {
   await page.getByRole("button", { name: "QCM Bank" }).click();
   await expect(page.getByLabel("Question bank priority")).toHaveValue("all");
   await expect(page.getByLabel("Quality status")).toHaveValue("usable");
-  await expect(page.getByRole("heading", { name: "1074 QCMs in current scope" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "1080 QCMs in current scope" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Section to subtopic" })).toBeVisible();
   await page.getByLabel("Question bank priority").selectOption("s3-regulatory-pdf");
   await expect(page.getByRole("heading", { name: "242 QCMs in current scope" })).toBeVisible();
   await expect(page.locator(".regulatory-stats .metric").filter({ hasText: "Regulatory QCMs" })).toContainText("242");
   await page.getByLabel("Regulatory focus").selectOption("high-yield");
   await page.getByLabel("Question bank priority").selectOption("all");
-  await expect(page.getByRole("heading", { name: "1074 QCMs in current scope" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "1080 QCMs in current scope" })).toBeVisible();
   await page.getByLabel("Quality status").selectOption("rejected");
   await page.getByLabel("Issue type").selectOption("duplicate");
-  await expect(page.getByRole("heading", { name: "3 QCMs in current scope" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "0 QCMs in current scope" })).toBeVisible();
 });
 
 test("starts a topic drill and shows immediate feedback", async ({ page }) => {
@@ -25,9 +25,11 @@ test("starts a topic drill and shows immediate feedback", async ({ page }) => {
   await page.getByRole("button", { name: "Practice", exact: true }).click();
   await expect(page.getByLabel("Quality status")).toHaveValue("verified");
   await expect(page.getByLabel("Question bank priority")).toHaveValue("all");
-  await expect(page.getByRole("heading", { name: "432 matching QCMs" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "394 matching QCMs" })).toBeVisible();
   await page.getByLabel("Question bank priority").selectOption("s3-market-docx");
-  await expect(page.getByRole("heading", { name: "38 matching QCMs" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "0 matching QCMs" })).toBeVisible();
+  await page.getByLabel("Question bank priority").selectOption("authored");
+  await expect(page.getByRole("heading", { name: "394 matching QCMs" })).toBeVisible();
   await page.getByRole("button", { name: /Start drill/ }).click();
 
   await expect(page.getByRole("heading", { name: /Question 1 of/ })).toBeVisible();
@@ -68,10 +70,10 @@ test("starts a mock exam and opens results", async ({ page }) => {
   await page.getByRole("button", { name: "Mock Exam" }).click();
   await expect(page.getByLabel("Question bank priority")).toHaveValue("all");
   await expect(page.getByLabel("Quality status")).toHaveValue("verified");
-  await expect(page.getByText("432 matching active QCMs")).toBeVisible();
+  await expect(page.getByText("394 matching active QCMs")).toBeVisible();
   await page.getByLabel("Question bank priority").selectOption("s3-market-docx");
-  await expect(page.getByText("38 matching active QCMs")).toBeVisible();
-  await expect(page.locator(".distribution-summary .metric").filter({ hasText: "Current bank" })).toContainText("38");
+  await expect(page.getByText("0 matching active QCMs")).toBeVisible();
+  await expect(page.locator(".distribution-summary .metric").filter({ hasText: "Current bank" })).toContainText("0");
   await page.getByLabel("Question bank priority").selectOption("s3-regulatory-pdf");
   await expect(page.getByText("0 matching active QCMs")).toBeVisible();
   await expect(page.locator(".distribution-summary .metric").filter({ hasText: "Current bank" })).toContainText("0");

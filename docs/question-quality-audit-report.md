@@ -1,52 +1,38 @@
 # Question Quality Audit Report
 
-Generated: 2026-05-13T21:39:29.030Z
+Generated: 2026-05-14
 
-This report separates structural validity from content certification. `verified` means the item passed the current automated quality gates and, for authored items, the app's controlled generation/rewrite checks. `needs_review` means the item remains usable only when explicitly included, and should not be treated as content-certified.
+This report reflects the fresh import reset. It deliberately separates structural availability from content certification.
+
+`verified` means the item is currently eligible for default practice/mock selection.
+`needs_review` means the item is present in the app but is not certified and must not be treated as reliable until a substantive review is completed.
+
+## Inventory
 
 | Metric | Count |
-| --- | --- |
-| Total questions | 972 |
-| Active questions | 972 |
-| Validation errors | 0 |
-| Validation warnings | 145 |
-| Exact duplicate stem groups | 2 |
-| Near-duplicate pairs >= 0.88 | 8 |
-
-## Quality Status
-| Status | Count |
-| --- | --- |
-| rejected | 6 |
-| verified | 966 |
+| --- | ---: |
+| Total active questions | 1080 |
+| Verified questions | 394 |
+| Needs-review questions | 686 |
+| Rejected questions | 0 |
+| Imported questions | 686 |
+| Authored / rewritten / sample questions | 394 |
 
 ## Source Sets
-| Source set | Active QCMs |
-| --- | --- |
-| Authored/generated | 211 |
-| Regulatory rewritten | 47 |
-| S3-Market DOCX | 444 |
-| S3-Regulatory PDF | 242 |
-| Sample | 28 |
+
+| Source set | Active QCMs | Verified | Needs review |
+| --- | ---: | ---: | ---: |
+| S3-Market DOCX | 444 | 0 | 444 |
+| S3-Regulatory PDF | 242 | 0 | 242 |
+| Authored / rewritten / sample | 394 | 394 | 0 |
 
 ## Sections
-| Section | Active QCMs |
-| --- | --- |
-| market_knowledge | 673 |
-| us_regulations | 299 |
 
-## Issue Types
-| Issue type | Count |
-| --- | --- |
-| Ambiguous | 2 |
-| Calculation check needed | 1 |
-| Duplicate | 3 |
-| Wrong answer | 3 |
+| Section | Active QCMs | Verified | Needs review |
+| --- | ---: | ---: | ---: |
+| Market Knowledge | 781 | 337 | 444 |
+| U.S. Regulations | 299 | 57 | 242 |
 
-## Corrected / Touched Questions
-| Count |
-| --- |
-| 686 |
+## Current conclusion
 
-## Questions Still Needing Manual Review
-| ID | Section | Topic | Issues |
-| --- | --- | --- | --- |
+No imported QCM is currently certified. The next audit pass must review the imported documents question by question, correct wording/calculations/classification, then promote only reliable items to `verified`.

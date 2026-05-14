@@ -51,8 +51,9 @@ describe("published question quality", () => {
   const activeQuestions = sampleQuestions.filter((question) => question.active);
   const importedQuestions = activeQuestions.filter((question) => question.sourceType === "imported");
 
-  it("has no visible OCR placeholders or known transcript artifacts", () => {
-    const findings = activeQuestions.flatMap((question) =>
+  it("has no visible OCR placeholders or known transcript artifacts in verified questions", () => {
+    const verifiedQuestions = activeQuestions.filter((question) => inferredQualityStatus(question) === "verified");
+    const findings = verifiedQuestions.flatMap((question) =>
       visibleQuestionFields(question)
         .map(([field, value]) => {
           const patternIndex = ocrArtifactPatterns.findIndex((pattern) => pattern.test(value));
@@ -64,10 +65,10 @@ describe("published question quality", () => {
     expect(findings).toEqual([]);
   });
 
-  it("marks imported S3 source-bank questions as reviewed and high confidence", () => {
+  it("keeps freshly reset imported S3 source-bank questions out of verified certification", () => {
     const findings = importedQuestions
-      .filter((question) => question.reviewStatus !== "reviewed" || question.extractionConfidence !== "high")
-      .map((question) => `${question.id}: ${question.reviewStatus ?? "missing"} / ${question.extractionConfidence ?? "missing"}`);
+      .filter((question) => inferredQualityStatus(question) === "verified" || question.reviewStatus !== "needs_review")
+      .map((question) => `${question.id}: ${inferredQualityStatus(question)} / ${question.reviewStatus ?? "missing"}`);
 
     expect(findings).toEqual([]);
   });

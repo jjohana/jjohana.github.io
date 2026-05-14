@@ -1,33 +1,25 @@
 # Duplicate Review Report
 
+Generated: 2026-05-14
+
+The previous duplicate decisions for imported questions were cleared during the fresh import reset.
+
+Imported QCMs now all carry `needs_review`, including any items that may later prove to be duplicates. They are excluded from verified-only practice/mock selection until a new duplicate and content audit is completed.
+
 | Metric | Count |
-| --- | --- |
-| Exact duplicate stem groups | 2 |
-| Near-duplicate pairs >= 0.88 | 8 |
-| Rejected duplicate questions | 3 |
+| --- | ---: |
+| Imported QCMs requiring duplicate review | 686 |
+| Imported QCMs currently verified | 0 |
+| Imported QCMs currently rejected as duplicates | 0 |
 
-## Rejected Questions
-| ID | Notes |
-| --- | --- |
-| s3-market-docx-131 | Rejected by calculation audit: the imported options table is corrupted and the indicated intrinsic-value answer conflicts with the formula. |
-| s3-market-docx-250 | Rejected by duplicate audit: exact duplicate of s3-market-docx-239. |
-| s3-market-docx-300 | Rejected by duplicate audit: exact duplicate of s3-market-docx-283. |
-| s3-market-docx-332 | Rejected by calculation audit: the source-indicated sugar loss subtracts commissions from a loss; no displayed answer matches the corrected loss. |
-| s3-market-docx-410 | Rejected by calculation audit: the imported options table and explanation conflict on which option has intrinsic value. |
-| s3-market-docx-443 | Rejected by duplicate audit: near-duplicate of s3-market-docx-378. |
+## Required next pass
 
-## Exact Duplicate Groups
-- s3-market-docx-239, s3-market-docx-250
-- s3-market-docx-283, s3-market-docx-300
+The next audit should detect:
 
-## Near-Duplicate Pairs
-| Question A | Question B | Similarity |
-| --- | --- | --- |
-| mk-speculation-0002 | mk-spec-core-003 | 0.92 |
-| mk-spec-core-003 | mk-spec-core-009 | 0.91 |
-| mk-options-core-001 | mk-options-core-002 | 0.91 |
-| mk-full-narrowing-spread-001 | mk-full-widening-spread-001 | 1.00 |
-| mk-full-long-calls-001 | mk-full-long-puts-001 | 0.90 |
-| s3-market-docx-239 | s3-market-docx-250 | 1.00 |
-| s3-market-docx-283 | s3-market-docx-300 | 1.00 |
-| s3-market-docx-378 | s3-market-docx-443 | 1.00 |
+- exact duplicate stems;
+- near-duplicate stems;
+- repeated calculations with only superficial wording changes;
+- duplicated regulatory true/false items;
+- duplicate source pages or repeated screenshots.
+
+When duplicates are found, keep the clearest and most reliable version, then mark weaker copies as `rejected` with issue type `duplicate`.

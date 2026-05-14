@@ -50,14 +50,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 1; source code 10_EZ_31.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "1",
     "sourceQuestionNumber": 1,
     "sourceCode": "10_EZ_31",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-002",
@@ -101,14 +106,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 2; source code 10_EZ_40.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "2",
     "sourceQuestionNumber": 2,
     "sourceCode": "10_EZ_40",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-003",
@@ -140,14 +150,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "NFA Compliance Rule 2-4",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 3; source code 10_EZ_28.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "3",
     "sourceQuestionNumber": 3,
     "sourceCode": "10_EZ_28",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-004",
@@ -180,14 +195,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 4; source code 10_EZ_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "4",
     "sourceQuestionNumber": 4,
     "sourceCode": "10_EZ_5",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-005",
@@ -220,14 +240,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC reparations",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 5; source code 10_EZ_34.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "5",
     "sourceQuestionNumber": 5,
     "sourceCode": "10_EZ_34",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-006",
@@ -260,14 +285,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "risk disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 6; source code 10_EZ_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "6",
     "sourceQuestionNumber": 6,
     "sourceCode": "10_EZ_10",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-007",
@@ -317,14 +347,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 7; source code 10_EZ_70.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "7",
     "sourceQuestionNumber": 7,
     "sourceCode": "10_EZ_70",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-008",
@@ -374,14 +409,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "penalties and sanctions",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 8; source code 10_EZ_39.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "8",
     "sourceQuestionNumber": 8,
     "sourceCode": "10_EZ_39",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-009",
@@ -426,14 +466,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 9; source code 10_EZ_61.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "9",
     "sourceQuestionNumber": 9,
     "sourceCode": "10_EZ_61",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-010",
@@ -466,14 +511,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "discretionary accounts",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 10; source code 10_EZ_35.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "10",
     "sourceQuestionNumber": 10,
     "sourceCode": "10_EZ_35",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-011",
@@ -505,14 +555,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 11; source code 10_EZ_41.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "11",
     "sourceQuestionNumber": 11,
     "sourceCode": "10_EZ_41",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-012",
@@ -557,14 +612,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "risk disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 12; source code 10_EZ_48.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "12",
     "sourceQuestionNumber": 12,
     "sourceCode": "10_EZ_48",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-013",
@@ -596,14 +656,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 13; source code 10_EZ_74.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "13",
     "sourceQuestionNumber": 13,
     "sourceCode": "10_EZ_74",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-014",
@@ -636,14 +701,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 14; source code 10_EZ_51.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "14",
     "sourceQuestionNumber": 14,
     "sourceCode": "10_EZ_51",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-015",
@@ -676,14 +746,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "risk disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 15; source code 10_EZ_62.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "15",
     "sourceQuestionNumber": 15,
     "sourceCode": "10_EZ_62",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-016",
@@ -727,14 +802,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "NFA membership",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 16; source code 10_EZ_22.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "16",
     "sourceQuestionNumber": 16,
     "sourceCode": "10_EZ_22",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-017",
@@ -784,14 +864,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "associated person registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 17; source code 10_EZ_37.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "17",
     "sourceQuestionNumber": 17,
     "sourceCode": "10_EZ_37",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-018",
@@ -824,14 +909,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "customer information and know-your-customer",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 18; source code 10_EZ_23.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "18",
     "sourceQuestionNumber": 18,
     "sourceCode": "10_EZ_23",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-019",
@@ -864,14 +954,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "risk disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 19; source code 10_EZ_52.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "19",
     "sourceQuestionNumber": 19,
     "sourceCode": "10_EZ_52",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-020",
@@ -904,14 +999,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "customer information and know-your-customer",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 20; source code 10_EZ_73.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "20",
     "sourceQuestionNumber": 20,
     "sourceCode": "10_EZ_73",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-021",
@@ -956,14 +1056,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 21; source code 10_EZ_64.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "21",
     "sourceQuestionNumber": 21,
     "sourceCode": "10_EZ_64",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-022",
@@ -1008,14 +1113,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "accepting and segregating customer funds",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 22; source code 10_EZ_71.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "22",
     "sourceQuestionNumber": 22,
     "sourceCode": "10_EZ_71",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-023",
@@ -1047,14 +1157,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "time-stamping and order records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 23; source code 10_EZ_36.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "23",
     "sourceQuestionNumber": 23,
     "sourceCode": "10_EZ_36",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-024",
@@ -1086,14 +1201,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "NFA Compliance Rule 2-4",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 24; source code 10_EZ_72.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "24",
     "sourceQuestionNumber": 24,
     "sourceCode": "10_EZ_72",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-025",
@@ -1125,14 +1245,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "net capital requirements",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 25; source code 10_EZ_38.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "25",
     "sourceQuestionNumber": 25,
     "sourceCode": "10_EZ_38",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-026",
@@ -1176,14 +1301,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "arbitration and dispute resolution",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 26; source code 10_EZ_68.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "26",
     "sourceQuestionNumber": 26,
     "sourceCode": "10_EZ_68",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-027",
@@ -1216,14 +1346,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 27; source code 10_EZ_8.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "27",
     "sourceQuestionNumber": 27,
     "sourceCode": "10_EZ_8",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-028",
@@ -1256,14 +1391,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 28; source code 10_EZ_19.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "28",
     "sourceQuestionNumber": 28,
     "sourceCode": "10_EZ_19",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-029",
@@ -1308,14 +1448,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "hypothetical performance in promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 29; source code 10_EZ_65.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "29",
     "sourceQuestionNumber": 29,
     "sourceCode": "10_EZ_65",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-030",
@@ -1347,14 +1492,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 30; source code 10_EZ_66.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "30",
     "sourceQuestionNumber": 30,
     "sourceCode": "10_EZ_66",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-031",
@@ -1386,14 +1536,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "arbitration and dispute resolution",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 31; source code 10_EZ_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "31",
     "sourceQuestionNumber": 31,
     "sourceCode": "10_EZ_6",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-032",
@@ -1437,14 +1592,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "time-stamping and order records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 32; source code 10_EZ_58.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "32",
     "sourceQuestionNumber": 32,
     "sourceCode": "10_EZ_58",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-033",
@@ -1495,14 +1655,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "discretionary accounts",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 33; source code 10_EZ_56.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "33",
     "sourceQuestionNumber": 33,
     "sourceCode": "10_EZ_56",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-034",
@@ -1534,14 +1699,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "associated person registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 34; source code 10_EZ_59.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "34",
     "sourceQuestionNumber": 34,
     "sourceCode": "10_EZ_59",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-035",
@@ -1573,14 +1743,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "associated person registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 35; source code 10_EZ_29.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "35",
     "sourceQuestionNumber": 35,
     "sourceCode": "10_EZ_29",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-036",
@@ -1624,14 +1799,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "NFA Compliance Rule 2-4",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 36; source code 10_EZ_47.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "36",
     "sourceQuestionNumber": 36,
     "sourceCode": "10_EZ_47",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-037",
@@ -1664,14 +1844,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 37; source code 10_EZ_26.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "37",
     "sourceQuestionNumber": 37,
     "sourceCode": "10_EZ_26",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-038",
@@ -1722,14 +1907,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 38; source code 10_EZ_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "38",
     "sourceQuestionNumber": 38,
     "sourceCode": "10_EZ_2",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-039",
@@ -1761,14 +1951,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 39; source code 10_EZ_54.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "39",
     "sourceQuestionNumber": 39,
     "sourceCode": "10_EZ_54",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-040",
@@ -1800,14 +1995,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 40; source code 10_EZ_21.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "40",
     "sourceQuestionNumber": 40,
     "sourceCode": "10_EZ_21",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-041",
@@ -1839,14 +2039,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "time-stamping and order records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 41; source code 10_EZ_45.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "41",
     "sourceQuestionNumber": 41,
     "sourceCode": "10_EZ_45",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-042",
@@ -1891,14 +2096,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 42; source code 10_EZ_24.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "42",
     "sourceQuestionNumber": 42,
     "sourceCode": "10_EZ_24",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-043",
@@ -1931,14 +2141,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "accepting and segregating customer funds",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 43; source code 10_EZ_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "43",
     "sourceQuestionNumber": 43,
     "sourceCode": "10_EZ_12",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-044",
@@ -1982,14 +2197,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "disciplinary procedures",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 44; source code 10_EZ_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "44",
     "sourceQuestionNumber": 44,
     "sourceCode": "10_EZ_17",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-045",
@@ -2022,14 +2242,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 45; source code 10_EZ_27.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "45",
     "sourceQuestionNumber": 45,
     "sourceCode": "10_EZ_27",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-046",
@@ -2061,14 +2286,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "associated person registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 46; source code 10_EZ_76.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "46",
     "sourceQuestionNumber": 46,
     "sourceCode": "10_EZ_76",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-047",
@@ -2101,14 +2331,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 47; source code 10_EZ_44.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "47",
     "sourceQuestionNumber": 47,
     "sourceCode": "10_EZ_44",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-048",
@@ -2140,14 +2375,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 48; source code 10_EZ_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "48",
     "sourceQuestionNumber": 48,
     "sourceCode": "10_EZ_7",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-049",
@@ -2180,14 +2420,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 49; source code 10_EZ_18.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "49",
     "sourceQuestionNumber": 49,
     "sourceCode": "10_EZ_18",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-050",
@@ -2231,14 +2476,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "time-stamping and order records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 50; source code 10_EZ_46.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "50",
     "sourceQuestionNumber": 50,
     "sourceCode": "10_EZ_46",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-051",
@@ -2282,14 +2532,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "floor broker",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 51; source code 10_EZ_57.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "51",
     "sourceQuestionNumber": 51,
     "sourceCode": "10_EZ_57",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-052",
@@ -2322,14 +2577,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 52; source code 10_EZ_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "52",
     "sourceQuestionNumber": 52,
     "sourceCode": "10_EZ_11",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-053",
@@ -2362,14 +2622,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 53; source code 10_EZ_69.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "53",
     "sourceQuestionNumber": 53,
     "sourceCode": "10_EZ_69",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-054",
@@ -2401,14 +2666,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "arbitration procedures",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 54; source code 10_EZ_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "54",
     "sourceQuestionNumber": 54,
     "sourceCode": "10_EZ_15",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-055",
@@ -2440,14 +2710,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "time-stamping and order records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 55; source code 10_EZ_32.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "55",
     "sourceQuestionNumber": 55,
     "sourceCode": "10_EZ_32",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-056",
@@ -2480,14 +2755,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC reparations",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 56; source code 10_EZ_42.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "56",
     "sourceQuestionNumber": 56,
     "sourceCode": "10_EZ_42",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-057",
@@ -2519,14 +2799,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "NFA Compliance Rule 2-4",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 57; source code 10_EZ_49.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "57",
     "sourceQuestionNumber": 57,
     "sourceCode": "10_EZ_49",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-058",
@@ -2570,14 +2855,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 58; source code 10_EZ_43.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "58",
     "sourceQuestionNumber": 58,
     "sourceCode": "10_EZ_43",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-059",
@@ -2610,14 +2900,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 59; source code 10_EZ_60.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "59",
     "sourceQuestionNumber": 59,
     "sourceCode": "10_EZ_60",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-060",
@@ -2650,14 +2945,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "risk disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 60; source code 10_EZ_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "60",
     "sourceQuestionNumber": 60,
     "sourceCode": "10_EZ_9",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-061",
@@ -2690,14 +2990,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 61; source code 10_EZ_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "61",
     "sourceQuestionNumber": 61,
     "sourceCode": "10_EZ_3",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-062",
@@ -2730,14 +3035,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 62; source code 10_EZ_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "62",
     "sourceQuestionNumber": 62,
     "sourceCode": "10_EZ_16",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-063",
@@ -2770,14 +3080,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "transaction cost disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 63; source code 10_EZ_67.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "63",
     "sourceQuestionNumber": 63,
     "sourceCode": "10_EZ_67",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-064",
@@ -2810,14 +3125,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 64; source code 10_EZ_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "64",
     "sourceQuestionNumber": 64,
     "sourceCode": "10_EZ_4",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-065",
@@ -2861,14 +3181,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "arbitration procedures",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 65; source code 10_EZ_25.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "65",
     "sourceQuestionNumber": 65,
     "sourceCode": "10_EZ_25",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-066",
@@ -2912,14 +3237,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "disciplinary procedures",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 66; source code 10_EZ_20.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "66",
     "sourceQuestionNumber": 66,
     "sourceCode": "10_EZ_20",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-067",
@@ -2951,14 +3281,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "disciplinary procedures",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 67; source code 10_EZ_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "67",
     "sourceQuestionNumber": 67,
     "sourceCode": "10_EZ_13",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-068",
@@ -2990,14 +3325,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "written customer authorization",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 68; source code 10_EZ_55.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "68",
     "sourceQuestionNumber": 68,
     "sourceCode": "10_EZ_55",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-069",
@@ -3030,14 +3370,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 69; source code 10_EZ_50.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "69",
     "sourceQuestionNumber": 69,
     "sourceCode": "10_EZ_50",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-070",
@@ -3069,14 +3414,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "associated person registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 70; source code 10_EZ_30.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "70",
     "sourceQuestionNumber": 70,
     "sourceCode": "10_EZ_30",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-071",
@@ -3120,14 +3470,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "time-stamping and order records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 71; source code 10_EZ_33.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "71",
     "sourceQuestionNumber": 71,
     "sourceCode": "10_EZ_33",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-074",
@@ -3160,14 +3515,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 74; source code 10_EZ_63.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "74",
     "sourceQuestionNumber": 74,
     "sourceCode": "10_EZ_63",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-075",
@@ -3200,14 +3560,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 75; source code 10_EZ_77.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "75",
     "sourceQuestionNumber": 75,
     "sourceCode": "10_EZ_77",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-076",
@@ -3251,14 +3616,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 76; source code 10_EZ_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "76",
     "sourceQuestionNumber": 76,
     "sourceCode": "10_EZ_14",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-077",
@@ -3290,14 +3660,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "NFA membership",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 77; source code 10_EZ_75.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "77",
     "sourceQuestionNumber": 77,
     "sourceCode": "10_EZ_75",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-078",
@@ -3342,14 +3717,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 78; source code 10_IM_34.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "78",
     "sourceQuestionNumber": 78,
     "sourceCode": "10_IM_34",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-079",
@@ -3394,14 +3774,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC reparations",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 79; source code 10_IM_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "79",
     "sourceQuestionNumber": 79,
     "sourceCode": "10_IM_16",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-080",
@@ -3445,14 +3830,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "customer complaints",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 80; source code 10_IM_59.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "80",
     "sourceQuestionNumber": 80,
     "sourceCode": "10_IM_59",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-081",
@@ -3484,14 +3874,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "arbitration and dispute resolution",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 81; source code 10_IM_122.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "81",
     "sourceQuestionNumber": 81,
     "sourceCode": "10_IM_122",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-082",
@@ -3524,14 +3919,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA performance records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 82; source code 10_IM_116.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "82",
     "sourceQuestionNumber": 82,
     "sourceCode": "10_IM_116",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-083",
@@ -3576,14 +3976,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 83; source code 10_IM_103.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "83",
     "sourceQuestionNumber": 83,
     "sourceCode": "10_IM_103",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-084",
@@ -3616,14 +4021,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 84; source code 10_IM_76.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "84",
     "sourceQuestionNumber": 84,
     "sourceCode": "10_IM_76",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-085",
@@ -3668,14 +4078,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 85; source code 10_IM_52.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "85",
     "sourceQuestionNumber": 85,
     "sourceCode": "10_IM_52",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-086",
@@ -3707,14 +4122,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "arbitration procedures",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 86; source code 10_IM_72.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "86",
     "sourceQuestionNumber": 86,
     "sourceCode": "10_IM_72",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-087",
@@ -3752,14 +4172,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "NFA membership",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 87; source code 10_IM_7.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "87",
     "sourceQuestionNumber": 87,
     "sourceCode": "10_IM_7",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-088",
@@ -3809,14 +4234,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "penalties and sanctions",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 88; source code 10_IM_40.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "88",
     "sourceQuestionNumber": 88,
     "sourceCode": "10_IM_40",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-089",
@@ -3861,14 +4291,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA drawdown and performance records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 89; source code 10_IM_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "89",
     "sourceQuestionNumber": 89,
     "sourceCode": "10_IM_14",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-090",
@@ -3919,14 +4354,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC reparations",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 90; source code 10_IM_27.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "90",
     "sourceQuestionNumber": 90,
     "sourceCode": "10_IM_27",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-091",
@@ -3959,14 +4399,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 91; source code 10_IM_91.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "91",
     "sourceQuestionNumber": 91,
     "sourceCode": "10_IM_91",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-092",
@@ -4017,14 +4462,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA fees and break-even disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 92; source code 10_IM_88.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "92",
     "sourceQuestionNumber": 92,
     "sourceCode": "10_IM_88",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-093",
@@ -4057,14 +4507,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 93; source code 10_IM_106.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "93",
     "sourceQuestionNumber": 93,
     "sourceCode": "10_IM_106",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-094",
@@ -4096,14 +4551,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 94; source code 10_IM_55.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "94",
     "sourceQuestionNumber": 94,
     "sourceCode": "10_IM_55",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-095",
@@ -4154,14 +4614,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 95; source code 10_IM_65.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "95",
     "sourceQuestionNumber": 95,
     "sourceCode": "10_IM_65",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-096",
@@ -4206,14 +4671,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 96; source code 10_IM_60.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "96",
     "sourceQuestionNumber": 96,
     "sourceCode": "10_IM_60",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-097",
@@ -4257,14 +4727,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "arbitration procedures",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 97; source code 10_IM_57.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "97",
     "sourceQuestionNumber": 97,
     "sourceCode": "10_IM_57",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-098",
@@ -4309,14 +4784,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 98; source code 10_IM_108.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "98",
     "sourceQuestionNumber": 98,
     "sourceCode": "10_IM_108",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-099",
@@ -4361,14 +4841,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 99; source code 10_IM_121.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "99",
     "sourceQuestionNumber": 99,
     "sourceCode": "10_IM_121",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-100",
@@ -4400,14 +4885,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "anti-money laundering",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 100; source code 10_IM_99.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "100",
     "sourceQuestionNumber": 100,
     "sourceCode": "10_IM_99",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-101",
@@ -4452,14 +4942,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 101; source code 10_IM_66.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "101",
     "sourceQuestionNumber": 101,
     "sourceCode": "10_IM_66",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-102",
@@ -4504,14 +4999,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 102; source code 10_IM_82.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "102",
     "sourceQuestionNumber": 102,
     "sourceCode": "10_IM_82",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-103",
@@ -4562,14 +5062,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 103; source code 10_IM_105.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "103",
     "sourceQuestionNumber": 103,
     "sourceCode": "10_IM_105",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-104",
@@ -4601,14 +5106,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "NFA membership",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 104; source code 10_IM_101.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "104",
     "sourceQuestionNumber": 104,
     "sourceCode": "10_IM_101",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-105",
@@ -4653,14 +5163,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "accepting and segregating customer funds",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 105; source code 10_IM_6.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "105",
     "sourceQuestionNumber": 105,
     "sourceCode": "10_IM_6",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-106",
@@ -4705,14 +5220,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "discretionary accounts",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 106; source code 10_IM_68.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "106",
     "sourceQuestionNumber": 106,
     "sourceCode": "10_IM_68",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-107",
@@ -4745,14 +5265,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA performance records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 107; source code 10_IM_74.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "107",
     "sourceQuestionNumber": 107,
     "sourceCode": "10_IM_74",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-108",
@@ -4796,14 +5321,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "floor broker",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 108; source code 10_IM_61.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "108",
     "sourceQuestionNumber": 108,
     "sourceCode": "10_IM_61",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-109",
@@ -4847,14 +5377,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 109; source code 10_IM_123.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "109",
     "sourceQuestionNumber": 109,
     "sourceCode": "10_IM_123",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-110",
@@ -4899,14 +5434,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "futures commission merchant",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 110; source code 10_IM_35.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "110",
     "sourceQuestionNumber": 110,
     "sourceCode": "10_IM_35",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-111",
@@ -4951,14 +5491,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "accepting and segregating customer funds",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 111; source code 10_IM_19.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "111",
     "sourceQuestionNumber": 111,
     "sourceCode": "10_IM_19",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-112",
@@ -4990,14 +5535,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "supervision and account review",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 112; source code 10_IM_125.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "112",
     "sourceQuestionNumber": 112,
     "sourceCode": "10_IM_125",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-113",
@@ -5041,14 +5591,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "disciplinary procedures",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 113; source code 10_IM_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "113",
     "sourceQuestionNumber": 113,
     "sourceCode": "10_IM_17",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-114",
@@ -5092,14 +5647,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "disciplinary procedures",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 114; source code 10_IM_62.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "114",
     "sourceQuestionNumber": 114,
     "sourceCode": "10_IM_62",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-115",
@@ -5131,14 +5691,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 115; source code 10_IM_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "115",
     "sourceQuestionNumber": 115,
     "sourceCode": "10_IM_4",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-116",
@@ -5170,14 +5735,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "position reporting",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 116; source code 10_IM_18.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "116",
     "sourceQuestionNumber": 116,
     "sourceCode": "10_IM_18",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-117",
@@ -5221,14 +5791,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "arbitration procedures",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 117; source code 10_IM_89.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "117",
     "sourceQuestionNumber": 117,
     "sourceCode": "10_IM_89",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-118",
@@ -5261,14 +5836,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 118; source code 10_IM_77.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "118",
     "sourceQuestionNumber": 118,
     "sourceCode": "10_IM_77",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-119",
@@ -5319,14 +5899,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "discretionary accounts",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 119; source code 10_IM_80.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "119",
     "sourceQuestionNumber": 119,
     "sourceCode": "10_IM_80",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-120",
@@ -5365,14 +5950,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 120; source code 10_IM_95.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "120",
     "sourceQuestionNumber": 120,
     "sourceCode": "10_IM_95",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-121",
@@ -5416,14 +6006,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 121; source code 10_IM_29.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "121",
     "sourceQuestionNumber": 121,
     "sourceCode": "10_IM_29",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-122",
@@ -5468,14 +6063,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA fees and break-even disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 122; source code 10_IM_84.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "122",
     "sourceQuestionNumber": 122,
     "sourceCode": "10_IM_84",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-123",
@@ -5525,14 +6125,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "speculative position limits",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 123; source code 10_IM_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "123",
     "sourceQuestionNumber": 123,
     "sourceCode": "10_IM_11",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-124",
@@ -5565,14 +6170,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 124; source code 10_IM_56.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "124",
     "sourceQuestionNumber": 124,
     "sourceCode": "10_IM_56",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-125",
@@ -5617,14 +6227,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 125; source code 10_IM_119.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "125",
     "sourceQuestionNumber": 125,
     "sourceCode": "10_IM_119",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-126",
@@ -5675,14 +6290,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "accepting and segregating customer funds",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 126; source code 10_IM_36.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "126",
     "sourceQuestionNumber": 126,
     "sourceCode": "10_IM_36",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-127",
@@ -5714,14 +6334,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "NFA membership",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 127; source code 10_IM_67.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "127",
     "sourceQuestionNumber": 127,
     "sourceCode": "10_IM_67",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-128",
@@ -5766,14 +6391,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "margin deposit collection",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 128; source code 10_IM_5.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "128",
     "sourceQuestionNumber": 128,
     "sourceCode": "10_IM_5",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-129",
@@ -5823,14 +6453,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "NFA membership",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 130; source code 10_IM_47.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "130",
     "sourceQuestionNumber": 129,
     "sourceCode": "10_IM_47",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-130",
@@ -5880,14 +6515,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 129; source code 10_IM_115.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "129",
     "sourceQuestionNumber": 130,
     "sourceCode": "10_IM_115",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-131",
@@ -5932,14 +6572,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 132; source code 10_IM_87.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "132",
     "sourceQuestionNumber": 131,
     "sourceCode": "10_IM_87",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-132",
@@ -5990,14 +6635,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "customer information and know-your-customer",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 133; source code 10_IM_39.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "133",
     "sourceQuestionNumber": 132,
     "sourceCode": "10_IM_39",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-133",
@@ -6047,14 +6697,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "position reporting",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 134; source code 10_IM_24.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "134",
     "sourceQuestionNumber": 133,
     "sourceCode": "10_IM_24",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-134",
@@ -6098,14 +6753,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 135; source code 10_IM_111.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "135",
     "sourceQuestionNumber": 134,
     "sourceCode": "10_IM_111",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-135",
@@ -6155,14 +6815,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "anti-money laundering",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 136; source code 10_IM_100.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "136",
     "sourceQuestionNumber": 135,
     "sourceCode": "10_IM_100",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-137",
@@ -6207,14 +6872,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 138; source code 10_IM_85.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "138",
     "sourceQuestionNumber": 137,
     "sourceCode": "10_IM_85",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-138",
@@ -6265,14 +6935,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "accepting and segregating customer funds",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 139; source code 10_IM_113.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "139",
     "sourceQuestionNumber": 138,
     "sourceCode": "10_IM_113",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-139",
@@ -6317,14 +6992,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "accepting and segregating customer funds",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 140; source code 10_IM_9.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "140",
     "sourceQuestionNumber": 139,
     "sourceCode": "10_IM_9",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-140",
@@ -6369,14 +7049,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "guaranteed introducing brokers",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 141; source code 10_IM_49.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "141",
     "sourceQuestionNumber": 140,
     "sourceCode": "10_IM_49",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-141",
@@ -6421,14 +7106,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 142; source code 10_IM_63.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "142",
     "sourceQuestionNumber": 141,
     "sourceCode": "10_IM_63",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-142",
@@ -6460,14 +7150,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "penalties and sanctions",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 143; source code 10_IM_2.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "143",
     "sourceQuestionNumber": 142,
     "sourceCode": "10_IM_2",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-144",
@@ -6512,14 +7207,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "futures commission merchant",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 145; source code 10_IM_21.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "145",
     "sourceQuestionNumber": 144,
     "sourceCode": "10_IM_21",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-145",
@@ -6564,14 +7264,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "risk disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 146; source code 10_IM_37.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "146",
     "sourceQuestionNumber": 145,
     "sourceCode": "10_IM_37",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-146",
@@ -6616,14 +7321,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 147; source code 10_IM_104.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "147",
     "sourceQuestionNumber": 146,
     "sourceCode": "10_IM_104",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-147",
@@ -6673,14 +7383,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "time-stamping and order records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 148; source code 10_IM_97.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "148",
     "sourceQuestionNumber": 147,
     "sourceCode": "10_IM_97",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-148",
@@ -6725,14 +7440,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 149; source code 10_IM_58.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "149",
     "sourceQuestionNumber": 148,
     "sourceCode": "10_IM_58",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-149",
@@ -6776,14 +7496,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "supervision and account review",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 150; source code 10_IM_38.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "150",
     "sourceQuestionNumber": 149,
     "sourceCode": "10_IM_38",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-150",
@@ -6816,14 +7541,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "upfront fees",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 151; source code 10_IM_73.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "151",
     "sourceQuestionNumber": 150,
     "sourceCode": "10_IM_73",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-151",
@@ -6868,14 +7598,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 152; source code 10_IM_102.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "152",
     "sourceQuestionNumber": 151,
     "sourceCode": "10_IM_102",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-152",
@@ -6919,14 +7654,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 153; source code 10_IM_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "153",
     "sourceQuestionNumber": 152,
     "sourceCode": "10_IM_15",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-153",
@@ -6959,14 +7699,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 154; source code 10_IM_50.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "154",
     "sourceQuestionNumber": 153,
     "sourceCode": "10_IM_50",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-154",
@@ -6999,14 +7744,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "customer information and know-your-customer",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 155; source code 10_IM_44.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "155",
     "sourceQuestionNumber": 154,
     "sourceCode": "10_IM_44",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-155",
@@ -7051,14 +7801,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA performance records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 156; source code 10_IM_54.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "156",
     "sourceQuestionNumber": 155,
     "sourceCode": "10_IM_54",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-156",
@@ -7103,14 +7858,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "guaranteed introducing brokers",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 157; source code 10_IM_30.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "157",
     "sourceQuestionNumber": 156,
     "sourceCode": "10_IM_30",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-157",
@@ -7142,14 +7902,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "associated person registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 158; source code 10_IM_92.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "158",
     "sourceQuestionNumber": 157,
     "sourceCode": "10_IM_92",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-158",
@@ -7194,14 +7959,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "risk disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 159; source code 10_IM_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "159",
     "sourceQuestionNumber": 158,
     "sourceCode": "10_IM_12",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-159",
@@ -7246,14 +8016,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "discretionary accounts",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 160; source code 10_IM_3.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "160",
     "sourceQuestionNumber": 159,
     "sourceCode": "10_IM_3",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-160",
@@ -7298,14 +8073,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "customer information and know-your-customer",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 161; source code 10_IM_107.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "161",
     "sourceQuestionNumber": 160,
     "sourceCode": "10_IM_107",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-161",
@@ -7355,14 +8135,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 162; source code 10_IM_28.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "162",
     "sourceQuestionNumber": 161,
     "sourceCode": "10_IM_28",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-162",
@@ -7407,14 +8192,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 163; source code 10_IM_43.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "163",
     "sourceQuestionNumber": 162,
     "sourceCode": "10_IM_43",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-163",
@@ -7447,14 +8237,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA performance records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 164; source code 10_IM_31.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "164",
     "sourceQuestionNumber": 163,
     "sourceCode": "10_IM_31",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-164",
@@ -7499,14 +8294,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "futures commission merchant",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 165; source code 10_IM_22.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "165",
     "sourceQuestionNumber": 164,
     "sourceCode": "10_IM_22",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-165",
@@ -7538,14 +8338,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 166; source code 10_IM_117.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "166",
     "sourceQuestionNumber": 165,
     "sourceCode": "10_IM_117",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-166",
@@ -7590,14 +8395,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 167; source code 10_IM_96.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "167",
     "sourceQuestionNumber": 166,
     "sourceCode": "10_IM_96",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-167",
@@ -7629,14 +8439,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "arbitration and dispute resolution",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 168; source code 10_IM_20.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "168",
     "sourceQuestionNumber": 167,
     "sourceCode": "10_IM_20",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-168",
@@ -7681,14 +8496,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "introducing broker",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 169; source code 10_IM_26.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "169",
     "sourceQuestionNumber": 168,
     "sourceCode": "10_IM_26",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-169",
@@ -7738,14 +8558,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 170; source code 10_IM_46.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "170",
     "sourceQuestionNumber": 169,
     "sourceCode": "10_IM_46",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-170",
@@ -7790,14 +8615,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "futures commission merchant",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 171; source code 10_IM_120.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "171",
     "sourceQuestionNumber": 170,
     "sourceCode": "10_IM_120",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-171",
@@ -7830,14 +8660,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 172; source code 10_IM_23.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "172",
     "sourceQuestionNumber": 171,
     "sourceCode": "10_IM_23",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-172",
@@ -7882,14 +8717,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 173; source code 10_IM_86.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "173",
     "sourceQuestionNumber": 172,
     "sourceCode": "10_IM_86",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-173",
@@ -7934,14 +8774,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "customer information and know-your-customer",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 174; source code 10_IM_45.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "174",
     "sourceQuestionNumber": 173,
     "sourceCode": "10_IM_45",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-174",
@@ -7985,14 +8830,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "anti-money laundering",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 175; source code 10_IM_98.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "175",
     "sourceQuestionNumber": 174,
     "sourceCode": "10_IM_98",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-175",
@@ -8036,14 +8886,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "written customer authorization",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 176; source code 10_IM_78.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "176",
     "sourceQuestionNumber": 175,
     "sourceCode": "10_IM_78",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-176",
@@ -8075,14 +8930,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "associated person registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 177; source code 10_IM_32.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "177",
     "sourceQuestionNumber": 176,
     "sourceCode": "10_IM_32",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-177",
@@ -8133,14 +8993,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 178; source code 10_IM_110.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "178",
     "sourceQuestionNumber": 177,
     "sourceCode": "10_IM_110",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-178",
@@ -8172,14 +9037,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "written customer authorization",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 179; source code 10_IM_109.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "179",
     "sourceQuestionNumber": 178,
     "sourceCode": "10_IM_109",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-179",
@@ -8212,14 +9082,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA fees and break-even disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 180; source code 10_IM_75.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "180",
     "sourceQuestionNumber": 179,
     "sourceCode": "10_IM_75",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-180",
@@ -8270,14 +9145,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "futures commission merchant",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 181; source code 10_IM_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "181",
     "sourceQuestionNumber": 180,
     "sourceCode": "10_IM_10",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-181",
@@ -8322,14 +9202,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA performance records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 182; source code 10_IM_118.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "182",
     "sourceQuestionNumber": 181,
     "sourceCode": "10_IM_118",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-182",
@@ -8362,14 +9247,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 183; source code 10_IM_112.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "183",
     "sourceQuestionNumber": 182,
     "sourceCode": "10_IM_112",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-183",
@@ -8413,14 +9303,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "time-stamping and order records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 184; source code 10_IM_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "184",
     "sourceQuestionNumber": 183,
     "sourceCode": "10_IM_13",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-184",
@@ -8465,14 +9360,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "customer information and know-your-customer",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 185; source code 10_IM_42.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "185",
     "sourceQuestionNumber": 184,
     "sourceCode": "10_IM_42",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-185",
@@ -8522,14 +9422,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "net capital requirements",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 186; source code 10_IM_71.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "186",
     "sourceQuestionNumber": 185,
     "sourceCode": "10_IM_71",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-186",
@@ -8562,14 +9467,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA fees and break-even disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 187; source code 10_IM_81.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "187",
     "sourceQuestionNumber": 186,
     "sourceCode": "10_IM_81",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-187",
@@ -8601,14 +9511,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "financial reports",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 188; source code 10_IM_70.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "188",
     "sourceQuestionNumber": 187,
     "sourceCode": "10_IM_70",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-188",
@@ -8653,14 +9568,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 189; source code 10_IM_51.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "189",
     "sourceQuestionNumber": 188,
     "sourceCode": "10_IM_51",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-189",
@@ -8704,14 +9624,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 190; source code 10_IM_41.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "190",
     "sourceQuestionNumber": 189,
     "sourceCode": "10_IM_41",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-190",
@@ -8744,14 +9669,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 191; source code 10_IM_79.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "191",
     "sourceQuestionNumber": 190,
     "sourceCode": "10_IM_79",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-192",
@@ -8795,14 +9725,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 193; source code 10_IM_83.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "193",
     "sourceQuestionNumber": 192,
     "sourceCode": "10_IM_83",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-193",
@@ -8846,14 +9781,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 194; source code 10_IM_25.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "194",
     "sourceQuestionNumber": 193,
     "sourceCode": "10_IM_25",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-195",
@@ -8903,14 +9843,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 196; source code 10_IM_124.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "196",
     "sourceQuestionNumber": 195,
     "sourceCode": "10_IM_124",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-196",
@@ -8961,14 +9906,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 197; source code 10_IM_69.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "197",
     "sourceQuestionNumber": 196,
     "sourceCode": "10_IM_69",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-197",
@@ -9019,14 +9969,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "bunched orders",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 198; source code 10_IM_114.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "198",
     "sourceQuestionNumber": 197,
     "sourceCode": "10_IM_114",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-198",
@@ -9059,14 +10014,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 199; source code 10_IM_64.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "199",
     "sourceQuestionNumber": 198,
     "sourceCode": "10_IM_64",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-199",
@@ -9110,14 +10070,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 200; source code 10_IM_90.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "200",
     "sourceQuestionNumber": 199,
     "sourceCode": "10_IM_90",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-200",
@@ -9162,14 +10127,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "accepting and segregating customer funds",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 201; source code 10_IM_8.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "201",
     "sourceQuestionNumber": 200,
     "sourceCode": "10_IM_8",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-201",
@@ -9219,14 +10189,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "account offset and adjustment rules",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 202; source code 10_IM_33.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "202",
     "sourceQuestionNumber": 201,
     "sourceCode": "10_IM_33",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-202",
@@ -9259,14 +10234,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 203; source code 10_IM_48.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "203",
     "sourceQuestionNumber": 202,
     "sourceCode": "10_IM_48",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-203",
@@ -9310,13 +10290,18 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "associated person registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 204; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "204",
     "sourceQuestionNumber": 203,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-204",
@@ -9349,13 +10334,18 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 205; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "205",
     "sourceQuestionNumber": 204,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-205",
@@ -9400,13 +10390,18 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 206; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "206",
     "sourceQuestionNumber": 205,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-206",
@@ -9439,14 +10434,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 207; source code 10_DI_45.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "207",
     "sourceQuestionNumber": 206,
     "sourceCode": "10_DI_45",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-207",
@@ -9491,14 +10491,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA fees and break-even disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 208; source code 10_DI_41.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "208",
     "sourceQuestionNumber": 207,
     "sourceCode": "10_DI_41",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-208",
@@ -9543,13 +10548,18 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "transaction cost disclosure",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 209; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "209",
     "sourceQuestionNumber": 208,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-209",
@@ -9594,14 +10604,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA performance records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 210; source code 10_DI_38.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "210",
     "sourceQuestionNumber": 209,
     "sourceCode": "10_DI_38",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-210",
@@ -9646,13 +10661,18 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA performance records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 211; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "211",
     "sourceQuestionNumber": 210,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-211",
@@ -9697,14 +10717,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 212; source code 10_DI_44.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "212",
     "sourceQuestionNumber": 211,
     "sourceCode": "10_DI_44",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-212",
@@ -9755,14 +10780,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 213; source code 10_DI_15.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "213",
     "sourceQuestionNumber": 212,
     "sourceCode": "10_DI_15",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-213",
@@ -9807,14 +10837,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 214; source code 10_DI_34.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "214",
     "sourceQuestionNumber": 213,
     "sourceCode": "10_DI_34",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-214",
@@ -9865,14 +10900,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 215; source code 10_DI_25.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "215",
     "sourceQuestionNumber": 214,
     "sourceCode": "10_DI_25",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-215",
@@ -9904,14 +10944,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 216; source code 10_DI_30.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "216",
     "sourceQuestionNumber": 215,
     "sourceCode": "10_DI_30",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-216",
@@ -9943,14 +10988,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "associated person registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 217; source code 10_DI_19.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "217",
     "sourceQuestionNumber": 216,
     "sourceCode": "10_DI_19",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-217",
@@ -9994,14 +11044,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "position reporting",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 218; source code 10_DI_11.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "218",
     "sourceQuestionNumber": 217,
     "sourceCode": "10_DI_11",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-218",
@@ -10046,14 +11101,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA performance records",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 219; source code 10_DI_4.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "219",
     "sourceQuestionNumber": 218,
     "sourceCode": "10_DI_4",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-219",
@@ -10098,14 +11158,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 220; source code 10_DI_42.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "220",
     "sourceQuestionNumber": 219,
     "sourceCode": "10_DI_42",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-220",
@@ -10149,14 +11214,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "financial reports",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 221; source code 10_DI_13.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "221",
     "sourceQuestionNumber": 220,
     "sourceCode": "10_DI_13",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-221",
@@ -10189,14 +11259,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 222; source code 10_DI_36.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "222",
     "sourceQuestionNumber": 221,
     "sourceCode": "10_DI_36",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-222",
@@ -10229,14 +11304,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CTA regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 223; source code 10_DI_29.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "223",
     "sourceQuestionNumber": 222,
     "sourceCode": "10_DI_29",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-223",
@@ -10280,14 +11360,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "penalties and sanctions",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 224; source code 10_DI_23.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "224",
     "sourceQuestionNumber": 223,
     "sourceCode": "10_DI_23",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-224",
@@ -10319,14 +11404,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 225; source code 10_DI_18.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "225",
     "sourceQuestionNumber": 224,
     "sourceCode": "10_DI_18",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-225",
@@ -10370,14 +11460,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 226; source code 10_DI_27.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "226",
     "sourceQuestionNumber": 225,
     "sourceCode": "10_DI_27",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-226",
@@ -10427,14 +11522,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CFTC jurisdiction and registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 227; source code 10_DI_12.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "227",
     "sourceQuestionNumber": 226,
     "sourceCode": "10_DI_12",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-227",
@@ -10466,13 +11566,18 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO pool regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 228; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "228",
     "sourceQuestionNumber": 227,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-229",
@@ -10517,13 +11622,18 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 230; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "230",
     "sourceQuestionNumber": 229,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-230",
@@ -10556,14 +11666,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA exemptions",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 231; source code 10_DI_47.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "231",
     "sourceQuestionNumber": 230,
     "sourceCode": "10_DI_47",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-231",
@@ -10607,14 +11722,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 232; source code 10_DI_40.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "232",
     "sourceQuestionNumber": 231,
     "sourceCode": "10_DI_40",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-232",
@@ -10659,14 +11779,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 233; source code 10_DI_46.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "233",
     "sourceQuestionNumber": 232,
     "sourceCode": "10_DI_46",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-233",
@@ -10698,13 +11823,18 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "general regulatory concept",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 234; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "234",
     "sourceQuestionNumber": 233,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-234",
@@ -10748,14 +11878,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "arbitration and dispute resolution",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 235; source code 10_DI_10.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "235",
     "sourceQuestionNumber": 234,
     "sourceCode": "10_DI_10",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-235",
@@ -10799,14 +11934,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "position reporting",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 236; source code 10_DI_16.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "236",
     "sourceQuestionNumber": 235,
     "sourceCode": "10_DI_16",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-236",
@@ -10857,14 +11997,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 237; source code 10_DI_32.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "237",
     "sourceQuestionNumber": 236,
     "sourceCode": "10_DI_32",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-237",
@@ -10914,14 +12059,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "net capital requirements",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 238; source code 10_DI_17.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "238",
     "sourceQuestionNumber": 237,
     "sourceCode": "10_DI_17",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-238",
@@ -10972,14 +12122,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 239; source code 10_DI_24.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "239",
     "sourceQuestionNumber": 238,
     "sourceCode": "10_DI_24",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-239",
@@ -11030,14 +12185,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "promotional material",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 240; source code 10_DI_22.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "240",
     "sourceQuestionNumber": 239,
     "sourceCode": "10_DI_22",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-240",
@@ -11081,14 +12241,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "associated person registration",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 241; source code 10_DI_14.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "241",
     "sourceQuestionNumber": 240,
     "sourceCode": "10_DI_14",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-241",
@@ -11133,14 +12298,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 242; source code 10_DI_37.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "242",
     "sourceQuestionNumber": 241,
     "sourceCode": "10_DI_37",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-242",
@@ -11185,14 +12355,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "discretionary accounts",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 243; source code 10_DI_21.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "243",
     "sourceQuestionNumber": 242,
     "sourceCode": "10_DI_21",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-243",
@@ -11225,14 +12400,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 244; source code 10_DI_43.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "244",
     "sourceQuestionNumber": 243,
     "sourceCode": "10_DI_43",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-244",
@@ -11265,14 +12445,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO regulation",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 245; source code 10_DI_31.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "245",
     "sourceQuestionNumber": 244,
     "sourceCode": "10_DI_31",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-245",
@@ -11317,14 +12502,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "customer information and know-your-customer",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 246; source code 10_DI_20.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "246",
     "sourceQuestionNumber": 245,
     "sourceCode": "10_DI_20",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-246",
@@ -11368,14 +12558,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "supervision and account review",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 247; source code 10_DI_26.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "247",
     "sourceQuestionNumber": 246,
     "sourceCode": "10_DI_26",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-247",
@@ -11420,13 +12615,18 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 248; source code not parsed.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "248",
     "sourceQuestionNumber": 247,
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-248",
@@ -11459,14 +12659,19 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 249; source code 10_DI_39.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "249",
     "sourceQuestionNumber": 248,
     "sourceCode": "10_DI_39",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   },
   {
     "id": "s3-regulatory-pdf-249",
@@ -11499,13 +12704,18 @@ export const regulatoryPdfQuestions: Question[] = [
     ],
     "concept": "CPO/CTA disclosure documents",
     "sourceNote": "User-provided S3-Regulatory.pdf OCR extraction; source page 250; source code 10_DI_33.",
-    "reviewStatus": "reviewed",
+    "reviewStatus": "needs_review",
     "extractionConfidence": "high",
     "sourcePageRange": "250",
     "sourceQuestionNumber": 249,
     "sourceCode": "10_DI_33",
     "shuffleDisabled": true,
     "createdAt": "2026-05-13T00:00:00.000Z",
-    "updatedAt": "2026-05-13T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "qualityStatus": "needs_review",
+    "issueTypes": [
+      "OCR/transcription"
+    ],
+    "qualityNotes": "Fresh reset import from S3-Regulatory.pdf; pending LLM certification."
   }
 ];

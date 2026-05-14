@@ -1,15 +1,25 @@
 # Market Calculation Audit Report
 
-Imported Market questions containing calculation-heavy signals are marked `needs_review` unless they have been manually recomputed and corrected. This is intentional: futures P&L, basis, margin, Treasury pricing, Eurodollar/T-bill, options, and spread calculations are high-risk content.
+Generated: 2026-05-14
+
+All imported Market questions have been reset to `needs_review`.
+
+This is intentional. Futures P&L, basis, hedge effective price, margin, Treasury/T-note/T-bond pricing, Eurodollar/T-bill pricing, options, and spread calculations are high-risk content. They must be recomputed before any imported Market QCM can be certified.
 
 | Metric | Count |
-| --- | --- |
-| Imported Market QCMs | 444 |
-| Calculation-risk imported Market QCMs | 1 |
-| Verified Market QCMs | 667 |
-| Needs-review Market QCMs | 0 |
+| --- | ---: |
+| Imported S3-Market DOCX QCMs | 444 |
+| Imported Market QCMs certified after reset | 0 |
+| Imported Market QCMs needing calculation/content review | 444 |
+| Authored / rewritten / sample Market QCMs still verified | 337 |
 
-## Calculation-Risk Questions
-| ID | Topic | Subtopic | Issues |
-| --- | --- | --- | --- |
-| s3-market-docx-332 | futures-speculation | gross-profit-loss | Wrong answer, Calculation check needed |
+## Required next pass
+
+For each imported Market QCM:
+
+- clean OCR/transcription artifacts;
+- recompute every calculation;
+- verify the correct answer;
+- rewrite ambiguous distractors;
+- confirm the topic/subtopic mapping;
+- certify only if the question is readable, useful, and unambiguous.
