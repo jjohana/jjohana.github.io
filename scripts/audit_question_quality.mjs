@@ -65,7 +65,8 @@ async function main() {
 
     const questions = sampleQuestions;
     const active = questions.filter((question) => question.active);
-    const validation = validateQuestionBank(active);
+    const validationScope = active.filter((question) => inferredQualityStatus(question) !== "rejected");
+    const validation = validateQuestionBank(validationScope);
     const statusRows = groupCount(active, inferredQualityStatus);
     const sourceRows = groupCount(active, sourceSet);
     const sectionRows = groupCount(active, (question) => question.sectionId);
@@ -136,8 +137,8 @@ async function main() {
       table(["Metric", "Count"], [
         ["Total questions", questions.length],
         ["Active questions", active.length],
-        ["Validation errors", validation.issues.filter((issue) => issue.severity === "error").length],
-        ["Validation warnings", validation.issues.filter((issue) => issue.severity === "warning").length],
+        ["Validation errors in non-rejected pool", validation.issues.filter((issue) => issue.severity === "error").length],
+        ["Validation warnings in non-rejected pool", validation.issues.filter((issue) => issue.severity === "warning").length],
         ["Exact duplicate stem groups", exactDuplicates.length],
         ["Near-duplicate pairs >= 0.88", nearDuplicates.length]
       ]),
@@ -266,7 +267,6 @@ async function main() {
         formatIssues(question)
       ])),
       corrected.length > 300 ? `\nOnly the first 300 IDs are shown here; full details are available through the app export.` : "",
-      ""
     ].join("\n");
 
     await fs.writeFile(path.join(docsDir, "question-quality-audit-report.md"), inventory);

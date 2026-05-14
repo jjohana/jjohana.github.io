@@ -1061,39 +1061,51 @@ export const s3MarketDocxQuestions: Question[] = [
     "topicId": "futures-theory",
     "subtopicId": "general-futures-terminology",
     "difficulty": "easy",
-    "questionType": "true_false",
-    "stem": "Only persons who own or lease seats on an exchange may execute futures contracts on the exchange's trading floor or via the exchange's electronic trading system.",
+    "questionType": "multiple_choice",
+    "stem": "A customer who does not have direct exchange trading privileges wants to trade a futures contract. Which route is generally used to enter the order?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
+        "text": "The customer routes the order through an FCM, broker, or other authorized exchange member access arrangement.",
         "isCorrect": true,
-        "rationale": "Only exchange seat owners or lessees may trade directly on the exchange floor or execute trades directly through the exchange's electronic trading system."
+        "rationale": "Customers without direct exchange trading privileges generally access futures markets through an FCM, broker, or authorized member/clearing relationship."
       },
       {
         "id": "b",
-        "text": "False",
+        "text": "The customer sends the order directly to the exchange without any member, clearing, or authorized access relationship.",
         "isCorrect": false,
-        "rationale": "Customers or other traders who are not seat owners or lessees generally must route orders through a seat owner or lessee rather than execute directly."
+        "rationale": "Direct exchange access requires appropriate exchange permissions and clearing/access arrangements; ordinary customers do not simply send orders directly without them."
+      },
+      {
+        "id": "c",
+        "text": "The customer files the order with the CFTC, which then routes it to the exchange.",
+        "isCorrect": false,
+        "rationale": "The CFTC is a regulator; it does not route customer futures orders for execution."
+      },
+      {
+        "id": "d",
+        "text": "The customer files the order with the NFA, which matches the trade with another customer.",
+        "isCorrect": false,
+        "rationale": "NFA is a self-regulatory organization; it does not act as an exchange matching engine for customer trades."
       }
     ],
-    "explanation": "Only seat owners or lessees may trade on the floor of an exchange or execute trades over an exchange's screen-based trading system. Other traders must send their orders through a seat owner or lessee.",
+    "explanation": "The source item used older 'seat owner or lessee' language. The current app-ready version tests the same market-access concept in modern terms: a customer without direct exchange trading privileges generally accesses the futures market through an FCM, broker, or authorized member/clearing access arrangement rather than by sending orders directly to the exchange as an unaffiliated public customer.",
     "sourceType": "imported",
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0023; sequence 23; source code 01_EZ_20.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is clear. However, the statement uses older terminology about owning or leasing exchange \"seats\" and may not reflect current exchange membership/access rules for electronic trading with sufficient precision. Needs review before being treated as current exam-ready content. Repair pass: outdated regulatory/currentness issue retained for manual review Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0023; sequence 23; source code 01_EZ_20. Second recovery: rewritten from the source concept to avoid outdated exchange-seat terminology while preserving the tested market-access idea.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Second recovery: verified after replacing outdated exchange-seat wording with current, general futures-market access terminology.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "23",
     "sourceQuestionNumber": 23,
     "sourceCode": "01_EZ_20",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex second recovery manual audit"
   },
   {
     "id": "s3-market-docx-24",
@@ -1716,18 +1728,18 @@ export const s3MarketDocxQuestions: Question[] = [
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
     "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0036; sequence 36; source code 01_IM_4.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
     "qualityNotes": "Repaired to remove the banned 'None of the above' format and avoid references to answer letters. The tested concept is clear and matches the source: futures leverage arises from controlling a large notional contract value with a relatively small margin/performance bond deposit. Repair: Verified after rewriting the stem and replacing the banned 'None of the above' distractor with a standalone incorrect statement. Preserved the source concept and maintained exactly one correct answer. Second-pass review: The repaired question is clear, has exactly one unambiguous correct answer, avoids all/none/both formats, and uses plausible standalone distractors. The explanation and rationales correctly support that futures leverage arises from controlling a large notional contract value with a relatively small margin/performance bond deposit. No calculations or regulatory issues are present, and the taxonomy is appropriate.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "36",
     "sourceQuestionNumber": 36,
     "sourceCode": "01_IM_4",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-market-docx-37",
@@ -16605,52 +16617,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "gross-profit-loss",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A trader is long 7 ICE sugar futures contracts at $0.1800 per pound and offsets the position after the price drops 100 points. Sugar futures are for 112,000 pounds per contract, and the commission is $10 per contract for the transaction. What is the trader's net loss?",
+    "stem": "A trader is long 7 ICE sugar futures contracts at $0.1800 per pound and offsets the position after the price drops 100 points. Each sugar futures contract covers 112,000 pounds. Assume the only commission included is $10 per contract on the offset transaction. What is the trader's net loss?",
     "choices": [
       {
         "id": "a",
-        "text": "$7,770",
-        "isCorrect": true,
-        "rationale": "A 100-point drop in sugar equals 1 cent per pound, or $0.01. The futures loss is 112,000 pounds × $0.01 = $1,120 per contract. After subtracting the $10 commission as stated in the source, the net loss is $1,110 per contract. For 7 contracts, the net loss is $7,770."
+        "text": "$7,840",
+        "isCorrect": false,
+        "rationale": "This is the gross futures loss before commission: 7 contracts x 112,000 pounds x $0.01."
       },
       {
         "id": "b",
-        "text": "$7,000",
+        "text": "$7,770",
         "isCorrect": false,
-        "rationale": "This does not correctly apply the 112,000-pound sugar contract size to a 1-cent-per-pound price move and the stated commission."
+        "rationale": "This subtracts commission from a losing trade. Commission is a transaction cost and increases the net loss."
       },
       {
         "id": "c",
-        "text": "$777",
-        "isCorrect": false,
-        "rationale": "This substantially understates the loss for a 1-cent-per-pound move on 7 sugar futures contracts."
+        "text": "$7,910",
+        "isCorrect": true,
+        "rationale": "A 100-point sugar move equals $0.01 per pound. Gross loss is 7 x 112,000 x $0.01 = $7,840. Add $70 commission for 7 contracts, giving a $7,910 net loss."
       },
       {
         "id": "d",
-        "text": "$77.70",
+        "text": "$7,980",
         "isCorrect": false,
-        "rationale": "This is far too small for a 1-cent-per-pound move on 7 contracts of 112,000 pounds each."
+        "rationale": "This would apply a $10 commission per contract on both entry and exit. The revised stem includes only the offset-transaction commission."
       }
     ],
-    "explanation": "Sugar futures are quoted in cents per pound, and one contract represents 112,000 pounds. A 100-point adverse move equals 1 cent per pound, or $0.01 per pound. The loss in contract value is 112,000 × $0.01 = $1,120 per contract. Using the source's stated treatment of commission, subtract $10 per contract: $1,120 - $10 = $1,110 net loss per contract. For 7 contracts, $1,110 × 7 = $7,770 net loss.",
+    "explanation": "Sugar futures are quoted in cents per pound. A 100-point move in sugar equals 1 cent per pound, or $0.01 per pound. Gross loss per contract = 112,000 pounds x $0.01 = $1,120. For 7 contracts, gross loss = $1,120 x 7 = $7,840. Commission is a cost, so add $10 x 7 = $70. Net loss = $7,840 + $70 = $7,910.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0339; sequence 339; source code 07_IM_13.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source is clear and the calculation is internally consistent. The commission is treated as $10 per contract for the trade as shown in the source explanation. Repair: Verified and lightly rewrote the stem for clarity while preserving the source calculation and correct answer. Removed dependence on answer-letter language and kept standalone choices. Second-pass review: The arithmetic for the futures price move is correct: 100 sugar points = 1 cent/lb, so the gross loss is $1,120 per contract and $7,840 for 7 contracts. However, the proposed answer subtracts the commission from the trading loss, producing $7,770. A commission is a transaction cost and normally increases a loss, not reduces it. If $10 per contract is charged for the offset/transaction, net loss would be $7,910 if counted once per contract, or $7,980 if commission applies both entry and offset. The wording 'commission is $10 per contract for the transaction' is also ambiguous as to whether it applies one side or round turn, but in no standard treatment should it be subtracted from a loss. The item may be preserving a source-specific treatment, but as a verified market calculation it is not clean.",
-    "issueTypes": [
-      "wrong_answer",
-      "ambiguous",
-      "weak_explanation"
-    ],
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0339; sequence 339; source code 07_IM_13. Second recovery: corrected the source calculation because commission must be treated as a cost, not subtracted from a trading loss.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Second recovery: calculation recomputed. The old imported answer subtracted commission from a loss; the verified version adds commission as a transaction cost and makes the commission assumption explicit.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "339",
     "sourceQuestionNumber": 332,
     "sourceCode": "07_IM_13",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex second recovery calculation audit"
   },
   {
     "id": "s3-market-docx-333",

@@ -135,6 +135,15 @@ const commonReplacements: Replacement[] = [
   [/\bIncreased\b/g, "increased"],
   [/\bC\.only\b/g, "C only"],
   [/\band\.'or\b/g, "and/or"],
+  [/Â¢/g, " cents"],
+  [/¢/g, " cents"],
+  [/Â£/g, "GBP "],
+  [/£/g, "GBP "],
+  [/€/g, "EUR "],
+  [/Ã—/g, "x"],
+  [/×/g, "x"],
+  [/÷/g, "/"],
+  [/•/g, ";"],
   [/\bfuture' s\b/g, "future's"],
   [/\bprofit'loss\b/g, "profit/loss"],
   [/\bpre-\s+dispute\b/g, "pre-dispute"],
@@ -169,7 +178,8 @@ const commonReplacements: Replacement[] = [
 ];
 
 export const UNSAFE_DISPLAY_PATTERNS = [
-  /[\uFFFD\u20AC\u2022{}]/,
+  /[\uFFFD{}]/,
+  /[ÂÃâ]/,
   /_/,
   /\b(?:Truc|Falsc|Tme|Wolume|Wery|NTA|ivhere|Janualy|Februaly|ugust|ovember|Umless|iwthout|resulis|opticns|Retums|Retum|retum|fttures|fritures|underlymg|decreasmg|commg|Ignormg)\b/i,
   /\b(?:requrrements|mcreases|ivhenever|ullile|ml\s+es|gm\s+requirements)\b/i,

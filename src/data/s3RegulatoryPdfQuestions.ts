@@ -3734,44 +3734,44 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "Five years from the date of publication or first use.",
         "isCorrect": false,
-        "rationale": "NFA Rule 2-29 retention is measured from the date of last use, not publication or first use, and the period stated here is not the rule shown."
+        "rationale": "The current NFA rule measures the retention period from the date of last use, not publication or first use."
       },
       {
         "id": "b",
         "text": "Three years from the date of last use.",
-        "isCorrect": true,
-        "rationale": "NFA Rule 2-29 requires copies of promotional material and the record of review and approval to be maintained and available for NFA examination for three years from the date of last use."
+        "isCorrect": false,
+        "rationale": "This appears to reflect an older source answer. Current NFA guidance points to five years from last use, with ready accessibility for the first two years."
       },
       {
         "id": "c",
-        "text": "Five years from the date of last use and be readily accessible during the first two years of the five-year period.",
-        "isCorrect": false,
-        "rationale": "This resembles a different recordkeeping formulation, but it is not the promotional-material retention period stated in NFA Rule 2-29 as shown."
+        "text": "Five years from the date of last use, with the records readily accessible during the first two years.",
+        "isCorrect": true,
+        "rationale": "NFA promotional-material guidance states that promotional material must be kept for five years from last use and readily accessible during the first two years."
       },
       {
         "id": "d",
         "text": "One year from the date of last use.",
         "isCorrect": false,
-        "rationale": "One year is shorter than the required three-year retention period from the date of last use."
+        "rationale": "One year is shorter than the current promotional-material recordkeeping period."
       }
     ],
-    "explanation": "NFA Rule 2-29, Communications with the Public and Promotional Material, requires copies of promotional material, along with a record of the firm's review and approval, to be maintained and available for NFA examination for three years from the date of last use.",
+    "explanation": "Current NFA promotional-material guidance states that a Member must keep promotional material on file for five years from the date of last use and have it readily accessible during the first two years. NFA Rule 2-29(f) also ties promotional-material recordkeeping to the periods specified in CFTC Regulation 1.31, measured from last use.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-085; sequence 85; source code 10_IM_52.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the keyed answer is clear. However, current NFA Compliance Rule 2-29 promotional material recordkeeping is generally understood to require records to be kept for five years from the date of last use and readily accessible during the first two years, making the source's keyed answer likely outdated. Choice C appears to reflect the current five-year/two-year standard. Marked needs_review rather than verified due to likely outdated rule content. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-085; sequence 85; source code 10_IM_52. Second recovery: current answer verified against NFA Promotional Material FAQs and NFA Compliance Rule 2-29(f), checked 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Second recovery: promoted after official-source check. The source's three-year answer is outdated; current NFA guidance is five years from last use, readily accessible for the first two years.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "85",
     "sourceQuestionNumber": 85,
     "sourceCode": "10_IM_52",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex second recovery official-source audit"
   },
   {
     "id": "s3-regulatory-pdf-086",
@@ -4337,23 +4337,23 @@ export const regulatoryPdfQuestions: Question[] = [
         "rationale": "There is a time limit; the notice of intent to arbitrate must be received within two years."
       }
     ],
-    "explanation": "NFA arbitration rules require a notice of intent to arbitrate to be received by the NFA within two years from the date when the filing party knew or should have known of the act or transaction that is the subject of the controversy. The source also states that the same two-year time limitation applies to filing CFTC reparations claims.",
+    "explanation": "NFA Code of Arbitration Section 5 provides that an arbitration claim or notice of intent to arbitrate must be received by NFA within two years from the date when the filing party knew or should have known of the act or transaction that is the subject of the controversy. This item is limited to the NFA arbitration timing rule.",
     "sourceType": "imported",
     "active": true,
     "concept": "Arbitration, Discipline and Enforcement",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-097; sequence 97; source code 10_IM_57.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and internally consistent, with exactly one indicated correct answer. However, the regulatory statement appears potentially outdated or at least requires current-rule verification: NFA arbitration eligibility/time-limit rules and CFTC reparations limitations may not be accurately summarized as the same two-year limit under current rules. Marked needs_review per instruction for uncertain or outdated regulations. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-097; sequence 97; source code 10_IM_57. Second recovery: NFA two-year arbitration timing verified against NFA Code of Arbitration Section 5 and NFA Customer Arbitration Guide, checked 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Second recovery: promoted after official-source check of NFA Code of Arbitration Section 5. The explanation was narrowed to NFA arbitration and no longer makes an unchecked CFTC reparations statement.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "97",
     "sourceQuestionNumber": 97,
     "sourceCode": "10_IM_57",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex second recovery official-source audit"
   },
   {
     "id": "s3-regulatory-pdf-098",
@@ -5383,44 +5383,44 @@ export const regulatoryPdfQuestions: Question[] = [
         "id": "a",
         "text": "The customer must provide written trading authorization, such as a signed power of attorney, before discretionary trading occurs.",
         "isCorrect": true,
-        "rationale": "Written customer authorization is a core requirement for a discretionary account."
+        "rationale": "Written customer or account-controller authorization is required before discretionary trading authority may be exercised."
       },
       {
         "id": "b",
         "text": "The associated person must have at least three years of experience handling customer accounts.",
         "isCorrect": false,
-        "rationale": "The source's three-year statement is incorrect; its explanation refers to a two-year registrant experience requirement."
+        "rationale": "NFA Rule 2-8 uses a two-year continuous registration/work requirement for an AP of an FCM or IB to exercise discretion, subject to stated exceptions or waiver; three years is not the rule."
       },
       {
         "id": "c",
         "text": "The account may be handled without written authorization if the customer gives verbal permission before each trade.",
         "isCorrect": false,
-        "rationale": "A discretionary account requires written authorization; verbal permission is not sufficient to create discretionary authority."
+        "rationale": "Verbal permission is not enough for discretionary authority. Written authorization is required for discretionary trading."
       },
       {
         "id": "d",
         "text": "Supervisor review is required only when the account has generated a customer complaint.",
         "isCorrect": false,
-        "rationale": "The source states that the supervisor must review activity in a discretionary account; review is not limited to complaint situations."
+        "rationale": "Discretionary trading must be supervised under written review procedures; review is not limited to complaint situations."
       }
     ],
-    "explanation": "The source clearly tests discretionary-account requirements for an AP of an FCM or IB. A discretionary account requires written customer authorization, such as a signed power of attorney or trading authorization. The source explanation also states that the AP must have been registered and acted as a registrant for at least two years and that a supervisor must review discretionary account activity. Because the source's original keyed answer includes written authorization and supervisor review but omits the two-year registrant requirement stated in the explanation, the safest repair narrows the stem to one clearly correct requirement rather than asking for all requirements.",
+    "explanation": "The repaired question asks for one clear requirement: written authorization. CFTC Regulation 166.2 requires specific authorization for individual trades or written authorization for discretionary trading authority. NFA Rule 2-8 similarly states that no Member or Associate may exercise discretion over a customer's commodity futures or cleared swaps account unless the customer or account controller has authorized that discretion in writing. NFA Rule 2-8 also includes supervisory review requirements and a two-year AP experience requirement for FCM/IB discretionary accounts, but those are not the correct choices in this narrowed item.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-119; sequence 119; source code 10_IM_80.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The app-ready wording removes combination-answer formatting and makes one requirement clearly correct. However, because this is a regulatory item involving a specific experience-period requirement and the original source answer/explanation are internally inconsistent, it should remain needs_review rather than verified. Repair: Rewrote the banned combination-choice format into standalone choices and narrowed the stem to a single clear discretionary-account requirement: written customer authorization. Kept needs_review due to the source inconsistency about the full set of required conditions.",
-    "issueTypes": [
-      "ambiguous"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-119; sequence 119; source code 10_IM_80. Second recovery: narrowed and verified against CFTC Regulation 166.2 and NFA Compliance Rule 2-8, checked 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Second recovery: promoted after narrowing the item to the written-authorization requirement and checking CFTC Regulation 166.2 plus NFA Rule 2-8.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "119",
     "sourceQuestionNumber": 119,
     "sourceCode": "10_IM_80",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex second recovery official-source audit"
   },
   {
     "id": "s3-regulatory-pdf-120",

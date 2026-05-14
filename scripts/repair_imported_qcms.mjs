@@ -422,7 +422,7 @@ function applyRepair(original, repair, secondReview, taxonomy) {
   if (!validSubtopic(taxonomy, sectionId, topicId, subtopicId)) issueTypes.add("wrong_taxonomy");
   if (correctCount !== 1 || choices.length < (questionType === "true_false" ? 2 : 3)) issueTypes.add(correctCount === 1 ? "bad_distractors" : "wrong_answer");
   if (/\b(all of the above|none of the above)\b/i.test(choices.map((choice) => choice.text).join(" "))) issueTypes.add("bad_distractors");
-  if (/\b(both|either|neither)\s+[ABCDE]\b|\b[ABCDE]\s*(and|or|&)\s*[ABCDE]\b|\banswers?\s+[ABCDE]\b/i.test(choices.map((choice) => choice.text).join(" "))) {
+  if (/\b(?:Both|Either|Neither)\s+[A-E]\s+(?:and|or|&)\s+[A-E]\b|\b[A-E]\s*(?:and|or|&)\s*[A-E]\s*(?:only)?\b|\banswers?\s+[A-E]\b/.test(choices.map((choice) => choice.text).join(" "))) {
     issueTypes.add("bad_distractors");
   }
   if (issueTypes.size > 0 && qualityStatus === "verified") qualityStatus = "needs_review";
@@ -658,7 +658,7 @@ async function writeReviewQueue(questions, inferredQualityStatus) {
   return rows;
 }
 
-async function writeReports({ starting, ending, repairResults, ledger, allImported, inferredQualityStatus }) {
+async function writeReports({ starting, ending, repairResults, ledger, allImported, inferredQualityStatus, maxBudget }) {
   await fs.mkdir(docsDir, { recursive: true });
   const spent = currentSpend(ledger);
   const repairedToVerified = repairResults.filter((result) => result.repaired).length;
@@ -718,7 +718,7 @@ async function writeReports({ starting, ending, repairResults, ledger, allImport
     "",
     mdTable(["Metric", "Value"], [
       ["Model", "gpt-5.5"],
-      ["Budget cap", "$40.00"],
+      ["Budget cap", `$${maxBudget.toFixed(2)}`],
       ["Actual tracked API cost", `$${spent.toFixed(4)}`],
       ["API calls", ledger.calls?.length ?? 0],
       ["Input tokens", (ledger.calls ?? []).reduce((sum, call) => sum + (call.inputTokens ?? 0), 0)],
@@ -809,7 +809,15 @@ async function main() {
   const refreshed = await loadAppData();
   const allImported = refreshed.sampleQuestions.filter((question) => question.sourceType === "imported");
   await writeReviewQueue(refreshed.sampleQuestions, refreshed.inferredQualityStatus);
-  await writeReports({ starting, ending: {}, repairResults, ledger, allImported, inferredQualityStatus: refreshed.inferredQualityStatus });
+  await writeReports({
+    starting,
+    ending: {},
+    repairResults,
+    ledger,
+    allImported,
+    inferredQualityStatus: refreshed.inferredQualityStatus,
+    maxBudget: args.maxBudget
+  });
 
   console.log(
     JSON.stringify(

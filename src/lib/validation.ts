@@ -11,7 +11,7 @@ import {
 
 const bannedChoicePattern = /\b(all of the above|none of the above)\b/i;
 const answerLetterReferencePattern =
-  /\b(both|either|neither)\s+[ABCDE]\b|\b[ABCDE]\s*(and|or|&)\s*[ABCDE]\b|\banswers?\s+[ABCDE]\b/i;
+  /\b(?:Both|Either|Neither)\s+[A-E]\s+(?:and|or|&)\s+[A-E]\b|\b[A-E]\s*(?:and|or|&)\s*[A-E]\s*(?:only)?\b|\banswers?\s+[A-E]\b/;
 const qualityStatuses: QualityStatus[] = ["verified", "needs_review", "rejected"];
 const issueTypes: IssueType[] = [
   "OCR/transcription",

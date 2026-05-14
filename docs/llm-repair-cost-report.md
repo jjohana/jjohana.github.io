@@ -1,11 +1,11 @@
 # LLM Repair Cost Report
 
-Generated: 2026-05-14T07:52:21.035Z
+Generated: 2026-05-14T09:12:11.832Z
 
 | Metric | Value |
 | --- | --- |
 | Model | gpt-5.5 |
-| Budget cap | $40.00 |
+| Budget cap | $25.00 |
 | Actual tracked API cost | $9.6009 |
 | API calls | 342 |
 | Input tokens | 1101747 |

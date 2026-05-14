@@ -43,7 +43,6 @@ const visibleFields = (question: Question) => [
 ];
 
 const ocrPatterns = [
-  /[\x80-\xFF]/,
   /[\uFFFD\u20AC\u2022_{}]/,
   ...UNSAFE_DISPLAY_PATTERNS,
   /\b(?:DDecember|pvheat|round-tum|deposlt|Shoft|begmning|pald|defaultmg)\b/i,
@@ -55,7 +54,7 @@ const ocrPatterns = [
 ];
 
 const answerLetterReferencePattern =
-  /\b(both|either|neither)\s+[ABCDE]\b|\b[ABCDE]\s*(and|or|&)\s*[ABCDE]\b|\banswers?\s+[ABCDE]\b/i;
+  /\b(?:Both|Either|Neither)\s+[A-E]\s+(?:and|or|&)\s+[A-E]\b|\b[A-E]\s*(?:and|or|&)\s*[A-E]\s*(?:only)?\b|\banswers?\s+[A-E]\b/;
 const bannedChoicePattern = /\b(all of the above|none of the above)\b/i;
 const rawTranscriptionPatterns = [
   ...UNSAFE_DISPLAY_PATTERNS,

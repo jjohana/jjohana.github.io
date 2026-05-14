@@ -16,10 +16,10 @@ Course subchapters are linked to QCMs only when all of the following are true:
 | Metric | Count |
 | --- | ---: |
 | Total active questions | 1113 |
-| Active verified questions | 974 |
-| Active needs-review questions | 109 |
-| Active rejected questions | 30 |
-| Imported verified questions available to the Course module | 580 |
+| Active verified questions | 1053 |
+| Active needs-review questions | 31 |
+| Active rejected questions | 29 |
+| Imported verified questions available to the Course module | 659 |
 
 ## Notes
 

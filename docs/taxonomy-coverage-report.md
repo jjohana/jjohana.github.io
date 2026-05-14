@@ -1,20 +1,24 @@
 # Taxonomy Coverage Report
 
-Generated: 2026-05-14T07:02:57.252Z
-Updated after repair pass: 2026-05-14
+| Section | Topic | Total | Verified | Needs review | Rejected | Imported | Authored/Rewritten/Sample |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| market_knowledge | Futures Trading Theory and Basic Functions Terminology | 96 | 96 | 0 | 0 | 66 | 30 |
+| market_knowledge | Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment | 126 | 126 | 0 | 0 | 79 | 47 |
+| market_knowledge | Types of Orders, Customer Accounts, Price Analysis | 90 | 90 | 0 | 0 | 50 | 40 |
+| market_knowledge | Basic Hedging, Basis Calculations, Hedging Futures | 126 | 126 | 0 | 0 | 85 | 41 |
+| market_knowledge | Spreading | 63 | 63 | 0 | 0 | 32 | 31 |
+| market_knowledge | Speculating in Futures | 90 | 90 | 0 | 0 | 60 | 30 |
+| market_knowledge | Option Hedging, Speculating, Spreading | 124 | 124 | 0 | 0 | 70 | 54 |
+| us_regulations | General Regulatory Topics | 130 | 120 | 10 | 0 | 90 | 40 |
+| us_regulations | FCM / IB Regulations | 87 | 84 | 3 | 0 | 60 | 27 |
+| us_regulations | CPO / CTA Regulations | 102 | 85 | 17 | 0 | 73 | 29 |
+| us_regulations | Arbitration, Discipline and Enforcement | 50 | 49 | 1 | 0 | 25 | 25 |
 
-Counts reflect the final app safety gate.
+## Subtopics With No Verified Questions
+Every subtopic has at least one verified question.
 
-| Section | Topic | Total | Verified | Needs review | Rejected |
-| --- | --- | --- | --- | --- | --- |
-| market_knowledge | futures-speculation | 71 | 28 | 32 | 11 |
-| market_knowledge | futures-theory | 67 | 64 | 1 | 2 |
-| market_knowledge | hedging-basis | 89 | 63 | 22 | 4 |
-| market_knowledge | margins-settlement-delivery | 79 | 76 | 3 | 0 |
-| market_knowledge | options-futures | 74 | 63 | 7 | 4 |
-| market_knowledge | orders-accounts-analysis | 50 | 49 | 1 | 0 |
-| market_knowledge | spreading | 35 | 23 | 9 | 3 |
-| us_regulations | arbitration-discipline | 25 | 23 | 2 | 0 |
-| us_regulations | cpo-cta | 74 | 56 | 17 | 1 |
-| us_regulations | fcm-ib | 63 | 56 | 4 | 3 |
-| us_regulations | general-regulatory | 92 | 79 | 11 | 2 |
+## Syllabus Topics
+| Section | Topics | Subtopics |
+| --- | --- | --- |
+| Market Knowledge | 7 | 105 |
+| U.S. Regulations | 4 | 57 |

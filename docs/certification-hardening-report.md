@@ -4,7 +4,7 @@ Date: 2026-05-14
 
 ## What changed
 
-This report records the certification-hardening pass. It has been updated after the OpenAI gpt-5.5 vision reimport and the subsequent non-verified imported-QCM repair pass.
+This report records the certification-hardening pass. It has been updated after the OpenAI gpt-5.5 vision reimport, the subsequent repair pass, and the second recovery pass.
 
 An imported question is now `verified` only when it carries embedded LLM audit metadata or an explicit audit override. Imported questions with unsafe answer-choice formats, invalid taxonomy, wrong answer counts, duplicate issues, or visible OCR/display artifacts are demoted or rejected by the app safety gate.
 
@@ -12,18 +12,18 @@ An imported question is now `verified` only when it carries embedded LLM audit m
 
 | Scope | Verified-only QCMs |
 | --- | ---: |
-| All question banks | 974 |
-| S3-Market DOCX | 370 |
-| S3-Regulatory PDF | 210 |
+| All question banks | 1053 |
+| S3-Market DOCX | 446 |
+| S3-Regulatory PDF | 213 |
 | Authored / rewritten / sample | 394 |
 
 ## Import reset state
 
 | Imported source | Active QCMs | Quality status |
 | --- | ---: | --- |
-| S3-Market DOCX | 469 | 370 `verified`, 75 `needs_review`, 24 `rejected` |
-| S3-Regulatory PDF | 250 | 210 `verified`, 34 `needs_review`, 6 `rejected` |
-| Total imported | 719 | 580 `verified`, 109 `needs_review`, 30 `rejected` |
+| S3-Market DOCX | 469 | 446 `verified`, 0 `needs_review`, 23 `rejected` |
+| S3-Regulatory PDF | 250 | 213 `verified`, 31 `needs_review`, 6 `rejected` |
+| Total imported | 719 | 659 `verified`, 31 `needs_review`, 29 `rejected` |
 
 Needs-review imported QCMs are visible only when explicitly included. Rejected QCMs are excluded from drills and mock exams.
 
