@@ -56,6 +56,17 @@ jobs:
               cp "$current_css" "pages/series3/assets/$legacy_css"
             done
           fi
+          python - <<'PY'
+          from pathlib import Path
+          import os
+
+          index = Path("pages/series3/index.html")
+          html = index.read_text(encoding="utf-8")
+          version = os.environ.get("GITHUB_SHA", "latest")[:12]
+          html = html.replace('/series3/assets/index.js"', f'/series3/assets/index.js?v={version}"')
+          html = html.replace('/series3/assets/index.css"', f'/series3/assets/index.css?v={version}"')
+          index.write_text(html, encoding="utf-8")
+          PY
           cat > pages/index.html <<'HTML'
           <!doctype html>
           <html lang="en">
