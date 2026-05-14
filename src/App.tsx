@@ -871,7 +871,7 @@ function CoursePage({
         {shouldShowRolesDiagram && (
           <figure className="course-visual">
             <img
-              src="course/futures-industry-roles.svg"
+              src="course/futures-industry-roles.png"
               alt="Key roles in the futures industry: customer, AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA relationships."
             />
             <figcaption>
