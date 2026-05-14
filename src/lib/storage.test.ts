@@ -1,8 +1,21 @@
-import { describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import { sampleQuestions } from "../data/questions";
 import type { Question } from "../types";
 import { inferredQualityStatus } from "./quality";
-import { mergeQuestions } from "./storage";
+import {
+  ACTIVE_ACCOUNT_KEY,
+  DEFAULT_ACCOUNT_ID,
+  LEGACY_GLOBAL_STORAGE_KEY,
+  accountStorageKey,
+  loadActiveAccount,
+  loadState,
+  mergeQuestions,
+  saveActiveAccount
+} from "./storage";
+
+beforeEach(() => {
+  localStorage.clear();
+});
 
 describe("storage question migration", () => {
   it("keeps seeded questions canonical when localStorage contains stale OCR copies", () => {
@@ -53,5 +66,81 @@ describe("storage question migration", () => {
     expect(migrated?.choices[0].text).toBe("True");
     expect(migrated?.issueTypes).toContain("OCR/transcription");
     expect(inferredQualityStatus(migrated!)).toBe("needs_review");
+  });
+
+  it("uses JJ as the default account", () => {
+    expect(DEFAULT_ACCOUNT_ID).toBe("jj");
+    expect(loadActiveAccount()).toBe("jj");
+
+    saveActiveAccount("thomas");
+    expect(localStorage.getItem(ACTIVE_ACCOUNT_KEY)).toBe("thomas");
+    expect(loadActiveAccount()).toBe("thomas");
+  });
+
+  it("keeps progress, imports, and settings separated by account", () => {
+    localStorage.setItem(
+      accountStorageKey("jj"),
+      JSON.stringify({
+        questions: [],
+        sessions: [
+          {
+            id: "session-jj",
+            type: "practice",
+            title: "JJ drill",
+            createdAt: "2026-05-14T00:00:00.000Z",
+            seed: "jj",
+            status: "completed",
+            feedbackMode: "immediate",
+            questions: [],
+            answers: []
+          }
+        ],
+        settings: { defaultDrillSize: 25 }
+      })
+    );
+    localStorage.setItem(
+      accountStorageKey("eric"),
+      JSON.stringify({
+        questions: [],
+        sessions: [],
+        settings: { defaultDrillSize: 5 }
+      })
+    );
+
+    const jjState = loadState("jj");
+    const ericState = loadState("eric");
+
+    expect(jjState.sessions).toHaveLength(1);
+    expect(jjState.settings.defaultDrillSize).toBe(25);
+    expect(ericState.sessions).toHaveLength(0);
+    expect(ericState.settings.defaultDrillSize).toBe(5);
+    expect(localStorage.getItem(accountStorageKey("beatrice"))).toBeNull();
+  });
+
+  it("migrates the previous single browser state into JJ only", () => {
+    localStorage.setItem(
+      LEGACY_GLOBAL_STORAGE_KEY,
+      JSON.stringify({
+        questions: sampleQuestions,
+        sessions: [
+          {
+            id: "legacy-session",
+            type: "practice",
+            title: "Legacy drill",
+            createdAt: "2026-05-14T00:00:00.000Z",
+            seed: "legacy",
+            status: "completed",
+            feedbackMode: "immediate",
+            questions: [],
+            answers: []
+          }
+        ],
+        settings: { defaultDrillSize: 18 }
+      })
+    );
+
+    expect(loadState("jj").sessions[0]?.id).toBe("legacy-session");
+    expect(loadState("jj").settings.defaultDrillSize).toBe(18);
+    expect(loadState("thomas").sessions).toHaveLength(0);
   });
 });

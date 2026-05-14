@@ -1,10 +1,20 @@
 import { sampleQuestions } from "../data/questions";
-import type { AppState, Question, UserSettings } from "../types";
+import type { AccountId, AppState, Question, UserAccount, UserSettings } from "../types";
 import { cleanQuestionContent } from "./contentSanitizer";
 import { applyQuestionQualityDefaults } from "./quality";
 
 export const LEGACY_STORAGE_KEYS = ["series3-qcm-state-v1"];
-export const STORAGE_KEY = "series3-qcm-state-v2";
+export const LEGACY_GLOBAL_STORAGE_KEY = "series3-qcm-state-v2";
+export const ACTIVE_ACCOUNT_KEY = "series3-qcm-active-account-v1";
+export const ACCOUNT_STORAGE_PREFIX = "series3-qcm-account-state-v1";
+export const DEFAULT_ACCOUNT_ID: AccountId = "jj";
+
+export const USER_ACCOUNTS: UserAccount[] = [
+  { id: "jj", displayName: "JJ", description: "Compte principal" },
+  { id: "eric", displayName: "Eric", description: "Compte individualise" },
+  { id: "beatrice", displayName: "Béatrice", description: "Compte individualise" },
+  { id: "thomas", displayName: "Thomas", description: "Compte individualise" }
+];
 
 export const DEFAULT_SETTINGS: UserSettings = {
   shuffleSeed: "series3-default-seed",
@@ -14,16 +24,34 @@ export const DEFAULT_SETTINGS: UserSettings = {
   timerEnabled: true
 };
 
+const canonicalSampleQuestions = sampleQuestions.map((question) => applyQuestionQualityDefaults(cleanQuestionContent(question)));
+
 export function defaultState(): AppState {
   return {
-    questions: sampleQuestions,
+    questions: canonicalSampleQuestions,
     sessions: [],
     settings: DEFAULT_SETTINGS
   };
 }
 
+export function isAccountId(value: string | undefined | null): value is AccountId {
+  return USER_ACCOUNTS.some((account) => account.id === value);
+}
+
+export function normalizeAccountId(value: string | undefined | null): AccountId {
+  return isAccountId(value) ? value : DEFAULT_ACCOUNT_ID;
+}
+
+export function accountStorageKey(accountId: AccountId): string {
+  return `${ACCOUNT_STORAGE_PREFIX}:${accountId}`;
+}
+
+export function getAccount(accountId: AccountId): UserAccount {
+  return USER_ACCOUNTS.find((account) => account.id === accountId) ?? USER_ACCOUNTS[0];
+}
+
 export function mergeQuestions(stored: Question[] | undefined): Question[] {
-  const byId = new Map(sampleQuestions.map((question) => [question.id, applyQuestionQualityDefaults(cleanQuestionContent(question))]));
+  const byId = new Map(canonicalSampleQuestions.map((question) => [question.id, question]));
   for (const question of stored ?? []) {
     if (byId.has(question.id)) continue;
     byId.set(question.id, applyQuestionQualityDefaults(cleanQuestionContent(question)));
@@ -31,13 +59,18 @@ export function mergeQuestions(stored: Question[] | undefined): Question[] {
   return [...byId.values()];
 }
 
-export function loadState(): AppState {
-  if (typeof localStorage === "undefined") return defaultState();
-  for (const legacyKey of LEGACY_STORAGE_KEYS) {
-    localStorage.removeItem(legacyKey);
-  }
-  const raw = localStorage.getItem(STORAGE_KEY);
-  if (!raw) return defaultState();
+export function loadActiveAccount(): AccountId {
+  if (typeof localStorage === "undefined") return DEFAULT_ACCOUNT_ID;
+  return normalizeAccountId(localStorage.getItem(ACTIVE_ACCOUNT_KEY));
+}
+
+export function saveActiveAccount(accountId: AccountId): void {
+  if (typeof localStorage === "undefined") return;
+  localStorage.setItem(ACTIVE_ACCOUNT_KEY, accountId);
+}
+
+function parseState(raw: string | null): AppState | undefined {
+  if (!raw) return undefined;
   try {
     const parsed = JSON.parse(raw) as Partial<AppState>;
     return {
@@ -47,16 +80,33 @@ export function loadState(): AppState {
       activeSessionId: parsed.activeSessionId
     };
   } catch {
-    return defaultState();
+    return undefined;
   }
 }
 
-export function saveState(state: AppState): void {
+export function loadState(accountId: AccountId = loadActiveAccount()): AppState {
+  if (typeof localStorage === "undefined") return defaultState();
+  for (const legacyKey of LEGACY_STORAGE_KEYS) {
+    localStorage.removeItem(legacyKey);
+  }
+  const current = parseState(localStorage.getItem(accountStorageKey(accountId)));
+  if (current) return current;
+
+  if (accountId === DEFAULT_ACCOUNT_ID) {
+    const legacyGlobal = parseState(localStorage.getItem(LEGACY_GLOBAL_STORAGE_KEY));
+    if (legacyGlobal) return legacyGlobal;
+  }
+
+  return defaultState();
+}
+
+export function saveState(state: AppState, accountId: AccountId = loadActiveAccount()): void {
   if (typeof localStorage === "undefined") return;
   for (const legacyKey of LEGACY_STORAGE_KEYS) {
     localStorage.removeItem(legacyKey);
   }
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...state, questions: mergeQuestions(state.questions) }));
+  localStorage.setItem(accountStorageKey(accountId), JSON.stringify({ ...state, questions: mergeQuestions(state.questions) }));
+  if (accountId === DEFAULT_ACCOUNT_ID) localStorage.removeItem(LEGACY_GLOBAL_STORAGE_KEY);
 }
 
 export function downloadText(filename: string, text: string, mime = "text/plain;charset=utf-8"): void {

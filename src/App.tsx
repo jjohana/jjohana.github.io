@@ -18,6 +18,7 @@ import {
   Target,
   Timer,
   Upload,
+  Users,
   XCircle
 } from "lucide-react";
 import { syllabus, topicLabel, subtopicLabel, getSection, getTopic } from "./data/syllabus";
@@ -46,9 +47,20 @@ import {
   selectPracticeQuestions
 } from "./lib/selection";
 import { auditCorrectPositionDistribution, buildSessionQuestions } from "./lib/shuffle";
-import { DEFAULT_SETTINGS, defaultState, downloadText, loadState, saveState } from "./lib/storage";
+import {
+  DEFAULT_SETTINGS,
+  USER_ACCOUNTS,
+  defaultState,
+  downloadText,
+  getAccount,
+  loadActiveAccount,
+  loadState,
+  saveActiveAccount,
+  saveState
+} from "./lib/storage";
 import { validateQuestionBank } from "./lib/validation";
 import type {
+  AccountId,
   AppState,
   CourseChapter,
   CourseSubchapter,
@@ -64,6 +76,7 @@ import type {
   SessionFilters,
   SessionQuestion,
   SourceBankFilter,
+  UserAccount,
   UserAnswer,
   ValidationIssue
 } from "./types";
@@ -166,7 +179,8 @@ function sourceBankForSectionChange(filters: SessionFilters, nextSection?: Secti
 }
 
 function App() {
-  const [state, setState] = useState<AppState>(() => loadState());
+  const [activeAccountId, setActiveAccountId] = useState<AccountId>(() => loadActiveAccount());
+  const [state, setState] = useState<AppState>(() => loadState(loadActiveAccount()));
   const [view, setView] = useState<View>("dashboard");
   const [message, setMessage] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -207,7 +221,10 @@ function App() {
   const [glossarySearch, setGlossarySearch] = useState("");
   const [glossaryCategory, setGlossaryCategory] = useState<GlossaryCategory | "all">("all");
 
-  useEffect(() => saveState(state), [state]);
+  useEffect(() => {
+    saveActiveAccount(activeAccountId);
+    saveState(state, activeAccountId);
+  }, [activeAccountId, state]);
 
   useEffect(() => {
     const active = state.sessions.find((session) => session.id === state.activeSessionId);
@@ -240,9 +257,23 @@ function App() {
   const activeSession = state.sessions.find((session) => session.id === state.activeSessionId);
   const latestCompletedSession = [...state.sessions].reverse().find((session) => session.status === "completed");
   const resultSession = view === "results" ? latestCompletedSession ?? activeSession : activeSession;
+  const activeAccount = getAccount(activeAccountId);
 
   function updateState(updater: (current: AppState) => AppState) {
     setState((current) => updater(current));
+  }
+
+  function switchAccount(accountId: AccountId) {
+    if (accountId === activeAccountId) return;
+    saveState(state, activeAccountId);
+    saveActiveAccount(accountId);
+    const nextAccount = getAccount(accountId);
+    setActiveAccountId(accountId);
+    setState(loadState(accountId));
+    setCurrentIndex(0);
+    setSelectedChoiceId(undefined);
+    setView("dashboard");
+    setMessage(`Account ${nextAccount.displayName} loaded. Its progress, imports, and settings are separate.`);
   }
 
   function getQuestion(questionId: string): Question | undefined {
@@ -400,7 +431,7 @@ function App() {
       for (const question of parsed.questions) byId.set(question.id, question);
       return { ...current, questions: [...byId.values()] };
     });
-    setMessage(`${parsed.questions.length} question(s) imported into the browser question bank.`);
+    setMessage(`${parsed.questions.length} question(s) imported into ${activeAccount.displayName}'s browser question bank.`);
   }
 
   function handleImportFile(file?: File) {
@@ -413,12 +444,12 @@ function App() {
 
   function resetProgress() {
     updateState((current) => ({ ...current, sessions: [], activeSessionId: undefined }));
-    setMessage("Progress and sessions were reset. The question bank was kept.");
+    setMessage(`Progress and sessions were reset for ${activeAccount.displayName}. The question bank was kept.`);
   }
 
   function resetAllData() {
     setState(defaultState());
-    setMessage("All local browser data was reset to the seeded sample bank.");
+    setMessage(`All local browser data for ${activeAccount.displayName} was reset to the seeded sample bank.`);
   }
 
   function setSettings(next: Partial<AppState["settings"]>) {
@@ -451,6 +482,10 @@ function App() {
             <span>Section to subtopic drills</span>
           </div>
         </div>
+        <AccountSwitcher
+          activeAccountId={activeAccountId}
+          onSwitch={switchAccount}
+        />
         <nav aria-label="Primary navigation">
           {NAV_ITEMS.map((item) => {
             const Icon = item.icon;
@@ -470,6 +505,7 @@ function App() {
           })}
         </nav>
         <div className="sidebar-footer">
+          <span>Active account: {activeAccount.displayName}</span>
           <span>{state.questions.filter((question) => question.active).length} active QCMs</span>
           <span>{state.sessions.length} sessions</span>
         </div>
@@ -478,7 +514,7 @@ function App() {
       <main className="main">
         <header className="topbar">
           <div>
-            <p className="eyebrow">Independent study tool</p>
+            <p className="eyebrow">Independent study tool - {activeAccount.displayName}</p>
             <h1>{pageTitle(view)}</h1>
           </div>
           <div className="topbar-actions">
@@ -596,8 +632,11 @@ function App() {
         {view === "settings" && (
           <SettingsPage
             state={state}
+            activeAccount={activeAccount}
             setSettings={setSettings}
-            onExportState={() => downloadText("series3-qcm-state.json", JSON.stringify(state, null, 2), "application/json")}
+            onExportState={() =>
+              downloadText(`series3-qcm-${activeAccount.id}-state.json`, JSON.stringify(state, null, 2), "application/json")
+            }
             onResetProgress={resetProgress}
             onResetAll={resetAllData}
           />
@@ -624,6 +663,33 @@ function pageTitle(view: View) {
     about: "About / Compliance"
   };
   return titles[view];
+}
+
+function AccountSwitcher({
+  activeAccountId,
+  onSwitch
+}: {
+  activeAccountId: AccountId;
+  onSwitch: (accountId: AccountId) => void;
+}) {
+  return (
+    <section className="account-switcher" aria-label="Account switcher">
+      <div className="account-switcher-heading">
+        <Users size={17} aria-hidden="true" />
+        <span>Active account</span>
+      </div>
+      <label>
+        <span className="sr-only">Active account</span>
+        <select value={activeAccountId} onChange={(event) => onSwitch(event.target.value as AccountId)}>
+          {USER_ACCOUNTS.map((account) => (
+            <option key={account.id} value={account.id}>
+              {account.displayName} - {account.description}
+            </option>
+          ))}
+        </select>
+      </label>
+    </section>
+  );
 }
 
 function Dashboard({
@@ -2090,12 +2156,14 @@ function ExamRules() {
 
 function SettingsPage({
   state,
+  activeAccount,
   setSettings,
   onExportState,
   onResetProgress,
   onResetAll
 }: {
   state: AppState;
+  activeAccount: UserAccount;
   setSettings: (settings: Partial<AppState["settings"]>) => void;
   onExportState: () => void;
   onResetProgress: () => void;
@@ -2155,7 +2223,7 @@ function SettingsPage({
         <div className="panel-heading">
           <div>
             <p className="eyebrow">Local data</p>
-            <h2>Browser storage</h2>
+            <h2>{activeAccount.displayName} browser storage</h2>
           </div>
         </div>
         <div className="action-stack">
@@ -2171,7 +2239,10 @@ function SettingsPage({
             Reset all local data
           </button>
         </div>
-        <p className="muted">Data is stored in this browser. Export files before clearing browser storage or switching devices.</p>
+        <p className="muted">
+          Data is stored in this browser under the active account. Switching to another account loads its own progress,
+          imports, and settings.
+        </p>
       </div>
     </section>
   );

@@ -23,6 +23,13 @@ export type IssueType =
 export type FeedbackMode = "immediate" | "delayed";
 export type SessionType = "practice" | "mock" | "mistakes";
 export type SessionStatus = "in_progress" | "completed";
+export type AccountId = "jj" | "eric" | "beatrice" | "thomas";
+
+export interface UserAccount {
+  id: AccountId;
+  displayName: string;
+  description: string;
+}
 
 export interface Subtopic {
   id: string;

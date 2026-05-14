@@ -3,6 +3,7 @@ import { expect, test } from "@playwright/test";
 test("opens the dashboard and browses the QCM bank", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "Study Dashboard" })).toBeVisible();
+  await expect(page.getByRole("combobox", { name: "Active account" })).toHaveValue("jj");
 
   await page.getByRole("button", { name: "QCM Bank" }).click();
   await expect(page.getByLabel("Question bank priority")).toHaveValue("all");
@@ -18,6 +19,23 @@ test("opens the dashboard and browses the QCM bank", async ({ page }) => {
   await page.getByLabel("Quality status").selectOption("rejected");
   await page.getByLabel("Issue type").selectOption("duplicate");
   await expect(page.getByRole("heading", { name: "0 QCMs in current scope" })).toBeVisible();
+});
+
+test("keeps study progress isolated between accounts", async ({ page }) => {
+  await page.goto("/");
+  const accountSelect = page.getByRole("combobox", { name: "Active account" });
+
+  await page.getByRole("button", { name: "Quick drill" }).click();
+  await expect(page.getByRole("heading", { name: /Question 1 of/ })).toBeVisible();
+
+  await accountSelect.selectOption("eric");
+  await expect(page.getByRole("heading", { name: "Study Dashboard" })).toBeVisible();
+  await expect(page.locator(".sidebar-footer")).toContainText("Active account: Eric");
+  await expect(page.locator(".sidebar-footer")).toContainText("0 sessions");
+
+  await accountSelect.selectOption("jj");
+  await expect(page.locator(".sidebar-footer")).toContainText("Active account: JJ");
+  await expect(page.locator(".sidebar-footer")).toContainText("1 sessions");
 });
 
 test("starts a topic drill and shows immediate feedback", async ({ page }) => {
