@@ -798,6 +798,48 @@ button:focus-visible {
   background: #f9fafb;
 }
 
+.course-feature-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bad0f7;
+  border-radius: 8px;
+  color: #183b72;
+  background: #f7faff;
+  text-align: left;
+}
+
+.course-feature-card:hover,
+.course-feature-card:focus-visible {
+  border-color: var(--accent);
+  background: #eef5ff;
+}
+
+.course-feature-card strong,
+.course-feature-card small {
+  display: block;
+}
+
+.course-feature-card small {
+  margin-top: 2px;
+  color: #475467;
+  font-size: 0.78rem;
+}
+
+.course-feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  color: var(--accent);
+  background: #eaf1ff;
+  flex: 0 0 auto;
+}
+
 .course-tree {
   display: grid;
   gap: 10px;
@@ -913,6 +955,19 @@ button:focus-visible {
   gap: 10px;
 }
 
+.course-visual-section {
+  padding: 16px;
+  border: 1px solid #bad0f7;
+  border-radius: 8px;
+  background: #fbfdff;
+}
+
+.course-visual-section > div > p:not(.eyebrow) {
+  max-width: 860px;
+  color: #475467;
+  line-height: 1.55;
+}
+
 .course-visual {
   display: grid;
   gap: 10px;
@@ -937,6 +992,22 @@ button:focus-visible {
 .course-visual figcaption {
   color: #475467;
   font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.course-visual-notes {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.course-visual-notes ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #344054;
   line-height: 1.45;
 }
 

@@ -99,6 +99,16 @@ const DISCLAIMER =
   "This is an independent Series 3 study tool. It uses original practice questions and syllabus-based topic mapping. It is not affiliated with, endorsed by, or provided by FINRA, NFA, CFTC, or Prometric. It does not contain real exam questions.";
 
 const EXAM_SOURCE_CHECKED = "May 13, 2026";
+const FUTURES_ROLES_VISUAL_SUBCHAPTER_ID = "general-regulatory__cftc-registration";
+const FUTURES_ROLES_VISUAL_SUBTOPICS = new Set([
+  "cftc-registration",
+  "nfa-membership",
+  "associated-person",
+  "commodity-pool-operator",
+  "commodity-trading-advisor",
+  "introducing-broker",
+  "futures-commission-merchant"
+]);
 
 const OFFICIAL_EXAM_LINKS = [
   {
@@ -836,7 +846,12 @@ function CoursePage({
   const selectedProgress = selected ? courseProgress(selected, sessions) : undefined;
   const totalLinked = allSubchapters.reduce((sum, subchapter) => sum + subchapter.linkedQuestions.length, 0);
   const gapCount = allSubchapters.filter((subchapter) => subchapter.linkedQuestions.length === 0).length;
-  const shouldShowRolesDiagram = selected?.sectionId === "us_regulations";
+  const rolesVisualSubchapter =
+    allSubchapters.find((subchapter) => subchapter.id === FUTURES_ROLES_VISUAL_SUBCHAPTER_ID) ??
+    allSubchapters.find((subchapter) => subchapter.sectionId === "us_regulations");
+  const shouldShowRolesDiagram =
+    selected?.sectionId === "us_regulations" &&
+    (selected.id === FUTURES_ROLES_VISUAL_SUBCHAPTER_ID || FUTURES_ROLES_VISUAL_SUBTOPICS.has(selected.subtopicId));
   const displayedByChapter = chapters
     .map((chapter) => ({
       ...chapter,
@@ -869,6 +884,23 @@ function CoursePage({
           <Metric label="Verified QCM links" value={totalLinked} detail="rejected excluded" />
           <Metric label="Coverage gaps" value={gapCount} detail="need more QCMs" />
         </div>
+        {rolesVisualSubchapter && (
+          <button
+            className="course-feature-card"
+            onClick={() => {
+              setSearch("");
+              setSelectedSubchapterId(rolesVisualSubchapter.id);
+            }}
+          >
+            <span className="course-feature-icon">
+              <BookOpen size={17} aria-hidden="true" />
+            </span>
+            <span>
+              <strong>Course visual</strong>
+              <small>Key roles in the futures industry</small>
+            </span>
+          </button>
+        )}
         {search && <p className="muted">{matchingSubchapters.length} matching subchapters</p>}
         <nav className="course-tree" aria-label="Course chapter navigation">
           {displayedByChapter.map((chapter) => (
@@ -935,16 +967,33 @@ function CoursePage({
         </div>
 
         {shouldShowRolesDiagram && (
-          <figure className="course-visual">
-            <img
-              src="course/futures-industry-roles.png"
-              alt="Key roles in the futures industry: customer, AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA relationships."
-            />
-            <figcaption>
-              Key roles and relationships in the U.S. futures industry. Use this as the map for AP, IB, FCM, CTA, CPO,
-              principal, exchange, CFTC, and NFA questions.
-            </figcaption>
-          </figure>
+          <section className="course-section course-visual-section" aria-labelledby="roles-visual-title">
+            <div>
+              <p className="eyebrow">Course visual</p>
+              <h3 id="roles-visual-title">Key roles in the futures industry</h3>
+              <p>
+                This diagram is the course map for who does what in the U.S. futures ecosystem: customer order flow,
+                advisory relationships, pool/investment flow, supervisory links, and regulatory oversight.
+              </p>
+            </div>
+            <figure className="course-visual">
+              <img
+                src="course/futures-industry-roles.png"
+                alt="Key roles in the futures industry: customer, AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA relationships."
+              />
+              <figcaption>
+                Use this visual before drilling AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA questions.
+              </figcaption>
+            </figure>
+            <div className="course-visual-notes">
+              <strong>What it represents</strong>
+              <ul>
+                <li>Customer routes: directly through an FCM, or through an IB that introduces the account to an FCM.</li>
+                <li>Advisory routes: a CTA gives trading advice; a CPO pools investor money and operates a commodity pool.</li>
+                <li>Oversight routes: CFTC is the federal regulator; NFA is the industry self-regulatory organization.</li>
+              </ul>
+            </div>
+          </section>
         )}
 
         {selected.coverageNote && (
