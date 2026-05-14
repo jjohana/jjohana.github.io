@@ -44,12 +44,27 @@ jobs:
         run: |
           mkdir -p pages/series3
           cp -R dist/. pages/series3/
+          current_js="$(find pages/series3/assets -maxdepth 1 \( -name 'index.js' -o -name 'index-*.js' \) -print -quit)"
+          if [ -n "$current_js" ]; then
+            for legacy_js in index-DVrqSEXF.js index-CtmP__jh.js index-BE8SQUyC.js; do
+              cp "$current_js" "pages/series3/assets/$legacy_js"
+            done
+          fi
+          current_css="$(find pages/series3/assets -maxdepth 1 \( -name 'index.css' -o -name 'index-*.css' \) -print -quit)"
+          if [ -n "$current_css" ]; then
+            for legacy_css in index-Bs5njU83.css; do
+              cp "$current_css" "pages/series3/assets/$legacy_css"
+            done
+          fi
           cat > pages/index.html <<'HTML'
           <!doctype html>
           <html lang="en">
             <head>
               <meta charset="UTF-8" />
               <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+              <meta http-equiv="Pragma" content="no-cache" />
+              <meta http-equiv="Expires" content="0" />
               <meta http-equiv="refresh" content="0; url=/series3/" />
               <title>Series 3 QCM Practice</title>
               <script>window.location.replace("/series3/");</script>
