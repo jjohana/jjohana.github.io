@@ -7,13 +7,13 @@ export const LEGACY_STORAGE_KEYS = ["series3-qcm-state-v1"];
 export const LEGACY_GLOBAL_STORAGE_KEY = "series3-qcm-state-v2";
 export const ACTIVE_ACCOUNT_KEY = "series3-qcm-active-account-v1";
 export const ACCOUNT_STORAGE_PREFIX = "series3-qcm-account-state-v1";
-export const DEFAULT_ACCOUNT_ID: AccountId = "jj";
+export const INITIAL_ACCOUNT_ID: AccountId = "jj";
 
 export const USER_ACCOUNTS: UserAccount[] = [
-  { id: "jj", displayName: "JJ", description: "Compte principal" },
-  { id: "eric", displayName: "Eric", description: "Compte individualise" },
-  { id: "beatrice", displayName: "Béatrice", description: "Compte individualise" },
-  { id: "thomas", displayName: "Thomas", description: "Compte individualise" }
+  { id: "jj", displayName: "JJ", description: "Compte individualisé" },
+  { id: "eric", displayName: "Eric", description: "Compte individualisé" },
+  { id: "beatrice", displayName: "Béatrice", description: "Compte individualisé" },
+  { id: "thomas", displayName: "Thomas", description: "Compte individualisé" }
 ];
 
 export const DEFAULT_SETTINGS: UserSettings = {
@@ -39,7 +39,7 @@ export function isAccountId(value: string | undefined | null): value is AccountI
 }
 
 export function normalizeAccountId(value: string | undefined | null): AccountId {
-  return isAccountId(value) ? value : DEFAULT_ACCOUNT_ID;
+  return isAccountId(value) ? value : INITIAL_ACCOUNT_ID;
 }
 
 export function accountStorageKey(accountId: AccountId): string {
@@ -60,7 +60,7 @@ export function mergeQuestions(stored: Question[] | undefined): Question[] {
 }
 
 export function loadActiveAccount(): AccountId {
-  if (typeof localStorage === "undefined") return DEFAULT_ACCOUNT_ID;
+  if (typeof localStorage === "undefined") return INITIAL_ACCOUNT_ID;
   return normalizeAccountId(localStorage.getItem(ACTIVE_ACCOUNT_KEY));
 }
 
@@ -92,7 +92,7 @@ export function loadState(accountId: AccountId = loadActiveAccount()): AppState 
   const current = parseState(localStorage.getItem(accountStorageKey(accountId)));
   if (current) return current;
 
-  if (accountId === DEFAULT_ACCOUNT_ID) {
+  if (accountId === INITIAL_ACCOUNT_ID) {
     const legacyGlobal = parseState(localStorage.getItem(LEGACY_GLOBAL_STORAGE_KEY));
     if (legacyGlobal) return legacyGlobal;
   }
@@ -106,7 +106,7 @@ export function saveState(state: AppState, accountId: AccountId = loadActiveAcco
     localStorage.removeItem(legacyKey);
   }
   localStorage.setItem(accountStorageKey(accountId), JSON.stringify({ ...state, questions: mergeQuestions(state.questions) }));
-  if (accountId === DEFAULT_ACCOUNT_ID) localStorage.removeItem(LEGACY_GLOBAL_STORAGE_KEY);
+  if (accountId === INITIAL_ACCOUNT_ID) localStorage.removeItem(LEGACY_GLOBAL_STORAGE_KEY);
 }
 
 export function downloadText(filename: string, text: string, mime = "text/plain;charset=utf-8"): void {

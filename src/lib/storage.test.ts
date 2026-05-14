@@ -4,7 +4,7 @@ import type { Question } from "../types";
 import { inferredQualityStatus } from "./quality";
 import {
   ACTIVE_ACCOUNT_KEY,
-  DEFAULT_ACCOUNT_ID,
+  INITIAL_ACCOUNT_ID,
   LEGACY_GLOBAL_STORAGE_KEY,
   accountStorageKey,
   loadActiveAccount,
@@ -68,8 +68,8 @@ describe("storage question migration", () => {
     expect(inferredQualityStatus(migrated!)).toBe("needs_review");
   });
 
-  it("uses JJ as the default account", () => {
-    expect(DEFAULT_ACCOUNT_ID).toBe("jj");
+  it("uses a stable initial account when none is selected", () => {
+    expect(INITIAL_ACCOUNT_ID).toBe("jj");
     expect(loadActiveAccount()).toBe("jj");
 
     saveActiveAccount("thomas");
