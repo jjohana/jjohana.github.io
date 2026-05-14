@@ -1,35 +1,19 @@
 # Taxonomy Coverage Report
 
-Generated: 2026-05-14
+Generated: 2026-05-14T07:02:57.252Z
 
-This report reflects the fresh import reset. Imported QCMs remain mapped into the taxonomy, but they are not certified content until reviewed.
+Counts reflect the final app safety gate.
 
-## Current Certified Coverage
-
-| Section | Verified QCMs | Needs-review imported QCMs |
-| --- | ---: | ---: |
-| Market Knowledge | 337 | 444 |
-| U.S. Regulations | 57 | 242 |
-| Total | 394 | 686 |
-
-## Interpretation
-
-- `Verified` coverage is the only coverage used by default in drills and mock exams.
-- `Needs-review imported` coverage is visible for inspection and filtering but should not be relied on for a certified study session.
-- Imported questions keep their section/topic/subtopic labels so the next audit can work systematically by taxonomy.
-
-## Required Next Pass
-
-For each section/topic/subtopic:
-
-- verify whether imported questions are correctly classified;
-- promote reliable questions to `verified`;
-- reject duplicates, malformed OCR items, and ambiguous questions;
-- add new original QCMs where a subtopic still has fewer than three verified questions.
-
-## Syllabus Topics
-
-| Section | Topics | Subtopics |
-| --- | ---: | ---: |
-| Market Knowledge | 7 | 105 |
-| U.S. Regulations | 4 | 57 |
+| Section | Topic | Total | Verified | Needs review | Rejected |
+| --- | --- | --- | --- | --- | --- |
+| market_knowledge | futures-speculation | 71 | 27 | 32 | 12 |
+| market_knowledge | futures-theory | 66 | 50 | 6 | 10 |
+| market_knowledge | hedging-basis | 90 | 55 | 20 | 15 |
+| market_knowledge | margins-settlement-delivery | 79 | 64 | 5 | 10 |
+| market_knowledge | options-futures | 77 | 49 | 15 | 13 |
+| market_knowledge | orders-accounts-analysis | 51 | 40 | 8 | 3 |
+| market_knowledge | spreading | 35 | 21 | 10 | 4 |
+| us_regulations | arbitration-discipline | 25 | 21 | 1 | 3 |
+| us_regulations | cpo-cta | 74 | 50 | 19 | 5 |
+| us_regulations | fcm-ib | 62 | 47 | 6 | 9 |
+| us_regulations | general-regulatory | 89 | 65 | 11 | 13 |

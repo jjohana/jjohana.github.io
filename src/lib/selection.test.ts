@@ -39,7 +39,7 @@ describe("question selection", () => {
       qualityStatus: "all"
     });
 
-    expect(selected.length).toBe(444);
+    expect(selected.length).toBe(469);
     expect(selected.every((question) => question.id.startsWith("s3-market-docx-"))).toBe(true);
   });
 
@@ -51,7 +51,7 @@ describe("question selection", () => {
       qualityStatus: "usable"
     });
 
-    expect(selected.length).toBe(242);
+    expect(selected.length).toBe(220);
     expect(selected.every((question) => question.id.startsWith("s3-regulatory-pdf-"))).toBe(true);
   });
 

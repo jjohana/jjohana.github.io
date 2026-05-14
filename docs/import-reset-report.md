@@ -1,48 +1,16 @@
-# Fresh Import Reset Report
+# Fresh Import Reset / LLM Reimport Report
 
-Generated: 2026-05-14
+Generated: 2026-05-14T07:02:57.252Z
 
-## Scope
+The imported S3 source banks have been rebuilt from OpenAI gpt-5.5 vision transcripts.
 
-The imported S3 source banks were reset so that no old OCR corrections, duplicate decisions, or certification claims survive.
+The counts below are the final app-integrated counts after the display-safety and structural-quality gate. Items with unsafe answer-choice formats, invalid taxonomy, wrong answer counts, or duplicates are rejected and excluded from practice/mock exams.
 
-| Source | Current imported QCMs | Current status |
-| --- | ---: | --- |
-| S3-Market DOCX | 444 | `needs_review` |
-| S3-Regulatory PDF | 242 | `needs_review` |
-| Total imported | 686 | `needs_review` |
+| Source | Questions | Verified | Needs review | Rejected |
+| --- | --- | --- | --- | --- |
+| S3-Market DOCX | 469 | 306 | 96 | 67 |
+| S3-Regulatory PDF | 250 | 183 | 37 | 30 |
 
-## What was cleared
+Raw LLM audit output before the final app gate was 563 verified, 127 needs-review, and 29 rejected imported QCMs. The app gate tightened this to 489 verified, 133 needs-review, and 97 rejected imported QCMs.
 
-- Legacy imported content overrides.
-- Legacy imported quality overrides.
-- Imported `verified` certifications.
-- Imported `rejected` duplicate/calculation decisions.
-- Temporary OCR work folders from incomplete extraction attempts.
-
-## Source document condition
-
-- `S3-Market.docx` is image-based: the document body has no usable text extraction and contains hundreds of embedded screenshots/images.
-- `S3-Regulatory.pdf` is image-based: the PDF pages have little or no embedded text.
-
-The extraction scripts were updated so future OCR imports default to `needs_review` and carry an OCR/transcription issue marker until reviewed.
-
-## Current app behavior
-
-- `Verified only` excludes both imported source banks.
-- `Verified + needs review` includes imported QCMs so they can be inspected.
-- Default drills and mock exams use the 394 verified non-imported QCMs.
-- The user can still filter specifically to `S3-Market DOCX` or `S3-Regulatory PDF`; with `Verified only`, those filters correctly show `0`.
-
-## Next step
-
-Run a real LLM/manual certification pass on the imported source documents in batches. Promote an imported QCM to `verified` only after confirming:
-
-- readable stem;
-- clean answer choices;
-- one unambiguous correct answer;
-- recomputed calculations where relevant;
-- reliable regulatory statement where relevant;
-- useful explanation and rationales;
-- correct section/topic/subtopic mapping;
-- no duplicate conflict.
+Tracked API cost: $30.2564 under a $100.00 cap.

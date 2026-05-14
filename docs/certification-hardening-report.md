@@ -4,29 +4,28 @@ Date: 2026-05-14
 
 ## What changed
 
-The app no longer treats imported OCR/transcribed QCMs as certified merely because the import file marked them as reviewed, high confidence, or verified.
+This report records the first certification-hardening pass. It has been updated after the OpenAI gpt-5.5 vision reimport.
 
-An imported question is now `verified` only when it has an explicit audit override in `src/data/questionQualityOverrides.ts`.
-After the import reset, that override file is intentionally empty.
+An imported question is now `verified` only when it carries embedded LLM audit metadata or an explicit audit override. Imported questions with unsafe answer-choice formats, invalid taxonomy, wrong answer counts, duplicate issues, or visible OCR/display artifacts are demoted or rejected by the app safety gate.
 
 ## Current certified source-bank state
 
 | Scope | Verified-only QCMs |
 | --- | ---: |
-| All question banks | 394 |
-| S3-Market DOCX | 0 |
-| S3-Regulatory PDF | 0 |
+| All question banks | 883 |
+| S3-Market DOCX | 306 |
+| S3-Regulatory PDF | 183 |
 | Authored / rewritten / sample | 394 |
 
 ## Import reset state
 
 | Imported source | Active QCMs | Quality status |
 | --- | ---: | --- |
-| S3-Market DOCX | 444 | `needs_review` |
-| S3-Regulatory PDF | 242 | `needs_review` |
-| Total imported | 686 | `needs_review` |
+| S3-Market DOCX | 469 | 306 `verified`, 96 `needs_review`, 67 `rejected` |
+| S3-Regulatory PDF | 250 | 183 `verified`, 37 `needs_review`, 30 `rejected` |
+| Total imported | 719 | 489 `verified`, 133 `needs_review`, 97 `rejected` |
 
-The imported QCMs are still visible when the app is set to `Verified + needs review`, but they are deliberately excluded from default verified-only drills and mock exams.
+Needs-review imported QCMs are visible only when explicitly included. Rejected QCMs are excluded from drills and mock exams.
 
 ## Certification rule
 

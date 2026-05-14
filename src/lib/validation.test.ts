@@ -1,10 +1,12 @@
 import { describe, expect, it } from "vitest";
 import { sampleQuestions } from "../data/questions";
+import { inferredQualityStatus } from "./quality";
 import { validateQuestion } from "./validation";
 
 describe("validateQuestion", () => {
   it("accepts the seeded original sample questions", () => {
-    const issues = sampleQuestions.flatMap(validateQuestion);
+    const publishedQuestions = sampleQuestions.filter((question) => inferredQualityStatus(question) !== "rejected");
+    const issues = publishedQuestions.flatMap(validateQuestion);
     expect(issues.filter((issue) => issue.severity === "error")).toEqual([]);
   });
 

@@ -145,6 +145,7 @@ const commonReplacements: Replacement[] = [
   [/\b96\.\s*IO\b/g, "96.10"],
   [/\b94\.\s*SO\b/g, "94.80"],
   [/\b93\.\s*SO\b/g, "93.50"],
+  [/\bfor\.(\d{1,2})\b/g, "for 0.$1"],
   [/\b100:000\b/g, "100,000"],
   [/\bS[I1]\s+million\b/g, "$1 million"],
   [/\bS[I1]\s*250 per ct\.?\b/g, "$12.50 per contract"],

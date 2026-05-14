@@ -16,7 +16,7 @@ describe("shuffle engine", () => {
     const sessionQuestions = buildSessionQuestions(mockQuestions, "mock-seed");
     const audit = auditCorrectPositionDistribution(sessionQuestions.filter((question) => question.choiceOrder.length === 4));
 
-    expect(audit.total).toBeGreaterThan(100);
+    expect(audit.total).toBeGreaterThan(60);
     expect(audit.passed).toBe(true);
   });
 

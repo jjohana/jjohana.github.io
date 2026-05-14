@@ -28,8 +28,8 @@ Use only:
 - QCM Bank browser by section, topic, and subtopic
 - Source-bank filters for all questions, both S3 imported sets, S3-Market DOCX only, S3-Regulatory PDF only, or authored/rewritten/sample content
 - Coverage matrix with sample/imported counts and coverage gaps
-- 711 active Market Knowledge QCMs, including the authored coverage bank, minimum-coverage questions, and the user-authorized OCR import of `S3-Market.docx`
-- Imported Market Knowledge coverage by major topic: 72 theory, 72 margins/settlement/delivery/options premiums, 48 orders/accounts/analysis, 77 hedging/basis, 34 spreading, 67 futures speculation, and 74 options QCMs
+- 742 active Market Knowledge QCMs, including the authored coverage bank, minimum-coverage questions, and the user-authorized LLM vision reimport of `S3-Market.docx`
+- Imported Market Knowledge coverage by major topic: 66 theory, 79 margins/settlement/delivery/options premiums, 51 orders/accounts/analysis, 90 hedging/basis, 35 spreading, 71 futures speculation, and 77 options QCMs
 - JSONL and CSV import/export
 - Question validation against content and taxonomy rules
 - Topic drills with difficulty and weak-subtopic prioritization
@@ -44,8 +44,8 @@ Use only:
 - Fixed-order support for licensed/user-provided source questions whose choices depend on A/B/C/D labels
 - Static build compatible with GitHub Pages
 - Rewritten U.S. Regulations bank based on concepts observed in `S3-Regulatory.pdf`
-- User-authorized OCR import of the `S3-Regulatory.pdf` regulatory bank, deduplicated to 242 unique QCMs from 249 detected source question numbers
-- User-authorized OCR import of the `S3-Market.docx` market bank, deduplicated to 444 unique identifiable QCMs from the image sequence
+- User-authorized OpenAI gpt-5.5 vision reimport of the `S3-Regulatory.pdf` regulatory bank: 250 source pages, 183 verified imported QCMs, 37 needs-review QCMs, and 30 rejected audit-only QCMs
+- User-authorized OpenAI gpt-5.5 vision reimport of the `S3-Market.docx` market bank: 469 source images, 306 verified imported QCMs, 96 needs-review QCMs, and 67 rejected audit-only QCMs
 - Dedicated regulatory focus filters for registration, account rules, FCM/IB, CPO/CTA, supervision, communications, arbitration, enforcement, AML, and high-yield review
 
 ## Course Module
@@ -163,9 +163,10 @@ The regulatory section was remodeled using the local source document:
 C:\Users\Jean-JacquesOhana\Documents\Ai For Alpha\2026\Series 3\S3-Regulatory.pdf
 ```
 
-That PDF is image-based and appears to be a PassMaster-style regulatory QCM tutorial. The app includes the original rewritten regulatory study questions plus the user-authorized OCR extraction of the 249-question regulatory bank.
+That PDF is image-based and appears to be a PassMaster-style regulatory QCM tutorial. The app includes the original rewritten regulatory study questions plus the user-authorized OpenAI gpt-5.5 vision reimport of the regulatory bank. The app's safety gate rejects duplicates, unsafe answer-choice formats, invalid taxonomy, and malformed answer sets before practice/mock selection.
 
 See [docs/regulatory-remodel-report.md](docs/regulatory-remodel-report.md) for the extraction summary, taxonomy changes, and manual review notes.
+See [docs/llm-transcript-report.md](docs/llm-transcript-report.md), [docs/llm-reimport-cost-report.md](docs/llm-reimport-cost-report.md), and [docs/import-reset-report.md](docs/import-reset-report.md) for the LLM reimport audit.
 
 ## Market DOCX Import
 
@@ -175,9 +176,10 @@ The Market Knowledge section was expanded using the local source document:
 C:\Users\Jean-JacquesOhana\Documents\Ai For Alpha\2026\Series 3\S3-Market.docx
 ```
 
-That DOCX is image-based. The local OCR workflow extracted the screenshots, parsed the QCMs, preserved fixed answer order with `shuffleDisabled: true`, and mapped each question to the seven Market Knowledge topic groups.
+That DOCX is image-based. The OpenAI gpt-5.5 vision workflow extracted the screenshots, transcribed and parsed the QCMs, audited answers and calculations, and mapped each question to the seven Market Knowledge topic groups. The app's quality gate defaults practice and mock exams to verified questions and excludes rejected items.
 
 See [docs/market-docx-import-report.md](docs/market-docx-import-report.md) for counts, topic mapping, and manual-review notes.
+See [docs/llm-transcript-report.md](docs/llm-transcript-report.md), [docs/llm-reimport-cost-report.md](docs/llm-reimport-cost-report.md), and [docs/import-reset-report.md](docs/import-reset-report.md) for the LLM reimport audit.
 
 ## Private PDF Extraction
 

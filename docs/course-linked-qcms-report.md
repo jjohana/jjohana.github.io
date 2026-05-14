@@ -11,17 +11,17 @@ Course subchapters are linked to QCMs only when all of the following are true:
 - The question has the same `sectionId`, `topicId`, and `subtopicId` as the course subchapter.
 - The question is not rejected or quarantined.
 
-## Link results after import reset
+## Link results after LLM reimport
 
 | Metric | Count |
 | --- | ---: |
-| Total active questions | 1080 |
-| Active verified questions | 394 |
-| Active needs-review questions | 686 |
-| Active rejected questions | 0 |
-| Imported verified questions linked by the Course module | 0 |
+| Total active questions | 1113 |
+| Active verified questions | 883 |
+| Active needs-review questions | 133 |
+| Active rejected questions | 97 |
+| Imported verified questions available to the Course module | 489 |
 
 ## Notes
 
-Imported S3-Market DOCX and S3-Regulatory PDF questions are not linked as certified course support until they pass a substantive review.
-The Course module can still use the syllabus taxonomy and verified authored/reworked material.
+Imported S3-Market DOCX and S3-Regulatory PDF questions are now linked as course support only when the final app safety gate leaves them verified.
+Rejected imported questions remain excluded from course support, drills, and mock exams.

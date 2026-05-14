@@ -2,15 +2,15 @@
 
 Generated: 2026-05-14
 
-This report supersedes the previous imported-question correction list.
+This historical reset report has been superseded by the OpenAI gpt-5.5 vision reimport. Current authoritative reports are `docs/import-reset-report.md`, `docs/llm-transcript-report.md`, and `docs/question-quality-audit-report.md`.
 
-All imported S3-Market DOCX and S3-Regulatory PDF QCMs have been reset to `needs_review`. No imported question is currently certified as corrected.
+Imported S3-Market DOCX and S3-Regulatory PDF QCMs are no longer all reset to `needs_review`. They now carry final app quality statuses from the LLM audit plus the app safety gate.
 
 | Scope | Count |
 | --- | ---: |
-| Imported QCMs reset to `needs_review` | 686 |
-| Imported QCMs currently `verified` | 0 |
-| Imported QCMs currently `rejected` | 0 |
+| Imported QCMs currently `verified` | 489 |
+| Imported QCMs currently `needs_review` | 133 |
+| Imported QCMs currently `rejected` | 97 |
 | Non-imported verified QCMs retained | 394 |
 
 ## Next correction pass

@@ -6,9 +6,9 @@ Source document:
 
 ## Source Handling
 
-The PDF is image-based. Standard text extraction returned no usable embedded text, so the document was assessed with rendered page images and local OCR.
+The PDF is image-based. Standard text extraction returned no usable embedded text, so the document was first assessed with rendered page images and local OCR, then rebuilt through the OpenAI gpt-5.5 vision reimport workflow.
 
-The PDF was first handled conservatively as a private/local extraction because it appears to be a PassMaster-style regulatory QCM tutorial. The user later confirmed they have the right to publish the QCMs, so the public GitHub Pages app now includes the full OCR-derived regulatory bank in addition to the original rewritten study questions.
+The PDF was first handled conservatively as a private/local extraction because it appears to be a PassMaster-style regulatory QCM tutorial. The user later confirmed they have the right to publish the QCMs, so the public GitHub Pages app now includes the LLM-transcribed regulatory bank in addition to the original rewritten study questions.
 
 ## OCR Summary
 
@@ -17,14 +17,16 @@ The PDF was first handled conservatively as a private/local extraction because i
 | PDF pages | 250 |
 | Visible question sequence | 249 questions |
 | Embedded text extraction | unavailable / empty |
-| OCR pages processed | 250 |
+| Pages processed | 250 |
 | Source question numbers detected | 249 |
-| Unique active questions published after dedupe | 242 |
-| OCR method | `pdftoppm` render + cropped page image + RapidOCR local OCR |
-| Public OCR imports | 242 |
+| Active QCM records generated for the app | 250 |
+| Transcription method | `pdftoppm` render + OpenAI gpt-5.5 vision transcript |
+| Verified imported QCMs after app safety gate | 183 |
+| Needs-review imported QCMs after app safety gate | 37 |
+| Rejected audit-only imported QCMs after app safety gate | 30 |
 | Public rewritten questions added | 47 |
 
-The PDF has 250 rendered pages and 249 detected question numbers. The extraction workflow removed exact duplicate QCMs, including a duplicated page for question 130 and repeated source questions with identical stems and choices, producing 242 active unique QCMs.
+The PDF has 250 rendered pages and 249 detected question numbers. The current LLM reimport keeps source-page traceability and marks duplicate/unsafe records as rejected instead of silently dropping them.
 
 ## Regulatory Concepts Observed
 

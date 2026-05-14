@@ -1,9 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { questionQualityOverrides } from "../data/questionQualityOverrides";
 import { sampleQuestions } from "../data/questions";
 import type { Question } from "../types";
 import { UNSAFE_DISPLAY_PATTERNS } from "./contentSanitizer";
-import { inferredQualityStatus } from "./quality";
+import { applyQuestionQualityDefaults, inferredQualityStatus } from "./quality";
 import { filterQuestionPool } from "./selection";
 import { validateQuestionBank } from "./validation";
 
@@ -65,12 +64,20 @@ describe("published question quality", () => {
     expect(findings).toEqual([]);
   });
 
-  it("keeps freshly reset imported S3 source-bank questions out of verified certification", () => {
-    const findings = importedQuestions
-      .filter((question) => inferredQualityStatus(question) === "verified" || question.reviewStatus !== "needs_review")
-      .map((question) => `${question.id}: ${inferredQualityStatus(question)} / ${question.reviewStatus ?? "missing"}`);
+  it("requires embedded LLM audit metadata before certifying imported questions", () => {
+    const verifiedImportedQuestions = importedQuestions.filter((question) => inferredQualityStatus(question) === "verified");
+    const findings = verifiedImportedQuestions
+      .filter(
+        (question) =>
+          !/OpenAI gpt-5\.5/i.test(question.verifiedBy ?? "") ||
+          !question.verifiedAt ||
+          !/LLM vision import/i.test(question.sourceNote ?? "") ||
+          question.reviewStatus !== "reviewed"
+      )
+      .map((question) => `${question.id}: ${question.verifiedBy ?? "missing verifier"} / ${question.sourceNote ?? "missing source note"}`);
 
     expect(findings).toEqual([]);
+    expect(verifiedImportedQuestions.length).toBeGreaterThan(0);
   });
 
   it("assigns a quality status to every active question", () => {
@@ -90,13 +97,21 @@ describe("published question quality", () => {
     expect(findings).toEqual([]);
   });
 
-  it("certifies imported questions only through explicit audit overrides", () => {
-    const findings = importedQuestions
-      .filter((question) => inferredQualityStatus(question) === "verified")
-      .filter((question) => questionQualityOverrides[question.id]?.qualityStatus !== "verified")
-      .map((question) => question.id);
+  it("does not trust a legacy imported verified status without LLM audit metadata", () => {
+    const verifiedImportedQuestion = importedQuestions.find((question) => inferredQualityStatus(question) === "verified");
+    expect(verifiedImportedQuestion).toBeDefined();
 
-    expect(findings).toEqual([]);
+    const legacyImportedQuestion = {
+      ...verifiedImportedQuestion!,
+      id: "legacy-imported-without-llm-audit",
+      sourceNote: "Legacy imported OCR question.",
+      verifiedAt: undefined,
+      verifiedBy: undefined,
+      qualityStatus: "verified" as const,
+      qualityNotes: "Legacy status only."
+    };
+
+    expect(applyQuestionQualityDefaults(legacyImportedQuestion).qualityStatus).toBe("needs_review");
   });
 
   it("excludes rejected questions from the default session pool", () => {
@@ -107,7 +122,7 @@ describe("published question quality", () => {
   });
 
   it("publishes only structurally valid active questions", () => {
-    const report = validateQuestionBank(activeQuestions);
+    const report = validateQuestionBank(activeQuestions.filter((question) => inferredQualityStatus(question) !== "rejected"));
     const errors = report.issues.filter((issue) => issue.severity === "error");
 
     expect(errors).toEqual([]);

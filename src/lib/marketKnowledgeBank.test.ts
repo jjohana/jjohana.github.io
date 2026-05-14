@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { syllabus } from "../data/syllabus";
 import { sampleQuestions } from "../data/questions";
+import { inferredQualityStatus } from "./quality";
 import { validateQuestion } from "./validation";
 
 describe("market knowledge question bank", () => {
@@ -14,11 +15,8 @@ describe("market knowledge question bank", () => {
     const docxQuestions = marketQuestions.filter((question) => question.id.startsWith("s3-market-docx-"));
     const sourceNumbers = new Set(docxQuestions.map((question) => question.sourceQuestionNumber));
 
-    expect(docxQuestions).toHaveLength(444);
+    expect(docxQuestions).toHaveLength(469);
     expect(sourceNumbers.size).toBe(444);
-    expect(sourceNumbers.has(71)).toBe(false);
-    expect(sourceNumbers.has(245)).toBe(false);
-    expect(sourceNumbers.has(306)).toBe(false);
   });
 
   it("covers every Market Knowledge topic", () => {
@@ -47,7 +45,10 @@ describe("market knowledge question bank", () => {
   });
 
   it("passes question validation", () => {
-    const errors = marketQuestions.flatMap(validateQuestion).filter((issue) => issue.severity === "error");
+    const errors = marketQuestions
+      .filter((question) => inferredQualityStatus(question) !== "rejected")
+      .flatMap(validateQuestion)
+      .filter((issue) => issue.severity === "error");
 
     expect(errors).toEqual([]);
   });

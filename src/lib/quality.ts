@@ -1,4 +1,5 @@
 import { questionQualityOverrides } from "../data/questionQualityOverrides";
+import { allSubtopics } from "../data/syllabus";
 import type { IssueType, QualityFilter, QualityStatus, Question } from "../types";
 import { cleanQuestionContent, UNSAFE_DISPLAY_PATTERNS } from "./contentSanitizer";
 
@@ -83,6 +84,43 @@ function explicitQualityOverride(questionId: string): QualityStatus | undefined 
   return status === "verified" || status === "needs_review" || status === "rejected" ? status : undefined;
 }
 
+function hasEmbeddedLlmAudit(question: Question): boolean {
+  if (question.sourceType !== "imported") return false;
+  const sourceNote = question.sourceNote ?? "";
+  const verifiedBy = question.verifiedBy ?? "";
+  const hasLlmImportMarker = /LLM vision import/i.test(sourceNote);
+  const hasVerifier = /OpenAI gpt-5\.5/i.test(verifiedBy);
+
+  if (!hasLlmImportMarker) return false;
+  if (question.qualityStatus === "verified") return hasVerifier && Boolean(question.verifiedAt);
+  return true;
+}
+
+function structuralRejectIssues(question: Question): IssueType[] {
+  const issues = new Set<IssueType>();
+  const validSubtopic = allSubtopics.some(
+    (subtopic) =>
+      subtopic.sectionId === question.sectionId &&
+      subtopic.topicId === question.topicId &&
+      subtopic.id === question.subtopicId
+  );
+
+  if (!validSubtopic) issues.add("wrong_taxonomy");
+  if (!Array.isArray(question.choices)) {
+    issues.add("bad_distractors");
+    return [...issues];
+  }
+
+  if (question.questionType === "true_false" && question.choices.length !== 2) issues.add("bad_distractors");
+  if (question.questionType === "multiple_choice" && question.choices.length < 3) issues.add("bad_distractors");
+  if (question.choices.filter((choice) => choice.isCorrect).length !== 1) issues.add("wrong_answer");
+  if (question.choices.some((choice) => bannedChoicePattern.test(choice.text) || answerLetterReferencePattern.test(choice.text))) {
+    issues.add("bad_distractors");
+  }
+
+  return [...issues];
+}
+
 export function inferIssueTypes(question: Question): IssueType[] {
   const issues = new Set<IssueType>();
   const cleaned = cleanQuestionContent(question);
@@ -131,16 +169,20 @@ export function applyQuestionQualityDefaults(question: Question): Question {
   const withOverride = cleanQuestionContent(rawWithOverride);
   const inferredIssues = inferIssueTypes(withOverride);
   const rawIssues = inferIssueTypes(rawWithOverride);
-  const uncertifiedImportedQuestion = withOverride.sourceType === "imported" && !explicitStatus;
+  const embeddedLlmAudit = hasEmbeddedLlmAudit(withOverride);
+  const uncertifiedImportedQuestion = withOverride.sourceType === "imported" && !explicitStatus && !embeddedLlmAudit;
+  const structuralIssues = structuralRejectIssues(withOverride);
   const rawBlockingIssues = rawIssues.filter((issue) => issue === "OCR/transcription" || issue === "bad_distractors");
   const blockingIssues = [
     ...inferredIssues.filter((issue) => issue === "OCR/transcription" || issue === "bad_distractors"),
     ...rawBlockingIssues,
     ...(uncertifiedImportedQuestion ? (["OCR/transcription"] as IssueType[]) : [])
   ];
-  const issueTypes = [...new Set([...(withOverride.issueTypes ?? inferredIssues), ...blockingIssues, ...rawBlockingIssues])];
+  const issueTypes = [...new Set([...(withOverride.issueTypes ?? inferredIssues), ...blockingIssues, ...rawBlockingIssues, ...structuralIssues])];
   const requestedQualityStatus =
-    explicitStatus ?? (uncertifiedImportedQuestion ? "needs_review" : withOverride.qualityStatus ?? inferredQualityStatus({ ...withOverride, issueTypes }));
+    structuralIssues.length > 0
+      ? "rejected"
+      : explicitStatus ?? (uncertifiedImportedQuestion ? "needs_review" : withOverride.qualityStatus ?? inferredQualityStatus({ ...withOverride, issueTypes }));
   const qualityStatus: QualityStatus =
     requestedQualityStatus === "verified" && blockingIssues.length > 0 ? "needs_review" : requestedQualityStatus;
   const qualityNotes =
