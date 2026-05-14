@@ -51,7 +51,7 @@ describe("question selection", () => {
       qualityStatus: "usable"
     });
 
-    expect(selected.length).toBe(244);
+    expect(selected.length).toBe(250);
     expect(selected.every((question) => question.id.startsWith("s3-regulatory-pdf-"))).toBe(true);
   });
 

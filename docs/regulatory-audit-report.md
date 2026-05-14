@@ -6,7 +6,7 @@ Regulatory questions are screened for OCR artifacts, answer-letter-dependent dis
 | --- | --- |
 | Imported Regulatory PDF QCMs | 250 |
 | Regulatory rewritten QCMs | 47 |
-| Verified Regulatory QCMs | 369 |
+| Verified Regulatory QCMs | 375 |
 | Needs-review Regulatory QCMs | 0 |
 
 ## Needs Review

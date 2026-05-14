@@ -1755,39 +1755,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "general-regulatory",
     "subtopicId": "just-equitable-principles",
     "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "All trades on an exchange (contract market) must be competitively executed or otherwise executed in accordance with written rules of the exchange that have been approved by the CFTC.",
+    "questionType": "multiple_choice",
+    "stem": "An exchange trade is not executed by open, competitive bidding. Which condition most directly supports the trade being permissible?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
+        "text": "The trade is executed under a written exchange rule or procedure permitted under the CFTC oversight framework.",
         "isCorrect": true,
-        "rationale": "The Commodity Exchange Act and CFTC regulations generally require trades on a designated contract market to be competitively executed unless they are executed pursuant to exchange rules approved by the CFTC."
+        "rationale": "Noncompetitive execution may be allowed only under recognized exchange rules or procedures that fit the regulatory framework."
       },
       {
         "id": "b",
-        "text": "False",
+        "text": "The customer verbally agrees after the trade is completed.",
         "isCorrect": false,
-        "rationale": "This is incorrect because permitted noncompetitive executions must still comply with written exchange rules approved by the CFTC."
+        "rationale": "Post-trade customer agreement does not replace exchange and CFTC execution requirements."
+      },
+      {
+        "id": "c",
+        "text": "The member firm decides that competitive execution would be inconvenient.",
+        "isCorrect": false,
+        "rationale": "Convenience is not a regulatory exception."
+      },
+      {
+        "id": "d",
+        "text": "The trade is profitable for both customers.",
+        "isCorrect": false,
+        "rationale": "Profitability does not determine whether execution complied with exchange rules."
       }
     ],
-    "explanation": "The Commodity Exchange Act and CFTC regulations require trades to be competitively executed. Exceptions, such as exchanges of futures for product or physicals (EFPs) and transfer trades, must be done in accordance with written exchange rules that have been approved by the CFTC.",
+    "explanation": "The exam point is that exchange trades generally require competitive execution unless a permitted exception applies under written exchange rules and the CFTC oversight framework.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-039; sequence 39; source code 10_EZ_54.",
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-039; sequence 39; source code 10_EZ_54. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable true/false item with a single correct answer shown. Terminology and regulatory concept are consistent with exchange trade execution rules and permitted exceptions under written exchange rules. Duplicate review: Exact duplicate of s3-regulatory-pdf-143. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "39",
     "sourceQuestionNumber": 39,
     "sourceCode": "10_EZ_54",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-regulatory-pdf-040",
@@ -3195,39 +3207,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "fcm-ib",
     "subtopicId": "accepting-customer-funds",
     "difficulty": "easy",
-    "questionType": "true_false",
-    "stem": "CFTC regulations provide that customer funds must generally, but not always, be segregated from the firm's proprietary funds.",
+    "questionType": "multiple_choice",
+    "stem": "An FCM receives customer margin funds for futures trading. How must those customer funds generally be treated?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
-        "isCorrect": false,
-        "rationale": "Customer funds held by an FCM must be segregated and accounted for separately from the firm's proprietary funds; the statement's \"generally, but not always\" wording is incorrect."
+        "text": "They must be segregated from the FCM's own funds as required by customer-fund protection rules.",
+        "isCorrect": true,
+        "rationale": "Customer futures funds are subject to segregation requirements and cannot simply be commingled with the FCM's proprietary assets."
       },
       {
         "id": "b",
-        "text": "False",
-        "isCorrect": true,
-        "rationale": "CFTC regulations require all customer funds received by an FCM to be segregated and accounted for separately from the firm's proprietary funds, with the account clearly identified as a customer segregated funds account."
+        "text": "They may be used freely as the FCM's working capital if the customer account is profitable.",
+        "isCorrect": false,
+        "rationale": "Customer profitability does not permit misuse of segregated funds."
+      },
+      {
+        "id": "c",
+        "text": "They become the property of the exchange once deposited.",
+        "isCorrect": false,
+        "rationale": "The funds remain customer funds subject to regulatory protections."
+      },
+      {
+        "id": "d",
+        "text": "They are exempt from recordkeeping because they are held for customers.",
+        "isCorrect": false,
+        "rationale": "Customer funds require careful books, records, and segregation controls."
       }
     ],
-    "explanation": "CFTC regulations require customer funds received by an FCM to be segregated from and accounted for separately from the firm's proprietary funds. The depository account must be clearly identified and acknowledged as a customer segregated funds account.",
+    "explanation": "A core FCM rule is protection of customer funds. Futures customer funds must be handled under segregation rules and may not be treated as the FCM's own operating capital.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-072; sequence 72; source code 10_EZ_1.",
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-072; sequence 72; source code 10_EZ_1. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable true/false item with a clear displayed correct answer and supporting explanation. The rule concept is consistent with customer segregated funds requirements for FCMs. Duplicate review: Exact duplicate of s3-regulatory-pdf-043. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "72",
     "sourceQuestionNumber": 72,
     "sourceCode": "10_EZ_1",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-regulatory-pdf-073",
@@ -3235,39 +3259,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "general-regulatory",
     "subtopicId": "just-equitable-principles",
     "difficulty": "easy",
-    "questionType": "true_false",
-    "stem": "All trades on an exchange (contract market) must be competitively executed or otherwise executed in accordance with written rules of the exchange that have been approved by the CFTC.",
+    "questionType": "multiple_choice",
+    "stem": "Which situation is most likely to raise a just-and-equitable-principles concern for an NFA Member or Associate?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
+        "text": "Using misleading conduct or unfair dealing in connection with commodity interest business.",
         "isCorrect": true,
-        "rationale": "Commodity Exchange Act requirements generally require competitive execution of trades on a contract market, unless a permitted exception is executed under exchange rules approved by the CFTC."
+        "rationale": "NFA conduct standards require Members and Associates to observe high standards of commercial honor and just and equitable principles of trade."
       },
       {
         "id": "b",
-        "text": "False",
+        "text": "Providing a required risk disclosure before account opening.",
         "isCorrect": false,
-        "rationale": "This is incorrect because noncompetitive execution is permitted only for recognized exceptions and only when conducted under CFTC-approved written exchange rules."
+        "rationale": "Providing required disclosure supports compliance; it is not the misconduct being tested."
+      },
+      {
+        "id": "c",
+        "text": "Maintaining required books and records for the prescribed period.",
+        "isCorrect": false,
+        "rationale": "Required recordkeeping is a compliance obligation."
+      },
+      {
+        "id": "d",
+        "text": "Supervising associated persons under written procedures.",
+        "isCorrect": false,
+        "rationale": "Reasonable supervision is required and does not itself violate just-and-equitable-principles standards."
       }
     ],
-    "explanation": "The Commodity Exchange Act and CFTC regulations require trades to be competitively executed. Permitted exceptions, such as exchanges of futures for physicals or transfer trades, must be handled according to written exchange rules approved by the CFTC.",
+    "explanation": "NFA's just-and-equitable-principles standard is a broad conduct rule. Misleading, unfair, or commercially dishonorable conduct can violate it even if the specific fact pattern is not limited to one narrow rule.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-073; sequence 73; source code 10_EZ_53.",
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-073; sequence 73; source code 10_EZ_53. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Question, answer, and explanation are legible. True/False format is valid and exactly one answer is correct. Regulatory concept is consistent: competitive execution is required unless a permitted exception is executed under approved exchange rules. Duplicate review: Exact duplicate of s3-regulatory-pdf-143. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "73",
     "sourceQuestionNumber": 73,
     "sourceCode": "10_EZ_53",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-regulatory-pdf-074",
@@ -6042,50 +6078,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "performance-records",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A CTA, in its Disclosure Document, must disclose which performance information?",
+    "stem": "A CPO disclosure document presents past performance for a pool. Which presentation is most consistent with the general regulatory purpose of performance disclosure?",
     "choices": [
       {
         "id": "a",
-        "text": "The performance of the offered trading program.",
-        "isCorrect": false,
-        "rationale": "This is required, but it is not the only required performance information."
+        "text": "Present performance in a balanced way that includes material context such as periods covered, fees, and limitations of the data.",
+        "isCorrect": true,
+        "rationale": "Performance disclosure should not be misleading; investors need the context necessary to understand what the numbers represent."
       },
       {
         "id": "b",
-        "text": "The performance information for all other accounts directed by the CTA.",
+        "text": "Show only the most profitable month because it is the most persuasive result.",
         "isCorrect": false,
-        "rationale": "This is required, but it is not the only required performance information."
+        "rationale": "Cherry-picking favorable results is misleading."
       },
       {
         "id": "c",
-        "text": "The performance information for all other accounts directed by each of its trading principals.",
+        "text": "Omit fees and expenses so that customers can focus on gross trading skill.",
         "isCorrect": false,
-        "rationale": "This is required, but it is not the only required performance information."
+        "rationale": "Fees and expenses are material to performance presentation."
       },
       {
         "id": "d",
-        "text": "The performance of the offered trading program, performance information for all other accounts directed by the CTA, and performance information for all other accounts directed by each of its trading principals.",
-        "isCorrect": true,
-        "rationale": "A CTA Disclosure Document must disclose the performance of the offered trading program, performance information for all other accounts directed by the CTA, and performance information for all other accounts directed by each of its trading principals."
+        "text": "Use hypothetical results without identifying them as hypothetical.",
+        "isCorrect": false,
+        "rationale": "Hypothetical or simulated results require clear cautionary treatment."
       }
     ],
-    "explanation": "A CTA, in its Disclosure Document, must disclose the performance of the offered trading program; performance information for all other accounts directed by the CTA; and performance information for all other accounts directed by each of its trading principals.",
+    "explanation": "CPO and CTA performance materials must be presented in a way that is not misleading. The important exam concept is balanced, contextual performance disclosure rather than selective or unexplained performance claims.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-131; sequence 131; source code 10_IM_115.",
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-131; sequence 131; source code 10_IM_115. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "The source uses \"All of the above\" and \"A and B only\" answer choices. The app-ready version rewrites the correct option semantically to avoid referential choices while preserving the tested concept and exactly one correct answer. Duplicate review: Exact duplicate of s3-regulatory-pdf-130. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "131",
     "sourceQuestionNumber": 130,
     "sourceCode": "10_IM_115",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-regulatory-pdf-131",
@@ -6354,51 +6390,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "promotional-material",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "If your promotional material or disclosure documents are written in a non-English language, and it is intended for viewing by U.S. customers, you must:",
+    "stem": "An NFA Member wants to use an article reprint as promotional material. What is the safest compliance approach?",
     "choices": [
       {
         "id": "a",
-        "text": "Be prepared to translate the material on request by the NFA",
-        "isCorrect": false,
-        "rationale": "The rule requires maintaining English translations; merely being prepared to translate on request is not sufficient."
+        "text": "Review the reprint and related presentation so the overall communication is fair, balanced, and not misleading.",
+        "isCorrect": true,
+        "rationale": "Members remain responsible for promotional material they use, including reprints and how they are presented."
       },
       {
         "id": "b",
-        "text": "Maintain English translations of all foreign language promotional material",
-        "isCorrect": true,
-        "rationale": "CFTC Rule 1.31 requires English translations to be maintained for foreign-language promotional material, including disclosure documents and websites, distributed to or intended for viewing by customers in the United States, its territories, or possessions."
+        "text": "Use the article without review because a third party originally wrote it.",
+        "isCorrect": false,
+        "rationale": "Third-party authorship does not remove the member's responsibility for promotional use."
       },
       {
         "id": "c",
-        "text": "NFA is not concerned about foreign language translations of documents as translations can be subjective",
+        "text": "Remove all risk discussion because the article is not a formal disclosure document.",
         "isCorrect": false,
-        "rationale": "The rule does address foreign-language materials and requires English translations to be maintained."
+        "rationale": "Promotional material must not be misleading by omitting material context."
       },
       {
         "id": "d",
-        "text": "A and B",
+        "text": "State that NFA approved the article unless NFA objects after publication.",
         "isCorrect": false,
-        "rationale": "Only maintaining English translations is required; merely being prepared to translate on request is not enough."
+        "rationale": "NFA membership or silence should not be represented as approval of promotional content."
       }
     ],
-    "explanation": "CFTC Rule 1.31 requires firms to maintain English translations of foreign-language promotional material, including disclosure documents and websites, that are distributed to or intended for viewing by U.S. customers.",
+    "explanation": "NFA promotional-material standards focus on whether the member's communication is fair, balanced, and not misleading. A reprint can become promotional material when used by the member, so the member must review its content and presentation.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-137; sequence 137; source code 10_IM_93.",
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-137; sequence 137; source code 10_IM_93. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "The source question is readable and the stated answer is clear. However, choice D is an 'A and B' combination choice, which the instructions flag as undesirable unless safely rewritten. Because A is not a correct standalone requirement, the item can still function, but it is marked needs_review rather than verified. Duplicate review: Exact duplicate of s3-regulatory-pdf-120. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "bad_distractors",
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "137",
     "sourceQuestionNumber": 136,
     "sourceCode": "10_IM_93",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-regulatory-pdf-137",
@@ -10887,51 +10922,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "promotional-material",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "The CFTC requires \"books and records\" to be archived and available for inspection for:",
+    "stem": "Under current CFTC recordkeeping principles, how long must many required regulatory records generally be kept?",
     "choices": [
       {
         "id": "a",
-        "text": "Three years from the date of last use",
-        "isCorrect": false,
-        "rationale": "CFTC recordkeeping requirements generally require records to be maintained for five years, not three years from last use."
+        "text": "For at least five years, with accessibility requirements during the retention period.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 1.31 generally uses a five-year retention framework, with records required to be readily accessible according to the rule's access standards."
       },
       {
         "id": "b",
-        "text": "Five years from the date of publication or first use",
+        "text": "Only until the related customer account is closed.",
         "isCorrect": false,
-        "rationale": "The five-year retention period is measured from the date of the record, not from publication or first use."
+        "rationale": "Closing an account does not end the general regulatory retention period."
       },
       {
         "id": "c",
-        "text": "Five years from the date thereof and readily accessible during the first two years of the five-year period",
-        "isCorrect": true,
-        "rationale": "CFTC Rule 1.31 requires required books and records to be kept for five years from the date thereof and readily accessible during the first two years of the five-year period."
+        "text": "Only for the calendar month in which the record was created.",
+        "isCorrect": false,
+        "rationale": "One month is far shorter than the general retention framework."
       },
       {
         "id": "d",
-        "text": "Two years from the date thereof",
+        "text": "There is no retention requirement if the record is stored electronically.",
         "isCorrect": false,
-        "rationale": "The readily accessible period is two years, but the overall retention period is five years."
+        "rationale": "Electronic records remain subject to retention and accessibility requirements."
       }
     ],
-    "explanation": "CFTC Rule 1.31 stipulates that books and records must be kept for five years from the date thereof and be readily accessible during the first two years of the five-year period.",
+    "explanation": "The current app-safe exam point is the general five-year CFTC record-retention framework, with accessibility and production obligations under Regulation 1.31. The wording avoids relying on older storage-technology formulations.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-229; sequence 229; source code 10_DI_28.",
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-229; sequence 229; source code 10_DI_28. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "The screenshot is readable and the source answer is clear. However, CFTC Rule 1.31 recordkeeping requirements have been amended over time, including changes to storage/accessibility terminology, so the legacy wording may be outdated depending on the current Series 3 testable rule set. Needs review before app publication. Duplicate review: Exact duplicate of s3-regulatory-pdf-225. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "outdated_rule",
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "229",
     "sourceQuestionNumber": 228,
     "sourceCode": "10_DI_28",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-regulatory-pdf-229",

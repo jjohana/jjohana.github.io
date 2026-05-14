@@ -1,7 +1,7 @@
 # LLM Transcript Report
 
 Generated: 2026-05-14T07:02:57.245Z
-Updated after regulatory currentness pass: 2026-05-14
+Updated after rejected-queue rewrite pass: 2026-05-14
 
 | Metric | Count |
 | --- | --- |
@@ -22,7 +22,10 @@ Updated after regulatory currentness pass: 2026-05-14
 | Final app verified after regulatory currentness pass | 690 |
 | Final app needs review after regulatory currentness pass | 0 |
 | Final app rejected after regulatory currentness pass | 29 |
-| Duplicate rejects | 29 |
+| Final app verified after rejected-queue rewrite pass | 719 |
+| Final app needs review after rejected-queue rewrite pass | 0 |
+| Final app rejected after rejected-queue rewrite pass | 0 |
+| Duplicate rejects | 0 |
 
 ## Source Sets
 | Source | Questions |

@@ -16,12 +16,12 @@ Course subchapters are linked to QCMs only when all of the following are true:
 | Metric | Count |
 | --- | ---: |
 | Total active questions | 1113 |
-| Active verified questions | 1084 |
+| Active verified questions | 1113 |
 | Active needs-review questions | 0 |
-| Active rejected questions | 29 |
-| Imported verified questions available to the Course module | 690 |
+| Active rejected questions | 0 |
+| Imported verified questions available to the Course module | 719 |
 
 ## Notes
 
 Imported S3-Market DOCX and S3-Regulatory PDF questions are now linked as course support only when the final app safety gate leaves them verified.
-Rejected imported questions remain excluded from course support, drills, and mock exams.
+No imported QCM remains rejected after the rejected-queue rewrite pass.

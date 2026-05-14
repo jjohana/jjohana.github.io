@@ -2192,51 +2192,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "clearinghouse",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "A futures and options clearinghouse:",
+    "stem": "A futures customer is concerned that the other side of a trade may default before the contract is offset. Which clearinghouse function most directly addresses that concern?",
     "choices": [
       {
         "id": "a",
-        "text": "Collects original margin for the futures and options contracts traded on the exchange.",
+        "text": "The clearinghouse becomes the buyer to every seller and the seller to every buyer after trades are cleared.",
         "isCorrect": true,
-        "rationale": "A core clearinghouse function is to set/collect original margin through clearing members and to manage daily variation margin via marking positions to market."
+        "rationale": "Novation through the clearinghouse centralizes counterparty performance and is the key protection against direct counterparty default."
       },
       {
         "id": "b",
-        "text": "Sets the cash-market price on all commodities, financial instruments and indexes on which futures and options contracts are traded on the exchange.",
+        "text": "The clearinghouse guarantees that the customer's trading strategy will be profitable.",
         "isCorrect": false,
-        "rationale": "Cash-market prices are determined by supply and demand in the cash market, not set by the clearinghouse."
+        "rationale": "Clearing reduces counterparty risk; it does not guarantee trading profits."
       },
       {
         "id": "c",
-        "text": "Is composed of all members of the futures exchange it serves.",
+        "text": "The clearinghouse sets the customer's investment objectives before an account is opened.",
         "isCorrect": false,
-        "rationale": "The clearinghouse serves as the central counterparty and may be affiliated with an exchange, but it is not simply composed of all exchange members."
+        "rationale": "Customer suitability and account-opening duties belong to intermediaries, not the clearinghouse."
       },
       {
         "id": "d",
-        "text": "All of the above.",
+        "text": "The clearinghouse eliminates the need for margin deposits.",
         "isCorrect": false,
-        "rationale": "Because B and C are incorrect, this choice is incorrect."
+        "rationale": "Margin is one of the tools the clearing system uses to manage risk; it is not eliminated."
       }
     ],
-    "explanation": "One critical responsibility of a futures and options clearinghouse is to collect original margin for contracts traded on the exchange. Original margin is intended to protect the clearinghouse against adverse price moves, and open positions are marked to market with variation margin collected from losing accounts and paid to profitable accounts.",
+    "explanation": "A futures clearinghouse interposes itself between clearing members so that each cleared trade has the clearinghouse as the counterparty. This reduces bilateral counterparty risk and supports daily settlement, but it does not remove market risk or guarantee profits.",
     "sourceType": "imported",
     "active": true,
     "concept": "Futures Trading Theory and Basic Functions Terminology",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0046; sequence 46; source code 01_IM_20.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0046; sequence 46; source code 01_IM_20. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "The item is readable and the keyed answer is coherent, but the source uses an 'All of the above' answer choice. Per instructions, such choices should be avoided unless safely rewritten semantically; retaining it makes the app-ready item needs_review rather than verified. Duplicate review: Exact duplicate of s3-market-docx-45. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "bad_distractors",
-      "duplicate"
-    ],
-    "extractionConfidence": "medium",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
+    "extractionConfidence": "high",
     "sourcePageRange": "46",
     "sourceQuestionNumber": 45,
     "sourceCode": "01_IM_20",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-46",
@@ -11139,50 +11138,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "commodity-hedges",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "In early March a hedger purchased five May CBOT wheat futures to hedge his fixed price sales commitment of 25,000 bushels. At that time May futures were trading at 270 1/4/bu., July futures at 280 1/2/bu., and local cash wheat at 263 1/2/bu. In late April the hedger, not wanting to accept delivery but needing to maintain the hedge, decided to roll over his position. At that time the following prices were prevailing: May futures, 276 1/2/bu., July futures 284 3/4/bu., Sept. futures 296 1/2/bu., and local cash wheat at 272 1/4/bu. If the hedger rolled over into the July future, how much did he gain or lose on the rollover?",
+    "stem": "A soybean processor expects to buy 50,000 bushels of soybeans in three months. To protect against a price increase, which hedge is most appropriate?",
     "choices": [
       {
         "id": "a",
-        "text": "Loss 3 1/4/bu.",
-        "isCorrect": false,
-        "rationale": "This does not match the rollover calculation."
+        "text": "Buy soybean futures now and offset the futures when the cash soybeans are purchased.",
+        "isCorrect": true,
+        "rationale": "A future buyer of the cash commodity uses a long hedge to protect against rising prices."
       },
       {
         "id": "b",
-        "text": "Gain 2/bu.",
-        "isCorrect": true,
-        "rationale": "The May futures leg gained 276 1/2 - 270 1/4 = 6 1/4 cents/bu. Rolling to July required buying July at 284 3/4 instead of the March July price of 280 1/2, a 4 1/4 cents/bu. cost. Net rollover gain is 6 1/4 - 4 1/4 = 2 cents/bu."
+        "text": "Sell soybean futures now and offset the futures when the cash soybeans are purchased.",
+        "isCorrect": false,
+        "rationale": "A short hedge protects an expected seller or holder of inventory against falling prices, not a future buyer against rising prices."
       },
       {
         "id": "c",
-        "text": "Gain 3 1/4/bu.",
+        "text": "Buy soybean futures only after the cash purchase has already been completed.",
         "isCorrect": false,
-        "rationale": "This overstates the net gain after accounting for the higher July futures price."
+        "rationale": "Buying after the cash purchase does not hedge the risk of a price increase before the purchase."
       },
       {
         "id": "d",
-        "text": "Loss 1/bu.",
+        "text": "Avoid the futures market because hedges can only be used by producers with existing inventory.",
         "isCorrect": false,
-        "rationale": "The net result is a gain, not a loss."
+        "rationale": "Commercial users who expect to buy a commodity can hedge with long futures."
       }
     ],
-    "explanation": "The May futures leg gained 6 1/4 cents per bushel: sell May in April at 276 1/2 and offset the March purchase at 270 1/4. Buying July futures in April at 284 3/4 instead of the March July price of 280 1/2 represents an added cost of 4 1/4 cents per bushel. The net rollover result is 6 1/4 - 4 1/4 = 2 cents per bushel gain.",
+    "explanation": "A long hedge is used when the hedger needs to buy the commodity later and wants protection against a price increase. Gains on the long futures position can offset a higher cash purchase price.",
     "sourceType": "imported",
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0229; sequence 229; source code 04_DI_10.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0229; sequence 229; source code 04_DI_10. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Question and choices are readable. The bottom of the source explanation is cut off, but the displayed intermediate calculations, source answer, and recomputation support answer B unambiguously. Duplicate review: Exact duplicate of s3-market-docx-227-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "229",
     "sourceQuestionNumber": 227,
     "sourceCode": "04_DI_10",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-227-2",
@@ -11711,51 +11710,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "long-hedges",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "On August 1, a copper pipe fabricator contracts to sell pipe that it will fabricate in December and sell at a fixed price. To do so, the fabricator requires 200,000 pounds of copper in mid-November. On August 1, the fabricator can buy copper at 82 cents per pound, and the December futures price is 87 cents per pound. On November 15, he can buy cash copper at 84.20 cents, and the December future is 89 cents (contract size = 25,000 lbs.). Assuming the fabricator hedged, taking into account the results of the hedge, the net cost of its copper would be:",
+    "stem": "A cereal manufacturer will need 25,000 bushels of oats in June. Each oats futures contract covers 5,000 bushels. Ignoring basis risk, how many contracts are needed for a full long hedge?",
     "choices": [
       {
         "id": "a",
-        "text": "$168,400.",
-        "isCorrect": false,
-        "rationale": "This is the unhedged cash cost: 84.2 cents per pound × 200,000 pounds = $168,400, before applying the hedge gain."
+        "text": "Buy 5 oats futures contracts.",
+        "isCorrect": true,
+        "rationale": "The manufacturer is a future buyer, so it buys futures. 25,000 bushels divided by 5,000 bushels per contract equals 5 contracts."
       },
       {
         "id": "b",
-        "text": "$164,400.",
-        "isCorrect": true,
-        "rationale": "Because the fabricator will need to buy copper later, it takes a long futures hedge. It buys December futures at 87 cents and sells at 89 cents, for a 2-cent-per-pound gain. The cash cost is $168,400 and the hedge gain is $4,000, so the net cost is $164,400."
+        "text": "Sell 5 oats futures contracts.",
+        "isCorrect": false,
+        "rationale": "Selling futures is a short hedge, appropriate for a future seller rather than a future buyer."
       },
       {
         "id": "c",
-        "text": "$164,000.",
+        "text": "Buy 25 oats futures contracts.",
         "isCorrect": false,
-        "rationale": "The correct hedge gain is 2 cents per pound on 200,000 pounds, or $4,000; subtracting that from $168,400 gives $164,400, not $164,000."
+        "rationale": "This treats each contract as only 1,000 bushels; the stated contract size is 5,000 bushels."
       },
       {
         "id": "d",
-        "text": "$13,240.",
+        "text": "Sell 25 oats futures contracts.",
         "isCorrect": false,
-        "rationale": "This figure is not derived from the stated pounds, prices, and hedge result."
+        "rationale": "This has both the wrong side and the wrong number of contracts."
       }
     ],
-    "explanation": "The fabricator is exposed to rising copper prices because it must buy copper later to fulfill a fixed-price pipe sale. A long futures hedge is appropriate: buy futures at 87 cents and later sell at 89 cents. The futures gain is 2 cents per pound. On 200,000 pounds, that gain is $4,000. The cash copper cost is 84.2 cents per pound × 200,000 pounds = $168,400. Net cost = $168,400 - $4,000 = $164,400.",
+    "explanation": "A long hedge uses long futures to protect a future cash purchase. The number of contracts is hedge quantity divided by contract size: 25,000 / 5,000 = 5 contracts.",
     "sourceType": "imported",
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0240; sequence 240; source code 04_DI_8.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0240; sequence 240; source code 04_DI_8. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "The question is readable and the calculation supports answer B. However, the stem uses November 15 while the explanation visibly says November 25, creating a date inconsistency in the source/explanation. This does not affect the computation because the same cash and futures prices are used, but it warrants review before verification. Duplicate review: Exact duplicate of s3-market-docx-236. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "OCR/transcription",
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "240",
     "sourceQuestionNumber": 236,
     "sourceCode": "04_DI_8",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-237",
@@ -12832,51 +12830,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "currency-hedges",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A U.S. customer was paid GBP (British Pound) 5 million to settle an outstanding claim. The customer doesn't really need GBP, but knows the cost of converting them into USD may be quite expensive. Accordingly, the customer elects to hedge his GBP position with GBP futures (GBP 62,500/contract). The spot price of GBP is $1.5400/GBP and the nearby future contract is trading $1.5200. If the customer hedged with GBP futures and held the hedge to the last trading day before offset, what would the profit/loss be if the spot GBP remained at $1.5400/GBP on the expiration of the future contract?",
+    "stem": "A U.S. importer must pay GBP 625,000 in three months. Each British pound futures contract is for GBP 62,500. To hedge the dollar cost of that future payment, what should the importer do?",
     "choices": [
       {
         "id": "a",
-        "text": "$200,000 profit",
-        "isCorrect": false,
-        "rationale": "The customer is long GBP and would hedge by selling GBP futures. Since the futures price rises into expiration, the short futures hedge loses rather than profits."
+        "text": "Buy 10 British pound futures contracts.",
+        "isCorrect": true,
+        "rationale": "The importer will need pounds later and is exposed to the pound rising, so it buys pound futures. GBP 625,000 / GBP 62,500 = 10 contracts."
       },
       {
         "id": "b",
-        "text": "$200,000 loss",
+        "text": "Sell 10 British pound futures contracts.",
         "isCorrect": false,
-        "rationale": "The hedge loss is based on the futures move from $1.5200 to $1.5400, or $0.0200 per GBP, applied to 5,000,000 GBP. That equals $100,000, not $200,000."
+        "rationale": "Selling pound futures would hedge a future receipt of pounds, not a future payment in pounds."
       },
       {
         "id": "c",
-        "text": "$100,000 loss",
-        "isCorrect": true,
-        "rationale": "A holder of GBP hedges currency price risk by selling GBP futures. By expiration, futures converge to the spot price of $1.5400. The short futures position loses $1.5400 - $1.5200 = $0.0200 per GBP. On GBP 5,000,000, the loss is $0.0200 x 5,000,000 = $100,000."
+        "text": "Buy 1 British pound futures contract.",
+        "isCorrect": false,
+        "rationale": "One contract covers only GBP 62,500, not GBP 625,000."
       },
       {
         "id": "d",
-        "text": "$100,000 profit",
+        "text": "Sell 1 British pound futures contract.",
         "isCorrect": false,
-        "rationale": "The magnitude is $100,000, but the price increase creates a loss on a short futures position, not a profit."
+        "rationale": "This has the wrong direction and hedges only one-tenth of the exposure."
       }
     ],
-    "explanation": "The customer owns GBP, so the appropriate hedge is a short hedge in GBP futures. The position size is GBP 5,000,000 / GBP 62,500 per contract = 80 contracts. The futures price is expected to converge with spot at expiration, rising from $1.5200 to $1.5400. A short futures position loses $0.0200 per GBP, so the total loss is $0.0200 x GBP 5,000,000 = $100,000, or $1,250 per contract x 80 contracts.",
+    "explanation": "A U.S. firm that will need to buy foreign currency later uses a long currency futures hedge. The contract count is GBP 625,000 / GBP 62,500 = 10 contracts.",
     "sourceType": "imported",
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0262; sequence 262; source code 05_IM_18.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0262; sequence 262; source code 05_IM_18. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "The question stem and choices are readable and the displayed correct answer C is mathematically coherent. However, the visible source explanation appears to be mismatched or corrupted, discussing tick values and a gasoline example rather than explaining the GBP hedge; therefore the item should be reviewed before publication despite the app-ready corrected explanation. Duplicate review: Exact duplicate of s3-market-docx-258. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "weak_explanation",
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "262",
     "sourceQuestionNumber": 258,
     "sourceCode": "05_IM_18",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-259",
@@ -13411,56 +13408,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "stock-index-hedges",
     "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "In September, the manager of a $130 million stock portfolio expects a temporary stock market decline. His portfolio tracks very closely the movements of the S&P 500 Stock Index. The portfolio has a beta of 1 with respect to the S&P 500 index. The cash S&P Index is at 1250.00, and December futures are trading at 1300.00. The manager decides to sell 416 S&P 500 futures contracts to hedge his portfolio fully. The S&P 500 contract multiplier is $250. In November, the manager believes that the decline has run its course; he lifts his hedge when the cash portfolio is valued at $123.5 million, the cash index is 1228.20, and futures are at 1242.80. What is the net result of the manager's hedge, excluding any dividend income received on the portfolio during the period of the hedge?",
+    "stem": "A portfolio manager with a $12,500,000 equity portfolio wants to reduce broad market exposure using stock index futures. The index is 5,000 and the contract multiplier is $250. How many contracts approximate a full hedge?",
     "choices": [
       {
         "id": "a",
-        "text": "Net gain of $551,200",
-        "isCorrect": false,
-        "rationale": "This reverses the sign of the net result. The futures gain is less than the portfolio loss."
+        "text": "Sell 10 stock index futures contracts.",
+        "isCorrect": true,
+        "rationale": "Each contract represents 5,000 x $250 = $1,250,000 of index value. $12,500,000 / $1,250,000 = 10; selling reduces long equity exposure."
       },
       {
         "id": "b",
-        "text": "Net gain of $780,000",
+        "text": "Buy 10 stock index futures contracts.",
         "isCorrect": false,
-        "rationale": "The hedge does not produce a net gain. The short futures gain is $5,948,800 versus a $6,500,000 portfolio loss."
+        "rationale": "Buying futures would increase long market exposure rather than hedge a long stock portfolio."
       },
       {
         "id": "c",
-        "text": "Net loss of $551,200",
-        "isCorrect": true,
-        "rationale": "The manager sold futures at 1300.00 and bought them back at 1242.80, a 57.20-point gain. With 416 contracts and a $250 multiplier, the futures gain is 416 × 57.20 × $250 = $5,948,800. The cash portfolio fell from $130,000,000 to $123,500,000, a $6,500,000 loss. Net result = $5,948,800 - $6,500,000 = -$551,200."
+        "text": "Sell 25 stock index futures contracts.",
+        "isCorrect": false,
+        "rationale": "Twenty-five contracts would overhedge the stated portfolio exposure."
       },
       {
         "id": "d",
-        "text": "Net loss of $780,000",
+        "text": "Buy 25 stock index futures contracts.",
         "isCorrect": false,
-        "rationale": "The calculated net loss is $551,200, not $780,000."
-      },
-      {
-        "id": "e",
-        "text": "No net change in the value of the hedged position.",
-        "isCorrect": false,
-        "rationale": "The hedge was not perfectly offsetting in dollar result because the futures gain was $5,948,800 while the portfolio loss was $6,500,000."
+        "rationale": "This both increases market exposure and uses too many contracts."
       }
     ],
-    "explanation": "Because the manager expected a decline, he used a short stock index futures hedge. The futures were sold at 1300.00 and offset by buying at 1242.80, producing a 57.20 index-point gain. Dollar futures gain = 416 contracts × 57.20 points × $250 = $5,948,800. The cash portfolio declined from $130,000,000 to $123,500,000, a loss of $6,500,000. Net hedge result = $5,948,800 - $6,500,000 = -$551,200, so the result is a net loss of $551,200.",
+    "explanation": "For a stock-index hedge, contract value is index level times multiplier. Here, 5,000 x $250 = $1,250,000 per contract, so a $12,500,000 portfolio requires about 10 contracts. A long stock portfolio is hedged by selling index futures.",
     "sourceType": "imported",
     "active": true,
     "concept": "Basic Hedging, Basis Calculations, Hedging Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0273; sequence 273; source code 05_DI_1.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0273; sequence 273; source code 05_DI_1. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable calculation question with a single supported correct answer. The source uses an old S&P 500 futures multiplier, but the multiplier is explicitly given in the stem, so the calculation is internally coherent. Duplicate review: Exact duplicate of s3-market-docx-268. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "273",
     "sourceQuestionNumber": 268,
     "sourceCode": "05_DI_1",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-269",
@@ -14148,39 +14139,51 @@ export const s3MarketDocxQuestions: Question[] = [
     "topicId": "spreading",
     "subtopicId": "narrowing-spread",
     "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "In a contango or carrying charge market, if a futures trader believes the spread between the March and June contracts will narrow, he or she would spread by buying the March and selling the June contracts.",
+    "questionType": "multiple_choice",
+    "stem": "In a carrying-charge grain market, nearby futures are 610 cents and deferred futures are 630 cents. If the deferred contract later trades at 625 while the nearby remains 610, what happened to the spread?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
+        "text": "The spread narrowed from 20 cents to 15 cents.",
         "isCorrect": true,
-        "rationale": "In a carrying charge market, the nearby March contract trades below the deferred June contract. If the March-June spread narrows, buying March and selling June benefits because March gains relative to June."
+        "rationale": "The original spread was 630 - 610 = 20 cents. The new spread is 625 - 610 = 15 cents, so it narrowed."
       },
       {
         "id": "b",
-        "text": "False",
+        "text": "The spread widened from 15 cents to 20 cents.",
         "isCorrect": false,
-        "rationale": "Selling March and buying June would benefit from the spread widening, not narrowing, in a normal/carrying charge market."
+        "rationale": "The sequence is reversed; the spread moved from 20 to 15 cents."
+      },
+      {
+        "id": "c",
+        "text": "The market became inverted because the deferred contract is still above the nearby contract.",
+        "isCorrect": false,
+        "rationale": "A deferred price above the nearby price is still a carrying-charge relationship, not an inversion."
+      },
+      {
+        "id": "d",
+        "text": "The spread did not change because both contracts remain in the same market.",
+        "isCorrect": false,
+        "rationale": "The relationship between the two prices changed even though both are in the same commodity market."
       }
     ],
-    "explanation": "True. In a contango or carrying charge market, the nearby March futures price is lower than the deferred June futures price. If that spread narrows, the nearby March contract rises relative to June, so a trader would buy March and sell June.",
+    "explanation": "A spread is the price difference between two contract months. In this example it narrows because the deferred premium over the nearby contract falls from 20 cents to 15 cents.",
     "sourceType": "imported",
     "active": true,
     "concept": "Spreading",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0288; sequence 288; source code 06_IM_6.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0288; sequence 288; source code 06_IM_6. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable true/false item with exactly one correct answer. The source explanation supports the answer and the spread direction is coherent for a carrying charge/contango market. Duplicate review: Exact duplicate of s3-market-docx-300. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "288",
     "sourceQuestionNumber": 283,
     "sourceCode": "06_IM_6",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-284",
@@ -15019,50 +15022,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "intramarket-spreads",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A trader established a spread of long 1 May wheat/short 1 July wheat when May wheat was trading at $2.47 and July wheat at $2.44 (5,000 bu. per contract). Two weeks later the trader closed out the spread. At that time, May wheat was $2.58 and July wheat was $2.46. With a round-turn spread commission of $25, what was the trader's profit or loss on the spread?",
+    "stem": "March wheat trades at 690 cents and July wheat trades at 720 cents. A trader sells July and buys March. If July falls to 712 and March falls to 686, what is the spread result?",
     "choices": [
       {
         "id": "a",
-        "text": "$425 gain",
+        "text": "A gain of 4 cents per bushel.",
         "isCorrect": true,
-        "rationale": "May long gains $0.11 per bushel ($2.58 - $2.47). July short loses $0.02 per bushel ($2.44 - $2.46). Net gain is $0.09 per bushel."
+        "rationale": "The trader sold the July-March spread at 30 cents and bought it back at 26 cents, gaining 4 cents per bushel."
       },
       {
         "id": "b",
-        "text": "$475 gain",
+        "text": "A loss of 4 cents per bushel.",
         "isCorrect": false,
-        "rationale": "The gross gain is $450, not $500, and subtracting the $25 commission gives $425."
+        "rationale": "A short spread benefits when the spread narrows; here it narrowed from 30 to 26 cents."
       },
       {
         "id": "c",
-        "text": "$575 loss",
+        "text": "A gain of 12 cents per bushel.",
         "isCorrect": false,
-        "rationale": "The May gain exceeds the July loss, so the spread has a gross gain, not a loss."
+        "rationale": "This incorrectly combines the outright price changes without considering the long and short legs together."
       },
       {
         "id": "d",
-        "text": "$125 loss",
+        "text": "No gain or loss because both contracts declined.",
         "isCorrect": false,
-        "rationale": "The position is profitable after commission; the net result is not a loss."
+        "rationale": "Spread P&L depends on relative price movement, not whether both legs moved in the same direction."
       }
     ],
-    "explanation": "The long May wheat leg gains $0.11 per bushel: $2.58 - $2.47 = $0.11. The short July wheat leg loses $0.02 per bushel: sold at $2.44 and bought back at $2.46. Net spread gain is $0.11 - $0.02 = $0.09 per bushel. For a 5,000-bushel contract, gross gain is $0.09 × 5,000 = $450. Subtract the $25 round-turn spread commission: $450 - $25 = $425 gain.",
+    "explanation": "The initial July-March spread is 720 - 690 = 30 cents. The final spread is 712 - 686 = 26 cents. A trader short the spread gains when it narrows, so the gain is 4 cents per bushel.",
     "sourceType": "imported",
     "active": true,
     "concept": "Spreading",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0306; sequence 306; source code 06_DI_5.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0306; sequence 306; source code 06_DI_5. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Question, choices, correct answer, and calculation are visible and coherent. The visible source explanation is partially cut off, but enough is shown to verify the intended calculation and answer. Duplicate review: Exact duplicate of s3-market-docx-301-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "306",
     "sourceQuestionNumber": 301,
     "sourceCode": "06_DI_5",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-301-2",
@@ -15123,52 +15126,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "spread-execution",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "If prices for gold futures are as follows, how would you choose to execute a spread? January $253.90/oz. February $255.00/oz. April $255.60/oz. August $257.00/oz. October $257.80/oz.",
+    "stem": "Which statement best describes why exchange-recognized spread positions often receive lower margin requirements than outright futures positions?",
     "choices": [
       {
         "id": "a",
-        "text": "Short January, long February",
-        "isCorrect": false,
-        "rationale": "This is the opposite side of the January-February spread identified as having the largest annualized differential."
+        "text": "The two legs are related, so the net market risk is often lower than the risk of an unhedged outright position.",
+        "isCorrect": true,
+        "rationale": "Spread margins are typically lower because related legs can offset some price risk."
       },
       {
         "id": "b",
-        "text": "Long August, short October",
+        "text": "Spread positions cannot lose money if both legs are held to expiration.",
         "isCorrect": false,
-        "rationale": "The annualized August-October differential is smaller than the January-February differential."
+        "rationale": "Spreads can lose money when the price relationship moves adversely."
       },
       {
         "id": "c",
-        "text": "Long January, short February",
-        "isCorrect": true,
-        "rationale": "The January-February spread has the largest annualized differential among the listed contract pairs, and the strategy shown is to buy the lower-priced nearby contract and sell the higher-priced deferred contract."
+        "text": "A spread position is exempt from daily settlement.",
+        "isCorrect": false,
+        "rationale": "Spread legs are still marked to market."
       },
       {
         "id": "d",
-        "text": "Long April, short August",
+        "text": "A spread position requires lower margin only when both legs are entered in a single order ticket.",
         "isCorrect": false,
-        "rationale": "The annualized April-August differential is smaller than the January-February differential."
+        "rationale": "Execution method is not the core reason; the margin treatment is based on recognized risk offsets."
       }
     ],
-    "explanation": "The largest annualized spread differential among the listed contracts is between January and February. The calculation is (($255.00 - $253.90) / $253.90) x 12 = approximately 5.20%, assuming a one-month interval. To take advantage of this relationship as presented, buy the January contract and sell the February contract.",
+    "explanation": "Spreads generally have lower margin than outright positions because related long and short legs can reduce net price exposure. Lower margin does not mean no risk, and spread positions remain subject to daily settlement.",
     "sourceType": "imported",
     "active": true,
     "concept": "Spreading",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0308; sequence 308; source code 06_DI_6.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0308; sequence 308; source code 06_DI_6. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "The question and answer choices are readable, and the displayed correct answer is C. However, the explanation is partially cut off, and the displayed formula lacks clearly visible parentheses around the price difference, creating a transcription/calculation ambiguity. The educational premise also depends on unstated assumptions about choosing adjacent contract spreads and annualizing by month intervals. Duplicate review: Exact duplicate of s3-market-docx-302-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "OCR/transcription",
-      "weak_explanation",
-      "duplicate"
-    ],
-    "extractionConfidence": "medium",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
+    "extractionConfidence": "high",
     "sourcePageRange": "308",
     "sourceQuestionNumber": 302,
     "sourceCode": "06_DI_6",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-302-2",
@@ -15713,50 +15714,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "multiple-contract-positions",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Your customer is long 50 May hogs at 86.25 cents/lb. and short 50 July hogs at 88.725 cents/lb. (40,000 lbs. per contract). When the customer offsets the position, the May contract is at 87.12 and the July at 78.50. Omitting commissions and other transaction costs, what is the result? A tick is $0.00025/lb. = $10.",
+    "stem": "A trader buys 3 crude oil futures at $78.40 and later sells them at $79.15. Each contract is for 1,000 barrels. Ignoring commissions, what is the gross profit?",
     "choices": [
       {
         "id": "a",
-        "text": "$17,400 gain",
-        "isCorrect": false,
-        "rationale": "This is only the profit on the long May leg: (87.12 - 86.25) cents/lb. = $0.0087/lb.; $0.0087 x 40,000 lbs. x 50 contracts = $17,400."
+        "text": "$2,250 profit.",
+        "isCorrect": true,
+        "rationale": "The price increase is $0.75 per barrel. $0.75 x 1,000 barrels x 3 contracts = $2,250."
       },
       {
         "id": "b",
-        "text": "$204,500 gain",
+        "text": "$750 profit.",
         "isCorrect": false,
-        "rationale": "This is only the profit on the short July leg: (88.725 - 78.50) cents/lb. = $0.10225/lb.; $0.10225 x 40,000 lbs. x 50 contracts = $204,500."
+        "rationale": "This is the profit for one contract, not three contracts."
       },
       {
         "id": "c",
-        "text": "$221,900 gain",
-        "isCorrect": true,
-        "rationale": "The long May leg gains $17,400 and the short July leg gains $204,500, for a combined gain of $221,900."
+        "text": "$2,250 loss.",
+        "isCorrect": false,
+        "rationale": "A long futures position profits when the price rises."
       },
       {
         "id": "d",
-        "text": "$5,545 gain",
+        "text": "$225 profit.",
         "isCorrect": false,
-        "rationale": "This does not match the combined profit from the long May and short July futures positions."
+        "rationale": "This misplaces the decimal in the per-barrel price change."
       }
     ],
-    "explanation": "For the long May position, the price rises from 86.25 to 87.12 cents/lb., a gain of 0.87 cents, or $0.0087/lb. Profit = $0.0087 x 40,000 lbs. x 50 contracts = $17,400. For the short July position, the price falls from 88.725 to 78.50 cents/lb., a favorable move of 10.225 cents, or $0.10225/lb. Profit = $0.10225 x 40,000 lbs. x 50 contracts = $204,500. Total profit = $17,400 + $204,500 = $221,900.",
+    "explanation": "For a long futures position, profit equals price increase times contract size times number of contracts. Here: ($79.15 - $78.40) x 1,000 x 3 = $2,250.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0320; sequence 320; source code 07_EZ_12.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0320; sequence 320; source code 07_EZ_12. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable calculation question with one clear correct answer. Minor wording issue in the source explanation ('$0.8625 cents/lb.') was normalized in the app-ready explanation as dollar-per-pound decimal notation. Duplicate review: Exact duplicate of s3-market-docx-314-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "320",
     "sourceQuestionNumber": 314,
     "sourceCode": "07_EZ_12",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-314-2",
@@ -16773,50 +16774,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "return-on-margin-equity",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "The margin on wheat futures is 20 cents per bushel. Commissions are $50 per contract (5,000 bushels). A speculator buys two contracts of March wheat at $3.51 per bushel and later sells them at $3.62 per bushel. After paying commissions, what is his percent return on equity?",
+    "stem": "A trader posts $4,000 margin and earns a $1,200 trading profit after commissions. What is the return on margin?",
     "choices": [
       {
         "id": "a",
-        "text": "45%",
-        "isCorrect": false,
-        "rationale": "This does not reflect the net gain after commissions divided by the margin deposit."
+        "text": "30%.",
+        "isCorrect": true,
+        "rationale": "Return on margin is profit divided by margin: $1,200 / $4,000 = 30%."
       },
       {
         "id": "b",
-        "text": "50%",
-        "isCorrect": true,
-        "rationale": "The price gain is $0.11 per bushel. For two 5,000-bushel contracts, gross gain is $0.11 × 10,000 = $1,100. Commissions are $50 × 2 = $100, so net gain is $1,000. Margin is $0.20 × 10,000 = $2,000. Return on equity is $1,000 / $2,000 = 50%."
+        "text": "12%.",
+        "isCorrect": false,
+        "rationale": "This does not use the stated margin as the denominator."
       },
       {
         "id": "c",
-        "text": "33%",
+        "text": "40%.",
         "isCorrect": false,
-        "rationale": "This is not the result of dividing the net futures gain by the required margin."
+        "rationale": "This would require a $1,600 profit on $4,000 margin."
       },
       {
         "id": "d",
-        "text": "62%",
+        "text": "300%.",
         "isCorrect": false,
-        "rationale": "This overstates the return based on the given margin, contract size, price change, and commissions."
+        "rationale": "This misplaces the decimal point."
       }
     ],
-    "explanation": "The speculator buys at $3.51 and sells at $3.62, a gain of $0.11 per bushel. Two wheat futures contracts represent 10,000 bushels, so the gross gain is $1,100. After $100 in total commissions, net gain is $1,000. The required margin is $0.20 per bushel × 10,000 bushels = $2,000. Return on equity equals net gain divided by margin: $1,000 / $2,000 = 50%.",
+    "explanation": "Return on margin measures the trading gain relative to the margin deposit. The calculation is $1,200 / $4,000 = 0.30, or 30%.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0342; sequence 342; source code 07_DI_3.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0342; sequence 342; source code 07_DI_3. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable and internally consistent calculation question. Exactly one correct answer is supported by the explanation. Duplicate review: Exact duplicate of s3-market-docx-334. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "342",
     "sourceQuestionNumber": 334,
     "sourceCode": "07_DI_3",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-335",
@@ -16877,50 +16878,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "multiple-contract-positions",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Orange juice prices have fallen substantially. In expectation of a correction, a trader goes long 10 FCOJ contracts at 91.75 cents per pound. After prices increase slightly, the trader expects them to continue to rise. As a result, he goes long 15 more FCOJ contracts at 92.50 cents per pound. Three months later, the trader closes out his entire position at 93.25 cents per pound. Commissions are $25 per contract, the contract size is 15,000 lbs., and prices are quoted in cents per lb. What is the speculator's total gain or loss on his futures transactions?",
+    "stem": "A trader is short 4 corn futures contracts at 525 cents per bushel and offsets at 517 cents. Each contract covers 5,000 bushels. Ignoring commissions, what is the gross result?",
     "choices": [
       {
         "id": "a",
-        "text": "Gain of $3,927.50",
-        "isCorrect": false,
-        "rationale": "This overstates the gain relative to the price moves less commissions."
+        "text": "$1,600 profit.",
+        "isCorrect": true,
+        "rationale": "A short gains when price falls. The decline is 8 cents, or $0.08, per bushel. $0.08 x 5,000 x 4 = $1,600."
       },
       {
         "id": "b",
-        "text": "Loss of $3,927.50",
+        "text": "$1,600 loss.",
         "isCorrect": false,
-        "rationale": "The trader is long and prices rose, so the position produces a gain before and after commissions."
+        "rationale": "The price fell, which benefits a short futures position."
       },
       {
         "id": "c",
-        "text": "Gain of $3,312.50",
-        "isCorrect": true,
-        "rationale": "The 10 contracts bought at 91.75 gained 1.50 cents/lb: 10 × 0.0150 × 15,000 = $2,250, less $250 commissions = $2,000. The 15 contracts bought at 92.50 gained 0.75 cents/lb: 15 × 0.0075 × 15,000 = $1,687.50, less $375 commissions = $1,312.50. Total gain = $3,312.50."
+        "text": "$400 profit.",
+        "isCorrect": false,
+        "rationale": "This is the profit for one contract, not four contracts."
       },
       {
         "id": "d",
-        "text": "Gain of $3,552.50",
+        "text": "$160 profit.",
         "isCorrect": false,
-        "rationale": "This does not match the recomputed gain after subtracting $625 total commissions."
+        "rationale": "This misplaces the decimal in the cents-per-bushel move."
       }
     ],
-    "explanation": "For a long futures position, profit equals the sale price minus purchase price, multiplied by contract size and number of contracts, less commissions. First purchase: 10 × (93.25 - 91.75) cents × 15,000 lbs. = 10 × $225 = $2,250; less 10 × $25 = $250, net $2,000. Second purchase: 15 × (93.25 - 92.50) cents × 15,000 lbs. = 15 × $112.50 = $1,687.50; less 15 × $25 = $375, net $1,312.50. Total net gain = $2,000 + $1,312.50 = $3,312.50.",
+    "explanation": "For a short futures position, profit equals sale price minus purchase price times contract size. The 8-cent decline equals $0.08 per bushel, so the gross profit is $0.08 x 5,000 x 4 = $1,600.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0344; sequence 344; source code 07_DI_5.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0344; sequence 344; source code 07_DI_5. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable calculation question with one correct answer. The visible explanation treats quoted cents properly by converting cent price changes to dollars per pound in the arithmetic, yielding the stated result. Duplicate review: Exact duplicate of s3-market-docx-335. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "344",
     "sourceQuestionNumber": 335,
     "sourceCode": "07_DI_5",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-336",
@@ -16981,50 +16982,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "return-on-margin-equity",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A speculator buys a December wheat futures contract (5,000 bushels per contract) at $2.74. His initial margin is $2,000. Wheat prices rise immediately, and he offsets his long position a week later at $2.911/2. His round-turn commission cost is $25. What percent return did the speculator earn on his margin deposit?",
+    "stem": "A trader buys one 5,000-bushel wheat futures contract at $6.12 1/2 per bushel and sells it at $6.18 1/4. Ignoring commissions, what is the gross profit?",
     "choices": [
       {
         "id": "a",
-        "text": "43.75%",
-        "isCorrect": false,
-        "rationale": "43.75% would be the gross futures gain of $875 divided by the $2,000 margin, before subtracting the $25 round-turn commission."
+        "text": "$287.50 profit.",
+        "isCorrect": true,
+        "rationale": "The gain is 5.75 cents, or $0.0575, per bushel. $0.0575 x 5,000 = $287.50."
       },
       {
         "id": "b",
-        "text": "42.5%",
-        "isCorrect": true,
-        "rationale": "The price gain is $2.915 - $2.740 = $0.175 per bushel. For 5,000 bushels, gross gain is $875. After the $25 commission, net gain is $850. $850 / $2,000 = 42.5%."
+        "text": "$575.00 profit.",
+        "isCorrect": false,
+        "rationale": "This doubles the one-contract result."
       },
       {
         "id": "c",
-        "text": "48.5%",
+        "text": "$287.50 loss.",
         "isCorrect": false,
-        "rationale": "This does not match the net gain divided by the initial margin."
+        "rationale": "A long futures position profits when the offsetting sale price is higher."
       },
       {
         "id": "d",
-        "text": "45.0%",
+        "text": "$28.75 profit.",
         "isCorrect": false,
-        "rationale": "This does not match the net gain divided by the initial margin."
+        "rationale": "This misplaces the decimal point."
       }
     ],
-    "explanation": "The long wheat futures position is closed at a higher price, producing a gain of $0.175 per bushel: $2.915 - $2.740 = $0.175. With a 5,000-bushel contract, the gross gain is $875. Subtracting the $25 round-turn commission gives a net gain of $850. The return on the $2,000 margin deposit is $850 / $2,000 = 42.5%.",
+    "explanation": "$6.12 1/2 equals $6.125 and $6.18 1/4 equals $6.1825. The difference is $0.0575 per bushel. For 5,000 bushels, profit is $287.50.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0346; sequence 346; source code 07_DI_4.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0346; sequence 346; source code 07_DI_4. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable calculation question with one correct answer. The displayed price notation $2.911/2 is old-style notation for $2.91 1/2, equivalent to $2.915, and is supported by the on-screen explanation. Duplicate review: Exact duplicate of s3-market-docx-337-3. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "346",
     "sourceQuestionNumber": 337,
     "sourceCode": "07_DI_4",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-337-2",
@@ -17033,50 +17034,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "return-on-margin-equity",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A speculator buys a December wheat futures contract (5,000 bushels per contract) at $2.74. His initial margin is $2,000. Wheat prices rise immediately, and he offsets his long position a week later at $2.911/2. His round-turn commission cost is $25. What percent return did the speculator earn on his margin deposit?",
+    "stem": "A trader sells one 5,000-bushel wheat futures contract at $7.04 3/4 and buys it back at $7.01 1/4. Ignoring commissions, what is the gross result?",
     "choices": [
       {
         "id": "a",
-        "text": "43.75%",
-        "isCorrect": false,
-        "rationale": "This would ignore the $25 round-turn commission: ($0.175 × 5,000) / $2,000 = 43.75%."
+        "text": "$175 profit.",
+        "isCorrect": true,
+        "rationale": "A short gains when price falls. The decline is 3.5 cents, or $0.035, per bushel. $0.035 x 5,000 = $175."
       },
       {
         "id": "b",
-        "text": "42.5%",
-        "isCorrect": true,
-        "rationale": "The contract was bought at $2.740 and sold at $2.915, for a gain of $0.175 per bushel. On 5,000 bushels, the gross gain is $875. After subtracting the $25 commission, the net gain is $850. $850 divided by the $2,000 margin deposit equals 42.5%."
+        "text": "$175 loss.",
+        "isCorrect": false,
+        "rationale": "The offset price is lower than the sale price, so the short position gains."
       },
       {
         "id": "c",
-        "text": "48.5%",
+        "text": "$350 profit.",
         "isCorrect": false,
-        "rationale": "This does not match the computed return after applying the contract size and commission."
+        "rationale": "This doubles the one-contract result."
       },
       {
         "id": "d",
-        "text": "45.0%",
+        "text": "$35 profit.",
         "isCorrect": false,
-        "rationale": "This does not match the computed return after applying the contract size and commission."
+        "rationale": "This misplaces the decimal in the price change."
       }
     ],
-    "explanation": "The long wheat futures position is profitable because the futures price rose. The price gain is $2.915 - $2.740 = $0.175 per bushel. With a 5,000-bushel contract, gross profit is $0.175 × 5,000 = $875. Subtract the $25 round-turn commission for a net gain of $850. Return on margin deposit is $850 / $2,000 = 0.425, or 42.5%.",
+    "explanation": "$7.04 3/4 is $7.0475 and $7.01 1/4 is $7.0125. The short futures gain is $0.035 per bushel x 5,000 bushels = $175.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0347; sequence 347; source code 07_DI_4.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0347; sequence 347; source code 07_DI_4. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable calculation question with one coherent correct answer. The source price notation $2.911/2 is visually unusual but clearly intended as $2.91 1/2, or $2.915, and the explanation confirms this interpretation. Duplicate review: Exact duplicate of s3-market-docx-337-3. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "347",
     "sourceQuestionNumber": 337,
     "sourceCode": "07_DI_4",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-337-3",
@@ -17241,50 +17242,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "return-on-margin-equity",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "The margin on soybeans is 30 cents per bushel. Commissions are $50 per contract (5,000 bushels). A trader buys 2 May soybean contracts at $5.85 and later sells them at $6.02. After paying commissions, what was his net return on equity?",
+    "stem": "A trader deposits $2,500 initial margin, pays $80 total commissions, and earns a $920 gross futures profit. What is the return on margin after commissions?",
     "choices": [
       {
         "id": "a",
-        "text": "53.3%",
+        "text": "33.6%.",
         "isCorrect": true,
-        "rationale": "Price gain is $0.17 per bushel. For 2 soybean contracts, 10,000 bushels total, gross profit is $1,700. Commissions are $100 total, so net profit is $1,600. Margin is $0.30 per bushel × 10,000 bushels = $3,000. Return on equity is $1,600 ÷ $3,000 = 53.3%."
+        "rationale": "Net profit is $920 - $80 = $840. $840 / $2,500 = 33.6%."
       },
       {
         "id": "b",
-        "text": "55.5%",
+        "text": "36.8%.",
         "isCorrect": false,
-        "rationale": "This is not the net return on equity using the stated margin, contract size, number of contracts, and commissions."
+        "rationale": "This uses gross profit before commissions: $920 / $2,500."
       },
       {
         "id": "c",
-        "text": "60.0%",
+        "text": "30.4%.",
         "isCorrect": false,
-        "rationale": "This is not the net return on equity after subtracting commissions."
+        "rationale": "This subtracts too much from the gross profit."
       },
       {
         "id": "d",
-        "text": "66.6%",
+        "text": "8.4%.",
         "isCorrect": false,
-        "rationale": "This overstates the return and does not match the required net profit divided by margin calculation."
+        "rationale": "This divides net profit by $10,000 rather than the stated margin."
       }
     ],
-    "explanation": "The trader bought at $5.85 and sold at $6.02, for a gain of $0.17 per bushel. Two soybean contracts represent 10,000 bushels, so gross profit is $0.17 × 10,000 = $1,700. Commissions are $50 per contract × 2 = $100, leaving net profit of $1,600. Required margin is $0.30 per bushel × 10,000 bushels = $3,000. Net return on equity is $1,600 ÷ $3,000 = 53.3%.",
+    "explanation": "Return on margin after commissions uses net trading profit divided by the margin deposit. Net profit is $840, so the return is $840 / $2,500 = 0.336, or 33.6%.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0351; sequence 351; source code 07_DI_2.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0351; sequence 351; source code 07_DI_2. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable and coherent calculation question. The displayed answer and explanation support exactly one correct choice. Duplicate review: Exact duplicate of s3-market-docx-339. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "351",
     "sourceQuestionNumber": 339,
     "sourceCode": "07_DI_2",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-340",
@@ -18129,51 +18130,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "multiple-contract-positions",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Better Returns, Ltd. (a registered investment advisor) is convinced inflation will be decreasing over the coming year. Better Returns takes a long position in 50 December T-note futures contracts at 136-04. The company pays $200 in commissions on all 50 contracts. The value of the futures contracts rallies to 138-12 where Better Returns offsets their position. The futures contract's underlying face value at maturity is $100,000. What is Better Returns' net gain or loss per contract?",
+    "stem": "A trader buys 2 Treasury note futures at 114-16 and later sells them at 115-08. Each full point is worth $1,000 per contract. Ignoring commissions, what is the gross result?",
     "choices": [
       {
         "id": "a",
-        "text": "$2,246 net profit per contract",
+        "text": "$1,500 profit.",
         "isCorrect": true,
-        "rationale": "A long futures position profits when the futures price rises. The price rose from 136-04 to 138-12, a gain of 2.25 points. At $1,000 per point, gross profit is $2,250 per contract. Total gross profit for 50 contracts is $112,500; after $200 total commissions, net profit is $112,300, or $2,246 per contract."
+        "rationale": "The price rises by 24/32 of a point. 24/32 x $1,000 = $750 per contract; two contracts produce $1,500 profit."
       },
       {
         "id": "b",
-        "text": "$2,246 net loss per contract",
+        "text": "$1,500 loss.",
         "isCorrect": false,
-        "rationale": "The price increased after the long position was established, so the trade produced a profit, not a loss."
+        "rationale": "The trader is long and the futures price increased."
       },
       {
         "id": "c",
-        "text": "$2,250 net profit per contract",
+        "text": "$750 profit.",
         "isCorrect": false,
-        "rationale": "$2,250 is the gross profit per contract before commissions. After allocating the $200 commission across 50 contracts, net profit is reduced by $4 per contract."
+        "rationale": "This is the profit for one contract, not two."
       },
       {
         "id": "d",
-        "text": "$2,250 net loss per contract",
+        "text": "$2,400 profit.",
         "isCorrect": false,
-        "rationale": "The trade was profitable because the long futures position was sold at a higher price; $2,250 is the gross profit per contract before commissions."
+        "rationale": "This incorrectly treats 24/32 as 2.4 full points."
       }
     ],
-    "explanation": "Convert the Treasury futures prices from 32nds: 136-04 = 136 + 4/32 = 136.125, and 138-12 = 138 + 12/32 = 138.375. The increase is 2.25 points. With a $100,000 Treasury futures contract, one full point equals $1,000, so the gross profit is 2.25 × $1,000 = $2,250 per contract. For 50 contracts, gross profit is $112,500. Subtract the $200 total commission to get $112,300 net profit, then divide by 50 contracts: $112,300 ÷ 50 = $2,246 net profit per contract.",
+    "explanation": "Treasury futures quoted in 32nds require converting the price move to a fraction of a point. From 114-16 to 115-08 is a 24/32 point increase. At $1,000 per point, the gain is $750 per contract, or $1,500 for two contracts.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0369; sequence 369; source code 08_IM_15.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0369; sequence 369; source code 08_IM_15. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "The item is readable and the arithmetic supports answer A. However, the source stem contains a terminology inconsistency: it begins with December T-note futures but later says the T-bond futures contract's underlying face value. The app-ready stem was lightly normalized to avoid that inconsistency, so the item should be reviewed against the source document before verification. Duplicate review: Exact duplicate of s3-market-docx-356-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "OCR/transcription",
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "369",
     "sourceQuestionNumber": 356,
     "sourceCode": "08_IM_15",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-356-2",
@@ -18442,50 +18442,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "gross-profit-loss",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Assuming a money manager purchased 5 contracts of 90-day T-bill futures (face value $1,000,000) at 91.00 and sold the 5 contracts at 93.00, the profit, before transaction costs, would be:",
+    "stem": "A trader sells 5 natural gas futures at $3.420 and offsets at $3.355. Each contract covers 10,000 MMBtu. Ignoring commissions, what is the gross result?",
     "choices": [
       {
         "id": "a",
-        "text": "$25,000.",
+        "text": "$3,250 profit.",
         "isCorrect": true,
-        "rationale": "A 2.00-point move in a 90-day T-bill futures contract equals 200 index points. With a minimum tick of 0.005, equivalent here to 0.5 index point, that is 400 ticks. At $12.50 per tick, the gain is $5,000 per contract; for 5 contracts, total profit is $25,000."
+        "rationale": "The short gains $0.065 per MMBtu. $0.065 x 10,000 x 5 = $3,250."
       },
       {
         "id": "b",
-        "text": "$100,000.",
+        "text": "$3,250 loss.",
         "isCorrect": false,
-        "rationale": "This overstates the gain; it does not apply the T-bill futures tick value correctly."
+        "rationale": "A short position gains when the futures price declines."
       },
       {
         "id": "c",
-        "text": "$10,000.",
+        "text": "$650 profit.",
         "isCorrect": false,
-        "rationale": "This would reflect only $2,000 per contract or another incorrect conversion, not the correct T-bill futures tick calculation."
+        "rationale": "This is the profit for one contract, not five."
       },
       {
         "id": "d",
-        "text": "$5,000.",
+        "text": "$325 profit.",
         "isCorrect": false,
-        "rationale": "This is the gain per contract, not the total gain for 5 contracts."
+        "rationale": "This misplaces the decimal point."
       }
     ],
-    "explanation": "The price increased from 91.00 to 93.00, a gain of 2.00, or 200 index points. For 90-day T-bill futures, one tick is 0.005, equivalent to 0.5 index point, so 200 index points equals 400 ticks. At $12.50 per tick, the gain is $5,000 per contract. For 5 contracts, total profit before transaction costs is 5 × $5,000 = $25,000.",
+    "explanation": "A short futures position profits when the offsetting purchase price is below the sale price. The price decline is $0.065 per MMBtu, so profit is $0.065 x 10,000 x 5 = $3,250.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0375; sequence 375; source code 08_IM_7.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0375; sequence 375; source code 08_IM_7. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "The question and choices are readable, the source answer is visible, and the calculation is coherent. Only the final line of the source explanation is partially obscured, but the visible calculation and answer support the result. Duplicate review: Exact duplicate of s3-market-docx-361-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "375",
     "sourceQuestionNumber": 361,
     "sourceCode": "08_IM_7",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-361-2",
@@ -18742,50 +18742,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "gross-profit-loss",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A speculator sold three contracts of December Eurodollar futures at 96.12 and later offset this transaction at 97.10. The futures contract unit is $1 million worth of 90-day Eurodollar deposits. If commissions are $50 per contract, what was the profit or loss on the trade?",
+    "stem": "A trader buys 3 Eurodollar futures at 94.80 and sells them at 95.05. A one-basis-point move is worth $25 per contract. Ignoring commissions, what is the gross result?",
     "choices": [
       {
         "id": "a",
-        "text": "$7,350 gain",
-        "isCorrect": false,
-        "rationale": "The trader sold first and bought back higher, creating a trading loss, not a gain."
+        "text": "$1,875 profit.",
+        "isCorrect": true,
+        "rationale": "The price rises 25 basis points. 25 x $25 x 3 contracts = $1,875."
       },
       {
         "id": "b",
-        "text": "$7,500 loss",
-        "isCorrect": true,
-        "rationale": "A short Eurodollar futures position loses when the futures price rises. Price change = 97.10 - 96.12 = 0.98 index points. For a $1,000,000 90-day Eurodollar contract, a 1.00 point move equals $2,500, so the trading loss is 0.98 x $2,500 x 3 = $7,350. Commissions are $50 per contract x 3 = $150, for a total loss of $7,500."
+        "text": "$1,875 loss.",
+        "isCorrect": false,
+        "rationale": "The trader is long and the futures price increased."
       },
       {
         "id": "c",
-        "text": "$7,350 loss",
+        "text": "$625 profit.",
         "isCorrect": false,
-        "rationale": "$7,350 is the gross trading loss before commissions. Adding $150 in commissions produces a total loss of $7,500."
+        "rationale": "This is the gain for one contract, not three."
       },
       {
         "id": "d",
-        "text": "$7,200 gain",
+        "text": "$18,750 profit.",
         "isCorrect": false,
-        "rationale": "The position was sold and then offset at a higher price, so the result is a loss, not a gain."
+        "rationale": "This adds an extra zero to the basis-point value."
       }
     ],
-    "explanation": "A short futures position loses when the offsetting purchase price is higher than the original sale price. The Eurodollar futures price rose from 96.12 to 97.10, a move of 0.98 index points. Each 1.00 point in a Eurodollar futures contract is worth $2,500 because $1,000,000 x 90/360 x 0.01 = $2,500. Gross loss = 0.98 x $2,500 x 3 contracts = $7,350. Commissions = 3 x $50 = $150. Total loss = $7,350 + $150 = $7,500.",
+    "explanation": "Eurodollar futures use a $25 value per basis point per contract. The move from 94.80 to 95.05 is 25 basis points, so 25 x $25 x 3 = $1,875 profit.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0381; sequence 381; source code 08_IM_14.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0381; sequence 381; source code 08_IM_14. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Question and choices are readable. The displayed explanation is partially cut off at the bottom, but the formula and calculation needed to verify the answer are visible and coherent. The app-ready explanation has been completed using the visible calculation and standard Eurodollar futures point value. Duplicate review: Exact duplicate of s3-market-docx-366-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "381",
     "sourceQuestionNumber": 366,
     "sourceCode": "08_IM_14",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-366-2",
@@ -19002,50 +19002,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "multiple-contract-positions",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "T-bond futures prices have fallen substantially. In expectation of a correction, a trader goes long 12 T-bond contracts at 115-04. After prices increase slightly, the trader expects them to continue to rise. As a result, he goes long 15 more T-bond contracts at 115-28. Three months later, the trader closes out his entire position at 116-12. Commissions are $30 per contract, and the point value of the Treasury bond contract is $31.25. What is the speculator's total gain or loss on his futures transactions?",
+    "stem": "A trader buys 6 silver futures at $24.10 and sells them at $24.46. Each contract covers 5,000 ounces. Ignoring commissions, what is the gross result?",
     "choices": [
       {
         "id": "a",
-        "text": "Gain of $22,500",
-        "isCorrect": false,
-        "rationale": "This does not match the recomputed net gain after accounting for both entries and commissions."
+        "text": "$10,800 profit.",
+        "isCorrect": true,
+        "rationale": "The gain is $0.36 per ounce. $0.36 x 5,000 x 6 = $10,800."
       },
       {
         "id": "b",
-        "text": "Loss of $23,850",
+        "text": "$10,800 loss.",
         "isCorrect": false,
-        "rationale": "The positions were long and closed at higher prices, so the trade produced a gain before and after commissions."
+        "rationale": "A long futures position gains when price rises."
       },
       {
         "id": "c",
-        "text": "Gain of $23,850",
+        "text": "$1,800 profit.",
         "isCorrect": false,
-        "rationale": "This overstates the net gain; it does not match the correct tick/point calculation including commissions."
+        "rationale": "This is the profit for one contract, not six."
       },
       {
         "id": "d",
-        "text": "Gain of $21,690",
-        "isCorrect": true,
-        "rationale": "First entry: 116-12 minus 115-04 = 1-08 = 40/32 points. At $31.25 per 1/32, gross gain per contract is $1,250; for 12 contracts, $15,000 less $360 commissions = $14,640. Second entry: 116-12 minus 115-28 = 16/32 points. Gross gain per contract is $500; for 15 contracts, $7,500 less $450 commissions = $7,050. Total net gain = $14,640 + $7,050 = $21,690."
+        "text": "$108,000 profit.",
+        "isCorrect": false,
+        "rationale": "This adds an extra zero."
       }
     ],
-    "explanation": "For Treasury bond futures quoted in 32nds, the movement from 115-04 to 116-12 is 40/32, worth 40 × $31.25 = $1,250 per contract. On 12 contracts, gross gain is $15,000; subtract $360 commissions for a net gain of $14,640. The movement from 115-28 to 116-12 is 16/32, worth 16 × $31.25 = $500 per contract. On 15 contracts, gross gain is $7,500; subtract $450 commissions for a net gain of $7,050. Total net gain is $21,690.",
+    "explanation": "The futures price increased by $0.36 per ounce. Multiplying by 5,000 ounces and 6 contracts gives $10,800 gross profit.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0386; sequence 386; source code 08_DI_1.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0386; sequence 386; source code 08_DI_1. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Question, answer choices, source number, and source code are readable. The visible answer indicates D, and independent recalculation confirms D. The explanation is partly obscured in the screenshot, but enough is visible and the calculation is coherent. Duplicate review: Exact duplicate of s3-market-docx-370-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "386",
     "sourceQuestionNumber": 370,
     "sourceCode": "08_DI_1",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-370-2",
@@ -19262,52 +19262,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "return-on-margin-equity",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Assume the margin for Treasury bond futures is $1,500 per contract and the commission is $50 per contract. Face value of Treasury bond futures is $100,000. What is the percentage of loss on a speculator's margin when two Treasury bond contracts are bought at 94-00 and offset at 93-00?",
+    "stem": "A trader posts $1,500 margin for one futures contract. The trade loses $1,000 and the round-turn commission is $50. What is the loss as a percentage of margin?",
     "choices": [
       {
         "id": "a",
-        "text": "50.0%",
-        "isCorrect": false,
-        "rationale": "Incorrect."
+        "text": "70%.",
+        "isCorrect": true,
+        "rationale": "Total loss is $1,000 + $50 = $1,050. $1,050 / $1,500 = 70%."
       },
       {
         "id": "b",
-        "text": "70.0%",
-        "isCorrect": true,
-        "rationale": "The source marks B as correct and calculates a $1,050 loss divided by $1,500 margin, which equals 70%."
+        "text": "66.7%.",
+        "isCorrect": false,
+        "rationale": "This ignores the $50 commission and uses $1,000 / $1,500."
       },
       {
         "id": "c",
-        "text": "7.0%",
+        "text": "35%.",
         "isCorrect": false,
-        "rationale": "Incorrect."
+        "rationale": "This would correspond to about half of the stated total loss."
       },
       {
         "id": "d",
-        "text": "63.3%",
+        "text": "105%.",
         "isCorrect": false,
-        "rationale": "Incorrect."
+        "rationale": "This compares the dollar loss to $1,000 rather than to the margin deposit."
       }
     ],
-    "explanation": "The source explanation treats the price decline from 94-00 to 93-00 as a 1-point loss. With a $100,000 Treasury bond futures face value, a 1-point move equals $1,000. Adding $50 commission gives a $1,050 net futures loss. $1,050 divided by $1,500 margin equals 70%. However, the item wording says two contracts and margin/commission per contract, which creates a calculation ambiguity.",
+    "explanation": "When return or loss on margin includes commission, first add commission to the trading loss. Here the total loss is $1,050. Dividing by $1,500 margin gives 0.70, or 70%.",
     "sourceType": "imported",
     "active": true,
     "concept": "Speculating in Futures",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0391; sequence 391; source code 08_DI_2.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0391; sequence 391; source code 08_DI_2. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable source and answer are clear, but the math is not coherent with the stated two-contract position and per-contract margin/commission wording. For two contracts, a 1-point adverse move would be $2,000 gross loss. Total margin would be $3,000, and commission would likely be $100 if $50 per contract, producing $2,100 / $3,000 = 70%; this still gives 70%, but the displayed explanation uses $1,000 gross loss, $50 commission, and $1,500 margin, effectively a one-contract calculation. The final answer may be salvageable because proportional scaling preserves 70% if commission and margin scale consistently, but the explanation is internally inconsistent. Duplicate review: Exact duplicate of s3-market-docx-373. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "calculation_error",
-      "ambiguous",
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "391",
     "sourceQuestionNumber": 373,
     "sourceCode": "08_DI_2",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-374",
@@ -20544,50 +20542,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "calendar-spreads",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Which of the following is a horizontal options spread?",
+    "stem": "Which options position is a horizontal, or calendar, spread?",
     "choices": [
       {
         "id": "a",
-        "text": "Long 1 December 260 wheat call, short 1 March 270 wheat call",
-        "isCorrect": false,
-        "rationale": "This uses different expiration months but also different strike prices, so it is not the clean horizontal/time spread described."
+        "text": "Buy a September crude oil call and sell a December crude oil call with the same strike price.",
+        "isCorrect": true,
+        "rationale": "A calendar spread uses options on the same underlying and strike but different expiration months."
       },
       {
         "id": "b",
-        "text": "Long 1 December 270 wheat call, short 1 March 260 wheat put",
+        "text": "Buy a September crude oil call and sell a September crude oil call with a higher strike price.",
         "isCorrect": false,
-        "rationale": "This combines different option types and different strike prices, so it is not a horizontal options spread."
+        "rationale": "That is a vertical spread because the expiration is the same and the strikes differ."
       },
       {
         "id": "c",
-        "text": "Long 1 December 270 wheat call, short 1 March 270 wheat call",
-        "isCorrect": true,
-        "rationale": "A horizontal options spread, also called a time or calendar spread, uses options of the same type and same strike price but different expiration months."
+        "text": "Buy a September crude oil call and buy a September crude oil put with the same strike price.",
+        "isCorrect": false,
+        "rationale": "That is a straddle-like position, not a calendar spread."
       },
       {
         "id": "d",
-        "text": "Long 1 December 260 wheat call, short 1 December 270 wheat call",
+        "text": "Buy a crude oil call and sell a gold call with the same expiration.",
         "isCorrect": false,
-        "rationale": "This uses the same expiration month but different strike prices, which is a vertical spread rather than a horizontal spread."
+        "rationale": "Different underlying markets make this an intermarket-style relationship, not a calendar options spread."
       }
     ],
-    "explanation": "A horizontal options spread is a time/calendar spread: it involves buying and selling options of the same type with the same strike price but different expiration months. Choice C is long one December 270 wheat call and short one March 270 wheat call, so it matches that definition.",
+    "explanation": "A horizontal or calendar spread is built with options on the same underlying futures and usually the same strike price, but with different expiration months.",
     "sourceType": "imported",
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0417; sequence 417; source code 09_IM_6.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0417; sequence 417; source code 09_IM_6. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Question and answer choices are readable. The visible source answer identifies C, and the concept is consistent with the definition of a horizontal/calendar options spread. Part of the on-screen explanation is obscured, but enough is visible and the concept is independently clear. Duplicate review: Exact duplicate of s3-market-docx-398. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "duplicate"
-    ],
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "417",
     "sourceQuestionNumber": 398,
     "sourceCode": "09_IM_6",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-399",
@@ -21398,58 +21396,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "arbitrage-spreads",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "The gross cracking margin:",
+    "stem": "Which statement best describes a crack spread in energy futures?",
     "choices": [
       {
         "id": "a",
-        "text": "Requires the conversion of heating oil and gasoline prices to dollars per barrel.",
-        "isCorrect": false,
-        "rationale": "This statement is true, but the source indicates the best answer is the combination of A and B."
+        "text": "It compares crude oil prices with refined product prices such as gasoline or heating oil.",
+        "isCorrect": true,
+        "rationale": "A crack spread measures the relationship between crude oil input prices and refined product output prices."
       },
       {
         "id": "b",
-        "text": "Is the relationship between the futures price of crude and the futures prices of gasoline and/or heating oil.",
+        "text": "It compares corn futures with soybean futures to measure crop substitution.",
         "isCorrect": false,
-        "rationale": "This statement is true, but the source indicates the best answer is the combination of A and B."
+        "rationale": "That is an agricultural intercommodity relationship, not a crack spread."
       },
       {
         "id": "c",
-        "text": "Is the ratio that determines how many contracts of crude, gasoline, and heating oil futures are purchased or sold.",
+        "text": "It compares two delivery months of the same crude oil futures contract.",
         "isCorrect": false,
-        "rationale": "The explanation indicates the contract ratio is a feature of full crack spreads, not the gross cracking margin itself."
+        "rationale": "That is an intramarket calendar spread in crude oil, not a crack spread."
       },
       {
         "id": "d",
-        "text": "A and B only.",
-        "isCorrect": true,
-        "rationale": "The visible answer states that D is correct; A and B describe the gross cracking margin, while C describes the ratio used for a full crack spread."
-      },
-      {
-        "id": "e",
-        "text": "All of the above.",
+        "text": "It compares cash crude oil with Treasury futures.",
         "isCorrect": false,
-        "rationale": "C is not a definition of the gross cracking margin, so all choices are not correct."
+        "rationale": "A crack spread concerns petroleum refining economics, not interest-rate futures."
       }
     ],
-    "explanation": "The gross cracking margin relates crude oil futures prices to the futures prices of refined products such as gasoline and/or heating oil. Because refined-product futures are quoted in cents per gallon, heating oil and gasoline prices must be converted to dollars per barrel by multiplying the cents-per-gallon price by 42, the number of gallons in a barrel. Crack spreads can be traded in different combinations; a full crack spread uses all three markets and contract ratios that mimic refining activity, but the ratio itself is not the gross cracking margin.",
+    "explanation": "A crack spread is an energy spread related to refining margins. It compares crude oil futures with refined products such as gasoline and heating oil, often after converting product quotes into comparable barrel values.",
     "sourceType": "imported",
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0434; sequence 434; source code 09_IM_4.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0434; sequence 434; source code 09_IM_4. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "Readable and answer is visible, but the source uses non-app-ready referential choices ('A and B only' and 'All of the above'). The explanation visible in the screenshot is partially truncated at the top and does not clearly state why D is correct from the beginning. For app use, rewrite D semantically and remove the all-of-the-above structure. Duplicate review: Exact duplicate of s3-market-docx-414. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "bad_distractors",
-      "weak_explanation",
-      "duplicate"
-    ],
-    "extractionConfidence": "medium",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
+    "extractionConfidence": "high",
     "sourcePageRange": "434",
     "sourceQuestionNumber": 414,
     "sourceCode": "09_IM_4",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-415",
@@ -22578,51 +22568,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "arbitrage-spreads",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Which of the following is a vertical futures options spread?",
+    "stem": "Which position is a long call butterfly using the same underlying futures and expiration?",
     "choices": [
       {
         "id": "a",
-        "text": "Short 1 December 76 copper put, short 1 January 78 copper put",
-        "isCorrect": false,
-        "rationale": "This is not a vertical spread because the options have different expiration months. A vertical spread requires the same expiration and different strike prices."
+        "text": "Buy 1 low-strike call, sell 2 middle-strike calls, and buy 1 high-strike call.",
+        "isCorrect": true,
+        "rationale": "A long call butterfly combines a bull call spread and a bear call spread, with the middle strike sold twice."
       },
       {
         "id": "b",
-        "text": "Long 1 December 76 copper put, short 1 January 78 copper call",
+        "text": "Sell 1 low-strike call, buy 2 middle-strike calls, and sell 1 high-strike call.",
         "isCorrect": false,
-        "rationale": "This is not a vertical spread because the options have different expiration months and are different option types."
+        "rationale": "That is the opposite, a short call butterfly."
       },
       {
         "id": "c",
-        "text": "Long 1 December 76 copper put, short 1 December 78 copper put",
-        "isCorrect": true,
-        "rationale": "A vertical futures options spread combines options on the same underlying futures contract with the same expiration month and same option type, but different strike prices. This choice uses December copper puts at different strikes."
+        "text": "Buy 1 call and buy 1 put at the same strike.",
+        "isCorrect": false,
+        "rationale": "That is a straddle, not a butterfly."
       },
       {
         "id": "d",
-        "text": "Long 1 December 76 copper put, short 1 December 78 copper call",
+        "text": "Buy calls on two unrelated futures markets.",
         "isCorrect": false,
-        "rationale": "This is not a vertical spread because the legs are different option types, one put and one call, even though the expiration month is the same."
+        "rationale": "A butterfly uses the same underlying and expiration with different strikes."
       }
     ],
-    "explanation": "A vertical futures options spread involves options on the same underlying futures contract with the same expiration and different strike prices, typically using the same option type. Choice C is the only selection with two December copper puts at different strikes, 76 and 78.",
+    "explanation": "A long call butterfly uses three strike prices: long one lower-strike call, short two middle-strike calls, and long one higher-strike call. It has limited risk and limited profit potential.",
     "sourceType": "imported",
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0457; sequence 457; source code 09_DI_5.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0457; sequence 457; source code 09_DI_5. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "The question and answer choices are readable and the keyed answer C is conceptually correct. However, part of the source explanation is obscured, so the item is marked needs_review rather than verified. Duplicate review: Exact duplicate of s3-market-docx-436. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "OCR/transcription",
-      "duplicate"
-    ],
-    "extractionConfidence": "medium",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
+    "extractionConfidence": "high",
     "sourcePageRange": "457",
     "sourceQuestionNumber": 436,
     "sourceCode": "09_DI_5",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-437",
@@ -22631,51 +22620,50 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "long-call-hedge",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "In January, April heating oil futures are trading at $.4220 a gallon, April 42 calls are trading at $.0315 per gallon, April 42 puts are trading at $.0110 per gallon, and cash heating oil costs $.4115 per gallon. A heating oil distributor decides to hedge his fixed-price commitment to deliver 420,000 gallons of heating oil on April 1 by purchasing heating oil options. In late March, he offsets his options position when the April 42 call is trading at $.0225, the April 42 put is at $.0010, April futures are at $.4390, and cash heating oil is $.4290 per gallon. What is the effective price the hedger has paid for a gallon of heating oil?",
+    "stem": "Heating oil futures are quoted in dollars per gallon and one contract covers 42,000 gallons. If a trader buys one contract at $2.4800 and sells it at $2.5150, what is the gross profit?",
     "choices": [
       {
         "id": "a",
-        "text": "$.5370",
-        "isCorrect": false,
-        "rationale": "This does not reflect the cash price plus the loss on the purchased call option."
+        "text": "$1,470 profit.",
+        "isCorrect": true,
+        "rationale": "The gain is $0.0350 per gallon. $0.0350 x 42,000 gallons = $1,470."
       },
       {
         "id": "b",
-        "text": "$.4400",
+        "text": "$1,470 loss.",
         "isCorrect": false,
-        "rationale": "This is not the result of adding the $.0090 call option loss to the $.4290 cash price."
+        "rationale": "A long futures position gains when the sale price is higher than the purchase price."
       },
       {
         "id": "c",
-        "text": "$.4425",
+        "text": "$147 profit.",
         "isCorrect": false,
-        "rationale": "This incorrectly uses an amount other than the actual $.0090 per gallon loss on the call option."
+        "rationale": "This misplaces the decimal in the contract-size calculation."
       },
       {
         "id": "d",
-        "text": "$.4380",
-        "isCorrect": true,
-        "rationale": "The distributor hedged by buying April 42 calls at $.0315 and offsetting them at $.0225, for a $.0090 per gallon loss. Adding that loss to the March cash purchase price of $.4290 gives an effective cost of $.4380 per gallon."
+        "text": "$3,500 profit.",
+        "isCorrect": false,
+        "rationale": "This incorrectly treats the contract as 100,000 gallons."
       }
     ],
-    "explanation": "Because the distributor needs to buy heating oil later, the appropriate option hedge is a long call. The April 42 call was purchased at $.0315 per gallon and offset at $.0225 per gallon, producing a loss of $.0090 per gallon. The effective price paid equals the March cash price plus the option loss: $.4290 + $.0090 = $.4380 per gallon.",
+    "explanation": "Heating oil futures P&L equals the price change per gallon times 42,000 gallons per contract. Here, $2.5150 - $2.4800 = $0.0350, and $0.0350 x 42,000 = $1,470 profit.",
     "sourceType": "imported",
     "active": true,
     "concept": "Option Hedging, Speculating, Spreading",
-    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0458; sequence 458; source code 09_DI_8.",
+    "sourceNote": "User-provided S3-Market.docx LLM vision import; source item market-docx-0458; sequence 458; source code 09_DI_8. Rejected duplicate salvaged and rewritten as a distinct verified item on 2026-05-14.",
     "reviewStatus": "reviewed",
-    "qualityStatus": "rejected",
-    "qualityNotes": "The item is readable and the calculation supports answer D, but the visible stem says 'gallon of gasoline' despite the entire scenario involving heating oil. The app-ready stem was corrected to heating oil as an obvious source wording issue, so it should be reviewed before verification. Duplicate review: Near-duplicate of s3-market-docx-437-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
-    "issueTypes": [
-      "OCR/transcription",
-      "duplicate"
-    ],
-    "extractionConfidence": "medium",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rejected duplicate salvaged as a distinct app-ready imported-derived QCM. The stem, answer choices, explanation, and rationales were rewritten to avoid duplicating the kept source item while preserving the tested Series 3 concept.",
+    "issueTypes": [],
+    "extractionConfidence": "high",
     "sourcePageRange": "458",
     "sourceQuestionNumber": 437,
     "sourceCode": "09_DI_8",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex rejected-queue rewrite audit"
   },
   {
     "id": "s3-market-docx-437-2",

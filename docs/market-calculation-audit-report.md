@@ -5,11 +5,10 @@ Imported Market questions containing calculation-heavy signals are marked `needs
 | Metric | Count |
 | --- | --- |
 | Imported Market QCMs | 469 |
-| Calculation-risk imported Market QCMs | 1 |
-| Verified Market QCMs | 715 |
+| Calculation-risk imported Market QCMs | 0 |
+| Verified Market QCMs | 738 |
 | Needs-review Market QCMs | 0 |
 
 ## Calculation-Risk Questions
 | ID | Topic | Subtopic | Issues |
 | --- | --- | --- | --- |
-| s3-market-docx-373-2 | futures-speculation | return-on-margin-equity | Calculation check needed, Ambiguous, Duplicate |

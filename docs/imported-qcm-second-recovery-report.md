@@ -6,7 +6,7 @@ Generated: 2026-05-14
 
 The second recovery pass reviewed the remaining imported Series 3 QCMs after the first OpenAI gpt-5.5 vision reimport and repair workflow.
 
-Updated after the regulatory currentness pass: the 31 remaining regulatory `needs_review` QCMs were rewritten or narrowed using official NFA materials and eCFR Title 17 current through 2026-05-12. No imported QCMs remain in `needs_review`.
+Updated after the rejected-queue rewrite pass: the 31 remaining regulatory `needs_review` QCMs were rewritten or narrowed using official NFA materials and eCFR Title 17 current through 2026-05-12, then the 29 rejected duplicate variants were rewritten into distinct app-ready verified QCMs. No imported QCMs remain in `needs_review` or `rejected`.
 
 | Stage | Verified | Needs review | Rejected | Non-verified |
 | --- | ---: | ---: | ---: | ---: |
@@ -14,14 +14,15 @@ Updated after the regulatory currentness pass: the 31 remaining regulatory `need
 | After correcting the OCR/display quality gate | 654 | 36 | 29 | 65 |
 | Final after targeted repairs | 659 | 31 | 29 | 60 |
 | After regulatory currentness pass | 690 | 0 | 29 | 29 |
+| After rejected-queue rewrite pass | 719 | 0 | 0 | 0 |
 
 ## Final Imported Bank State
 
 | Source | Total | Verified | Needs review | Rejected |
 | --- | ---: | ---: | ---: | ---: |
-| S3-Market DOCX | 469 | 446 | 0 | 23 |
-| S3-Regulatory PDF | 250 | 244 | 0 | 6 |
-| Total imported | 719 | 690 | 0 | 29 |
+| S3-Market DOCX | 469 | 469 | 0 | 0 |
+| S3-Regulatory PDF | 250 | 250 | 0 | 0 |
+| Total imported | 719 | 719 | 0 | 0 |
 
 ## What Was Recovered
 
@@ -49,14 +50,14 @@ Updated after the regulatory currentness pass: the 31 remaining regulatory `need
 
 ## Remaining Queue
 
-29 imported QCMs remain non-verified:
+0 imported QCMs remain non-verified:
 
 | Status | Count | Main reason |
 | --- | ---: | --- |
-| Needs review | 0 | All imported needs-review items were either verified after correction or kept rejected as duplicates |
-| Rejected | 29 | Mostly deliberate duplicate rejects; weaker duplicates remain excluded |
+| Needs review | 0 | All imported needs-review items were verified after correction |
+| Rejected | 0 | Former rejected duplicate variants were rewritten as distinct verified questions |
 
-No imported QCM remains in `needs_review`. Remaining rejected QCMs are audit-only duplicates or weaker duplicate versions.
+No imported QCM remains in `needs_review` or `rejected`.
 
 ## Cost
 
@@ -64,7 +65,7 @@ The second recovery pass used cached LLM repair outputs plus manual and official
 
 ## App Impact
 
-- Default drills and mock exams now see 690 verified imported QCMs.
+- Default drills and mock exams now see 719 verified imported QCMs.
 - The imported bank currently has no needs-review QCMs.
-- Rejected imported QCMs remain excluded from practice and mock selection.
-- Course links can now use 690 imported verified QCMs as supporting material.
+- The imported bank currently has no rejected QCMs.
+- Course links can now use 719 imported verified QCMs as supporting material.

@@ -44,8 +44,8 @@ Use only:
 - Fixed-order support for licensed/user-provided source questions whose choices depend on A/B/C/D labels
 - Static build compatible with GitHub Pages
 - Rewritten U.S. Regulations bank based on concepts observed in `S3-Regulatory.pdf`
-- User-authorized OpenAI gpt-5.5 vision reimport, recovery, and regulatory-currentness pass for the `S3-Regulatory.pdf` regulatory bank: 250 source pages, 244 verified imported QCMs, 0 needs-review QCMs, and 6 rejected audit-only duplicate QCMs
-- User-authorized OpenAI gpt-5.5 vision reimport and second recovery of the `S3-Market.docx` market bank: 469 source images, 446 verified imported QCMs, 0 needs-review QCMs, and 23 rejected audit-only QCMs
+- User-authorized OpenAI gpt-5.5 vision reimport, recovery, regulatory-currentness pass, and rejected-queue rewrite for the `S3-Regulatory.pdf` regulatory bank: 250 source pages, 250 verified imported QCMs, 0 needs-review QCMs, and 0 rejected QCMs
+- User-authorized OpenAI gpt-5.5 vision reimport, recovery, and rejected-queue rewrite for the `S3-Market.docx` market bank: 469 source images, 469 verified imported QCMs, 0 needs-review QCMs, and 0 rejected QCMs
 - Dedicated regulatory focus filters for registration, account rules, FCM/IB, CPO/CTA, supervision, communications, arbitration, enforcement, AML, and high-yield review
 
 ## Course Module

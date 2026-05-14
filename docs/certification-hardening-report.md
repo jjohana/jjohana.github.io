@@ -12,20 +12,20 @@ An imported question is now `verified` only when it carries embedded LLM audit m
 
 | Scope | Verified-only QCMs |
 | --- | ---: |
-| All question banks | 1084 |
-| S3-Market DOCX | 446 |
-| S3-Regulatory PDF | 244 |
+| All question banks | 1113 |
+| S3-Market DOCX | 469 |
+| S3-Regulatory PDF | 250 |
 | Authored / rewritten / sample | 394 |
 
 ## Import reset state
 
 | Imported source | Active QCMs | Quality status |
 | --- | ---: | --- |
-| S3-Market DOCX | 469 | 446 `verified`, 0 `needs_review`, 23 `rejected` |
-| S3-Regulatory PDF | 250 | 244 `verified`, 0 `needs_review`, 6 `rejected` |
-| Total imported | 719 | 690 `verified`, 0 `needs_review`, 29 `rejected` |
+| S3-Market DOCX | 469 | 469 `verified`, 0 `needs_review`, 0 `rejected` |
+| S3-Regulatory PDF | 250 | 250 `verified`, 0 `needs_review`, 0 `rejected` |
+| Total imported | 719 | 719 `verified`, 0 `needs_review`, 0 `rejected` |
 
-There are no remaining imported QCMs in `needs_review`. Rejected QCMs are excluded from drills and mock exams.
+There are no remaining imported QCMs in `needs_review` or `rejected`.
 
 ## Certification rule
 
@@ -50,4 +50,4 @@ A QCM can be certified only if:
 
 ## Remaining work
 
-Remaining non-verified imported QCMs are deliberately held back as rejected duplicates or otherwise weaker duplicate variants.
+No imported QCM remains non-verified after the rejected-queue rewrite pass. Former rejected duplicates were rewritten into distinct app-ready questions before certification.

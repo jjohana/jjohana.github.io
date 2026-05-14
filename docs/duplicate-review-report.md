@@ -2,60 +2,18 @@
 
 | Metric | Count |
 | --- | --- |
-| Exact duplicate stem groups | 16 |
-| Near-duplicate pairs >= 0.88 | 32 |
-| Rejected duplicate questions | 29 |
+| Exact duplicate stem groups | 4 |
+| Near-duplicate pairs >= 0.88 | 15 |
+| Rejected duplicate questions | 0 |
 
 ## Rejected Questions
-| ID | Notes |
-| --- | --- |
-| s3-market-docx-45-2 | The item is readable and the keyed answer is coherent, but the source uses an 'All of the above' answer choice. Per instructions, such choices should be avoided unless safely rewritten semantically; retaining it makes the app-ready item needs_review rather than verified. Duplicate review: Exact duplicate of s3-market-docx-45. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-227 | Question and choices are readable. The bottom of the source explanation is cut off, but the displayed intermediate calculations, source answer, and recomputation support answer B unambiguously. Duplicate review: Exact duplicate of s3-market-docx-227-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-236-2 | The question is readable and the calculation supports answer B. However, the stem uses November 15 while the explanation visibly says November 25, creating a date inconsistency in the source/explanation. This does not affect the computation because the same cash and futures prices are used, but it warrants review before verification. Duplicate review: Exact duplicate of s3-market-docx-236. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-258-2 | The question stem and choices are readable and the displayed correct answer C is mathematically coherent. However, the visible source explanation appears to be mismatched or corrupted, discussing tick values and a gasoline example rather than explaining the GBP hedge; therefore the item should be reviewed before publication despite the app-ready corrected explanation. Duplicate review: Exact duplicate of s3-market-docx-258. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-268-2 | Readable calculation question with a single supported correct answer. The source uses an old S&P 500 futures multiplier, but the multiplier is explicitly given in the stem, so the calculation is internally coherent. Duplicate review: Exact duplicate of s3-market-docx-268. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-283 | Readable true/false item with exactly one correct answer. The source explanation supports the answer and the spread direction is coherent for a carrying charge/contango market. Duplicate review: Exact duplicate of s3-market-docx-300. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-301 | Question, choices, correct answer, and calculation are visible and coherent. The visible source explanation is partially cut off, but enough is shown to verify the intended calculation and answer. Duplicate review: Exact duplicate of s3-market-docx-301-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-302 | The question and answer choices are readable, and the displayed correct answer is C. However, the explanation is partially cut off, and the displayed formula lacks clearly visible parentheses around the price difference, creating a transcription/calculation ambiguity. The educational premise also depends on unstated assumptions about choosing adjacent contract spreads and annualizing by month intervals. Duplicate review: Exact duplicate of s3-market-docx-302-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-314 | Readable calculation question with one clear correct answer. Minor wording issue in the source explanation ('$0.8625 cents/lb.') was normalized in the app-ready explanation as dollar-per-pound decimal notation. Duplicate review: Exact duplicate of s3-market-docx-314-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-334-2 | Readable and internally consistent calculation question. Exactly one correct answer is supported by the explanation. Duplicate review: Exact duplicate of s3-market-docx-334. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-335-2 | Readable calculation question with one correct answer. The visible explanation treats quoted cents properly by converting cent price changes to dollars per pound in the arithmetic, yielding the stated result. Duplicate review: Exact duplicate of s3-market-docx-335. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-337 | Readable calculation question with one correct answer. The displayed price notation $2.911/2 is old-style notation for $2.91 1/2, equivalent to $2.915, and is supported by the on-screen explanation. Duplicate review: Exact duplicate of s3-market-docx-337-3. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-337-2 | Readable calculation question with one coherent correct answer. The source price notation $2.911/2 is visually unusual but clearly intended as $2.91 1/2, or $2.915, and the explanation confirms this interpretation. Duplicate review: Exact duplicate of s3-market-docx-337-3. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-339-2 | Readable and coherent calculation question. The displayed answer and explanation support exactly one correct choice. Duplicate review: Exact duplicate of s3-market-docx-339. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-356 | The item is readable and the arithmetic supports answer A. However, the source stem contains a terminology inconsistency: it begins with December T-note futures but later says the T-bond futures contract's underlying face value. The app-ready stem was lightly normalized to avoid that inconsistency, so the item should be reviewed against the source document before verification. Duplicate review: Exact duplicate of s3-market-docx-356-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-361 | The question and choices are readable, the source answer is visible, and the calculation is coherent. Only the final line of the source explanation is partially obscured, but the visible calculation and answer support the result. Duplicate review: Exact duplicate of s3-market-docx-361-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-366 | Question and choices are readable. The displayed explanation is partially cut off at the bottom, but the formula and calculation needed to verify the answer are visible and coherent. The app-ready explanation has been completed using the visible calculation and standard Eurodollar futures point value. Duplicate review: Exact duplicate of s3-market-docx-366-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-370 | Question, answer choices, source number, and source code are readable. The visible answer indicates D, and independent recalculation confirms D. The explanation is partly obscured in the screenshot, but enough is visible and the calculation is coherent. Duplicate review: Exact duplicate of s3-market-docx-370-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-373-2 | Readable source and answer are clear, but the math is not coherent with the stated two-contract position and per-contract margin/commission wording. For two contracts, a 1-point adverse move would be $2,000 gross loss. Total margin would be $3,000, and commission would likely be $100 if $50 per contract, producing $2,100 / $3,000 = 70%; this still gives 70%, but the displayed explanation uses $1,000 gross loss, $50 commission, and $1,500 margin, effectively a one-contract calculation. The final answer may be salvageable because proportional scaling preserves 70% if commission and margin scale consistently, but the explanation is internally inconsistent. Duplicate review: Exact duplicate of s3-market-docx-373. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-398-2 | Question and answer choices are readable. The visible source answer identifies C, and the concept is consistent with the definition of a horizontal/calendar options spread. Part of the on-screen explanation is obscured, but enough is visible and the concept is independently clear. Duplicate review: Exact duplicate of s3-market-docx-398. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-414-2 | Readable and answer is visible, but the source uses non-app-ready referential choices ('A and B only' and 'All of the above'). The explanation visible in the screenshot is partially truncated at the top and does not clearly state why D is correct from the beginning. For app use, rewrite D semantically and remove the all-of-the-above structure. Duplicate review: Exact duplicate of s3-market-docx-414. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-436-2 | The question and answer choices are readable and the keyed answer C is conceptually correct. However, part of the source explanation is obscured, so the item is marked needs_review rather than verified. Duplicate review: Exact duplicate of s3-market-docx-436. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-market-docx-437 | The item is readable and the calculation supports answer D, but the visible stem says 'gallon of gasoline' despite the entire scenario involving heating oil. The app-ready stem was corrected to heating oil as an obvious source wording issue, so it should be reviewed before verification. Duplicate review: Near-duplicate of s3-market-docx-437-2. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-regulatory-pdf-039 | Readable true/false item with a single correct answer shown. Terminology and regulatory concept are consistent with exchange trade execution rules and permitted exceptions under written exchange rules. Duplicate review: Exact duplicate of s3-regulatory-pdf-143. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-regulatory-pdf-072 | Readable true/false item with a clear displayed correct answer and supporting explanation. The rule concept is consistent with customer segregated funds requirements for FCMs. Duplicate review: Exact duplicate of s3-regulatory-pdf-043. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-regulatory-pdf-073 | Question, answer, and explanation are legible. True/False format is valid and exactly one answer is correct. Regulatory concept is consistent: competitive execution is required unless a permitted exception is executed under approved exchange rules. Duplicate review: Exact duplicate of s3-regulatory-pdf-143. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-regulatory-pdf-130-2 | The source uses "All of the above" and "A and B only" answer choices. The app-ready version rewrites the correct option semantically to avoid referential choices while preserving the tested concept and exactly one correct answer. Duplicate review: Exact duplicate of s3-regulatory-pdf-130. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-regulatory-pdf-136 | The source question is readable and the stated answer is clear. However, choice D is an 'A and B' combination choice, which the instructions flag as undesirable unless safely rewritten. Because A is not a correct standalone requirement, the item can still function, but it is marked needs_review rather than verified. Duplicate review: Exact duplicate of s3-regulatory-pdf-120. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
-| s3-regulatory-pdf-228 | The screenshot is readable and the source answer is clear. However, CFTC Rule 1.31 recordkeeping requirements have been amended over time, including changes to storage/accessibility terminology, so the legacy wording may be outdated depending on the current Series 3 testable rule set. Needs review before app publication. Duplicate review: Exact duplicate of s3-regulatory-pdf-225. Repair pass: duplicate retained as rejected unless manually selected as the keeper |
+No rejected questions.
 
 ## Exact Duplicate Groups
 - coverage-floor-reg-floor-broker-001, coverage-floor-reg-floor-broker-clean-001
 - coverage-floor-reg-position-limits-001, coverage-floor-reg-position-limits-clean-001
 - coverage-floor-reg-account-adjustments-001, coverage-floor-reg-account-adjustments-clean-001
 - coverage-floor-reg-bunched-orders-001, coverage-floor-reg-bunched-orders-clean-001
-- s3-market-docx-227, s3-market-docx-227-2
-- s3-market-docx-283, s3-market-docx-300
-- s3-market-docx-334, s3-market-docx-334-2
-- s3-market-docx-335, s3-market-docx-335-2
-- s3-market-docx-337, s3-market-docx-337-2, s3-market-docx-337-3
-- s3-market-docx-370, s3-market-docx-370-2
-- s3-market-docx-398, s3-market-docx-398-2
-- s3-market-docx-436, s3-market-docx-436-2
-- s3-regulatory-pdf-039, s3-regulatory-pdf-073, s3-regulatory-pdf-143
-- s3-regulatory-pdf-043, s3-regulatory-pdf-072
-- s3-regulatory-pdf-130, s3-regulatory-pdf-130-2
-- s3-regulatory-pdf-225, s3-regulatory-pdf-228
 
 ## Near-Duplicate Pairs
 | Question A | Question B | Similarity |
@@ -74,21 +32,4 @@
 | coverage-floor-reg-position-limits-001 | coverage-floor-reg-position-limits-clean-001 | 1.00 |
 | coverage-floor-reg-account-adjustments-001 | coverage-floor-reg-account-adjustments-clean-001 | 1.00 |
 | coverage-floor-reg-bunched-orders-001 | coverage-floor-reg-bunched-orders-clean-001 | 1.00 |
-| s3-market-docx-227 | s3-market-docx-227-2 | 1.00 |
-| s3-market-docx-283 | s3-market-docx-300 | 1.00 |
-| s3-market-docx-334 | s3-market-docx-334-2 | 1.00 |
-| s3-market-docx-335 | s3-market-docx-335-2 | 1.00 |
-| s3-market-docx-337 | s3-market-docx-337-2 | 1.00 |
-| s3-market-docx-337 | s3-market-docx-337-3 | 1.00 |
-| s3-market-docx-337-2 | s3-market-docx-337-3 | 1.00 |
-| s3-market-docx-370 | s3-market-docx-370-2 | 1.00 |
 | s3-market-docx-378 | s3-market-docx-443 | 0.89 |
-| s3-market-docx-398 | s3-market-docx-398-2 | 1.00 |
-| s3-market-docx-436 | s3-market-docx-436-2 | 1.00 |
-| s3-market-docx-437 | s3-market-docx-437-2 | 1.00 |
-| s3-regulatory-pdf-039 | s3-regulatory-pdf-073 | 1.00 |
-| s3-regulatory-pdf-039 | s3-regulatory-pdf-143 | 1.00 |
-| s3-regulatory-pdf-043 | s3-regulatory-pdf-072 | 1.00 |
-| s3-regulatory-pdf-073 | s3-regulatory-pdf-143 | 1.00 |
-| s3-regulatory-pdf-130 | s3-regulatory-pdf-130-2 | 1.00 |
-| s3-regulatory-pdf-225 | s3-regulatory-pdf-228 | 1.00 |

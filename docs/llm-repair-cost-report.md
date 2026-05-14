@@ -1,6 +1,6 @@
 # LLM Repair Cost Report
 
-Generated: 2026-05-14T11:09:00.971Z
+Generated: 2026-05-14T11:26:25.599Z
 
 | Metric | Value |
 | --- | --- |
