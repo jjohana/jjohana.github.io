@@ -25,7 +25,7 @@ test("starts a topic drill and shows immediate feedback", async ({ page }) => {
   await page.getByRole("button", { name: "Practice", exact: true }).click();
   await expect(page.getByLabel("Quality status")).toHaveValue("verified");
   await expect(page.getByLabel("Question bank priority")).toHaveValue("all");
-  await expect(page.getByRole("heading", { name: "1053 matching QCMs" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "1084 matching QCMs" })).toBeVisible();
   await page.getByLabel("Question bank priority").selectOption("s3-market-docx");
   await expect(page.getByRole("heading", { name: "442 matching QCMs" })).toBeVisible();
   await page.getByLabel("Question bank priority").selectOption("authored");
@@ -70,13 +70,13 @@ test("starts a mock exam and opens results", async ({ page }) => {
   await page.getByRole("button", { name: "Mock Exam" }).click();
   await expect(page.getByLabel("Question bank priority")).toHaveValue("all");
   await expect(page.getByLabel("Quality status")).toHaveValue("verified");
-  await expect(page.getByText("1053 matching active QCMs")).toBeVisible();
+  await expect(page.getByText("1084 matching active QCMs")).toBeVisible();
   await page.getByLabel("Question bank priority").selectOption("s3-market-docx");
   await expect(page.getByText("446 matching active QCMs")).toBeVisible();
   await expect(page.locator(".distribution-summary .metric").filter({ hasText: "Current bank" })).toContainText("446");
   await page.getByLabel("Question bank priority").selectOption("s3-regulatory-pdf");
-  await expect(page.getByText("213 matching active QCMs")).toBeVisible();
-  await expect(page.locator(".distribution-summary .metric").filter({ hasText: "Current bank" })).toContainText("213");
+  await expect(page.getByText("244 matching active QCMs")).toBeVisible();
+  await expect(page.locator(".distribution-summary .metric").filter({ hasText: "Current bank" })).toContainText("244");
   await expect(page.getByText("Arbitration, Discipline and Enforcement")).toBeVisible();
   await page.getByLabel("Question bank priority").selectOption("all");
   await page.getByRole("button", { name: /Start mock exam/ }).click();

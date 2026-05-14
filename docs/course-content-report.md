@@ -1,7 +1,7 @@
 # Series 3 Course Content Report
 
 Generated: 2026-05-13
-Updated after imported-QCM second recovery pass: 2026-05-14
+Updated after regulatory currentness pass: 2026-05-14
 
 ## Scope
 
@@ -13,8 +13,8 @@ The app now includes an integrated English Course module built from the existing
 - Course subchapters: 162
 - Market Knowledge chapters: 7
 - U.S. Regulations chapters: 4
-- Active verified QCMs available to support the course: 1053
-- Verified QCM references linked by the course: 1053
+- Active verified QCMs available to support the course: 1084
+- Verified QCM references linked by the course: 1084
 - Rejected QCMs linked: 0
 
 ## Chapter coverage
@@ -28,10 +28,10 @@ The app now includes an integrated English Course module built from the existing
 | Market Knowledge | Spreading | 11 | 63 |
 | Market Knowledge | Speculating in Futures | 9 | 90 |
 | Market Knowledge | Option Hedging, Speculating, Spreading | 21 | 124 |
-| U.S. Regulations | General Regulatory Topics | 20 | 120 |
-| U.S. Regulations | FCM / IB Regulations | 13 | 84 |
-| U.S. Regulations | CPO / CTA Regulations | 13 | 85 |
-| U.S. Regulations | Arbitration, Discipline and Enforcement | 11 | 49 |
+| U.S. Regulations | General Regulatory Topics | 20 | 130 |
+| U.S. Regulations | FCM / IB Regulations | 13 | 87 |
+| U.S. Regulations | CPO / CTA Regulations | 13 | 102 |
+| U.S. Regulations | Arbitration, Discipline and Enforcement | 11 | 50 |
 
 ## Content elements added per subchapter
 

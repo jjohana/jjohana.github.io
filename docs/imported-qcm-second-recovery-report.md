@@ -6,19 +6,22 @@ Generated: 2026-05-14
 
 The second recovery pass reviewed the remaining imported Series 3 QCMs after the first OpenAI gpt-5.5 vision reimport and repair workflow.
 
+Updated after the regulatory currentness pass: the 31 remaining regulatory `needs_review` QCMs were rewritten or narrowed using official NFA materials and eCFR Title 17 current through 2026-05-12. No imported QCMs remain in `needs_review`.
+
 | Stage | Verified | Needs review | Rejected | Non-verified |
 | --- | ---: | ---: | ---: | ---: |
 | Start of second recovery | 580 | 109 | 30 | 139 |
 | After correcting the OCR/display quality gate | 654 | 36 | 29 | 65 |
 | Final after targeted repairs | 659 | 31 | 29 | 60 |
+| After regulatory currentness pass | 690 | 0 | 29 | 29 |
 
 ## Final Imported Bank State
 
 | Source | Total | Verified | Needs review | Rejected |
 | --- | ---: | ---: | ---: | ---: |
 | S3-Market DOCX | 469 | 446 | 0 | 23 |
-| S3-Regulatory PDF | 250 | 213 | 31 | 6 |
-| Total imported | 719 | 659 | 31 | 29 |
+| S3-Regulatory PDF | 250 | 244 | 0 | 6 |
+| Total imported | 719 | 690 | 0 | 29 |
 
 ## What Was Recovered
 
@@ -39,17 +42,21 @@ The second recovery pass reviewed the remaining imported Series 3 QCMs after the
 - NFA Customer Arbitration Guide: https://www.nfa.futures.org/arbitration/arbitration-resources/files/customer-arbitration-guide.html
 - CFTC Regulation 166.2 via eCFR: https://www.ecfr.gov/current/title-17/chapter-I/part-166/section-166.2
 - NFA Compliance Rule 2-8: https://www.nfa.futures.org/rulebooksql/rules.aspx?RuleID=RULE+2-8&Section=4
+- eCFR Title 17 Part 1, current through 2026-05-12: https://www.ecfr.gov/current/title-17/chapter-I/part-1
+- eCFR Title 17 Part 3, current through 2026-05-12: https://www.ecfr.gov/current/title-17/chapter-I/part-3
+- eCFR Title 17 Part 4, current through 2026-05-12: https://www.ecfr.gov/current/title-17/chapter-I/part-4
+- eCFR Title 17 Part 33, current through 2026-05-12: https://www.ecfr.gov/current/title-17/chapter-I/part-33
 
 ## Remaining Queue
 
-60 imported QCMs remain non-verified:
+29 imported QCMs remain non-verified:
 
 | Status | Count | Main reason |
 | --- | ---: | --- |
-| Needs review | 31 | Regulatory-currentness items that should not be promoted without a specific current-rule check |
+| Needs review | 0 | All imported needs-review items were either verified after correction or kept rejected as duplicates |
 | Rejected | 29 | Mostly deliberate duplicate rejects; weaker duplicates remain excluded |
 
-No S3-Market DOCX imported QCM remains in `needs_review`. Remaining rejected Market QCMs are audit-only duplicates or weaker duplicate versions.
+No imported QCM remains in `needs_review`. Remaining rejected QCMs are audit-only duplicates or weaker duplicate versions.
 
 ## Cost
 
@@ -57,7 +64,7 @@ The second recovery pass used cached LLM repair outputs plus manual and official
 
 ## App Impact
 
-- Default drills and mock exams now see 659 verified imported QCMs.
-- Needs-review imported QCMs remain optional.
+- Default drills and mock exams now see 690 verified imported QCMs.
+- The imported bank currently has no needs-review QCMs.
 - Rejected imported QCMs remain excluded from practice and mock selection.
-- Course links can now use 659 imported verified QCMs as supporting material.
+- Course links can now use 690 imported verified QCMs as supporting material.

@@ -21,13 +21,13 @@ Added `src/data/minimumCoverageQuestions.ts` with 96 original user-authored ques
 
 ## Final status
 
-- Total active verified QCMs: 1053
+- Total active verified QCMs: 1084
 - Market Knowledge active verified QCMs: 715
-- U.S. Regulations active verified QCMs: 338
+- U.S. Regulations active verified QCMs: 369
 - Subtopics below 3 active verified QCMs: 0
 - Subtopics with 0 active verified QCMs: 0
 
-The totals were updated after the imported-QCM second recovery pass. Some imported items remain needs_review or rejected, but the authored minimum-coverage set still keeps every taxonomy subtopic at or above the 3-verified-QCM floor.
+The totals were updated after the regulatory currentness pass. No imported items remain in `needs_review`; rejected duplicates remain excluded, and the authored minimum-coverage set still keeps every taxonomy subtopic at or above the 3-verified-QCM floor.
 
 ## Under-covered subtopics fixed
 

@@ -12,9 +12,9 @@ An imported question is now `verified` only when it carries embedded LLM audit m
 
 | Scope | Verified-only QCMs |
 | --- | ---: |
-| All question banks | 1053 |
+| All question banks | 1084 |
 | S3-Market DOCX | 446 |
-| S3-Regulatory PDF | 213 |
+| S3-Regulatory PDF | 244 |
 | Authored / rewritten / sample | 394 |
 
 ## Import reset state
@@ -22,10 +22,10 @@ An imported question is now `verified` only when it carries embedded LLM audit m
 | Imported source | Active QCMs | Quality status |
 | --- | ---: | --- |
 | S3-Market DOCX | 469 | 446 `verified`, 0 `needs_review`, 23 `rejected` |
-| S3-Regulatory PDF | 250 | 213 `verified`, 31 `needs_review`, 6 `rejected` |
-| Total imported | 719 | 659 `verified`, 31 `needs_review`, 29 `rejected` |
+| S3-Regulatory PDF | 250 | 244 `verified`, 0 `needs_review`, 6 `rejected` |
+| Total imported | 719 | 690 `verified`, 0 `needs_review`, 29 `rejected` |
 
-Needs-review imported QCMs are visible only when explicitly included. Rejected QCMs are excluded from drills and mock exams.
+There are no remaining imported QCMs in `needs_review`. Rejected QCMs are excluded from drills and mock exams.
 
 ## Certification rule
 
@@ -46,8 +46,8 @@ A QCM can be certified only if:
 - Practice defaults to `All question banks` + `Verified only`.
 - Mock Exam defaults to `All question banks` + `Verified only`.
 - Selecting `S3-Market DOCX` or `S3-Regulatory PDF` with `Verified only` now uses only the imported QCMs that passed the repair/audit gate.
-- Selecting `Verified + needs review` is possible, but it means deliberately including questions that still need manual or current-rule confirmation.
+- Selecting `Verified + needs review` is still supported by the UI, but the imported bank currently has no remaining `needs_review` items.
 
 ## Remaining work
 
-Remaining non-verified imported QCMs are deliberately held back because they still carry OCR/transcription uncertainty, duplicate status, ambiguous wording, calculation uncertainty, or regulatory-currentness concerns.
+Remaining non-verified imported QCMs are deliberately held back as rejected duplicates or otherwise weaker duplicate variants.

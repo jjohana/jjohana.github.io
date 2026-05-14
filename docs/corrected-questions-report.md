@@ -6,7 +6,7 @@ This list captures questions touched by the cleanup/audit pass. Many imported qu
 | --- | --- |
 | Touched/corrected questions | 0 |
 | Rejected duplicates | 29 |
-| Still needs review | 31 |
+| Still needs review | 0 |
 
 ## Corrected / Touched IDs
 | ID | Quality | Issues |

@@ -1,7 +1,7 @@
 # Series 3 Course Coverage Report
 
 Generated: 2026-05-13
-Updated after imported-QCM second recovery pass: 2026-05-14
+Updated after regulatory currentness pass: 2026-05-14
 
 ## Summary
 
@@ -10,8 +10,8 @@ The Course module covers every taxonomy subchapter in the app. It links only act
 | Section | Topics | Subtopics | Linked verified QCMs | Subtopics with no verified QCM support |
 |---|---:|---:|---:|---:|
 | Market Knowledge | 7 | 105 | 715 | 0 |
-| U.S. Regulations | 4 | 57 | 338 | 0 |
-| Total | 11 | 162 | 1053 | 0 |
+| U.S. Regulations | 4 | 57 | 369 | 0 |
+| Total | 11 | 162 | 1084 | 0 |
 
 ## Coverage gaps
 

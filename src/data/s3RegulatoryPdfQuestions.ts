@@ -599,39 +599,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "cpo-cta",
     "subtopicId": "cta-regulations",
     "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "Any person, other than a commodity pool's CPO, with authority to allocate pool assets to CTAs or investee pools is known as a \"trading manager\" and must be registered.",
+    "questionType": "multiple_choice",
+    "stem": "A person, other than the pool's CPO, is given authority to allocate a commodity pool's assets among CTAs or investee pools. What is the key registration issue?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
+        "text": "The authority may make the person a commodity trading advisor or otherwise require registration or an available exemption.",
         "isCorrect": true,
-        "rationale": "A trading manager is described as a person, other than the pool's CPO, with authority to allocate pool assets to CTAs or investee pools; the explanation states that CFTC regulations require trading managers to register as CTAs."
+        "rationale": "Allocating pool assets among trading advisers or investee pools is advisory/allocation authority over commodity interest trading and can trigger CTA-style registration analysis."
       },
       {
         "id": "b",
-        "text": "False",
+        "text": "The person is automatically exempt because only the CPO can ever need commodity-interest registration.",
         "isCorrect": false,
-        "rationale": "The statement is consistent with the source explanation, which identifies the correct answer as True."
+        "rationale": "Other persons can have registration obligations depending on their advisory, solicitation, trading, or management role."
+      },
+      {
+        "id": "c",
+        "text": "The person registers with the SEC only because commodity pools are treated solely as securities funds.",
+        "isCorrect": false,
+        "rationale": "Commodity pool activity can create CFTC/NFA registration obligations even if other securities-law obligations also apply."
+      },
+      {
+        "id": "d",
+        "text": "The person is treated as a floor broker because asset allocation is the same as exchange-floor execution.",
+        "isCorrect": false,
+        "rationale": "Asset allocation authority is not floor brokerage or floor-trading execution activity."
       }
     ],
-    "explanation": "Any person, other than a commodity pool's CPO, with authority to allocate pool assets to CTAs or investee pools is known as a trading manager. CFTC regulations require trading managers to register as commodity trading advisors.",
+    "explanation": "The reliable concept is not the legacy label itself but the registration consequence of authority over commodity pool assets. A person who selects CTAs or investee pools or otherwise directs commodity-interest exposure may be performing advisory or management functions that require CFTC/NFA registration unless an exclusion or exemption applies.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-014; sequence 14; source code 10_EZ_51.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source marks True as correct. However, the statement uses specific CFTC registration terminology for 'trading managers' that may require current-rule verification before being treated as app-verified content. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-014; sequence 14; source code 10_EZ_51. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "14",
     "sourceQuestionNumber": 14,
     "sourceCode": "10_EZ_51",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-015",
@@ -828,40 +840,52 @@ export const regulatoryPdfQuestions: Question[] = [
     "sectionId": "us_regulations",
     "topicId": "general-regulatory",
     "subtopicId": "risk-disclosure",
-    "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "In lieu of providing a prospective customer with a separate CFTC futures risk-disclosure statement (CFTC Regulation 1.55) and an options risk-disclosure statement (CFTC Regulation 33.7), an FCM or IB may provide a customer with the multi-jurisdictional, \"generic risk-disclosure statement.\"",
+    "difficulty": "easy",
+    "questionType": "multiple_choice",
+    "stem": "Before opening a commodity futures account for a non-exempt customer, what must an FCM or introducing broker do under CFTC risk-disclosure rules?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
+        "text": "Provide the prescribed futures risk disclosure statement and obtain the customer's signed and dated acknowledgment.",
         "isCorrect": true,
-        "rationale": "CFTC regulations permit use of the multi-jurisdictional generic risk-disclosure statement instead of separate futures and commodity options risk-disclosure statements."
+        "rationale": "CFTC Regulation 1.55 requires the disclosure statement before opening the account and requires an acknowledgment from the customer."
       },
       {
         "id": "b",
-        "text": "False",
+        "text": "Give only the firm's marketing brochure because risk disclosure is optional if the customer asks to trade.",
         "isCorrect": false,
-        "rationale": "This is false because the generic risk-disclosure statement may be used in lieu of separate futures and commodity options risk-disclosure statements."
+        "rationale": "The prescribed risk disclosure is a regulatory requirement, not optional marketing material."
+      },
+      {
+        "id": "c",
+        "text": "Wait until after the first trade so the disclosure can be tailored to the customer's actual positions.",
+        "isCorrect": false,
+        "rationale": "The disclosure must be provided before the futures account is opened."
+      },
+      {
+        "id": "d",
+        "text": "Replace the CFTC statement with oral disclosure by the associated person.",
+        "isCorrect": false,
+        "rationale": "Oral disclosure is not a substitute for the prescribed written disclosure and acknowledgment."
       }
     ],
-    "explanation": "CFTC regulations permit the use of the multi-jurisdictional \"generic risk-disclosure statement\" in lieu of separate futures and commodity options risk-disclosure statements.",
+    "explanation": "CFTC Regulation 1.55 is the current reliable anchor: before opening a commodity futures account for an ordinary customer, the FCM or, for an introduced account, the IB must furnish the prescribed risk disclosure and receive the customer's signed and dated acknowledgment.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-019; sequence 19; source code 10_EZ_52.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and internally consistent, but the cited regulatory framework appears dated. CFTC risk disclosure rules have been amended since the source material; verify current applicability of references to CFTC Regulations 1.55 and 33.7 and the multi-jurisdictional generic risk-disclosure statement before marking as verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-019; sequence 19; source code 10_EZ_52. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "19",
     "sourceQuestionNumber": 19,
     "sourceCode": "10_EZ_52",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-020",
@@ -908,52 +932,52 @@ export const regulatoryPdfQuestions: Question[] = [
     "sectionId": "us_regulations",
     "topicId": "cpo-cta",
     "subtopicId": "performance-records",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Hypothetical trading results cannot be presented for any trading program that has:",
+    "stem": "A CTA or CPO presents simulated or hypothetical performance in promotional material. What must accompany that presentation?",
     "choices": [
       {
         "id": "a",
-        "text": "At least three years of actual client trading results.",
-        "isCorrect": false,
-        "rationale": "A program with three years of actual client trading results exceeds the threshold, but this is not the specific regulatory threshold tested by the source item."
+        "text": "A prominent caution explaining that the results are simulated or hypothetical and do not represent actual trading.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 4.41 requires prescribed cautionary disclosure when simulated or hypothetical performance is presented."
       },
       {
         "id": "b",
-        "text": "At least three months of actual client or proprietary trading results.",
-        "isCorrect": true,
-        "rationale": "Hypothetical trading results may not be presented for a trading program that has at least three months of actual client or proprietary trading results."
+        "text": "A statement that hypothetical results are equivalent to actual customer trading results.",
+        "isCorrect": false,
+        "rationale": "That would be misleading; hypothetical performance has inherent limitations."
       },
       {
         "id": "c",
-        "text": "At least six months of client, but not proprietary trading results.",
+        "text": "No disclosure, provided the back-test shows a profit.",
         "isCorrect": false,
-        "rationale": "The threshold is at least three months, and it may be based on actual client or proprietary trading results."
+        "rationale": "Profitability does not remove the cautionary disclosure requirement."
       },
       {
         "id": "d",
-        "text": "At least six months of client or proprietary trading results.",
+        "text": "A guarantee that future customers will achieve similar results.",
         "isCorrect": false,
-        "rationale": "Six months is longer than the threshold; the rule tested uses at least three months of actual client or proprietary trading results."
+        "rationale": "Guarantees of similar future results are improper and contrary to the purpose of the caution."
       }
     ],
-    "explanation": "Hypothetical trading results may not be presented for any trading program that has at least three months of actual client or proprietary trading results.",
+    "explanation": "The older source item used a narrow three-month actual-results rule. The current app-ready rule is broader and safer: under CFTC Regulation 4.41, simulated or hypothetical performance must be accompanied by a prominent prescribed caution because it is not actual trading and may benefit from hindsight.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-021; sequence 21; source code 10_EZ_64.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source marks B as correct. However, rules governing hypothetical performance presentation have changed over time and may be more nuanced under current NFA/CFTC promotional material and performance reporting requirements, so this legacy item should be reviewed before being treated as current exam content. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-021; sequence 21; source code 10_EZ_64. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "21",
     "sourceQuestionNumber": 21,
     "sourceCode": "10_EZ_64",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-022",
@@ -2113,41 +2137,53 @@ export const regulatoryPdfQuestions: Question[] = [
     "id": "s3-regulatory-pdf-048",
     "sectionId": "us_regulations",
     "topicId": "general-regulatory",
-    "subtopicId": "speculative-position-limits",
-    "difficulty": "easy",
-    "questionType": "true_false",
-    "stem": "Changes in exchange rules fixing maximum daily price limits must be approved by the CFTC.",
+    "subtopicId": "just-equitable-principles",
+    "difficulty": "medium",
+    "questionType": "multiple_choice",
+    "stem": "A designated contract market wants to amend an exchange trading rule such as a price-limit rule. Which statement best describes the CFTC role?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
+        "text": "Exchange rule changes are subject to CFTC filing, self-certification, or approval procedures under the Commodity Exchange Act framework.",
         "isCorrect": true,
-        "rationale": "Designated contract market rule changes regarding maximum daily price limits are regulatory rule changes that must be submitted for CFTC review/approval under the framework described by the source."
+        "rationale": "DCM rule changes are not purely private changes; they are subject to the CFTC rule-submission framework."
       },
       {
         "id": "b",
-        "text": "False",
+        "text": "The exchange may change the rule privately without any CFTC filing or oversight.",
         "isCorrect": false,
-        "rationale": "The source states that such changes must be submitted to and approved by the CFTC."
+        "rationale": "Exchange rules remain subject to CFTC oversight and filing procedures."
+      },
+      {
+        "id": "c",
+        "text": "Only NFA approves exchange trading rules; the CFTC has no role.",
+        "isCorrect": false,
+        "rationale": "NFA is important for member regulation, but DCM rule submissions are part of the CFTC oversight framework."
+      },
+      {
+        "id": "d",
+        "text": "A rule change is valid only after each customer gives written consent.",
+        "isCorrect": false,
+        "rationale": "Customer consent is not the mechanism for exchange rule certification or approval."
       }
     ],
-    "explanation": "Changes in exchange rules fixing maximum daily price limits must be submitted to, and approved by, the CFTC.",
+    "explanation": "The source's absolute 'must be approved' wording is too crude for current rules. The current exam-useful point is that DCM rule changes are subject to the CFTC rule-submission framework, which may involve self-certification, prior approval, or review depending on the rule and procedure used.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-048; sequence 48; source code 10_EZ_7.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is fully readable and internally consistent, with A/True shown as correct. However, the regulatory statement may be outdated or oversimplified under current CFTC self-certification/prior-approval procedures for exchange rule amendments, so it should be reviewed before being marked verified for a current Series 3 item bank. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-048; sequence 48; source code 10_EZ_7. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "48",
     "sourceQuestionNumber": 48,
     "sourceCode": "10_EZ_7",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-049",
@@ -2499,39 +2535,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "general-regulatory",
     "subtopicId": "just-equitable-principles",
     "difficulty": "easy",
-    "questionType": "true_false",
-    "stem": "Ethics training, while a good business practice, is not required by U.S. law for registered futures professionals.",
+    "questionType": "multiple_choice",
+    "stem": "Which statement best reflects the current regulatory treatment of ethics training for futures registrants?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
-        "isCorrect": false,
-        "rationale": "Ethics training is not merely a voluntary good business practice; the source states that CFTC regulations require individual registrants to receive ethics training."
+        "text": "Ethics training is part of a firm's supervision and fitness culture, and CFTC guidance allows flexible firm-specific programs rather than one universal fixed-hour schedule.",
+        "isCorrect": true,
+        "rationale": "CFTC Part 3 Appendix B treats ethics training as relevant to supervision and fitness and allows flexibility in method and timing."
       },
       {
         "id": "b",
-        "text": "False",
-        "isCorrect": true,
-        "rationale": "CFTC regulations require registrants who are individuals to receive ethics training so they understand their public responsibilities under the Commodity Exchange Act and applicable CFTC, exchange, NFA, federal, and state rules."
+        "text": "Ethics training is prohibited because only technical proficiency exams may be used.",
+        "isCorrect": false,
+        "rationale": "Ethics training is not prohibited; it is an important compliance and supervision tool."
+      },
+      {
+        "id": "c",
+        "text": "Ethics training is required only for customers, not registrants or associated persons.",
+        "isCorrect": false,
+        "rationale": "The guidance is directed at registrants and personnel, not customer education."
+      },
+      {
+        "id": "d",
+        "text": "A firm can ignore ethics training because supervision rules do not cover conduct standards.",
+        "isCorrect": false,
+        "rationale": "Supervision and ethical conduct are closely linked under the regulatory framework."
       }
     ],
-    "explanation": "The statement is false. The source explanation states that CFTC regulations require individual registrants to receive ethics training regarding their responsibilities to the public, including just and equitable principles of trade and applicable laws, rules, and regulations.",
+    "explanation": "The old fixed-hour ethics-training formulation is not the best current study point. Current CFTC guidance treats ethics training as a flexible supervision and fitness practice. A firm should maintain a culture and program that keeps relevant personnel aware of ethical duties and regulatory changes.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-057; sequence 57; source code 10_EZ_49.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the answer is clear. However, the regulatory premise may be outdated because the CFTC's former explicit ethics training rule requirements have changed over time; this should be checked against current Series 3/NFA/CFTC requirements before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-057; sequence 57; source code 10_EZ_49. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "57",
     "sourceQuestionNumber": 57,
     "sourceCode": "10_EZ_49",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-058",
@@ -4901,54 +4949,53 @@ export const regulatoryPdfQuestions: Question[] = [
     "id": "s3-regulatory-pdf-109",
     "sectionId": "us_regulations",
     "topicId": "general-regulatory",
-    "subtopicId": "risk-disclosure",
-    "difficulty": "easy",
+    "subtopicId": "cftc-registration",
+    "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "After the Dodd-Frank Act expanded the scope of federal derivatives regulation, which set of products is treated as falling within the broad category of regulated derivatives for Series 3 purposes?",
+    "stem": "For Series 3 regulatory purposes after Dodd-Frank, which group best reflects the broad set of commodity-interest products regulated by the CFTC framework?",
     "choices": [
       {
         "id": "a",
-        "text": "Futures contracts and options on futures only.",
-        "isCorrect": false,
-        "rationale": "Futures and options on futures are included, but the Dodd-Frank-era regulatory framework also covers additional products such as swaps and retail foreign exchange contracts."
+        "text": "Futures contracts, options on futures, retail forex where covered, and swaps.",
+        "isCorrect": true,
+        "rationale": "The CFTC framework covers futures, options on futures, swaps, and certain retail forex activity."
       },
       {
         "id": "b",
-        "text": "Retail foreign exchange contracts only.",
+        "text": "Only exchange-traded equity securities.",
         "isCorrect": false,
-        "rationale": "Retail foreign exchange contracts are included, but they are not the only products in the broad regulated derivatives category."
+        "rationale": "Equity securities are primarily securities-law products, not the full CFTC commodity-interest scope."
       },
       {
         "id": "c",
-        "text": "Swaps only.",
+        "text": "Only agricultural futures contracts traded by floor brokers.",
         "isCorrect": false,
-        "rationale": "Swaps were a major focus of Dodd-Frank, but the category is broader than swaps alone."
+        "rationale": "The CFTC framework is much broader than agricultural futures and floor trading."
       },
       {
         "id": "d",
-        "text": "Futures contracts, options on futures, retail foreign exchange contracts, and swaps.",
-        "isCorrect": true,
-        "rationale": "For Series 3 study purposes, the Dodd-Frank-era framework treats futures, options on futures, retail foreign exchange contracts, and swaps as regulated derivative products."
+        "text": "Only cash commodity transactions with immediate delivery.",
+        "isCorrect": false,
+        "rationale": "Ordinary cash transactions with immediate delivery are not the broad derivatives scope tested here."
       }
     ],
-    "explanation": "The source item tests the broad Dodd-Frank-era regulatory concept that futures, options on futures, retail foreign exchange contracts, and swaps are all treated as derivative products within the scope of commodities regulation. The answer choice has been rewritten to avoid the banned 'all of the above' format.",
+    "explanation": "The source item was moved out of risk disclosure because it tests regulatory scope. After Dodd-Frank, swaps joined futures and options on futures as central CFTC-regulated commodity-interest products, with retail forex also covered in specific circumstances.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-109; sequence 109; source code 10_IM_123.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source text and intended answer are clear, and the banned 'all of the above' format has been repaired. However, the allowed taxonomy does not contain a precise Dodd-Frank/derivatives-definitions subtopic under U.S. Regulations. The closest existing placement is general-regulatory, but 'risk-disclosure' is not substantively correct. In addition, because this is a regulatory/legal-definition item tied to Dodd-Frank terminology and may require confirmation against current CFTC/NFA phrasing, it should not be promoted to verified without legal/source validation. Repair: Rewrote the stem and answer choices into standalone semantic choices and removed the source's 'All of the above' format while preserving the tested concept.",
-    "issueTypes": [
-      "wrong_taxonomy",
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-109; sequence 109; source code 10_IM_123. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "109",
     "sourceQuestionNumber": 109,
     "sourceCode": "10_IM_123",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-110",
@@ -5060,39 +5107,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "general-regulatory",
     "subtopicId": "just-equitable-principles",
     "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "Research analysts can be directly under the control and supervision of the trading department, provided that the NFA has approved the firm's procedures that provide sufficient safeguard.",
+    "questionType": "multiple_choice",
+    "stem": "Under the CFTC conflict-of-interest framework for FCMs and IBs, which statement about research analysts and trading personnel is most accurate?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
-        "isCorrect": false,
-        "rationale": "CFTC conflict-of-interest rules prohibit research analysts from being under the direct control or supervision of trading or clearing departments."
+        "text": "The firm must maintain policies and procedures designed to separate research from business trading influence that could compromise independence.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 1.71 requires conflict-of-interest policies and controls around research and business trading units."
       },
       {
         "id": "b",
-        "text": "False",
-        "isCorrect": true,
-        "rationale": "Research analysts cannot be under the control and supervision of trading or clearing departments pursuant to CFTC Regulation 1.71."
+        "text": "Research analysts may be placed directly under trading-desk supervision if NFA approves it informally.",
+        "isCorrect": false,
+        "rationale": "The current rule focuses on written conflicts policies and controls; direct trading-desk control is not the safe answer."
+      },
+      {
+        "id": "c",
+        "text": "Research rules apply only to securities broker-dealers and never to FCMs or IBs.",
+        "isCorrect": false,
+        "rationale": "CFTC Regulation 1.71 applies to FCMs and IBs."
+      },
+      {
+        "id": "d",
+        "text": "Research independence is irrelevant if the report is distributed only online.",
+        "isCorrect": false,
+        "rationale": "Distribution channel does not remove the conflict-of-interest concern."
       }
     ],
-    "explanation": "Research analysts cannot be under the control and supervision of the trading or clearing departments pursuant to CFTC Regulation 1.71, which addresses conflicts of interest between trading and clearing functions and research functions.",
+    "explanation": "CFTC Regulation 1.71 addresses conflicts of interest for FCMs and IBs, including research-related safeguards. The exam-useful point is that firms need policies and procedures to protect research integrity from improper business trading influence.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-112; sequence 112; source code 10_IM_125.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "Readable true/false item with a clear displayed answer. Marked needs_review because the source explanation calls CFTC Regulation 1.71 \"new\" and the exact current applicability/terminology should be checked before app publication. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-112; sequence 112; source code 10_IM_125. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "112",
     "sourceQuestionNumber": 112,
     "sourceCode": "10_IM_125",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-113",
@@ -5285,50 +5344,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "arbitration-procedures",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Under the source rule, which situation would allow an NFA arbitration proceeding to be conducted entirely through written submissions?",
+    "stem": "Under current NFA customer arbitration guidance, when is a case generally handled through written submissions instead of an oral hearing?",
     "choices": [
       {
         "id": "a",
-        "text": "The aggregate amount of the claims, excluding interest and costs, does not exceed $5,000.",
+        "text": "Claims of $25,000 or less are resolved through summary proceedings, and claims over $25,000 up to $50,000 are also written unless an oral hearing is timely requested.",
         "isCorrect": true,
-        "rationale": "The source lists this as one situation in which an NFA arbitration may be handled entirely through written submissions."
+        "rationale": "Current NFA customer arbitration guidance describes summary/written proceedings for these claim ranges."
       },
       {
         "id": "b",
-        "text": "The aggregate amount of the claims exceeds $10,000 and one party requests an oral hearing.",
+        "text": "Only claims of $5,000 or less can ever be handled through written submissions.",
         "isCorrect": false,
-        "rationale": "A requested oral hearing prevents the proceeding from being handled entirely through written submissions under the source rule."
+        "rationale": "That old threshold is too low under current NFA guidance."
       },
       {
         "id": "c",
-        "text": "The parties agree to waive an oral hearing, but the arbitration panel does not consent to the waiver.",
+        "text": "Every arbitration claim requires a live oral hearing regardless of amount.",
         "isCorrect": false,
-        "rationale": "The source requires the panel to consent to the parties' written agreement to waive an oral hearing."
+        "rationale": "NFA summary proceedings can be based on written submissions."
       },
       {
         "id": "d",
-        "text": "The aggregate amount of the claims is more than $10,000, and no written waiver of oral hearing has been agreed to by the parties.",
+        "text": "Written submissions are used only if the respondent defaults.",
         "isCorrect": false,
-        "rationale": "The source does not list this as a situation in which the proceeding is conducted entirely through written submissions."
+        "rationale": "Claim amount and procedural rules, not only default, determine summary proceedings."
       }
     ],
-    "explanation": "The source states that an NFA arbitration proceeding may be conducted entirely through written submissions when the aggregate claims, excluding interest and costs, do not exceed $5,000. The source also lists other written-submission situations, but the item has been rewritten to test one standalone condition without using an \"all of the above\" format.",
+    "explanation": "The source's $5,000 threshold was outdated. Current NFA customer arbitration guidance says claims involving $25,000 or less are resolved through summary proceedings, and claims over $25,000 but not more than $50,000 are also handled through written submissions unless an oral hearing is timely requested with the required fee.",
     "sourceType": "imported",
     "active": true,
     "concept": "Arbitration, Discipline and Enforcement",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-117; sequence 117; source code 10_IM_89.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The banned 'All of the above' format has been removed and the item now has one semantic correct answer. However, the dollar thresholds for NFA arbitration written-submission procedures are specific regulatory thresholds and may be outdated relative to current NFA rules, so the question should not be verified without current-rule confirmation. Repair: Rewrote the item to eliminate the 'All of the above' answer choice and make one standalone condition the correct answer while preserving the tested concept from the source.",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-117; sequence 117; source code 10_IM_89. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "117",
     "sourceQuestionNumber": 117,
     "sourceCode": "10_IM_89",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-118",
@@ -5478,53 +5537,53 @@ export const regulatoryPdfQuestions: Question[] = [
     "id": "s3-regulatory-pdf-121",
     "sectionId": "us_regulations",
     "topicId": "general-regulatory",
-    "subtopicId": "cftc-registration",
+    "subtopicId": "registration-exemptions",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Before a foreign stock-index futures contract may be offered or sold to a U.S. person, which regulator is identified as providing the required no-action relief?",
+    "stem": "A foreign futures-related product is proposed to be offered to U.S. persons. What is the safest regulatory conclusion?",
     "choices": [
       {
         "id": "a",
-        "text": "Commodity Futures Trading Commission",
+        "text": "The offer may require CFTC or other U.S. regulatory relief, recognition, registration, or other permission before it is made to U.S. persons.",
         "isCorrect": true,
-        "rationale": "The source states that foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person."
+        "rationale": "Foreign trading status does not automatically make a product freely offerable to U.S. persons."
       },
       {
         "id": "b",
-        "text": "National Futures Association",
+        "text": "Foreign futures products are never subject to U.S. regulatory restrictions.",
         "isCorrect": false,
-        "rationale": "NFA is a self-regulatory organization, but the source identifies the CFTC-not NFA-as the regulator providing the no-action letter."
+        "rationale": "U.S. persons can trigger U.S. regulatory requirements even for foreign products."
       },
       {
         "id": "c",
-        "text": "Securities and Exchange Commission",
+        "text": "The SEC is always the only regulator because the product is foreign.",
         "isCorrect": false,
-        "rationale": "The SEC regulates securities markets, but the source identifies the CFTC as the required source of no-action relief for this futures-contract offering issue."
+        "rationale": "Depending on the product, CFTC jurisdiction or relief can be central."
       },
       {
         "id": "d",
-        "text": "Financial Industry Regulatory Authority",
+        "text": "NFA approval alone always replaces any CFTC requirement.",
         "isCorrect": false,
-        "rationale": "FINRA is a securities industry self-regulatory organization and is not identified by the source as providing the required no-action relief."
+        "rationale": "NFA membership or oversight does not automatically replace CFTC requirements."
       }
     ],
-    "explanation": "The source-tested rule is that a foreign stock-index futures contract must receive a CFTC no-action letter before it can be offered or sold to a U.S. person.",
+    "explanation": "The older source referred to specific no-action practices. The current reliable concept is broader: offering foreign futures-related products to U.S. persons can require CFTC recognition, relief, registration, or other regulatory analysis. Do not assume foreign products are freely offerable in the United States.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-121; sequence 121; source code 10_IM_29.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source and answer are clear, and the banned 'All of the above' distractor has been replaced. However, the foreign stock-index futures no-action framework may be affected by current CFTC staff guidance, foreign board of trade rules, and Part 30/foreign contract offering requirements, so it should not be promoted to verified without regulatory confirmation. Repair: Rewrote the stem for clarity, expanded regulator names, removed the banned 'All of the above' answer choice, and supplied standalone choices with one source-based correct answer.",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-121; sequence 121; source code 10_IM_29. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "121",
     "sourceQuestionNumber": 121,
     "sourceCode": "10_IM_29",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-122",
@@ -6896,50 +6955,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "disclosure-documents",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A CTA generally must file with the CFTC and NFA a disclosure document for each trading program it offers:",
+    "stem": "Before a registered CTA enters into an advisory agreement for a trading program with a prospective client, what must generally happen?",
     "choices": [
       {
         "id": "a",
-        "text": "Any time prior to the document's first use or intended use.",
-        "isCorrect": false,
-        "rationale": "CTA/CPO disclosure documents generally must be filed with the CFTC and NFA at least 21 days before first use or intended use, not merely any time before use."
+        "text": "The CTA must deliver the required Disclosure Document and obtain the client's acknowledgment of receipt.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 4.31 requires delivery before the advisory agreement is accepted and requires an acknowledgment."
       },
       {
         "id": "b",
-        "text": "Within 10 days of its first use.",
+        "text": "The CTA can wait until after the first month of trading to deliver the Disclosure Document.",
         "isCorrect": false,
-        "rationale": "The filing must generally occur before first use or intended use, not within 10 days after first use."
+        "rationale": "Disclosure must come before the advisory relationship is accepted."
       },
       {
         "id": "c",
-        "text": "Within 30 days of its first use.",
+        "text": "The CTA needs only oral disclosure if the client is experienced.",
         "isCorrect": false,
-        "rationale": "The filing must generally occur before first use or intended use, not within 30 days after first use."
+        "rationale": "The rule requires a Disclosure Document and acknowledgment unless an exemption applies."
       },
       {
         "id": "d",
-        "text": "At least 21 days prior to its first use or intended use.",
-        "isCorrect": true,
-        "rationale": "A CTA or CPO generally must file the disclosure document with the CFTC and NFA at least 21 days prior to the document's first use or intended use."
+        "text": "The exchange clearing the trades prepares and delivers the CTA Disclosure Document.",
+        "isCorrect": false,
+        "rationale": "The CTA, not the exchange, is responsible for CTA disclosure obligations."
       }
     ],
-    "explanation": "A CTA or CPO generally must file a disclosure document with the CFTC and the NFA at least 21 days prior to the document's first use or intended use.",
+    "explanation": "The source's filing-timing formulation was dated. The current app-ready point is the core requirement in CFTC Regulation 4.31: a registered CTA must deliver a Disclosure Document for the trading program before entering into the advisory agreement and must obtain an acknowledgment of receipt.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-149; sequence 149; source code 10_IM_58.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is clear. However, the 21-day pre-use filing statement may reflect an older regulatory formulation; current CTA/CPO disclosure document review and filing requirements should be checked before treating this as verified for a current Series 3 app. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-149; sequence 149; source code 10_IM_58. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "149",
     "sourceQuestionNumber": 148,
     "sourceCode": "10_IM_58",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-149",
@@ -7366,52 +7425,52 @@ export const regulatoryPdfQuestions: Question[] = [
     "sectionId": "us_regulations",
     "topicId": "general-regulatory",
     "subtopicId": "risk-disclosure",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Futures and options risk-disclosure statements, which are required to be provided to customers prior to opening a futures or options account, must contain language prescribed by the:",
+    "stem": "Who prescribes the standard futures risk-disclosure language that must be given to customers before a commodity futures account is opened?",
     "choices": [
       {
         "id": "a",
-        "text": "Futures and options exchanges.",
-        "isCorrect": false,
-        "rationale": "Risk-disclosure wording is prescribed by CFTC regulations, not by the exchanges."
+        "text": "The CFTC.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 1.55 contains the prescribed futures risk disclosure statement."
       },
       {
         "id": "b",
-        "text": "CFTC.",
-        "isCorrect": true,
-        "rationale": "CFTC regulations prescribe the required language for futures and options risk-disclosure statements."
+        "text": "The customer's bank.",
+        "isCorrect": false,
+        "rationale": "A bank does not prescribe the CFTC futures risk disclosure language."
       },
       {
         "id": "c",
-        "text": "NFA.",
+        "text": "The customer's tax adviser.",
         "isCorrect": false,
-        "rationale": "Although NFA enforces many customer protection and disclosure obligations for members, the required risk-disclosure language referenced here is prescribed by CFTC regulation."
+        "rationale": "Tax advisers do not prescribe futures risk disclosure language."
       },
       {
         "id": "d",
-        "text": "FCM handling the account.",
+        "text": "The exchange member's marketing department.",
         "isCorrect": false,
-        "rationale": "An FCM must provide the required disclosure, but it does not prescribe the required language."
+        "rationale": "Marketing departments cannot replace the prescribed CFTC disclosure language."
       }
     ],
-    "explanation": "CFTC regulations prescribe the required wording for customer risk-disclosure statements that must be provided before opening a futures or options account. The source explanation references CFTC Regulation 1.55 for futures risk-disclosure language and Regulation 33.7 for options risk-disclosure language.",
+    "explanation": "CFTC Regulation 1.55 contains the prescribed risk disclosure statement for commodity futures accounts. The key study point is that required futures risk-disclosure language is regulatory, not firm-written marketing language.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-159; sequence 159; source code 10_IM_12.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The question is readable and the intended answer is clear. However, the cited options regulation reference in the source explanation appears potentially outdated because Part 33 exchange-traded commodity option rules have changed over time. The general concept that CFTC-prescribed risk disclosure language is required remains consistent, but the item should be reviewed for current rule citations before being marked verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-159; sequence 159; source code 10_IM_12. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "159",
     "sourceQuestionNumber": 158,
     "sourceCode": "10_IM_12",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-159",
@@ -8261,39 +8320,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "general-regulatory",
     "subtopicId": "associated-person",
     "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "Any person whose registration as an Associated Person has terminated within the preceding 60 days may be granted a temporary AP license upon becoming associated with a new sponsor, provided the new sponsor submits the required forms and information.",
+    "questionType": "multiple_choice",
+    "stem": "An associated person's registration terminated within the preceding 60 days and the person becomes associated with a new sponsor. What may NFA grant if the required filings and certifications are made?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
+        "text": "A temporary AP license for the new sponsor, subject to the conditions in the registration rules.",
         "isCorrect": true,
-        "rationale": "A temporary AP license may be granted when a person's AP registration terminated within the preceding 60 days and the person becomes associated with a new sponsor, if the new sponsor submits the required registration materials and the person otherwise remains qualified."
+        "rationale": "CFTC Regulation 3.40 includes special temporary licensing procedures for APs whose registration terminated within the preceding 60 days."
       },
       {
         "id": "b",
-        "text": "False",
+        "text": "A permanent license with no new Form 8-R or sponsor certification.",
         "isCorrect": false,
-        "rationale": "This contradicts the stated temporary AP license rule shown in the source explanation."
+        "rationale": "Required filings and certifications still matter."
+      },
+      {
+        "id": "c",
+        "text": "An automatic exemption from AP registration for one year.",
+        "isCorrect": false,
+        "rationale": "The rule concerns temporary licensing, not a one-year exemption."
+      },
+      {
+        "id": "d",
+        "text": "A floor-trader registration because changing sponsors converts the AP role into floor trading.",
+        "isCorrect": false,
+        "rationale": "AP status and floor-trader status are different registration categories."
       }
     ],
-    "explanation": "A person whose registration as an Associated Person has terminated within the preceding 60 days and who becomes associated with a new sponsor may be granted a temporary license to act as an AP upon submission by the new sponsor of the required registration documents, provided the applicant otherwise continues to satisfy registration requirements.",
+    "explanation": "CFTC Regulation 3.40 contains temporary licensing procedures. For an AP whose registration terminated within the preceding 60 days, NFA may grant a temporary license with the new sponsor when the required Form 8-R and sponsor certifications are filed and the regulatory conditions are satisfied.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-177; sequence 177; source code 10_IM_32.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and internally consistent, with exactly one correct answer. However, the explanation references submission of a fingerprint card; modern NFA/CFTC registration processing requirements may differ, so the rule should be checked for current terminology and filing requirements before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-177; sequence 177; source code 10_IM_32. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "177",
     "sourceQuestionNumber": 176,
     "sourceCode": "10_IM_32",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-177",
@@ -8392,40 +8463,52 @@ export const regulatoryPdfQuestions: Question[] = [
     "sectionId": "us_regulations",
     "topicId": "cpo-cta",
     "subtopicId": "disclosure-documents",
-    "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "Principal-protected pools are no longer permitted by CFTC regulation.",
+    "difficulty": "easy",
+    "questionType": "multiple_choice",
+    "stem": "Which statement about principal-protected commodity pools is accurate under current CFTC Part 4 terminology?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
-        "isCorrect": false,
-        "rationale": "Incorrect."
+        "text": "A principal-protected pool is a recognized disclosure category; it is not automatically prohibited merely because it is designed to limit initial-investment losses.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 4.10 defines principal-protected pools, which confirms that the category exists."
       },
       {
         "id": "b",
-        "text": "False",
-        "isCorrect": true,
-        "rationale": "Principal-protected pools are permitted by CFTC regulation, provided required disclosures are made and the cost of funding the principal-protection feature is included in the break-even calculation."
+        "text": "All principal-protected pools are categorically banned by CFTC regulation.",
+        "isCorrect": false,
+        "rationale": "The category is defined in CFTC Part 4 and is not categorically banned on that basis alone."
+      },
+      {
+        "id": "c",
+        "text": "A pool may call itself principal-protected without explaining costs, risks, or conditions.",
+        "isCorrect": false,
+        "rationale": "Disclosure must not be misleading and must explain material terms and risks."
+      },
+      {
+        "id": "d",
+        "text": "Principal-protected status eliminates CPO disclosure obligations.",
+        "isCorrect": false,
+        "rationale": "Being principal-protected does not by itself eliminate disclosure obligations."
       }
     ],
-    "explanation": "Principal-protected pools are permitted by CFTC regulation. The pool's principal-protected nature and the protection mechanism must be disclosed. The cost of purchasing and carrying the assets used to fund the principal-protection feature must also be included in the break-even calculation, expressed as a percentage of a unit of participation.",
+    "explanation": "The source asked whether principal-protected pools are no longer permitted. Current CFTC Part 4 uses the defined term 'principal-protected pool,' so the safe answer is that the category exists, but claims about protection must be disclosed accurately and must not be misleading.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-180; sequence 180; source code 10_IM_75.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source marks B/False as correct. However, the regulatory treatment of principal-protected pools may be time-sensitive and should be checked against current CFTC/NFA disclosure requirements before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-180; sequence 180; source code 10_IM_75. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "180",
     "sourceQuestionNumber": 179,
     "sourceCode": "10_IM_75",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-180",
@@ -8489,53 +8572,53 @@ export const regulatoryPdfQuestions: Question[] = [
     "id": "s3-regulatory-pdf-181",
     "sectionId": "us_regulations",
     "topicId": "cpo-cta",
-    "subtopicId": "disclosure-documents",
-    "difficulty": "medium",
+    "subtopicId": "performance-records",
+    "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "In regard to showing extracted trading results in a Disclosure Document, the following requirement(s) apply:",
+    "stem": "A CPO or CTA includes extracted, pro forma, simulated, or hypothetical performance in a Disclosure Document. Where should that supplemental performance information generally appear?",
     "choices": [
       {
         "id": "a",
-        "text": "A CTA is prohibited from showing extracted performance results.",
-        "isCorrect": false,
-        "rationale": "Extracted performance is not categorically prohibited if the applicable disclosure conditions are met."
+        "text": "After the required disclosures, with appropriate caution and support so the presentation is not misleading.",
+        "isCorrect": true,
+        "rationale": "CFTC Part 4 requires supplemental and hypothetical/extracted performance to be presented with care and after required information."
       },
       {
         "id": "b",
-        "text": "Extracted performance results can only be used with prior approval of the NFA.",
+        "text": "Before all required performance disclosures so it receives the most emphasis.",
         "isCorrect": false,
-        "rationale": "The visible explanation identifies a disclosure-document asset-allocation condition, not prior NFA approval, as the requirement."
+        "rationale": "Required performance information should not be displaced by supplemental performance."
       },
       {
         "id": "c",
-        "text": "Extracted performance can only be used if presented in the CFTC specified Extracted Performance Table.",
+        "text": "Only in oral sales presentations so it is not part of the Disclosure Document.",
         "isCorrect": false,
-        "rationale": "The visible explanation does not state that a CFTC-specified extracted performance table is the exclusive condition."
+        "rationale": "Oral use does not avoid anti-fraud and disclosure concerns."
       },
       {
         "id": "d",
-        "text": "Extracted performance is permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program.",
-        "isCorrect": true,
-        "rationale": "The source states that extracted trading results may be shown only when the prior Disclosure Document designated the percentage of assets committed to the particular component of the overall trading program."
+        "text": "Without explanation if the extracted component performed better than the whole program.",
+        "isCorrect": false,
+        "rationale": "Selective performance without explanation can be misleading."
       }
     ],
-    "explanation": "Extracted trading results in a Disclosure Document are permitted only when the CTA's or CPO's previous Disclosure Document designated the percentage of assets that would be committed toward the particular component of the overall trading program.",
+    "explanation": "CFTC Part 4 treats extracted, pro forma, simulated, and hypothetical performance as high-risk supplemental information. The current study point is not a legacy mechanical condition, but that such performance must be supported, placed after required information, accompanied by required cautions where applicable, and not be misleading.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-182; sequence 182; source code 10_IM_118.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the keyed answer is clear. However, this is a nuanced CPO/CTA Disclosure Document performance-presentation rule, and the exact current NFA/CFTC requirements for extracted performance should be reviewed before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-182; sequence 182; source code 10_IM_118. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "182",
     "sourceQuestionNumber": 181,
     "sourceCode": "10_IM_118",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-182",
@@ -8686,52 +8769,52 @@ export const regulatoryPdfQuestions: Question[] = [
     "sectionId": "us_regulations",
     "topicId": "fcm-ib",
     "subtopicId": "net-capital-requirements",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "Under the NFA financial requirements reflected in the source, an FCM must maintain adjusted net capital at least equal to the greatest of the applicable minimum computations. Which item is one of the computations that may set the required adjusted net capital amount for an FCM?",
+    "stem": "Under current CFTC minimum financial rules, how is the basic adjusted-net-capital requirement for an FCM determined?",
     "choices": [
       {
         "id": "a",
-        "text": "The highest applicable amount among the fixed-dollar minimum, the segregation/secured-amount percentage test, the branch-office and guaranteed-IB count test, the sponsored-AP count test, and any applicable SEC broker-dealer net capital requirement.",
+        "text": "The FCM must maintain adjusted net capital at least equal to the greatest applicable required amount, including the fixed-dollar minimum, risk-based requirement, RFA requirement, and any applicable SEC broker-dealer requirement.",
         "isCorrect": true,
-        "rationale": "Correct. The source tests the principle that the FCM requirement is based on the highest applicable computation, not merely one isolated dollar amount."
+        "rationale": "CFTC Regulation 1.17 uses a greatest-of structure for FCM adjusted net capital."
       },
       {
         "id": "b",
-        "text": "Only the fixed-dollar minimum, regardless of the FCM's customer funds, branch offices, sponsored APs, or broker-dealer status.",
+        "text": "The FCM always needs only $45,000 in adjusted net capital.",
         "isCorrect": false,
-        "rationale": "Incorrect. The source indicates that the fixed-dollar minimum is compared with other applicable computations, and the highest amount controls."
+        "rationale": "$45,000 is associated with IB minimum capital, not the general FCM requirement."
       },
       {
         "id": "c",
-        "text": "Only the amount required for introducing brokers, because an FCM's capital requirement is determined solely by the IBs it guarantees.",
+        "text": "The FCM may choose the lowest applicable capital formula.",
         "isCorrect": false,
-        "rationale": "Incorrect. Guaranteed IBs may be part of a computation, but they are not the sole basis for an FCM's adjusted net capital requirement."
+        "rationale": "The rule uses the greatest applicable amount, not the lowest."
       },
       {
         "id": "d",
-        "text": "Only the exchange margin required for the FCM's proprietary futures positions.",
+        "text": "The FCM has no minimum capital requirement if it carries only customer accounts.",
         "isCorrect": false,
-        "rationale": "Incorrect. Exchange margin on proprietary positions is not the capital formula described in the source item."
+        "rationale": "Customer-account activity does not eliminate FCM financial requirements."
       }
     ],
-    "explanation": "The source question states that an FCM must maintain adjusted net capital equal to or greater than the highest applicable computation. The listed computations include the fixed-dollar minimum, a percentage of segregated and secured amounts, dollar amounts tied to branch offices or guaranteed IBs and their branches, dollar amounts tied to sponsored APs, and, for a broker-dealer, the SEC net capital requirement. This repair removes the banned \"highest of the above\" answer format while preserving the tested concept. However, the item remains under review because the source uses an older fixed-dollar FCM minimum and potentially dated formula amounts.",
+    "explanation": "CFTC Regulation 1.17 currently requires an FCM to maintain adjusted net capital equal to or above the greatest applicable amount. The fixed-dollar minimum is one component, but risk-based, registered futures association, SEC broker-dealer, and swap-dealer-related requirements can also matter.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-186; sequence 186; source code 10_IM_71.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source and tested concept are clear, and the banned 'any of the above' format has been repaired. The item should not be verified because the fixed-dollar and formula amounts in the source may be outdated under current CFTC/NFA financial requirements. Repair: Rewrote the question to eliminate the banned 'highest of any of the above' answer choice and made each choice standalone with exactly one correct answer. Preserved the educational concept that the highest applicable FCM adjusted net capital computation controls.",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-186; sequence 186; source code 10_IM_71. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "186",
     "sourceQuestionNumber": 185,
     "sourceCode": "10_IM_71",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-186",
@@ -8964,50 +9047,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "promotional-material",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "You have built a website to promote your business to Russian clientele living in Brooklyn. As a convenience to these potential customers, you have translated your disclosure documents into the Russian language. What must you do?",
+    "stem": "A Member uses foreign-language promotional material or disclosure material for U.S. customers. What is the key recordkeeping requirement?",
     "choices": [
       {
         "id": "a",
-        "text": "Maintain English translations for a period of five years from the date of last use.",
+        "text": "Maintain an English translation and keep promotional-material records for the required retention period.",
         "isCorrect": true,
-        "rationale": "NFA Rule 2-29 guidance requires members to maintain English translations of foreign-language promotional material, disclosure documents, and websites intended for customers in the United States."
+        "rationale": "NFA promotional-material guidance requires English translations of foreign-language material and record retention."
       },
       {
         "id": "b",
-        "text": "Maintain English translations for a period of three years from the date of last use.",
+        "text": "Translate only the profitable examples and not the risk disclosure.",
         "isCorrect": false,
-        "rationale": "The source states a five-year maintenance period, not three years."
+        "rationale": "The translation requirement is not limited to favorable portions."
       },
       {
         "id": "c",
-        "text": "No English translation is needed if the Russian text was written by a bona fide English speaker employed by a professional translation agency.",
+        "text": "Destroy the English version after the material is first used.",
         "isCorrect": false,
-        "rationale": "Use of a professional translator does not eliminate the requirement to maintain English translations for covered foreign-language material."
+        "rationale": "Records must be retained; destruction after first use would defeat examination access."
       },
       {
         "id": "d",
-        "text": "No English translation is needed if someone can be made available to translate the document if requested by NFA.",
+        "text": "Avoid review because foreign-language material is outside NFA communications rules.",
         "isCorrect": false,
-        "rationale": "The requirement is to maintain English translations; an ad hoc oral translator is not sufficient."
+        "rationale": "Foreign-language material for U.S. customers remains subject to communications and recordkeeping requirements."
       }
     ],
-    "explanation": "NFA Rule 2-29 guidance requires English translations of foreign-language promotional material, disclosure documents, and websites distributed to or intended for viewing by customers located in the United States, its territories, or possessions. The source identifies answer A as correct.",
+    "explanation": "NFA promotional-material guidance requires Members to retain promotional material and, where material is in another language for U.S. customers, maintain English translations so the material can be reviewed and examined.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-192; sequence 192; source code 10_IM_94.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the keyed answer is clear. However, because NFA record-retention details for foreign-language promotional material may have changed or require confirmation against the current rule/interpretive notice, the item is marked needs_review rather than verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-192; sequence 192; source code 10_IM_94. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "192",
     "sourceQuestionNumber": 191,
     "sourceCode": "10_IM_94",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-192",
@@ -9561,53 +9644,53 @@ export const regulatoryPdfQuestions: Question[] = [
     "id": "s3-regulatory-pdf-203",
     "sectionId": "us_regulations",
     "topicId": "general-regulatory",
-    "subtopicId": "associated-person",
+    "subtopicId": "just-equitable-principles",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "As required by the CFTC, new registrants must take at least four hours of initial ethics training within six months before or after being granted registration and thereafter must complete follow-up training of at least:",
+    "stem": "Which statement is most accurate about ethics training under current CFTC guidance?",
     "choices": [
       {
         "id": "a",
-        "text": "Two hours every two years.",
-        "isCorrect": false,
-        "rationale": "Follow-up ethics training was stated as at least one hour every three years, not two hours every two years."
+        "text": "CFTC guidance allows firms flexibility to design ethics training appropriate to their business, personnel, and supervision needs.",
+        "isCorrect": true,
+        "rationale": "CFTC Part 3 Appendix B is a Statement of Acceptable Practices and recognizes flexible approaches."
       },
       {
         "id": "b",
-        "text": "Three hours every two years.",
+        "text": "Every registrant must complete exactly one hour every three years, regardless of the firm's program.",
         "isCorrect": false,
-        "rationale": "Follow-up ethics training was stated as at least one hour every three years, not three hours every two years."
+        "rationale": "The old fixed-hour formulation is not the current safe statement."
       },
       {
         "id": "c",
-        "text": "One hour every three years.",
-        "isCorrect": true,
-        "rationale": "The source explanation states that new AP registrants must receive four hours of initial ethics training within six months of registration and at least one hour of ethics training every three years thereafter."
+        "text": "Ethics training is unrelated to supervision.",
+        "isCorrect": false,
+        "rationale": "The guidance links ethics training to fitness and adequate supervision."
       },
       {
         "id": "d",
-        "text": "One hour every two years.",
+        "text": "Only exchange floor personnel may receive ethics training.",
         "isCorrect": false,
-        "rationale": "The stated follow-up interval is every three years, not every two years."
+        "rationale": "The guidance can apply across registrants and associated personnel."
       }
     ],
-    "explanation": "CFTC regulations require new AP registrants to receive four hours of initial ethics training within six months of their registration and thereafter at least one hour of ethics training every three years.",
+    "explanation": "The legacy item stated fixed timing and duration. Current CFTC guidance is more flexible: firms may design ethics training appropriate to their activities, and the program is relevant to fitness and supervision.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-204; sequence 204; source code 10_DI_8.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source-marked answer is clear. However, the ethics training requirement described appears to reflect older CFTC/NFA ethics-training rules; current requirements should be verified before using as an app-ready regulatory item. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-204; sequence 204; source code 10_DI_8. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "204",
     "sourceQuestionNumber": 203,
     "sourceCode": "10_DI_8",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-204",
@@ -9656,50 +9739,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cpo-regulations",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "In the case of pools with net assets of less than $500,000 at the beginning of the pool's fiscal year, the CPO must distribute a financial account statement to participants at least:",
+    "stem": "A registered CPO operates a pool with net assets of $500,000 or less at the beginning of the pool's fiscal year. How often must the CPO generally distribute account statements?",
     "choices": [
       {
         "id": "a",
-        "text": "Weekly.",
-        "isCorrect": false,
-        "rationale": "Quarterly, not weekly, is the stated minimum frequency for pools with net assets of less than $500,000."
+        "text": "At least quarterly, within the applicable regulatory timing rules.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 4.22 requires at least monthly statements for pools over $500,000 and otherwise at least quarterly."
       },
       {
         "id": "b",
-        "text": "Monthly.",
+        "text": "Only once every five years.",
         "isCorrect": false,
-        "rationale": "Monthly statements apply in the explanation to pools with net assets of more than $500,000."
+        "rationale": "CPO account statements are periodic, not five-year reports."
       },
       {
         "id": "c",
-        "text": "Quarterly.",
-        "isCorrect": true,
-        "rationale": "The explanation states that CFTC regulations require CPOs to distribute account statements at least quarterly for pools with net assets of less than $500,000."
+        "text": "Daily, regardless of pool size.",
+        "isCorrect": false,
+        "rationale": "Daily distribution is not the general Part 4 account-statement rule."
       },
       {
         "id": "d",
-        "text": "Semi-annually.",
+        "text": "Never, if the pool has fewer than 100 participants.",
         "isCorrect": false,
-        "rationale": "Semi-annual distribution is less frequent than the quarterly minimum stated in the explanation."
+        "rationale": "Participant count alone does not remove the periodic account-statement requirement."
       }
     ],
-    "explanation": "CFTC regulations require CPOs to distribute account statements at least quarterly in the case of pools with net assets of less than $500,000. If the net assets are more than $500,000, then the statements are required to be distributed at least monthly. CPOs also are required to distribute to each participant an annual certified statement of financial condition.",
+    "explanation": "CFTC Regulation 4.22 provides that account statements are distributed at least monthly for pools with net assets of more than $500,000 at the beginning of the fiscal year, and otherwise at least quarterly, subject to the rule's details and annual-report exception.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-206; sequence 206; source code 10_DI_5.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and internally consistent, but the regulatory threshold/frequency for CPO periodic account statements appears potentially outdated and should be checked against current CFTC Part 4 requirements before use as a verified item. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-206; sequence 206; source code 10_DI_5. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "206",
     "sourceQuestionNumber": 205,
     "sourceCode": "10_DI_5",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-206",
@@ -9902,52 +9985,52 @@ export const regulatoryPdfQuestions: Question[] = [
     "sectionId": "us_regulations",
     "topicId": "cpo-cta",
     "subtopicId": "performance-records",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "If a CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past:",
+    "stem": "For a CTA Disclosure Document, what is the general current performance-disclosure period for the offered trading program when performance exists?",
     "choices": [
       {
         "id": "a",
-        "text": "One year.",
-        "isCorrect": false,
-        "rationale": "The required proprietary trading performance history is longer than one year."
+        "text": "The five most recent calendar years and year-to-date, or the life of the program if shorter, with monthly rates for the offered program.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 4.35 requires recent five-year and year-to-date performance disclosure, subject to life-of-program limits."
       },
       {
         "id": "b",
-        "text": "Two years.",
+        "text": "Only the single best month in the program's history.",
         "isCorrect": false,
-        "rationale": "The required proprietary trading performance history is longer than two years."
+        "rationale": "Selective best-month disclosure would be misleading and incomplete."
       },
       {
         "id": "c",
-        "text": "Three years.",
+        "text": "Only proprietary trading results, even when customer-account performance exists.",
         "isCorrect": false,
-        "rationale": "The required proprietary trading performance history is longer than three years."
+        "rationale": "Required performance disclosure focuses on the offered program and other required account/program information."
       },
       {
         "id": "d",
-        "text": "Five years.",
-        "isCorrect": true,
-        "rationale": "If a CTA has less than one year of experience directing customer accounts, the CTA must present proprietary trading performance results for the past five years."
+        "text": "No performance disclosure unless every trade was profitable.",
+        "isCorrect": false,
+        "rationale": "The rules require performance disclosure even when results include losses."
       }
     ],
-    "explanation": "If a CTA has less than one year of experience in directing customer accounts, past performance results must be shown for the CTA's proprietary trading for the past five years.",
+    "explanation": "The source used a narrow proprietary-results formulation. The current reliable CTA point is CFTC Regulation 4.35: required past performance generally covers the five most recent calendar years and year-to-date, or the life of the program if shorter, with monthly rates for the offered program.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-211; sequence 211; source code 10_DI_35.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and indicates answer D. However, CTA/CPO disclosure document performance presentation requirements may have changed over time and should be checked against current NFA/CFTC rules before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-211; sequence 211; source code 10_DI_35. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "211",
     "sourceQuestionNumber": 210,
     "sourceCode": "10_DI_35",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-211",
@@ -9956,50 +10039,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cpo-cta-promotional-material",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Audio pod-casts and videos on the internet that make specific trading recommendations or refer to profits that have been obtained in the past or can be achieved in the future must be:",
+    "stem": "A CPO or CTA publishes an online video or audio message that refers to past or possible future trading profits. What is the safest compliance treatment?",
     "choices": [
       {
         "id": "a",
-        "text": "Submitted to the NFA within 10 days of their first use.",
-        "isCorrect": false,
-        "rationale": "The source indicates prior NFA approval is required, not submission after first use."
+        "text": "Treat it as promotional material subject to NFA/CFTC communications standards, supervisory review, required disclaimers, and recordkeeping; pre-use filing may be required when a specific NFA rule category applies.",
+        "isCorrect": true,
+        "rationale": "Online audio/video profit claims are promotional communications and must comply with communications, review, disclaimer, and recordkeeping rules."
       },
       {
         "id": "b",
-        "text": "Be submitted to the NFA on a monthly basis.",
+        "text": "Treat it as exempt from all rules because it is online rather than printed.",
         "isCorrect": false,
-        "rationale": "The source does not indicate a monthly submission requirement."
+        "rationale": "Online format does not remove communications obligations."
       },
       {
         "id": "c",
-        "text": "Be submitted to the NFA for approval 10 days prior to use.",
-        "isCorrect": true,
-        "rationale": "The visible explanation states that such internet audio podcasts and videos must be submitted to the NFA for approval at least 10 days prior to use."
+        "text": "Permit profit claims without risk disclosure if the speaker is a principal.",
+        "isCorrect": false,
+        "rationale": "A principal's status does not remove anti-fraud, disclaimer, or supervision requirements."
       },
       {
         "id": "d",
-        "text": "Be available for NFA review upon request.",
+        "text": "Delete all records after posting because the public can view the video.",
         "isCorrect": false,
-        "rationale": "The source states these materials must be submitted to the NFA for approval before use, rather than merely retained for review on request."
+        "rationale": "Public availability is not a substitute for required records."
       }
     ],
-    "explanation": "According to the source explanation, audio podcasts and internet videos that make specific trading recommendations or refer to past or potential future profits must be submitted to the NFA for approval at least 10 days prior to use.",
+    "explanation": "The old item used a narrow pre-use approval formulation. The current, exam-safe point is broader: online audio and video communications that make recommendations or refer to profits are promotional material and must satisfy NFA/CFTC communications standards, including review, required disclaimers, and record retention.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-212; sequence 212; source code 10_DI_44.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The image is readable and the source answer is clear, but the regulatory filing/approval requirement for promotional material involving audio podcasts and internet videos should be checked against current NFA rules and interpretive notices before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-212; sequence 212; source code 10_DI_44. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "212",
     "sourceQuestionNumber": 211,
     "sourceCode": "10_DI_44",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-212",
@@ -10112,56 +10195,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "disclosure-documents",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A CTA's initial disclosure document, as well as amendments to it, must be filed with:",
+    "stem": "Which statement best describes current CTA Disclosure Document obligations before accepting a prospective client's advisory agreement?",
     "choices": [
       {
         "id": "a",
-        "text": "The NFA.",
-        "isCorrect": false,
-        "rationale": "The CTA must file the disclosure document with the CFTC and file copies with the NFA; NFA alone is incomplete."
+        "text": "The CTA must deliver the required Disclosure Document and receive an acknowledgment of receipt, unless an exemption applies.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 4.31 requires delivery and acknowledgment before the advisory agreement is accepted."
       },
       {
         "id": "b",
-        "text": "The CFTC.",
+        "text": "The CTA files the document only with a futures exchange and need not deliver it to the client.",
         "isCorrect": false,
-        "rationale": "The CTA must file the disclosure document with the CFTC and file copies with the NFA; CFTC alone is incomplete."
+        "rationale": "Client delivery and acknowledgment are core requirements."
       },
       {
         "id": "c",
-        "text": "The SEC.",
+        "text": "The CTA can rely solely on an oral explanation by the AP.",
         "isCorrect": false,
-        "rationale": "CTA disclosure document filing is a commodities regulatory requirement, not an SEC filing requirement."
+        "rationale": "Oral explanation does not replace the required Disclosure Document."
       },
       {
         "id": "d",
-        "text": "The CFTC, the NFA, and the SEC.",
+        "text": "The CTA has no disclosure obligation if the trading program uses only exchange-traded futures.",
         "isCorrect": false,
-        "rationale": "The SEC is not included in the filing requirement described."
-      },
-      {
-        "id": "e",
-        "text": "The CFTC and the NFA only.",
-        "isCorrect": true,
-        "rationale": "The source explanation states that a CTA is required to file its initial disclosure document and amendments with the CFTC and to file copies with the NFA."
+        "rationale": "Exchange-traded futures do not eliminate CTA disclosure obligations."
       }
     ],
-    "explanation": "A commodity trading advisor's initial disclosure document and amendments must be filed with the CFTC, with copies filed with the NFA. The SEC is not part of this CTA disclosure document filing requirement.",
+    "explanation": "The legacy source focused on filing destination. For current app use, the core rule is more reliable: a registered CTA must deliver a Disclosure Document containing required information and obtain acknowledgment before accepting the advisory agreement, unless valid relief applies.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-215; sequence 215; source code 10_DI_25.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is internally consistent, but the regulatory requirement may be outdated. Current NFA/CFTC filing processes for CPO/CTA disclosure documents have changed over time, including filing with NFA through electronic systems rather than direct CFTC filing in many contexts. Marked needs_review for regulatory currency. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-215; sequence 215; source code 10_DI_25. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "215",
     "sourceQuestionNumber": 214,
     "sourceCode": "10_DI_25",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-215",
@@ -10302,103 +10379,102 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "disclosure-documents",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "The information contained in a CTA or CPO disclosure document must be current as of the date of the disclosure document except for the performance data, which must be current as of a date not more than:",
+    "stem": "How current must performance information in a CPO or CTA Disclosure Document generally be?",
     "choices": [
       {
         "id": "a",
-        "text": "One month preceding the date of the document.",
-        "isCorrect": false,
-        "rationale": "The displayed explanation states the allowed look-back period for performance information is not more than three months, not one month."
+        "text": "Current as of a date not more than three months before the date of the Disclosure Document.",
+        "isCorrect": true,
+        "rationale": "CFTC Part 4 performance rules require performance information to be current within this three-month window."
       },
       {
         "id": "b",
-        "text": "Three months preceding the date of the document.",
-        "isCorrect": true,
-        "rationale": "The displayed explanation states that performance information in a CTA disclosure document must be current as of a date not more than three months preceding the date of the document."
+        "text": "Current as of any date within the last ten years.",
+        "isCorrect": false,
+        "rationale": "Ten years is too stale for required performance information."
       },
       {
         "id": "c",
-        "text": "Six months preceding the date of the document.",
+        "text": "Current only as of the pool's original launch date.",
         "isCorrect": false,
-        "rationale": "The displayed explanation states the maximum period is three months, not six months."
+        "rationale": "Performance information must be updated; launch-date-only information is not sufficient."
       },
       {
         "id": "d",
-        "text": "Twelve months preceding the date of the document.",
+        "text": "Current only if the program had losses.",
         "isCorrect": false,
-        "rationale": "The displayed explanation states the maximum period is three months, not twelve months."
+        "rationale": "The currency requirement applies to performance information generally."
       }
     ],
-    "explanation": "CFTC regulations provide that performance information in a CTA disclosure document must be current as of a date not more than three months preceding the date of the document.",
+    "explanation": "CFTC Part 4 provides that performance information presented in a Disclosure Document must be current as of a date not more than three months before the date of the document. This applies to required performance information, subject to the specific CPO/CTA rules.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-219; sequence 219; source code 10_DI_4.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and identifies B as the source answer. However, because this is a regulatory timing requirement for CTA/CPO disclosure documents, current rule status should be checked before marking verified. The explanation also specifically says CTA disclosure document while the stem includes both CTA and CPO. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-219; sequence 219; source code 10_DI_4. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "219",
     "sourceQuestionNumber": 218,
     "sourceCode": "10_DI_4",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-219",
     "sectionId": "us_regulations",
     "topicId": "cpo-cta",
     "subtopicId": "disclosure-documents",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "questionType": "multiple_choice",
-    "stem": "A commodity pool operator that is also required to register with the SEC must provide pool participants with which additional document, according to the source item?",
+    "stem": "A commodity pool is also subject to securities-law disclosure obligations. What is the safest CPO compliance conclusion?",
     "choices": [
       {
         "id": "a",
-        "text": "A separate SEC-required disclosure document",
-        "isCorrect": false,
-        "rationale": "The source identifies a different SEC-related document, not a separate SEC disclosure document, as the additional item."
+        "text": "The CPO must analyze and satisfy both CFTC/NFA and applicable securities-law disclosure requirements, using harmonized or exemptive relief only when available.",
+        "isCorrect": true,
+        "rationale": "Dual regulatory status can require compliance with both regimes unless valid relief applies."
       },
       {
         "id": "b",
-        "text": "An SEC-specified supplemental statement",
+        "text": "SEC registration automatically cancels all CFTC Part 4 obligations.",
         "isCorrect": false,
-        "rationale": "The source does not identify an SEC-specified supplemental statement as the required additional document."
+        "rationale": "Securities-law status does not automatically eliminate CFTC/NFA obligations."
       },
       {
         "id": "c",
-        "text": "A combined CFTC/SEC disclosure document",
+        "text": "CFTC disclosure rules always cancel SEC disclosure obligations.",
         "isCorrect": false,
-        "rationale": "The source does not state that a combined CFTC/SEC disclosure document is required."
+        "rationale": "CFTC rules do not automatically eliminate securities-law obligations."
       },
       {
         "id": "d",
-        "text": "A Statement of Additional Information",
-        "isCorrect": true,
-        "rationale": "The source states that, in addition to the CPO Disclosure Document, a CPO that must register with the SEC must provide participants with a Statement of Additional Information."
+        "text": "The pool may omit material disclosure because another regulator also reviews it.",
+        "isCorrect": false,
+        "rationale": "Material disclosure obligations remain central."
       }
     ],
-    "explanation": "The imported source item tests the idea that a CPO subject to SEC registration provides participants a Statement of Additional Information in addition to the CPO Disclosure Document. However, this regulatory point may be context-dependent and potentially affected by SEC/CFTC harmonization rules, so it should not be treated as verified without current rule confirmation.",
+    "explanation": "The source's specific Statement of Additional Information wording is too context-dependent for a verified Series 3 QCM. The reliable current concept is dual compliance: if a pool is subject to both CFTC/NFA and securities-law disclosure regimes, the CPO must analyze both and rely on harmonized or exemptive relief only when it actually applies.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-220; sequence 220; source code 10_DI_42.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "OCR/source transcription is clear and the source answer is D. The remaining issue is legal currency/context: the statement may depend on whether the pool is also an SEC-registered investment company or otherwise subject to SEC disclosure requirements, and CFTC/SEC harmonization has changed how disclosure obligations are satisfied. Repair: Preserved the source-tested answer but rewrote the stem to signal that it is source-based and improved rationales. Did not promote to verified because the regulatory rule may be outdated or context-dependent.",
-    "issueTypes": [
-      "outdated_rule",
-      "weak_explanation"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-220; sequence 220; source code 10_DI_42. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "220",
     "sourceQuestionNumber": 219,
     "sourceCode": "10_DI_42",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-220",
@@ -10458,40 +10534,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "cpo-cta",
     "subtopicId": "cpo-regulations",
     "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "Registration as a commodity pool operator is required if the total gross capital contributions to all of the operator's pools is more than $400,000 and there are more than 15 persons in any one pool.",
+    "questionType": "multiple_choice",
+    "stem": "Which condition is part of the small-pool CPO registration exemption in CFTC Regulation 4.13(a)(2)?",
     "choices": [
       {
-        "id": "true",
-        "text": "True",
+        "id": "a",
+        "text": "No pool operated by the person has more than 15 participants, and aggregate gross capital contributions for all pools do not exceed $400,000, subject to the rule's exclusions.",
         "isCorrect": true,
-        "rationale": "The imported source marks this statement as true, apparently referencing an older or simplified CPO exemption threshold."
+        "rationale": "CFTC Regulation 4.13(a)(2) contains the 15-participant and $400,000 aggregate-contribution conditions."
       },
       {
-        "id": "false",
-        "text": "False",
+        "id": "b",
+        "text": "The operator may run unlimited pools with unlimited outside capital.",
         "isCorrect": false,
-        "rationale": "The imported source does not mark this as correct; however, the rule statement may not reflect current CFTC/NFA CPO exemption standards."
+        "rationale": "The exemption has participant and contribution limits."
+      },
+      {
+        "id": "c",
+        "text": "The exemption is available only if every participant is a retail forex dealer.",
+        "isCorrect": false,
+        "rationale": "Retail forex dealer status is not the condition tested by 4.13(a)(2)."
+      },
+      {
+        "id": "d",
+        "text": "The pool must trade only securities and no commodity interests.",
+        "isCorrect": false,
+        "rationale": "The exemption is a CPO registration exemption for commodity pools meeting specified limits."
       }
     ],
-    "explanation": "The source states that CPO registration is required when an operator's aggregate pool capital contributions exceed $400,000 and any one pool has more than 15 participants. This appears to test an older/simplified CPO registration exemption threshold, but regulatory currency is uncertain and should be reviewed against current CFTC/NFA CPO registration and exemption rules before being used as a verified item.",
+    "explanation": "CFTC Regulation 4.13(a)(2) remains the current source for the small-pool exemption: none of the pools operated has more than 15 participants, and total gross capital contributions for units of participation in all pools do not exceed $400,000, subject to participant/contribution exclusions in the rule.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-222; sequence 222; source code 10_DI_36.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot and transcript clearly show the source answer as True, but the $400,000 / 15-person threshold appears potentially outdated or incomplete under current CFTC/NFA CPO exemption rules. Per repair rules, regulatory items with current-rule uncertainty should not be promoted to verified. Repair: Kept the source-tested true/false proposition but did not verify it because the regulatory threshold appears potentially outdated or oversimplified. Improved rationales and explanation to flag the current-rule concern.",
-    "issueTypes": [
-      "outdated_rule",
-      "weak_explanation"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-222; sequence 222; source code 10_DI_36. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "222",
     "sourceQuestionNumber": 221,
     "sourceCode": "10_DI_36",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-222",
@@ -10591,39 +10678,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "cpo-cta",
     "subtopicId": "cpo-regulations",
     "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "By law, every U.S. commodity pool, as well as every U.S. futures contract, is available to persons residing in any of the 50 states, regardless of any state law or regulation.",
+    "questionType": "multiple_choice",
+    "stem": "Which statement is safest regarding offering commodity pool interests across U.S. states?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
-        "isCorrect": false,
-        "rationale": "This statement is too broad. Commodity pool interests may be subject to state Blue Sky registration or exemption requirements."
+        "text": "A pool interest may raise federal and state securities-law issues, so availability in every state cannot be assumed without legal/regulatory analysis.",
+        "isCorrect": true,
+        "rationale": "Commodity pool interests can implicate securities offering rules and state-law considerations."
       },
       {
         "id": "b",
-        "text": "False",
-        "isCorrect": true,
-        "rationale": "State Blue Sky laws may apply to the offer and sale of commodity pool interests, so only clients in states where the offering has been registered or is exempt may purchase an investment in the pool."
+        "text": "Every U.S. commodity pool interest is automatically available in all states regardless of state law.",
+        "isCorrect": false,
+        "rationale": "State-law and securities-law issues can affect offerings."
+      },
+      {
+        "id": "c",
+        "text": "State law controls futures exchange contract terms but never pool interests.",
+        "isCorrect": false,
+        "rationale": "State securities or offering laws can be relevant to pool interests."
+      },
+      {
+        "id": "d",
+        "text": "Only agricultural pools are subject to any state-law restrictions.",
+        "isCorrect": false,
+        "rationale": "The issue is not limited to agricultural pools."
       }
     ],
-    "explanation": "The statement is false. State Blue Sky laws have been applied to the offer and sale of commodity pools. As a result, a commodity pool interest may be offered only in states where the offering has been registered or qualifies for an exemption from registration.",
+    "explanation": "The source's false answer remains directionally correct, but the current app-ready wording is broader and safer: commodity pool interests can involve federal and state securities-law analysis, so a CPO should not assume nationwide offering availability without checking applicable law and exemptions.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-225; sequence 225; source code 10_DI_18.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source indicates B/False. However, the regulatory treatment of commodity pool interests under state Blue Sky laws can be nuanced and may depend on current federal preemption, exemptions, and state law; therefore this should be reviewed before being treated as verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-225; sequence 225; source code 10_DI_18. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "225",
     "sourceQuestionNumber": 224,
     "sourceCode": "10_DI_18",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-225",
@@ -10684,50 +10783,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "registration-exemptions",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Which foreign futures-related products were identified in the source as requiring specific U.S. regulatory approval before being offered or sold to U.S. persons?",
+    "stem": "Which statement best describes offering foreign futures-related products to U.S. persons?",
     "choices": [
       {
         "id": "a",
-        "text": "Foreign stock-index futures and futures on foreign government debt obligations",
+        "text": "The analysis can depend on product type, foreign board access, CFTC relief or recognition, and other U.S. regulatory conditions.",
         "isCorrect": true,
-        "rationale": "The source states that foreign stock-index futures and related options required CFTC no-action relief, and that a foreign government debt obligation had to be designated an exempted security by the SEC before futures or related options on that product could be offered or sold to U.S. persons."
+        "rationale": "Foreign product access for U.S. persons is fact-specific and can require CFTC or other regulatory treatment."
       },
       {
         "id": "b",
-        "text": "Foreign stock-index futures and futures on foreign agricultural products",
+        "text": "Foreign futures and foreign government-debt futures may always be sold to U.S. persons without any U.S. review.",
         "isCorrect": false,
-        "rationale": "The source includes foreign stock-index futures, but it does not identify foreign agricultural futures as one of the listed product categories requiring the specific approval described."
+        "rationale": "U.S. regulatory conditions can apply."
       },
       {
         "id": "c",
-        "text": "Futures on foreign government debt obligations and futures on foreign agricultural products",
+        "text": "Only the foreign exchange's home regulator has any authority over U.S. customer access.",
         "isCorrect": false,
-        "rationale": "The source includes futures on foreign government debt obligations, but not foreign agricultural futures."
+        "rationale": "U.S. regulators may also have authority when U.S. persons are solicited or given access."
       },
       {
         "id": "d",
-        "text": "Foreign agricultural futures only",
+        "text": "NFA membership automatically approves every foreign product.",
         "isCorrect": false,
-        "rationale": "The source does not identify foreign agricultural futures as requiring the specific approval described."
+        "rationale": "NFA membership does not automatically approve all foreign products for U.S. customers."
       }
     ],
-    "explanation": "According to the source, foreign stock-index futures and their related options required CFTC no-action relief before being offered or sold to U.S. persons. The source also states that a foreign government debt obligation had to be designated an exempted security by the SEC before futures and related options on that obligation could be offered or sold to U.S. persons. Foreign agricultural futures were not included in the source's listed restrictions.",
+    "explanation": "The source listed legacy categories requiring approval. The current reliable study concept is that foreign futures-related products offered to U.S. persons require regulatory analysis based on the product, trading venue, CFTC relief or recognition, and other applicable U.S. conditions.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-227; sequence 227; source code 10_DI_12.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source and intended answer are clear, and the banned combination-choice format has been repaired into standalone semantic choices. However, this regulatory item should not be promoted to verified because the statement depends on potentially changed foreign board of trade access, CFTC no-action/Part 30 practices, and SEC exempted-security treatment. It is app-readable only if retained as a source-historical item or reviewed against current exam-tested rules. Repair: Rewrote the legacy A/B/C combination item into a four-choice standalone multiple-choice question with exactly one correct answer and clarified that the debt category refers to foreign government debt obligations as described in the source.",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-227; sequence 227; source code 10_DI_12. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "227",
     "sourceQuestionNumber": 226,
     "sourceCode": "10_DI_12",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-227",
@@ -10735,39 +10834,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "cpo-cta",
     "subtopicId": "cpo-regulations",
     "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "A \"major investee pool\" is defined as any pool in which another pool participates or invests at least 20 percent of the net asset value of the pool.",
+    "questionType": "multiple_choice",
+    "stem": "Under CFTC Part 4 definitions, what is a major investee pool?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
-        "isCorrect": false,
-        "rationale": "The stated 20 percent threshold is incorrect; the displayed explanation says the threshold is at least 10 percent."
+        "text": "An investee pool allocated or intended to be allocated at least 10 percent of the net asset value of the investing pool.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 4.10 defines a major investee pool using a 10 percent net asset value threshold."
       },
       {
         "id": "b",
-        "text": "False",
-        "isCorrect": true,
-        "rationale": "The displayed explanation states that a major investee pool is defined by another pool investing at least 10 percent of the net asset value of the pool, not 20 percent."
+        "text": "Any pool in which another pool invests at least 20 percent of the investee pool's own net asset value.",
+        "isCorrect": false,
+        "rationale": "The current definition uses at least 10 percent of the investing pool's net asset value."
+      },
+      {
+        "id": "c",
+        "text": "Only a pool guaranteed by the federal government.",
+        "isCorrect": false,
+        "rationale": "Guarantee status is unrelated to the major investee pool definition."
+      },
+      {
+        "id": "d",
+        "text": "Any account managed by an associated person for one customer.",
+        "isCorrect": false,
+        "rationale": "A major investee pool is a pool-to-pool allocation concept, not a single-customer account."
       }
     ],
-    "explanation": "A major investee pool is defined as any pool in which another pool invests at least 10 percent of the net asset value of the pool. Therefore, the statement using a 20 percent threshold is false.",
+    "explanation": "The source's 20 percent formulation is not current. CFTC Regulation 4.10 defines a major investee pool, with respect to a pool, as any investee pool allocated or intended to be allocated at least 10 percent of the net asset value of the pool.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-228; sequence 228; source code 10_DI_9.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is internally consistent. However, this is a specialized CPO disclosure-document definition and the current regulatory threshold/terminology should be independently confirmed before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-228; sequence 228; source code 10_DI_9. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "228",
     "sourceQuestionNumber": 227,
     "sourceCode": "10_DI_9",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-228",
@@ -10921,50 +11032,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "performance-records",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "All required performance disclosure in a CPO's Disclosure Document must be presented for:",
+    "stem": "For a CPO Disclosure Document, what period does required past-performance disclosure generally cover when the pool has sufficient history?",
     "choices": [
       {
         "id": "a",
-        "text": "The most recent two years and the year-to-date.",
-        "isCorrect": false,
-        "rationale": "CPO disclosure document performance disclosure requirements are not limited to the most recent two years plus year-to-date."
+        "text": "The most recent five calendar years and year-to-date, with life-of-pool treatment if the history is shorter.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 4.25 uses the most recent five calendar years and year-to-date framework for pool performance disclosure."
       },
       {
         "id": "b",
-        "text": "The most recent three years and the year-to-date.",
+        "text": "Only the pool's first year of trading.",
         "isCorrect": false,
-        "rationale": "The source identifies five years plus year-to-date, not three years plus year-to-date."
+        "rationale": "Required performance disclosure is not limited to the first year."
       },
       {
         "id": "c",
-        "text": "The most recent five years and the year-to-date.",
-        "isCorrect": true,
-        "rationale": "Required performance disclosure in a CPO's Disclosure Document must be presented for the most recent five years and the year-to-date."
+        "text": "Only profitable years.",
+        "isCorrect": false,
+        "rationale": "Required disclosure cannot omit losing years because they are unfavorable."
       },
       {
         "id": "d",
-        "text": "The most recent ten years and the year-to-date.",
+        "text": "Only years selected by the CPO's marketing department.",
         "isCorrect": false,
-        "rationale": "The source identifies five years plus year-to-date, not ten years plus year-to-date."
+        "rationale": "The disclosure period is rule-based, not a marketing choice."
       }
     ],
-    "explanation": "All required performance disclosure in a CPO's Disclosure Document must be presented for the most recent five years and the year-to-date.",
+    "explanation": "CFTC Regulation 4.25 requires capsule past-performance information including the annual and year-to-date rate of return for the pool for the most recent five calendar years and year-to-date, or the life of the pool if shorter.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-232; sequence 232; source code 10_DI_40.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and internally consistent, with exactly one stated correct answer. However, the regulatory lookback period for CPO/CTA performance presentation may be affected by current CFTC/NFA disclosure-document requirements and should be verified against current rules before app use. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-232; sequence 232; source code 10_DI_40. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "232",
     "sourceQuestionNumber": 231,
     "sourceCode": "10_DI_40",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-232",
@@ -11221,56 +11332,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "net-capital-requirements",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "The adjusted net capital requirement of an introducing broker may be satisfied by the greatest of which of the following?",
+    "stem": "Under current CFTC minimum financial rules, what is the baseline adjusted-net-capital test for an independent introducing broker?",
     "choices": [
       {
         "id": "a",
-        "text": "$45,000",
-        "isCorrect": false,
-        "rationale": "This is one component of the greatest-of test, but not the only one."
+        "text": "The IB must maintain adjusted net capital at least equal to the greatest applicable amount, including $45,000, any RFA requirement, and any applicable SEC broker-dealer requirement.",
+        "isCorrect": true,
+        "rationale": "CFTC Regulation 1.17 contains a greatest-of test for IB adjusted net capital, including the $45,000 baseline."
       },
       {
         "id": "b",
-        "text": "$6,000 per office operated, for introducing brokers with less than $1 million in adjusted net capital",
+        "text": "The IB needs no capital if it introduces accounts to an FCM.",
         "isCorrect": false,
-        "rationale": "This is one component of the greatest-of test, but not the only one."
+        "rationale": "Independent IBs have minimum financial requirements."
       },
       {
         "id": "c",
-        "text": "$3,000 for each associated person sponsored, for introducing brokers with less than $1 million in adjusted net capital",
+        "text": "The IB always uses the smallest listed amount.",
         "isCorrect": false,
-        "rationale": "This is one component of the greatest-of test, but not the only one."
+        "rationale": "The rule uses the greatest applicable amount."
       },
       {
         "id": "d",
-        "text": "For a securities broker-dealer, the net capital required by the SEC",
+        "text": "The IB uses the FCM capital rule of $1,000,000 in every case.",
         "isCorrect": false,
-        "rationale": "This is one component of the greatest-of test, but not the only one."
-      },
-      {
-        "id": "e",
-        "text": "The greatest amount determined using all of these methods",
-        "isCorrect": true,
-        "rationale": "The introducing broker adjusted net capital requirement is determined by applying each applicable alternative and using the greatest resulting amount."
+        "rationale": "The FCM and IB capital rules are different."
       }
     ],
-    "explanation": "Each of the listed methods must be considered when determining the adjusted net capital requirement of an introducing broker; the requirement is the greatest amount produced under the applicable alternatives.",
+    "explanation": "CFTC Regulation 1.17 currently states that each registered IB must maintain adjusted net capital equal to or above the greatest applicable amount, including $45,000, the amount required by its registered futures association, or any applicable SEC broker-dealer requirement.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-238; sequence 238; source code 10_DI_17.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is clear. However, the stated IB minimum net capital figure of $45,000 may be outdated under current NFA/CFTC requirements, so the item should be reviewed before use as a current regulatory question. The source also uses an 'All of the above' option; it was semantically rewritten in the app-ready choices. Repair pass: outdated regulatory/currentness issue retained for manual review",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-238; sequence 238; source code 10_DI_17. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "238",
     "sourceQuestionNumber": 237,
     "sourceCode": "10_DI_17",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-238",
@@ -11279,50 +11384,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cpo-regulations",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Which situation would be a factor indicating that a commodity pool operator may be required to register with the CFTC rather than qualify for the small-pool exemption described in the source?",
+    "stem": "A person wants to rely on the CFTC Regulation 4.13(a)(2) small-pool CPO exemption. Which fact would generally prevent reliance on that exemption?",
     "choices": [
       {
         "id": "a",
-        "text": "The operator runs more than one commodity pool at the same time.",
+        "text": "One of the pools operated by the person has more than 15 participants.",
         "isCorrect": true,
-        "rationale": "The source identifies operating more than one pool at any one time as a factor considered in determining whether a CPO is exempt from CFTC registration."
+        "rationale": "The exemption requires that none of the pools operated has more than 15 participants, subject to exclusions."
       },
       {
         "id": "b",
-        "text": "The operator uses more than one commodity trading advisor for a single pool.",
+        "text": "The operator keeps records of the pool's activity.",
         "isCorrect": false,
-        "rationale": "The source does not identify using more than one commodity trading advisor as a factor for this exemption determination."
+        "rationale": "Recordkeeping does not by itself prevent the exemption."
       },
       {
         "id": "c",
-        "text": "The operator receives only reimbursement for ordinary administrative costs of operating the pool.",
+        "text": "The operator has read the CFTC rules before forming the pool.",
         "isCorrect": false,
-        "rationale": "The source identifies receiving compensation beyond reimbursement for ordinary administrative costs as a factor against exemption, not receiving only reimbursement."
+        "rationale": "Regulatory awareness does not prevent the exemption."
       },
       {
         "id": "d",
-        "text": "The operator does not advertise or otherwise hold itself out to the public as a commodity pool operator.",
+        "text": "The pool has fewer than 15 participants and total gross capital contributions within the rule's limit.",
         "isCorrect": false,
-        "rationale": "The source identifies advertising or holding oneself out to the public as a pool operator as a factor against exemption; not doing so would not be the factor described."
+        "rationale": "Those facts are consistent with the exemption rather than preventing it."
       }
     ],
-    "explanation": "The source explanation states that operating more than one pool at any time and having total gross capital contributions in all operated pools over $400,000 are factors considered in determining whether a CPO is exempt from CFTC registration. It also mentions compensation beyond reimbursement for ordinary administrative costs and advertising or holding oneself out to the public as a pool operator. This rewrite avoids combination answer choices and asks for one source-supported factor.",
+    "explanation": "CFTC Regulation 4.13(a)(2) includes two core limits: no pool operated by the person has more than 15 participants, and total gross capital contributions for all pools do not exceed $400,000, subject to stated exclusions. Exceeding the participant limit would generally defeat that exemption.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-239; sequence 239; source code 10_DI_24.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source and intended answer are clear, and the item has been rewritten into standalone choices with exactly one correct answer. However, the source relies on a specific $400,000 small-pool threshold/exemption framework that may be outdated or incomplete under current CFTC/NFA rules, so it should not be promoted to verified without current regulatory confirmation. Repair: Rewrote the item to remove banned combination-answer format and to provide standalone semantic choices with one correct source-supported factor.",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-239; sequence 239; source code 10_DI_24. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "239",
     "sourceQuestionNumber": 238,
     "sourceCode": "10_DI_24",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-239",
@@ -11538,39 +11643,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "cpo-cta",
     "subtopicId": "disclosure-documents",
     "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "Under CFTC/NFA rules, CTAs and CPOs that limit their advisory or pool business to Qualified Eligible Persons may be eligible for exemptions or reduced requirements relating to disclosure documents, reporting, and recordkeeping.",
+    "questionType": "multiple_choice",
+    "stem": "What is the core effect of CFTC Regulation 4.7 for CPOs and CTAs dealing only with qualified eligible persons?",
     "choices": [
       {
-        "id": "true",
-        "text": "True",
+        "id": "a",
+        "text": "It can provide exemptions from specified Part 4 disclosure, reporting, and recordkeeping requirements when the rule's conditions are satisfied.",
         "isCorrect": true,
-        "rationale": "Certain CPOs and CTAs operating under QEP-based relief may be exempt from, or subject to reduced versions of, some disclosure, reporting, and recordkeeping requirements, provided all conditions of the applicable exemption are met."
+        "rationale": "Regulation 4.7 provides targeted relief for CPOs and CTAs operating with qualified eligible persons."
       },
       {
-        "id": "false",
-        "text": "False",
+        "id": "b",
+        "text": "It automatically exempts the firm from all CFTC and NFA rules.",
         "isCorrect": false,
-        "rationale": "The statement is directionally correct as a general Series 3 concept, although the availability and scope of relief depends on the specific rule and conditions."
+        "rationale": "The relief is specific and conditional, not a blanket exemption from all regulation."
+      },
+      {
+        "id": "c",
+        "text": "It applies to any retail customer who signs a waiver.",
+        "isCorrect": false,
+        "rationale": "The rule is tied to qualified eligible persons and specified conditions."
+      },
+      {
+        "id": "d",
+        "text": "It eliminates anti-fraud obligations.",
+        "isCorrect": false,
+        "rationale": "Anti-fraud obligations remain."
       }
     ],
-    "explanation": "Qualified Eligible Persons are sophisticated or high-net-worth participants as defined by CFTC rules. CPOs and CTAs that serve only QEPs may qualify for regulatory relief from some standard disclosure, reporting, and recordkeeping obligations, but the relief is conditional and not a blanket exemption from every requirement.",
+    "explanation": "CFTC Regulation 4.7 gives qualifying CPOs and CTAs relief from specified Part 4 requirements for pools or accounts limited to qualified eligible persons. It is conditional relief, not a blanket exemption from all CFTC/NFA obligations.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
-    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-244; sequence 244; source code 10_DI_43.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source clearly tests QEP-based CPO/CTA regulatory relief and marks True. However, the original wording is overly broad because QEP-related exemptions/reduced requirements depend on specific CFTC/NFA provisions and conditions. Regulatory details may change, so this should not be promoted to verified without current-rule confirmation. Repair: Reworded the stem and explanation to avoid implying an unconditional blanket exemption, while preserving the source-tested concept that QEP-only CPOs/CTAs may qualify for reduced regulatory requirements.",
-    "issueTypes": [
-      "outdated_rule"
-    ],
+    "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-244; sequence 244; source code 10_DI_43. Regulatory currentness checked against official NFA materials and eCFR Title 17 current through 2026-05-12, reviewed 2026-05-14.",
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Regulatory currentness fix: legacy or source-specific wording was rewritten into a current, app-ready Series 3 study question with one unambiguous correct answer.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "244",
     "sourceQuestionNumber": 243,
     "sourceCode": "10_DI_43",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 vision import + Codex regulatory currentness audit"
   },
   {
     "id": "s3-regulatory-pdf-244",
