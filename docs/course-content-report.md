@@ -1,6 +1,7 @@
 # Series 3 Course Content Report
 
 Generated: 2026-05-13
+Updated after imported-QCM repair pass: 2026-05-14
 
 ## Scope
 
@@ -12,24 +13,24 @@ The app now includes an integrated English Course module built from the existing
 - Course subchapters: 162
 - Market Knowledge chapters: 7
 - U.S. Regulations chapters: 4
-- Active verified QCMs available to support the course: 1062
-- Verified QCM references linked by the course: 1062
+- Active verified QCMs available to support the course: 974
+- Verified QCM references linked by the course: 974
 - Rejected QCMs linked: 0
 
 ## Chapter coverage
 
 | Section | Chapter | Subchapters | Linked verified QCMs |
 |---|---:|---:|---:|
-| Market Knowledge | Futures Trading Theory and Basic Functions Terminology | 11 | 103 |
-| Market Knowledge | Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment | 20 | 118 |
-| Market Knowledge | Types of Orders, Customer Accounts, Price Analysis | 17 | 87 |
-| Market Knowledge | Basic Hedging, Basis Calculations, Hedging Futures | 16 | 115 |
-| Market Knowledge | Spreading | 11 | 63 |
-| Market Knowledge | Speculating in Futures | 9 | 96 |
-| Market Knowledge | Option Hedging, Speculating, Spreading | 21 | 123 |
-| U.S. Regulations | General Regulatory Topics | 20 | 129 |
-| U.S. Regulations | FCM / IB Regulations | 13 | 84 |
-| U.S. Regulations | CPO / CTA Regulations | 13 | 96 |
+| Market Knowledge | Futures Trading Theory and Basic Functions Terminology | 11 | 94 |
+| Market Knowledge | Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment | 20 | 123 |
+| Market Knowledge | Types of Orders, Customer Accounts, Price Analysis | 17 | 89 |
+| Market Knowledge | Basic Hedging, Basis Calculations, Hedging Futures | 16 | 104 |
+| Market Knowledge | Spreading | 11 | 54 |
+| Market Knowledge | Speculating in Futures | 9 | 58 |
+| Market Knowledge | Option Hedging, Speculating, Spreading | 21 | 117 |
+| U.S. Regulations | General Regulatory Topics | 20 | 119 |
+| U.S. Regulations | FCM / IB Regulations | 13 | 83 |
+| U.S. Regulations | CPO / CTA Regulations | 13 | 85 |
 | U.S. Regulations | Arbitration, Discipline and Enforcement | 11 | 48 |
 
 ## Content elements added per subchapter

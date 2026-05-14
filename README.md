@@ -28,8 +28,8 @@ Use only:
 - QCM Bank browser by section, topic, and subtopic
 - Source-bank filters for all questions, both S3 imported sets, S3-Market DOCX only, S3-Regulatory PDF only, or authored/rewritten/sample content
 - Coverage matrix with sample/imported counts and coverage gaps
-- 742 active Market Knowledge QCMs, including the authored coverage bank, minimum-coverage questions, and the user-authorized LLM vision reimport of `S3-Market.docx`
-- Imported Market Knowledge coverage by major topic: 66 theory, 79 margins/settlement/delivery/options premiums, 51 orders/accounts/analysis, 90 hedging/basis, 35 spreading, 71 futures speculation, and 77 options QCMs
+- 738 active Market Knowledge QCMs, including the authored coverage bank, minimum-coverage questions, and the user-authorized LLM vision reimport of `S3-Market.docx`
+- Imported Market Knowledge DOCX coverage by major topic: 67 theory, 79 margins/settlement/delivery/options premiums, 50 orders/accounts/analysis, 89 hedging/basis, 35 spreading, 71 futures speculation, and 74 options QCMs; 4 DOCX items were correctly reclassified into U.S. Regulations
 - JSONL and CSV import/export
 - Question validation against content and taxonomy rules
 - Topic drills with difficulty and weak-subtopic prioritization
@@ -44,8 +44,8 @@ Use only:
 - Fixed-order support for licensed/user-provided source questions whose choices depend on A/B/C/D labels
 - Static build compatible with GitHub Pages
 - Rewritten U.S. Regulations bank based on concepts observed in `S3-Regulatory.pdf`
-- User-authorized OpenAI gpt-5.5 vision reimport of the `S3-Regulatory.pdf` regulatory bank: 250 source pages, 183 verified imported QCMs, 37 needs-review QCMs, and 30 rejected audit-only QCMs
-- User-authorized OpenAI gpt-5.5 vision reimport of the `S3-Market.docx` market bank: 469 source images, 306 verified imported QCMs, 96 needs-review QCMs, and 67 rejected audit-only QCMs
+- User-authorized OpenAI gpt-5.5 vision reimport and repair of the `S3-Regulatory.pdf` regulatory bank: 250 source pages, 210 verified imported QCMs, 34 needs-review QCMs, and 6 rejected audit-only QCMs
+- User-authorized OpenAI gpt-5.5 vision reimport and repair of the `S3-Market.docx` market bank: 469 source images, 370 verified imported QCMs, 75 needs-review QCMs, and 24 rejected audit-only QCMs
 - Dedicated regulatory focus filters for registration, account rules, FCM/IB, CPO/CTA, supervision, communications, arbitration, enforcement, AML, and high-yield review
 
 ## Course Module
@@ -176,7 +176,7 @@ The Market Knowledge section was expanded using the local source document:
 C:\Users\Jean-JacquesOhana\Documents\Ai For Alpha\2026\Series 3\S3-Market.docx
 ```
 
-That DOCX is image-based. The OpenAI gpt-5.5 vision workflow extracted the screenshots, transcribed and parsed the QCMs, audited answers and calculations, and mapped each question to the seven Market Knowledge topic groups. The app's quality gate defaults practice and mock exams to verified questions and excludes rejected items.
+That DOCX is image-based. The OpenAI gpt-5.5 vision workflow extracted the screenshots, transcribed and parsed the QCMs, audited answers and calculations, repaired non-app-ready items where possible, and mapped each question to the Series 3 taxonomy. The app's quality gate defaults practice and mock exams to verified questions and excludes rejected items.
 
 See [docs/market-docx-import-report.md](docs/market-docx-import-report.md) for counts, topic mapping, and manual-review notes.
 See [docs/llm-transcript-report.md](docs/llm-transcript-report.md), [docs/llm-reimport-cost-report.md](docs/llm-reimport-cost-report.md), and [docs/import-reset-report.md](docs/import-reset-report.md) for the LLM reimport audit.

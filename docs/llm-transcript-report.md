@@ -1,6 +1,7 @@
 # LLM Transcript Report
 
 Generated: 2026-05-14T07:02:57.245Z
+Updated after repair pass: 2026-05-14
 
 | Metric | Count |
 | --- | --- |
@@ -12,9 +13,12 @@ Generated: 2026-05-14T07:02:57.245Z
 | LLM verified before app gate | 563 |
 | LLM needs review before app gate | 127 |
 | LLM rejected before app gate | 29 |
-| App verified after safety gate | 489 |
-| App needs review after safety gate | 133 |
-| App rejected after safety gate | 97 |
+| Initial app verified after safety gate | 489 |
+| Initial app needs review after safety gate | 133 |
+| Initial app rejected after safety gate | 97 |
+| Final app verified after repair | 580 |
+| Final app needs review after repair | 109 |
+| Final app rejected after repair | 30 |
 | Duplicate rejects | 29 |
 
 ## Source Sets

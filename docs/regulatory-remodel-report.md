@@ -21,9 +21,9 @@ The PDF was first handled conservatively as a private/local extraction because i
 | Source question numbers detected | 249 |
 | Active QCM records generated for the app | 250 |
 | Transcription method | `pdftoppm` render + OpenAI gpt-5.5 vision transcript |
-| Verified imported QCMs after app safety gate | 183 |
-| Needs-review imported QCMs after app safety gate | 37 |
-| Rejected audit-only imported QCMs after app safety gate | 30 |
+| Verified imported QCMs after app safety gate and repair | 210 |
+| Needs-review imported QCMs after app safety gate and repair | 34 |
+| Rejected audit-only imported QCMs after app safety gate and repair | 6 |
 | Public rewritten questions added | 47 |
 
 The PDF has 250 rendered pages and 249 detected question numbers. The current LLM reimport keeps source-page traceability and marks duplicate/unsafe records as rejected instead of silently dropping them.

@@ -8,16 +8,16 @@ C:\Users\Jean-JacquesOhana\Documents\Ai For Alpha\2026\Series 3\S3-Market.docx
 
 ## Extraction Summary
 
-Updated after the OpenAI gpt-5.5 vision reimport. The earlier local OCR import produced 444 unique identifiable QCMs; the current app preserves all 469 source images as audited records and lets the final app quality gate decide whether each record is verified, needs review, or rejected.
+Updated after the OpenAI gpt-5.5 vision reimport and non-verified QCM repair pass. The earlier local OCR import produced 444 unique identifiable QCMs; the current app preserves all 469 source images as audited records and lets the final app quality gate decide whether each record is verified, needs review, or rejected.
 
 - Source format: image-based DOCX screenshots.
 - Images processed in document order: 469.
 - Source counter shown in the tutorial: 447 questions.
 - Unique identifiable source question numbers extracted: 444.
 - Active QCM records generated for the app: 469.
-- Verified imported QCMs after app safety gate: 306.
-- Needs-review imported QCMs after app safety gate: 96.
-- Rejected audit-only imported QCMs after app safety gate: 67.
+- Verified imported QCMs after app safety gate and repair: 370.
+- Needs-review imported QCMs after app safety gate and repair: 75.
+- Rejected audit-only imported QCMs after app safety gate and repair: 24.
 - Inactive generated QCMs: 0.
 - Raw LLM manual-review rows before final app safety gate: 68.
 
@@ -27,13 +27,15 @@ The document contains duplicate/continued screenshots for some long explanations
 
 | Topic | Imported QCMs |
 | --- | ---: |
-| Futures Trading Theory and Basic Functions Terminology | 66 |
+| Futures Trading Theory and Basic Functions Terminology | 67 |
 | Futures Margins, Options Premiums, Price Limits, Settlement, Delivery, Exercise, Assignment | 79 |
-| Types of Orders, Customer Accounts, Price Analysis | 51 |
-| Basic Hedging, Basis Calculations, Hedging Futures | 90 |
+| Types of Orders, Customer Accounts, Price Analysis | 50 |
+| Basic Hedging, Basis Calculations, Hedging Futures | 89 |
 | Spreading | 35 |
 | Speculating in Futures | 71 |
-| Option Hedging, Speculating, Spreading | 77 |
+| Option Hedging, Speculating, Spreading | 74 |
+
+Four source DOCX items were reclassified into U.S. Regulations because their content tested regulatory roles or account/confirmation concepts rather than Market Knowledge.
 
 ## Handling Rules
 

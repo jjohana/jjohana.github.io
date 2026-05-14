@@ -1,15 +1,16 @@
 # Regulatory Audit Report
 
 Generated: 2026-05-14T07:02:57.248Z
+Updated after repair pass: 2026-05-14
 
 | Metric | Count |
 | --- | --- |
 | S3-Regulatory PDF questions | 250 |
-| App-verified Regulatory imports | 183 |
-| App needs-review Regulatory imports | 37 |
-| App rejected Regulatory imports | 30 |
+| App-verified Regulatory imports | 210 |
+| App needs-review Regulatory imports | 34 |
+| App rejected Regulatory imports | 6 |
 
-Counts reflect the final app safety gate. The detailed rows below preserve the raw LLM audit status/check text for traceability.
+Counts reflect the final app safety gate after the repair pass. The detailed rows below preserve the initial raw LLM audit status/check text for traceability; current repair decisions are summarized in `docs/imported-qcm-repair-report.md`.
 
 ## Regulatory Checks
 | ID | Status | Check |

@@ -1,16 +1,17 @@
 # Market Calculation Audit Report
 
 Generated: 2026-05-14T07:02:57.248Z
+Updated after repair pass: 2026-05-14
 
 | Metric | Count |
 | --- | --- |
 | S3-Market DOCX questions | 469 |
 | Calculation-signal questions | 330 |
-| App-verified Market imports | 306 |
-| App needs-review Market imports | 96 |
-| App rejected Market imports | 67 |
+| App-verified S3-Market DOCX imports | 370 |
+| App needs-review S3-Market DOCX imports | 75 |
+| App rejected S3-Market DOCX imports | 24 |
 
-Counts reflect the final app safety gate. The detailed rows below preserve the raw LLM audit status/check text for traceability.
+Counts reflect the final app safety gate after the repair pass. The detailed rows below preserve the initial raw LLM audit status/check text for traceability; current repair decisions are summarized in `docs/imported-qcm-repair-report.md`.
 
 ## Calculation Checks
 | ID | Status | Check |

@@ -11,15 +11,15 @@ Course subchapters are linked to QCMs only when all of the following are true:
 - The question has the same `sectionId`, `topicId`, and `subtopicId` as the course subchapter.
 - The question is not rejected or quarantined.
 
-## Link results after LLM reimport
+## Link results after LLM reimport and repair
 
 | Metric | Count |
 | --- | ---: |
 | Total active questions | 1113 |
-| Active verified questions | 883 |
-| Active needs-review questions | 133 |
-| Active rejected questions | 97 |
-| Imported verified questions available to the Course module | 489 |
+| Active verified questions | 974 |
+| Active needs-review questions | 109 |
+| Active rejected questions | 30 |
+| Imported verified questions available to the Course module | 580 |
 
 ## Notes
 

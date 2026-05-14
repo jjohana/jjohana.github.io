@@ -8,56 +8,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "associated-person",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "The Associated Person registration category applies to persons associated, in a position requiring registration, with:",
+    "stem": "Associated Person registration may apply to an individual who is associated in a position requiring registration with which of the following types of firms?",
     "choices": [
       {
         "id": "a",
-        "text": "FCMs and IBs.",
-        "isCorrect": false,
-        "rationale": "This is only partially correct; associated persons may be associated with FCMs and IBs, but also with CTAs and CPOs."
+        "text": "Futures commission merchants, introducing brokers, commodity trading advisors, and commodity pool operators",
+        "isCorrect": true,
+        "rationale": "Associated Person registration applies to individuals associated in a registration-requiring capacity with FCMs, IBs, CTAs, and CPOs."
       },
       {
         "id": "b",
-        "text": "Designated exchanges.",
+        "text": "Designated contract markets only",
         "isCorrect": false,
-        "rationale": "Associated Person registration does not apply merely because a person is associated with a designated exchange."
+        "rationale": "Association with a designated exchange or designated contract market, by itself, is not the AP registration category tested here."
       },
       {
         "id": "c",
-        "text": "CTAs and CPOs.",
+        "text": "Clearinghouses and contract markets only",
         "isCorrect": false,
-        "rationale": "This is only partially correct; associated persons may be associated with CTAs and CPOs, but also with FCMs and IBs."
+        "rationale": "The AP category is tied to association with registrants such as FCMs, IBs, CTAs, and CPOs, not merely clearinghouses or contract markets."
       },
       {
         "id": "d",
-        "text": "A, B and C.",
+        "text": "Commercial hedgers that trade futures for their own business accounts",
         "isCorrect": false,
-        "rationale": "This incorrectly includes designated exchanges."
-      },
-      {
-        "id": "e",
-        "text": "A and C, only",
-        "isCorrect": true,
-        "rationale": "The source identifies E as correct. The explanation states that AP registration applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants."
+        "rationale": "A commercial hedger trading for its own business account is not, merely for that reason, a firm whose employees are covered by the AP registration category."
       }
     ],
-    "explanation": "The Associated Person registration category applies to persons associated in a registered capacity with FCMs, IBs, CTAs, CPOs, and Leverage Transaction Merchants. Among the listed choices, that corresponds to FCMs and IBs, and CTAs and CPOs, but not designated exchanges.",
+    "explanation": "The tested concept is that the Associated Person registration category applies to individuals associated, in a capacity requiring registration, with registrants such as futures commission merchants, introducing brokers, commodity trading advisors, and commodity pool operators. The original source also referenced leverage transaction merchants, but among the app-ready choices the best standalone answer is the one listing FCMs, IBs, CTAs, and CPOs, and excluding designated exchanges.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-001; sequence 1; source code 10_EZ_31.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The item is readable and the stated answer is clear, but the correct choice uses a reference-style answer choice, \"A and C, only,\" which is not app-ready under the provided rules unless safely rewritten. The source also mentions Leverage Transaction Merchants in the explanation, but they are not included as a standalone answer choice.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove letter-referenced answer choices and make each choice standalone. The source concept is clear and preserved. Repair: Converted the source's reference-style correct answer ('A and C, only') into a standalone correct choice listing FCMs, IBs, CTAs, and CPOs. Removed all answer-letter references and retained a single clearly correct answer. Second-pass review: The repaired item is readable, uses standalone answer choices, has exactly one unambiguous correct answer, and preserves the tested AP-registration concept. The omission of leverage transaction merchants from the correct choice is acceptable because the stem asks which listed types may trigger AP registration rather than asking for an exhaustive list, and the explanation appropriately notes the source reference.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "1",
     "sourceQuestionNumber": 1,
     "sourceCode": "10_EZ_31",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-002",
@@ -278,56 +272,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "futures-commission-merchant",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Which of the following is an \"Intermediary\" under the Commodity Exchange Act?",
+    "stem": "Under the Commodity Exchange Act, which pair of entities are commonly classified as intermediaries in the futures industry?",
     "choices": [
       {
         "id": "a",
-        "text": "FCM.",
-        "isCorrect": false,
-        "rationale": "An FCM is an intermediary, but this choice alone is incomplete because an IB is also an intermediary."
+        "text": "Futures commission merchants and introducing brokers.",
+        "isCorrect": true,
+        "rationale": "FCMs and IBs are intermediary registrant categories that connect customers with futures markets and related services."
       },
       {
         "id": "b",
-        "text": "IB.",
+        "text": "Designated contract markets and clearing organizations.",
         "isCorrect": false,
-        "rationale": "An IB is an intermediary, but this choice alone is incomplete because an FCM is also an intermediary."
+        "rationale": "Exchanges and clearing organizations are market infrastructure entities, not the intermediary categories tested here."
       },
       {
         "id": "c",
-        "text": "Exchange.",
+        "text": "Floor traders and floor brokers.",
         "isCorrect": false,
-        "rationale": "An exchange is not classified as an intermediary in this context."
+        "rationale": "Floor traders and floor brokers are registrant categories, but they are not the FCM/IB intermediary pair identified by this source item."
       },
       {
         "id": "d",
-        "text": "All of the above.",
+        "text": "Commodity pool operators and commodity trading advisors.",
         "isCorrect": false,
-        "rationale": "This is incorrect because an exchange is not an intermediary in this context."
-      },
-      {
-        "id": "e",
-        "text": "FCM and IB only.",
-        "isCorrect": true,
-        "rationale": "Both futures commission merchants (FCMs) and introducing brokers (IBs) are intermediaries under the Commodity Exchange Act."
+        "rationale": "CPOs and CTAs are regulated participants that operate pools or provide trading advice, but they are not the FCM/IB intermediary pair tested here."
       }
     ],
-    "explanation": "Both futures commission merchants (FCMs) and introducing brokers (IBs) are considered intermediaries under the Commodity Exchange Act; an exchange is not included in that category for this question.",
+    "explanation": "The tested concept is that futures commission merchants (FCMs) and introducing brokers (IBs) are intermediary categories under the Commodity Exchange Act framework. An exchange is not an intermediary for this purpose.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-007; sequence 7; source code 10_EZ_70.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source uses a referential answer choice, \"A and B only.\" It was safely rewritten as \"FCM and IB only,\" but the item still depends on a combined-choice format and should be reviewed before use. The visible answer and explanation are consistent.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Repaired by removing the banned combined-answer-letter and all-of-the-above formats. The revised item has four standalone semantic choices and exactly one correct answer. The concept is clear and general rather than dependent on a current numerical threshold or time-sensitive rule. Repair: Converted the source's referential answer choice \"A and B only\" into a direct correct answer and replaced weak/banned distractors with standalone regulatory categories. Second-pass review: The repaired question is readable, has exactly one unambiguous correct answer, avoids all/none/both/A-and-B formats, and uses standalone plausible choices. Rationales and explanation support the FCM/IB intermediary classification, with no calculations or obviously outdated regulatory claims. Taxonomy is appropriate for U.S. regulations/general regulatory content focused on FCMs and related intermediary categories.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "7",
     "sourceQuestionNumber": 7,
     "sourceCode": "10_EZ_70",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-008",
@@ -336,56 +324,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "commodity-exchange-act-enforcement",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Persons found to have violated the Commodity Exchange Act may be subject to:",
+    "stem": "Which outcome may result from a violation of the Commodity Exchange Act?",
     "choices": [
       {
         "id": "a",
-        "text": "Revocation of registration.",
-        "isCorrect": false,
-        "rationale": "This is one possible sanction for violations of the Commodity Exchange Act, but it is not the only sanction listed."
+        "text": "Revocation of registration, monetary penalties, criminal prosecution, or a federal court injunction may be imposed depending on the violation.",
+        "isCorrect": true,
+        "rationale": "The Commodity Exchange Act provides for multiple enforcement consequences, including registration sanctions, monetary penalties, criminal prosecution, injunctions, and cease-and-desist orders."
       },
       {
         "id": "b",
-        "text": "Monetary fines.",
+        "text": "Only a written warning may be issued because the Act does not authorize monetary or registration sanctions.",
         "isCorrect": false,
-        "rationale": "This is one possible sanction for violations of the Commodity Exchange Act, but it is not the only sanction listed."
+        "rationale": "The Act authorizes more serious sanctions than a written warning, including monetary penalties and registration-related sanctions."
       },
       {
         "id": "c",
-        "text": "Criminal prosecution.",
+        "text": "Only an exchange disciplinary panel may act because federal authorities have no enforcement role under the Act.",
         "isCorrect": false,
-        "rationale": "This is one possible consequence for violations of the Commodity Exchange Act, but it is not the only sanction listed."
+        "rationale": "Federal authorities, including the CFTC and federal courts, have enforcement roles under the Commodity Exchange Act."
       },
       {
         "id": "d",
-        "text": "Federal court injunction.",
+        "text": "Only civil remedies may be imposed because violations of the Act cannot lead to criminal prosecution.",
         "isCorrect": false,
-        "rationale": "This is one possible remedy for violations of the Commodity Exchange Act, but it is not the only sanction listed."
-      },
-      {
-        "id": "e",
-        "text": "All of the above.",
-        "isCorrect": true,
-        "rationale": "Violations of the Commodity Exchange Act may result in revocation of registration, monetary fines, criminal prosecution, federal court injunctions, and other sanctions such as cease-and-desist orders."
+        "rationale": "Certain violations of the Commodity Exchange Act can result in criminal prosecution in addition to civil or administrative remedies."
       }
     ],
-    "explanation": "All of the referenced sanctions, as well as cease and desist orders, are provided for violations of the Commodity Exchange Act.",
+    "explanation": "Violations of the Commodity Exchange Act may lead to a range of sanctions and remedies, including revocation or suspension of registration, monetary penalties, criminal prosecution, federal court injunctions, and cease-and-desist orders. The original \"all of the above\" format has been rewritten as a single best-answer question.",
     "sourceType": "imported",
     "active": true,
     "concept": "Arbitration, Discipline and Enforcement",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-008; sequence 8; source code 10_EZ_39.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the stated answer is legally/conceptually consistent. However, the source uses an 'All of the above' answer choice, which is disfavored for app-ready QCMs under the instructions unless safely rewritten; semantic rewriting would require restructuring the choices, so this item is marked needs_review rather than verified.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove the banned 'all of the above' structure while preserving the tested concept. The rule is a general, stable enforcement concept under the Commodity Exchange Act. Repair: Converted the source item from an 'all of the above' format into a single best-answer question with standalone choices and exactly one correct answer. Second-pass review: The repaired item is readable, has exactly one unambiguous correct answer, removes the original 'all of the above' format, and preserves the tested Commodity Exchange Act enforcement concept. The distractors are plausible enough for an easy regulatory question, and the explanation/rationales accurately support the answer. No calculation issues are present, and the taxonomy is appropriate.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "8",
     "sourceQuestionNumber": 8,
     "sourceCode": "10_EZ_39",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-009",
@@ -640,7 +622,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-014; sequence 14; source code 10_EZ_51.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source marks True as correct. However, the statement uses specific CFTC registration terminology for 'trading managers' that may require current-rule verification before being treated as app-verified content.",
+    "qualityNotes": "The screenshot is readable and the source marks True as correct. However, the statement uses specific CFTC registration terminology for 'trading managers' that may require current-rule verification before being treated as app-verified content. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -870,7 +852,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-019; sequence 19; source code 10_EZ_52.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and internally consistent, but the cited regulatory framework appears dated. CFTC risk disclosure rules have been amended since the source material; verify current applicability of references to CFTC Regulations 1.55 and 33.7 and the multi-jurisdictional generic risk-disclosure statement before marking as verified.",
+    "qualityNotes": "The screenshot is readable and internally consistent, but the cited regulatory framework appears dated. CFTC risk disclosure rules have been amended since the source material; verify current applicability of references to CFTC Regulations 1.55 and 33.7 and the multi-jurisdictional generic risk-disclosure statement before marking as verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -962,7 +944,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-021; sequence 21; source code 10_EZ_64.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source marks B as correct. However, rules governing hypothetical performance presentation have changed over time and may be more nuanced under current NFA/CFTC promotional material and performance reporting requirements, so this legacy item should be reviewed before being treated as current exam content.",
+    "qualityNotes": "The screenshot is readable and the source marks B as correct. However, rules governing hypothetical performance presentation have changed over time and may be more nuanced under current NFA/CFTC promotional material and performance reporting requirements, so this legacy item should be reviewed before being treated as current exam content. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -1468,56 +1450,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "written-authorization",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "In order to trade for a customer's account, an FCM, IB, or AP must have which of the following?",
+    "stem": "Before an FCM, IB, or AP may place a trade for a customer's account, which authorization is required?",
     "choices": [
       {
         "id": "a",
-        "text": "Specific customer instructions as to the precise commodity interest and amount to be purchased or sold",
-        "isCorrect": false,
-        "rationale": "This is one valid form of specific authorization, but the source's keyed answer also includes written discretionary account trading authorization."
+        "text": "Either specific customer authorization for the order, identifying the precise commodity interest and exact amount, or written discretionary trading authorization",
+        "isCorrect": true,
+        "rationale": "CFTC Rule 166.2 permits an FCM, IB, or AP to trade for a customer only with specific authorization for the order or written authorization to exercise discretion."
       },
       {
         "id": "b",
-        "text": "A written discretionary account trading authorization",
+        "text": "General oral permission to trade a particular commodity whenever the firm believes market conditions are favorable",
         "isCorrect": false,
-        "rationale": "This is one valid form of authorization, but the source's keyed answer also includes specific customer instructions for each order."
+        "rationale": "General instructions are not enough unless the account has proper written discretionary trading authorization; otherwise each order must be specifically authorized."
       },
       {
         "id": "c",
-        "text": "General instructions as to which commodity to trade",
+        "text": "A signed risk disclosure statement, without any separate order instructions or discretionary authorization",
         "isCorrect": false,
-        "rationale": "General instructions are not sufficient; the authorization must be specific for each order or must be written discretionary trading authorization."
+        "rationale": "Risk disclosure is an account-opening requirement, but it does not by itself authorize the firm or AP to place trades for the customer."
       },
       {
         "id": "d",
-        "text": "Any of the above",
+        "text": "Prior approval from the exchange for each customer order entered by the FCM, IB, or AP",
         "isCorrect": false,
-        "rationale": "General instructions alone are not sufficient, so not all listed alternatives are acceptable."
-      },
-      {
-        "id": "e",
-        "text": "A or B",
-        "isCorrect": true,
-        "rationale": "CFTC Rule 166.2 permits trading for a customer's account if the FCM, IB, or AP has specific authorization for the order or written discretionary trading authorization."
+        "rationale": "The rule concerns customer authorization, not exchange pre-approval of each customer order."
       }
     ],
-    "explanation": "CFTC Rule 166.2 (Authorization to Trade) requires FCMs, IBs, or their APs to have either specific authorization for each order or written trading authorization to effect transactions in commodity interests on behalf of a customer. Specific authorization must identify the precise commodity interest and the exact amount to be purchased or sold.",
+    "explanation": "Under CFTC Rule 166.2, an FCM, IB, or AP may not effect a transaction in commodity interests for a customer's account unless the customer has specifically authorized the order or has given written authorization for discretionary trading. Specific authorization means the customer identifies the precise commodity interest and the exact amount to be purchased or sold.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-033; sequence 33; source code 10_EZ_56.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "Readable and the keyed answer is consistent with the explanation, but the correct answer choice is a referential combination choice, \"A or B.\" The prompt rules discourage app-ready choices such as references to other choices; it should be rewritten into a standalone answer before verification.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove the referential combination choice (\"A or B\") while preserving the tested authorization concept. Exactly one standalone choice is correct. Repair: Converted the original combination-answer format into a standalone correct answer and replaced weak referential distractors with semantic distractors. Second-pass review: The repaired item is clean. The stem is clear, there is exactly one unambiguous standalone correct answer, and the distractors are plausible without using referential all/none/A-and-B formats. The explanation and rationales accurately reflect CFTC Rule 166.2: trading requires either specific customer authorization for the order or written discretionary trading authorization. No calculations are involved, the regulatory point is current and not over-specific, and the taxonomy is appropriate.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "33",
     "sourceQuestionNumber": 33,
     "sourceCode": "10_EZ_56",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-034",
@@ -1778,7 +1754,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-039; sequence 39; source code 10_EZ_54.",
     "reviewStatus": "reviewed",
     "qualityStatus": "rejected",
-    "qualityNotes": "Readable true/false item with a single correct answer shown. Terminology and regulatory concept are consistent with exchange trade execution rules and permitted exceptions under written exchange rules. Duplicate review: Exact duplicate of s3-regulatory-pdf-143.",
+    "qualityNotes": "Readable true/false item with a single correct answer shown. Terminology and regulatory concept are consistent with exchange trade execution rules and permitted exceptions under written exchange rules. Duplicate review: Exact duplicate of s3-regulatory-pdf-143. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
     "issueTypes": [
       "duplicate"
     ],
@@ -2162,7 +2138,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-048; sequence 48; source code 10_EZ_7.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is fully readable and internally consistent, with A/True shown as correct. However, the regulatory statement may be outdated or oversimplified under current CFTC self-certification/prior-approval procedures for exchange rule amendments, so it should be reviewed before being marked verified for a current Series 3 item bank.",
+    "qualityNotes": "The screenshot is fully readable and internally consistent, with A/True shown as correct. However, the regulatory statement may be outdated or oversimplified under current CFTC self-certification/prior-approval procedures for exchange rule amendments, so it should be reviewed before being marked verified for a current Series 3 item bank. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -2546,7 +2522,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-057; sequence 57; source code 10_EZ_49.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the answer is clear. However, the regulatory premise may be outdated because the CFTC's former explicit ethics training rule requirements have changed over time; this should be checked against current Series 3/NFA/CFTC requirements before marking verified.",
+    "qualityNotes": "The screenshot is readable and the answer is clear. However, the regulatory premise may be outdated because the CFTC's former explicit ethics training rule requirements have changed over time; this should be checked against current Series 3/NFA/CFTC requirements before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -3194,7 +3170,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-072; sequence 72; source code 10_EZ_1.",
     "reviewStatus": "reviewed",
     "qualityStatus": "rejected",
-    "qualityNotes": "Readable true/false item with a clear displayed correct answer and supporting explanation. The rule concept is consistent with customer segregated funds requirements for FCMs. Duplicate review: Exact duplicate of s3-regulatory-pdf-043.",
+    "qualityNotes": "Readable true/false item with a clear displayed correct answer and supporting explanation. The rule concept is consistent with customer segregated funds requirements for FCMs. Duplicate review: Exact duplicate of s3-regulatory-pdf-043. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
     "issueTypes": [
       "duplicate"
     ],
@@ -3234,7 +3210,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-073; sequence 73; source code 10_EZ_53.",
     "reviewStatus": "reviewed",
     "qualityStatus": "rejected",
-    "qualityNotes": "Question, answer, and explanation are legible. True/False format is valid and exactly one answer is correct. Regulatory concept is consistent: competitive execution is required unless a permitted exception is executed under approved exchange rules. Duplicate review: Exact duplicate of s3-regulatory-pdf-143.",
+    "qualityNotes": "Question, answer, and explanation are legible. True/False format is valid and exactly one answer is correct. Regulatory concept is consistent: competitive execution is required unless a permitted exception is executed under approved exchange rules. Duplicate review: Exact duplicate of s3-regulatory-pdf-143. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
     "issueTypes": [
       "duplicate"
     ],
@@ -3332,50 +3308,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "arbitration-procedures",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "In NFA arbitration:",
+    "stem": "Which statement accurately describes NFA arbitration proceedings?",
     "choices": [
       {
         "id": "a",
-        "text": "Proceedings are informal.",
-        "isCorrect": false,
-        "rationale": "This statement is a characteristic of NFA arbitration, but the source's correct choice is the inclusive option."
+        "text": "The proceedings are generally informal, and a party may be represented by an attorney.",
+        "isCorrect": true,
+        "rationale": "NFA arbitration is intended to be less formal than court litigation, and parties may be represented by counsel."
       },
       {
         "id": "b",
-        "text": "Parties may be represented by an attorney.",
+        "text": "The parties must appear without attorneys because legal representation is prohibited.",
         "isCorrect": false,
-        "rationale": "This statement is a characteristic of NFA arbitration, but the source's correct choice is the inclusive option."
+        "rationale": "Attorney representation is permitted in NFA arbitration."
       },
       {
         "id": "c",
-        "text": "Awards of the panel may be enforced by a court.",
+        "text": "The arbitration panel's award is only advisory and cannot be enforced in court.",
         "isCorrect": false,
-        "rationale": "This statement is a characteristic of NFA arbitration, but the source's correct choice is the inclusive option."
+        "rationale": "An NFA arbitration award may be enforced through a court."
       },
       {
         "id": "d",
-        "text": "All of the above.",
-        "isCorrect": true,
-        "rationale": "The source states that all listed statements are characteristics that apply to NFA arbitration."
+        "text": "The proceeding must follow the same formal procedural rules used in a federal court trial.",
+        "isCorrect": false,
+        "rationale": "NFA arbitration proceedings are generally informal compared with court litigation."
       }
     ],
-    "explanation": "All of the listed statements are characteristics that apply to NFA arbitration: proceedings are informal, parties may be represented by an attorney, and panel awards may be enforced by a court.",
+    "explanation": "NFA arbitration is generally an informal dispute-resolution process. Parties may be represented by an attorney, and an arbitration panel's award may be enforced by a court. The repaired item avoids the banned \"all of the above\" format by testing the same concept with one complete correct answer.",
     "sourceType": "imported",
     "active": true,
     "concept": "Arbitration, Discipline and Enforcement",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-076; sequence 76; source code 10_EZ_14.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the stated answer is clear, but the item relies on an 'All of the above' answer choice. The instruction says to avoid such choices unless safely rewritten semantically; because the source format is preserved here and alternatives A, B, and C are each true, the app-ready item should be reviewed or rewritten before verification.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove the all-of-the-above format while preserving the source-tested concept. Exactly one answer choice is correct and all choices are standalone. Repair: Converted the original all-of-the-above item into a single-best-answer question with standalone choices. The correct choice combines the true characteristics from the source, while distractors contradict those characteristics. Second-pass review: The repaired item is readable, has exactly one unambiguous correct answer, avoids all/none style formats, and the distractors are plausible and clearly incorrect. The explanation and rationales support the answer. No calculations are involved. The regulatory statements are general and consistent with NFA arbitration characteristics, and the taxonomy is appropriate.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "76",
     "sourceQuestionNumber": 76,
     "sourceCode": "10_EZ_14",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-077",
@@ -3528,50 +3504,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "customer-complaints",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "In regard to written customer options trading complaints, NFA rules require member FCMs and IBs to retain all written complaints and to:",
+    "stem": "Under NFA rules, what record must a member FCM or IB make and retain for a written customer options trading complaint?",
     "choices": [
       {
         "id": "a",
-        "text": "Make and retain a record of the date the complaint was received, the Associated Person who serviced the account, a general description of the material complained of, and what, if any, action was taken.",
+        "text": "A record showing the date received, the Associated Person who serviced the account, a general description of the complaint, and any action taken.",
         "isCorrect": true,
-        "rationale": "NFA recordkeeping rules require member FCMs and IBs to retain the written complaint and a record of when it was received, the Associated Person involved, the general nature of the complaint, and any action taken."
+        "rationale": "NFA complaint-record requirements include retaining the written complaint and making and retaining a record of the date received, the AP who serviced the account, the general nature of the complaint, and any action taken."
       },
       {
         "id": "b",
-        "text": "Immediately forward all such complaints to the NFA for review.",
+        "text": "A record showing that the complaint was immediately forwarded to NFA for review.",
         "isCorrect": false,
-        "rationale": "The requirement shown is to retain and document the complaint, not to immediately forward all complaints to NFA."
+        "rationale": "The rule tested here requires the firm to retain and document the complaint; it does not require every written complaint to be immediately forwarded to NFA."
       },
       {
         "id": "c",
-        "text": "Fill out a CFTC customer complaint form and advise the customer of CFTC reparations.",
+        "text": "A completed CFTC reparations filing prepared on behalf of the customer.",
         "isCorrect": false,
-        "rationale": "The shown NFA requirement concerns complaint retention and related records, not completing a CFTC form or advising on reparations."
+        "rationale": "A firm's complaint-record requirement is separate from CFTC reparations procedures and does not require preparing a reparations filing for the customer."
       },
       {
         "id": "d",
-        "text": "All of the above.",
+        "text": "A record showing only the customer's name and account number, with no description of the complaint or resolution.",
         "isCorrect": false,
-        "rationale": "This cannot be correct because the forwarding and CFTC-form actions are not part of the stated requirement."
+        "rationale": "The required record is more detailed; it must include the date received, the AP who serviced the account, a general description of the matter complained of, and any action taken."
       }
     ],
-    "explanation": "The NFA requires member FCMs and IBs to retain copies of all written customer options trading complaints and to make and retain a record of the date the complaint was received, the Associated Person who serviced the account, a general description of the matter complained of, and what, if any, action was taken in regard to the complaint.",
+    "explanation": "For written customer options trading complaints, NFA rules require member FCMs and IBs to retain copies of the complaints and make and retain a related record. That record must include the date the complaint was received, the Associated Person who serviced the account, a general description of the matter complained of, and what action, if any, was taken.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-080; sequence 80; source code 10_IM_59.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The item is readable and the stated answer is consistent with the displayed explanation. However, the source uses an 'All of the above' choice, which is discouraged for app-ready QCM format unless safely rewritten; no safe semantic rewrite is available from the visible text without inventing a new distractor.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove the banned 'All of the above' format and provide four standalone semantic answer choices with exactly one correct answer. Repair: Removed the 'All of the above' distractor, rewrote the stem for clarity, and added a standalone plausible distractor while preserving the tested NFA complaint-recordkeeping requirement. Second-pass review: The repaired item is clear, has exactly one unambiguous correct answer, removes the prior 'All of the above' format, and uses plausible standalone distractors. The explanation and rationales consistently support the correct answer. No calculations are present, and the regulatory/taxonomy placement is appropriate for NFA FCM/IB customer complaint recordkeeping.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "80",
     "sourceQuestionNumber": 80,
     "sourceCode": "10_IM_59",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-081",
@@ -3786,7 +3762,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-085; sequence 85; source code 10_IM_52.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the keyed answer is clear. However, current NFA Compliance Rule 2-29 promotional material recordkeeping is generally understood to require records to be kept for five years from the date of last use and readily accessible during the first two years, making the source's keyed answer likely outdated. Choice C appears to reflect the current five-year/two-year standard. Marked needs_review rather than verified due to likely outdated rule content.",
+    "qualityNotes": "The screenshot is readable and the keyed answer is clear. However, current NFA Compliance Rule 2-29 promotional material recordkeeping is generally understood to require records to be kept for five years from the date of last use and readily accessible during the first two years, making the source's keyed answer likely outdated. Choice C appears to reflect the current five-year/two-year standard. Marked needs_review rather than verified due to likely outdated rule content. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -4098,56 +4074,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "disclosure-documents",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "If a CPO charges incentive fees based on an increase in the value of the pool, then the CPO must specify which of the following?",
+    "stem": "A commodity pool operator's disclosure document states that the CPO will charge an incentive fee based on increases in the value of the pool. Which description must the disclosure document include for that incentive fee?",
     "choices": [
       {
         "id": "a",
-        "text": "How the increase in value of the pool will be calculated.",
-        "isCorrect": false,
-        "rationale": "This must be specified, but the source's credited answer includes all listed items."
+        "text": "The method used to calculate the increase in pool value, the measurement period, the amount or rate of the fee, and the pool value level at which the fee begins to be payable.",
+        "isCorrect": true,
+        "rationale": "When an incentive fee is based on an increase in pool value, the disclosure must explain how the increase is calculated, the period over which it is measured, the fee charged, and the threshold value at which fee payment commences."
       },
       {
         "id": "b",
-        "text": "The period of time during which the increase is calculated.",
+        "text": "Only the percentage incentive fee and a statement that the CPO may determine all calculation details after the pool begins trading.",
         "isCorrect": false,
-        "rationale": "This must be specified, but the source's credited answer includes all listed items."
+        "rationale": "The disclosure cannot omit the calculation method, measurement period, or starting threshold; those details must be specified."
       },
       {
         "id": "c",
-        "text": "The fee to be charged at the end of the specified time period.",
+        "text": "Only the CPO's past performance record and the general risks of trading commodity interests.",
         "isCorrect": false,
-        "rationale": "This must be specified, but the source's credited answer includes all listed items."
+        "rationale": "Past performance and risk disclosures are separate disclosure topics; they do not replace the required specific disclosure of incentive-fee calculation terms."
       },
       {
         "id": "d",
-        "text": "The value of the pool at which payment of the fee commences.",
+        "text": "The fee calculation details only if the incentive fee is expected to exceed ordinary management fees.",
         "isCorrect": false,
-        "rationale": "This must be specified, but the source's credited answer includes all listed items."
-      },
-      {
-        "id": "e",
-        "text": "All of the above.",
-        "isCorrect": true,
-        "rationale": "A CPO charging incentive fees based on an increase in pool value must disclose each of these items."
+        "rationale": "The incentive-fee disclosure requirements apply when the CPO charges an incentive fee based on increases in pool value; they are not conditioned on the fee exceeding management fees."
       }
     ],
-    "explanation": "All of the listed items must be specified in a disclosure document if the CPO charges incentive fees.",
+    "explanation": "A CPO that charges an incentive fee based on an increase in the value of the pool must disclose the key terms of that fee: how the increase in pool value will be calculated, the time period over which the increase is measured, the fee to be charged, and the pool value at which payment of the fee commences. The repaired item removes the banned \"all of the above\" format by making the complete required disclosure package the single correct answer.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-092; sequence 92; source code 10_IM_88.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The item is readable and the regulatory concept appears consistent, but the source uses an 'All of the above' answer choice. Per audit rules, such answer choices should be avoided unless safely rewritten semantically; therefore not marked verified.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Source text is clear and the tested concept is preserved. The answer choices have been rewritten so each is standalone and exactly one choice is correct; the banned all-of-the-above format has been removed. Repair: Rewrote the original all-of-the-above question into a single-best-answer item where the correct choice lists the complete required incentive-fee disclosure elements and the distractors omit or misstate required details. Second-pass review: The repaired item is readable, preserves the original regulatory concept, and has exactly one unambiguous correct answer without using an all/none/both format. The correct choice accurately consolidates the required incentive-fee disclosure elements, and the distractors are standalone, plausible, and clearly incorrect. Rationales and explanation support the answer. No calculations are involved, the regulatory statement is not obviously outdated or over-specific for Series 3 purposes, and the taxonomy is appropriate.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "92",
     "sourceQuestionNumber": 92,
     "sourceCode": "10_IM_88",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-093",
@@ -4374,7 +4344,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-097; sequence 97; source code 10_IM_57.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and internally consistent, with exactly one indicated correct answer. However, the regulatory statement appears potentially outdated or at least requires current-rule verification: NFA arbitration eligibility/time-limit rules and CFTC reparations limitations may not be accurately summarized as the same two-year limit under current rules. Marked needs_review per instruction for uncertain or outdated regulations.",
+    "qualityNotes": "The screenshot is readable and internally consistent, with exactly one indicated correct answer. However, the regulatory statement appears potentially outdated or at least requires current-rule verification: NFA arbitration eligibility/time-limit rules and CFTC reparations limitations may not be accurately summarized as the same two-year limit under current rules. Marked needs_review per instruction for uncertain or outdated regulations. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -4882,50 +4852,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "floor-broker",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A floor broker can accept orders as a cross-trade:",
+    "stem": "Under CFTC-approved exchange rules, when may a floor broker accept and execute customer orders as a cross-trade?",
     "choices": [
       {
         "id": "a",
-        "text": "Only for hedge accounts.",
-        "isCorrect": false,
-        "rationale": "Cross-trade acceptance is not limited only to hedge accounts."
+        "text": "When the cross-trade is executed in accordance with the written rules of the particular exchange.",
+        "isCorrect": true,
+        "rationale": "A floor broker may execute cross-trades only under the written rules of the exchange, and those rules must be approved by the CFTC."
       },
       {
         "id": "b",
-        "text": "Only against proprietary trades.",
+        "text": "Whenever both accounts involved are hedge accounts.",
         "isCorrect": false,
-        "rationale": "The rule shown does not limit cross-trades to proprietary trades."
+        "rationale": "Cross-trading is not permitted merely because the accounts are hedge accounts; the exchange's approved written cross-trade rules must be followed."
       },
       {
         "id": "c",
-        "text": "In accordance with the written rules of a particular exchange.",
-        "isCorrect": true,
-        "rationale": "Cross-trades may be executed only in accordance with written exchange rules that have been approved by the CFTC."
+        "text": "Whenever the other side of the order is a proprietary account of the floor broker's firm.",
+        "isCorrect": false,
+        "rationale": "A proprietary account on the other side does not by itself authorize a cross-trade; approved exchange procedures govern whether and how it may be done."
       },
       {
         "id": "d",
-        "text": "All of the above.",
+        "text": "Whenever the floor broker believes the execution price is fair to both customers.",
         "isCorrect": false,
-        "rationale": "Because choices A and B are not correct limitations, 'All of the above' is not correct."
+        "rationale": "A fair price alone is not sufficient. Cross-trades must be handled according to the exchange's written, CFTC-approved rules."
       }
     ],
-    "explanation": "Cross-trades may only be executed in accordance with written exchange rules that have been approved by the CFTC.",
+    "explanation": "A floor broker may accept and execute orders as a cross-trade only when the transaction is handled in accordance with the written rules of the particular exchange, which must be approved by the CFTC. The rule is procedural and is not limited to hedge accounts or proprietary trades.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-108; sequence 108; source code 10_IM_61.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source is readable and the stated correct answer is consistent with the explanation. However, the question uses an 'All of the above' answer choice, which the audit rules discourage unless it can be safely rewritten; it has been preserved in the transcript/app record and therefore marked needs_review rather than verified.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove the banned 'All of the above' format and to make all distractors standalone. The tested concept and source answer are clear. Repair: Removed the 'All of the above' choice, rewrote the stem and distractors into app-ready standalone wording, and preserved the source-tested rule that cross-trades must comply with written CFTC-approved exchange rules. Second-pass review: The repaired question is clear, has exactly one unambiguous correct answer, removes the discouraged 'All of the above' format, and uses plausible standalone distractors. The explanation and rationales correctly support the rule that floor-broker cross-trades must be executed under written exchange rules approved by the CFTC. No calculations are present, the regulatory statement is appropriate, and the taxonomy is valid.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "108",
     "sourceQuestionNumber": 108,
     "sourceCode": "10_IM_61",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-109",
@@ -4934,43 +4904,44 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "risk-disclosure",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "With passage of the Dodd-Frank Act, which of the following are now included within the definition of \"derivative\"?",
+    "stem": "After the Dodd-Frank Act expanded the scope of federal derivatives regulation, which set of products is treated as falling within the broad category of regulated derivatives for Series 3 purposes?",
     "choices": [
       {
         "id": "a",
-        "text": "Futures and options on futures.",
+        "text": "Futures contracts and options on futures only.",
         "isCorrect": false,
-        "rationale": "This is included, but it is not the only listed product included within the definition."
+        "rationale": "Futures and options on futures are included, but the Dodd-Frank-era regulatory framework also covers additional products such as swaps and retail foreign exchange contracts."
       },
       {
         "id": "b",
-        "text": "Retail foreign exchange contracts.",
+        "text": "Retail foreign exchange contracts only.",
         "isCorrect": false,
-        "rationale": "This is included, but it is not the only listed product included within the definition."
+        "rationale": "Retail foreign exchange contracts are included, but they are not the only products in the broad regulated derivatives category."
       },
       {
         "id": "c",
-        "text": "Swaps.",
+        "text": "Swaps only.",
         "isCorrect": false,
-        "rationale": "This is included, but it is not the only listed product included within the definition."
+        "rationale": "Swaps were a major focus of Dodd-Frank, but the category is broader than swaps alone."
       },
       {
         "id": "d",
-        "text": "Futures and options on futures, retail foreign exchange contracts, and swaps.",
+        "text": "Futures contracts, options on futures, retail foreign exchange contracts, and swaps.",
         "isCorrect": true,
-        "rationale": "Under the Dodd-Frank Act, all three listed categories are included within the definition of a derivative."
+        "rationale": "For Series 3 study purposes, the Dodd-Frank-era framework treats futures, options on futures, retail foreign exchange contracts, and swaps as regulated derivative products."
       }
     ],
-    "explanation": "Under the Dodd-Frank Act, futures, options on futures, retail foreign exchange contracts, and swaps all fall within the definition of a derivative.",
+    "explanation": "The source item tests the broad Dodd-Frank-era regulatory concept that futures, options on futures, retail foreign exchange contracts, and swaps are all treated as derivative products within the scope of commodities regulation. The answer choice has been rewritten to avoid the banned 'all of the above' format.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-109; sequence 109; source code 10_IM_123.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The source question is readable and the displayed answer is clear. However, the source uses an 'All of the above' answer choice; it has been rewritten semantically for app use. Taxonomy is problematic because the allowed U.S. Regulations subtopics do not include a precise derivatives/Dodd-Frank definitions category, and 'general-futures-terminology' is only available under Market Knowledge, not U.S. Regulations.",
+    "qualityNotes": "The source text and intended answer are clear, and the banned 'all of the above' format has been repaired. However, the allowed taxonomy does not contain a precise Dodd-Frank/derivatives-definitions subtopic under U.S. Regulations. The closest existing placement is general-regulatory, but 'risk-disclosure' is not substantively correct. In addition, because this is a regulatory/legal-definition item tied to Dodd-Frank terminology and may require confirmation against current CFTC/NFA phrasing, it should not be promoted to verified without legal/source validation. Repair: Rewrote the stem and answer choices into standalone semantic choices and removed the source's 'All of the above' format while preserving the tested concept.",
     "issueTypes": [
-      "wrong_taxonomy"
+      "wrong_taxonomy",
+      "outdated_rule"
     ],
     "extractionConfidence": "high",
     "sourcePageRange": "109",
@@ -5112,7 +5083,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-112; sequence 112; source code 10_IM_125.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "Readable true/false item with a clear displayed answer. Marked needs_review because the source explanation calls CFTC Regulation 1.71 \"new\" and the exact current applicability/terminology should be checked before app publication.",
+    "qualityNotes": "Readable true/false item with a clear displayed answer. Marked needs_review because the source explanation calls CFTC Regulation 1.71 \"new\" and the exact current applicability/terminology should be checked before app publication. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -5314,43 +5285,43 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "arbitration-procedures",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "An NFA arbitration proceeding is conducted entirely through written submissions in which of the following situations?",
+    "stem": "Under the source rule, which situation would allow an NFA arbitration proceeding to be conducted entirely through written submissions?",
     "choices": [
       {
         "id": "a",
-        "text": "The aggregate amount of the claims, exclusive of interest and costs, do not exceed $5,000",
-        "isCorrect": false,
-        "rationale": "This is one of the situations listed by the source, but the source's correct answer is the combined 'All of the above' option."
+        "text": "The aggregate amount of the claims, excluding interest and costs, does not exceed $5,000.",
+        "isCorrect": true,
+        "rationale": "The source lists this as one situation in which an NFA arbitration may be handled entirely through written submissions."
       },
       {
         "id": "b",
-        "text": "The aggregate amount of the claims, exclusive of interest and costs, are more than $5,000 but do not exceed $10,000 and none of the parties requests an oral hearing.",
+        "text": "The aggregate amount of the claims exceeds $10,000 and one party requests an oral hearing.",
         "isCorrect": false,
-        "rationale": "This is one of the situations listed by the source, but the source's correct answer is the combined 'All of the above' option."
+        "rationale": "A requested oral hearing prevents the proceeding from being handled entirely through written submissions under the source rule."
       },
       {
         "id": "c",
-        "text": "The panel has consented to the written agreement of the parties to waive oral hearing.",
+        "text": "The parties agree to waive an oral hearing, but the arbitration panel does not consent to the waiver.",
         "isCorrect": false,
-        "rationale": "This is one of the situations listed by the source, but the source's correct answer is the combined 'All of the above' option."
+        "rationale": "The source requires the panel to consent to the parties' written agreement to waive an oral hearing."
       },
       {
         "id": "d",
-        "text": "All of the above.",
-        "isCorrect": true,
-        "rationale": "The source states that an NFA arbitration will be considered entirely through written submissions under any of the listed three situations."
+        "text": "The aggregate amount of the claims is more than $10,000, and no written waiver of oral hearing has been agreed to by the parties.",
+        "isCorrect": false,
+        "rationale": "The source does not list this as a situation in which the proceeding is conducted entirely through written submissions."
       }
     ],
-    "explanation": "An NFA arbitration will be considered entirely through written submissions under any of the listed three situations.",
+    "explanation": "The source states that an NFA arbitration proceeding may be conducted entirely through written submissions when the aggregate claims, excluding interest and costs, do not exceed $5,000. The source also lists other written-submission situations, but the item has been rewritten to test one standalone condition without using an \"all of the above\" format.",
     "sourceType": "imported",
     "active": true,
     "concept": "Arbitration, Discipline and Enforcement",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-117; sequence 117; source code 10_IM_89.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The item is readable and the source answer is clear, but the correct answer is 'All of the above,' which the app rules discourage. A reviewer should rewrite the item into a single semantic correct choice before use.",
+    "qualityNotes": "The banned 'All of the above' format has been removed and the item now has one semantic correct answer. However, the dollar thresholds for NFA arbitration written-submission procedures are specific regulatory thresholds and may be outdated relative to current NFA rules, so the question should not be verified without current-rule confirmation. Repair: Rewrote the item to eliminate the 'All of the above' answer choice and make one standalone condition the correct answer while preserving the tested concept from the source.",
     "issueTypes": [
-      "bad_distractors"
+      "outdated_rule"
     ],
     "extractionConfidence": "high",
     "sourcePageRange": "117",
@@ -5406,49 +5377,43 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "discretionary-accounts",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "For an AP of an FCM or an IB to accept a discretionary account, which of the following must occur?",
+    "stem": "Which requirement applies before an associated person of an FCM or IB may handle a discretionary customer account?",
     "choices": [
       {
         "id": "a",
-        "text": "The customer must execute a power of attorney or trading authorization, and the AP's supervisor must review all activity in the discretionary account.",
+        "text": "The customer must provide written trading authorization, such as a signed power of attorney, before discretionary trading occurs.",
         "isCorrect": true,
-        "rationale": "A discretionary account requires written trading authorization from the customer. In addition, the AP's supervisor must review the discretionary account activity. The source also notes a two-year registrant experience requirement, not three years."
+        "rationale": "Written customer authorization is a core requirement for a discretionary account."
       },
       {
         "id": "b",
-        "text": "The customer must execute a power of attorney or trading authorization, and the AP handling the account must have at least 3 years of experience.",
+        "text": "The associated person must have at least three years of experience handling customer accounts.",
         "isCorrect": false,
-        "rationale": "The written authorization requirement is correct, but the experience requirement in the source explanation is at least two years as a registrant, not three years."
+        "rationale": "The source's three-year statement is incorrect; its explanation refers to a two-year registrant experience requirement."
       },
       {
         "id": "c",
-        "text": "The AP handling the account must have at least 3 years of experience, and the AP's supervisor must review all trades executed in the discretionary account.",
+        "text": "The account may be handled without written authorization if the customer gives verbal permission before each trade.",
         "isCorrect": false,
-        "rationale": "Supervisor review is required, but the source explanation states the AP must have been registered and acted as a registrant for at least two years, not three years."
+        "rationale": "A discretionary account requires written authorization; verbal permission is not sufficient to create discretionary authority."
       },
       {
         "id": "d",
-        "text": "Only the AP's supervisor review is required; written customer authorization is not required.",
+        "text": "Supervisor review is required only when the account has generated a customer complaint.",
         "isCorrect": false,
-        "rationale": "Written customer authorization, such as a power of attorney or trading authorization, is required for a discretionary account."
-      },
-      {
-        "id": "e",
-        "text": "Only written customer authorization is required; supervisor review is not required.",
-        "isCorrect": false,
-        "rationale": "Supervisor review of discretionary account activity is also required."
+        "rationale": "The source states that the supervisor must review activity in a discretionary account; review is not limited to complaint situations."
       }
     ],
-    "explanation": "To handle a discretionary account for an FCM or IB, an AP must have written customer authorization, such as a signed power of attorney or trading authorization. The source explanation also states that the AP must have been registered and acted as a registrant for at least two years, and that the AP's supervisor must review all activity in the discretionary account.",
+    "explanation": "The source clearly tests discretionary-account requirements for an AP of an FCM or IB. A discretionary account requires written customer authorization, such as a signed power of attorney or trading authorization. The source explanation also states that the AP must have been registered and acted as a registrant for at least two years and that a supervisor must review discretionary account activity. Because the source's original keyed answer includes written authorization and supervisor review but omits the two-year registrant requirement stated in the explanation, the safest repair narrows the stem to one clearly correct requirement rather than asking for all requirements.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-119; sequence 119; source code 10_IM_80.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The source uses combination answer choices ('A & B' and 'A & C'), which are not app-preferred. The app-ready version rewrites the choices semantically while preserving the tested concept. Marked needs_review rather than verified because the source answer E omits the two-year registrant requirement that is stated in the explanation and may make the original stem/answer set incomplete depending on interpretation of 'the following must occur.'",
+    "qualityNotes": "The app-ready wording removes combination-answer formatting and makes one requirement clearly correct. However, because this is a regulatory item involving a specific experience-period requirement and the original source answer/explanation are internally inconsistent, it should remain needs_review rather than verified. Repair: Rewrote the banned combination-choice format into standalone choices and narrowed the stem to a single clear discretionary-account requirement: written customer authorization. Kept needs_review due to the source inconsistency about the full set of required conditions.",
     "issueTypes": [
-      "bad_distractors"
+      "ambiguous"
     ],
     "extractionConfidence": "high",
     "sourcePageRange": "119",
@@ -5464,50 +5429,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "promotional-material",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "If your promotional material or disclosure documents are written in a non-English language, and it is intended for viewing by U.S. customers, you must:",
+    "stem": "A registrant distributes promotional material, disclosure documents, or a website in a non-English language to customers in the United States. What recordkeeping step is required for that material?",
     "choices": [
       {
         "id": "a",
-        "text": "Be prepared to translate the material on request by the NFA",
-        "isCorrect": false,
-        "rationale": "The rule described in the source requires maintaining English translations, not merely being prepared to translate on request."
+        "text": "Maintain an English translation of the foreign-language material.",
+        "isCorrect": true,
+        "rationale": "Registrants must maintain English translations of foreign-language promotional material, including disclosure documents and websites, distributed to or intended for viewing by U.S. customers."
       },
       {
         "id": "b",
-        "text": "Maintain English translations of all foreign language promotional material",
-        "isCorrect": true,
-        "rationale": "CFTC Rule 1.31 requires English translations to be maintained for foreign-language promotional material, including disclosure documents and websites, that is distributed to or intended for viewing by customers in the United States, its territories, or possessions."
+        "text": "Translate the material only if the NFA requests a translation during an examination.",
+        "isCorrect": false,
+        "rationale": "The requirement is to maintain an English translation as part of the records, not merely to be prepared to create one on request."
       },
       {
         "id": "c",
-        "text": "NFA is not concerned about foreign language translations of documents as translations can be subjective",
+        "text": "File the foreign-language material with the CFTC before it is distributed.",
         "isCorrect": false,
-        "rationale": "The rule specifically requires English translations to be maintained, so regulators are concerned with such materials."
+        "rationale": "This question tests the English-translation recordkeeping requirement, not a general pre-filing requirement with the CFTC."
       },
       {
         "id": "d",
-        "text": "A and B",
+        "text": "Use the material without an English translation if the original language is the intended audience's primary language.",
         "isCorrect": false,
-        "rationale": "The correct requirement is to maintain English translations; the source identifies only choice B as correct."
+        "rationale": "Even when the material is aimed at speakers of another language, an English translation must be maintained if it is distributed to or intended for viewing by U.S. customers."
       }
     ],
-    "explanation": "CFTC Rule 1.31 requires registrants to maintain English translations of foreign-language promotional material, including disclosure documents and websites, distributed to or intended for viewing by customers located in the United States, its territories, or possessions.",
+    "explanation": "CFTC recordkeeping rules require English translations to be maintained for foreign-language promotional material, including disclosure documents and websites, when the material is distributed to or intended for viewing by customers located in the United States, its territories, or possessions.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-120; sequence 120; source code 10_IM_95.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source is readable and the stated correct answer is clear. However, choice D is an 'A and B' combination choice, which is disallowed for app-ready verified status unless safely rewritten; the semantic rewrite is not performed here because the source uses a referential answer choice.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Repaired by removing the banned referential combination choice and replacing all options with standalone semantic answers. The tested concept and correct answer are clear from the source. Repair: Rewrote the stem and answer choices into app-ready form, removed the 'A and B' choice, and preserved the requirement to maintain English translations of covered foreign-language materials. Second-pass review: The repaired item is clear and readable, has exactly one unambiguous correct answer, and removes the prior referential combination choice. Distractors are standalone and plausible. The explanation and rationales consistently support the recordkeeping requirement to maintain English translations for foreign-language promotional material/disclosure documents/websites intended for U.S. customers. Taxonomy is appropriate, and no calculations are involved.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "120",
     "sourceQuestionNumber": 120,
     "sourceCode": "10_IM_95",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-121",
@@ -5516,44 +5481,43 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cftc-registration",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Before a foreign stock-index futures contract can be offered or sold to a U.S. person, the stock-index futures contract must have a no-action letter from the:",
+    "stem": "Before a foreign stock-index futures contract may be offered or sold to a U.S. person, which regulator is identified as providing the required no-action relief?",
     "choices": [
       {
         "id": "a",
-        "text": "SEC.",
-        "isCorrect": false,
-        "rationale": "The SEC is not the agency identified by the source explanation for the required no-action letter."
+        "text": "Commodity Futures Trading Commission",
+        "isCorrect": true,
+        "rationale": "The source states that foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person."
       },
       {
         "id": "b",
-        "text": "NFA.",
+        "text": "National Futures Association",
         "isCorrect": false,
-        "rationale": "The NFA is not the agency identified by the source explanation for the required no-action letter."
+        "rationale": "NFA is a self-regulatory organization, but the source identifies the CFTC-not NFA-as the regulator providing the no-action letter."
       },
       {
         "id": "c",
-        "text": "CFTC.",
-        "isCorrect": true,
-        "rationale": "Foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person."
+        "text": "Securities and Exchange Commission",
+        "isCorrect": false,
+        "rationale": "The SEC regulates securities markets, but the source identifies the CFTC as the required source of no-action relief for this futures-contract offering issue."
       },
       {
         "id": "d",
-        "text": "All of the above.",
+        "text": "Financial Industry Regulatory Authority",
         "isCorrect": false,
-        "rationale": "The source identifies only the CFTC as the required issuer of the no-action letter."
+        "rationale": "FINRA is a securities industry self-regulatory organization and is not identified by the source as providing the required no-action relief."
       }
     ],
-    "explanation": "Foreign stock-index futures contracts must receive a CFTC no-action letter before they can be offered or sold to a U.S. person.",
+    "explanation": "The source-tested rule is that a foreign stock-index futures contract must receive a CFTC no-action letter before it can be offered or sold to a U.S. person.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-121; sequence 121; source code 10_IM_29.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is clear. However, the item uses an 'All of the above' distractor, and the foreign stock-index futures no-action framework may be outdated or require legal/regulatory confirmation under current CFTC staff advisories and Part 30/foreign board of trade requirements. Marked needs_review rather than verified.",
+    "qualityNotes": "The source and answer are clear, and the banned 'All of the above' distractor has been replaced. However, the foreign stock-index futures no-action framework may be affected by current CFTC staff guidance, foreign board of trade rules, and Part 30/foreign contract offering requirements, so it should not be promoted to verified without regulatory confirmation. Repair: Rewrote the stem for clarity, expanded regulator names, removed the banned 'All of the above' answer choice, and supplied standalone choices with one source-based correct answer.",
     "issueTypes": [
-      "outdated_rule",
-      "bad_distractors"
+      "outdated_rule"
     ],
     "extractionConfidence": "high",
     "sourcePageRange": "121",
@@ -5621,56 +5585,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "speculative-position-limits",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Limits on the maximum size of a speculative market position in futures or options contracts are established by which of the following?",
+    "stem": "Which entities establish speculative position limits for futures and options contracts?",
     "choices": [
       {
         "id": "a",
-        "text": "CFTC.",
-        "isCorrect": false,
-        "rationale": "This is only part of the correct response; position limits may be established by the CFTC and by exchanges."
+        "text": "The CFTC and futures or options exchanges",
+        "isCorrect": true,
+        "rationale": "Correct. Speculative position limits may be established by CFTC regulation and by exchange rules, with exchange rules subject to CFTC oversight or approval."
       },
       {
         "id": "b",
-        "text": "Futures and options exchanges.",
+        "text": "The NFA only",
         "isCorrect": false,
-        "rationale": "This is only part of the correct response; position limits may be established by exchanges and by the CFTC."
+        "rationale": "Incorrect. The NFA enforces many industry rules, but speculative position limits are established by the CFTC and exchanges, not by the NFA alone."
       },
       {
         "id": "c",
-        "text": "NFA.",
+        "text": "Futures commission merchants only",
         "isCorrect": false,
-        "rationale": "The NFA is not identified as the body that establishes these speculative position limits."
+        "rationale": "Incorrect. FCMs may monitor customer positions for compliance, but they do not establish marketwide speculative position limits."
       },
       {
         "id": "d",
-        "text": "A, B and C.",
+        "text": "Individual customers and their account executives",
         "isCorrect": false,
-        "rationale": "This incorrectly includes the NFA."
-      },
-      {
-        "id": "e",
-        "text": "A and B. only.",
-        "isCorrect": true,
-        "rationale": "The CFTC and exchanges have position limit requirements. CFTC regulations set certain specific limits, and exchanges provide position limits or accountability limits for other commodities, subject to CFTC approval."
+        "rationale": "Incorrect. Customers and account executives do not set regulatory or exchange speculative position limits."
       }
     ],
-    "explanation": "The CFTC and exchanges have position limit requirements. CFTC regulations provide for specific limits for grains, including the soybean complex, and cotton. Exchanges provide position limits or position accountability limits for other commodities. In some cases, both exchange and CFTC limits apply, and exchange position-limit rules and levels must be approved by the CFTC.",
+    "explanation": "Speculative position limits restrict the maximum size of a speculative position in futures or options contracts. These limits may be set by the CFTC and by futures or options exchanges. Exchange position-limit rules and levels are subject to CFTC oversight or approval. The NFA and FCMs may have compliance or supervisory roles, but they are not the entities identified as establishing these limits.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-123; sequence 123; source code 10_IM_11.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the stated answer is consistent with the explanation. However, the source uses answer choices that refer to other choices, including 'A, B and C' and 'A and B only,' which are not app-preferred and cannot be safely rewritten semantically without changing the displayed format. Therefore marked needs_review rather than verified.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Repaired to remove answer-letter references and combined-choice format. The tested concept is clear from the source: speculative position limits may be established by the CFTC and exchanges. Exactly one standalone answer choice is correct. Repair: Converted the original 'A and B only' style item into a standalone multiple-choice question with four semantic choices and one correct answer. Second-pass review: The repaired item is clear and readable, has exactly one standalone correct answer, avoids combined/letter-reference formats, and provides plausible distractors. The explanation and rationales correctly support that speculative position limits may be established by the CFTC and futures/options exchanges, with exchange rules subject to CFTC oversight or approval. No calculations are involved, the regulatory statement is appropriately general and not over-specific, and the taxonomy is appropriate.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "123",
     "sourceQuestionNumber": 123,
     "sourceCode": "10_IM_11",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-124",
@@ -6059,7 +6017,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-131; sequence 131; source code 10_IM_115.",
     "reviewStatus": "reviewed",
     "qualityStatus": "rejected",
-    "qualityNotes": "The source uses \"All of the above\" and \"A and B only\" answer choices. The app-ready version rewrites the correct option semantically to avoid referential choices while preserving the tested concept and exactly one correct answer. Duplicate review: Exact duplicate of s3-regulatory-pdf-130.",
+    "qualityNotes": "The source uses \"All of the above\" and \"A and B only\" answer choices. The app-ready version rewrites the correct option semantically to avoid referential choices while preserving the tested concept and exactly one correct answer. Duplicate review: Exact duplicate of s3-regulatory-pdf-130. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
     "issueTypes": [
       "duplicate"
     ],
@@ -6233,50 +6191,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "commodity-trading-advisor",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "A person who, for compensation of profit, engages in the business of advising others, either directly or indirectly through publications, writing or electronic media, as to the value of or the advisability of trading futures is known as:",
+    "stem": "Under CFTC/NFA terminology, which registration category describes a person or firm that, for compensation or profit, advises others-directly or through publications or electronic media-about the value of, or advisability of trading in, futures contracts?",
     "choices": [
       {
         "id": "a",
-        "text": "A Commodity Trading Advisor.",
+        "text": "Commodity Trading Advisor",
         "isCorrect": true,
-        "rationale": "A Commodity Trading Advisor is a person or firm that, for compensation or profit, advises others about the value of, or advisability of trading in, futures, options on futures, retail off-exchange forex contracts, or swaps."
+        "rationale": "A Commodity Trading Advisor is the regulatory category for a person or firm that, for compensation or profit, advises others about the value of, or advisability of trading in, futures and other commodity interests."
       },
       {
         "id": "b",
-        "text": "A Financial Advisor.",
+        "text": "Introducing Broker",
         "isCorrect": false,
-        "rationale": "A financial advisor is not the specific CFTC/NFA registration category described by advice concerning futures trading."
+        "rationale": "An Introducing Broker solicits or accepts customer orders but does not accept customer funds; the definition in the question focuses on providing trading advice."
       },
       {
         "id": "c",
-        "text": "An Introducing Broker.",
+        "text": "Futures Commission Merchant",
         "isCorrect": false,
-        "rationale": "An Introducing Broker solicits or accepts orders but does not accept customer funds; the definition in the question concerns providing trading advice."
+        "rationale": "A Futures Commission Merchant solicits or accepts orders and accepts customer funds, margin, or other assets; it is not defined primarily by compensated advisory activity."
       },
       {
         "id": "d",
-        "text": "A Commodity Trading Counselor.",
+        "text": "Floor Broker",
         "isCorrect": false,
-        "rationale": "Commodity Trading Counselor is not the regulatory registration category described; the correct term is Commodity Trading Advisor."
+        "rationale": "A Floor Broker executes orders on or subject to the rules of an exchange; the question describes compensated advisory services."
       }
     ],
-    "explanation": "The described person is a Commodity Trading Advisor (CTA). A CTA is generally one who, for compensation or profit, directly or indirectly advises others as to the value of, or advisability of trading in, commodity interests such as futures.",
+    "explanation": "The described person or firm is a Commodity Trading Advisor (CTA). The source text visibly used \"compensation of profit,\" but the standard regulatory phrase is \"compensation or profit,\" so the wording has been corrected while preserving the tested concept.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-135; sequence 135; source code 10_IM_111.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The item is readable and the answer is clear. However, the visible source text says \"for compensation of profit,\" while the standard regulatory phrase is \"for compensation or profit.\" This appears to be a source typo or visual transcription issue, so the record is marked needs_review rather than verified.",
-    "issueTypes": [
-      "OCR/transcription"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "App-ready after correcting the apparent transcription/source typo from \"of profit\" to the standard phrase \"or profit.\" The concept and correct answer are clear from the source and are a stable general regulatory definition. Repair: Corrected the typo in the stem, modernized the wording, replaced weaker distractors with regulatory categories, and verified exactly one correct answer. Second-pass review: The repaired item is clear, tests the standard CFTC/NFA definition of a Commodity Trading Advisor, and has exactly one unambiguous correct answer. Distractors are plausible registration categories and the rationales/explanation support the answer. The correction from \"compensation of profit\" to \"compensation or profit\" is appropriate, with no calculation issues or apparent regulatory/taxonomy problems.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "135",
     "sourceQuestionNumber": 134,
     "sourceCode": "10_IM_111",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-135",
@@ -6285,56 +6243,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "anti-money-laundering",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Which of the following are examples of suspicious activity that could warrant further review?",
+    "stem": "Which customer behavior is a red flag for possible money laundering that should prompt further review?",
     "choices": [
       {
         "id": "a",
-        "text": "A customer exhibits an unusual level of concern for secrecy.",
-        "isCorrect": false,
-        "rationale": "This is an example of suspicious activity, but it is not the best answer in the original source because other listed items are also examples."
+        "text": "A customer shows an unusual level of concern about secrecy when opening or using an account.",
+        "isCorrect": true,
+        "rationale": "An unusual concern for secrecy is a recognized suspicious activity indicator and should prompt further AML review."
       },
       {
         "id": "b",
-        "text": "A corporate customer lacks general knowledge of its own industry.",
+        "text": "A customer provides routine identification information when requested during account opening.",
         "isCorrect": false,
-        "rationale": "This is an example of suspicious activity, but it is not the best answer in the original source because other listed items are also examples."
+        "rationale": "Providing requested identification information is expected customer behavior, not a suspicious activity red flag by itself."
       },
       {
         "id": "c",
-        "text": "A customer engages in extensive, sudden, or unexplained wire activity.",
+        "text": "A corporate customer accurately describes its business, industry, and expected account activity.",
         "isCorrect": false,
-        "rationale": "This is an example of suspicious activity, but it is not the best answer in the original source because other listed items are also examples."
+        "rationale": "A customer that can explain its business and expected account activity is not displaying the red flag tested here."
       },
       {
         "id": "d",
-        "text": "A customer makes a funds deposit followed by a request that the money be wired out or transferred to a third party without any apparent business purpose.",
+        "text": "A customer makes deposits and withdrawals that are consistent with the stated business purpose of the account.",
         "isCorrect": false,
-        "rationale": "This is an example of suspicious activity, but it is not the best answer in the original source because other listed items are also examples."
-      },
-      {
-        "id": "e",
-        "text": "All of the above.",
-        "isCorrect": true,
-        "rationale": "The source states that all listed activities are suspicious activities that could warrant further review."
+        "rationale": "Activity consistent with the customer's stated business purpose generally is not suspicious by itself."
       }
     ],
-    "explanation": "All listed activities are examples of suspicious activity that could warrant further review: unusual concern for secrecy, a corporate customer's lack of knowledge of its own industry, extensive or unexplained wire activity, and deposits followed by requests to wire or transfer funds to a third party without an apparent business purpose.",
+    "explanation": "AML programs require firms to identify and review activity that may indicate money laundering or other suspicious conduct. Red flags include unusual concern for secrecy, a corporate customer's lack of knowledge about its own industry, extensive or unexplained wire activity, and deposits followed by requests to wire funds to a third party without an apparent business purpose. Of the choices given, the unusual concern for secrecy is the suspicious activity indicator.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-136; sequence 136; source code 10_IM_100.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The question is readable and the intended answer is clear, but it relies on an 'All of the above' option. The individual answer choices are each true examples of suspicious activity, so exactly one semantically correct answer is not maintained without the omnibus choice. The explanation also contains an apparent source numbering error, referring to question 201 instead of 135.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove the banned 'All of the above' format and to provide exactly one clearly correct answer while preserving the AML suspicious-activity-red-flag concept. The source explanation's incorrect reference to question 201 was not retained. Repair: Converted the original omnibus-answer item into a single-best-answer AML red-flag question. Removed 'All of the above' and replaced the other true source statements with clearly nonsuspicious distractors. Second-pass review: The repaired item is readable, has exactly one unambiguous correct answer, avoids all/none-style formats, and uses plausible standalone distractors. The explanation and rationales correctly support unusual concern for secrecy as an AML suspicious-activity red flag. No calculations are involved, the regulatory concept is broad and not obviously outdated, and the taxonomy is appropriate for FCM/IB anti-money-laundering content.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "136",
     "sourceQuestionNumber": 135,
     "sourceCode": "10_IM_100",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-136",
@@ -6377,7 +6329,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-137; sequence 137; source code 10_IM_93.",
     "reviewStatus": "reviewed",
     "qualityStatus": "rejected",
-    "qualityNotes": "The source question is readable and the stated answer is clear. However, choice D is an 'A and B' combination choice, which the instructions flag as undesirable unless safely rewritten. Because A is not a correct standalone requirement, the item can still function, but it is marked needs_review rather than verified. Duplicate review: Exact duplicate of s3-regulatory-pdf-120.",
+    "qualityNotes": "The source question is readable and the stated answer is clear. However, choice D is an 'A and B' combination choice, which the instructions flag as undesirable unless safely rewritten. Because A is not a correct standalone requirement, the item can still function, but it is marked needs_review rather than verified. Duplicate review: Exact duplicate of s3-regulatory-pdf-120. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
     "issueTypes": [
       "bad_distractors",
       "duplicate"
@@ -6448,56 +6400,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cpo-regulations",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "In regard to handling customer funds, a CPO:",
+    "stem": "Which statement correctly describes a commodity pool operator's responsibilities when handling pool participant funds?",
     "choices": [
       {
         "id": "a",
-        "text": "Cannot commingle the property of any pool that it operates with the property of any other person.",
-        "isCorrect": false,
-        "rationale": "This statement is true, but the source's correct answer is the combined choice D."
+        "text": "The CPO must keep each pool's property separate from other persons' property, operate each pool as a separate entity, and receive funds in the name of the pool.",
+        "isCorrect": true,
+        "rationale": "A CPO must not commingle pool property with the property of any other person, must operate each pool as a separate entity, and must receive funds in the name of the pool."
       },
       {
         "id": "b",
-        "text": "Must operate each pool as a separate entity.",
+        "text": "The CPO may combine assets of multiple pools in one operating account if separate accounting records are maintained for each pool.",
         "isCorrect": false,
-        "rationale": "This statement is true, but the source's correct answer is the combined choice D."
+        "rationale": "Maintaining records is not enough; the CPO must operate each pool as a separate entity and may not commingle pool property with other property."
       },
       {
         "id": "c",
-        "text": "Must receive all funds in the name of the pool.",
+        "text": "The CPO may receive participant funds in the CPO's own name if the funds are promptly transferred to a pool account.",
         "isCorrect": false,
-        "rationale": "This statement is true, but the source's correct answer is the combined choice D."
+        "rationale": "Pool participant funds must be received in the name of the pool, not in the CPO's own name."
       },
       {
         "id": "d",
-        "text": "All of the above.",
-        "isCorrect": true,
-        "rationale": "The explanation confirms that a CPO must not commingle pool property with any other person's property, must operate each pool as a separate entity, and must receive all funds in the name of the pool."
-      },
-      {
-        "id": "e",
-        "text": "A and C only.",
+        "text": "The CPO may commingle pool property with other property if all pool participants have consented in writing.",
         "isCorrect": false,
-        "rationale": "This omits the requirement that each pool be operated as a separate entity."
+        "rationale": "The rule prohibits commingling pool property with the property of any other person; written participant consent does not create this general exception."
       }
     ],
-    "explanation": "In regard to handling customer funds, a CPO cannot commingle the property of any pool that it operates with the property of any other person; must operate each pool as a separate entity; and must receive all funds in the name of the pool.",
+    "explanation": "For handling customer or participant funds, a CPO must treat each commodity pool as a distinct entity. The CPO may not commingle the property of a pool with the property of any other person, must operate each pool separately, and must receive funds in the name of the pool.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-139; sequence 139; source code 10_IM_113.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The item is readable and the source answer is clear, but it uses 'All of the above' and 'A and C only' answer choices. Per audit rules, such referential choices should not be verified unless safely rewritten semantically. The source is preserved in the transcript; app-ready item needs review/rewrite to avoid referential options.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove referential choices such as 'All of the above' and 'A and C only' while preserving the tested CPO fund-handling concept. Exactly one standalone answer choice is correct. Repair: Converted the original combined-answer format into a single-best-answer question with standalone semantic choices and retained the same regulatory concept. Second-pass review: The repaired item is readable, has exactly one clear standalone correct answer, avoids referential all/none/A-and-B formats, and provides plausible distractors with supporting rationales. The regulatory concept is appropriate for CPO fund-handling requirements and the taxonomy is valid. No calculation issues are present.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "139",
     "sourceQuestionNumber": 138,
     "sourceCode": "10_IM_113",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-139",
@@ -6610,50 +6556,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "promotional-material",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "The NFA's definition of promotional material excludes:",
+    "stem": "Under NFA rules, which communication is considered promotional material?",
     "choices": [
       {
         "id": "a",
-        "text": "Market letters.",
-        "isCorrect": false,
+        "text": "A market letter distributed to customers or prospects.",
+        "isCorrect": true,
         "rationale": "Market letters are included in the NFA definition of promotional material."
       },
       {
         "id": "b",
-        "text": "Broadcasts.",
+        "text": "A private internal memo sent only to firm compliance staff.",
         "isCorrect": false,
-        "rationale": "Broadcasts are included in the NFA definition of promotional material."
+        "rationale": "An internal compliance memo is not the type of customer- or public-facing sales communication covered by the promotional-material definition."
       },
       {
         "id": "c",
-        "text": "Seminars.",
+        "text": "A completed customer account statement showing actual account activity.",
         "isCorrect": false,
-        "rationale": "Seminars are included in the NFA definition of promotional material."
+        "rationale": "An account statement is an account record, not promotional material designed to solicit or influence trading interest."
       },
       {
         "id": "d",
-        "text": "None of the above.",
-        "isCorrect": true,
-        "rationale": "None of the listed items is excluded because market letters, broadcasts, and seminars are all included as promotional material."
+        "text": "A margin call notice sent to an existing customer.",
+        "isCorrect": false,
+        "rationale": "A margin call notice is an operational account communication, not promotional material."
       }
     ],
-    "explanation": "The NFA definition of promotional materials includes market letters, seminars, and broadcasts; therefore none of the listed items is excluded.",
+    "explanation": "NFA promotional material includes customer- or public-facing communications used to solicit or promote business, such as market letters, seminars, and broadcasts. Therefore, a market letter distributed to customers or prospects is promotional material.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-142; sequence 142; source code 10_IM_63.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source is readable and the stated answer is consistent with the explanation. However, the correct option is 'None of the above,' which the instructions flag as undesirable unless it can be safely rewritten semantically. Because the item asks what is excluded and all listed alternatives are included, a clean semantic rewrite would require adding an actual excluded item not present in the source, so the app-ready record is marked needs_review rather than verified.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove the banned 'None of the above' format while preserving the tested concept that market letters, seminars, and broadcasts are included as NFA promotional material. Repair: Converted the exclusion/none-of-the-above question into a positive identification question with one standalone correct answer and plausible non-promotional distractors. Second-pass review: The repaired item is readable and meaningful, has exactly one unambiguous correct answer, avoids all/none/both formats, and uses plausible standalone distractors. The rationales and explanation support the answer and accurately preserve the tested concept that market letters are included in NFA promotional material. No calculations are present, no obvious regulatory issue is identified, and the taxonomy is appropriate.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "142",
     "sourceQuestionNumber": 141,
     "sourceCode": "10_IM_63",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-142",
@@ -6846,50 +6792,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "promotional-material",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "If an NFA Member's promotional material includes any specific numerical or statistical information about past performance of actual accounts, including rate of return, what must the Member be able to do?",
+    "stem": "An NFA Member's promotional material includes specific numerical past-performance information for actual accounts, including a rate-of-return figure. What must the Member be able to show or do?",
     "choices": [
       {
         "id": "a",
-        "text": "Demonstrate to NFA that the information is representative of the actual performance of all reasonably comparable accounts, and calculate any rate-of-return figures in a manner consistent with CFTC Regulations.",
+        "text": "Show that the information is representative of all reasonably comparable actual accounts and calculate any rate-of-return figures consistently with CFTC Regulations.",
         "isCorrect": true,
-        "rationale": "NFA promotional material rules require Members using specific numerical or statistical past-performance information for actual accounts to demonstrate representativeness across reasonably comparable accounts and calculate rate-of-return figures consistently with CFTC Regulations."
+        "rationale": "NFA promotional material standards require both representativeness for reasonably comparable actual accounts and CFTC-consistent calculation of rate-of-return figures when specific actual-account performance numbers are used."
       },
       {
         "id": "b",
-        "text": "Include only the NFA-required cautionary statement, with no need to demonstrate representativeness or calculate rate of return under CFTC Regulations.",
+        "text": "Use the figures as long as the material also includes the required cautionary statement about futures trading risk.",
         "isCorrect": false,
-        "rationale": "The visible explanation does not state that a cautionary statement alone satisfies the requirement; it specifically identifies representativeness and CFTC-consistent rate-of-return calculations."
+        "rationale": "A cautionary statement alone does not satisfy this requirement when specific actual-account past-performance numbers or rates of return are presented."
       },
       {
         "id": "c",
-        "text": "Obtain prior written approval from the CFTC before using any actual account performance numbers.",
+        "text": "Obtain written CFTC approval before publishing the actual-account performance figures.",
         "isCorrect": false,
-        "rationale": "Prior CFTC approval is not stated in the visible question or explanation as the requirement."
+        "rationale": "The rule tested does not require prior CFTC approval; it requires the Member to be able to substantiate representativeness and calculate rates of return properly."
       },
       {
         "id": "d",
-        "text": "File the promotional material with NFA at least 30 days before first use in every case.",
+        "text": "Limit the performance information to the single best-performing account if the account was actually traded by a customer.",
         "isCorrect": false,
-        "rationale": "The visible explanation addresses representativeness and rate-of-return calculation standards, not a universal 30-day pre-use filing requirement."
+        "rationale": "Selecting only a best-performing account would raise representativeness concerns; the Member must be able to show the information represents all reasonably comparable actual accounts."
       }
     ],
-    "explanation": "If an NFA Member's promotional material includes specific numerical or statistical information about past performance of actual accounts, including rate-of-return information, the Member must be able to demonstrate to NFA that the information is representative of the actual performance of all reasonably comparable accounts and must calculate any rate-of-return figures in a manner consistent with CFTC Regulations.",
+    "explanation": "When NFA promotional material includes specific numerical or statistical information about actual-account past performance, including rate-of-return figures, the Member must be able to demonstrate to NFA that the information is representative of the actual performance of all reasonably comparable accounts. Any rate-of-return figures must also be calculated in a manner consistent with CFTC Regulations.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-147; sequence 147; source code 10_IM_104.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the stated correct answer is clear, but the original correct choice is 'A and B only,' which violates the app rule against answer choices that reference other choices. The app-ready version rewrites the correct answer semantically and replaces distractors, so it should be reviewed for fidelity and educational quality before verification.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "The original banned 'A and B only' format has been rewritten as a single standalone correct answer. Distractors are standalone and test nearby misconceptions without changing the source concept. Repair: Rewrote the source combination answer into one standalone correct choice and replaced answer-letter-dependent formatting with app-ready semantic choices. Second-pass review: The repaired item is clear and faithful to the tested NFA promotional-material requirement. It has exactly one unambiguous correct answer, no prohibited all/none/both/A-and-B format, and the distractors are standalone and plausible. The explanation and rationales support the answer, no calculations are involved, the regulatory statement is not obviously outdated or over-specific, and the taxonomy is appropriate.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "147",
     "sourceQuestionNumber": 146,
     "sourceCode": "10_IM_104",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-147",
@@ -6984,7 +6930,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-149; sequence 149; source code 10_IM_58.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is clear. However, the 21-day pre-use filing statement may reflect an older regulatory formulation; current CTA/CPO disclosure document review and filing requirements should be checked before treating this as verified for a current Series 3 app.",
+    "qualityNotes": "The screenshot is readable and the source answer is clear. However, the 21-day pre-use filing statement may reflect an older regulatory formulation; current CTA/CPO disclosure document review and filing requirements should be checked before treating this as verified for a current Series 3 app. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -7146,50 +7092,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "just-equitable-principles",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "The Commodity Exchange Act, in setting out the CFTC's regulatory scheme, provides that:",
+    "stem": "Under the Commodity Exchange Act's regulatory structure, what is the relationship between the CFTC and futures exchanges?",
     "choices": [
       {
         "id": "a",
-        "text": "The CFTC has exclusive regulatory authority over all futures and options on futures traded on an exchange.",
-        "isCorrect": false,
-        "rationale": "This statement is accurate, but the source's correct answer combines all listed statements."
+        "text": "The CFTC has exclusive jurisdiction over exchange-traded futures and options on futures, while exchanges retain self-regulatory responsibilities subject to CFTC oversight.",
+        "isCorrect": true,
+        "rationale": "The Commodity Exchange Act gives the CFTC exclusive jurisdiction over exchange-traded futures and options on futures, requires exchanges to perform self-regulatory functions, and gives the CFTC oversight authority over exchanges and other SROs."
       },
       {
         "id": "b",
-        "text": "Exchanges have an obligation to regulate themselves.",
+        "text": "Futures exchanges have exclusive regulatory authority over their markets, and the CFTC may act only after an exchange requests assistance.",
         "isCorrect": false,
-        "rationale": "This statement is accurate, but the source's correct answer combines all listed statements."
+        "rationale": "The CFTC has statutory jurisdiction and oversight authority; its authority is not dependent on an exchange request."
       },
       {
         "id": "c",
-        "text": "The CFTC has oversight jurisdiction over the exchanges and any other self-regulatory organizations.",
+        "text": "The CFTC directly regulates customers and futures commission merchants, but exchanges are not treated as self-regulatory organizations.",
         "isCorrect": false,
-        "rationale": "This statement is accurate, but the source's correct answer combines all listed statements."
+        "rationale": "Exchanges have self-regulatory obligations and are subject to CFTC oversight."
       },
       {
         "id": "d",
-        "text": "All of the above.",
-        "isCorrect": true,
-        "rationale": "The Commodity Exchange Act gives the CFTC exclusive jurisdiction over exchange-traded futures and options on futures, recognizes self-regulatory obligations of exchanges, and gives the CFTC oversight jurisdiction over exchanges and other self-regulatory organizations."
+        "text": "Exchange self-regulation replaces CFTC oversight for futures and options on futures traded on designated exchanges.",
+        "isCorrect": false,
+        "rationale": "Exchange self-regulation does not replace CFTC oversight; it operates within the CFTC-supervised regulatory framework."
       }
     ],
-    "explanation": "The Commodity Exchange Act gives the CFTC exclusive jurisdiction over futures and options on futures traded on exchanges. The Act and regulations also assign self-regulatory responsibilities to futures and options exchanges and give the CFTC oversight jurisdiction of exchanges and other self-regulatory organizations.",
+    "explanation": "The Commodity Exchange Act establishes a dual regulatory structure. The CFTC has exclusive jurisdiction over exchange-traded futures and options on futures, while futures exchanges and other self-regulatory organizations have self-regulatory duties. The CFTC retains oversight jurisdiction over those exchanges and SROs.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-153; sequence 153; source code 10_IM_15.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is clear. However, the correct choice is 'All of the above,' and the rules say to avoid all/none-of-the-above choices unless they can be safely rewritten semantically. Because A, B, and C are each true and D merely aggregates them, the item is not app-ready without revision.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to eliminate the banned 'All of the above' format while preserving the tested concept. The correct answer is now a single standalone statement, and distractors are plausible but clearly incorrect. Repair: Converted the original all-of-the-above item into a single-best-answer question about the CFTC's exclusive jurisdiction, exchange self-regulation, and CFTC oversight of exchanges/SROs. Second-pass review: The repaired item is readable and meaningful, has exactly one clearly correct answer, and eliminates the original all-of-the-above structure. The correct choice accurately captures the CEA/CFTC framework: CFTC jurisdiction and oversight alongside exchange self-regulatory responsibilities. Distractors are plausible but clearly incorrect, and the explanation/rationales support the keyed answer. No calculation issue is present, the regulatory statement is foundational and not obviously outdated, and the taxonomy is acceptable for the available categories.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "153",
     "sourceQuestionNumber": 152,
     "sourceCode": "10_IM_15",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-153",
@@ -7456,7 +7402,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-159; sequence 159; source code 10_IM_12.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The question is readable and the intended answer is clear. However, the cited options regulation reference in the source explanation appears potentially outdated because Part 33 exchange-traded commodity option rules have changed over time. The general concept that CFTC-prescribed risk disclosure language is required remains consistent, but the item should be reviewed for current rule citations before being marked verified.",
+    "qualityNotes": "The question is readable and the intended answer is clear. However, the cited options regulation reference in the source explanation appears potentially outdated because Part 33 exchange-traded commodity option rules have changed over time. The general concept that CFTC-prescribed risk disclosure language is required remains consistent, but the item should be reviewed for current rule citations before being marked verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -7964,56 +7910,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "discretionary-accounts",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "In regard to discretionary accounts, NFA rules require which of the following?",
+    "stem": "Under NFA rules for discretionary futures accounts, which practice is required before a member or associated person exercises trading discretion over a customer's account?",
     "choices": [
       {
         "id": "a",
-        "text": "The grant of discretion must be in writing.",
-        "isCorrect": false,
-        "rationale": "This is a required element, but it is not the only requirement listed."
+        "text": "Obtain the customer's written authorization granting discretionary trading authority.",
+        "isCorrect": true,
+        "rationale": "NFA discretionary-account rules require written authorization from the customer before discretionary trading authority is exercised, subject to limited exceptions not tested here."
       },
       {
         "id": "b",
-        "text": "The member's records systems must clearly identify discretionary accounts.",
+        "text": "Treat oral permission from the customer as sufficient written authorization if it is witnessed by another employee.",
         "isCorrect": false,
-        "rationale": "This is a required element, but it is not the only requirement listed."
+        "rationale": "Oral permission is not a substitute for the required written grant of discretionary authority."
       },
       {
         "id": "c",
-        "text": "Each trade must be marked as discretionary.",
+        "text": "Allow discretionary orders to be entered without any special identification if the account executive approved the trades.",
         "isCorrect": false,
-        "rationale": "This is a required element, but it is not the only requirement listed."
+        "rationale": "Discretionary accounts and discretionary orders must be identifiable in the member's records and order-handling process."
       },
       {
         "id": "d",
-        "text": "The member must have written procedures for review of discretionary trading.",
+        "text": "Review discretionary trading only when a customer complaint is received.",
         "isCorrect": false,
-        "rationale": "This is a required element, but it is not the only requirement listed."
-      },
-      {
-        "id": "e",
-        "text": "All of the above.",
-        "isCorrect": true,
-        "rationale": "NFA Rule 2-8 addresses discretionary trading requirements, including written authorization, identification of discretionary accounts, marking discretionary orders, and written supervisory review procedures."
+        "rationale": "Members must maintain written supervisory procedures for review of discretionary trading; review is not limited to complaint situations."
       }
     ],
-    "explanation": "The source identifies E as correct. NFA Rule 2-8 on discretionary trading covers the listed controls and procedures for discretionary accounts, including written customer authorization and supervisory review requirements.",
+    "explanation": "NFA Rule 2-8 addresses discretionary trading controls. A core requirement is that the customer's grant of discretion be in writing before discretionary trading is conducted. The rule also requires controls such as identifying discretionary accounts/orders and supervisory review procedures, but this repaired item tests the written-authorization requirement with one clear correct answer.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-170; sequence 170; source code 10_IM_46.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source uses an 'All of the above' choice. Although the intended answer is clear and the regulatory concept is coherent, the item should be reviewed or rewritten into semantically independent choices for app use.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove the banned 'All of the above' format and to provide standalone answer choices with exactly one correct response. Repair: Converted the original all-of-the-above question into a single-best-answer item focused on the written authorization requirement for discretionary accounts. Second-pass review: The repaired item is readable, has exactly one unambiguous correct answer, removes the all-of-the-above format, and uses plausible standalone distractors. The explanation and rationales correctly support the written-authorization requirement under NFA discretionary-account rules, while noting related controls without creating ambiguity. Taxonomy is appropriate and no calculation is involved.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "170",
     "sourceQuestionNumber": 169,
     "sourceCode": "10_IM_46",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-170",
@@ -8114,50 +8054,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cta-regulations",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A CTA must register with the CFTC unless:",
+    "stem": "A person acting as a commodity trading advisor (CTA) is generally exempt from CFTC registration if which condition is met?",
     "choices": [
       {
         "id": "a",
-        "text": "The CTA has provided advice to not more than 15 persons during the last year and does not hold itself out to the public as providing trading advice.",
+        "text": "The advisor has provided commodity trading advice to no more than 15 persons during the preceding 12 months and does not hold itself out generally to the public as a CTA.",
         "isCorrect": true,
-        "rationale": "This describes the CTA registration exemption for an adviser who has not provided commodity trading advice to more than 15 persons during the preceding 12 months and does not hold itself out generally to the public as a CTA."
+        "rationale": "This is the limited-adviser CTA registration exemption: advice to no more than 15 persons in the preceding 12 months and no general public holding out as a CTA."
       },
       {
         "id": "b",
-        "text": "The CTA has not made money during the last twelve months.",
+        "text": "The advisor's commodity trading recommendations were not profitable during the preceding 12 months.",
         "isCorrect": false,
-        "rationale": "Profitability or lack of profitability during the prior year does not by itself exempt a CTA from CFTC registration."
+        "rationale": "Profitability, or lack of profitability, does not determine whether CTA registration is required."
       },
       {
         "id": "c",
-        "text": "The CTA is registered with FINRA even though its principal business is providing commodity trading advice.",
+        "text": "The advisor is registered with FINRA, even though providing commodity trading advice is its principal business.",
         "isCorrect": false,
-        "rationale": "FINRA registration does not substitute for required CTA registration when the person is engaged in commodity trading advice as a principal business."
+        "rationale": "FINRA registration does not replace CFTC/NFA CTA registration when a person is acting as a commodity trading advisor and no exemption applies."
       },
       {
         "id": "d",
-        "text": "The CTA is registered with another regulator and has had no profitable clients during the last twelve months.",
+        "text": "The advisor is registered with another financial regulator and none of its clients earned profits from the advice during the preceding 12 months.",
         "isCorrect": false,
-        "rationale": "Neither registration with another regulator nor recent profitability determines the CTA registration requirement."
+        "rationale": "Registration with another regulator and client profitability do not by themselves create a CTA registration exemption."
       }
     ],
-    "explanation": "CTA registration is generally not required if the trading advisor has provided advice to not more than 15 persons during the last year and does not hold itself out to the public as providing trading advice.",
+    "explanation": "A CTA is generally required to register unless an exemption applies. One commonly tested exemption applies when the advisor has provided commodity trading advice to no more than 15 persons during the preceding 12 months and does not hold itself out generally to the public as a CTA.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-173; sequence 173; source code 10_IM_86.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source is readable and the stated correct answer is consistent with the CTA registration exemption concept. However, the original choice D is a referential 'A and C' option, which is not app-ready under the provided rules. I rewrote D semantically to avoid the reference, so the item should be reviewed before verification.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "The referential source choice was replaced with a standalone distractor. The item now has exactly one clear correct answer and tests the CTA limited-adviser registration exemption. Repair: Rewrote the stem and choices into standalone app-ready wording, corrected the source typo from 'then' to 'than,' and removed the banned referential choice 'A and C.' Second-pass review: The repaired item is clear, has exactly one unambiguous correct answer, uses standalone answer choices with no referential formats, and the explanation/rationales support the CTA limited-adviser registration exemption. Taxonomy is appropriate and no calculation is involved.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "173",
     "sourceQuestionNumber": 172,
     "sourceCode": "10_IM_86",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-173",
@@ -8344,7 +8284,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-177; sequence 177; source code 10_IM_32.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and internally consistent, with exactly one correct answer. However, the explanation references submission of a fingerprint card; modern NFA/CFTC registration processing requirements may differ, so the rule should be checked for current terminology and filing requirements before marking verified.",
+    "qualityNotes": "The screenshot is readable and internally consistent, with exactly one correct answer. However, the explanation references submission of a fingerprint card; modern NFA/CFTC registration processing requirements may differ, so the rule should be checked for current terminology and filing requirements before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -8362,56 +8302,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cta-regulations",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Which of the following would require registration as a CTA?",
+    "stem": "Which activity would generally require a person or firm to register as a Commodity Trading Advisor (CTA)?",
     "choices": [
       {
         "id": "a",
-        "text": "Advising more than 15 persons during the previous 12 months.",
-        "isCorrect": false,
-        "rationale": "The source indicates this is one of several examples requiring CTA registration, but not the best answer because all listed examples require registration."
+        "text": "Providing commodity interest trading advice for compensation while holding the firm out to the public as a trading advisor.",
+        "isCorrect": true,
+        "rationale": "A person who, for compensation or profit, advises others about commodity interest trading and holds out as a trading advisor generally must register as a CTA unless an exemption applies."
       },
       {
         "id": "b",
-        "text": "Holding yourself out to the public as a trading advisor.",
+        "text": "Providing commodity interest trading advice to 15 or fewer persons in the past 12 months without holding out to the public as a trading advisor.",
         "isCorrect": false,
-        "rationale": "Holding oneself out to the public as a trading advisor can require CTA registration, but the source asks which of the listed examples would require registration, and all listed examples do."
+        "rationale": "This describes a common CTA registration exemption, assuming the other conditions of the exemption are met."
       },
       {
         "id": "c",
-        "text": "Allocating assets to CTAs or investee pools.",
+        "text": "Publishing general market news that is not tailored to any customer's commodity interest trading account.",
         "isCorrect": false,
-        "rationale": "The source indicates this is one of several examples requiring CTA registration, but not the best answer because all listed examples require registration."
+        "rationale": "General, nonpersonalized market commentary is not typically CTA activity requiring registration by itself."
       },
       {
         "id": "d",
-        "text": "All of the above.",
-        "isCorrect": true,
-        "rationale": "The source states that all listed examples would require registration as a CTA."
-      },
-      {
-        "id": "e",
-        "text": "A and C only.",
+        "text": "Giving incidental commodity interest comments as part of another regulated business without receiving separate compensation for the advice.",
         "isCorrect": false,
-        "rationale": "This omits choice B, which the source explanation includes among the examples requiring CTA registration."
+        "rationale": "Incidental advice without separate compensation may fall outside CTA registration requirements or within an exclusion, depending on the facts."
       }
     ],
-    "explanation": "All of the listed examples would require registration as a CTA.",
+    "explanation": "CTA registration is generally required when a person or firm, for compensation or profit, advises others about commodity interest trading or holds itself out as providing that advice. A person who advises only 15 or fewer persons during the prior 12 months and does not hold out to the public may qualify for an exemption, so publicly holding out as a trading advisor is the clearest registration-triggering fact.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-178; sequence 178; source code 10_IM_110.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source's indicated answer is clear. However, the item uses 'All of the above' and 'A and C only' answer formats, which are disallowed for app-ready verified items unless safely rewritten. It is therefore marked needs_review rather than verified.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove banned answer formats and to test one clear CTA-registration trigger with standalone choices. Repair: Converted the original 'All of the above' item into a single-best-answer question focused on holding out to the public as a commodity trading advisor for compensation, with exemption-based distractors. Second-pass review: The repaired item is readable, removes prohibited all/none/A-and-B formats, and has exactly one clearly correct answer. The distractors are plausible and generally align with CTA exclusions/exemptions, including the 15-or-fewer/no-holding-out framework. Rationales and explanation support the keyed answer, and the taxonomy is appropriate for CTA registration requirements.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "178",
     "sourceQuestionNumber": 177,
     "sourceCode": "10_IM_110",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-178",
@@ -8482,7 +8416,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-180; sequence 180; source code 10_IM_75.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source marks B/False as correct. However, the regulatory treatment of principal-protected pools may be time-sensitive and should be checked against current CFTC/NFA disclosure requirements before marking verified.",
+    "qualityNotes": "The screenshot is readable and the source marks B/False as correct. However, the regulatory treatment of principal-protected pools may be time-sensitive and should be checked against current CFTC/NFA disclosure requirements before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -8592,7 +8526,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-182; sequence 182; source code 10_IM_118.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the keyed answer is clear. However, this is a nuanced CPO/CTA Disclosure Document performance-presentation rule, and the exact current NFA/CFTC requirements for extracted performance should be reviewed before marking verified.",
+    "qualityNotes": "The screenshot is readable and the keyed answer is clear. However, this is a nuanced CPO/CTA Disclosure Document performance-presentation rule, and the exact current NFA/CFTC requirements for extracted performance should be reviewed before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -8650,43 +8584,43 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "time-stamping",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Which of the following orders must be retained by the FCM or IB for a period of at least five years?",
+    "stem": "Under CFTC recordkeeping rules, which customer order records must an FCM or IB retain for at least five years?",
     "choices": [
       {
         "id": "a",
-        "text": "All filled orders",
+        "text": "Only orders that were filled",
         "isCorrect": false,
-        "rationale": "CFTC recordkeeping requirements are not limited to filled orders."
+        "rationale": "Recordkeeping requirements are not limited to filled orders."
       },
       {
         "id": "b",
-        "text": "All filled and unfilled orders",
+        "text": "Filled and unfilled orders, but not canceled orders",
         "isCorrect": false,
-        "rationale": "This omits canceled orders, which must also be retained."
+        "rationale": "Canceled orders are also order records that must be retained."
       },
       {
         "id": "c",
-        "text": "All filled, unfilled, and canceled orders",
+        "text": "Filled, unfilled, and canceled orders",
         "isCorrect": true,
-        "rationale": "CFTC Regulation 1.35 requires records of orders, including filled, unfilled, and canceled orders, to be kept, and Regulation 1.31 generally requires required records to be retained for at least five years."
+        "rationale": "CFTC order-record requirements include records of filled, unfilled, and canceled orders, and required records generally must be retained for at least five years."
       },
       {
         "id": "d",
-        "text": "None of the above",
+        "text": "Only canceled orders and order tickets involving customer complaints",
         "isCorrect": false,
-        "rationale": "Choice C correctly describes the relevant order records that must be retained."
+        "rationale": "The retention requirement is broader and applies to order records generally, including filled, unfilled, and canceled orders."
       }
     ],
-    "explanation": "CFTC Regulation 1.35 requires order records, including filled, unfilled, and canceled orders, to be retained by FCMs, IBs, and members of contract markets. CFTC Regulation 1.31 requires these and other required records to be retained for at least five years.",
+    "explanation": "FCMs and IBs must retain required order records, including filled, unfilled, and canceled orders. CFTC Regulation 1.35 addresses order records, and CFTC Regulation 1.31 generally requires required records to be retained for at least five years.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-184; sequence 184; source code 10_IM_13.",
     "reviewStatus": "reviewed",
     "qualityStatus": "verified",
-    "qualityNotes": "The item is readable and the stated answer is consistent with the explanation. Although choice D uses 'None of the above,' it is not needed to determine the correct answer and can remain as a distractor in this context.",
+    "qualityNotes": "Repaired to remove the banned 'None of the above' format while preserving the source-tested concept. The rule is a standard recordkeeping principle for FCM/IB order records and is suitable for a static Series 3 practice item. Repair: Removed the prohibited 'None of the above' answer choice and replaced it with a substantive distractor. Clarified the stem and retained exactly one correct answer. Second-pass review: The repaired item is readable, has exactly one unambiguous correct answer, removes the prior 'None of the above' choice, and provides plausible standalone distractors. The explanation and rationales support the correct answer. The regulatory statement is consistent with CFTC order-record and general retention requirements, and the taxonomy is appropriate for FCM/IB order recordkeeping/time-stamping.",
     "verifiedAt": "2026-05-14T00:00:00.000Z",
-    "verifiedBy": "OpenAI gpt-5.5 vision transcript + content audit, reasoning low",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low",
     "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "184",
@@ -8754,50 +8688,43 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "net-capital-requirements",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "NFA financial rules require FCMs to maintain adjusted net capital equal to or in excess of the higher of $1,000,000 or which of the following:",
+    "stem": "Under the NFA financial requirements reflected in the source, an FCM must maintain adjusted net capital at least equal to the greatest of the applicable minimum computations. Which item is one of the computations that may set the required adjusted net capital amount for an FCM?",
     "choices": [
       {
         "id": "a",
-        "text": "Four percent (six to avoid early warning status) of the funds required to be segregated plus a similar computation of foreign futures and options secured amounts.",
-        "isCorrect": false,
-        "rationale": "Incorrect."
+        "text": "The highest applicable amount among the fixed-dollar minimum, the segregation/secured-amount percentage test, the branch-office and guaranteed-IB count test, the sponsored-AP count test, and any applicable SEC broker-dealer net capital requirement.",
+        "isCorrect": true,
+        "rationale": "Correct. The source tests the principle that the FCM requirement is based on the highest applicable computation, not merely one isolated dollar amount."
       },
       {
         "id": "b",
-        "text": "$6,000 for each branch office or guaranteed IB and IB branch office.",
+        "text": "Only the fixed-dollar minimum, regardless of the FCM's customer funds, branch offices, sponsored APs, or broker-dealer status.",
         "isCorrect": false,
-        "rationale": "Incorrect."
+        "rationale": "Incorrect. The source indicates that the fixed-dollar minimum is compared with other applicable computations, and the highest amount controls."
       },
       {
         "id": "c",
-        "text": "$3,000 for each sponsored AP, including APs sponsored by guaranteed IBs.",
+        "text": "Only the amount required for introducing brokers, because an FCM's capital requirement is determined solely by the IBs it guarantees.",
         "isCorrect": false,
-        "rationale": "Incorrect."
+        "rationale": "Incorrect. Guaranteed IBs may be part of a computation, but they are not the sole basis for an FCM's adjusted net capital requirement."
       },
       {
         "id": "d",
-        "text": "For a broker-dealer, the net capital required by SEC regulations.",
+        "text": "Only the exchange margin required for the FCM's proprietary futures positions.",
         "isCorrect": false,
-        "rationale": "Incorrect."
-      },
-      {
-        "id": "e",
-        "text": "The highest of any of the above.",
-        "isCorrect": true,
-        "rationale": "The source indicates that FCMs must maintain adjusted net capital at least equal to the highest applicable computation listed."
+        "rationale": "Incorrect. Exchange margin on proprietary positions is not the capital formula described in the source item."
       }
     ],
-    "explanation": "FCMs must, at all times, maintain adjusted net capital equal to or in excess of the highest computation outlined in this question.",
+    "explanation": "The source question states that an FCM must maintain adjusted net capital equal to or greater than the highest applicable computation. The listed computations include the fixed-dollar minimum, a percentage of segregated and secured amounts, dollar amounts tied to branch offices or guaranteed IBs and their branches, dollar amounts tied to sponsored APs, and, for a broker-dealer, the SEC net capital requirement. This repair removes the banned \"highest of the above\" answer format while preserving the tested concept. However, the item remains under review because the source uses an older fixed-dollar FCM minimum and potentially dated formula amounts.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-186; sequence 186; source code 10_IM_71.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is clear. However, the answer choice uses 'any of the above,' which is not ideal for app-ready QCM format. In addition, the $1,000,000 FCM adjusted net capital figure may be outdated under current CFTC/NFA requirements and should be checked before use.",
+    "qualityNotes": "The source and tested concept are clear, and the banned 'any of the above' format has been repaired. The item should not be verified because the fixed-dollar and formula amounts in the source may be outdated under current CFTC/NFA financial requirements. Repair: Rewrote the question to eliminate the banned 'highest of any of the above' answer choice and made each choice standalone with exactly one correct answer. Preserved the educational concept that the highest applicable FCM adjusted net capital computation controls.",
     "issueTypes": [
-      "outdated_rule",
-      "bad_distractors"
+      "outdated_rule"
     ],
     "extractionConfidence": "high",
     "sourcePageRange": "186",
@@ -9071,7 +8998,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-192; sequence 192; source code 10_IM_94.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the keyed answer is clear. However, because NFA record-retention details for foreign-language promotional material may have changed or require confirmation against the current rule/interpretive notice, the item is marked needs_review rather than verified.",
+    "qualityNotes": "The screenshot is readable and the keyed answer is clear. However, because NFA record-retention details for foreign-language promotional material may have changed or require confirmation against the current rule/interpretive notice, the item is marked needs_review rather than verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -9245,50 +9172,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "promotional-material",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Which claims have been identified by the NFA as areas of potentially abusive promotional practices?",
+    "stem": "According to NFA guidance on promotional material, which set of claims is identified as presenting potential abusive promotional practices?",
     "choices": [
       {
         "id": "a",
-        "text": "Claims regarding seasonal trends, historical price moves, price movements characterized as conservative, and profit potential projections",
+        "text": "Claims about seasonal trends, historical price moves, price movements described as conservative, and profit-potential projections",
         "isCorrect": true,
-        "rationale": "NFA guidance identifies these types of promotional claims as potential areas of abuse."
+        "rationale": "NFA guidance identifies all of these categories as areas where promotional claims may be abusive."
       },
       {
         "id": "b",
-        "text": "Only claims regarding seasonal trades and historical price moves",
+        "text": "Claims limited to the mechanics of account-opening documentation and customer identification procedures",
         "isCorrect": false,
-        "rationale": "The source explanation also includes claims about price movements characterized as conservative and profit potential projections."
+        "rationale": "Account-opening and customer identification procedures are regulatory compliance topics, but they are not the promotional-claim categories identified in this item."
       },
       {
         "id": "c",
-        "text": "Only claims regarding price movements characterized as conservative",
+        "text": "Claims limited to how exchange clearinghouses process trades and guarantee contract performance",
         "isCorrect": false,
-        "rationale": "This is one listed area, but it is not the only area identified in the source explanation."
+        "rationale": "Clearinghouse functions are not the promotional-material claim areas identified by the NFA in this context."
       },
       {
         "id": "d",
-        "text": "Only claims regarding profit potential projections",
+        "text": "Claims about routine trade-confirmation timing and monthly account statement delivery",
         "isCorrect": false,
-        "rationale": "This is one listed area, but it is not the only area identified in the source explanation."
+        "rationale": "Trade confirmations and account statements are not the promotional-claim categories identified as potentially abusive in this item."
       }
     ],
-    "explanation": "Claims regarding seasonal trends, historical price moves, price movements characterized as conservative, and profit potential projections are all among the areas of potential abuse identified by the NFA.",
+    "explanation": "NFA guidance on promotional material identifies several types of claims as areas of potential abuse, including claims regarding seasonal trends, historical price moves, price movements characterized as conservative, and profit-potential projections. The revised choices remove the original banned \"all of the above\" format while preserving the tested concept.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-196; sequence 196; source code 10_IM_124.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The image is readable and the stated correct answer is clear. However, the original item relies on 'All of the above,' which is disallowed for verified app-ready use unless rewritten. A semantic rewrite is provided, but it should be reviewed against the underlying NFA interpretive notice/source code before verification.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten into a single-best-answer format with standalone choices and no banned answer formats. Source image and transcript clearly support the correct answer. Repair: Converted the original \"all of the above\" item into an app-ready single-best-answer question by combining the true source propositions into one correct semantic answer and replacing partial-answer distractors with clearly incorrect standalone regulatory-topic distractors. Second-pass review: The repaired item is readable, has exactly one clear correct answer, avoids all/none/both formats, and the distractors are standalone. The explanation and rationales support the keyed answer, no calculation is involved, and the regulatory statement is a general NFA promotional-material principle that is not obviously outdated or overly specific. Taxonomy is appropriate for FCM/IB promotional material.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "196",
     "sourceQuestionNumber": 195,
     "sourceCode": "10_IM_124",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-196",
@@ -9348,39 +9275,51 @@ export const regulatoryPdfQuestions: Question[] = [
     "topicId": "cpo-cta",
     "subtopicId": "bunched-orders",
     "difficulty": "medium",
-    "questionType": "true_false",
-    "stem": "In regard to the handling of bunched (block) orders, CTAs are required to maintain fair and balanced allocation procedures, ensure customer accounts receive correct contract allocations on each trade, and review each trading program at least quarterly to ensure the allocation method has been fair and equitable.",
+    "questionType": "multiple_choice",
+    "stem": "Which statement best describes a CTA's responsibilities when using bunched or block orders for customer accounts?",
     "choices": [
       {
         "id": "a",
-        "text": "True",
+        "text": "The CTA must use fair allocation procedures, ensure correct contract allocations to customer accounts, and periodically review each trading program's allocation method for fairness.",
         "isCorrect": true,
-        "rationale": "CTAs that use bunched or block orders must have fair and equitable allocation procedures and periodically review allocation methods."
+        "rationale": "CTAs using bunched or block orders must follow fair and equitable allocation procedures, allocate contracts correctly among customer accounts, and review the allocation method at least quarterly."
       },
       {
         "id": "b",
-        "text": "False",
+        "text": "The CTA may allocate profitable trades first to accounts with the highest account equity if this method is disclosed in advance.",
         "isCorrect": false,
-        "rationale": "This statement accurately describes required CTA procedures for bunched or block order allocations."
+        "rationale": "Allocation procedures must be fair and equitable; favoring accounts based on equity for profitable trades would not satisfy that standard."
+      },
+      {
+        "id": "c",
+        "text": "The CTA only needs written customer authorization and does not need a separate allocation procedure for bunched orders.",
+        "isCorrect": false,
+        "rationale": "Written authorization for discretionary trading does not replace the need for fair bunched-order allocation procedures."
+      },
+      {
+        "id": "d",
+        "text": "The CTA may decide allocations after the trading day ends without documenting or reviewing the allocation method.",
+        "isCorrect": false,
+        "rationale": "Bunched-order allocations must be handled under fair procedures with appropriate allocation and review, not through undocumented after-the-fact discretion."
       }
     ],
-    "explanation": "CTA handling of bunched or block orders must follow the listed requirements: fair and balanced allocation procedures, correct contract allocations to customer accounts, and quarterly review of each trading program's allocation method for fairness and equity.",
+    "explanation": "A CTA that bunches or blocks orders must use allocation procedures designed to be fair and equitable, must ensure customer accounts receive the correct contract allocations on each trade, and must review each trading program's allocation method at least quarterly to confirm it has been fair and equitable.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-198; sequence 198; source code 10_IM_114.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The visible source question is readable and the indicated answer is D, but it uses 'All of the above' and 'A and B only' choices. It was rewritten as a True/False item to avoid answer choices referencing other choices, so it should be reviewed before verification.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten from the source's banned 'All of the above' format into a standalone single-best-answer multiple-choice item. The tested concept is clear and preserved. Repair: Converted the source item from an 'All of the above' question into an app-ready standalone multiple-choice question with exactly one correct answer and meaningful distractors. Second-pass review: The repaired item is readable and meaningful, has exactly one unambiguous correct answer, avoids all/none/both formats, and uses standalone plausible distractors. The rationales and explanation support the correct answer. No calculations are involved. The regulatory concept regarding CTA bunched/block order allocation procedures, correct allocation, and periodic/quarterly review is appropriate for the stated taxonomy and not obviously outdated or over-specific.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "198",
     "sourceQuestionNumber": 197,
     "sourceCode": "10_IM_114",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-198",
@@ -9429,50 +9368,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "just-equitable-principles",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "The Commodity Exchange Act, in setting out the CFTC's regulatory scheme, emphasizes that:",
+    "stem": "Under the Commodity Exchange Act's regulatory structure for exchange-traded futures and options on futures, which statement best describes the relationship between the CFTC and exchanges?",
     "choices": [
       {
         "id": "a",
-        "text": "The CFTC has exclusive regulatory authority over all futures and options on futures taking place on an exchange.",
-        "isCorrect": false,
-        "rationale": "This statement is described in the explanation, but it is not the only correct statement."
+        "text": "The CFTC has exclusive jurisdiction over exchange-traded futures and options on futures, while exchanges and other self-regulatory organizations have self-regulatory duties subject to CFTC oversight.",
+        "isCorrect": true,
+        "rationale": "The Commodity Exchange Act gives the CFTC exclusive jurisdiction over exchange-traded futures and options on futures, assigns self-regulatory responsibilities to exchanges and similar organizations, and subjects those organizations to CFTC oversight."
       },
       {
         "id": "b",
-        "text": "Exchanges have an obligation to regulate themselves.",
+        "text": "Exchanges have exclusive regulatory authority over futures trading, and the CFTC may intervene only when an exchange requests assistance.",
         "isCorrect": false,
-        "rationale": "This statement is described in the explanation, but it is not the only correct statement."
+        "rationale": "Exchanges have self-regulatory responsibilities, but the CFTC retains jurisdiction and oversight authority; its role is not limited to acting at an exchange's request."
       },
       {
         "id": "c",
-        "text": "The CFTC has oversight jurisdiction over the exchanges and any other self-regulatory organizations.",
+        "text": "The CFTC directly regulates customers but has no oversight authority over exchanges or other self-regulatory organizations.",
         "isCorrect": false,
-        "rationale": "This statement is described in the explanation, but it is not the only correct statement."
+        "rationale": "The CFTC has oversight jurisdiction over exchanges and other self-regulatory organizations under the Commodity Exchange Act's regulatory scheme."
       },
       {
         "id": "d",
-        "text": "All of the above.",
-        "isCorrect": true,
-        "rationale": "The Commodity Exchange Act gives the CFTC jurisdiction over exchange-traded futures and options on futures, assigns self-regulatory responsibilities to exchanges, and gives the CFTC oversight jurisdiction over exchanges and other self-regulatory organizations."
+        "text": "The Commodity Exchange Act leaves exchange-traded futures and options on futures primarily outside federal regulatory jurisdiction.",
+        "isCorrect": false,
+        "rationale": "Exchange-traded futures and options on futures are within the CFTC's jurisdiction under the Commodity Exchange Act."
       }
     ],
-    "explanation": "The Commodity Exchange Act gives the CFTC exclusive jurisdiction over futures and options on futures traded on exchanges. The Act and regulations also assign self-regulatory responsibilities to futures and options exchanges and give the CFTC oversight jurisdiction over exchanges and any other self-regulatory organizations.",
+    "explanation": "The Commodity Exchange Act establishes a regulatory framework in which the CFTC has jurisdiction over exchange-traded futures and options on futures. At the same time, exchanges and other self-regulatory organizations have self-regulatory responsibilities, and the CFTC has oversight jurisdiction over those organizations.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-200; sequence 200; source code 10_IM_90.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source question is readable and the stated answer is supported by the explanation, but it uses an 'All of the above' option. Per instruction, such choices should be avoided unless safely rewritten; because the source's structure depends on combining A, B, and C, this item is marked needs_review rather than verified.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove the banned 'All of the above' format while preserving the tested concept. The repaired item has one clearly correct standalone answer and plausible standalone distractors. Repair: Converted the original 'All of the above' question into a single-best-answer item that combines the three true source propositions into one correct standalone choice and replaces the remaining choices with incorrect standalone distractors. Second-pass review: The repaired item is readable, removes the all-of-the-above format, and has exactly one clearly correct answer. The correct choice accurately summarizes the CEA/CFTC regulatory structure for exchange-traded futures and options on futures, exchange/SRO self-regulatory duties, and CFTC oversight. Distractors are plausible and clearly incorrect, and the explanation/rationales support the answer. No calculation issues or obvious regulatory/taxonomy problems identified.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "200",
     "sourceQuestionNumber": 199,
     "sourceCode": "10_IM_90",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-200",
@@ -9533,56 +9472,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "account-opening",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Futures and options positions generally must be offset against the oldest open positions (FIFO basis) with the exception of which of the following?",
+    "stem": "Which of the following is generally an exception to the FIFO requirement for offsetting open futures and options positions?",
     "choices": [
       {
         "id": "a",
-        "text": "Hedge accounts and day trades",
-        "isCorrect": false,
-        "rationale": "This is incomplete. Hedge accounts and day trades are exceptions, but positions offset in accordance with specific customer instructions are also an exception."
+        "text": "A trade offset in accordance with specific customer instructions",
+        "isCorrect": true,
+        "rationale": "Specific customer instructions are a recognized exception to the general requirement to offset against the oldest open position first."
       },
       {
         "id": "b",
-        "text": "Positions offset in accordance with specific customer instructions",
+        "text": "A discretionary account in which an FCM, IB, or associated person submits special offset instructions",
         "isCorrect": false,
-        "rationale": "This is incomplete. Specific customer offset instructions are an exception, but hedge accounts and day trades are also exceptions."
+        "rationale": "FCMs, IBs, and their associated persons generally may not submit special offset instructions for customer discretionary accounts they direct."
       },
       {
         "id": "c",
-        "text": "Discretionary accounts directed by an FCM, IB, or one of their APs",
+        "text": "A speculative account with no customer offset instructions",
         "isCorrect": false,
-        "rationale": "FCMs, IBs, or their APs directing a customer's discretionary account generally are not permitted to submit special offset instructions."
+        "rationale": "Absent an exception, positions generally must be offset on a FIFO basis against the oldest open positions."
       },
       {
         "id": "d",
-        "text": "A, B and C",
+        "text": "A non-discretionary account offset solely for administrative convenience of the firm",
         "isCorrect": false,
-        "rationale": "This includes discretionary accounts directed by an FCM, IB, or AP, which are generally not an exception."
-      },
-      {
-        "id": "e",
-        "text": "A and B only",
-        "isCorrect": true,
-        "rationale": "Hedge accounts, day trades, and offsets made in accordance with specific customer instructions are exceptions to the FIFO offset rule."
+        "rationale": "Firm convenience is not a recognized exception to the FIFO offset requirement."
       }
     ],
-    "explanation": "Hedge accounts, day trades, and position offsets made in accordance with specific customer instructions are exceptions to the general requirement that futures and options positions be offset against the oldest open position first. However, FCMs, IBs, or their APs directing a customer's discretionary account generally are not permitted to submit special offset instructions.",
+    "explanation": "Futures and options positions generally are offset against the oldest open positions first, often referred to as FIFO. Exceptions include hedge accounts, day trades, and offsets made in accordance with specific customer instructions. However, an FCM, IB, or associated person directing a customer's discretionary account generally may not submit special offset instructions.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-202; sequence 202; source code 10_IM_33.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the stated correct answer is clear. However, the source uses non-standalone combination choices (\"A, B and C\" and \"A and B only\"), which should be rewritten before app use if possible. The regulatory concept appears internally consistent, but because the combination-choice structure cannot be preserved as an ideal QCM, this item is marked needs_review rather than verified.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove combination answer choices and answer-letter references while preserving the tested regulatory concept. The stem asks for one recognized exception, allowing exactly one standalone correct answer. Repair: Converted the original combination-choice item into an app-ready standalone multiple-choice question with one correct answer: specific customer offset instructions as an exception to FIFO offsetting. Second-pass review: The repaired item is readable, uses standalone answer choices, has exactly one unambiguous correct answer, and removes the problematic combination format. Rationales and explanation consistently support the keyed answer and accurately reflect the stated FIFO exceptions, while noting the limitation on special offset instructions for discretionary accounts directed by an FCM, IB, or AP. Taxonomy is appropriate and no calculation is involved.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "202",
     "sourceQuestionNumber": 201,
     "sourceCode": "10_IM_33",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-202",
@@ -9665,7 +9598,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-204; sequence 204; source code 10_DI_8.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source-marked answer is clear. However, the ethics training requirement described appears to reflect older CFTC/NFA ethics-training rules; current requirements should be verified before using as an app-ready regulatory item.",
+    "qualityNotes": "The screenshot is readable and the source-marked answer is clear. However, the ethics training requirement described appears to reflect older CFTC/NFA ethics-training rules; current requirements should be verified before using as an app-ready regulatory item. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -9757,7 +9690,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-206; sequence 206; source code 10_DI_5.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and internally consistent, but the regulatory threshold/frequency for CPO periodic account statements appears potentially outdated and should be checked against current CFTC Part 4 requirements before use as a verified item.",
+    "qualityNotes": "The screenshot is readable and internally consistent, but the regulatory threshold/frequency for CPO periodic account statements appears potentially outdated and should be checked against current CFTC Part 4 requirements before use as a verified item. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -9867,50 +9800,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "transaction-cost-disclosure",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "If an FCM's or IB's fees and charges are not determined on a per-trade or a round-turn basis, which of the following applies?",
+    "stem": "When an FCM or IB charges fees in a way that is not based on a per-trade or round-turn amount, what disclosure must be provided to the customer?",
     "choices": [
       {
         "id": "a",
-        "text": "The FCM or IB may not charge a fee determined on any other basis.",
-        "isCorrect": false,
-        "rationale": "FCMs and IBs may charge fees on another basis if proper disclosure is provided."
+        "text": "The firm must provide a complete written explanation of the fees, including reasonable examples expressed on a per-trade or round-turn basis and, when equivalents may vary widely, a reasonably expected range.",
+        "isCorrect": true,
+        "rationale": "FCMs and IBs must explain non-per-trade or non-round-turn charges in writing and give reasonable examples translated into per-trade or round-turn terms, including a reasonable range when the equivalent charges may vary widely."
       },
       {
         "id": "b",
-        "text": "An explanation of such fees and examples of similar fees charged in the securities markets must be provided.",
+        "text": "The firm must stop using that fee method and replace it with a fixed round-turn commission schedule.",
         "isCorrect": false,
-        "rationale": "The comparison must be expressed in terms of per-trade or round-turn equivalents, not securities-market examples."
+        "rationale": "The rule does not prohibit other fee methods; it requires appropriate disclosure to the customer."
       },
       {
         "id": "c",
-        "text": "An explanation of such fees and examples in terms of per-trade or round-turn fees, including as needed a reasonable range of prices, must be provided.",
-        "isCorrect": true,
-        "rationale": "If fees are not charged per trade or round turn, the customer must receive a complete written explanation, including reasonable per-trade or round-turn examples and, where applicable, a reasonably expected range."
+        "text": "The firm must compare the charges to similar fees commonly used in the securities markets.",
+        "isCorrect": false,
+        "rationale": "The required comparison is to per-trade or round-turn equivalents, not to securities-market fee examples."
       },
       {
         "id": "d",
-        "text": "None of the above.",
+        "text": "The firm must disclose only the maximum possible fee that could be charged under the arrangement.",
         "isCorrect": false,
-        "rationale": "Choice C accurately states the disclosure requirement."
+        "rationale": "The disclosure must include a complete written explanation and reasonable examples; where equivalents vary widely, it should describe the reasonably expected range, not merely a maximum."
       }
     ],
-    "explanation": "If fees and charges are not based on a per-trade or round-turn charge, an FCM or IB must provide the customer with a complete written explanation of the fees and charges. This disclosure should include a reasonable example of the fees and charges on a per-trade or round-turn basis. If the per-trade or round-turn equivalent may vary widely, the FCM or IB should explain that fact and provide examples showing the reasonably expected range of fees or charges.",
+    "explanation": "If an FCM's or IB's fees and charges are not determined on a per-trade or round-turn basis, the customer must receive a complete written explanation of those fees and charges. The disclosure should include a reasonable example stated in per-trade or round-turn terms. If the per-trade or round-turn equivalent may vary widely, the firm should explain that fact and provide examples showing the reasonably expected range of fees or charges.",
     "sourceType": "imported",
     "active": true,
     "concept": "FCM / IB Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-209; sequence 209; source code 10_DI_2.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source is readable and the answer is clear. However, choice D is 'None of the above,' which the instructions discourage unless safely rewritten; no semantic rewrite is necessary for audit, so marked needs_review rather than verified.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Repaired by removing the banned 'None of the above' choice and rewriting all choices as standalone semantic answers. Source image and transcript agree that choice C is correct, and the tested concept is clear. Repair: Converted the original source item into an app-ready question by preserving the correct disclosure requirement while replacing the discouraged 'None of the above' distractor with a substantive incorrect option. Second-pass review: The repaired question is readable and tests the intended FCM/IB transaction-cost disclosure requirement. It has exactly one unambiguous correct answer, no all/none/both formats, and plausible standalone distractors. The explanation and rationales support the correct answer, no calculations are involved, the regulatory statement is not obviously outdated or over-specific, and the taxonomy is appropriate.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "209",
     "sourceQuestionNumber": 208,
     "sourceCode": "10_DI_2",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-209",
@@ -10005,7 +9938,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-211; sequence 211; source code 10_DI_35.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and indicates answer D. However, CTA/CPO disclosure document performance presentation requirements may have changed over time and should be checked against current NFA/CFTC rules before marking verified.",
+    "qualityNotes": "The screenshot is readable and indicates answer D. However, CTA/CPO disclosure document performance presentation requirements may have changed over time and should be checked against current NFA/CFTC rules before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -10057,7 +9990,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-212; sequence 212; source code 10_DI_44.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The image is readable and the source answer is clear, but the regulatory filing/approval requirement for promotional material involving audio podcasts and internet videos should be checked against current NFA rules and interpretive notices before marking verified.",
+    "qualityNotes": "The image is readable and the source answer is clear, but the regulatory filing/approval requirement for promotional material involving audio podcasts and internet videos should be checked against current NFA rules and interpretive notices before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -10075,56 +10008,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cpo-regulations",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "CPOs are prohibited from doing which of the following activities?",
+    "stem": "Which practice is prohibited for a commodity pool operator (CPO) when handling pool property?",
     "choices": [
       {
         "id": "a",
-        "text": "Accepting funds in other than the pool's name.",
+        "text": "Depositing pool participant funds into an account held in the name of the commodity pool.",
         "isCorrect": false,
-        "rationale": "This activity is prohibited for CPOs, but it is not the complete answer because commingling pool property is also prohibited."
+        "rationale": "A CPO generally should receive and hold pool funds in the pool's name; the prohibited practice is accepting funds in a name other than the pool's name."
       },
       {
         "id": "b",
-        "text": "Commingling funds of any pool with those of any person.",
-        "isCorrect": false,
-        "rationale": "This activity is prohibited for CPOs, but it is not the complete answer because accepting funds other than in the pool's name is also prohibited."
+        "text": "Combining the property of a pool with the property of the CPO or any other person.",
+        "isCorrect": true,
+        "rationale": "CFTC rules prohibit a CPO from commingling the property of any pool it operates or intends to operate with the property of any other person."
       },
       {
         "id": "c",
-        "text": "Entering orders directly to an FCM's trading floor desk.",
+        "text": "Maintaining separate records for each commodity pool operated by the CPO.",
         "isCorrect": false,
-        "rationale": "The cited CPO prohibitions concern accepting funds other than in the pool's name and commingling pool property, not this activity."
+        "rationale": "Maintaining separate records is consistent with CPO compliance obligations; it is not a prohibited practice."
       },
       {
         "id": "d",
-        "text": "A, B and C",
+        "text": "Operating more than one commodity pool while keeping each pool's property separately identified.",
         "isCorrect": false,
-        "rationale": "Choice C is not included in the stated CPO prohibitions."
-      },
-      {
-        "id": "e",
-        "text": "A and B, only",
-        "isCorrect": true,
-        "rationale": "CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling pool property with the property of any other person."
+        "rationale": "Operating multiple pools is not itself prohibited, provided the CPO complies with applicable rules and keeps pool property properly segregated and identified."
       }
     ],
-    "explanation": "CFTC regulations prohibit a CPO from accepting funds in other than the pool's name and from commingling the property of any pool that it operates or intends to operate with the property of any other person.",
+    "explanation": "A CPO is prohibited from commingling the property of any commodity pool it operates or intends to operate with the property of any other person, including the CPO. Relatedly, pool participant funds must be accepted in the pool's name rather than in another person's name. The repaired question tests the commingling prohibition as one clear best answer without combination answer choices.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-213; sequence 213; source code 10_DI_15.",
-    "reviewStatus": "needs_review",
-    "qualityStatus": "needs_review",
-    "qualityNotes": "The source question is readable and the regulatory concept is coherent, but the source uses combination answer choices ('A, B and C' and 'A and B, only'), which are disfavored for app-ready QCM format and cannot be safely rewritten without changing the structure.",
-    "issueTypes": [
-      "bad_distractors"
-    ],
+    "reviewStatus": "reviewed",
+    "qualityStatus": "verified",
+    "qualityNotes": "Rewritten to remove disfavored combination choices and references to answer letters while preserving the tested CPO prohibited-practices concept. Exactly one standalone answer is correct. Repair: Converted the original 'A and B only' format into a standalone four-choice question focused on one clear prohibited CPO practice: commingling pool property with the property of the CPO or another person. Second-pass review: The repaired item is readable, has exactly one unambiguous correct answer, avoids combination answer formats, and uses standalone plausible choices. The explanation and rationales correctly support the CPO commingling prohibition and related funds-in-pool-name rule. No calculations are present, the regulatory statement is stable and appropriate for Series 3, and the taxonomy is valid.",
+    "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "213",
     "sourceQuestionNumber": 212,
     "sourceCode": "10_DI_15",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedAt": "2026-05-14T00:00:00.000Z",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low"
   },
   {
     "id": "s3-regulatory-pdf-213",
@@ -10225,7 +10152,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-215; sequence 215; source code 10_DI_25.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is internally consistent, but the regulatory requirement may be outdated. Current NFA/CFTC filing processes for CPO/CTA disclosure documents have changed over time, including filing with NFA through electronic systems rather than direct CFTC filing in many contexts. Marked needs_review for regulatory currency.",
+    "qualityNotes": "The screenshot is readable and the source answer is internally consistent, but the regulatory requirement may be outdated. Current NFA/CFTC filing processes for CPO/CTA disclosure documents have changed over time, including filing with NFA through electronic systems rather than direct CFTC filing in many contexts. Marked needs_review for regulatory currency. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -10409,7 +10336,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-219; sequence 219; source code 10_DI_4.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and identifies B as the source answer. However, because this is a regulatory timing requirement for CTA/CPO disclosure documents, current rule status should be checked before marking verified. The explanation also specifically says CTA disclosure document while the stem includes both CTA and CPO.",
+    "qualityNotes": "The screenshot is readable and identifies B as the source answer. However, because this is a regulatory timing requirement for CTA/CPO disclosure documents, current rule status should be checked before marking verified. The explanation also specifically says CTA disclosure document while the stem includes both CTA and CPO. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -10427,41 +10354,41 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "disclosure-documents",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "In addition to providing a Disclosure Document, a CPO who must register with the SEC also must provide participants with a:",
+    "stem": "A commodity pool operator that is also required to register with the SEC must provide pool participants with which additional document, according to the source item?",
     "choices": [
       {
         "id": "a",
-        "text": "Separate SEC required Disclosure Document.",
+        "text": "A separate SEC-required disclosure document",
         "isCorrect": false,
-        "rationale": "Incorrect."
+        "rationale": "The source identifies a different SEC-related document, not a separate SEC disclosure document, as the additional item."
       },
       {
         "id": "b",
-        "text": "SEC specified Supplemental Statement.",
+        "text": "An SEC-specified supplemental statement",
         "isCorrect": false,
-        "rationale": "Incorrect."
+        "rationale": "The source does not identify an SEC-specified supplemental statement as the required additional document."
       },
       {
         "id": "c",
-        "text": "CFTC/SEC Combined Disclosure Document.",
+        "text": "A combined CFTC/SEC disclosure document",
         "isCorrect": false,
-        "rationale": "Incorrect."
+        "rationale": "The source does not state that a combined CFTC/SEC disclosure document is required."
       },
       {
         "id": "d",
-        "text": "Statement of Additional Information.",
+        "text": "A Statement of Additional Information",
         "isCorrect": true,
-        "rationale": "A CPO that also must register with the SEC must provide participants with a Statement of Additional Information in addition to the CPO Disclosure Document."
+        "rationale": "The source states that, in addition to the CPO Disclosure Document, a CPO that must register with the SEC must provide participants with a Statement of Additional Information."
       }
     ],
-    "explanation": "In addition to providing a Disclosure Document, a CPO who must register with the SEC also must provide participants with a Statement of Additional Information.",
+    "explanation": "The imported source item tests the idea that a CPO subject to SEC registration provides participants a Statement of Additional Information in addition to the CPO Disclosure Document. However, this regulatory point may be context-dependent and potentially affected by SEC/CFTC harmonization rules, so it should not be treated as verified without current rule confirmation.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-220; sequence 220; source code 10_DI_42.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source indicates D. However, the regulatory statement may be outdated or context-dependent because SEC/CFTC disclosure harmonization rules for registered investment companies and CPOs have changed over time. The source explanation is also minimal and does not cite the applicable rule or context.",
+    "qualityNotes": "OCR/source transcription is clear and the source answer is D. The remaining issue is legal currency/context: the statement may depend on whether the pool is also an SEC-registered investment company or otherwise subject to SEC disclosure requirements, and CFTC/SEC harmonization has changed how disclosure obligations are satisfied. Repair: Preserved the source-tested answer but rewrote the stem to signal that it is source-based and improved rationales. Did not promote to verified because the regulatory rule may be outdated or context-dependent.",
     "issueTypes": [
       "outdated_rule",
       "weak_explanation"
@@ -10535,26 +10462,26 @@ export const regulatoryPdfQuestions: Question[] = [
     "stem": "Registration as a commodity pool operator is required if the total gross capital contributions to all of the operator's pools is more than $400,000 and there are more than 15 persons in any one pool.",
     "choices": [
       {
-        "id": "a",
+        "id": "true",
         "text": "True",
         "isCorrect": true,
-        "rationale": "The source identifies A, True, as correct."
+        "rationale": "The imported source marks this statement as true, apparently referencing an older or simplified CPO exemption threshold."
       },
       {
-        "id": "b",
+        "id": "false",
         "text": "False",
         "isCorrect": false,
-        "rationale": "The source identifies A, True, as correct."
+        "rationale": "The imported source does not mark this as correct; however, the rule statement may not reflect current CFTC/NFA CPO exemption standards."
       }
     ],
-    "explanation": "Registration as a commodity pool operator is required if the total gross capital contributions to all of the operator's pools is more than $400,000 and there are more than 15 persons in any one pool.",
+    "explanation": "The source states that CPO registration is required when an operator's aggregate pool capital contributions exceed $400,000 and any one pool has more than 15 participants. This appears to test an older/simplified CPO registration exemption threshold, but regulatory currency is uncertain and should be reviewed against current CFTC/NFA CPO registration and exemption rules before being used as a verified item.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-222; sequence 222; source code 10_DI_36.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source marks True as correct. However, the stated $400,000 and 15-person threshold appears tied to older or simplified CPO registration exemption concepts and may not accurately reflect current CFTC/NFA rules. The explanation merely repeats the stem and does not clarify the regulatory basis.",
+    "qualityNotes": "The screenshot and transcript clearly show the source answer as True, but the $400,000 / 15-person threshold appears potentially outdated or incomplete under current CFTC/NFA CPO exemption rules. Per repair rules, regulatory items with current-rule uncertainty should not be promoted to verified. Repair: Kept the source-tested true/false proposition but did not verify it because the regulatory threshold appears potentially outdated or oversimplified. Improved rationales and explanation to flag the current-rule concern.",
     "issueTypes": [
       "outdated_rule",
       "weak_explanation"
@@ -10687,7 +10614,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-225; sequence 225; source code 10_DI_18.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source indicates B/False. However, the regulatory treatment of commodity pool interests under state Blue Sky laws can be nuanced and may depend on current federal preemption, exemptions, and state law; therefore this should be reviewed before being treated as verified.",
+    "qualityNotes": "The screenshot is readable and the source indicates B/False. However, the regulatory treatment of commodity pool interests under state Blue Sky laws can be nuanced and may depend on current federal preemption, exemptions, and state law; therefore this should be reviewed before being treated as verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -10757,43 +10684,42 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "registration-exemptions",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Which of the following foreign contracts require specific CFTC or SEC approval before they can be offered or sold in the United States?",
+    "stem": "Which foreign futures-related products were identified in the source as requiring specific U.S. regulatory approval before being offered or sold to U.S. persons?",
     "choices": [
       {
         "id": "a",
-        "text": "Futures on foreign stock indexes and futures on foreign debt instruments",
+        "text": "Foreign stock-index futures and futures on foreign government debt obligations",
         "isCorrect": true,
-        "rationale": "Foreign stock-index futures and related options require CFTC no-action relief, and foreign government debt obligations must be designated as exempted securities by the SEC before futures and related options on those products may be offered or sold to U.S. persons."
+        "rationale": "The source states that foreign stock-index futures and related options required CFTC no-action relief, and that a foreign government debt obligation had to be designated an exempted security by the SEC before futures or related options on that product could be offered or sold to U.S. persons."
       },
       {
         "id": "b",
-        "text": "Futures on foreign stock indexes and futures on foreign agricultural products",
+        "text": "Foreign stock-index futures and futures on foreign agricultural products",
         "isCorrect": false,
-        "rationale": "Foreign stock-index futures require CFTC no-action relief, but the explanation states that foreign agricultural futures are not one of the specific categories requiring this approval."
+        "rationale": "The source includes foreign stock-index futures, but it does not identify foreign agricultural futures as one of the listed product categories requiring the specific approval described."
       },
       {
         "id": "c",
-        "text": "Futures on foreign debt instruments and futures on foreign agricultural products",
+        "text": "Futures on foreign government debt obligations and futures on foreign agricultural products",
         "isCorrect": false,
-        "rationale": "Foreign debt obligations require SEC exempted-security designation, but foreign agricultural futures are not included among the specific restrictions described."
+        "rationale": "The source includes futures on foreign government debt obligations, but not foreign agricultural futures."
       },
       {
         "id": "d",
-        "text": "Futures on foreign stock indexes, foreign debt instruments, and foreign agricultural products",
+        "text": "Foreign agricultural futures only",
         "isCorrect": false,
-        "rationale": "The source explanation identifies only foreign stock-index futures and foreign government debt-obligation futures, not foreign agricultural products."
+        "rationale": "The source does not identify foreign agricultural futures as requiring the specific approval described."
       }
     ],
-    "explanation": "Foreign stock-index futures and related options must receive a CFTC no-action letter. A foreign government debt obligation must be designated an exempted security by the SEC before futures and related options contracts on that product can be offered or sold to U.S. persons. The source states that these are the only such restrictions among the listed categories.",
+    "explanation": "According to the source, foreign stock-index futures and their related options required CFTC no-action relief before being offered or sold to U.S. persons. The source also states that a foreign government debt obligation had to be designated an exempted security by the SEC before futures and related options on that obligation could be offered or sold to U.S. persons. Foreign agricultural futures were not included in the source's listed restrictions.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-227; sequence 227; source code 10_DI_12.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and identifies answer E. For app readiness, the combination choice 'A and B only' was rewritten semantically to avoid referential choices. However, the regulatory statement should be reviewed for current applicability because foreign board of trade access, CFTC Part 30 relief/no-action practices, and SEC exempted-security treatment may have evolved since the source material.",
+    "qualityNotes": "The source and intended answer are clear, and the banned combination-choice format has been repaired into standalone semantic choices. However, this regulatory item should not be promoted to verified because the statement depends on potentially changed foreign board of trade access, CFTC no-action/Part 30 practices, and SEC exempted-security treatment. It is app-readable only if retained as a source-historical item or reviewed against current exam-tested rules. Repair: Rewrote the legacy A/B/C combination item into a four-choice standalone multiple-choice question with exactly one correct answer and clarified that the debt category refers to foreign government debt obligations as described in the source.",
     "issueTypes": [
-      "bad_distractors",
       "outdated_rule"
     ],
     "extractionConfidence": "high",
@@ -10832,7 +10758,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-228; sequence 228; source code 10_DI_9.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is internally consistent. However, this is a specialized CPO disclosure-document definition and the current regulatory threshold/terminology should be independently confirmed before marking verified.",
+    "qualityNotes": "The screenshot is readable and the source answer is internally consistent. However, this is a specialized CPO disclosure-document definition and the current regulatory threshold/terminology should be independently confirmed before marking verified. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -10884,7 +10810,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-229; sequence 229; source code 10_DI_28.",
     "reviewStatus": "reviewed",
     "qualityStatus": "rejected",
-    "qualityNotes": "The screenshot is readable and the source answer is clear. However, CFTC Rule 1.31 recordkeeping requirements have been amended over time, including changes to storage/accessibility terminology, so the legacy wording may be outdated depending on the current Series 3 testable rule set. Needs review before app publication. Duplicate review: Exact duplicate of s3-regulatory-pdf-225.",
+    "qualityNotes": "The screenshot is readable and the source answer is clear. However, CFTC Rule 1.31 recordkeeping requirements have been amended over time, including changes to storage/accessibility terminology, so the legacy wording may be outdated depending on the current Series 3 testable rule set. Needs review before app publication. Duplicate review: Exact duplicate of s3-regulatory-pdf-225. Repair pass: duplicate retained as rejected unless manually selected as the keeper",
     "issueTypes": [
       "outdated_rule",
       "duplicate"
@@ -11029,7 +10955,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-232; sequence 232; source code 10_DI_40.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and internally consistent, with exactly one stated correct answer. However, the regulatory lookback period for CPO/CTA performance presentation may be affected by current CFTC/NFA disclosure-document requirements and should be verified against current rules before app use.",
+    "qualityNotes": "The screenshot is readable and internally consistent, with exactly one stated correct answer. However, the regulatory lookback period for CPO/CTA performance presentation may be affected by current CFTC/NFA disclosure-document requirements and should be verified against current rules before app use. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -11335,7 +11261,7 @@ export const regulatoryPdfQuestions: Question[] = [
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-238; sequence 238; source code 10_DI_17.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is clear. However, the stated IB minimum net capital figure of $45,000 may be outdated under current NFA/CFTC requirements, so the item should be reviewed before use as a current regulatory question. The source also uses an 'All of the above' option; it was semantically rewritten in the app-ready choices.",
+    "qualityNotes": "The screenshot is readable and the source answer is clear. However, the stated IB minimum net capital figure of $45,000 may be outdated under current NFA/CFTC requirements, so the item should be reviewed before use as a current regulatory question. The source also uses an 'All of the above' option; it was semantically rewritten in the app-ready choices. Repair pass: outdated regulatory/currentness issue retained for manual review",
     "issueTypes": [
       "outdated_rule"
     ],
@@ -11353,44 +11279,43 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "cpo-regulations",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "Which of the following are among the factors considered in determining whether a commodity pool operator is exempt from CFTC registration?",
+    "stem": "Which situation would be a factor indicating that a commodity pool operator may be required to register with the CFTC rather than qualify for the small-pool exemption described in the source?",
     "choices": [
       {
         "id": "a",
-        "text": "Operating more than one pool at any one time and having total gross capital contributions in all operated pools exceed $400,000.",
+        "text": "The operator runs more than one commodity pool at the same time.",
         "isCorrect": true,
-        "rationale": "The visible explanation states that operating more than one pool at any time and gross capital contributions in all operated pools of over $400,000 are factors considered in determining whether a CPO is exempt from CFTC registration."
+        "rationale": "The source identifies operating more than one pool at any one time as a factor considered in determining whether a CPO is exempt from CFTC registration."
       },
       {
         "id": "b",
-        "text": "Using more than one Commodity Trading Advisor.",
+        "text": "The operator uses more than one commodity trading advisor for a single pool.",
         "isCorrect": false,
-        "rationale": "The source does not identify use of more than one Commodity Trading Advisor as one of the factors."
+        "rationale": "The source does not identify using more than one commodity trading advisor as a factor for this exemption determination."
       },
       {
         "id": "c",
-        "text": "Using more than one Commodity Trading Advisor and operating only one pool.",
+        "text": "The operator receives only reimbursement for ordinary administrative costs of operating the pool.",
         "isCorrect": false,
-        "rationale": "Use of more than one Commodity Trading Advisor is not identified by the source as a factor, and operating only one pool does not match the stated factor of operating more than one pool."
+        "rationale": "The source identifies receiving compensation beyond reimbursement for ordinary administrative costs as a factor against exemption, not receiving only reimbursement."
       },
       {
         "id": "d",
-        "text": "Having total gross capital contributions at or below $400,000 while receiving only reimbursement for ordinary administrative costs.",
+        "text": "The operator does not advertise or otherwise hold itself out to the public as a commodity pool operator.",
         "isCorrect": false,
-        "rationale": "The source explanation identifies gross capital contributions over $400,000 and compensation beyond reimbursement for ordinary administrative costs as relevant factors."
+        "rationale": "The source identifies advertising or holding oneself out to the public as a pool operator as a factor against exemption; not doing so would not be the factor described."
       }
     ],
-    "explanation": "According to the source explanation, operating more than one commodity pool at any time and having total gross capital contributions in all operated pools of over $400,000 are factors considered when determining whether a commodity pool operator is exempt from CFTC registration. The source also notes other factors, such as receiving compensation beyond reimbursement for ordinary administrative costs and advertising or otherwise holding oneself out to the public as a pool operator.",
+    "explanation": "The source explanation states that operating more than one pool at any time and having total gross capital contributions in all operated pools over $400,000 are factors considered in determining whether a CPO is exempt from CFTC registration. It also mentions compensation beyond reimbursement for ordinary administrative costs and advertising or holding oneself out to the public as a pool operator. This rewrite avoids combination answer choices and asks for one source-supported factor.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-239; sequence 239; source code 10_DI_24.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source answer is clear, but the original choices include combination options such as \"A, B and C\" and \"A and B only,\" which are not app-ready. The item was rewritten semantically to avoid those choices. Also, CPO registration exemptions and monetary thresholds may have changed or may require more precise current-rule context, so the item should be reviewed against current CFTC/NFA rules before verification.",
+    "qualityNotes": "The source and intended answer are clear, and the item has been rewritten into standalone choices with exactly one correct answer. However, the source relies on a specific $400,000 small-pool threshold/exemption framework that may be outdated or incomplete under current CFTC/NFA rules, so it should not be promoted to verified without current regulatory confirmation. Repair: Rewrote the item to remove banned combination-answer format and to provide standalone semantic choices with one correct source-supported factor.",
     "issueTypes": [
-      "outdated_rule",
-      "bad_distractors"
+      "outdated_rule"
     ],
     "extractionConfidence": "high",
     "sourcePageRange": "239",
@@ -11562,43 +11487,43 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "discretionary-accounts",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "In regard to discretionary accounts handled by third-party account controllers (accounts directed by someone other than an AP of the FCM or IB), NFA rules require:",
+    "stem": "When a futures or options account is controlled by a third-party account controller who is not an associated person of the FCM or IB, what documentation must the FCM or IB obtain under NFA discretionary account rules?",
     "choices": [
       {
         "id": "a",
-        "text": "No additional documentation.",
+        "text": "No additional documentation is required if the customer has already opened the account with the FCM or IB.",
         "isCorrect": false,
-        "rationale": "NFA Rule 2-8 requires additional documentation for discretionary accounts controlled by third parties."
+        "rationale": "NFA discretionary account rules require additional documentation for third-party controlled accounts."
       },
       {
         "id": "b",
-        "text": "The FCM or IB to obtain a copy of the account controller's trading authorization or written acknowledgment from the customer that such authorization has been given.",
+        "text": "Only a copy of the account controller's trading authorization, or a customer acknowledgment that the authorization has been given.",
         "isCorrect": false,
-        "rationale": "This item is required, but it is incomplete because the customer acknowledgment regarding receipt of a disclosure document or written statement is also required."
+        "rationale": "This authorization documentation is required, but it is not the only required documentation."
       },
       {
         "id": "c",
-        "text": "The FCM or IB to obtain an acknowledgment from the customer that the customer has received either a disclosure document or a written statement from the account controller explaining why the document is not required.",
+        "text": "Only a customer acknowledgment that the customer received the account controller's disclosure document or a written explanation of why no disclosure document is required.",
         "isCorrect": false,
-        "rationale": "This item is required, but it is incomplete because the FCM or IB must also obtain the trading authorization or customer acknowledgment that authorization has been given."
+        "rationale": "This customer acknowledgment is required, but it is not the only required documentation."
       },
       {
         "id": "d",
-        "text": "Both the trading authorization or customer acknowledgment of authorization, and the customer's acknowledgment regarding receipt of the disclosure document or written statement.",
+        "text": "Documentation of the account controller's trading authorization, plus the customer's acknowledgment that the customer received the required disclosure document or written explanation of why one is not required.",
         "isCorrect": true,
-        "rationale": "For third-party controlled discretionary accounts, NFA Rule 2-8 requires both forms of documentation described in choices B and C."
+        "rationale": "For third-party controlled discretionary accounts, the FCM or IB must obtain both the authorization-related documentation and the customer acknowledgment regarding the disclosure document or written explanation."
       }
     ],
-    "explanation": "NFA Rule 2-8, covering discretionary accounts, requires FCMs and IBs to obtain additional documentation when an account is controlled by a third party other than certain family members. They must obtain a copy of the account controller's written trading authorization, or an acknowledgment from the customer that the authorization has been given, and they must also obtain an acknowledgment from the customer that a disclosure document has been received from the account controller or that a written statement explaining why no disclosure document is required has been received.",
+    "explanation": "For discretionary accounts controlled by a third party, NFA Rule 2-8 requires the FCM or IB to obtain two types of documentation: first, a copy of the account controller's written trading authorization or an acknowledgment from the customer that the authorization has been given; and second, an acknowledgment from the customer that the customer received the account controller's disclosure document or a written statement explaining why a disclosure document is not required.",
     "sourceType": "imported",
     "active": true,
     "concept": "General Regulatory Topics",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-243; sequence 243; source code 10_DI_21.",
     "reviewStatus": "reviewed",
     "qualityStatus": "verified",
-    "qualityNotes": "The source uses 'Both B and C' as the correct choice. For app readiness, choice D has been rewritten semantically to avoid a cross-reference while preserving the rule tested. The item is readable and the explanation supports the answer.",
+    "qualityNotes": "The original source is clear and the answer has been rewritten to eliminate the banned 'Both B and C' format. Each answer choice is standalone and exactly one choice is correct. Repair: Rewrote the stem and answer choices into standalone app-ready wording while preserving the tested NFA discretionary account documentation requirement. Removed the cross-reference answer format. Second-pass review: The repaired item is clear, has exactly one unambiguous correct answer, avoids all/none/both formats, and all choices are standalone. The rationales and explanation consistently support the correct answer. The regulatory statement aligns with NFA discretionary account documentation requirements for third-party account controllers, and the taxonomy is appropriate. No calculation issues are present.",
     "verifiedAt": "2026-05-14T00:00:00.000Z",
-    "verifiedBy": "OpenAI gpt-5.5 vision transcript + content audit, reasoning low",
+    "verifiedBy": "OpenAI gpt-5.5 repair + second-pass audit, reasoning low",
     "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "243",
@@ -11614,32 +11539,31 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "disclosure-documents",
     "difficulty": "medium",
     "questionType": "true_false",
-    "stem": "CTAs and CPOs who service only high net worth clients known as \"Qualified Eligible Persons\" are exempted from various disclosure, reporting, and recordkeeping requirements.",
+    "stem": "Under CFTC/NFA rules, CTAs and CPOs that limit their advisory or pool business to Qualified Eligible Persons may be eligible for exemptions or reduced requirements relating to disclosure documents, reporting, and recordkeeping.",
     "choices": [
       {
-        "id": "a",
+        "id": "true",
         "text": "True",
         "isCorrect": true,
-        "rationale": "Certain CTAs and CPOs serving only Qualified Eligible Persons may qualify for exemptions or reduced disclosure, reporting, and recordkeeping requirements."
+        "rationale": "Certain CPOs and CTAs operating under QEP-based relief may be exempt from, or subject to reduced versions of, some disclosure, reporting, and recordkeeping requirements, provided all conditions of the applicable exemption are met."
       },
       {
-        "id": "b",
+        "id": "false",
         "text": "False",
         "isCorrect": false,
-        "rationale": "The statement is generally true in the Series 3 regulatory context for CTAs and CPOs serving only Qualified Eligible Persons."
+        "rationale": "The statement is directionally correct as a general Series 3 concept, although the availability and scope of relief depends on the specific rule and conditions."
       }
     ],
-    "explanation": "CTAs and CPOs who service only high net worth clients known as \"Qualified Eligible Persons\" are exempted from various disclosure, reporting, and recordkeeping requirements.",
+    "explanation": "Qualified Eligible Persons are sophisticated or high-net-worth participants as defined by CFTC rules. CPOs and CTAs that serve only QEPs may qualify for regulatory relief from some standard disclosure, reporting, and recordkeeping obligations, but the relief is conditional and not a blanket exemption from every requirement.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-244; sequence 244; source code 10_DI_43.",
     "reviewStatus": "needs_review",
     "qualityStatus": "needs_review",
-    "qualityNotes": "The screenshot is readable and the source marks A/True as correct. However, the rule is stated broadly; QEP-related CPO/CTA exemptions depend on the specific CFTC/NFA exemption and conditions, and current regulatory requirements may not be fully captured by this simplified wording. Explanation merely repeats the stem.",
+    "qualityNotes": "The source clearly tests QEP-based CPO/CTA regulatory relief and marks True. However, the original wording is overly broad because QEP-related exemptions/reduced requirements depend on specific CFTC/NFA provisions and conditions. Regulatory details may change, so this should not be promoted to verified without current-rule confirmation. Repair: Reworded the stem and explanation to avoid implying an unconditional blanket exemption, while preserving the source-tested concept that QEP-only CPOs/CTAs may qualify for reduced regulatory requirements.",
     "issueTypes": [
-      "outdated_rule",
-      "weak_explanation"
+      "outdated_rule"
     ],
     "extractionConfidence": "high",
     "sourcePageRange": "244",

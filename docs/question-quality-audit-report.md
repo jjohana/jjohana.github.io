@@ -1,21 +1,23 @@
 # Question Quality Audit Report
 
 Generated: 2026-05-14T07:02:57.245Z
+Updated after repair pass: 2026-05-14
 
-This report reflects the OpenAI gpt-5.5 vision reimport and audit pass. The app then applies an additional display-safety and structural-quality gate before questions can appear in practice or mock exams.
+This report reflects the OpenAI gpt-5.5 vision reimport, audit pass, and subsequent non-verified imported-QCM repair pass. The app applies an additional display-safety and structural-quality gate before questions can appear in practice or mock exams.
 
 | Metric | Count |
 | --- | --- |
 | Imported questions rebuilt | 719 |
 | LLM-verified imported questions before app gate | 563 |
-| App-verified imported questions | 489 |
-| App needs-review imported questions | 133 |
-| App rejected imported questions | 97 |
+| App-verified imported questions after repair | 580 |
+| App needs-review imported questions after repair | 109 |
+| App rejected imported questions after repair | 30 |
+| Net imported QCMs promoted by repair | 91 |
 | Duplicate decisions | 29 |
-| Additional app-safety rejects | 68 |
+| Remaining non-verified imported QCMs | 139 |
 
-## Needs Review
-The table below is the raw LLM audit needs-review list before the final app safety gate. Some items shown here are now rejected in the app because they contain unsafe answer-choice formats, invalid taxonomy, wrong answer counts, or duplicate issues.
+## Historical Initial Needs Review
+The table below preserves the raw LLM audit needs-review list from the initial reimport for traceability. It is not the current review queue: many rows were repaired and promoted during the repair pass, while the current non-verified list is in `docs/imported-qcm-review-queue.md`.
 
 | ID | Topic | Subtopic | Issues | Notes |
 | --- | --- | --- | --- | --- |

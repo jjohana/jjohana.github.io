@@ -15,8 +15,8 @@ describe("market knowledge question bank", () => {
     const docxQuestions = marketQuestions.filter((question) => question.id.startsWith("s3-market-docx-"));
     const sourceNumbers = new Set(docxQuestions.map((question) => question.sourceQuestionNumber));
 
-    expect(docxQuestions).toHaveLength(469);
-    expect(sourceNumbers.size).toBe(444);
+    expect(docxQuestions).toHaveLength(465);
+    expect(sourceNumbers.size).toBe(440);
   });
 
   it("covers every Market Knowledge topic", () => {
