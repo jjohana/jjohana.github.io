@@ -28,7 +28,6 @@ export type AccountId = "jj" | "eric" | "beatrice" | "thomas";
 export interface UserAccount {
   id: AccountId;
   displayName: string;
-  description: string;
 }
 
 export interface Subtopic {

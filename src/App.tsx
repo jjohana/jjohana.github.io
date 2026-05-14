@@ -693,7 +693,7 @@ function AccountSwitcher({
         <select value={activeAccountId} onChange={(event) => onSwitch(event.target.value as AccountId)}>
           {USER_ACCOUNTS.map((account) => (
             <option key={account.id} value={account.id}>
-              {account.displayName} - {account.description}
+              {account.displayName}
             </option>
           ))}
         </select>

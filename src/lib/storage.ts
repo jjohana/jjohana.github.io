@@ -11,10 +11,10 @@ export const ACCOUNT_BACKUP_PREFIX = "series3-qcm-account-backup-v1";
 export const INITIAL_ACCOUNT_ID: AccountId = "jj";
 
 export const USER_ACCOUNTS: UserAccount[] = [
-  { id: "jj", displayName: "JJ", description: "Compte individualisé" },
-  { id: "eric", displayName: "Eric", description: "Compte individualisé" },
-  { id: "beatrice", displayName: "Béatrice", description: "Compte individualisé" },
-  { id: "thomas", displayName: "Thomas", description: "Compte individualisé" }
+  { id: "jj", displayName: "JJ" },
+  { id: "eric", displayName: "Eric" },
+  { id: "beatrice", displayName: "Béatrice" },
+  { id: "thomas", displayName: "Thomas" }
 ];
 
 export const DEFAULT_SETTINGS: UserSettings = {
