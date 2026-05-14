@@ -4,13 +4,17 @@ import type { Question } from "../types";
 import { inferredQualityStatus } from "./quality";
 import {
   ACTIVE_ACCOUNT_KEY,
+  ACCOUNT_BACKUP_PREFIX,
   INITIAL_ACCOUNT_ID,
   LEGACY_GLOBAL_STORAGE_KEY,
+  LEGACY_STORAGE_KEYS,
+  accountBackupKey,
   accountStorageKey,
   loadActiveAccount,
   loadState,
   mergeQuestions,
-  saveActiveAccount
+  saveActiveAccount,
+  saveState
 } from "./storage";
 
 beforeEach(() => {
@@ -142,5 +146,124 @@ describe("storage question migration", () => {
     expect(loadState("jj").sessions[0]?.id).toBe("legacy-session");
     expect(loadState("jj").settings.defaultDrillSize).toBe(18);
     expect(loadState("thomas").sessions).toHaveLength(0);
+  });
+
+  it("does not delete legacy memory when saving JJ", () => {
+    localStorage.setItem(
+      LEGACY_GLOBAL_STORAGE_KEY,
+      JSON.stringify({
+        questions: sampleQuestions,
+        sessions: [
+          {
+            id: "legacy-session",
+            type: "practice",
+            title: "Legacy drill",
+            createdAt: "2026-05-14T00:00:00.000Z",
+            seed: "legacy",
+            status: "completed",
+            feedbackMode: "immediate",
+            questions: [],
+            answers: [
+              {
+                sessionQuestionId: "sq-1",
+                questionId: "q-1",
+                selectedChoiceId: "a",
+                isCorrect: false,
+                answeredAt: "2026-05-14T00:01:00.000Z",
+                elapsedSeconds: 12
+              }
+            ]
+          }
+        ],
+        settings: { defaultDrillSize: 18 }
+      })
+    );
+    localStorage.setItem(LEGACY_STORAGE_KEYS[0], JSON.stringify({ questions: [], sessions: [{ id: "old-v1" }] }));
+
+    saveState(loadState("jj"), "jj");
+
+    expect(localStorage.getItem(LEGACY_GLOBAL_STORAGE_KEY)).toBeTruthy();
+    expect(localStorage.getItem(LEGACY_STORAGE_KEYS[0])).toBeTruthy();
+    expect(loadState("jj").sessions[0]?.id).toBe("legacy-session");
+  });
+
+  it("recovers JJ from the richer legacy state when account storage is empty", () => {
+    localStorage.setItem(
+      accountStorageKey("jj"),
+      JSON.stringify({
+        questions: sampleQuestions,
+        sessions: [],
+        settings: { defaultDrillSize: 10 }
+      })
+    );
+    localStorage.setItem(
+      LEGACY_GLOBAL_STORAGE_KEY,
+      JSON.stringify({
+        questions: sampleQuestions,
+        sessions: [
+          {
+            id: "legacy-with-errors",
+            type: "practice",
+            title: "Legacy mistakes",
+            createdAt: "2026-05-14T00:00:00.000Z",
+            seed: "legacy",
+            status: "completed",
+            feedbackMode: "immediate",
+            questions: [],
+            answers: [
+              {
+                sessionQuestionId: "sq-1",
+                questionId: "q-1",
+                selectedChoiceId: "a",
+                isCorrect: false,
+                answeredAt: "2026-05-14T00:01:00.000Z",
+                elapsedSeconds: 12
+              }
+            ]
+          }
+        ],
+        settings: { defaultDrillSize: 20 }
+      })
+    );
+
+    const recovered = loadState("jj");
+
+    expect(recovered.sessions[0]?.id).toBe("legacy-with-errors");
+    expect(recovered.settings.defaultDrillSize).toBe(20);
+  });
+
+  it("keeps a richer account backup before saving a poorer current state", () => {
+    const richState = {
+      ...loadState("jj"),
+      sessions: [
+        {
+          id: "session-with-errors",
+          type: "practice" as const,
+          title: "JJ drill",
+          createdAt: "2026-05-14T00:00:00.000Z",
+          seed: "jj",
+          status: "completed" as const,
+          feedbackMode: "immediate" as const,
+          questions: [],
+          answers: [
+            {
+              sessionQuestionId: "sq-1",
+              questionId: "q-1",
+              selectedChoiceId: "a",
+              isCorrect: false,
+              answeredAt: "2026-05-14T00:01:00.000Z",
+              elapsedSeconds: 12
+            }
+          ]
+        }
+      ]
+    };
+    localStorage.setItem(accountStorageKey("jj"), JSON.stringify(richState));
+
+    saveState({ ...loadState("jj"), sessions: [] }, "jj");
+
+    expect(localStorage.getItem(accountBackupKey("jj"))).toContain("session-with-errors");
+    expect(localStorage.getItem(ACCOUNT_BACKUP_PREFIX + ":jj")).toContain("session-with-errors");
+    expect(loadState("jj").sessions[0]?.id).toBe("session-with-errors");
   });
 });

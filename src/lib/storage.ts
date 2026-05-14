@@ -7,6 +7,7 @@ export const LEGACY_STORAGE_KEYS = ["series3-qcm-state-v1"];
 export const LEGACY_GLOBAL_STORAGE_KEY = "series3-qcm-state-v2";
 export const ACTIVE_ACCOUNT_KEY = "series3-qcm-active-account-v1";
 export const ACCOUNT_STORAGE_PREFIX = "series3-qcm-account-state-v1";
+export const ACCOUNT_BACKUP_PREFIX = "series3-qcm-account-backup-v1";
 export const INITIAL_ACCOUNT_ID: AccountId = "jj";
 
 export const USER_ACCOUNTS: UserAccount[] = [
@@ -44,6 +45,10 @@ export function normalizeAccountId(value: string | undefined | null): AccountId 
 
 export function accountStorageKey(accountId: AccountId): string {
   return `${ACCOUNT_STORAGE_PREFIX}:${accountId}`;
+}
+
+export function accountBackupKey(accountId: AccountId): string {
+  return `${ACCOUNT_BACKUP_PREFIX}:${accountId}`;
 }
 
 export function getAccount(accountId: AccountId): UserAccount {
@@ -84,29 +89,71 @@ function parseState(raw: string | null): AppState | undefined {
   }
 }
 
+function stateMemoryScore(state: AppState | undefined): number {
+  if (!state) return -1;
+  const sessions = Array.isArray(state.sessions) ? state.sessions : [];
+  const answerCount = sessions.reduce((sum, session) => sum + (Array.isArray(session.answers) ? session.answers.length : 0), 0);
+  const importedQuestionCount = Math.max(0, state.questions.length - canonicalSampleQuestions.length);
+  return answerCount * 1000 + sessions.length * 100 + importedQuestionCount;
+}
+
+function bestState(states: Array<AppState | undefined>): AppState | undefined {
+  return states.reduce<AppState | undefined>((best, state) =>
+    stateMemoryScore(state) > stateMemoryScore(best) ? state : best
+  , undefined);
+}
+
+function serializedState(state: AppState, includeQuestions: boolean): string {
+  return JSON.stringify({
+    ...state,
+    questions: includeQuestions ? mergeQuestions(state.questions) : undefined
+  });
+}
+
+function setLocalStorageItem(key: string, value: string): void {
+  try {
+    localStorage.setItem(key, value);
+  } catch {
+    // Browser storage can be quota-limited; failing to write a backup must not block the app.
+  }
+}
+
 export function loadState(accountId: AccountId = loadActiveAccount()): AppState {
   if (typeof localStorage === "undefined") return defaultState();
-  for (const legacyKey of LEGACY_STORAGE_KEYS) {
-    localStorage.removeItem(legacyKey);
-  }
   const current = parseState(localStorage.getItem(accountStorageKey(accountId)));
-  if (current) return current;
+  const backup = parseState(localStorage.getItem(accountBackupKey(accountId)));
 
   if (accountId === INITIAL_ACCOUNT_ID) {
-    const legacyGlobal = parseState(localStorage.getItem(LEGACY_GLOBAL_STORAGE_KEY));
-    if (legacyGlobal) return legacyGlobal;
+    const legacyStates = [
+      parseState(localStorage.getItem(LEGACY_GLOBAL_STORAGE_KEY)),
+      ...LEGACY_STORAGE_KEYS.map((legacyKey) => parseState(localStorage.getItem(legacyKey)))
+    ];
+    const recovered = bestState([current, backup, ...legacyStates]);
+    if (recovered) return recovered;
   }
+
+  const recovered = bestState([current, backup]);
+  if (recovered) return recovered;
+  if (current) return current;
 
   return defaultState();
 }
 
 export function saveState(state: AppState, accountId: AccountId = loadActiveAccount()): void {
   if (typeof localStorage === "undefined") return;
-  for (const legacyKey of LEGACY_STORAGE_KEYS) {
-    localStorage.removeItem(legacyKey);
+  const existing = parseState(localStorage.getItem(accountStorageKey(accountId)));
+  const existingBackup = parseState(localStorage.getItem(accountBackupKey(accountId)));
+  const bestExisting = bestState([existing, existingBackup]);
+  if (stateMemoryScore(bestExisting) > stateMemoryScore(state)) {
+    setLocalStorageItem(accountBackupKey(accountId), serializedState(bestExisting!, false));
+  } else if (stateMemoryScore(state) > stateMemoryScore(existingBackup)) {
+    setLocalStorageItem(accountBackupKey(accountId), serializedState(state, false));
   }
-  localStorage.setItem(accountStorageKey(accountId), JSON.stringify({ ...state, questions: mergeQuestions(state.questions) }));
-  if (accountId === INITIAL_ACCOUNT_ID) localStorage.removeItem(LEGACY_GLOBAL_STORAGE_KEY);
+  try {
+    localStorage.setItem(accountStorageKey(accountId), serializedState(state, true));
+  } catch {
+    localStorage.setItem(accountStorageKey(accountId), serializedState(state, false));
+  }
 }
 
 export function downloadText(filename: string, text: string, mime = "text/plain;charset=utf-8"): void {
