@@ -67,6 +67,15 @@ test("opens the integrated course and launches filtered practice", async ({ page
     "src",
     "course/futures-industry-roles.png"
   );
+  await page.getByRole("button", { name: "Enlarge visual" }).click();
+  const enlargedVisual = page.getByRole("dialog", { name: "Key roles visual enlarged" });
+  await expect(enlargedVisual).toBeVisible();
+  await expect(enlargedVisual.getByRole("img", { name: /Key roles in the futures industry/i })).toHaveAttribute(
+    "src",
+    "course/futures-industry-roles.png"
+  );
+  await page.getByRole("button", { name: "Close enlarged visual" }).click();
+  await expect(enlargedVisual).not.toBeVisible();
   await page.getByLabel("Search course").fill("CFTC");
   await expect(page.getByRole("img", { name: /Key roles in the futures industry/i })).toBeVisible();
   await page.getByLabel("Search course").fill("basis");

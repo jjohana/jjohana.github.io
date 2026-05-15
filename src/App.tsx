@@ -10,6 +10,7 @@ import {
   Database,
   Download,
   Flag,
+  Maximize2,
   Play,
   RotateCcw,
   Search,
@@ -19,6 +20,7 @@ import {
   Timer,
   Upload,
   Users,
+  X,
   XCircle
 } from "lucide-react";
 import { syllabus, topicLabel, subtopicLabel, getSection, getTopic } from "./data/syllabus";
@@ -837,6 +839,7 @@ function CoursePage({
   onPractice: (subchapter: CourseSubchapter) => void;
   onWeakPractice: (subchapter: CourseSubchapter) => void;
 }) {
+  const [isRolesVisualExpanded, setIsRolesVisualExpanded] = useState(false);
   const matchingSubchapters = useMemo(() => searchCourse(chapters, search), [chapters, search]);
   const allSubchapters = useMemo(() => searchCourse(chapters, ""), [chapters]);
   const selected =
@@ -858,6 +861,26 @@ function CoursePage({
       subchapters: chapter.subchapters.filter((subchapter) => matchingSubchapters.some((match) => match.id === subchapter.id))
     }))
     .filter((chapter) => chapter.subchapters.length > 0);
+
+  useEffect(() => {
+    if (!isRolesVisualExpanded) {
+      return;
+    }
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setIsRolesVisualExpanded(false);
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    document.body.classList.add("modal-open");
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      document.body.classList.remove("modal-open");
+    };
+  }, [isRolesVisualExpanded]);
 
   if (!selected || !selectedProgress) {
     return <EmptyState title="No course content" body="The course could not be generated from the current taxonomy." />;
@@ -977,6 +1000,17 @@ function CoursePage({
               </p>
             </div>
             <figure className="course-visual">
+              <div className="course-visual-toolbar">
+                <button
+                  className="secondary-button"
+                  type="button"
+                  onClick={() => setIsRolesVisualExpanded(true)}
+                  aria-label="Enlarge visual"
+                >
+                  <Maximize2 size={16} aria-hidden="true" />
+                  Enlarge
+                </button>
+              </div>
               <img
                 src="course/futures-industry-roles.png"
                 alt="Key roles in the futures industry: customer, AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA relationships."
@@ -993,6 +1027,36 @@ function CoursePage({
                 <li>Oversight routes: CFTC is the federal regulator; NFA is the industry self-regulatory organization.</li>
               </ul>
             </div>
+            {isRolesVisualExpanded && (
+              <div
+                className="image-lightbox"
+                role="dialog"
+                aria-modal="true"
+                aria-label="Key roles visual enlarged"
+                onClick={() => setIsRolesVisualExpanded(false)}
+              >
+                <div className="image-lightbox-content" onClick={(event) => event.stopPropagation()}>
+                  <div className="image-lightbox-toolbar">
+                    <strong>Key roles in the futures industry</strong>
+                    <button
+                      className="secondary-button"
+                      type="button"
+                      onClick={() => setIsRolesVisualExpanded(false)}
+                      aria-label="Close enlarged visual"
+                    >
+                      <X size={16} aria-hidden="true" />
+                      Close
+                    </button>
+                  </div>
+                  <div className="image-lightbox-scroll">
+                    <img
+                      src="course/futures-industry-roles.png"
+                      alt="Key roles in the futures industry: customer, AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA relationships."
+                    />
+                  </div>
+                </div>
+              </div>
+            )}
           </section>
         )}
 
