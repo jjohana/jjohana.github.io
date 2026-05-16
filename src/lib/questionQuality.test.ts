@@ -97,7 +97,7 @@ describe("published question quality", () => {
     expect(findings).toEqual([]);
   });
 
-  it("formats embedded futures/options tables instead of publishing flattened row text", () => {
+  it("formats embedded futures/options information instead of publishing flattened row text", () => {
     const compressedTablePatterns = [
       /FUTURE CALL STRIKE PRICE PUT STRIKE PRICE FUTURES PRICE/i,
       /Future Call Strike Price Put Strike Price Futures Price/i,
@@ -117,9 +117,10 @@ describe("published question quality", () => {
     const tableQuestions = ["s3-market-docx-131", "s3-market-docx-133", "s3-market-docx-410"];
     for (const questionId of tableQuestions) {
       const question = activeQuestions.find((item) => item.id === questionId);
-      expect(question?.stem).toContain("\n\nFuture\tCall strike price\tPut strike price\tFutures price");
-      expect(question?.stem).toContain("\nApril\t");
-      expect(question?.stem).toContain("\nOctober\t");
+      expect(question?.stem).toContain("For each month, the call and the put use the same strike shown.");
+      expect(question?.stem).toContain("- April contract: call strike");
+      expect(question?.stem).toContain("- October contract: call strike");
+      expect(question?.stem).not.toContain("\t");
     }
   });
 

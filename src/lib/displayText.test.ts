@@ -32,8 +32,6 @@ describe("display text parser", () => {
       ])
     ]).filter((field) => field.text?.includes("\t"));
 
-    expect(tabularFields.length).toBeGreaterThan(0);
-
     for (const field of tabularFields) {
       const tableBlocks = parseDisplayText(field.text).filter((block) => block.type === "table");
       expect(tableBlocks.length, field.id).toBeGreaterThan(0);
@@ -47,5 +45,18 @@ describe("display text parser", () => {
         }
       }
     }
+  });
+
+  it("poses the hog intrinsic-value questions without collapsed table columns", () => {
+    const question59 = sampleQuestions.find((question) => question.id === "s3-market-docx-131");
+    const question60 = sampleQuestions.find((question) => question.id === "s3-market-docx-410");
+
+    expect(question59?.stem).toContain("April contract: call strike 52; put strike 52; futures price 52.66.");
+    expect(question59?.stem).toContain("Which answer choice has intrinsic value?");
+    expect(question59?.stem).not.toContain("\t");
+
+    expect(question60?.stem).toContain("October contract: call strike 54; put strike 54; futures price 53.80.");
+    expect(question60?.stem).toContain("Which answer choice has the largest intrinsic value?");
+    expect(question60?.stem).not.toContain("\t");
   });
 });

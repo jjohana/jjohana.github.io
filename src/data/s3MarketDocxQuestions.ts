@@ -6270,7 +6270,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "intrinsic-value",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Based on the following hog futures and options table, which option has intrinsic value?\n\nFuture\tCall strike price\tPut strike price\tFutures price\nApril\t52\t52\t52.66\nJuly\t53\t53\t53.20\nOctober\t54\t54\t53.80",
+    "stem": "Use the following hog futures and options information. For each month, the call and the put use the same strike shown.\n\n- April contract: call strike 52; put strike 52; futures price 52.66.\n- July contract: call strike 53; put strike 53; futures price 53.20.\n- October contract: call strike 54; put strike 54; futures price 53.80.\n\nWhich answer choice has intrinsic value?",
     "choices": [
       {
         "id": "a",
@@ -6374,7 +6374,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "intrinsic-value",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Use this information to answer the following question:\n\nFuture\tCall strike price\tPut strike price\tFutures price\nApril\t42\t42\t42.66\nJuly\t43\t43\t43.20\nOctober\t44\t44\t43.80\n\nWhich of the following options has the largest intrinsic value?",
+    "stem": "Use the following futures and options information. For each month, the call and the put use the same strike shown.\n\n- April contract: call strike 42; put strike 42; futures price 42.66.\n- July contract: call strike 43; put strike 43; futures price 43.20.\n- October contract: call strike 44; put strike 44; futures price 43.80.\n\nWhich answer choice has the largest intrinsic value?",
     "choices": [
       {
         "id": "a",
@@ -21136,7 +21136,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "intrinsic-value",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Which of the following options from the table has the largest intrinsic value?\n\nHog futures and options\n\nFuture\tCall strike price\tPut strike price\tFutures price\nApril\t52\t52\t52.66\nJuly\t53\t53\t53.20\nOctober\t54\t54\t53.80",
+    "stem": "Use the following hog futures and options information. For each month, the call and the put use the same strike shown.\n\n- April contract: call strike 52; put strike 52; futures price 52.66.\n- July contract: call strike 53; put strike 53; futures price 53.20.\n- October contract: call strike 54; put strike 54; futures price 53.80.\n\nWhich answer choice has the largest intrinsic value?",
     "choices": [
       {
         "id": "a",
