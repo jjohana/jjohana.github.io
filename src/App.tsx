@@ -304,7 +304,8 @@ function App() {
 
   const coverage = useMemo(() => buildCoverageReport(state.questions, state.sessions), [state.questions, state.sessions]);
   const weakSubtopics = useMemo(() => getWeakSubtopics(state), [state]);
-  const mistakeIds = useMemo(() => getMistakeQuestionIds(state.sessions), [state.sessions]);
+  const dismissedMistakeIds = useMemo(() => new Set(state.dismissedMistakeQuestionIds ?? []), [state.dismissedMistakeQuestionIds]);
+  const mistakeIds = useMemo(() => getMistakeQuestionIds(state.sessions, dismissedMistakeIds), [dismissedMistakeIds, state.sessions]);
   const course = useMemo(() => buildCourse(state.questions), [state.questions]);
   const activeSession = state.sessions.find((session) => session.id === state.activeSessionId);
   const latestCompletedSession = [...state.sessions].reverse().find((session) => session.status === "completed");
@@ -405,8 +406,23 @@ function App() {
   }
 
   function startMistakeReview() {
-    const questions = state.questions.filter((question) => mistakeIds.has(question.id));
+    const questions = state.questions.filter((question) => mistakeIds.has(question.id) && inferredQualityStatus(question) !== "rejected");
     startSession("mistakes", questions, { questionCount: questions.length, prioritizeWeak: true });
+  }
+
+  function dismissMistakeQuestion(questionId: string) {
+    const question = getQuestion(questionId);
+    updateState((current) => {
+      const dismissed = new Set(current.dismissedMistakeQuestionIds ?? []);
+      dismissed.add(questionId);
+      return { ...current, dismissedMistakeQuestionIds: [...dismissed] };
+    });
+    setMessage(`${question ? normalizeDisplayText(question.stem).split("\n")[0] : "Question"} was removed from Mistakes. If it is missed again later, it will return.`);
+  }
+
+  function restoreDismissedMistakes() {
+    updateState((current) => ({ ...current, dismissedMistakeQuestionIds: [] }));
+    setMessage("Removed mistakes were restored.");
   }
 
   function answerCurrentQuestion(session: Session, sessionQuestion: SessionQuestion, choiceId: string) {
@@ -427,6 +443,9 @@ function App() {
 
     updateState((current) => ({
       ...current,
+      dismissedMistakeQuestionIds: choice.isCorrect
+        ? current.dismissedMistakeQuestionIds
+        : (current.dismissedMistakeQuestionIds ?? []).filter((dismissedQuestionId) => dismissedQuestionId !== question.id),
       sessions: current.sessions.map((item) =>
         item.id === session.id
           ? {
@@ -495,7 +514,7 @@ function App() {
   }
 
   function resetProgress() {
-    updateState((current) => ({ ...current, sessions: [], activeSessionId: undefined }));
+    updateState((current) => ({ ...current, sessions: [], dismissedMistakeQuestionIds: [], activeSessionId: undefined }));
     setMessage(`Progress and sessions were reset for ${activeAccount.displayName}. The question bank was kept.`);
   }
 
@@ -659,7 +678,16 @@ function App() {
           />
         )}
         {view === "mistakes" && (
-          <Mistakes state={state} mistakeIds={mistakeIds} onStart={startMistakeReview} setBankFilters={setBankFilters} setView={setView} />
+          <Mistakes
+            state={state}
+            mistakeIds={mistakeIds}
+            dismissedMistakeCount={dismissedMistakeIds.size}
+            onStart={startMistakeReview}
+            onDismiss={dismissMistakeQuestion}
+            onRestoreDismissed={restoreDismissedMistakes}
+            setBankFilters={setBankFilters}
+            setView={setView}
+          />
         )}
         {view === "session" && activeSession && (
           <SessionScreen
@@ -675,6 +703,8 @@ function App() {
             onAnswer={answerCurrentQuestion}
             onComplete={completeSession}
             onFlag={toggleFlag}
+            onDismissMistake={dismissMistakeQuestion}
+            dismissedMistakeIds={dismissedMistakeIds}
           />
         )}
         {view === "session" && !activeSession && <EmptyState title="No active session" body="Start a drill, mock exam, or mistake review." />}
@@ -1947,13 +1977,19 @@ function MockExam({
 function Mistakes({
   state,
   mistakeIds,
+  dismissedMistakeCount,
   onStart,
+  onDismiss,
+  onRestoreDismissed,
   setBankFilters,
   setView
 }: {
   state: AppState;
   mistakeIds: Set<string>;
+  dismissedMistakeCount: number;
   onStart: () => void;
+  onDismiss: (questionId: string) => void;
+  onRestoreDismissed: () => void;
   setBankFilters: (filters: SessionFilters) => void;
   setView: (view: View) => void;
 }) {
@@ -1972,6 +2008,12 @@ function Mistakes({
           <RotateCcw size={18} aria-hidden="true" />
           Practice mistakes
         </button>
+        {dismissedMistakeCount > 0 && (
+          <button className="secondary-button large" onClick={onRestoreDismissed}>
+            <RotateCcw size={18} aria-hidden="true" />
+            Restore removed mistakes
+          </button>
+        )}
         <p className="muted">Mistakes are grouped by section, topic, and subtopic for focused repetition.</p>
       </div>
       <div className="panel span-8">
@@ -1984,21 +2026,27 @@ function Mistakes({
               </div>
               <DisplayText value={question.stem} className="question-title" />
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>
-              <button
-                className="secondary-button"
-                onClick={() => {
-                  setBankFilters({
-                    sectionId: question.sectionId,
-                    topicId: question.topicId,
-                    subtopicId: question.subtopicId,
-                    difficulty: "mixed",
-                    sourceBank: questionSourceBank(question)
-                  });
-                  setView("bank");
-                }}
-              >
-                Open subtopic
-              </button>
+              <div className="button-row">
+                <button
+                  className="secondary-button"
+                  onClick={() => {
+                    setBankFilters({
+                      sectionId: question.sectionId,
+                      topicId: question.topicId,
+                      subtopicId: question.subtopicId,
+                      difficulty: "mixed",
+                      sourceBank: questionSourceBank(question)
+                    });
+                    setView("bank");
+                  }}
+                >
+                  Open subtopic
+                </button>
+                <button className="secondary-button" onClick={() => onDismiss(question.id)}>
+                  <X size={16} aria-hidden="true" />
+                  Remove from mistakes
+                </button>
+              </div>
             </article>
           ))}
           {questions.length === 0 && <EmptyState title="No mistakes yet" body="Answer some questions to build a mistake queue." />}
@@ -2017,7 +2065,9 @@ function SessionScreen({
   setSelectedChoiceId,
   onAnswer,
   onComplete,
-  onFlag
+  onFlag,
+  onDismissMistake,
+  dismissedMistakeIds
 }: {
   session: Session;
   questions: Question[];
@@ -2028,6 +2078,8 @@ function SessionScreen({
   onAnswer: (session: Session, sessionQuestion: SessionQuestion, choiceId: string) => void;
   onComplete: (session: Session) => void;
   onFlag: (session: Session, sessionQuestion: SessionQuestion) => void;
+  onDismissMistake?: (questionId: string) => void;
+  dismissedMistakeIds?: Set<string>;
 }) {
   const sessionQuestion = session.questions[currentIndex] ?? session.questions[0];
   const question = questions.find((item) => item.id === sessionQuestion?.questionId);
@@ -2037,6 +2089,7 @@ function SessionScreen({
   const answeredCount = session.answers.length;
 
   if (!sessionQuestion || !question) return <EmptyState title="Question unavailable" body="The current session references a missing question." />;
+  const isDismissedMistake = dismissedMistakeIds?.has(question.id) ?? false;
 
   const orderedChoices = sessionQuestion.choiceOrder
     .map((choiceId) => question.choices.find((choice) => choice.id === choiceId))
@@ -2057,6 +2110,12 @@ function SessionScreen({
           </div>
           <div className="button-row">
             {session.remainingSeconds !== undefined && <span className="timer">{formatSeconds(session.remainingSeconds)}</span>}
+            {session.type === "mistakes" && onDismissMistake && (
+              <button className="secondary-button" onClick={() => onDismissMistake(question.id)} disabled={isDismissedMistake}>
+                <X size={16} aria-hidden="true" />
+                {isDismissedMistake ? "Removed from mistakes" : "Remove from mistakes"}
+              </button>
+            )}
             <button className={sessionQuestion.flagged ? "secondary-button flagged" : "secondary-button"} onClick={() => onFlag(session, sessionQuestion)}>
               <Flag size={16} aria-hidden="true" />
               Flag

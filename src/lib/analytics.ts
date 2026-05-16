@@ -80,11 +80,12 @@ export function buildCoverageReport(questions: Question[], sessions: Session[]):
   };
 }
 
-export function getMistakeQuestionIds(sessions: Session[]): Set<string> {
+export function getMistakeQuestionIds(sessions: Session[], dismissedQuestionIds: Iterable<string> = []): Set<string> {
+  const dismissed = new Set(dismissedQuestionIds);
   const mistakes = new Set<string>();
   for (const session of sessions) {
     for (const answer of session.answers) {
-      if (!answer.isCorrect) mistakes.add(answer.questionId);
+      if (!answer.isCorrect && !dismissed.has(answer.questionId)) mistakes.add(answer.questionId);
     }
   }
   return mistakes;

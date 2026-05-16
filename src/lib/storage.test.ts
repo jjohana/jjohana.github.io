@@ -266,4 +266,15 @@ describe("storage question migration", () => {
     expect(localStorage.getItem(ACCOUNT_BACKUP_PREFIX + ":jj")).toContain("session-with-errors");
     expect(loadState("jj").sessions[0]?.id).toBe("session-with-errors");
   });
+
+  it("persists manually removed mistakes in account state", () => {
+    const state = {
+      ...loadState("jj"),
+      dismissedMistakeQuestionIds: ["q-arbitrage"]
+    };
+
+    saveState(state, "jj");
+
+    expect(loadState("jj").dismissedMistakeQuestionIds).toEqual(["q-arbitrage"]);
+  });
 });

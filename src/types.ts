@@ -146,6 +146,7 @@ export interface AppState {
   questions: Question[];
   sessions: Session[];
   settings: UserSettings;
+  dismissedMistakeQuestionIds?: string[];
   activeSessionId?: string;
 }
 

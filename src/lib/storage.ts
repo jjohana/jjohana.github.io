@@ -31,7 +31,8 @@ export function defaultState(): AppState {
   return {
     questions: canonicalSampleQuestions,
     sessions: [],
-    settings: DEFAULT_SETTINGS
+    settings: DEFAULT_SETTINGS,
+    dismissedMistakeQuestionIds: []
   };
 }
 
@@ -82,6 +83,9 @@ function parseState(raw: string | null): AppState | undefined {
       questions: mergeQuestions(parsed.questions),
       sessions: Array.isArray(parsed.sessions) ? parsed.sessions : [],
       settings: { ...DEFAULT_SETTINGS, ...(parsed.settings ?? {}) },
+      dismissedMistakeQuestionIds: Array.isArray(parsed.dismissedMistakeQuestionIds)
+        ? parsed.dismissedMistakeQuestionIds.filter((questionId): questionId is string => typeof questionId === "string")
+        : [],
       activeSessionId: parsed.activeSessionId
     };
   } catch {
@@ -94,7 +98,8 @@ function stateMemoryScore(state: AppState | undefined): number {
   const sessions = Array.isArray(state.sessions) ? state.sessions : [];
   const answerCount = sessions.reduce((sum, session) => sum + (Array.isArray(session.answers) ? session.answers.length : 0), 0);
   const importedQuestionCount = Math.max(0, state.questions.length - canonicalSampleQuestions.length);
-  return answerCount * 1000 + sessions.length * 100 + importedQuestionCount;
+  const dismissedMistakeCount = Array.isArray(state.dismissedMistakeQuestionIds) ? state.dismissedMistakeQuestionIds.length : 0;
+  return answerCount * 1000 + sessions.length * 100 + importedQuestionCount + dismissedMistakeCount;
 }
 
 function bestState(states: Array<AppState | undefined>): AppState | undefined {
