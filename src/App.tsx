@@ -122,6 +122,34 @@ const ORDER_TYPES_VISUAL_SUBTOPICS = new Set([
   "oco-orders",
   "protective-orders"
 ]);
+const OPTION_STRATEGIES_VISUAL_SUBTOPICS = new Set([
+  "option-premiums",
+  "intrinsic-value",
+  "time-value",
+  "delta",
+  "exercise-assignment",
+  "long-calls",
+  "long-puts",
+  "short-calls",
+  "short-puts",
+  "premium-risk",
+  "short-option-risk",
+  "long-put-hedge",
+  "long-call-hedge",
+  "option-breakevens",
+  "option-profit",
+  "option-return-equity",
+  "protective-calls",
+  "protective-puts",
+  "covered-calls",
+  "bull-call-spreads",
+  "bear-call-spreads",
+  "bull-put-spreads",
+  "bear-put-spreads",
+  "calendar-spreads",
+  "arbitrage-spreads",
+  "max-profit-loss"
+]);
 
 const OFFICIAL_EXAM_LINKS = [
   {
@@ -867,7 +895,9 @@ function CoursePage({
     Boolean(selected) &&
     ((selected.sectionId === "us_regulations" &&
       (selected.id === FUTURES_ROLES_VISUAL_SUBCHAPTER_ID || FUTURES_ROLES_VISUAL_SUBTOPICS.has(selected.subtopicId))) ||
-      (selected.topicId === "orders-accounts-analysis" && ORDER_TYPES_VISUAL_SUBTOPICS.has(selected.subtopicId)));
+      (selected.topicId === "orders-accounts-analysis" && ORDER_TYPES_VISUAL_SUBTOPICS.has(selected.subtopicId)) ||
+      (selected.topicId === "options-futures" && OPTION_STRATEGIES_VISUAL_SUBTOPICS.has(selected.subtopicId)) ||
+      (selected.topicId === "margins-settlement-delivery" && OPTION_STRATEGIES_VISUAL_SUBTOPICS.has(selected.subtopicId)));
   const courseVisualLibrary = [
     {
       id: "roles",
@@ -906,6 +936,19 @@ function CoursePage({
         "Market orders prioritize execution; limit orders prioritize price.",
         "Buy stops and sell limits sit above the market; buy limits and sell stops sit below the market.",
         "IOC can partially fill; FOK must be filled immediately in full or canceled."
+      ]
+    },
+    {
+      id: "options-strategies",
+      title: "Series 3 options strategies and calculations cheat sheet",
+      src: "course/options-strategies-calculations-cheat-sheet.png",
+      alt: "Series 3 options strategies and calculations cheat sheet for futures options.",
+      caption: "Use this sheet to review calls, puts, breakevens, profit/loss formulas, spreads, straddles, strangles, and risk logic.",
+      notesTitle: "Options formula anchors",
+      notes: [
+        "Call breakeven is strike plus premium; put breakeven is strike minus premium.",
+        "Long-option risk is limited to premium paid; naked short-option risk can be substantial or unlimited.",
+        "Debit strategies pay net premium; credit strategies receive net premium."
       ]
     }
   ];
@@ -971,7 +1014,7 @@ function CoursePage({
               setSearch("");
               setSelectedSubchapterId(rolesVisualSubchapter.id);
             }}
-            aria-label="Open course visuals: key roles, day-count rules, and order types"
+            aria-label="Open course visuals: key roles, day-count rules, order types, and options strategies"
           >
             <span className="course-feature-icon">
               <BookOpen size={17} aria-hidden="true" />
@@ -979,7 +1022,7 @@ function CoursePage({
             <span className="course-feature-card-content">
               <span className="course-feature-copy">
                 <strong>Course visuals</strong>
-                <small>Key roles, day counts, and order types</small>
+                <small>Key roles, day counts, orders, and options</small>
               </span>
               <span className="course-feature-thumbnails" aria-hidden="true">
                 {courseVisualLibrary.map((visual) => (
@@ -1061,7 +1104,7 @@ function CoursePage({
               <h3 id="course-visuals-title">Course memory sheets</h3>
               <p>
                 These visuals sit together for fast review: roles in the futures ecosystem, high-yield day-count
-                deadlines, and the order instructions tested in market-knowledge questions.
+                deadlines, order instructions, and options strategies tested in market-knowledge questions.
               </p>
             </div>
             <div className="course-visual-grid">
