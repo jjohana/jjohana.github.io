@@ -111,6 +111,17 @@ const FUTURES_ROLES_VISUAL_SUBTOPICS = new Set([
   "introducing-broker",
   "futures-commission-merchant"
 ]);
+const ORDER_TYPES_VISUAL_SUBTOPICS = new Set([
+  "market-orders",
+  "stop-orders",
+  "stop-limit-orders",
+  "market-if-touched",
+  "gtc-orders",
+  "fok-orders",
+  "moc-orders",
+  "oco-orders",
+  "protective-orders"
+]);
 
 const OFFICIAL_EXAM_LINKS = [
   {
@@ -852,10 +863,12 @@ function CoursePage({
   const rolesVisualSubchapter =
     allSubchapters.find((subchapter) => subchapter.id === FUTURES_ROLES_VISUAL_SUBCHAPTER_ID) ??
     allSubchapters.find((subchapter) => subchapter.sectionId === "us_regulations");
-  const shouldShowRolesDiagram =
-    selected?.sectionId === "us_regulations" &&
-    (selected.id === FUTURES_ROLES_VISUAL_SUBCHAPTER_ID || FUTURES_ROLES_VISUAL_SUBTOPICS.has(selected.subtopicId));
-  const regulatoryCourseVisuals = [
+  const shouldShowCourseVisuals =
+    Boolean(selected) &&
+    ((selected.sectionId === "us_regulations" &&
+      (selected.id === FUTURES_ROLES_VISUAL_SUBCHAPTER_ID || FUTURES_ROLES_VISUAL_SUBTOPICS.has(selected.subtopicId))) ||
+      (selected.topicId === "orders-accounts-analysis" && ORDER_TYPES_VISUAL_SUBTOPICS.has(selected.subtopicId)));
+  const courseVisualLibrary = [
     {
       id: "roles",
       title: "Key roles in the futures industry",
@@ -872,7 +885,7 @@ function CoursePage({
     {
       id: "day-count",
       title: "Series 3 day-count rules cheat sheet",
-      src: "course/day-count-rules-cheat-sheet.svg",
+      src: "course/day-count-rules-cheat-sheet.png",
       alt: "Series 3 day-count rules cheat sheet for U.S. regulations, NFA, and CFTC timing rules.",
       caption: "Use this sheet to separate calendar-day, business-day, filing, disclosure, reporting, and exam timing rules.",
       notesTitle: "How to use it",
@@ -881,9 +894,22 @@ function CoursePage({
         "Pay special attention to 17 business days, 21 calendar days, 30 calendar days, 60 days, and 90 days.",
         "Tie each deadline to its context: registration, disclosure, reporting, disciplinary procedure, or exam rules."
       ]
+    },
+    {
+      id: "order-types",
+      title: "Series 3 types of orders cheat sheet",
+      src: "course/types-of-orders-cheat-sheet.png",
+      alt: "Series 3 types of orders cheat sheet for futures and options on futures.",
+      caption: "Use this sheet to compare execution orders, trigger orders, time instructions, linked orders, and common order traps.",
+      notesTitle: "Order logic anchors",
+      notes: [
+        "Market orders prioritize execution; limit orders prioritize price.",
+        "Buy stops and sell limits sit above the market; buy limits and sell stops sit below the market.",
+        "IOC can partially fill; FOK must be filled immediately in full or canceled."
+      ]
     }
   ];
-  const courseVisuals = shouldShowRolesDiagram ? regulatoryCourseVisuals : [];
+  const courseVisuals = shouldShowCourseVisuals ? courseVisualLibrary : [];
   const expandedVisual = courseVisuals.find((visual) => visual.id === expandedCourseVisual);
   const displayedByChapter = chapters
     .map((chapter) => ({
@@ -945,7 +971,7 @@ function CoursePage({
               setSearch("");
               setSelectedSubchapterId(rolesVisualSubchapter.id);
             }}
-            aria-label="Open course visuals: key roles and day-count rules"
+            aria-label="Open course visuals: key roles, day-count rules, and order types"
           >
             <span className="course-feature-icon">
               <BookOpen size={17} aria-hidden="true" />
@@ -953,10 +979,10 @@ function CoursePage({
             <span className="course-feature-card-content">
               <span className="course-feature-copy">
                 <strong>Course visuals</strong>
-                <small>Key roles and day-count rules</small>
+                <small>Key roles, day counts, and order types</small>
               </span>
               <span className="course-feature-thumbnails" aria-hidden="true">
-                {regulatoryCourseVisuals.map((visual) => (
+                {courseVisualLibrary.map((visual) => (
                   <img key={visual.id} src={visual.src} alt="" />
                 ))}
               </span>
@@ -1032,10 +1058,10 @@ function CoursePage({
           <section className="course-section course-visual-section" aria-labelledby="course-visuals-title">
             <div>
               <p className="eyebrow">Course visuals</p>
-              <h3 id="course-visuals-title">Regulatory memory sheets</h3>
+              <h3 id="course-visuals-title">Course memory sheets</h3>
               <p>
-                These visuals sit together for U.S. Regulations review: one maps who does what in the futures
-                ecosystem, and the other summarizes the high-yield day-count deadlines.
+                These visuals sit together for fast review: roles in the futures ecosystem, high-yield day-count
+                deadlines, and the order instructions tested in market-knowledge questions.
               </p>
             </div>
             <div className="course-visual-grid">
