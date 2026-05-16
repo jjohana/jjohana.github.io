@@ -122,6 +122,10 @@ describe("published question quality", () => {
       expect(question?.stem).toContain("- October contract: call strike");
       expect(question?.stem).not.toContain("\t");
     }
+
+    const question94 = activeQuestions.find((item) => item.id === "s3-market-docx-133");
+    expect(question94?.stem).toContain("No July option is listed among the answer choices.");
+    expect(question94?.stem).toContain("Among the answer choices, which option has the largest intrinsic value?");
   });
 
   it("does not trust a legacy imported verified status without LLM audit metadata", () => {

@@ -6374,7 +6374,7 @@ export const s3MarketDocxQuestions: Question[] = [
     "subtopicId": "intrinsic-value",
     "difficulty": "easy",
     "questionType": "multiple_choice",
-    "stem": "Use the following futures and options information. For each month, the call and the put use the same strike shown.\n\n- April contract: call strike 42; put strike 42; futures price 42.66.\n- July contract: call strike 43; put strike 43; futures price 43.20.\n- October contract: call strike 44; put strike 44; futures price 43.80.\n\nWhich answer choice has the largest intrinsic value?",
+    "stem": "Use the following futures and options information. For each month, the call and the put use the same strike shown.\n\n- April contract: call strike 42; put strike 42; futures price 42.66.\n- July contract: call strike 43; put strike 43; futures price 43.20. No July option is listed among the answer choices.\n- October contract: call strike 44; put strike 44; futures price 43.80.\n\nAmong the answer choices, which option has the largest intrinsic value?",
     "choices": [
       {
         "id": "a",

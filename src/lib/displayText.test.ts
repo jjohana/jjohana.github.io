@@ -50,6 +50,7 @@ describe("display text parser", () => {
   it("poses the hog intrinsic-value questions without collapsed table columns", () => {
     const question59 = sampleQuestions.find((question) => question.id === "s3-market-docx-131");
     const question60 = sampleQuestions.find((question) => question.id === "s3-market-docx-410");
+    const question94 = sampleQuestions.find((question) => question.id === "s3-market-docx-133");
 
     expect(question59?.stem).toContain("April contract: call strike 52; put strike 52; futures price 52.66.");
     expect(question59?.stem).toContain("Which answer choice has intrinsic value?");
@@ -58,5 +59,10 @@ describe("display text parser", () => {
     expect(question60?.stem).toContain("October contract: call strike 54; put strike 54; futures price 53.80.");
     expect(question60?.stem).toContain("Which answer choice has the largest intrinsic value?");
     expect(question60?.stem).not.toContain("\t");
+
+    expect(question94?.stem).toContain("April contract: call strike 42; put strike 42; futures price 42.66.");
+    expect(question94?.stem).toContain("No July option is listed among the answer choices.");
+    expect(question94?.stem).toContain("Among the answer choices, which option has the largest intrinsic value?");
+    expect(question94?.stem).not.toContain("\t");
   });
 });
