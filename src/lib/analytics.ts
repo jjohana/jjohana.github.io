@@ -91,6 +91,21 @@ export function getMistakeQuestionIds(sessions: Session[], dismissedQuestionIds:
   return mistakes;
 }
 
+export function getSecondOrderMistakeQuestionIds(
+  sessions: Session[],
+  dismissedQuestionIds: Iterable<string> = []
+): Set<string> {
+  const dismissed = new Set(dismissedQuestionIds);
+  const mistakes = new Set<string>();
+  for (const session of sessions) {
+    if (session.type !== "mistakes") continue;
+    for (const answer of session.answers) {
+      if (!answer.isCorrect && !dismissed.has(answer.questionId)) mistakes.add(answer.questionId);
+    }
+  }
+  return mistakes;
+}
+
 export function getWeakSubtopics(state: AppState, limit = 8) {
   return buildCoverageReport(state.questions, state.sessions).subtopics
     .filter((node) => node.answered > 0 || node.total > 0)

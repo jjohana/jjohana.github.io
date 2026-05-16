@@ -353,6 +353,37 @@ button:disabled {
   line-height: 1.55;
 }
 
+.second-order-callout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.second-order-callout .panel-explainer {
+  margin-bottom: 0;
+}
+
+.mistake-summary {
+  display: grid;
+  gap: 4px;
+  margin: 14px 0;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: #475467;
+  background: #f9fafb;
+  line-height: 1.35;
+}
+
+.mistake-summary strong {
+  color: var(--text);
+}
+
+.mistake-scope-controls {
+  margin-bottom: 14px;
+}
+
 .panel h2 {
   font-size: 1.05rem;
 }
@@ -1803,7 +1834,8 @@ summary {
 
   .topbar,
   .panel-heading,
-  .session-toolbar {
+  .session-toolbar,
+  .second-order-callout {
     display: grid;
   }
 

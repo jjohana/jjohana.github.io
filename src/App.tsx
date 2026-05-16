@@ -25,7 +25,7 @@ import {
 } from "lucide-react";
 import { syllabus, topicLabel, subtopicLabel, getSection, getTopic } from "./data/syllabus";
 import { glossaryCategoryLabels, glossaryEntries, searchGlossaryEntries } from "./data/glossary";
-import { buildCoverageReport, getMistakeQuestionIds, getWeakSubtopics } from "./lib/analytics";
+import { buildCoverageReport, getMistakeQuestionIds, getSecondOrderMistakeQuestionIds, getWeakSubtopics } from "./lib/analytics";
 import { normalizeDisplayText } from "./lib/contentSanitizer";
 import { parseDisplayText } from "./lib/displayText";
 import { buildCourse, courseProgress, firstCourseSubchapter, searchCourse } from "./lib/course";
@@ -306,6 +306,10 @@ function App() {
   const weakSubtopics = useMemo(() => getWeakSubtopics(state), [state]);
   const dismissedMistakeIds = useMemo(() => new Set(state.dismissedMistakeQuestionIds ?? []), [state.dismissedMistakeQuestionIds]);
   const mistakeIds = useMemo(() => getMistakeQuestionIds(state.sessions, dismissedMistakeIds), [dismissedMistakeIds, state.sessions]);
+  const secondOrderMistakeIds = useMemo(
+    () => getSecondOrderMistakeQuestionIds(state.sessions, dismissedMistakeIds),
+    [dismissedMistakeIds, state.sessions]
+  );
   const course = useMemo(() => buildCourse(state.questions), [state.questions]);
   const activeSession = state.sessions.find((session) => session.id === state.activeSessionId);
   const latestCompletedSession = [...state.sessions].reverse().find((session) => session.status === "completed");
@@ -333,7 +337,7 @@ function App() {
     return state.questions.find((question) => question.id === questionId);
   }
 
-  function startSession(type: "practice" | "mock" | "mistakes", questions: Question[], filters?: SessionFilters) {
+  function startSession(type: "practice" | "mock" | "mistakes", questions: Question[], filters?: SessionFilters, titleOverride?: string) {
     if (questions.length === 0) {
       setMessage("No questions match this selection. Import more questions or broaden the filters.");
       return;
@@ -350,11 +354,12 @@ function App() {
       id: makeId("session"),
       type,
       title:
-        type === "mock"
+        titleOverride ??
+        (type === "mock"
           ? "Full Series 3 Mock Exam"
           : type === "mistakes"
             ? "Mistake Review"
-            : buildPracticeTitle(filters),
+            : buildPracticeTitle(filters)),
       createdAt: new Date().toISOString(),
       seed,
       status: "in_progress",
@@ -408,6 +413,17 @@ function App() {
   function startMistakeReview() {
     const questions = state.questions.filter((question) => mistakeIds.has(question.id) && inferredQualityStatus(question) !== "rejected");
     startSession("mistakes", questions, { questionCount: questions.length, prioritizeWeak: true });
+  }
+
+  function startSecondOrderMistakeReview(sourceIds: Iterable<string> = secondOrderMistakeIds) {
+    const ids = new Set(sourceIds);
+    const questions = state.questions.filter((question) => ids.has(question.id) && inferredQualityStatus(question) !== "rejected");
+    startSession(
+      "mistakes",
+      questions,
+      { questionCount: questions.length, prioritizeWeak: true },
+      "Second-order Mistake Drill"
+    );
   }
 
   function dismissMistakeQuestion(questionId: string) {
@@ -681,8 +697,10 @@ function App() {
           <Mistakes
             state={state}
             mistakeIds={mistakeIds}
+            secondOrderMistakeIds={secondOrderMistakeIds}
             dismissedMistakeCount={dismissedMistakeIds.size}
             onStart={startMistakeReview}
+            onStartSecondOrder={startSecondOrderMistakeReview}
             onDismiss={dismissMistakeQuestion}
             onRestoreDismissed={restoreDismissedMistakes}
             setBankFilters={setBankFilters}
@@ -708,7 +726,13 @@ function App() {
           />
         )}
         {view === "session" && !activeSession && <EmptyState title="No active session" body="Start a drill, mock exam, or mistake review." />}
-        {view === "results" && resultSession && <Results session={resultSession} questions={state.questions} />}
+        {view === "results" && resultSession && (
+          <Results
+            session={resultSession}
+            questions={state.questions}
+            onStartSecondOrderMistakes={startSecondOrderMistakeReview}
+          />
+        )}
         {view === "results" && !resultSession && <EmptyState title="No results yet" body="Complete a drill or mock exam to see section, topic, and subtopic results." />}
         {view === "examRules" && <ExamRules />}
         {view === "settings" && (
@@ -745,6 +769,10 @@ function pageTitle(view: View) {
     about: "About / Compliance"
   };
   return titles[view];
+}
+
+function formatQcmCount(count: number) {
+  return `${count} ${count === 1 ? "QCM" : "QCMs"}`;
 }
 
 function AccountSwitcher({
@@ -1977,8 +2005,10 @@ function MockExam({
 function Mistakes({
   state,
   mistakeIds,
+  secondOrderMistakeIds,
   dismissedMistakeCount,
   onStart,
+  onStartSecondOrder,
   onDismiss,
   onRestoreDismissed,
   setBankFilters,
@@ -1986,14 +2016,20 @@ function Mistakes({
 }: {
   state: AppState;
   mistakeIds: Set<string>;
+  secondOrderMistakeIds: Set<string>;
   dismissedMistakeCount: number;
   onStart: () => void;
+  onStartSecondOrder: () => void;
   onDismiss: (questionId: string) => void;
   onRestoreDismissed: () => void;
   setBankFilters: (filters: SessionFilters) => void;
   setView: (view: View) => void;
 }) {
+  const [scope, setScope] = useState<"all" | "secondOrder">("all");
   const questions = state.questions.filter((question) => mistakeIds.has(question.id) && inferredQualityStatus(question) !== "rejected");
+  const secondOrderQuestions = questions.filter((question) => secondOrderMistakeIds.has(question.id));
+  const visibleQuestions = scope === "secondOrder" ? secondOrderQuestions : questions;
+  const isSecondOrderScope = scope === "secondOrder";
 
   return (
     <section className="content-grid">
@@ -2001,12 +2037,16 @@ function Mistakes({
         <div className="panel-heading">
           <div>
             <p className="eyebrow">Mistake review</p>
-            <h2>{questions.length} missed QCMs</h2>
+            <h2>{formatQcmCount(questions.length)} missed</h2>
           </div>
         </div>
         <button className="primary-button large" onClick={onStart} disabled={questions.length === 0}>
           <RotateCcw size={18} aria-hidden="true" />
-          Practice mistakes
+          Practice all mistakes
+        </button>
+        <button className="secondary-button large" onClick={onStartSecondOrder} disabled={secondOrderQuestions.length === 0}>
+          <Target size={18} aria-hidden="true" />
+          Practice second-order mistakes
         </button>
         {dismissedMistakeCount > 0 && (
           <button className="secondary-button large" onClick={onRestoreDismissed}>
@@ -2014,15 +2054,39 @@ function Mistakes({
             Restore removed mistakes
           </button>
         )}
+        <div className="mistake-summary">
+          <span><strong>{secondOrderQuestions.length}</strong> second-order {secondOrderQuestions.length === 1 ? "miss" : "misses"}</span>
+          <span>Questions missed again during Mistake Review.</span>
+        </div>
         <p className="muted">Mistakes are grouped by section, topic, and subtopic for focused repetition.</p>
       </div>
       <div className="panel span-8">
+        <div className="panel-heading">
+          <div>
+            <p className="eyebrow">Mistake screening</p>
+            <h2>{isSecondOrderScope ? "Second-order mistakes" : "All mistakes"}</h2>
+          </div>
+          <span className={isSecondOrderScope ? "pill red" : "pill blue"}>{formatQcmCount(visibleQuestions.length)}</span>
+        </div>
+        <div className="button-row mistake-scope-controls" role="group" aria-label="Mistake screening scope">
+          <button className={scope === "all" ? "primary-button" : "secondary-button"} onClick={() => setScope("all")}>
+            All mistakes
+          </button>
+          <button
+            className={scope === "secondOrder" ? "primary-button" : "secondary-button"}
+            onClick={() => setScope("secondOrder")}
+            disabled={secondOrderQuestions.length === 0}
+          >
+            Second-order only
+          </button>
+        </div>
         <div className="question-list">
-          {questions.map((question) => (
+          {visibleQuestions.map((question) => (
             <article className="question-card" key={question.id}>
               <div className="question-card-header">
                 <span className="pill">{getSection(question.sectionId).shortTitle}</span>
                 <span className="pill">{question.difficulty}</span>
+                {secondOrderMistakeIds.has(question.id) && <span className="pill red">second-order</span>}
               </div>
               <DisplayText value={question.stem} className="question-title" />
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>
@@ -2049,7 +2113,16 @@ function Mistakes({
               </div>
             </article>
           ))}
-          {questions.length === 0 && <EmptyState title="No mistakes yet" body="Answer some questions to build a mistake queue." />}
+          {visibleQuestions.length === 0 && (
+            <EmptyState
+              title={isSecondOrderScope ? "No second-order mistakes yet" : "No mistakes yet"}
+              body={
+                isSecondOrderScope
+                  ? "Miss a question during Mistake Review to add it to this focused queue."
+                  : "Answer some questions to build a mistake queue."
+              }
+            />
+          )}
         </div>
       </div>
     </section>
@@ -2238,7 +2311,15 @@ function SessionScreen({
   );
 }
 
-function Results({ session, questions }: { session: Session; questions: Question[] }) {
+function Results({
+  session,
+  questions,
+  onStartSecondOrderMistakes
+}: {
+  session: Session;
+  questions: Question[];
+  onStartSecondOrderMistakes?: (questionIds: Iterable<string>) => void;
+}) {
   const score = scoreSession(session, questions);
   const breakdown = buildTopicBreakdown(session, questions);
   const questionById = new Map(questions.map((question) => [question.id, question]));
@@ -2249,6 +2330,12 @@ function Results({ session, questions }: { session: Session; questions: Question
     const answer = answerBySessionQuestionId.get(sessionQuestion.id);
     return { sessionQuestion, question, answer };
   });
+  const missedQuestionIds = new Set(
+    rows
+      .filter(({ question, answer }) => Boolean(question) && Boolean(answer) && !answer?.isCorrect)
+      .map(({ question }) => question?.id)
+      .filter((questionId): questionId is string => Boolean(questionId))
+  );
 
   const csv = [
     "sessionId,questionId,section,topic,subtopic,correct,selectedChoice",
@@ -2273,6 +2360,20 @@ function Results({ session, questions }: { session: Session; questions: Question
         <Metric label="U.S. Regulations" value={`${score.usRegulations.percentage}%`} detail={score.usRegulations.passed ? "pass" : "below 70%"} />
         <Metric label="Mock result" value={score.passed ? "Pass" : "Review"} detail="both sections must pass" />
       </div>
+
+      {session.type === "mistakes" && missedQuestionIds.size > 0 && onStartSecondOrderMistakes && (
+        <div className="panel full second-order-callout">
+          <div>
+            <p className="eyebrow">Second-order mistakes</p>
+            <h2>{formatQcmCount(missedQuestionIds.size)} missed again during Mistake Review</h2>
+            <p className="panel-explainer">Drill only these repeated misses before returning to the full mistake queue.</p>
+          </div>
+          <button className="primary-button" onClick={() => onStartSecondOrderMistakes(missedQuestionIds)}>
+            <Target size={16} aria-hidden="true" />
+            Drill second-order mistakes
+          </button>
+        </div>
+      )}
 
       <div className="panel span-5">
         <div className="panel-heading">
