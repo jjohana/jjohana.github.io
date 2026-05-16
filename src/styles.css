@@ -418,8 +418,7 @@ button:disabled {
 .section-row strong,
 .coverage-row strong,
 .distribution-row strong,
-.question-card h3,
-.question-workspace h3,
+.question-title,
 .table-row span,
 .weak-item span {
   min-width: 0;
@@ -542,12 +541,68 @@ button:disabled {
   box-shadow: none;
 }
 
-.question-card h3,
-.question-workspace h3 {
+.question-title {
   margin: 10px 0;
+  color: var(--text);
   font-size: 1rem;
+  font-weight: 800;
   line-height: 1.45;
+}
+
+.question-workspace .question-title {
+  font-size: 1.05rem;
+}
+
+.display-text {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+}
+
+.display-text-paragraph {
+  margin: 0;
   white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.display-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  border: 1px solid #cfd8e3;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.display-table {
+  width: max-content;
+  min-width: min(100%, 560px);
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.display-table th,
+.display-table td {
+  padding: 8px 10px;
+  border: 1px solid #cfd8e3;
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.display-table th {
+  color: #173b74;
+  background: #eef5ff;
+  font-weight: 800;
+}
+
+.display-table td {
+  font-weight: 700;
+}
+
+.rationale-list .display-text {
+  margin-top: 4px;
+  gap: 6px;
 }
 
 .pill {

@@ -27,6 +27,7 @@ import { syllabus, topicLabel, subtopicLabel, getSection, getTopic } from "./dat
 import { glossaryCategoryLabels, glossaryEntries, searchGlossaryEntries } from "./data/glossary";
 import { buildCoverageReport, getMistakeQuestionIds, getWeakSubtopics } from "./lib/analytics";
 import { normalizeDisplayText } from "./lib/contentSanitizer";
+import { parseDisplayText } from "./lib/displayText";
 import { buildCourse, courseProgress, firstCourseSubchapter, searchCourse } from "./lib/course";
 import {
   parseCsvQuestions,
@@ -859,6 +860,49 @@ function Dashboard({
   );
 }
 
+function DisplayText({ value, className }: { value?: string; className?: string }) {
+  const blocks = parseDisplayText(value);
+  if (blocks.length === 0) return null;
+
+  return (
+    <div className={["display-text", className].filter(Boolean).join(" ")}>
+      {blocks.map((block, index) => {
+        if (block.type === "paragraph") {
+          return (
+            <p className="display-text-paragraph" key={`paragraph-${index}`}>
+              {block.text}
+            </p>
+          );
+        }
+
+        const [header, ...rows] = block.rows;
+        return (
+          <div className="display-table-wrap" key={`table-${index}`}>
+            <table className="display-table">
+              <thead>
+                <tr>
+                  {header.map((cell, cellIndex) => (
+                    <th key={`${cell}-${cellIndex}`}>{cell}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {rows.map((row, rowIndex) => (
+                  <tr key={`row-${rowIndex}`}>
+                    {row.map((cell, cellIndex) => (
+                      <td key={`${rowIndex}-${cellIndex}`}>{cell}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 function CoursePage({
   chapters,
   sessions,
@@ -1556,19 +1600,20 @@ function QcmBank({
                   <span className="pill amber" key={issue}>{ISSUE_TYPE_LABELS[issue]}</span>
                 ))}
               </div>
-              <h3>{normalizeDisplayText(question.stem)}</h3>
+              <DisplayText value={question.stem} className="question-title" />
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>
-              {question.qualityNotes && <p className="muted">{question.qualityNotes}</p>}
+              {question.qualityNotes && <DisplayText value={question.qualityNotes} className="muted" />}
               <details>
                 <summary>Show answer and rationales</summary>
                 <ul className="rationale-list">
                   {question.choices.map((choice) => (
                     <li key={choice.id}>
-                      <strong>{choice.isCorrect ? "Correct" : "Wrong"}:</strong> {normalizeDisplayText(choice.text)} - {normalizeDisplayText(choice.rationale)}
+                      <strong>{choice.isCorrect ? "Correct" : "Wrong"}: {normalizeDisplayText(choice.text)}</strong>
+                      <DisplayText value={choice.rationale} />
                     </li>
                   ))}
                 </ul>
-                <p>{normalizeDisplayText(question.explanation)}</p>
+                <DisplayText value={question.explanation} />
               </details>
             </article>
           ))}
@@ -1814,7 +1859,7 @@ function Practice({
               <span className={`pill ${inferredQualityStatus(question) === "verified" ? "green" : "amber"}`}>
                 {inferredQualityStatus(question).replace("_", " ")}
               </span>
-              <h3>{normalizeDisplayText(question.stem)}</h3>
+              <DisplayText value={question.stem} className="question-title" />
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>
             </article>
           ))}
@@ -1937,7 +1982,7 @@ function Mistakes({
                 <span className="pill">{getSection(question.sectionId).shortTitle}</span>
                 <span className="pill">{question.difficulty}</span>
               </div>
-              <h3>{normalizeDisplayText(question.stem)}</h3>
+              <DisplayText value={question.stem} className="question-title" />
               <p className="muted">{topicLabel(question.topicId)} / {subtopicLabel(question.topicId, question.subtopicId)}</p>
               <button
                 className="secondary-button"
@@ -2031,7 +2076,7 @@ function SessionScreen({
         </div>
 
         <article className="question-workspace">
-          <h3>{normalizeDisplayText(question.stem)}</h3>
+          <DisplayText value={question.stem} className="question-title" />
           <div className="answer-grid">
             {orderedChoices.map((choice, index) => {
               const isSelected = selected === choice.id;
@@ -2073,11 +2118,12 @@ function SessionScreen({
                 {answer?.isCorrect ? <CheckCircle2 size={18} /> : <XCircle size={18} />}
                 {answer?.isCorrect ? "Correct" : "Incorrect"}
               </div>
-              <p>{normalizeDisplayText(question.explanation)}</p>
+              <DisplayText value={question.explanation} />
               <ul className="rationale-list">
                 {orderedChoices.map((choice, index) => (
                   <li key={choice.id}>
-                    <strong>{String.fromCharCode(65 + index)}. {normalizeDisplayText(choice.text)}</strong> - {normalizeDisplayText(choice.rationale)}
+                    <strong>{String.fromCharCode(65 + index)}. {normalizeDisplayText(choice.text)}</strong>
+                    <DisplayText value={choice.rationale} />
                   </li>
                 ))}
               </ul>
@@ -2214,16 +2260,17 @@ function Results({ session, questions }: { session: Session; questions: Question
                   <span className="pill">Q{index + 1}</span>
                   <span className="pill">{getSection(question.sectionId).shortTitle}</span>
                 </div>
-                <h3>{normalizeDisplayText(question.stem)}</h3>
+                <DisplayText value={question.stem} className="question-title" />
                 <p><strong>Selected:</strong> {selected ? normalizeDisplayText(selected.text) : "No answer"}</p>
                 <p><strong>Correct:</strong> {correct ? normalizeDisplayText(correct.text) : ""}</p>
-                <p>{normalizeDisplayText(question.explanation)}</p>
+                <DisplayText value={question.explanation} />
                 <details>
                   <summary>Per-option rationales</summary>
                   <ul className="rationale-list">
                     {orderedChoices.map((choice, choiceIndex) => (
                       <li key={choice.id}>
-                        <strong>{String.fromCharCode(65 + choiceIndex)}. {normalizeDisplayText(choice.text)}</strong> - {normalizeDisplayText(choice.rationale)}
+                        <strong>{String.fromCharCode(65 + choiceIndex)}. {normalizeDisplayText(choice.text)}</strong>
+                        <DisplayText value={choice.rationale} />
                       </li>
                     ))}
                   </ul>
