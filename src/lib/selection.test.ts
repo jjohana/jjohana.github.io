@@ -92,4 +92,17 @@ describe("question selection", () => {
     expect(rejectedPractice).toHaveLength(0);
     expect(rejectedMock).toHaveLength(0);
   });
+
+  it("varies mock selections by seed while drawing only from the eligible pool", () => {
+    const filters = { difficulty: "mixed", sourceBank: "all", qualityStatus: "verified" } as const;
+    const eligibleQuestionIds = new Set(filterQuestionPool(sampleQuestions, filters).map((question) => question.id));
+    const firstMock = selectMockQuestions(sampleQuestions, "mock-run-a", 120, filters);
+    const secondMock = selectMockQuestions(sampleQuestions, "mock-run-b", 120, filters);
+
+    expect(firstMock).toHaveLength(120);
+    expect(secondMock).toHaveLength(120);
+    expect(firstMock.every((question) => eligibleQuestionIds.has(question.id))).toBe(true);
+    expect(secondMock.every((question) => eligibleQuestionIds.has(question.id))).toBe(true);
+    expect(firstMock.map((question) => question.id)).not.toEqual(secondMock.map((question) => question.id));
+  });
 });

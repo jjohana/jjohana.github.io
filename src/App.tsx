@@ -399,7 +399,8 @@ function App() {
   function startMock() {
     const desired = state.settings.enableExperimentalQuestions ? 125 : 120;
     const filters = { ...mockFilters, questionCount: desired, difficulty: "mixed" as const };
-    const questions = selectMockQuestions(state.questions, `${state.settings.shuffleSeed}-mock`, desired, filters);
+    const seed = `${state.settings.shuffleSeed}-mock-${makeId("selection")}`;
+    const questions = selectMockQuestions(state.questions, seed, desired, filters);
     const sections = new Set(questions.map((question) => question.sectionId));
     if (new Set(questions.map((question) => question.id)).size < 120) {
       setMessage("This source filter has fewer than 120 unique questions. The mock exam starts now, but broaden the source filter for a fully unique exam.");
