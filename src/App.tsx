@@ -839,7 +839,7 @@ function CoursePage({
   onPractice: (subchapter: CourseSubchapter) => void;
   onWeakPractice: (subchapter: CourseSubchapter) => void;
 }) {
-  const [isRolesVisualExpanded, setIsRolesVisualExpanded] = useState(false);
+  const [expandedCourseVisual, setExpandedCourseVisual] = useState<string | null>(null);
   const matchingSubchapters = useMemo(() => searchCourse(chapters, search), [chapters, search]);
   const allSubchapters = useMemo(() => searchCourse(chapters, ""), [chapters]);
   const selected =
@@ -855,6 +855,36 @@ function CoursePage({
   const shouldShowRolesDiagram =
     selected?.sectionId === "us_regulations" &&
     (selected.id === FUTURES_ROLES_VISUAL_SUBCHAPTER_ID || FUTURES_ROLES_VISUAL_SUBTOPICS.has(selected.subtopicId));
+  const regulatoryCourseVisuals = [
+    {
+      id: "roles",
+      title: "Key roles in the futures industry",
+      src: "course/futures-industry-roles.png",
+      alt: "Key roles in the futures industry: customer, AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA relationships.",
+      caption: "Use this visual before drilling AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA questions.",
+      notesTitle: "What it represents",
+      notes: [
+        "Customer routes: directly through an FCM, or through an IB that introduces the account to an FCM.",
+        "Advisory routes: a CTA gives trading advice; a CPO pools investor money and operates a commodity pool.",
+        "Oversight routes: CFTC is the federal regulator; NFA is the industry self-regulatory organization."
+      ]
+    },
+    {
+      id: "day-count",
+      title: "Series 3 day-count rules cheat sheet",
+      src: "course/day-count-rules-cheat-sheet.svg",
+      alt: "Series 3 day-count rules cheat sheet for U.S. regulations, NFA, and CFTC timing rules.",
+      caption: "Use this sheet to separate calendar-day, business-day, filing, disclosure, reporting, and exam timing rules.",
+      notesTitle: "How to use it",
+      notes: [
+        "Memorize the exact day count first, then check whether the rule uses calendar days or business days.",
+        "Pay special attention to 17 business days, 21 calendar days, 30 calendar days, 60 days, and 90 days.",
+        "Tie each deadline to its context: registration, disclosure, reporting, disciplinary procedure, or exam rules."
+      ]
+    }
+  ];
+  const courseVisuals = shouldShowRolesDiagram ? regulatoryCourseVisuals : [];
+  const expandedVisual = courseVisuals.find((visual) => visual.id === expandedCourseVisual);
   const displayedByChapter = chapters
     .map((chapter) => ({
       ...chapter,
@@ -863,13 +893,13 @@ function CoursePage({
     .filter((chapter) => chapter.subchapters.length > 0);
 
   useEffect(() => {
-    if (!isRolesVisualExpanded) {
+    if (!expandedCourseVisual) {
       return;
     }
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
-        setIsRolesVisualExpanded(false);
+        setExpandedCourseVisual(null);
       }
     };
 
@@ -880,7 +910,7 @@ function CoursePage({
       document.removeEventListener("keydown", handleKeyDown);
       document.body.classList.remove("modal-open");
     };
-  }, [isRolesVisualExpanded]);
+  }, [expandedCourseVisual]);
 
   if (!selected || !selectedProgress) {
     return <EmptyState title="No course content" body="The course could not be generated from the current taxonomy." />;
@@ -910,17 +940,26 @@ function CoursePage({
         {rolesVisualSubchapter && (
           <button
             className="course-feature-card"
+            type="button"
             onClick={() => {
               setSearch("");
               setSelectedSubchapterId(rolesVisualSubchapter.id);
             }}
+            aria-label="Open course visuals: key roles and day-count rules"
           >
             <span className="course-feature-icon">
               <BookOpen size={17} aria-hidden="true" />
             </span>
-            <span>
-              <strong>Course visual</strong>
-              <small>Key roles in the futures industry</small>
+            <span className="course-feature-card-content">
+              <span className="course-feature-copy">
+                <strong>Course visuals</strong>
+                <small>Key roles and day-count rules</small>
+              </span>
+              <span className="course-feature-thumbnails" aria-hidden="true">
+                {regulatoryCourseVisuals.map((visual) => (
+                  <img key={visual.id} src={visual.src} alt="" />
+                ))}
+              </span>
             </span>
           </button>
         )}
@@ -989,59 +1028,62 @@ function CoursePage({
           </button>
         </div>
 
-        {shouldShowRolesDiagram && (
-          <section className="course-section course-visual-section" aria-labelledby="roles-visual-title">
+        {courseVisuals.length > 0 && (
+          <section className="course-section course-visual-section" aria-labelledby="course-visuals-title">
             <div>
-              <p className="eyebrow">Course visual</p>
-              <h3 id="roles-visual-title">Key roles in the futures industry</h3>
+              <p className="eyebrow">Course visuals</p>
+              <h3 id="course-visuals-title">Regulatory memory sheets</h3>
               <p>
-                This diagram is the course map for who does what in the U.S. futures ecosystem: customer order flow,
-                advisory relationships, pool/investment flow, supervisory links, and regulatory oversight.
+                These visuals sit together for U.S. Regulations review: one maps who does what in the futures
+                ecosystem, and the other summarizes the high-yield day-count deadlines.
               </p>
             </div>
-            <figure className="course-visual">
-              <div className="course-visual-toolbar">
-                <button
-                  className="secondary-button"
-                  type="button"
-                  onClick={() => setIsRolesVisualExpanded(true)}
-                  aria-label="Enlarge visual"
-                >
-                  <Maximize2 size={16} aria-hidden="true" />
-                  Enlarge
-                </button>
-              </div>
-              <img
-                src="course/futures-industry-roles.png"
-                alt="Key roles in the futures industry: customer, AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA relationships."
-              />
-              <figcaption>
-                Use this visual before drilling AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA questions.
-              </figcaption>
-            </figure>
-            <div className="course-visual-notes">
-              <strong>What it represents</strong>
-              <ul>
-                <li>Customer routes: directly through an FCM, or through an IB that introduces the account to an FCM.</li>
-                <li>Advisory routes: a CTA gives trading advice; a CPO pools investor money and operates a commodity pool.</li>
-                <li>Oversight routes: CFTC is the federal regulator; NFA is the industry self-regulatory organization.</li>
-              </ul>
+            <div className="course-visual-grid">
+              {courseVisuals.map((visual) => (
+                <figure className="course-visual" key={visual.id}>
+                  <div className="course-visual-toolbar">
+                    <button
+                      className="secondary-button"
+                      type="button"
+                      onClick={() => setExpandedCourseVisual(visual.id)}
+                      aria-label={`Enlarge ${visual.title}`}
+                    >
+                      <Maximize2 size={16} aria-hidden="true" />
+                      Enlarge
+                    </button>
+                  </div>
+                  <img src={visual.src} alt={visual.alt} />
+                  <figcaption>{visual.caption}</figcaption>
+                </figure>
+              ))}
             </div>
-            {isRolesVisualExpanded && (
+            <div className="course-visual-notes-grid">
+              {courseVisuals.map((visual) => (
+                <div className="course-visual-notes" key={`${visual.id}-notes`}>
+                  <strong>{visual.notesTitle}</strong>
+                  <ul>
+                    {visual.notes.map((note) => (
+                      <li key={note}>{note}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+            {expandedVisual && (
               <div
                 className="image-lightbox"
                 role="dialog"
                 aria-modal="true"
-                aria-label="Key roles visual enlarged"
-                onClick={() => setIsRolesVisualExpanded(false)}
+                aria-label={`${expandedVisual.title} enlarged`}
+                onClick={() => setExpandedCourseVisual(null)}
               >
                 <div className="image-lightbox-content" onClick={(event) => event.stopPropagation()}>
                   <div className="image-lightbox-toolbar">
-                    <strong>Key roles in the futures industry</strong>
+                    <strong>{expandedVisual.title}</strong>
                     <button
                       className="secondary-button"
                       type="button"
-                      onClick={() => setIsRolesVisualExpanded(false)}
+                      onClick={() => setExpandedCourseVisual(null)}
                       aria-label="Close enlarged visual"
                     >
                       <X size={16} aria-hidden="true" />
@@ -1049,10 +1091,7 @@ function CoursePage({
                     </button>
                   </div>
                   <div className="image-lightbox-scroll">
-                    <img
-                      src="course/futures-industry-roles.png"
-                      alt="Key roles in the futures industry: customer, AP, IB, FCM, CTA, CPO, principal, exchange, CFTC, and NFA relationships."
-                    />
+                    <img src={expandedVisual.src} alt={expandedVisual.alt} />
                   </div>
                 </div>
               </div>

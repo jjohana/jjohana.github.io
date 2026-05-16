@@ -800,8 +800,9 @@ button:focus-visible {
 }
 
 .course-feature-card {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
   gap: 10px;
   width: 100%;
   padding: 12px;
@@ -810,6 +811,16 @@ button:focus-visible {
   color: #183b72;
   background: #f7faff;
   text-align: left;
+}
+
+.course-feature-card-content {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.course-feature-copy {
+  min-width: 0;
 }
 
 .course-feature-card:hover,
@@ -827,6 +838,23 @@ button:focus-visible {
   margin-top: 2px;
   color: #475467;
   font-size: 0.78rem;
+}
+
+.course-feature-thumbnails {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.course-feature-thumbnails img {
+  display: block;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #d0d9e6;
+  border-radius: 6px;
+  background: #fff;
+  object-fit: cover;
+  object-position: top center;
 }
 
 .course-feature-icon {
@@ -978,6 +1006,13 @@ button:focus-visible {
   border: 1px solid #bad0f7;
   border-radius: 8px;
   background: #f7faff;
+}
+
+.course-visual-grid,
+.course-visual-notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  gap: 12px;
 }
 
 .course-visual-toolbar {
