@@ -2044,7 +2044,7 @@ function Mistakes({
           <RotateCcw size={18} aria-hidden="true" />
           Practice all mistakes
         </button>
-        <button className="secondary-button large" onClick={onStartSecondOrder} disabled={secondOrderQuestions.length === 0}>
+        <button className="secondary-button large" onClick={() => onStartSecondOrder()} disabled={secondOrderQuestions.length === 0}>
           <Target size={18} aria-hidden="true" />
           Practice second-order mistakes
         </button>
