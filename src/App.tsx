@@ -1040,15 +1040,15 @@ function CoursePage({
     },
     {
       id: "day-count",
-      title: "Series 3 day-count rules cheat sheet",
+      title: "Series 3 time, days, and months constraints",
       src: "course/day-count-rules-cheat-sheet.png",
-      alt: "Series 3 day-count rules cheat sheet for U.S. regulations, NFA, and CFTC timing rules.",
-      caption: "Use this sheet to separate calendar-day, business-day, filing, disclosure, reporting, and exam timing rules.",
+      alt: "Series 3 time, days, and months constraints sheet using actual verified QCM facts and drill-back IDs.",
+      caption: "Use this sheet to drill actual QCM timing rules for disclosures, record retention, reports, authorizations, and filings.",
       notesTitle: "How to use it",
       notes: [
-        "Memorize the exact day count first, then check whether the rule uses calendar days or business days.",
-        "Pay special attention to 17 business days, 21 calendar days, 30 calendar days, 60 days, and 90 days.",
-        "Tie each deadline to its context: registration, disclosure, reporting, disciplinary procedure, or exam rules."
+        "Start with the timing number, then attach it to the tested context and source QCM ID.",
+        "Use the before/at-or-before rules to avoid after-the-fact disclosure and authorization traps.",
+        "The sheet uses actual verified QCM facts; no verified active QCM was found for 17 business days."
       ]
     },
     {
@@ -1140,7 +1140,7 @@ function CoursePage({
               setSearch("");
               setSelectedSubchapterId(rolesVisualSubchapter.id);
             }}
-            aria-label="Open course visuals: key roles, day-count rules, order types, and options strategies"
+            aria-label="Open course visuals: key roles, timing constraints, order types, and options strategies"
           >
             <span className="course-feature-icon">
               <BookOpen size={17} aria-hidden="true" />
@@ -1148,7 +1148,7 @@ function CoursePage({
             <span className="course-feature-card-content">
               <span className="course-feature-copy">
                 <strong>Course visuals</strong>
-                <small>Key roles, day counts, orders, and options</small>
+                <small>Key roles, timing rules, orders, and options</small>
               </span>
               <span className="course-feature-thumbnails" aria-hidden="true">
                 {courseVisualLibrary.map((visual) => (
@@ -1229,8 +1229,8 @@ function CoursePage({
               <p className="eyebrow">Course visuals</p>
               <h3 id="course-visuals-title">Course memory sheets</h3>
               <p>
-                These visuals sit together for fast review: roles in the futures ecosystem, high-yield day-count
-                deadlines, order instructions, and options strategies tested in market-knowledge questions.
+                These visuals sit together for fast review: roles in the futures ecosystem, high-yield timing
+                constraints, order instructions, and options strategies tested in market-knowledge questions.
               </p>
             </div>
             <div className="course-visual-grid">
