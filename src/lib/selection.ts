@@ -105,6 +105,23 @@ export function selectPracticeQuestions(
   return sorted.slice(0, filters.questionCount ?? 10);
 }
 
+export function selectCoverageQuestions(
+  questions: Question[],
+  filters: SessionFilters,
+  seed: string,
+  sessions: Session[] = []
+): Question[] {
+  const rng = createSeededRng(seed);
+  const pool = filterQuestionPool(questions, filters).filter((question) => inferredQualityStatus(question) !== "rejected");
+  const answeredQuestionIds = new Set(
+    sessions.flatMap((session) => session.answers.map((answer) => answer.questionId))
+  );
+  const unseen = pool.filter((question) => !answeredQuestionIds.has(question.id));
+  const alreadySeen = pool.filter((question) => answeredQuestionIds.has(question.id));
+
+  return [...seededShuffle(unseen, rng), ...seededShuffle(alreadySeen, rng)].slice(0, filters.questionCount ?? 10);
+}
+
 export function selectMockQuestions(questions: Question[], seed: string, desiredCount = 120, filters: SessionFilters = {}): Question[] {
   const rng = createSeededRng(seed);
   const active = filterQuestionPool(questions, filters).filter((question) => inferredQualityStatus(question) !== "rejected");

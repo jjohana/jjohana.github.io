@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { sampleQuestions } from "../data/questions";
-import { filterQuestionPool, isS3ImportedQuestion, selectMockQuestions, selectPracticeQuestions } from "./selection";
+import { filterQuestionPool, isS3ImportedQuestion, selectCoverageQuestions, selectMockQuestions, selectPracticeQuestions } from "./selection";
 
 describe("question selection", () => {
   it("filters by section, topic, and subtopic", () => {
@@ -104,5 +104,70 @@ describe("question selection", () => {
     expect(firstMock.every((question) => eligibleQuestionIds.has(question.id))).toBe(true);
     expect(secondMock.every((question) => eligibleQuestionIds.has(question.id))).toBe(true);
     expect(firstMock.map((question) => question.id)).not.toEqual(secondMock.map((question) => question.id));
+  });
+
+  it("prioritizes unseen questions inside the selected coverage scope", () => {
+    const filters = { sourceBank: "s3-imported", qualityStatus: "verified", difficulty: "mixed", questionCount: 8 } as const;
+    const eligible = filterQuestionPool(sampleQuestions, filters);
+    const alreadyAnswered = new Set(eligible.slice(0, 20).map((question) => question.id));
+    const sessions = [
+      {
+        id: "coverage-history",
+        type: "practice" as const,
+        title: "Coverage history",
+        createdAt: "2026-05-17T00:00:00.000Z",
+        seed: "history",
+        status: "completed" as const,
+        feedbackMode: "immediate" as const,
+        questions: [],
+        answers: [...alreadyAnswered].map((questionId, index) => ({
+          sessionQuestionId: `sq-${index}`,
+          questionId,
+          selectedChoiceId: "a",
+          isCorrect: true,
+          answeredAt: "2026-05-17T00:00:00.000Z",
+          elapsedSeconds: 1
+        }))
+      }
+    ];
+
+    const selected = selectCoverageQuestions(sampleQuestions, filters, "coverage-seed", sessions);
+
+    expect(selected).toHaveLength(8);
+    expect(selected.every(isS3ImportedQuestion)).toBe(true);
+    expect(selected.every((question) => !alreadyAnswered.has(question.id))).toBe(true);
+  });
+
+  it("fills coverage drills with seen questions only after unseen questions run out", () => {
+    const filters = { sourceBank: "s3-regulatory-pdf", qualityStatus: "verified", difficulty: "mixed", questionCount: 5 } as const;
+    const eligible = filterQuestionPool(sampleQuestions, filters);
+    const unseen = eligible[0];
+    const alreadyAnswered = new Set(eligible.slice(1).map((question) => question.id));
+    const sessions = [
+      {
+        id: "coverage-history",
+        type: "practice" as const,
+        title: "Coverage history",
+        createdAt: "2026-05-17T00:00:00.000Z",
+        seed: "history",
+        status: "completed" as const,
+        feedbackMode: "immediate" as const,
+        questions: [],
+        answers: [...alreadyAnswered].map((questionId, index) => ({
+          sessionQuestionId: `sq-${index}`,
+          questionId,
+          selectedChoiceId: "a",
+          isCorrect: true,
+          answeredAt: "2026-05-17T00:00:00.000Z",
+          elapsedSeconds: 1
+        }))
+      }
+    ];
+
+    const selected = selectCoverageQuestions(sampleQuestions, filters, "coverage-seed", sessions);
+
+    expect(selected).toHaveLength(5);
+    expect(selected[0].id).toBe(unseen.id);
+    expect(selected.slice(1).every((question) => alreadyAnswered.has(question.id))).toBe(true);
   });
 });

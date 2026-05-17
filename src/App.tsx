@@ -46,6 +46,7 @@ import {
   questionSourceBankLabel,
   questionSourcePriority,
   SOURCE_BANK_OPTIONS,
+  selectCoverageQuestions,
   selectMockQuestions,
   selectPracticeQuestions
 } from "./lib/selection";
@@ -396,6 +397,14 @@ function App() {
     startSession("practice", questions, filters);
   }
 
+  function startCoveragePractice() {
+    const count = Number(practiceFilters.questionCount ?? state.settings.defaultDrillSize);
+    const filters = { ...practiceFilters, questionCount: count, difficulty: practiceFilters.difficulty ?? "mixed" };
+    const seed = `${state.settings.shuffleSeed}-coverage-${makeId("selection")}`;
+    const questions = selectCoverageQuestions(state.questions, filters, seed, state.sessions);
+    startSession("practice", questions, filters, `Coverage: ${buildPracticeTitle(filters)}`);
+  }
+
   function startMock() {
     const desired = state.settings.enableExperimentalQuestions ? 125 : 120;
     const filters = { ...mockFilters, questionCount: desired, difficulty: "mixed" as const };
@@ -684,6 +693,7 @@ function App() {
             filters={practiceFilters}
             setFilters={setPracticeFilters}
             onStart={startPractice}
+            onStartCoverage={startCoveragePractice}
           />
         )}
         {view === "mock" && (
@@ -1811,16 +1821,26 @@ function Practice({
   state,
   filters,
   setFilters,
-  onStart
+  onStart,
+  onStartCoverage
 }: {
   state: AppState;
   filters: SessionFilters;
   setFilters: (filters: SessionFilters) => void;
   onStart: () => void;
+  onStartCoverage: () => void;
 }) {
   const matching = useMemo(
     () => filterQuestionPool(state.questions, filters).sort((a, b) => questionSourcePriority(b) - questionSourcePriority(a)),
     [filters, state.questions]
+  );
+  const answeredQuestionIds = useMemo(
+    () => new Set(state.sessions.flatMap((session) => session.answers.map((answer) => answer.questionId))),
+    [state.sessions]
+  );
+  const unseenMatching = useMemo(
+    () => matching.filter((question) => !answeredQuestionIds.has(question.id) && inferredQualityStatus(question) !== "rejected"),
+    [answeredQuestionIds, matching]
   );
 
   return (
@@ -1902,6 +1922,10 @@ function Practice({
           <Play size={18} aria-hidden="true" />
           Start drill
         </button>
+        <button className="secondary-button large" onClick={onStartCoverage}>
+          <Target size={18} aria-hidden="true" />
+          Start coverage drill
+        </button>
       </div>
       <div className="panel span-7">
         <div className="panel-heading">
@@ -1909,6 +1933,7 @@ function Practice({
             <p className="eyebrow">Current scope</p>
             <h2>{matching.length} matching QCMs</h2>
           </div>
+          <span className="pill green">{unseenMatching.length} unseen</span>
         </div>
         <div className="question-list compact">
           {matching.slice(0, 8).map((question) => (
