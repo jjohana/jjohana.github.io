@@ -41,6 +41,7 @@ import { inferredQualityStatus, ISSUE_TYPE_LABELS, ISSUE_TYPE_OPTIONS, QUALITY_F
 import { scoreSession, buildTopicBreakdown } from "./lib/scoring";
 import {
   filterQuestionPool,
+  isS3ImportedQuestion,
   normalizeDifficultyFilter,
   questionSourceBank,
   questionSourceBankLabel,
@@ -831,6 +832,13 @@ function Dashboard({
   const totalAnswers = state.sessions.reduce((sum, session) => sum + session.answers.length, 0);
   const completed = state.sessions.filter((session) => session.status === "completed").length;
   const activeQuestions = state.questions.filter((question) => question.active).length;
+  const answeredQuestionIds = new Set(state.sessions.flatMap((session) => session.answers.map((answer) => answer.questionId)));
+  const activeQuestionPool = state.questions.filter((question) => question.active && inferredQualityStatus(question) !== "rejected");
+  const activeS3ImportedPool = activeQuestionPool.filter(isS3ImportedQuestion);
+  const answeredActiveQuestions = activeQuestionPool.filter((question) => answeredQuestionIds.has(question.id)).length;
+  const answeredS3ImportedQuestions = activeS3ImportedPool.filter((question) => answeredQuestionIds.has(question.id)).length;
+  const allCoverage = Math.round((answeredActiveQuestions / Math.max(1, activeQuestionPool.length)) * 100);
+  const s3ImportedCoverage = Math.round((answeredS3ImportedQuestions / Math.max(1, activeS3ImportedPool.length)) * 100);
   const quality = qualitySummary(state.questions);
   const sectionRows = coverage.sections;
 
@@ -841,6 +849,11 @@ function Dashboard({
         <Metric label="Answered" value={totalAnswers} detail="all sessions" />
         <Metric label="Completed sessions" value={completed} detail="drills and exams" />
         <Metric label="Coverage gaps" value={coverage.gaps.length} detail="empty subtopics" />
+      </div>
+
+      <div className="stats-grid full">
+        <Metric label="All QCM coverage" value={`${allCoverage}%`} detail={`${answeredActiveQuestions}/${activeQuestionPool.length} active QCMs answered`} />
+        <Metric label="S3 imported coverage" value={`${s3ImportedCoverage}%`} detail={`${answeredS3ImportedQuestions}/${activeS3ImportedPool.length} imported QCMs answered`} />
       </div>
 
       <div className="stats-grid full">
