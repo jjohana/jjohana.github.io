@@ -121,7 +121,7 @@ describe("storage question migration", () => {
     expect(localStorage.getItem(accountStorageKey("beatrice"))).toBeNull();
   });
 
-  it("migrates the previous single browser state into JJ only", () => {
+  it("migrates the previous single browser state into any empty active account when no account state exists", () => {
     localStorage.setItem(
       LEGACY_GLOBAL_STORAGE_KEY,
       JSON.stringify({
@@ -145,7 +145,62 @@ describe("storage question migration", () => {
 
     expect(loadState("jj").sessions[0]?.id).toBe("legacy-session");
     expect(loadState("jj").settings.defaultDrillSize).toBe(18);
-    expect(loadState("thomas").sessions).toHaveLength(0);
+    expect(loadState("thomas").sessions[0]?.id).toBe("legacy-session");
+    expect(loadState("thomas").settings.defaultDrillSize).toBe(18);
+  });
+
+  it("does not leak legacy memory into another account once account-specific progress exists", () => {
+    localStorage.setItem(
+      accountStorageKey("jj"),
+      JSON.stringify({
+        questions: [],
+        sessions: [
+          {
+            id: "jj-specific-session",
+            type: "practice",
+            title: "JJ drill",
+            createdAt: "2026-05-14T00:00:00.000Z",
+            seed: "jj",
+            status: "completed",
+            feedbackMode: "immediate",
+            questions: [],
+            answers: [
+              {
+                sessionQuestionId: "sq-1",
+                questionId: "q-1",
+                selectedChoiceId: "a",
+                isCorrect: true,
+                answeredAt: "2026-05-14T00:01:00.000Z",
+                elapsedSeconds: 12
+              }
+            ]
+          }
+        ]
+      })
+    );
+    localStorage.setItem(
+      LEGACY_GLOBAL_STORAGE_KEY,
+      JSON.stringify({
+        questions: sampleQuestions,
+        sessions: [
+          {
+            id: "legacy-session",
+            type: "practice",
+            title: "Legacy drill",
+            createdAt: "2026-05-14T00:00:00.000Z",
+            seed: "legacy",
+            status: "completed",
+            feedbackMode: "immediate",
+            questions: [],
+            answers: []
+          }
+        ],
+        settings: { defaultDrillSize: 18 }
+      })
+    );
+
+    expect(loadState("jj").sessions[0]?.id).toBe("jj-specific-session");
+    expect(loadState("eric").sessions).toHaveLength(0);
   });
 
   it("does not delete legacy memory when saving JJ", () => {
@@ -276,5 +331,29 @@ describe("storage question migration", () => {
     saveState(state, "jj");
 
     expect(loadState("jj").dismissedMistakeQuestionIds).toEqual(["q-arbitrage"]);
+  });
+
+  it("stores only non-seeded questions while preserving the seeded bank on load", () => {
+    const customQuestion: Question = {
+      ...sampleQuestions[0],
+      id: "custom-imported-storage-001",
+      stem: "Custom imported storage smoke question?",
+      sourceType: "user-authored"
+    };
+    const state = {
+      ...loadState("jj"),
+      questions: [...loadState("jj").questions, customQuestion]
+    };
+
+    saveState(state, "jj");
+
+    const raw = localStorage.getItem(accountStorageKey("jj"));
+    expect(raw).toBeTruthy();
+    const saved = JSON.parse(raw!);
+    expect(saved.questions).toHaveLength(1);
+    expect(saved.questions[0].id).toBe(customQuestion.id);
+    expect(raw).not.toContain(sampleQuestions[0].id);
+    expect(loadState("jj").questions.some((question) => question.id === customQuestion.id)).toBe(true);
+    expect(loadState("jj").questions.length).toBe(sampleQuestions.length + 1);
   });
 });

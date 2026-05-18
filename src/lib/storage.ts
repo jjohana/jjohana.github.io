@@ -26,6 +26,7 @@ export const DEFAULT_SETTINGS: UserSettings = {
 };
 
 const canonicalSampleQuestions = sampleQuestions.map((question) => applyQuestionQualityDefaults(cleanQuestionContent(question)));
+const canonicalQuestionIds = new Set(canonicalSampleQuestions.map((question) => question.id));
 
 export function defaultState(): AppState {
   return {
@@ -108,10 +109,35 @@ function bestState(states: Array<AppState | undefined>): AppState | undefined {
   , undefined);
 }
 
+function legacyStates(): Array<AppState | undefined> {
+  return [
+    parseState(localStorage.getItem(LEGACY_GLOBAL_STORAGE_KEY)),
+    ...LEGACY_STORAGE_KEYS.map((legacyKey) => parseState(localStorage.getItem(legacyKey)))
+  ];
+}
+
+function accountStates(accountId: AccountId): Array<AppState | undefined> {
+  return [
+    parseState(localStorage.getItem(accountStorageKey(accountId))),
+    parseState(localStorage.getItem(accountBackupKey(accountId)))
+  ];
+}
+
+function anyAccountHasMemory(): boolean {
+  const richestAccountState = bestState(USER_ACCOUNTS.flatMap((account) => accountStates(account.id)));
+  return stateMemoryScore(richestAccountState) > 0;
+}
+
+function questionsForStorage(questions: Question[]): Question[] {
+  return questions
+    .filter((question) => !canonicalQuestionIds.has(question.id))
+    .map((question) => applyQuestionQualityDefaults(cleanQuestionContent(question)));
+}
+
 function serializedState(state: AppState, includeQuestions: boolean): string {
   return JSON.stringify({
     ...state,
-    questions: includeQuestions ? mergeQuestions(state.questions) : undefined
+    questions: includeQuestions ? questionsForStorage(state.questions) : undefined
   });
 }
 
@@ -125,21 +151,16 @@ function setLocalStorageItem(key: string, value: string): void {
 
 export function loadState(accountId: AccountId = loadActiveAccount()): AppState {
   if (typeof localStorage === "undefined") return defaultState();
-  const current = parseState(localStorage.getItem(accountStorageKey(accountId)));
-  const backup = parseState(localStorage.getItem(accountBackupKey(accountId)));
+  const accountCandidates = accountStates(accountId);
+  const canUseLegacyFallback = accountId === INITIAL_ACCOUNT_ID || !anyAccountHasMemory();
 
-  if (accountId === INITIAL_ACCOUNT_ID) {
-    const legacyStates = [
-      parseState(localStorage.getItem(LEGACY_GLOBAL_STORAGE_KEY)),
-      ...LEGACY_STORAGE_KEYS.map((legacyKey) => parseState(localStorage.getItem(legacyKey)))
-    ];
-    const recovered = bestState([current, backup, ...legacyStates]);
+  if (canUseLegacyFallback) {
+    const recovered = bestState([...accountCandidates, ...legacyStates()]);
     if (recovered) return recovered;
   }
 
-  const recovered = bestState([current, backup]);
+  const recovered = bestState(accountCandidates);
   if (recovered) return recovered;
-  if (current) return current;
 
   return defaultState();
 }
@@ -150,9 +171,9 @@ export function saveState(state: AppState, accountId: AccountId = loadActiveAcco
   const existingBackup = parseState(localStorage.getItem(accountBackupKey(accountId)));
   const bestExisting = bestState([existing, existingBackup]);
   if (stateMemoryScore(bestExisting) > stateMemoryScore(state)) {
-    setLocalStorageItem(accountBackupKey(accountId), serializedState(bestExisting!, false));
+    setLocalStorageItem(accountBackupKey(accountId), serializedState(bestExisting!, true));
   } else if (stateMemoryScore(state) > stateMemoryScore(existingBackup)) {
-    setLocalStorageItem(accountBackupKey(accountId), serializedState(state, false));
+    setLocalStorageItem(accountBackupKey(accountId), serializedState(state, true));
   }
   try {
     localStorage.setItem(accountStorageKey(accountId), serializedState(state, true));

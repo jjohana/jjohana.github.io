@@ -61,14 +61,14 @@ test("opens the integrated course and launches filtered practice", async ({ page
   await page.getByRole("button", { name: "Course" }).click();
   await expect(page.getByRole("heading", { name: "Series 3 Course" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Chapters" })).toBeVisible();
-  await page.getByRole("button", { name: /Course visual Key roles in the futures industry/i }).click();
-  await expect(page.getByRole("heading", { name: "Key roles in the futures industry" })).toBeVisible();
+  await page.getByRole("button", { name: /Open course visuals/i }).click();
+  await expect(page.getByRole("heading", { name: "Course memory sheets" })).toBeVisible();
   await expect(page.getByRole("img", { name: /Key roles in the futures industry/i })).toHaveAttribute(
     "src",
     "course/futures-industry-roles.png"
   );
-  await page.getByRole("button", { name: "Enlarge visual" }).click();
-  const enlargedVisual = page.getByRole("dialog", { name: "Key roles visual enlarged" });
+  await page.getByRole("button", { name: "Enlarge Key roles in the futures industry" }).click();
+  const enlargedVisual = page.getByRole("dialog", { name: "Key roles in the futures industry enlarged" });
   await expect(enlargedVisual).toBeVisible();
   await expect(enlargedVisual.getByRole("img", { name: /Key roles in the futures industry/i })).toHaveAttribute(
     "src",
