@@ -23,7 +23,7 @@ export type IssueType =
 export type FeedbackMode = "immediate" | "delayed";
 export type SessionType = "practice" | "mock" | "mistakes";
 export type SessionStatus = "in_progress" | "completed";
-export type AccountId = "jj" | "eric" | "beatrice" | "thomas";
+export type AccountId = "jj" | "eric" | "beatrice" | "thomas" | "chamyl" | "ethan";
 
 export interface UserAccount {
   id: AccountId;

@@ -14,7 +14,9 @@ export const USER_ACCOUNTS: UserAccount[] = [
   { id: "jj", displayName: "JJ" },
   { id: "eric", displayName: "Eric" },
   { id: "beatrice", displayName: "Béatrice" },
-  { id: "thomas", displayName: "Thomas" }
+  { id: "thomas", displayName: "Thomas" },
+  { id: "chamyl", displayName: "Chamyl" },
+  { id: "ethan", displayName: "Ethan" }
 ];
 
 export const DEFAULT_SETTINGS: UserSettings = {
