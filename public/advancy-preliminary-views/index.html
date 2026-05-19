@@ -323,6 +323,7 @@
 
             <div class="actions">
               <button id="submit" type="submit">Generate deck</button>
+              <button id="latest" type="button" class="secondary">Load latest</button>
               <a id="mcp-link" class="button secondary" href="#" target="_blank" rel="noreferrer">MCP endpoint</a>
             </div>
           </form>
@@ -354,6 +355,7 @@
       const form = document.getElementById("deck-form");
       const apiInput = document.getElementById("api");
       const submit = document.getElementById("submit");
+      const latest = document.getElementById("latest");
       const mcpLink = document.getElementById("mcp-link");
       const statusTitle = document.getElementById("status-title");
       const statusDetail = document.getElementById("status-detail");
@@ -493,6 +495,22 @@
           renderStatus(data);
           pollTimer = setInterval(() => poll(data.status_url).catch(showError), 3000);
           await poll(data.status_url);
+        } catch (error) {
+          showError(error);
+        }
+      });
+
+      latest.addEventListener("click", async () => {
+        clearInterval(pollTimer);
+        pollTimer = null;
+        updateMcpLink();
+        statusDetail.textContent = "Loading latest workflow.";
+        try {
+          const response = await fetch(`${apiBase()}/api/decks?limit=1`);
+          const data = await response.json();
+          if (!response.ok) throw new Error(data.error || response.statusText);
+          if (!Array.isArray(data) || !data.length) throw new Error("No completed workflow is available yet.");
+          renderStatus(data[0]);
         } catch (error) {
           showError(error);
         }
