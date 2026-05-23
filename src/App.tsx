@@ -64,6 +64,7 @@ import {
   saveState
 } from "./lib/storage";
 import { validateQuestionBank } from "./lib/validation";
+import { dayCountRuleQcmTitle, dayCountRuleQuestionIds } from "./data/specialDrills";
 import type {
   AccountId,
   AppState,
@@ -232,6 +233,16 @@ function sourceBankForSectionChange(filters: SessionFilters, nextSection?: Secti
   return filters.sourceBank;
 }
 
+function dayCountRuleQuestionsFrom(questions: Question[]): Question[] {
+  const byId = new Map(questions.map((question) => [question.id, question]));
+  return dayCountRuleQuestionIds
+    .map((questionId) => byId.get(questionId))
+    .filter((question): question is Question => {
+      if (!question) return false;
+      return question.active && inferredQualityStatus(question) === "verified";
+    });
+}
+
 function App() {
   const [activeAccountId, setActiveAccountId] = useState<AccountId>(() => loadActiveAccount());
   const [state, setState] = useState<AppState>(() => loadState(loadActiveAccount()));
@@ -313,6 +324,7 @@ function App() {
     [dismissedMistakeIds, state.sessions]
   );
   const course = useMemo(() => buildCourse(state.questions), [state.questions]);
+  const dayCountRuleQuestionCount = useMemo(() => dayCountRuleQuestionsFrom(state.questions).length, [state.questions]);
   const activeSession = state.sessions.find((session) => session.id === state.activeSessionId);
   const latestCompletedSession = [...state.sessions].reverse().find((session) => session.status === "completed");
   const resultSession = view === "results" ? latestCompletedSession ?? activeSession : activeSession;
@@ -570,6 +582,26 @@ function App() {
     setMessage("");
   }
 
+  function startDayCountRulePractice() {
+    const questions = dayCountRuleQuestionsFrom(state.questions);
+    startSession(
+      "practice",
+      questions,
+      {
+        sectionId: "us_regulations",
+        topicId: "",
+        subtopicId: "",
+        difficulty: "mixed",
+        questionCount: questions.length,
+        prioritizeWeak: false,
+        regulatoryFocus: "all",
+        sourceBank: "all",
+        qualityStatus: "verified"
+      },
+      dayCountRuleQcmTitle
+    );
+  }
+
   return (
     <div className="app-shell">
       <aside className="sidebar">
@@ -656,6 +688,8 @@ function App() {
             setSelectedSubchapterId={setSelectedCourseSubchapterId}
             onPractice={(subchapter) => openCoursePractice(subchapter)}
             onWeakPractice={(subchapter) => openCoursePractice(subchapter, true)}
+            onDayCountPractice={startDayCountRulePractice}
+            dayCountRuleQuestionCount={dayCountRuleQuestionCount}
           />
         )}
         {view === "glossary" && (
@@ -695,6 +729,8 @@ function App() {
             setFilters={setPracticeFilters}
             onStart={startPractice}
             onStartCoverage={startCoveragePractice}
+            onStartDayCountRules={startDayCountRulePractice}
+            dayCountRuleQuestionCount={dayCountRuleQuestionCount}
           />
         )}
         {view === "mock" && (
@@ -993,7 +1029,9 @@ function CoursePage({
   selectedSubchapterId,
   setSelectedSubchapterId,
   onPractice,
-  onWeakPractice
+  onWeakPractice,
+  onDayCountPractice,
+  dayCountRuleQuestionCount
 }: {
   chapters: CourseChapter[];
   sessions: Session[];
@@ -1003,6 +1041,8 @@ function CoursePage({
   setSelectedSubchapterId: (id: string) => void;
   onPractice: (subchapter: CourseSubchapter) => void;
   onWeakPractice: (subchapter: CourseSubchapter) => void;
+  onDayCountPractice: () => void;
+  dayCountRuleQuestionCount: number;
 }) {
   const [expandedCourseVisual, setExpandedCourseVisual] = useState<string | null>(null);
   const matchingSubchapters = useMemo(() => searchCourse(chapters, search), [chapters, search]);
@@ -1249,6 +1289,15 @@ function CoursePage({
                   </div>
                   <img src={visual.src} alt={visual.alt} />
                   <figcaption>{visual.caption}</figcaption>
+                  {visual.id === "day-count" && (
+                    <div className="course-visual-actions">
+                      <button className="primary-button" type="button" onClick={onDayCountPractice}>
+                        <Play size={16} aria-hidden="true" />
+                        Start sheet QCM
+                      </button>
+                      <span>{dayCountRuleQuestionCount} linked verified QCMs</span>
+                    </div>
+                  )}
                 </figure>
               ))}
             </div>
@@ -1835,13 +1884,17 @@ function Practice({
   filters,
   setFilters,
   onStart,
-  onStartCoverage
+  onStartCoverage,
+  onStartDayCountRules,
+  dayCountRuleQuestionCount
 }: {
   state: AppState;
   filters: SessionFilters;
   setFilters: (filters: SessionFilters) => void;
   onStart: () => void;
   onStartCoverage: () => void;
+  onStartDayCountRules: () => void;
+  dayCountRuleQuestionCount: number;
 }) {
   const matching = useMemo(
     () => filterQuestionPool(state.questions, filters).sort((a, b) => questionSourcePriority(b) - questionSourcePriority(a)),
@@ -1864,6 +1917,17 @@ function Practice({
             <p className="eyebrow">Drill builder</p>
             <h2>Practice by section, topic, subtopic</h2>
           </div>
+        </div>
+        <div className="special-drill-card">
+          <div>
+            <p className="eyebrow">Special QCM</p>
+            <strong>{dayCountRuleQcmTitle}</strong>
+            <span>{dayCountRuleQuestionCount} verified questions from the timing sheet.</span>
+          </div>
+          <button className="primary-button" type="button" onClick={onStartDayCountRules}>
+            <Play size={16} aria-hidden="true" />
+            Start
+          </button>
         </div>
         <ScopeSelector filters={filters} setFilters={setFilters} includeAllSections includeAllTopics includeAllSubtopics />
         <div className="filter-stack">
