@@ -2825,16 +2825,35 @@ function ScopeSelector({
   includeAllSubtopics?: boolean;
 }) {
   const sectionId = filters.sectionId ?? (includeAllSections ? undefined : DEFAULT_SECTION);
-  const topics = sectionId ? syllabus.find((section) => section.id === sectionId)?.topics ?? [] : [];
+  const allSelectableTopics = syllabus.flatMap((section) => section.topics);
+  const topics = sectionId
+    ? syllabus.find((section) => section.id === sectionId)?.topics ?? []
+    : includeAllTopics
+      ? allSelectableTopics
+      : [];
+  const selectedTopic = filters.topicId ? topics.find((topic) => topic.id === filters.topicId) : undefined;
   const topicId =
-    sectionId && filters.topicId && topics.some((topic) => topic.id === filters.topicId)
-      ? filters.topicId
+    selectedTopic
+      ? selectedTopic.id
       : sectionId
         ? includeAllTopics
           ? ""
           : topics[0]?.id ?? ""
         : "";
-  const subtopics = topicId ? getTopic(topicId)?.subtopics ?? [] : [];
+  const subtopicTopics = topicId ? topics.filter((topic) => topic.id === topicId) : includeAllSubtopics ? topics : [];
+  const subtopics = subtopicTopics.flatMap((topic) =>
+    topic.subtopics.map((subtopic) => ({
+      id: subtopic.id,
+      value: topicId ? subtopic.id : `${topic.id}::${subtopic.id}`,
+      label: topicId
+        ? subtopic.title
+        : sectionId
+          ? `${topic.title} / ${subtopic.title}`
+          : `${getSection(topic.sectionId).shortTitle} / ${topic.title} / ${subtopic.title}`,
+      topicId: topic.id,
+      sectionId: topic.sectionId
+    }))
+  );
 
   return (
     <div className="filter-stack">
@@ -2867,13 +2886,25 @@ function ScopeSelector({
         Topic
         <select
           value={topicId}
-          disabled={!sectionId}
-          onChange={(event) => setFilters({ ...filters, topicId: event.target.value, subtopicId: "" })}
+          disabled={topics.length === 0}
+          onChange={(event) => {
+            const nextTopicId = event.target.value;
+            const nextTopic = nextTopicId ? getTopic(nextTopicId) : undefined;
+            const nextSection = nextTopic?.sectionId ?? sectionId;
+            setFilters({
+              ...filters,
+              sectionId: nextSection,
+              topicId: nextTopicId,
+              subtopicId: "",
+              regulatoryFocus: nextSection === "us_regulations" ? filters.regulatoryFocus ?? "all" : "all",
+              sourceBank: sourceBankForSectionChange(filters, nextSection)
+            });
+          }}
         >
           {includeAllTopics && <option value="">All topics</option>}
           {topics.map((topic) => (
             <option key={topic.id} value={topic.id}>
-              {topic.title}
+              {sectionId ? topic.title : `${getSection(topic.sectionId).shortTitle} / ${topic.title}`}
             </option>
           ))}
         </select>
@@ -2881,14 +2912,36 @@ function ScopeSelector({
       <label>
         Subtopic
         <select
-          value={filters.subtopicId ?? ""}
-          disabled={!topicId}
-          onChange={(event) => setFilters({ ...filters, topicId, subtopicId: event.target.value })}
+          value={topicId ? filters.subtopicId ?? "" : ""}
+          disabled={subtopics.length === 0}
+          onChange={(event) => {
+            const nextSubtopicValue = event.target.value;
+            if (!nextSubtopicValue) {
+              setFilters({ ...filters, topicId, subtopicId: "" });
+              return;
+            }
+            const compositeMatch = nextSubtopicValue.match(/^(.+)::(.+)$/);
+            if (compositeMatch) {
+              const [, nextTopicId, nextSubtopicId] = compositeMatch;
+              const nextTopic = getTopic(nextTopicId);
+              const nextSection = nextTopic?.sectionId ?? sectionId;
+              setFilters({
+                ...filters,
+                sectionId: nextSection,
+                topicId: nextTopicId,
+                subtopicId: nextSubtopicId,
+                regulatoryFocus: nextSection === "us_regulations" ? filters.regulatoryFocus ?? "all" : "all",
+                sourceBank: sourceBankForSectionChange(filters, nextSection)
+              });
+              return;
+            }
+            setFilters({ ...filters, topicId, subtopicId: nextSubtopicValue });
+          }}
         >
           {includeAllSubtopics && <option value="">All subtopics</option>}
           {subtopics.map((subtopic) => (
-            <option key={subtopic.id} value={subtopic.id}>
-              {subtopic.title}
+            <option key={`${subtopic.topicId}-${subtopic.id}`} value={subtopic.value}>
+              {subtopic.label}
             </option>
           ))}
         </select>
