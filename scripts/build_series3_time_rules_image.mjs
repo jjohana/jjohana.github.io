@@ -56,7 +56,7 @@ const sections = [
     rows: [
       ["1", "3\nMONTHS", "3 months actual results: no hypothetical/extracted/pro forma/simulated results after that point.", "s3-regulatory-pdf-082"],
       ["2", "3\nMONTHS", "3 months currentness: CPO/CTA performance info current within 3 months before document date.", "s3-regulatory-pdf-209 / 218"],
-      ["3", "9\nMONTHS", "9 months: CTA Disclosure Document cannot be dated more than 9 months before use.", "s3-regulatory-pdf-229"],
+      ["3", "12\nMONTHS", "12 months: CTA Disclosure Document cannot be dated more than 12 months before use.", "s3-regulatory-pdf-229"],
       ["4", "12\nMONTHS", "12 months: CPO Disclosure Document cannot be older than 12 months.", "s3-regulatory-pdf-241"],
       ["5", "12\nMONTHS", "Preceding 12 months: CTA exemption if advice to no more than 15 persons and no public holding out.", "s3-regulatory-pdf-172 / 177"],
     ],

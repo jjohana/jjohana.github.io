@@ -10974,50 +10974,50 @@ export const regulatoryPdfQuestions: Question[] = [
     "subtopicId": "disclosure-documents",
     "difficulty": "medium",
     "questionType": "multiple_choice",
-    "stem": "A CTA's disclosure document must be updated when it becomes materially inaccurate or incomplete or, in any event, at least every:",
+    "stem": "A CTA may not use a Disclosure Document dated more than:",
     "choices": [
       {
         "id": "a",
         "text": "Three months.",
         "isCorrect": false,
-        "rationale": "CTA disclosure documents are not required to be updated at least every three months under the rule reflected in the source."
+        "rationale": "Three months is the performance-information currentness rule, not the maximum age of the CTA Disclosure Document."
       },
       {
         "id": "b",
         "text": "Six months.",
         "isCorrect": false,
-        "rationale": "Six months is not the update interval shown by the source explanation."
+        "rationale": "Six months is not the maximum age rule for a CTA Disclosure Document."
       },
       {
         "id": "c",
         "text": "Nine months.",
-        "isCorrect": true,
-        "rationale": "The source explanation states that CFTC regulations prohibit a CTA from using a disclosure document dated more than nine months preceding the date of its use."
+        "isCorrect": false,
+        "rationale": "Nine months reflects the old rule. Current 17 CFR 4.36(b) uses a twelve-month limit."
       },
       {
         "id": "d",
         "text": "Twelve months.",
-        "isCorrect": false,
-        "rationale": "Twelve months is too long; the source states the document may not be dated more than nine months before use."
+        "isCorrect": true,
+        "rationale": "Current 17 CFR 4.36(b) provides that a CTA may not use a Disclosure Document dated more than twelve months before use."
       }
     ],
-    "explanation": "CFTC regulations prohibit a CTA from using a disclosure document dated more than nine months preceding the date of its use. It also must be corrected when it becomes materially inaccurate or incomplete.",
+    "explanation": "Current CFTC Regulation 4.36(b) prohibits a CTA from using a Disclosure Document dated more than twelve months before use. Performance information inside the document has a separate three-month currentness rule, and material inaccuracies or omissions must be corrected sooner.",
     "sourceType": "imported",
     "active": true,
     "concept": "CPO / CTA Regulations",
     "sourceNote": "User-provided S3-Regulatory.pdf LLM vision import; source item regulatory-pdf-230; sequence 230; source code 10_DI_1.",
     "reviewStatus": "reviewed",
     "qualityStatus": "verified",
-    "qualityNotes": "Question, choices, answer, and explanation are clearly visible. The regulatory concept is consistent with CTA disclosure document dating/update requirements.",
-    "verifiedAt": "2026-05-14T00:00:00.000Z",
-    "verifiedBy": "OpenAI gpt-5.5 vision transcript + content audit, reasoning low",
+    "qualityNotes": "Corrected on 2026-05-24 for the current CTA Disclosure Document dating rule. The old nine-month answer reflected a pre-2013 rule; current 17 CFR 4.36(b) uses twelve months.",
+    "verifiedAt": "2026-05-24T00:00:00.000Z",
+    "verifiedBy": "Codex source-law correction using current eCFR 17 CFR 4.36(b)",
     "issueTypes": [],
     "extractionConfidence": "high",
     "sourcePageRange": "230",
     "sourceQuestionNumber": 229,
     "sourceCode": "10_DI_1",
     "createdAt": "2026-05-14T00:00:00.000Z",
-    "updatedAt": "2026-05-14T00:00:00.000Z"
+    "updatedAt": "2026-05-24T00:00:00.000Z"
   },
   {
     "id": "s3-regulatory-pdf-230",

@@ -1081,7 +1081,7 @@ function CoursePage({
     {
       id: "day-count",
       title: "Series 3 time, days, and months constraints",
-      src: "course/day-count-rules-cheat-sheet.png?v=20260521",
+      src: "course/day-count-rules-cheat-sheet.png?v=20260524",
       alt: "Series 3 time, days, and months constraints sheet using actual verified QCM facts and drill-back IDs.",
       caption: "Use this sheet to drill actual QCM timing rules for disclosures, record retention, reports, authorizations, and filings.",
       notesTitle: "How to use it",
