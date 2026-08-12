@@ -46,6 +46,8 @@ jobs:
           cp -R dist/. pages/series3/
           mkdir -p pages/advancy-preliminary-views
           cp -R public/advancy-preliminary-views/. pages/advancy-preliminary-views/
+          mkdir -p pages/sagesse-du-monde
+          cp -R public/sagesse-du-monde/. pages/sagesse-du-monde/
           current_js="$(find pages/series3/assets -maxdepth 1 \( -name 'index.js' -o -name 'index-*.js' \) -print -quit)"
           if [ -n "$current_js" ]; then
             for legacy_js in index-DVrqSEXF.js index-CtmP__jh.js index-BE8SQUyC.js; do

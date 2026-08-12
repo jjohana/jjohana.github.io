@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3efe6" />
+    <meta name="description" content="Un atlas éditorial de proverbes, maximes et sagesses du monde, en version originale, traduits en français et accompagnés de leur provenance." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sagesse du monde — proverbes sourcés" />
+    <meta property="og:description" content="Les mots voyagent. La sagesse demeure. Explorez un corpus mondial, distinct et vérifiable." />
+    <meta property="og:url" content="https://jjohana.github.io/sagesse-du-monde/" />
+    <meta property="og:image" content="https://jjohana.github.io/sagesse-du-monde/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://jjohana.github.io/sagesse-du-monde/" />
+    <link rel="stylesheet" href="./styles.css?v=20260813" />
+    <title>Sagesse du monde — proverbes sourcés</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#collection">Aller à la collection</a>
+    <main id="top">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Sagesse du monde — accueil">
+          <span class="brand-seal" aria-hidden="true">S</span>
+          <span>Sagesse<br /><i>du monde</i></span>
+        </a>
+        <nav aria-label="Navigation principale">
+          <a href="#collection">Collection</a>
+          <a href="#methode">Méthode</a>
+          <button class="favorites-button" id="favoritesButton" type="button" aria-pressed="false">
+            <span aria-hidden="true">♡</span> Favoris <b id="favoritesCount">0</b>
+          </button>
+        </nav>
+      </header>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Un atlas éditorial des proverbes</p>
+        <h1 id="hero-title">Les mots voyagent.<br /><em>La sagesse demeure.</em></h1>
+        <p class="hero-intro">Des fables françaises au Talmud, de la Grèce ancienne aux classiques chinois : chaque formule est rendue à sa langue, à son sens et, autant que possible, à son texte d’origine.</p>
+        <a class="primary-link" href="#collection">Explorer la collection <span aria-hidden="true">↓</span></a>
+        <div class="hero-script" aria-hidden="true"><span>SAGESSE</span><span>חָכְמָה</span><span>WISDOM</span><span>智慧</span><span>ΣΟΦΙΑ</span></div>
+        <dl class="hero-stats" aria-label="Statistiques éditoriales">
+          <div><dt id="proverbCount">—</dt><dd>formules distinctes</dd></div>
+          <div><dt id="languageCount">—</dt><dd>langues et traditions</dd></div>
+          <div><dt>0</dt><dd>variante artificielle</dd></div>
+        </dl>
+      </section>
+
+      <section class="featured" aria-labelledby="featured-title">
+        <div class="section-number"><span>01</span> À la une</div>
+        <div class="featured-grid">
+          <div>
+            <p class="source-kicker">MISHNA · PIRKÉ AVOT 4:1</p>
+            <blockquote lang="he" dir="rtl">אֵיזֶהוּ חָכָם?<br />הַלּוֹמֵד מִכָּל אָדָם</blockquote>
+            <p class="transliteration"><span>Prononciation</span>Eïzéhou khakham ? Ha-lomèd mi-kol adam.</p>
+          </div>
+          <div class="featured-meaning">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <h2 id="featured-title">Qui est sage ?<br />Celui qui apprend de chaque personne.</h2>
+            <p>La sagesse commence par l’humilité de reconnaître un enseignement en chacun.</p>
+            <a href="https://www.sefaria.org/Pirkei_Avot.4.1" target="_blank" rel="noreferrer">Lire le texte-source <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cultures" aria-labelledby="cultures-title">
+        <div class="section-number"><span>02</span> Choisir une tradition</div>
+        <h2 id="cultures-title" class="sr-only">Choisir une tradition</h2>
+        <div class="culture-grid" id="cultureGrid"></div>
+      </section>
+
+      <section class="collection" id="collection" aria-labelledby="collection-title">
+        <div class="collection-heading">
+          <div>
+            <div class="section-number"><span>03</span> La collection</div>
+            <h2 id="collection-title">Une sagesse,<br /><em>des voix singulières.</em></h2>
+            <p>Recherchez une formule, une culture, une idée ou un texte-source. Les variantes mécaniques ont été retirées.</p>
+          </div>
+          <button class="random-button" id="randomButton" type="button">Au hasard <span aria-hidden="true">✦</span></button>
+        </div>
+
+        <div class="toolbox" aria-label="Outils de recherche">
+          <div class="filter-row" id="filterRow" role="group" aria-label="Filtrer par tradition"></div>
+          <label class="search-field">
+            <span aria-hidden="true">⌕</span>
+            <span class="sr-only">Rechercher</span>
+            <input id="searchInput" type="search" placeholder="Mot, thème, auteur, œuvre…" autocomplete="off" />
+          </label>
+          <label class="source-filter">
+            <span>Provenance</span>
+            <select id="sourceSelect">
+              <option value="all">Toutes</option>
+              <option value="text">Textes identifiés</option>
+              <option value="linked">Sources consultables</option>
+              <option value="traditional">Traditions orales</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="results-meta" aria-live="polite">
+          <strong id="resultCount">—</strong>
+          <span id="activeFilter">Toutes les traditions</span>
+        </div>
+        <div class="card-grid" id="cardGrid"></div>
+        <div class="load-more" id="loadMoreWrap">
+          <p id="visibleCount"></p>
+          <button id="loadMoreButton" type="button">Afficher davantage <span aria-hidden="true">↓</span></button>
+        </div>
+        <p class="empty-state" id="emptyState" hidden>Aucune formule ne correspond encore à cette recherche.</p>
+      </section>
+
+      <section class="method" id="methode" aria-labelledby="method-title">
+        <div class="section-number"><span>04</span> Méthode éditoriale</div>
+        <div class="method-grid">
+          <div>
+            <p class="eyebrow">Moins, mais mieux</p>
+            <h2 id="method-title">Une provenance honnête vaut mieux qu’une attribution brillante.</h2>
+          </div>
+          <div class="method-copy">
+            <p>Cette édition distingue les passages rattachés à un texte, les attestations lexicographiques, les formules dérivées et les traditions orales. Quand aucun auteur unique n’est établi, nous le disons.</p>
+            <ol>
+              <li><b>Original d’abord.</b> L’écriture et la langue d’origine sont conservées.</li>
+              <li><b>Référence vérifiable.</b> Œuvre, chapitre ou attestation sont indiqués dès qu’ils sont connus.</li>
+              <li><b>Pas de faux doublons.</b> Une reformulation à un mot d’écart ne devient pas un nouveau proverbe.</li>
+              <li><b>Incertitude visible.</b> Les paraphrases et traditions orales ne sont pas présentées comme des citations littérales.</li>
+            </ol>
+          </div>
+        </div>
+        <div class="source-portals" aria-label="Portails documentaires utilisés">
+          <a href="https://www.cnrtl.fr/" target="_blank" rel="noreferrer">CNRTL · français ↗</a>
+          <a href="https://www.sefaria.org/" target="_blank" rel="noreferrer">Sefaria · textes juifs ↗</a>
+          <a href="https://ctext.org/" target="_blank" rel="noreferrer">Chinese Text Project ↗</a>
+          <a href="https://www.perseus.tufts.edu/" target="_blank" rel="noreferrer">Perseus · grec et latin ↗</a>
+          <a href="https://www.gitasupersite.iitk.ac.in/" target="_blank" rel="noreferrer">Gita Supersite · sanskrit ↗</a>
+        </div>
+      </section>
+
+      <footer>
+        <a class="brand footer-brand" href="#top"><span class="brand-seal" aria-hidden="true">S</span><span>Sagesse<br /><i>du monde</i></span></a>
+        <p>Les mots changent de langue.<br />L’expérience humaine reste universelle.</p>
+        <a href="#top">Retour en haut ↑</a>
+      </footer>
+    </main>
+
+    <dialog id="detailDialog" aria-labelledby="dialogTitle">
+      <button class="dialog-close" id="dialogClose" type="button" aria-label="Fermer">×</button>
+      <div id="dialogContent"></div>
+    </dialog>
+
+    <template id="cardTemplate">
+      <article class="proverb-card">
+        <div class="card-top"><span class="card-place"></span><b class="card-mark"></b></div>
+        <div class="card-edition"><span class="source-badge"></span><em class="card-number"></em></div>
+        <h3 class="card-original"></h3>
+        <p class="card-transliteration" hidden><span>Transcription</span><b></b></p>
+        <p class="card-translation"></p>
+        <p class="card-source"></p>
+        <div class="mini-tags"></div>
+        <div class="card-actions">
+          <button class="details-button" type="button">Lire &amp; sourcer <span aria-hidden="true">↗</span></button>
+          <button class="copy-button" type="button">Copier</button>
+          <button class="favorite-card-button" type="button" aria-label="Ajouter aux favoris">♡</button>
+        </div>
+      </article>
+    </template>
+    <script type="module" src="./app.js?v=20260813"></script>
+  </body>
+</html>

@@ -1,5 +1,11 @@
 # Series 3 QCM Practice App
 
+This repository also publishes **Sagesse du monde**, a curated multilingual
+collection of distinct, sourced proverbs and classical maxims, at
+`https://jjohana.github.io/sagesse-du-monde/`. Its static files live under
+`public/sagesse-du-monde/`; the editorial build and audit scripts are
+`scripts/extract_legacy_proverbs.mjs` and `scripts/curate_proverbs.mjs`.
+
 Interactive static web app for Series 3 / NFA exam practice. It is organized around a structured QCM bank:
 
 `Section -> Topic -> Subtopic`

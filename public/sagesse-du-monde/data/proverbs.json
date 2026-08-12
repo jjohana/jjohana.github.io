@@ -1,0 +1,3641 @@
+{
+  "summary": {
+    "generatedAt": "2026-08-12T22:18:05.235Z",
+    "count": 191,
+    "cultureCount": 8,
+    "languageCount": 20,
+    "linkedSourceCount": 66,
+    "textSourceCount": 95,
+    "excludedLegacyIds": [
+      "la-18",
+      "zh-14",
+      "in-8",
+      "wo-15",
+      "wo-16",
+      "wo-17"
+    ],
+    "exactDuplicates": [],
+    "nearDuplicates": []
+  },
+  "proverbs": [
+    {
+      "id": "fr-1",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Les petits ruisseaux font les grandes rivières.",
+      "french": "Les modestes efforts, accumulés, produisent de grands résultats.",
+      "meaning": "Aucune contribution n’est insignifiante quand elle s’inscrit dans la durée.",
+      "tags": [
+        "Patience",
+        "Persévérance"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "les petits ruisseaux font les grandes rivieres les modestes efforts accumules produisent de grands resultats aucune contribution n est insignifiante quand elle s inscrit dans la duree proverbe francais traditionnel auteur unique non etabli france patience perseverance"
+    },
+    {
+      "id": "fr-2",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Petit à petit, l’oiseau fait son nid.",
+      "french": "La constance permet d’accomplir les œuvres les plus longues.",
+      "meaning": "Le progrès se construit par de petits gestes réguliers.",
+      "tags": [
+        "Constance",
+        "Temps"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "petit a petit l oiseau fait son nid la constance permet d accomplir les œuvres les plus longues le progres se construit par de petits gestes reguliers proverbe francais traditionnel auteur unique non etabli france constance temps"
+    },
+    {
+      "id": "fr-3",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Après la pluie, le beau temps.",
+      "french": "Les périodes difficiles finissent par laisser place à des jours meilleurs.",
+      "meaning": "Le malheur n’est pas immuable ; il faut préserver l’espérance.",
+      "tags": [
+        "Espoir",
+        "Résilience"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "apres la pluie le beau temps les periodes difficiles finissent par laisser place a des jours meilleurs le malheur n est pas immuable il faut preserver l esperance proverbe francais traditionnel auteur unique non etabli france espoir resilience"
+    },
+    {
+      "id": "fr-4",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "L’habit ne fait pas le moine.",
+      "french": "L’apparence ne permet pas de juger la valeur ou la nature d’une personne.",
+      "meaning": "Ce qui est visible ne révèle pas toujours ce qui est vrai.",
+      "tags": [
+        "Jugement",
+        "Apparence"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "l habit ne fait pas le moine l apparence ne permet pas de juger la valeur ou la nature d une personne ce qui est visible ne revele pas toujours ce qui est vrai proverbe francais traditionnel auteur unique non etabli france jugement apparence"
+    },
+    {
+      "id": "fr-5",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Mieux vaut tard que jamais.",
+      "french": "Il est préférable d’agir avec retard que de ne pas agir du tout.",
+      "meaning": "Une décision utile conserve sa valeur, même lorsqu’elle vient tard.",
+      "tags": [
+        "Action",
+        "Temps"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "mieux vaut tard que jamais il est preferable d agir avec retard que de ne pas agir du tout une decision utile conserve sa valeur meme lorsqu elle vient tard proverbe francais traditionnel auteur unique non etabli france action temps"
+    },
+    {
+      "id": "fr-6",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "On ne fait pas d’omelette sans casser des œufs.",
+      "french": "Toute réalisation importante exige certains sacrifices.",
+      "meaning": "Le changement a un coût qu’il faut regarder avec lucidité.",
+      "tags": [
+        "Choix",
+        "Effort"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "on ne fait pas d omelette sans casser des œufs toute realisation importante exige certains sacrifices le changement a un cout qu il faut regarder avec lucidite proverbe francais traditionnel auteur unique non etabli france choix effort"
+    },
+    {
+      "id": "fr-7",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Qui vivra verra.",
+      "french": "L’avenir seul dira comment les choses évolueront.",
+      "meaning": "Quand la connaissance manque, la patience vaut mieux que la certitude feinte.",
+      "tags": [
+        "Avenir",
+        "Patience"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "qui vivra verra l avenir seul dira comment les choses evolueront quand la connaissance manque la patience vaut mieux que la certitude feinte proverbe francais traditionnel auteur unique non etabli france avenir patience"
+    },
+    {
+      "id": "fr-8",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "À cœur vaillant, rien d’impossible.",
+      "french": "Le courage et la détermination permettent de surmonter les obstacles.",
+      "meaning": "La volonté agrandit le champ du possible.",
+      "tags": [
+        "Courage",
+        "Volonté"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "a cœur vaillant rien d impossible le courage et la determination permettent de surmonter les obstacles la volonte agrandit le champ du possible proverbe francais traditionnel auteur unique non etabli france courage volonte"
+    },
+    {
+      "id": "fr-9",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Il ne faut pas vendre la peau de l’ours avant de l’avoir tué.",
+      "french": "Il ne faut pas considérer un succès comme acquis avant qu’il ne soit réel.",
+      "meaning": "L’anticipation ne doit pas se transformer en certitude prématurée.",
+      "tags": [
+        "Prudence",
+        "Patience"
+      ],
+      "source": "Jean de La Fontaine, Fables V, 20, « L’Ours et les deux Compagnons »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/L’Ours_et_les_deux_Compagnons",
+      "sourceKind": "text",
+      "lang": "fr",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "il ne faut pas vendre la peau de l ours avant de l avoir tue il ne faut pas considerer un succes comme acquis avant qu il ne soit reel l anticipation ne doit pas se transformer en certitude prematuree jean de la fontaine fables v 20 l ours et les deux compagnons france prudence patience"
+    },
+    {
+      "id": "fr-10",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Chassez le naturel, il revient au galop.",
+      "french": "Les dispositions profondes finissent toujours par réapparaître.",
+      "meaning": "On dissimule plus facilement une habitude qu’on ne la transforme.",
+      "tags": [
+        "Nature",
+        "Caractère"
+      ],
+      "source": "Destouches, Le Glorieux, acte III, scène 5 (1732)",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Glorieux",
+      "sourceKind": "text",
+      "lang": "fr",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "chassez le naturel il revient au galop les dispositions profondes finissent toujours par reapparaitre on dissimule plus facilement une habitude qu on ne la transforme destouches le glorieux acte iii scene 5 1732 france nature caractere"
+    },
+    {
+      "id": "fr-11",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Il n’y a pas de fumée sans feu.",
+      "french": "Une rumeur persistante possède souvent une origine réelle.",
+      "meaning": "Les signes visibles peuvent révéler une cause cachée.",
+      "tags": [
+        "Vérité",
+        "Indice"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "il n y a pas de fumee sans feu une rumeur persistante possede souvent une origine reelle les signes visibles peuvent reveler une cause cachee proverbe francais traditionnel auteur unique non etabli france verite indice"
+    },
+    {
+      "id": "fr-12",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Faute avouée est à moitié pardonnée.",
+      "french": "Reconnaître sincèrement son erreur facilite le pardon.",
+      "meaning": "L’aveu ouvre la voie à la réparation.",
+      "tags": [
+        "Pardon",
+        "Sincérité"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "faute avouee est a moitie pardonnee reconnaitre sincerement son erreur facilite le pardon l aveu ouvre la voie a la reparation proverbe francais traditionnel auteur unique non etabli france pardon sincerite"
+    },
+    {
+      "id": "fr-13",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Les absents ont toujours tort.",
+      "french": "Celui qui n’est pas présent ne peut défendre son point de vue.",
+      "meaning": "L’absence laisse aux autres le pouvoir de construire le récit.",
+      "tags": [
+        "Présence",
+        "Jugement"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "les absents ont toujours tort celui qui n est pas present ne peut defendre son point de vue l absence laisse aux autres le pouvoir de construire le recit proverbe francais traditionnel auteur unique non etabli france presence jugement"
+    },
+    {
+      "id": "fr-14",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Un tiens vaut mieux que deux tu l’auras.",
+      "french": "Un bien certain vaut davantage que deux promesses incertaines.",
+      "meaning": "La sécurité concrète peut valoir mieux qu’un gain hypothétique.",
+      "tags": [
+        "Prudence",
+        "Choix"
+      ],
+      "source": "Jean de La Fontaine, Fables V, 3, « Le Petit Poisson et le Pêcheur »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Petit_Poisson_et_le_Pêcheur",
+      "sourceKind": "text",
+      "lang": "fr",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "un tiens vaut mieux que deux tu l auras un bien certain vaut davantage que deux promesses incertaines la securite concrete peut valoir mieux qu un gain hypothetique jean de la fontaine fables v 3 le petit poisson et le pecheur france prudence choix"
+    },
+    {
+      "id": "fr-15",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "C’est en forgeant qu’on devient forgeron.",
+      "french": "La maîtrise vient par la pratique répétée.",
+      "meaning": "L’expérience transforme progressivement l’effort en savoir-faire.",
+      "tags": [
+        "Apprentissage",
+        "Travail"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "c est en forgeant qu on devient forgeron la maitrise vient par la pratique repetee l experience transforme progressivement l effort en savoir faire proverbe francais traditionnel auteur unique non etabli france apprentissage travail"
+    },
+    {
+      "id": "fr-16",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Aide-toi, le ciel t’aidera.",
+      "french": "Commence par agir toi-même si tu espères recevoir de l’aide.",
+      "meaning": "L’initiative personnelle précède souvent le soutien extérieur.",
+      "tags": [
+        "Action",
+        "Responsabilité"
+      ],
+      "source": "Jean de La Fontaine, Fables VI, 18, « Le Chartier embourbé »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Chartier_embourbé",
+      "sourceKind": "text",
+      "lang": "fr",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "aide toi le ciel t aidera commence par agir toi meme si tu esperes recevoir de l aide l initiative personnelle precede souvent le soutien exterieur jean de la fontaine fables vi 18 le chartier embourbe france action responsabilite"
+    },
+    {
+      "id": "fr-17",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Qui sème le vent récolte la tempête.",
+      "french": "Celui qui provoque le désordre en subira des conséquences amplifiées.",
+      "meaning": "Nos actes produisent parfois des effets plus grands que leur impulsion initiale.",
+      "tags": [
+        "Conséquence",
+        "Responsabilité"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "qui seme le vent recolte la tempete celui qui provoque le desordre en subira des consequences amplifiees nos actes produisent parfois des effets plus grands que leur impulsion initiale proverbe francais traditionnel auteur unique non etabli france consequence responsabilite"
+    },
+    {
+      "id": "fr-18",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Il faut tourner sept fois sa langue dans sa bouche avant de parler.",
+      "french": "Il faut réfléchir avant de s’exprimer.",
+      "meaning": "Une parole retenue peut éviter un dommage irréparable.",
+      "tags": [
+        "Parole",
+        "Prudence"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "il faut tourner sept fois sa langue dans sa bouche avant de parler il faut reflechir avant de s exprimer une parole retenue peut eviter un dommage irreparable proverbe francais traditionnel auteur unique non etabli france parole prudence"
+    },
+    {
+      "id": "fr-19",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "L’union fait la force.",
+      "french": "La coopération rend un groupe plus puissant que la somme de ses membres.",
+      "meaning": "Les forces rassemblées compensent les fragilités individuelles.",
+      "tags": [
+        "Unité",
+        "Coopération"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "l union fait la force la cooperation rend un groupe plus puissant que la somme de ses membres les forces rassemblees compensent les fragilites individuelles proverbe francais traditionnel auteur unique non etabli france unite cooperation"
+    },
+    {
+      "id": "fr-20",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "À quelque chose malheur est bon.",
+      "french": "Une difficulté peut finalement produire un effet bénéfique.",
+      "meaning": "L’épreuve peut révéler une voie que la facilité gardait invisible.",
+      "tags": [
+        "Espoir",
+        "Perspective"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "a quelque chose malheur est bon une difficulte peut finalement produire un effet benefique l epreuve peut reveler une voie que la facilite gardait invisible proverbe francais traditionnel auteur unique non etabli france espoir perspective"
+    },
+    {
+      "id": "fr-21",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Qui ne risque rien n’a rien.",
+      "french": "Aucun gain important n’est possible sans accepter une part de risque.",
+      "meaning": "La prudence absolue protège aussi de toute découverte.",
+      "tags": [
+        "Risque",
+        "Courage"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "qui ne risque rien n a rien aucun gain important n est possible sans accepter une part de risque la prudence absolue protege aussi de toute decouverte proverbe francais traditionnel auteur unique non etabli france risque courage"
+    },
+    {
+      "id": "fr-22",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "original": "Les chiens ne font pas des chats.",
+      "french": "Les enfants héritent souvent des traits de leurs parents.",
+      "meaning": "L’éducation et l’hérédité laissent leur empreinte entre les générations.",
+      "tags": [
+        "Famille",
+        "Transmission"
+      ],
+      "lang": "fr",
+      "source": "Proverbe français traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "les chiens ne font pas des chats les enfants heritent souvent des traits de leurs parents l education et l heredite laissent leur empreinte entre les generations proverbe francais traditionnel auteur unique non etabli france famille transmission"
+    },
+    {
+      "id": "fr-23",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Pierre qui roule n’amasse pas mousse.",
+      "french": "Qui change sans cesse de lieu ou d’état accumule difficilement des biens.",
+      "meaning": "La mobilité permanente peut empêcher l’enracinement et l’accumulation patiente.",
+      "source": "CNRTL, attestations de 1611, 1688, 1823 et 1893",
+      "sourceUrl": "https://www.cnrtl.fr/definition/mousses",
+      "sourceKind": "lexicographic",
+      "sourceNote": "Le CNRTL documente l’évolution de la forme française, de « pierre qui se remue » à la formule actuelle.",
+      "tags": [
+        "Constance",
+        "Enracinement"
+      ],
+      "searchText": "pierre qui roule n amasse pas mousse qui change sans cesse de lieu ou d etat accumule difficilement des biens la mobilite permanente peut empecher l enracinement et l accumulation patiente cnrtl attestations de 1611 1688 1823 et 1893 france constance enracinement"
+    },
+    {
+      "id": "fr-24",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Rien ne sert de courir ; il faut partir à point.",
+      "french": "La précipitation ne remplace ni la préparation ni le bon départ.",
+      "meaning": "La régularité et le sens du moment juste l’emportent sur l’agitation tardive.",
+      "source": "Jean de La Fontaine, Fables VI, 10, « Le Lièvre et la Tortue »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Lièvre_et_la_Tortue",
+      "sourceKind": "text",
+      "tags": [
+        "Patience",
+        "Préparation"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "rien ne sert de courir il faut partir a point la precipitation ne remplace ni la preparation ni le bon depart la regularite et le sens du moment juste l emportent sur l agitation tardive jean de la fontaine fables vi 10 le lievre et la tortue france patience preparation"
+    },
+    {
+      "id": "fr-25",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Patience et longueur de temps font plus que force ni que rage.",
+      "french": "La durée et la maîtrise peuvent vaincre ce que la violence ne résout pas.",
+      "meaning": "L’efficacité n’est pas toujours du côté de la puissance immédiate.",
+      "source": "Jean de La Fontaine, Fables II, 11, « Le Lion et le Rat »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Lion_et_le_Rat",
+      "sourceKind": "text",
+      "tags": [
+        "Patience",
+        "Mesure"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "patience et longueur de temps font plus que force ni que rage la duree et la maitrise peuvent vaincre ce que la violence ne resout pas l efficacite n est pas toujours du cote de la puissance immediate jean de la fontaine fables ii 11 le lion et le rat france patience mesure"
+    },
+    {
+      "id": "fr-26",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Tout flatteur vit aux dépens de celui qui l’écoute.",
+      "french": "La flatterie prospère grâce à la vanité de celui qui l’accueille.",
+      "meaning": "Le discernement commence par la vigilance envers son propre désir d’être admiré.",
+      "source": "Jean de La Fontaine, Fables I, 2, « Le Corbeau et le Renard »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Corbeau_et_le_Renard",
+      "sourceKind": "text",
+      "tags": [
+        "Flatterie",
+        "Discernement"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "tout flatteur vit aux depens de celui qui l ecoute la flatterie prospere grace a la vanite de celui qui l accueille le discernement commence par la vigilance envers son propre desir d etre admire jean de la fontaine fables i 2 le corbeau et le renard france flatterie discernement"
+    },
+    {
+      "id": "fr-27",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Tel est pris qui croyait prendre.",
+      "french": "Le piège préparé pour autrui peut se refermer sur son auteur.",
+      "meaning": "La ruse donne facilement une illusion de maîtrise.",
+      "source": "Jean de La Fontaine, Fables VIII, 9, « Le Rat et l’Huître »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Rat_et_l’Huître",
+      "sourceKind": "text",
+      "tags": [
+        "Ruse",
+        "Retour"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "tel est pris qui croyait prendre le piege prepare pour autrui peut se refermer sur son auteur la ruse donne facilement une illusion de maitrise jean de la fontaine fables viii 9 le rat et l huitre france ruse retour"
+    },
+    {
+      "id": "fr-28",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "La raison du plus fort est toujours la meilleure.",
+      "french": "Le puissant impose souvent sa version de la justice.",
+      "meaning": "La formule est ironique : elle dénonce la force qui se déguise en droit.",
+      "source": "Jean de La Fontaine, Fables I, 10, « Le Loup et l’Agneau »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Loup_et_l’Agneau",
+      "sourceKind": "text",
+      "tags": [
+        "Pouvoir",
+        "Justice"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "la raison du plus fort est toujours la meilleure le puissant impose souvent sa version de la justice la formule est ironique elle denonce la force qui se deguise en droit jean de la fontaine fables i 10 le loup et l agneau france pouvoir justice"
+    },
+    {
+      "id": "fr-29",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "On a souvent besoin d’un plus petit que soi.",
+      "french": "La puissance n’abolit pas l’interdépendance.",
+      "meaning": "Une aide décisive peut venir de celui que les apparences font sous-estimer.",
+      "source": "Jean de La Fontaine, Fables II, 11, « Le Lion et le Rat »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Lion_et_le_Rat",
+      "sourceKind": "text",
+      "tags": [
+        "Entraide",
+        "Humilité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "on a souvent besoin d un plus petit que soi la puissance n abolit pas l interdependance une aide decisive peut venir de celui que les apparences font sous estimer jean de la fontaine fables ii 11 le lion et le rat france entraide humilite"
+    },
+    {
+      "id": "fr-30",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Science sans conscience n’est que ruine de l’âme.",
+      "french": "Le savoir sans responsabilité morale peut devenir destructeur.",
+      "meaning": "La compétence n’est pleinement humaine que guidée par le jugement éthique.",
+      "source": "François Rabelais, Pantagruel, chapitre VIII",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Pantagruel/Chapitre_VIII",
+      "sourceKind": "text",
+      "tags": [
+        "Savoir",
+        "Conscience"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "science sans conscience n est que ruine de l ame le savoir sans responsabilite morale peut devenir destructeur la competence n est pleinement humaine que guidee par le jugement ethique francois rabelais pantagruel chapitre viii france savoir conscience"
+    },
+    {
+      "id": "fr-31",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Il faut cultiver notre jardin.",
+      "french": "Il faut agir sur la part du monde qui dépend réellement de nous.",
+      "meaning": "Voltaire clôt le voyage spéculatif de Candide par un retour lucide au travail concret.",
+      "source": "Voltaire, Candide, chapitre XXX",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Candide,_ou_l’Optimisme/Chapitre_30",
+      "sourceKind": "text",
+      "tags": [
+        "Action",
+        "Lucidité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "il faut cultiver notre jardin il faut agir sur la part du monde qui depend reellement de nous voltaire clot le voyage speculatif de candide par un retour lucide au travail concret voltaire candide chapitre xxx france action lucidite"
+    },
+    {
+      "id": "en-1",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Actions speak louder than words.",
+      "french": "Les actes parlent plus fort que les mots.",
+      "meaning": "La conduite révèle plus sûrement les intentions que les promesses.",
+      "tags": [
+        "Action",
+        "Sincérité"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "actions speak louder than words les actes parlent plus fort que les mots la conduite revele plus surement les intentions que les promesses proverbe anglais traditionnel auteur unique non etabli monde anglophone action sincerite"
+    },
+    {
+      "id": "en-2",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Don’t judge a book by its cover.",
+      "french": "Ne jugez pas un livre à sa couverture.",
+      "meaning": "L’apparence extérieure ne suffit pas pour connaître la valeur intérieure.",
+      "tags": [
+        "Jugement",
+        "Apparence"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "don t judge a book by its cover ne jugez pas un livre a sa couverture l apparence exterieure ne suffit pas pour connaitre la valeur interieure proverbe anglais traditionnel auteur unique non etabli monde anglophone jugement apparence"
+    },
+    {
+      "id": "en-3",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Where there’s a will, there’s a way.",
+      "french": "Quand on veut, on trouve un chemin.",
+      "meaning": "La détermination aide à découvrir des solutions là où l’on ne voyait que des obstacles.",
+      "tags": [
+        "Volonté",
+        "Persévérance"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "where there s a will there s a way quand on veut on trouve un chemin la determination aide a decouvrir des solutions la ou l on ne voyait que des obstacles proverbe anglais traditionnel auteur unique non etabli monde anglophone volonte perseverance"
+    },
+    {
+      "id": "en-4",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "The early bird catches the worm.",
+      "french": "L’avenir appartient à ceux qui se lèvent tôt.",
+      "meaning": "La préparation et la promptitude créent souvent l’avantage.",
+      "tags": [
+        "Initiative",
+        "Travail"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "the early bird catches the worm l avenir appartient a ceux qui se levent tot la preparation et la promptitude creent souvent l avantage proverbe anglais traditionnel auteur unique non etabli monde anglophone initiative travail"
+    },
+    {
+      "id": "en-5",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "A friend in need is a friend indeed.",
+      "french": "C’est dans le besoin que l’on reconnaît ses vrais amis.",
+      "meaning": "La fidélité se révèle quand la situation devient difficile.",
+      "tags": [
+        "Amitié",
+        "Loyauté"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "a friend in need is a friend indeed c est dans le besoin que l on reconnait ses vrais amis la fidelite se revele quand la situation devient difficile proverbe anglais traditionnel auteur unique non etabli monde anglophone amitie loyaute"
+    },
+    {
+      "id": "en-6",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Two wrongs don’t make a right.",
+      "french": "Deux torts ne font pas un droit.",
+      "meaning": "Répondre à une injustice par une autre ne rétablit pas la justice.",
+      "tags": [
+        "Justice",
+        "Mesure"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "two wrongs don t make a right deux torts ne font pas un droit repondre a une injustice par une autre ne retablit pas la justice proverbe anglais traditionnel auteur unique non etabli monde anglophone justice mesure"
+    },
+    {
+      "id": "en-7",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Better safe than sorry.",
+      "french": "Mieux vaut prévenir que guérir.",
+      "meaning": "Une précaution raisonnable évite souvent un regret plus coûteux.",
+      "tags": [
+        "Prudence",
+        "Prévention"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "better safe than sorry mieux vaut prevenir que guerir une precaution raisonnable evite souvent un regret plus couteux proverbe anglais traditionnel auteur unique non etabli monde anglophone prudence prevention"
+    },
+    {
+      "id": "en-8",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Every cloud has a silver lining.",
+      "french": "À quelque chose malheur est bon.",
+      "meaning": "Même une situation sombre peut contenir une possibilité favorable.",
+      "tags": [
+        "Espoir",
+        "Perspective"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "every cloud has a silver lining a quelque chose malheur est bon meme une situation sombre peut contenir une possibilite favorable proverbe anglais traditionnel auteur unique non etabli monde anglophone espoir perspective"
+    },
+    {
+      "id": "en-9",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "When in Rome, do as the Romans do.",
+      "french": "À Rome, fais comme les Romains.",
+      "meaning": "S’adapter aux usages du lieu facilite la compréhension et l’intégration.",
+      "tags": [
+        "Adaptation",
+        "Culture"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "when in rome do as the romans do a rome fais comme les romains s adapter aux usages du lieu facilite la comprehension et l integration proverbe anglais traditionnel auteur unique non etabli monde anglophone adaptation culture"
+    },
+    {
+      "id": "en-10",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Practice makes perfect.",
+      "french": "C’est en pratiquant que l’on atteint la maîtrise.",
+      "meaning": "La répétition attentive transforme progressivement la compétence.",
+      "tags": [
+        "Pratique",
+        "Apprentissage"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "practice makes perfect c est en pratiquant que l on atteint la maitrise la repetition attentive transforme progressivement la competence proverbe anglais traditionnel auteur unique non etabli monde anglophone pratique apprentissage"
+    },
+    {
+      "id": "en-11",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "The grass is always greener on the other side.",
+      "french": "L’herbe paraît toujours plus verte ailleurs.",
+      "meaning": "Nous idéalisons souvent ce que nous ne possédons pas.",
+      "tags": [
+        "Désir",
+        "Perspective"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "the grass is always greener on the other side l herbe parait toujours plus verte ailleurs nous idealisons souvent ce que nous ne possedons pas proverbe anglais traditionnel auteur unique non etabli monde anglophone desir perspective"
+    },
+    {
+      "id": "en-12",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "You can’t have your cake and eat it too.",
+      "french": "On ne peut avoir le beurre et l’argent du beurre.",
+      "meaning": "Certains choix impliquent de renoncer à l’un des deux avantages incompatibles.",
+      "tags": [
+        "Choix",
+        "Renoncement"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "you can t have your cake and eat it too on ne peut avoir le beurre et l argent du beurre certains choix impliquent de renoncer a l un des deux avantages incompatibles proverbe anglais traditionnel auteur unique non etabli monde anglophone choix renoncement"
+    },
+    {
+      "id": "en-13",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Too many cooks spoil the broth.",
+      "french": "Trop de cuisiniers gâtent la sauce.",
+      "meaning": "Une responsabilité trop dispersée nuit à la cohérence de l’action.",
+      "tags": [
+        "Organisation",
+        "Responsabilité"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "too many cooks spoil the broth trop de cuisiniers gatent la sauce une responsabilite trop dispersee nuit a la coherence de l action proverbe anglais traditionnel auteur unique non etabli monde anglophone organisation responsabilite"
+    },
+    {
+      "id": "en-14",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Honesty is the best policy.",
+      "french": "L’honnêteté est la meilleure ligne de conduite.",
+      "meaning": "La vérité construit une confiance plus durable que les avantages du mensonge.",
+      "tags": [
+        "Honnêteté",
+        "Confiance"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "honesty is the best policy l honnetete est la meilleure ligne de conduite la verite construit une confiance plus durable que les avantages du mensonge proverbe anglais traditionnel auteur unique non etabli monde anglophone honnetete confiance"
+    },
+    {
+      "id": "en-15",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Necessity is the mother of invention.",
+      "french": "La nécessité est mère de l’invention.",
+      "meaning": "La contrainte stimule souvent l’ingéniosité.",
+      "tags": [
+        "Créativité",
+        "Nécessité"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "necessity is the mother of invention la necessite est mere de l invention la contrainte stimule souvent l ingeniosite proverbe anglais traditionnel auteur unique non etabli monde anglophone creativite necessite"
+    },
+    {
+      "id": "en-16",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "A picture is worth a thousand words.",
+      "french": "Une image vaut mille mots.",
+      "meaning": "Une représentation visuelle peut transmettre instantanément une idée complexe.",
+      "tags": [
+        "Image",
+        "Communication"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "a picture is worth a thousand words une image vaut mille mots une representation visuelle peut transmettre instantanement une idee complexe proverbe anglais traditionnel auteur unique non etabli monde anglophone image communication"
+    },
+    {
+      "id": "en-17",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Rome wasn’t built in a day.",
+      "french": "Rome ne s’est pas faite en un jour.",
+      "meaning": "Les grandes réalisations exigent du temps et de la continuité.",
+      "tags": [
+        "Patience",
+        "Construction"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "rome wasn t built in a day rome ne s est pas faite en un jour les grandes realisations exigent du temps et de la continuite proverbe anglais traditionnel auteur unique non etabli monde anglophone patience construction"
+    },
+    {
+      "id": "en-18",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "People who live in glass houses shouldn’t throw stones.",
+      "french": "Ceux qui vivent dans des maisons de verre ne devraient pas jeter de pierres.",
+      "meaning": "Il faut reconnaître ses propres fragilités avant de condamner celles d’autrui.",
+      "tags": [
+        "Jugement",
+        "Humilité"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "people who live in glass houses shouldn t throw stones ceux qui vivent dans des maisons de verre ne devraient pas jeter de pierres il faut reconnaitre ses propres fragilites avant de condamner celles d autrui proverbe anglais traditionnel auteur unique non etabli monde anglophone jugement humilite"
+    },
+    {
+      "id": "en-19",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "The pen is mightier than the sword.",
+      "french": "La plume est plus puissante que l’épée.",
+      "meaning": "Les idées et les mots peuvent transformer le monde plus durablement que la force.",
+      "tags": [
+        "Parole",
+        "Pouvoir"
+      ],
+      "source": "Edward Bulwer-Lytton, Richelieu, acte II, scène 2 (1839)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/8639",
+      "sourceKind": "text",
+      "lang": "en",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "the pen is mightier than the sword la plume est plus puissante que l epee les idees et les mots peuvent transformer le monde plus durablement que la force edward bulwer lytton richelieu acte ii scene 2 1839 monde anglophone parole pouvoir"
+    },
+    {
+      "id": "en-20",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Birds of a feather flock together.",
+      "french": "Qui se ressemble s’assemble.",
+      "meaning": "Les personnes aux goûts ou aux caractères proches se rapprochent naturellement.",
+      "tags": [
+        "Affinité",
+        "Groupe"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "birds of a feather flock together qui se ressemble s assemble les personnes aux gouts ou aux caracteres proches se rapprochent naturellement proverbe anglais traditionnel auteur unique non etabli monde anglophone affinite groupe"
+    },
+    {
+      "id": "en-21",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "Don’t put all your eggs in one basket.",
+      "french": "Ne mets pas tous tes œufs dans le même panier.",
+      "meaning": "Répartir les risques protège d’une perte unique et totale.",
+      "tags": [
+        "Risque",
+        "Prudence"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "don t put all your eggs in one basket ne mets pas tous tes œufs dans le meme panier repartir les risques protege d une perte unique et totale proverbe anglais traditionnel auteur unique non etabli monde anglophone risque prudence"
+    },
+    {
+      "id": "en-22",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "original": "When the going gets tough, the tough get going.",
+      "french": "Quand les choses deviennent difficiles, les plus solides se mettent en marche.",
+      "meaning": "L’adversité révèle et mobilise la force de caractère.",
+      "tags": [
+        "Courage",
+        "Résilience"
+      ],
+      "lang": "en",
+      "source": "Proverbe anglais traditionnel — auteur unique non établi",
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "when the going gets tough the tough get going quand les choses deviennent difficiles les plus solides se mettent en marche l adversite revele et mobilise la force de caractere proverbe anglais traditionnel auteur unique non etabli monde anglophone courage resilience"
+    },
+    {
+      "id": "en-23",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "lang": "en",
+      "original": "The last straw that broke the camel’s back.",
+      "french": "La dernière paille qui brisa le dos du chameau.",
+      "meaning": "Une charge minuscule peut déclencher la rupture quand tout le reste s’est déjà accumulé.",
+      "source": "Proverbe anglais ; forme au chameau attestée dans The Edinburgh Advertiser (1816)",
+      "sourceUrl": "https://www.phrases.org.uk/meanings/the-last-straw.html",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Limite",
+        "Accumulation"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "the last straw that broke the camel s back la derniere paille qui brisa le dos du chameau une charge minuscule peut declencher la rupture quand tout le reste s est deja accumule proverbe anglais forme au chameau attestee dans the edinburgh advertiser 1816 monde anglophone limite accumulation"
+    },
+    {
+      "id": "en-24",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "lang": "en",
+      "original": "A rolling stone gathers no moss.",
+      "french": "Pierre qui roule n’amasse pas mousse.",
+      "meaning": "La mobilité protège de l’immobilisme, mais peut aussi empêcher l’enracinement ; le sens varie selon l’époque.",
+      "source": "John Heywood, A Dialogue Containing the Number in Effect of All the Proverbs (1546)",
+      "sourceKind": "text",
+      "sourceNote": "La famille proverbiale est plus ancienne et possède des parallèles latins et européens.",
+      "tags": [
+        "Mobilité",
+        "Enracinement"
+      ],
+      "searchText": "a rolling stone gathers no moss pierre qui roule n amasse pas mousse la mobilite protege de l immobilisme mais peut aussi empecher l enracinement le sens varie selon l epoque john heywood a dialogue containing the number in effect of all the proverbs 1546 monde anglophone mobilite enracinement"
+    },
+    {
+      "id": "en-25",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "All that glisters is not gold.",
+      "french": "Tout ce qui brille n’est pas or.",
+      "meaning": "L’éclat extérieur ne garantit ni la valeur ni la vérité.",
+      "source": "William Shakespeare, The Merchant of Venice, II.7",
+      "sourceUrl": "https://www.folger.edu/explore/shakespeares-works/the-merchant-of-venice/read/2/7/",
+      "sourceKind": "text",
+      "tags": [
+        "Apparence",
+        "Jugement"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "all that glisters is not gold tout ce qui brille n est pas or l eclat exterieur ne garantit ni la valeur ni la verite william shakespeare the merchant of venice ii 7 angleterre apparence jugement"
+    },
+    {
+      "id": "en-26",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "No man is an island, entire of itself.",
+      "french": "Nul homme n’est une île, entière en elle-même.",
+      "meaning": "Chaque existence est liée aux autres et affectée par leur perte.",
+      "source": "John Donne, Devotions upon Emergent Occasions, Méditation XVII (1624)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/23772",
+      "sourceKind": "text",
+      "tags": [
+        "Humanité",
+        "Interdépendance"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "no man is an island entire of itself nul homme n est une ile entiere en elle meme chaque existence est liee aux autres et affectee par leur perte john donne devotions upon emergent occasions meditation xvii 1624 angleterre humanite interdependance"
+    },
+    {
+      "id": "en-27",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Brevity is the soul of wit.",
+      "french": "La brièveté est l’âme de l’esprit.",
+      "meaning": "La formule célèbre la concision, tout en étant prononcée ironiquement par le bavard Polonius.",
+      "source": "William Shakespeare, Hamlet, II.2",
+      "sourceUrl": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/2/2/",
+      "sourceKind": "text",
+      "tags": [
+        "Parole",
+        "Concision"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "brevity is the soul of wit la brievete est l ame de l esprit la formule celebre la concision tout en etant prononcee ironiquement par le bavard polonius william shakespeare hamlet ii 2 angleterre parole concision"
+    },
+    {
+      "id": "en-28",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "To err is human; to forgive, divine.",
+      "french": "L’erreur est humaine ; le pardon, divin.",
+      "meaning": "La faillibilité est commune ; le pardon demande une élévation supplémentaire.",
+      "source": "Alexander Pope, An Essay on Criticism, vers 525 (1711)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7409",
+      "sourceKind": "text",
+      "tags": [
+        "Erreur",
+        "Pardon"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "to err is human to forgive divine l erreur est humaine le pardon divin la faillibilite est commune le pardon demande une elevation supplementaire alexander pope an essay on criticism vers 525 1711 angleterre erreur pardon"
+    },
+    {
+      "id": "en-29",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "lang": "en",
+      "original": "A stitch in time saves nine.",
+      "french": "Un point fait à temps en épargne neuf.",
+      "meaning": "Une petite réparation précoce évite un dommage beaucoup plus coûteux.",
+      "source": "Proverbe anglais, attesté notamment chez Thomas Fuller, Gnomologia (1732)",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Prévention",
+        "Temps"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "a stitch in time saves nine un point fait a temps en epargne neuf une petite reparation precoce evite un dommage beaucoup plus couteux proverbe anglais atteste notamment chez thomas fuller gnomologia 1732 monde anglophone prevention temps"
+    },
+    {
+      "id": "en-30",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Look before you leap.",
+      "french": "Regarde avant de sauter.",
+      "meaning": "L’action gagne à être précédée d’un examen lucide des conséquences.",
+      "source": "John Heywood, A Dialogue Containing the Number in Effect of All the Proverbs (1546)",
+      "sourceKind": "text",
+      "tags": [
+        "Prudence",
+        "Décision"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "look before you leap regarde avant de sauter l action gagne a etre precedee d un examen lucide des consequences john heywood a dialogue containing the number in effect of all the proverbs 1546 monde anglophone prudence decision"
+    },
+    {
+      "id": "en-31",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Don’t count your chickens before they hatch.",
+      "french": "Ne comptez pas vos poulets avant leur éclosion.",
+      "meaning": "Un résultat espéré ne doit pas être traité comme déjà acquis.",
+      "source": "Famille proverbiale issue d’Ésope ; forme anglaise attestée au XVIe siècle",
+      "sourceKind": "derived",
+      "tags": [
+        "Prudence",
+        "Anticipation"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "don t count your chickens before they hatch ne comptez pas vos poulets avant leur eclosion un resultat espere ne doit pas etre traite comme deja acquis famille proverbiale issue d esope forme anglaise attestee au xvie siecle monde anglophone prudence anticipation"
+    },
+    {
+      "id": "gr-1",
+      "culture": "Grec ancien",
+      "place": "Delphes",
+      "mark": "ΕΛ",
+      "lang": "grc",
+      "original": "Γνῶθι σεαυτόν.",
+      "transliteration": "Gnôthi seautón.",
+      "french": "Connais-toi toi-même.",
+      "meaning": "La connaissance de ses limites est une condition de la sagesse.",
+      "source": "Maxime delphique ; Pausanias, Description de la Grèce 10.24.1",
+      "sourceUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Paus.+10.24.1",
+      "sourceKind": "text",
+      "tags": [
+        "Connaissance",
+        "Humilité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "γνωθι σεαυτον connais toi toi meme la connaissance de ses limites est une condition de la sagesse maxime delphique pausanias description de la grece 10 24 1 delphes connaissance humilite"
+    },
+    {
+      "id": "gr-2",
+      "culture": "Grec ancien",
+      "place": "Grèce antique",
+      "mark": "ΕΛ",
+      "lang": "grc",
+      "original": "Μηδὲν ἄγαν.",
+      "transliteration": "Mēdèn ágan.",
+      "french": "Rien de trop.",
+      "meaning": "L’excès détruit souvent la qualité qu’il prétend augmenter.",
+      "source": "Maxime attribuée à Chilon ; Aristote, Rhétorique 1389b",
+      "sourceUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Aristot.+Rh.+1389b",
+      "sourceKind": "text",
+      "tags": [
+        "Mesure",
+        "Équilibre"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "μηδεν αγαν rien de trop l exces detruit souvent la qualite qu il pretend augmenter maxime attribuee a chilon aristote rhetorique 1389b grece antique mesure equilibre"
+    },
+    {
+      "id": "gr-3",
+      "culture": "Grec ancien",
+      "place": "Grèce antique",
+      "mark": "ΕΛ",
+      "lang": "grc",
+      "original": "Ὁ βίος βραχύς, ἡ δὲ τέχνη μακρή.",
+      "transliteration": "Ho bíos brakhýs, hē dè tékhnē makrḗ.",
+      "french": "La vie est brève, l’art est long.",
+      "meaning": "Une vie humaine suffit à peine pour maîtriser un art et transmettre l’expérience.",
+      "source": "Corpus hippocratique, Aphorismes 1.1",
+      "sourceUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0248%3Atext%3DAph.",
+      "sourceKind": "text",
+      "tags": [
+        "Temps",
+        "Art"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "ο βιος βραχυς η δε τεχνη μακρη la vie est breve l art est long une vie humaine suffit a peine pour maitriser un art et transmettre l experience corpus hippocratique aphorismes 1 1 grece antique temps art"
+    },
+    {
+      "id": "gr-4",
+      "culture": "Grec ancien",
+      "place": "Grèce antique",
+      "mark": "ΕΛ",
+      "lang": "grc",
+      "original": "Μία χελιδὼν ἔαρ οὐ ποιεῖ.",
+      "transliteration": "Mía khelidṑn éar ou poieî.",
+      "french": "Une hirondelle ne fait pas le printemps.",
+      "meaning": "Un signe isolé ne suffit pas à établir une tendance ni un bonheur durable.",
+      "source": "Aristote, Éthique à Nicomaque 1098a18",
+      "sourceUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0053%3Abekker+page%3D1098a%3Abekker+line%3D15",
+      "sourceKind": "text",
+      "tags": [
+        "Preuve",
+        "Patience"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "μια χελιδων εαρ ου ποιει une hirondelle ne fait pas le printemps un signe isole ne suffit pas a etablir une tendance ni un bonheur durable aristote ethique a nicomaque 1098a18 grece antique preuve patience"
+    },
+    {
+      "id": "gr-5",
+      "culture": "Grec ancien",
+      "place": "Grèce antique",
+      "mark": "ΕΛ",
+      "lang": "grc",
+      "original": "Χαλεπὰ τὰ καλά.",
+      "transliteration": "Khalepà tà kalá.",
+      "french": "Les belles choses sont difficiles.",
+      "meaning": "Ce qui possède une vraie valeur exige souvent un effort soutenu.",
+      "source": "Proverbe ancien cité par Platon, République 435c",
+      "sourceUrl": "https://www.perseus.tufts.edu/hopper/text?doc=urn%3Acts%3AgreekLit%3Atlg0059.tlg030.perseus-grc1%3A435c",
+      "sourceKind": "text",
+      "tags": [
+        "Effort",
+        "Valeur"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "χαλεπα τα καλα les belles choses sont difficiles ce qui possede une vraie valeur exige souvent un effort soutenu proverbe ancien cite par platon republique 435c grece antique effort valeur"
+    },
+    {
+      "id": "gr-6",
+      "culture": "Grec ancien",
+      "place": "Grèce antique",
+      "mark": "ΕΛ",
+      "lang": "grc",
+      "original": "Ἀρχὴ ἥμισυ παντός.",
+      "transliteration": "Arkhḕ hḗmisy pantós.",
+      "french": "Le commencement est la moitié du tout.",
+      "meaning": "Commencer transforme une intention abstraite en œuvre déjà engagée.",
+      "source": "Proverbe cité par Aristote, Éthique à Nicomaque I.7",
+      "sourceUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abook%3D1%3Achapter%3D7",
+      "sourceKind": "text",
+      "tags": [
+        "Commencement",
+        "Action"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "αρχη ημισυ παντος le commencement est la moitie du tout commencer transforme une intention abstraite en œuvre deja engagee proverbe cite par aristote ethique a nicomaque i 7 grece antique commencement action"
+    },
+    {
+      "id": "gr-7",
+      "culture": "Grec ancien",
+      "place": "Grèce antique",
+      "mark": "ΕΛ",
+      "lang": "grc",
+      "original": "Πάντα ῥεῖ.",
+      "transliteration": "Pánta rheî.",
+      "french": "Tout s’écoule.",
+      "meaning": "La formule résume la pensée du changement perpétuel associée à Héraclite.",
+      "source": "Épitomé tardif de la doctrine d’Héraclite ; voir Platon, Cratyle 402a",
+      "sourceUrl": "https://scaife-reader.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0059.tlg005.perseus-grc2/",
+      "sourceKind": "derived",
+      "sourceNote": "La formule exacte n’est pas conservée comme fragment littéral d’Héraclite.",
+      "tags": [
+        "Changement",
+        "Temps"
+      ],
+      "searchText": "παντα ρει tout s ecoule la formule resume la pensee du changement perpetuel associee a heraclite epitome tardif de la doctrine d heraclite voir platon cratyle 402a grece antique changement temps"
+    },
+    {
+      "id": "wo-25",
+      "culture": "Grec ancien",
+      "place": "Monde gréco-romain",
+      "mark": "ΕΛ",
+      "original": "Σπεῦδε βραδέως.",
+      "french": "Hâte-toi lentement.",
+      "meaning": "Il faut réunir l’énergie de l’action et la prudence de l’exécution.",
+      "transliteration": "Speûde bradéōs.",
+      "source": "Suétone, Vie d’Auguste 25.4 (formule grecque associée à Auguste)",
+      "lang": "grc",
+      "tags": [
+        "Mesure",
+        "Action"
+      ],
+      "sourceUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Suet.+Aug.+25.4",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "σπευδε βραδεως hate toi lentement il faut reunir l energie de l action et la prudence de l execution suetone vie d auguste 25 4 formule grecque associee a auguste monde greco romain mesure action"
+    },
+    {
+      "id": "la-1",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Carpe diem.",
+      "french": "Cueille le jour présent.",
+      "meaning": "Profite lucidement du présent sans remettre la vie à demain.",
+      "source": "Horace, Odes I, 11",
+      "lang": "la",
+      "tags": [
+        "Présent",
+        "Temps"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "carpe diem cueille le jour present profite lucidement du present sans remettre la vie a demain horace odes i 11 rome antique present temps"
+    },
+    {
+      "id": "la-2",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Veni, vidi, vici.",
+      "french": "Je suis venu, j’ai vu, j’ai vaincu.",
+      "meaning": "La formule exprime une victoire rapide et décisive.",
+      "source": "Jules César, selon Suétone",
+      "lang": "la",
+      "tags": [
+        "Victoire",
+        "Action"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "veni vidi vici je suis venu j ai vu j ai vaincu la formule exprime une victoire rapide et decisive jules cesar selon suetone rome antique victoire action"
+    },
+    {
+      "id": "la-3",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Alea iacta est.",
+      "french": "Le sort en est jeté.",
+      "meaning": "Une décision irréversible vient d’être prise.",
+      "source": "Jules César, selon Suétone",
+      "lang": "la",
+      "tags": [
+        "Décision",
+        "Destin"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "alea iacta est le sort en est jete une decision irreversible vient d etre prise jules cesar selon suetone rome antique decision destin"
+    },
+    {
+      "id": "la-4",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "Errare humanum est.",
+      "french": "L’erreur est humaine.",
+      "meaning": "Se tromper appartient à la condition humaine.",
+      "source": "Formule issue de Sénèque",
+      "lang": "la",
+      "tags": [
+        "Erreur",
+        "Humanité"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "errare humanum est l erreur est humaine se tromper appartient a la condition humaine formule issue de seneque sagesse latine erreur humanite"
+    },
+    {
+      "id": "la-5",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "Perseverare diabolicum.",
+      "french": "Persévérer dans l’erreur est diabolique.",
+      "meaning": "L’erreur devient faute lorsqu’on refuse obstinément de la corriger.",
+      "source": "Adage médiéval",
+      "lang": "la",
+      "tags": [
+        "Erreur",
+        "Lucidité"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "perseverare diabolicum perseverer dans l erreur est diabolique l erreur devient faute lorsqu on refuse obstinement de la corriger adage medieval sagesse latine erreur lucidite"
+    },
+    {
+      "id": "la-6",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Mens sana in corpore sano.",
+      "french": "Un esprit sain dans un corps sain.",
+      "meaning": "L’équilibre humain associe la santé du corps et celle de l’esprit.",
+      "source": "Juvénal, Satires X",
+      "lang": "la",
+      "tags": [
+        "Santé",
+        "Équilibre"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "mens sana in corpore sano un esprit sain dans un corps sain l equilibre humain associe la sante du corps et celle de l esprit juvenal satires x rome antique sante equilibre"
+    },
+    {
+      "id": "la-7",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "Verba volant, scripta manent.",
+      "french": "Les paroles s’envolent, les écrits restent.",
+      "meaning": "La parole passe tandis que l’écrit conserve une trace durable.",
+      "source": "Proverbe latin",
+      "lang": "la",
+      "tags": [
+        "Parole",
+        "Écriture"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "verba volant scripta manent les paroles s envolent les ecrits restent la parole passe tandis que l ecrit conserve une trace durable proverbe latin sagesse latine parole ecriture"
+    },
+    {
+      "id": "la-8",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "Audentes fortuna iuvat.",
+      "french": "La fortune favorise les audacieux.",
+      "meaning": "L’initiative courageuse attire parfois les occasions favorables.",
+      "source": "Virgile, Énéide X",
+      "lang": "la",
+      "tags": [
+        "Audace",
+        "Fortune"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "audentes fortuna iuvat la fortune favorise les audacieux l initiative courageuse attire parfois les occasions favorables virgile eneide x sagesse latine audace fortune"
+    },
+    {
+      "id": "la-9",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Homo homini lupus est.",
+      "french": "L’homme est un loup pour l’homme.",
+      "meaning": "L’être humain peut devenir le prédateur de son semblable.",
+      "source": "Plaute, Asinaria",
+      "lang": "la",
+      "tags": [
+        "Humanité",
+        "Pouvoir"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "homo homini lupus est l homme est un loup pour l homme l etre humain peut devenir le predateur de son semblable plaute asinaria rome antique humanite pouvoir"
+    },
+    {
+      "id": "la-10",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Si vis pacem, para bellum.",
+      "french": "Si tu veux la paix, prépare la guerre.",
+      "meaning": "La capacité à se défendre peut décourager l’agression.",
+      "source": "Végèce, Epitoma rei militaris",
+      "lang": "la",
+      "tags": [
+        "Paix",
+        "Prudence"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "si vis pacem para bellum si tu veux la paix prepare la guerre la capacite a se defendre peut decourager l agression vegece epitoma rei militaris rome antique paix prudence"
+    },
+    {
+      "id": "la-11",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "In vino veritas.",
+      "french": "Dans le vin, la vérité.",
+      "meaning": "L’ivresse fait parfois tomber les retenues et révèle les pensées cachées.",
+      "source": "Adage latin",
+      "lang": "la",
+      "tags": [
+        "Vérité",
+        "Parole"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "in vino veritas dans le vin la verite l ivresse fait parfois tomber les retenues et revele les pensees cachees adage latin sagesse latine verite parole"
+    },
+    {
+      "id": "la-12",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Tempus fugit.",
+      "french": "Le temps fuit.",
+      "meaning": "Le temps passe rapidement et ne peut être retenu.",
+      "source": "Virgile, Géorgiques III",
+      "lang": "la",
+      "tags": [
+        "Temps",
+        "Vie"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "tempus fugit le temps fuit le temps passe rapidement et ne peut etre retenu virgile georgiques iii rome antique temps vie"
+    },
+    {
+      "id": "la-13",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "Memento mori.",
+      "french": "Souviens-toi que tu mourras.",
+      "meaning": "La conscience de la finitude invite à l’humilité et à une vie plus juste.",
+      "source": "Tradition latine",
+      "lang": "la",
+      "tags": [
+        "Mort",
+        "Humilité"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "memento mori souviens toi que tu mourras la conscience de la finitude invite a l humilite et a une vie plus juste tradition latine sagesse latine mort humilite"
+    },
+    {
+      "id": "la-14",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "Dum spiro, spero.",
+      "french": "Tant que je respire, j’espère.",
+      "meaning": "La vie conserve toujours une possibilité d’espérance.",
+      "source": "Forme proverbiale d’après Cicéron, Lettres à Atticus 9.10.3 : « dum anima est, spes est »",
+      "lang": "la",
+      "tags": [
+        "Espoir",
+        "Vie"
+      ],
+      "sourceUrl": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Alat.ls.perseus-eng2-n44971/",
+      "sourceKind": "derived",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "dum spiro spero tant que je respire j espere la vie conserve toujours une possibilite d esperance forme proverbiale d apres ciceron lettres a atticus 9 10 3 dum anima est spes est sagesse latine espoir vie"
+    },
+    {
+      "id": "la-15",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Ars longa, vita brevis.",
+      "french": "L’art est long, la vie est brève.",
+      "meaning": "La connaissance demande plus de temps que n’en offre une seule existence.",
+      "source": "Hippocrate, transmis en latin",
+      "lang": "la",
+      "tags": [
+        "Art",
+        "Temps"
+      ],
+      "sourceKind": "attributed",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "ars longa vita brevis l art est long la vie est breve la connaissance demande plus de temps que n en offre une seule existence hippocrate transmis en latin rome antique art temps"
+    },
+    {
+      "id": "la-16",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "Repetitio est mater studiorum.",
+      "french": "La répétition est la mère de l’apprentissage.",
+      "meaning": "La maîtrise naît de la reprise et de l’exercice réguliers.",
+      "source": "Adage latin",
+      "lang": "la",
+      "tags": [
+        "Apprentissage",
+        "Pratique"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "repetitio est mater studiorum la repetition est la mere de l apprentissage la maitrise nait de la reprise et de l exercice reguliers adage latin sagesse latine apprentissage pratique"
+    },
+    {
+      "id": "la-17",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Historia magistra vitae est.",
+      "french": "L’histoire est maîtresse de vie.",
+      "meaning": "L’expérience du passé peut éclairer les choix du présent.",
+      "source": "Cicéron, De oratore",
+      "lang": "la",
+      "tags": [
+        "Histoire",
+        "Apprentissage"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "historia magistra vitae est l histoire est maitresse de vie l experience du passe peut eclairer les choix du present ciceron de oratore rome antique histoire apprentissage"
+    },
+    {
+      "id": "la-19",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Omnia vincit amor.",
+      "french": "L’amour triomphe de tout.",
+      "meaning": "L’amour possède une force capable de franchir les obstacles.",
+      "source": "Virgile, Bucoliques X",
+      "lang": "la",
+      "tags": [
+        "Amour",
+        "Force"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "omnia vincit amor l amour triomphe de tout l amour possede une force capable de franchir les obstacles virgile bucoliques x rome antique amour force"
+    },
+    {
+      "id": "la-20",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Labor omnia vincit.",
+      "french": "Le travail vient à bout de tout.",
+      "meaning": "L’effort persévérant surmonte les résistances les plus fortes.",
+      "source": "Virgile, Géorgiques I",
+      "lang": "la",
+      "tags": [
+        "Travail",
+        "Persévérance"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "labor omnia vincit le travail vient a bout de tout l effort perseverant surmonte les resistances les plus fortes virgile georgiques i rome antique travail perseverance"
+    },
+    {
+      "id": "la-21",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Gutta cavat lapidem.",
+      "french": "La goutte creuse la pierre.",
+      "meaning": "Une action faible mais constante finit par vaincre la résistance.",
+      "source": "Ovide, Épîtres du Pont IV",
+      "lang": "la",
+      "tags": [
+        "Constance",
+        "Persévérance"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "gutta cavat lapidem la goutte creuse la pierre une action faible mais constante finit par vaincre la resistance ovide epitres du pont iv rome antique constance perseverance"
+    },
+    {
+      "id": "la-22",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "Qui tacet consentire videtur.",
+      "french": "Qui se tait semble consentir.",
+      "meaning": "Le silence peut être interprété comme une approbation.",
+      "source": "Adage juridique latin",
+      "lang": "la",
+      "tags": [
+        "Silence",
+        "Responsabilité"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "qui tacet consentire videtur qui se tait semble consentir le silence peut etre interprete comme une approbation adage juridique latin sagesse latine silence responsabilite"
+    },
+    {
+      "id": "la-23",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Panem et circenses.",
+      "french": "Du pain et des jeux.",
+      "meaning": "Le pouvoir peut détourner l’attention politique par le confort et le divertissement.",
+      "source": "Juvénal, Satires X",
+      "lang": "la",
+      "tags": [
+        "Pouvoir",
+        "Société"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "panem et circenses du pain et des jeux le pouvoir peut detourner l attention politique par le confort et le divertissement juvenal satires x rome antique pouvoir societe"
+    },
+    {
+      "id": "la-24",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Quot homines, tot sententiae.",
+      "french": "Autant d’hommes, autant d’opinions.",
+      "meaning": "La diversité des personnes produit une diversité naturelle de jugements.",
+      "source": "Térence, Phormion",
+      "lang": "la",
+      "tags": [
+        "Opinion",
+        "Diversité"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "quot homines tot sententiae autant d hommes autant d opinions la diversite des personnes produit une diversite naturelle de jugements terence phormion rome antique opinion diversite"
+    },
+    {
+      "id": "la-25",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "Nemo propheta in patria.",
+      "french": "Nul n’est prophète en son pays.",
+      "meaning": "La proximité rend parfois difficile la reconnaissance du talent.",
+      "source": "Adage d’origine évangélique",
+      "lang": "la",
+      "tags": [
+        "Reconnaissance",
+        "Proximité"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "nemo propheta in patria nul n est prophete en son pays la proximite rend parfois difficile la reconnaissance du talent adage d origine evangelique sagesse latine reconnaissance proximite"
+    },
+    {
+      "id": "la-26",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Non scholae, sed vitae discimus.",
+      "french": "Nous apprenons non pour l’école, mais pour la vie.",
+      "meaning": "L’étude prend son sens lorsqu’elle prépare à vivre et à agir.",
+      "source": "Formule renversant Sénèque, Lettres 106",
+      "lang": "la",
+      "tags": [
+        "École",
+        "Vie"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "non scholae sed vitae discimus nous apprenons non pour l ecole mais pour la vie l etude prend son sens lorsqu elle prepare a vivre et a agir formule renversant seneque lettres 106 rome antique ecole vie"
+    },
+    {
+      "id": "la-27",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Faber est suae quisque fortunae.",
+      "french": "Chacun est l’artisan de sa propre fortune.",
+      "meaning": "La part d’action personnelle contribue à façonner le destin.",
+      "source": "Appius Claudius Caecus, cité par Salluste",
+      "lang": "la",
+      "tags": [
+        "Destin",
+        "Responsabilité"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "faber est suae quisque fortunae chacun est l artisan de sa propre fortune la part d action personnelle contribue a faconner le destin appius claudius caecus cite par salluste rome antique destin responsabilite"
+    },
+    {
+      "id": "la-28",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "Festina lente.",
+      "french": "Hâte-toi lentement.",
+      "meaning": "Agis avec énergie, mais sans sacrifier la prudence.",
+      "source": "Devise attribuée à Auguste",
+      "lang": "la",
+      "tags": [
+        "Mesure",
+        "Action"
+      ],
+      "sourceKind": "attributed",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "festina lente hate toi lentement agis avec energie mais sans sacrifier la prudence devise attribuee a auguste sagesse latine mesure action"
+    },
+    {
+      "id": "la-29",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "original": "Amicus certus in re incerta cernitur.",
+      "french": "C’est dans l’incertitude que l’on reconnaît l’ami sûr.",
+      "meaning": "L’amitié véritable se révèle dans l’épreuve.",
+      "source": "Ennius, cité par Cicéron",
+      "lang": "la",
+      "tags": [
+        "Amitié",
+        "Loyauté"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "amicus certus in re incerta cernitur c est dans l incertitude que l on reconnait l ami sur l amitie veritable se revele dans l epreuve ennius cite par ciceron rome antique amitie loyaute"
+    },
+    {
+      "id": "la-30",
+      "culture": "Latin",
+      "place": "Sagesse latine",
+      "mark": "LA",
+      "original": "Fiat lux.",
+      "french": "Que la lumière soit.",
+      "meaning": "La lumière symbolise l’apparition de la connaissance et d’un monde intelligible.",
+      "source": "Vulgate, Genèse 1:3",
+      "lang": "la",
+      "tags": [
+        "Lumière",
+        "Création"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "fiat lux que la lumiere soit la lumiere symbolise l apparition de la connaissance et d un monde intelligible vulgate genese 1 3 sagesse latine lumiere creation"
+    },
+    {
+      "id": "la-31",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "lang": "la",
+      "original": "Sapere aude.",
+      "french": "Ose savoir.",
+      "meaning": "Le courage intellectuel consiste à commencer et à exercer son propre jugement.",
+      "source": "Horace, Épîtres I.2.40",
+      "sourceUrl": "https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AlatinLit%3Aphi0893.phi005.perseus-lat2%3A1.2/",
+      "sourceKind": "text",
+      "tags": [
+        "Savoir",
+        "Courage"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "sapere aude ose savoir le courage intellectuel consiste a commencer et a exercer son propre jugement horace epitres i 2 40 rome antique savoir courage"
+    },
+    {
+      "id": "la-32",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "lang": "la",
+      "original": "Nulla dies sine linea.",
+      "french": "Pas un jour sans une ligne.",
+      "meaning": "Une pratique quotidienne, même minime, entretient et approfondit l’art.",
+      "source": "Pline l’Ancien, Histoire naturelle 35.84, à propos d’Apelle",
+      "sourceUrl": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionary-entries.atlas_v1%3Alat.ls.perseus-eng2-n26680/",
+      "sourceKind": "text",
+      "tags": [
+        "Constance",
+        "Art"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "nulla dies sine linea pas un jour sans une ligne une pratique quotidienne meme minime entretient et approfondit l art pline l ancien histoire naturelle 35 84 a propos d apelle rome antique constance art"
+    },
+    {
+      "id": "la-33",
+      "culture": "Latin",
+      "place": "Rome antique",
+      "mark": "LA",
+      "lang": "la",
+      "original": "Manus manum lavat.",
+      "french": "Une main lave l’autre.",
+      "meaning": "L’entraide peut être réciproque ; le contexte antique peut aussi suggérer l’échange intéressé.",
+      "source": "Sénèque, Apocoloquintose 9",
+      "sourceUrl": "https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AlatinLit%3Aphi1017.phi011.perseus-lat2%3A9-10/",
+      "sourceKind": "text",
+      "tags": [
+        "Réciprocité",
+        "Entraide"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "manus manum lavat une main lave l autre l entraide peut etre reciproque le contexte antique peut aussi suggerer l echange interesse seneque apocoloquintose 9 rome antique reciprocite entraide"
+    },
+    {
+      "id": "he-1",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵיזֶהוּ חָכָם? הַלּוֹמֵד מִכָּל אָדָם",
+      "french": "Qui est sage ? Celui qui apprend de chaque homme.",
+      "meaning": "La sagesse commence par l’humilité de reconnaître un enseignement en chacun.",
+      "transliteration": "Eizéhou ‘hakham? Halomed mikol adam.",
+      "source": "Pirqé Avot 4:1",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Humilité",
+        "Apprentissage"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "איזהו חכם הלומד מכל אדם qui est sage celui qui apprend de chaque homme la sagesse commence par l humilite de reconnaitre un enseignement en chacun pirqe avot 4 1 tradition juive humilite apprentissage"
+    },
+    {
+      "id": "he-2",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אִם אֵין אֲנִי לִי, מִי לִי? וּכְשֶׁאֲנִי לְעַצְמִי, מָה אֲנִי? וְאִם לֹא עַכְשָׁיו, אֵימָתָי?",
+      "french": "Si je ne suis pas pour moi, qui le sera ? Mais si je ne suis que pour moi, que suis-je ? Et si ce n’est maintenant, quand ?",
+      "meaning": "Hillel réunit en trois questions la responsabilité envers soi, envers autrui et envers le présent.",
+      "transliteration": "Im ein ani li, mi li? Oukhshe-ani le-atsmi, ma ani? Ve-im lo akhshav, eimataï?",
+      "source": "Pirqé Avot 1:14",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Responsabilité",
+        "Action"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.14",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "אם אין אני לי מי לי וכשאני לעצמי מה אני ואם לא עכשיו אימתי si je ne suis pas pour moi qui le sera mais si je ne suis que pour moi que suis je et si ce n est maintenant quand hillel reunit en trois questions la responsabilite envers soi envers autrui et envers le present pirqe avot 1 14 tradition juive responsabilite action"
+    },
+    {
+      "id": "he-3",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "לֹא עָלֶיךָ הַמְּלָאכָה לִגְמֹר, וְלֹא אַתָּה בֶן חוֹרִין לִבָּטֵל מִמֶּנָּה",
+      "french": "Il ne t’appartient pas d’achever l’œuvre, mais tu n’es pas libre de t’en détourner.",
+      "meaning": "Nous ne maîtrisons pas l’achèvement, seulement notre devoir de participer.",
+      "transliteration": "Lo alekha hamelakha ligmor, velo ata ben ‘horin lehibatel mimena.",
+      "source": "Pirqé Avot 2:16",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Devoir",
+        "Persévérance"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.2.16",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "לא עליך המלאכה לגמר ולא אתה בן חורין לבטל ממנה il ne t appartient pas d achever l œuvre mais tu n es pas libre de t en detourner nous ne maitrisons pas l achevement seulement notre devoir de participer pirqe avot 2 16 tradition juive devoir perseverance"
+    },
+    {
+      "id": "he-4",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "גַּם זוֹ לְטוֹבָה",
+      "french": "Cela aussi est pour le bien.",
+      "meaning": "Même l’épreuve peut contenir une possibilité que le présent ne permet pas encore de voir.",
+      "transliteration": "Gam zou letova.",
+      "source": "Talmud, Ta’anit 21a",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Espoir",
+        "Confiance"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Taanit.21a",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "גם זו לטובה cela aussi est pour le bien meme l epreuve peut contenir une possibilite que le present ne permet pas encore de voir talmud ta anit 21a tradition juive espoir confiance"
+    },
+    {
+      "id": "he-5",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "סוֹף מַעֲשֶׂה בְּמַחֲשָׁבָה תְּחִלָּה",
+      "french": "L’acte accompli commence par la pensée.",
+      "meaning": "Une réalisation juste naît d’une intention et d’une préparation claires.",
+      "transliteration": "Sof ma’assé bemakhshava te’hila.",
+      "source": "Lekha Dodi",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Intention",
+        "Action"
+      ],
+      "sourceKind": "attributed",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "סוף מעשה במחשבה תחלה l acte accompli commence par la pensee une realisation juste nait d une intention et d une preparation claires lekha dodi tradition juive intention action"
+    },
+    {
+      "id": "he-6",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "דִּבְרֵי חֲכָמִים בְּנַחַת נִשְׁמָעִים",
+      "french": "Les paroles des sages s’entendent dans le calme.",
+      "meaning": "La vérité n’a pas toujours besoin de bruit pour exercer son influence.",
+      "transliteration": "Divrei ‘hakhamim bena’hat nishma’im.",
+      "source": "Ecclésiaste 9:17",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Parole",
+        "Calme"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Ecclesiastes.9.17",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "דברי חכמים בנחת נשמעים les paroles des sages s entendent dans le calme la verite n a pas toujours besoin de bruit pour exercer son influence ecclesiaste 9 17 tradition juive parole calme"
+    },
+    {
+      "id": "he-7",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵיזֶהוּ עָשִׁיר? הַשָּׂמֵחַ בְּחֶלְקוֹ",
+      "french": "Qui est riche ? Celui qui se réjouit de ce qu’il possède.",
+      "meaning": "La richesse se mesure aussi à la capacité d’apprécier sa part.",
+      "transliteration": "Eizéhou ashir? Hassaméa’h be’helko.",
+      "source": "Pirqé Avot 4:1",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Joie",
+        "Gratitude"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "איזהו עשיר השמח בחלקו qui est riche celui qui se rejouit de ce qu il possede la richesse se mesure aussi a la capacite d apprecier sa part pirqe avot 4 1 tradition juive joie gratitude"
+    },
+    {
+      "id": "he-8",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵין הַנַּחְתּוֹם מֵעִיד עַל עִסָּתוֹ",
+      "french": "Le boulanger ne témoigne pas en faveur de sa propre pâte.",
+      "meaning": "On ne peut être l’arbitre impartial de sa propre œuvre.",
+      "transliteration": "Ein hana’htom me’id al isato.",
+      "source": "Proverbe hébreu",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Humilité",
+        "Jugement"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "אין הנחתום מעיד על עסתו le boulanger ne temoigne pas en faveur de sa propre pate on ne peut etre l arbitre impartial de sa propre œuvre proverbe hebreu tradition juive humilite jugement"
+    },
+    {
+      "id": "he-9",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "בְּמָקוֹם שֶׁאֵין אֲנָשִׁים, הִשְׁתַּדֵּל לִהְיוֹת אִישׁ",
+      "french": "Dans un lieu où il n’y a pas d’hommes, efforce-toi d’être un homme.",
+      "meaning": "Quand personne ne prend ses responsabilités, il faut avoir le courage de le faire.",
+      "transliteration": "Bimkom she-ein anashim, hishtadel lihyot ish.",
+      "source": "Pirqé Avot 2:5",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Courage",
+        "Responsabilité"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.2.5",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "במקום שאין אנשים השתדל להיות איש dans un lieu ou il n y a pas d hommes efforce toi d etre un homme quand personne ne prend ses responsabilites il faut avoir le courage de le faire pirqe avot 2 5 tradition juive courage responsabilite"
+    },
+    {
+      "id": "he-10",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "עַל שְׁלֹשָׁה דְבָרִים הָעוֹלָם עוֹמֵד: עַל הַתּוֹרָה, וְעַל הָעֲבוֹדָה, וְעַל גְּמִילוּת חֲסָדִים",
+      "french": "Le monde repose sur trois choses : l’étude, le service et les actes de bonté.",
+      "meaning": "Une société tient par la connaissance, l’engagement et la solidarité.",
+      "transliteration": "Al shlosha devarim ha-olam omed: al ha-Torah, ve-al ha-avoda, ve-al guemilout ‘hassadim.",
+      "source": "Pirqé Avot 1:2",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Étude",
+        "Bonté"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.2",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "על שלשה דברים העולם עומד על התורה ועל העבודה ועל גמילות חסדים le monde repose sur trois choses l etude le service et les actes de bonte une societe tient par la connaissance l engagement et la solidarite pirqe avot 1 2 tradition juive etude bonte"
+    },
+    {
+      "id": "he-11",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "הֱוֵי מְקַבֵּל אֶת כָּל הָאָדָם בְּסֵבֶר פָּנִים יָפוֹת",
+      "french": "Accueille chaque personne avec un visage bienveillant.",
+      "meaning": "L’hospitalité commence dans l’expression offerte à l’autre.",
+      "transliteration": "Hevei mekabel et kol ha-adam besever panim yafot.",
+      "source": "Pirqé Avot 1:15",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Accueil",
+        "Bonté"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.15",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "הוי מקבל את כל האדם בסבר פנים יפות accueille chaque personne avec un visage bienveillant l hospitalite commence dans l expression offerte a l autre pirqe avot 1 15 tradition juive accueil bonte"
+    },
+    {
+      "id": "he-12",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵיזֶהוּ גִבּוֹר? הַכּוֹבֵשׁ אֶת יִצְרוֹ",
+      "french": "Qui est fort ? Celui qui maîtrise son penchant.",
+      "meaning": "La véritable puissance est d’abord une victoire sur soi-même.",
+      "transliteration": "Eizéhou guibor? Hakovesh et yitsro.",
+      "source": "Pirqé Avot 4:1",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Force",
+        "Maîtrise"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "איזהו גבור הכובש את יצרו qui est fort celui qui maitrise son penchant la veritable puissance est d abord une victoire sur soi meme pirqe avot 4 1 tradition juive force maitrise"
+    },
+    {
+      "id": "he-13",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵיזֶהוּ מְכֻבָּד? הַמְכַבֵּד אֶת הַבְּרִיּוֹת",
+      "french": "Qui est honoré ? Celui qui honore les autres.",
+      "meaning": "L’honneur ne se réclame pas : il se construit par le respect donné.",
+      "transliteration": "Eizéhou mekhoubad? Hamekhabed et habriyot.",
+      "source": "Pirqé Avot 4:1",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Respect",
+        "Humilité"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "איזהו מכבד המכבד את הבריות qui est honore celui qui honore les autres l honneur ne se reclame pas il se construit par le respect donne pirqe avot 4 1 tradition juive respect humilite"
+    },
+    {
+      "id": "he-14",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "הֱוֵי דָן אֶת כָּל הָאָדָם לְכַף זְכוּת",
+      "french": "Juge chaque personne favorablement.",
+      "meaning": "Avant de condamner, il faut laisser une place à l’explication la plus généreuse.",
+      "transliteration": "Hevei dan et kol ha-adam lekhaf zekhout.",
+      "source": "Pirqé Avot 1:6",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Jugement",
+        "Bienveillance"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.6",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "הוי דן את כל האדם לכף זכות juge chaque personne favorablement avant de condamner il faut laisser une place a l explication la plus genereuse pirqe avot 1 6 tradition juive jugement bienveillance"
+    },
+    {
+      "id": "he-15",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֱמֹר מְעַט וַעֲשֵׂה הַרְבֵּה",
+      "french": "Parle peu et fais beaucoup.",
+      "meaning": "La valeur d’une intention se mesure à ce qu’elle devient dans l’action.",
+      "transliteration": "Emor me-at va-assé harbé.",
+      "source": "Pirqé Avot 1:15",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Action",
+        "Parole"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.15",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "אמר מעט ועשה הרבה parle peu et fais beaucoup la valeur d une intention se mesure a ce qu elle devient dans l action pirqe avot 1 15 tradition juive action parole"
+    },
+    {
+      "id": "he-16",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "לֹא הַמִּדְרָשׁ הוּא הָעִקָּר, אֶלָּא הַמַּעֲשֶׂה",
+      "french": "Ce n’est pas l’étude qui est l’essentiel, mais l’action.",
+      "meaning": "Le savoir atteint sa finalité lorsqu’il transforme la conduite.",
+      "transliteration": "Lo hamidrash hou ha-ikar, ela hama-assé.",
+      "source": "Pirqé Avot 1:17",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Action",
+        "Étude"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.17",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "לא המדרש הוא העקר אלא המעשה ce n est pas l etude qui est l essentiel mais l action le savoir atteint sa finalite lorsqu il transforme la conduite pirqe avot 1 17 tradition juive action etude"
+    },
+    {
+      "id": "he-17",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "סְיָג לַחָכְמָה שְׁתִיקָה",
+      "french": "Le silence est une clôture pour la sagesse.",
+      "meaning": "Savoir se taire protège la réflexion et la parole juste.",
+      "transliteration": "Seyag la-‘hokhma shtika.",
+      "source": "Pirqé Avot 3:13",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Silence",
+        "Sagesse"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.3.13",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "סיג לחכמה שתיקה le silence est une cloture pour la sagesse savoir se taire protege la reflexion et la parole juste pirqe avot 3 13 tradition juive silence sagesse"
+    },
+    {
+      "id": "he-18",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "מִצְוָה גּוֹרֶרֶת מִצְוָה",
+      "french": "Une bonne action en entraîne une autre.",
+      "meaning": "Nos actes forment des habitudes qui orientent les actes suivants.",
+      "transliteration": "Mitsva goreret mitsva.",
+      "source": "Pirqé Avot 4:2",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Bonté",
+        "Habitude"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.2",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "מצוה גוררת מצוה une bonne action en entraine une autre nos actes forment des habitudes qui orientent les actes suivants pirqe avot 4 2 tradition juive bonte habitude"
+    },
+    {
+      "id": "he-19",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "דֶּרֶךְ אֶרֶץ קָדְמָה לַתּוֹרָה",
+      "french": "Le savoir-vivre précède la Torah.",
+      "meaning": "La décence humaine et le respect constituent le seuil de toute élévation spirituelle.",
+      "transliteration": "Derekh erets kadma la-Torah.",
+      "source": "Vayikra Rabbah 9:3",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Respect",
+        "Conduite"
+      ],
+      "sourceKind": "attributed",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "דרך ארץ קדמה לתורה le savoir vivre precede la torah la decence humaine et le respect constituent le seuil de toute elevation spirituelle vayikra rabbah 9 3 tradition juive respect conduite"
+    },
+    {
+      "id": "he-20",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "כָּל הַמְקַיֵּם נֶפֶשׁ אַחַת, מַעֲלִים עָלָיו כְּאִלּוּ קִיֵּם עוֹלָם מָלֵא",
+      "french": "Quiconque sauve une vie, c’est comme s’il avait sauvé un monde entier.",
+      "meaning": "Chaque existence possède une valeur incomparable et un univers de possibles.",
+      "transliteration": "Kol hamekayem nefesh a‘hat, ma-alim alav ke-ilou kiyem olam malé.",
+      "source": "Mishna Sanhédrin 4:5",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Vie",
+        "Humanité"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Mishnah_Sanhedrin.4.5",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "כל המקים נפש אחת מעלים עליו כאלו קים עולם מלא quiconque sauve une vie c est comme s il avait sauve un monde entier chaque existence possede une valeur incomparable et un univers de possibles mishna sanhedrin 4 5 tradition juive vie humanite"
+    },
+    {
+      "id": "he-21",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "טוֹב שֵׁם מִשֶּׁמֶן טוֹב",
+      "french": "Une bonne réputation vaut mieux qu’une huile précieuse.",
+      "meaning": "La qualité morale laisse une trace plus durable que la richesse matérielle.",
+      "transliteration": "Tov shem mishemen tov.",
+      "source": "Ecclésiaste 7:1",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Réputation",
+        "Vertu"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Ecclesiastes.7.1",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "טוב שם משמן טוב une bonne reputation vaut mieux qu une huile precieuse la qualite morale laisse une trace plus durable que la richesse materielle ecclesiaste 7 1 tradition juive reputation vertu"
+    },
+    {
+      "id": "he-22",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "מַיִם שְׁקֵטִים חוֹדְרִים עָמוֹק",
+      "french": "Les eaux calmes pénètrent profondément.",
+      "meaning": "La discrétion peut cacher une pensée profonde et une grande influence.",
+      "transliteration": "Mayim shketim ‘hodrim amok.",
+      "source": "Proverbe hébreu",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Calme",
+        "Profondeur"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "מים שקטים חודרים עמוק les eaux calmes penetrent profondement la discretion peut cacher une pensee profonde et une grande influence proverbe hebreu tradition juive calme profondeur"
+    },
+    {
+      "id": "he-23",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵין דָּבָר הָעוֹמֵד בִּפְנֵי הָרָצוֹן",
+      "french": "Rien ne résiste à la volonté.",
+      "meaning": "Une volonté ferme permet de franchir des limites que l’on croyait définitives.",
+      "transliteration": "Ein davar ha-omed bifnei haratson.",
+      "source": "Maxime hébraïque",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Volonté",
+        "Persévérance"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "אין דבר העומד בפני הרצון rien ne resiste a la volonte une volonte ferme permet de franchir des limites que l on croyait definitives maxime hebraique tradition juive volonte perseverance"
+    },
+    {
+      "id": "he-24",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "תָּפַשְׂתָּ מְרֻבֶּה לֹא תָּפַשְׂתָּ; תָּפַשְׂתָּ מוּעָט תָּפַשְׂתָּ",
+      "transliteration": "Tafasta meroubé lo tafasta ; tafasta mouat tafasta.",
+      "french": "Qui veut saisir trop ne saisit rien ; qui saisit peu, saisit.",
+      "meaning": "Dans l’incertitude, une ambition limitée mais certaine vaut mieux qu’une prétention impossible à tenir.",
+      "source": "Talmud de Babylone, Yoma 80a",
+      "sourceUrl": "https://www.sefaria.org/Yoma.80a.4-5",
+      "sourceKind": "text",
+      "tags": [
+        "Mesure",
+        "Prudence"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "תפשת מרבה לא תפשת תפשת מועט תפשת qui veut saisir trop ne saisit rien qui saisit peu saisit dans l incertitude une ambition limitee mais certaine vaut mieux qu une pretention impossible a tenir talmud de babylone yoma 80a talmud de babylone mesure prudence"
+    },
+    {
+      "id": "he-25",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "אֵין חָבוּשׁ מַתִּיר עַצְמוֹ מִבֵּית הָאֲסוּרִים",
+      "transliteration": "Ein ḥavoush matir atsmo mi-beit ha-assourim.",
+      "french": "Un prisonnier ne se libère pas lui-même de sa prison.",
+      "meaning": "Même le sage ou le soignant peut avoir besoin d’autrui pour sortir de sa propre épreuve.",
+      "source": "Talmud de Babylone, Berakhot 5b:13",
+      "sourceUrl": "https://www.sefaria.org/Berakhot.5b.13",
+      "sourceKind": "text",
+      "tags": [
+        "Entraide",
+        "Limite"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "אין חבוש מתיר עצמו מבית האסורים un prisonnier ne se libere pas lui meme de sa prison meme le sage ou le soignant peut avoir besoin d autrui pour sortir de sa propre epreuve talmud de babylone berakhot 5b 13 talmud de babylone entraide limite"
+    },
+    {
+      "id": "he-26",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "גָּדוֹל תַּלְמוּד שֶׁהַתַּלְמוּד מֵבִיא לִידֵי מַעֲשֶׂה",
+      "transliteration": "Gadol talmoud, she-ha-talmoud mevi lidei maassé.",
+      "french": "Grande est l’étude, car l’étude conduit à l’action.",
+      "meaning": "L’apprentissage tire sa grandeur de sa capacité à transformer la conduite.",
+      "source": "Talmud de Babylone, Kiddushin 40b:8",
+      "sourceUrl": "https://www.sefaria.org/Kiddushin.40b.8",
+      "sourceKind": "text",
+      "tags": [
+        "Étude",
+        "Action"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "גדול תלמוד שהתלמוד מביא לידי מעשה grande est l etude car l etude conduit a l action l apprentissage tire sa grandeur de sa capacite a transformer la conduite talmud de babylone kiddushin 40b 8 talmud de babylone etude action"
+    },
+    {
+      "id": "he-27",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "arc",
+      "rtl": true,
+      "original": "כָּל דְּעָבֵיד רַחְמָנָא לְטַב עָבֵיד",
+      "transliteration": "Kol de-avid Raḥmana le-tav avid.",
+      "french": "Tout ce que fait le Miséricordieux, Il le fait pour le bien.",
+      "meaning": "La confiance religieuse cherche un sens favorable même dans l’événement incompréhensible.",
+      "source": "Talmud de Babylone, Berakhot 60b",
+      "sourceUrl": "https://www.sefaria.org/Berakhot.60b",
+      "sourceKind": "text",
+      "tags": [
+        "Confiance",
+        "Épreuve"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "כל דעביד רחמנא לטב עביד tout ce que fait le misericordieux il le fait pour le bien la confiance religieuse cherche un sens favorable meme dans l evenement incomprehensible talmud de babylone berakhot 60b talmud de babylone confiance epreuve"
+    },
+    {
+      "id": "zh-1",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "千里之行，始于足下。",
+      "french": "Un voyage de mille lis commence sous les pieds.",
+      "meaning": "Les ambitions les plus vastes commencent par un premier pas concret.",
+      "transliteration": "Qiān lǐ zhī xíng, shǐ yú zú xià.",
+      "source": "Laozi, Daodejing 64",
+      "lang": "zh",
+      "tags": [
+        "Action",
+        "Voyage"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "千里之行 始于足下 un voyage de mille lis commence sous les pieds les ambitions les plus vastes commencent par un premier pas concret laozi daodejing 64 chine action voyage"
+    },
+    {
+      "id": "zh-2",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "学而时习之，不亦说乎？",
+      "french": "Apprendre et mettre régulièrement en pratique : n’est-ce pas une joie ?",
+      "meaning": "Le savoir devient vivant lorsqu’il est repris, exercé et éprouvé.",
+      "transliteration": "Xué ér shí xí zhī, bù yì yuè hū?",
+      "source": "Confucius, Entretiens 1.1",
+      "lang": "zh",
+      "tags": [
+        "Apprentissage",
+        "Joie"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "学而时习之 不亦说乎 apprendre et mettre regulierement en pratique n est ce pas une joie le savoir devient vivant lorsqu il est repris exerce et eprouve confucius entretiens 1 1 chine apprentissage joie"
+    },
+    {
+      "id": "zh-3",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "三人行，必有我师焉。",
+      "french": "Quand trois personnes cheminent ensemble, l’une d’elles peut certainement être mon maître.",
+      "meaning": "Toute rencontre offre une occasion d’apprendre.",
+      "transliteration": "Sān rén xíng, bì yǒu wǒ shī yān.",
+      "source": "Confucius, Entretiens 7.22",
+      "lang": "zh",
+      "tags": [
+        "Humilité",
+        "Apprentissage"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "三人行 必有我师焉 quand trois personnes cheminent ensemble l une d elles peut certainement etre mon maitre toute rencontre offre une occasion d apprendre confucius entretiens 7 22 chine humilite apprentissage"
+    },
+    {
+      "id": "zh-4",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "滴水穿石。",
+      "french": "La goutte d’eau finit par percer la pierre.",
+      "meaning": "Une force modeste devient irrésistible lorsqu’elle agit avec constance.",
+      "transliteration": "Dī shuǐ chuān shí.",
+      "source": "Expression chinoise",
+      "lang": "zh",
+      "tags": [
+        "Constance",
+        "Persévérance"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "滴水穿石 la goutte d eau finit par percer la pierre une force modeste devient irresistible lorsqu elle agit avec constance expression chinoise chine constance perseverance"
+    },
+    {
+      "id": "zh-5",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "塞翁失马，焉知非福。",
+      "french": "Le vieil homme de la frontière perd son cheval : qui sait si ce n’est pas une chance ?",
+      "meaning": "Un malheur apparent peut préparer un bienfait, et inversement.",
+      "transliteration": "Sài wēng shī mǎ, yān zhī fēi fú.",
+      "source": "Huainanzi",
+      "lang": "zh",
+      "tags": [
+        "Destin",
+        "Perspective"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "塞翁失马 焉知非福 le vieil homme de la frontiere perd son cheval qui sait si ce n est pas une chance un malheur apparent peut preparer un bienfait et inversement huainanzi chine destin perspective"
+    },
+    {
+      "id": "zh-6",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "欲速则不达。",
+      "french": "Qui veut aller trop vite n’atteint pas son but.",
+      "meaning": "La précipitation compromet parfois ce qu’elle prétend accélérer.",
+      "transliteration": "Yù sù zé bù dá.",
+      "source": "Confucius, Entretiens 13.17",
+      "lang": "zh",
+      "tags": [
+        "Patience",
+        "Mesure"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "欲速则不达 qui veut aller trop vite n atteint pas son but la precipitation compromet parfois ce qu elle pretend accelerer confucius entretiens 13 17 chine patience mesure"
+    },
+    {
+      "id": "zh-7",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "失败是成功之母。",
+      "french": "L’échec est la mère du succès.",
+      "meaning": "L’échec peut instruire et préparer une réussite plus solide.",
+      "transliteration": "Shībài shì chénggōng zhī mǔ.",
+      "source": "Proverbe chinois",
+      "lang": "zh",
+      "tags": [
+        "Échec",
+        "Résilience"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "失败是成功之母 l echec est la mere du succes l echec peut instruire et preparer une reussite plus solide proverbe chinois chine echec resilience"
+    },
+    {
+      "id": "zh-8",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "百闻不如一见。",
+      "french": "Entendre cent fois ne vaut pas voir une fois.",
+      "meaning": "L’expérience directe éclaire mieux que de nombreux récits.",
+      "transliteration": "Bǎi wén bù rú yí jiàn.",
+      "source": "Proverbe chinois",
+      "lang": "zh",
+      "tags": [
+        "Expérience",
+        "Vérité"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "百闻不如一见 entendre cent fois ne vaut pas voir une fois l experience directe eclaire mieux que de nombreux recits proverbe chinois chine experience verite"
+    },
+    {
+      "id": "zh-9",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "冰冻三尺，非一日之寒。",
+      "french": "Trois pieds de glace ne se forment pas en un seul jour de froid.",
+      "meaning": "Les situations profondes sont le résultat d’une longue accumulation.",
+      "transliteration": "Bīng dòng sān chǐ, fēi yí rì zhī hán.",
+      "source": "Proverbe chinois",
+      "lang": "zh",
+      "tags": [
+        "Temps",
+        "Conséquence"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "冰冻三尺 非一日之寒 trois pieds de glace ne se forment pas en un seul jour de froid les situations profondes sont le resultat d une longue accumulation proverbe chinois chine temps consequence"
+    },
+    {
+      "id": "zh-10",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "活到老，学到老。",
+      "french": "Vis jusqu’à la vieillesse, apprends jusqu’à la vieillesse.",
+      "meaning": "L’apprentissage n’a pas d’âge ni de terme.",
+      "transliteration": "Huó dào lǎo, xué dào lǎo.",
+      "source": "Proverbe chinois",
+      "lang": "zh",
+      "tags": [
+        "Apprentissage",
+        "Vie"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "活到老 学到老 vis jusqu a la vieillesse apprends jusqu a la vieillesse l apprentissage n a pas d age ni de terme proverbe chinois chine apprentissage vie"
+    },
+    {
+      "id": "zh-11",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "众人拾柴火焰高。",
+      "french": "Quand chacun apporte du bois, la flamme monte haut.",
+      "meaning": "La contribution de tous amplifie la force collective.",
+      "transliteration": "Zhòng rén shí chái huǒ yàn gāo.",
+      "source": "Proverbe chinois",
+      "lang": "zh",
+      "tags": [
+        "Coopération",
+        "Unité"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "众人拾柴火焰高 quand chacun apporte du bois la flamme monte haut la contribution de tous amplifie la force collective proverbe chinois chine cooperation unite"
+    },
+    {
+      "id": "zh-12",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "前人栽树，后人乘凉。",
+      "french": "Les anciens plantent les arbres, les générations suivantes profitent de leur ombre.",
+      "meaning": "Certaines œuvres sont accomplies pour ceux qui viendront après nous.",
+      "transliteration": "Qián rén zāi shù, hòu rén chéng liáng.",
+      "source": "Proverbe chinois",
+      "lang": "zh",
+      "tags": [
+        "Transmission",
+        "Générations"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "前人栽树 后人乘凉 les anciens plantent les arbres les generations suivantes profitent de leur ombre certaines œuvres sont accomplies pour ceux qui viendront apres nous proverbe chinois chine transmission generations"
+    },
+    {
+      "id": "zh-13",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "知己知彼，百战不殆。",
+      "french": "Connais-toi et connais l’autre : tu ne seras pas en danger dans cent combats.",
+      "meaning": "La lucidité sur soi et sur l’environnement prépare l’action juste.",
+      "transliteration": "Zhī jǐ zhī bǐ, bǎi zhàn bù dài.",
+      "source": "Sun Tzu, L’Art de la guerre",
+      "lang": "zh",
+      "tags": [
+        "Connaissance",
+        "Stratégie"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "知己知彼 百战不殆 connais toi et connais l autre tu ne seras pas en danger dans cent combats la lucidite sur soi et sur l environnement prepare l action juste sun tzu l art de la guerre chine connaissance strategie"
+    },
+    {
+      "id": "zh-15",
+      "culture": "Chine",
+      "place": "Chine",
+      "mark": "中",
+      "original": "不怕慢，就怕站。",
+      "french": "Ne crains pas d’avancer lentement ; crains seulement de t’arrêter.",
+      "meaning": "La continuité importe davantage que la vitesse.",
+      "transliteration": "Bù pà màn, jiù pà zhàn.",
+      "source": "Proverbe chinois",
+      "lang": "zh",
+      "tags": [
+        "Persévérance",
+        "Action"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "不怕慢 就怕站 ne crains pas d avancer lentement crains seulement de t arreter la continuite importe davantage que la vitesse proverbe chinois chine perseverance action"
+    },
+    {
+      "id": "zh-16",
+      "culture": "Chine",
+      "place": "Chine ancienne",
+      "mark": "中",
+      "lang": "zh",
+      "original": "己所不欲，勿施于人。",
+      "transliteration": "Jǐ suǒ bù yù, wù shī yú rén.",
+      "french": "Ce que tu ne désires pas pour toi, ne l’impose pas aux autres.",
+      "meaning": "La réciprocité offre une règle simple pour éprouver la justice de son action.",
+      "source": "Confucius, Entretiens 15.24",
+      "sourceUrl": "https://ctext.org/text.pl?if=en&node=1504",
+      "sourceKind": "text",
+      "tags": [
+        "Réciprocité",
+        "Justice"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "己所不欲 勿施于人 ce que tu ne desires pas pour toi ne l impose pas aux autres la reciprocite offre une regle simple pour eprouver la justice de son action confucius entretiens 15 24 chine ancienne reciprocite justice"
+    },
+    {
+      "id": "zh-17",
+      "culture": "Chine",
+      "place": "Chine ancienne",
+      "mark": "中",
+      "lang": "zh",
+      "original": "温故而知新，可以为师矣。",
+      "transliteration": "Wēn gù ér zhī xīn, kě yǐ wéi shī yǐ.",
+      "french": "Réchauffer l’ancien et comprendre le nouveau : ainsi peut-on devenir maître.",
+      "meaning": "L’innovation féconde s’appuie sur une fréquentation vivante de l’héritage.",
+      "source": "Confucius, Entretiens 2.11",
+      "sourceUrl": "https://ctext.org/analects/wei-zheng",
+      "sourceKind": "text",
+      "tags": [
+        "Mémoire",
+        "Apprentissage"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "温故而知新 可以为师矣 rechauffer l ancien et comprendre le nouveau ainsi peut on devenir maitre l innovation feconde s appuie sur une frequentation vivante de l heritage confucius entretiens 2 11 chine ancienne memoire apprentissage"
+    },
+    {
+      "id": "zh-18",
+      "culture": "Chine",
+      "place": "Chine ancienne",
+      "mark": "中",
+      "lang": "zh",
+      "original": "知之为知之，不知为不知，是知也。",
+      "transliteration": "Zhī zhī wéi zhī zhī, bù zhī wéi bù zhī, shì zhī yě.",
+      "french": "Savoir que l’on sait, et savoir que l’on ne sait pas : voilà le savoir.",
+      "meaning": "La connaissance commence par une frontière honnêtement reconnue.",
+      "source": "Confucius, Entretiens 2.17",
+      "sourceUrl": "https://ctext.org/analects/wei-zheng",
+      "sourceKind": "text",
+      "tags": [
+        "Savoir",
+        "Humilité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "知之为知之 不知为不知 是知也 savoir que l on sait et savoir que l on ne sait pas voila le savoir la connaissance commence par une frontiere honnetement reconnue confucius entretiens 2 17 chine ancienne savoir humilite"
+    },
+    {
+      "id": "zh-19",
+      "culture": "Chine",
+      "place": "Chine ancienne",
+      "mark": "中",
+      "lang": "zh",
+      "original": "工欲善其事，必先利其器。",
+      "transliteration": "Gōng yù shàn qí shì, bì xiān lì qí qì.",
+      "french": "L’artisan qui veut bien faire son travail doit d’abord affûter ses outils.",
+      "meaning": "La qualité du résultat dépend aussi du soin apporté à la préparation.",
+      "source": "Confucius, Entretiens 15.10",
+      "sourceUrl": "https://ctext.org/analects/wei-ling-gong",
+      "sourceKind": "text",
+      "tags": [
+        "Préparation",
+        "Travail"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "工欲善其事 必先利其器 l artisan qui veut bien faire son travail doit d abord affuter ses outils la qualite du resultat depend aussi du soin apporte a la preparation confucius entretiens 15 10 chine ancienne preparation travail"
+    },
+    {
+      "id": "zh-20",
+      "culture": "Chine",
+      "place": "Chine ancienne",
+      "mark": "中",
+      "lang": "zh",
+      "original": "祸兮福之所倚，福兮祸之所伏。",
+      "transliteration": "Huò xī fú zhī suǒ yǐ, fú xī huò zhī suǒ fú.",
+      "french": "Le malheur s’appuie sur le bonheur ; le bonheur recèle le malheur.",
+      "meaning": "Les contraires se transforment et rendent tout jugement immédiat fragile.",
+      "source": "Laozi, Daodejing 58",
+      "sourceUrl": "https://ctext.org/dao-de-jing",
+      "sourceKind": "text",
+      "tags": [
+        "Destin",
+        "Perspective"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "祸兮福之所倚 福兮祸之所伏 le malheur s appuie sur le bonheur le bonheur recele le malheur les contraires se transforment et rendent tout jugement immediat fragile laozi daodejing 58 chine ancienne destin perspective"
+    },
+    {
+      "id": "zh-21",
+      "culture": "Chine",
+      "place": "Chine ancienne",
+      "mark": "中",
+      "lang": "zh",
+      "original": "知人者智，自知者明。",
+      "transliteration": "Zhī rén zhě zhì, zì zhī zhě míng.",
+      "french": "Connaître les autres est intelligence ; se connaître soi-même est lumière.",
+      "meaning": "La lucidité intérieure est présentée comme une compréhension plus profonde.",
+      "source": "Laozi, Daodejing 33",
+      "sourceUrl": "https://ctext.org/dao-de-jing",
+      "sourceKind": "text",
+      "tags": [
+        "Connaissance",
+        "Lucidité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "知人者智 自知者明 connaitre les autres est intelligence se connaitre soi meme est lumiere la lucidite interieure est presentee comme une comprehension plus profonde laozi daodejing 33 chine ancienne connaissance lucidite"
+    },
+    {
+      "id": "in-1",
+      "culture": "Inde",
+      "place": "Inde",
+      "mark": "अ",
+      "original": "सत्यमेव जयते",
+      "french": "Seule la vérité triomphe.",
+      "meaning": "La vérité possède une force durable que le mensonge ne peut égaler.",
+      "transliteration": "Satyameva jayate.",
+      "source": "Mundaka Upanishad 3.1.6",
+      "lang": "sa",
+      "tags": [
+        "Vérité",
+        "Justice"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "सतयमव जयत seule la verite triomphe la verite possede une force durable que le mensonge ne peut egaler mundaka upanishad 3 1 6 inde verite justice"
+    },
+    {
+      "id": "in-2",
+      "culture": "Inde",
+      "place": "Inde",
+      "mark": "अ",
+      "original": "अहिंसा परमो धर्मः",
+      "french": "La non-violence est le devoir le plus élevé.",
+      "meaning": "Le respect du vivant est posé comme une exigence morale supérieure.",
+      "transliteration": "Ahimsā paramo dharmaḥ.",
+      "source": "Mahabharata",
+      "lang": "sa",
+      "tags": [
+        "Paix",
+        "Devoir"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "अहस परम धरम la non violence est le devoir le plus eleve le respect du vivant est pose comme une exigence morale superieure mahabharata inde paix devoir"
+    },
+    {
+      "id": "in-3",
+      "culture": "Inde",
+      "place": "Inde",
+      "mark": "अ",
+      "original": "वसुधैव कुटुम्बकम्",
+      "french": "Le monde entier est une seule famille.",
+      "meaning": "L’appartenance humaine dépasse les frontières et les cercles particuliers.",
+      "transliteration": "Vasudhaiva kuṭumbakam.",
+      "source": "Maha Upanishad 6.72",
+      "lang": "sa",
+      "tags": [
+        "Humanité",
+        "Unité"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "वसधव कटमबकम le monde entier est une seule famille l appartenance humaine depasse les frontieres et les cercles particuliers maha upanishad 6 72 inde humanite unite"
+    },
+    {
+      "id": "in-4",
+      "culture": "Inde",
+      "place": "Inde",
+      "mark": "अ",
+      "original": "अति सर्वत्र वर्जयेत्",
+      "french": "L’excès doit être évité en toute chose.",
+      "meaning": "La mesure protège même les qualités de leur propre démesure.",
+      "transliteration": "Ati sarvatra varjayet.",
+      "source": "Maxime sanskrite",
+      "lang": "sa",
+      "tags": [
+        "Mesure",
+        "Équilibre"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "अत सरवतर वरजयत l exces doit etre evite en toute chose la mesure protege meme les qualites de leur propre demesure maxime sanskrite inde mesure equilibre"
+    },
+    {
+      "id": "in-5",
+      "culture": "Inde",
+      "place": "Inde",
+      "mark": "अ",
+      "original": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
+      "french": "Tu as droit à l’action, jamais à ses fruits.",
+      "meaning": "Agir pleinement sans s’attacher au résultat libère l’action de l’obsession de la récompense.",
+      "transliteration": "Karmaṇy evādhikāras te mā phaleṣu kadācana.",
+      "source": "Bhagavad-Gita 2.47",
+      "lang": "sa",
+      "tags": [
+        "Action",
+        "Détachement"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "करमणयवधकरसत म फलष कदचन tu as droit a l action jamais a ses fruits agir pleinement sans s attacher au resultat libere l action de l obsession de la recompense bhagavad gita 2 47 inde action detachement"
+    },
+    {
+      "id": "in-6",
+      "culture": "Inde",
+      "place": "Inde",
+      "mark": "अ",
+      "original": "उद्यमेन हि सिद्ध्यन्ति कार्याणि न मनोरथैः",
+      "french": "Les œuvres s’accomplissent par l’effort, non par les seuls souhaits.",
+      "meaning": "L’intention ne porte de fruit que lorsqu’elle devient travail.",
+      "transliteration": "Udyamena hi sidhyanti kāryāṇi na manorathaiḥ.",
+      "source": "Panchatantra",
+      "lang": "sa",
+      "tags": [
+        "Effort",
+        "Action"
+      ],
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "उदयमन ह सदधयनत करयण न मनरथ les œuvres s accomplissent par l effort non par les seuls souhaits l intention ne porte de fruit que lorsqu elle devient travail panchatantra inde effort action"
+    },
+    {
+      "id": "in-7",
+      "culture": "Inde",
+      "place": "Inde",
+      "mark": "अ",
+      "original": "विद्या धनं सर्वधनप्रधानम्",
+      "french": "Le savoir est la première de toutes les richesses.",
+      "meaning": "La connaissance accompagne celui qui la possède et peut toujours être partagée.",
+      "transliteration": "Vidyā dhanaṃ sarvadhana-pradhānam.",
+      "source": "Maxime sanskrite",
+      "lang": "sa",
+      "tags": [
+        "Savoir",
+        "Richesse"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "वदय धन सरवधनपरधनम le savoir est la premiere de toutes les richesses la connaissance accompagne celui qui la possede et peut toujours etre partagee maxime sanskrite inde savoir richesse"
+    },
+    {
+      "id": "in-9",
+      "culture": "Inde",
+      "place": "Inde",
+      "mark": "अ",
+      "original": "एकता में बल है",
+      "french": "L’unité fait la force.",
+      "meaning": "Des volontés réunies accomplissent ce qu’aucune ne pourrait faire seule.",
+      "transliteration": "Ektā meṃ bal hai.",
+      "source": "Proverbe hindi",
+      "lang": "hi",
+      "tags": [
+        "Unité",
+        "Force"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "एकत म बल ह l unite fait la force des volontes reunies accomplissent ce qu aucune ne pourrait faire seule proverbe hindi inde unite force"
+    },
+    {
+      "id": "in-10",
+      "culture": "Inde",
+      "place": "Inde",
+      "mark": "अ",
+      "original": "जैसा बोओगे वैसा काटोगे",
+      "french": "Tu récolteras ce que tu auras semé.",
+      "meaning": "Les actes d’aujourd’hui façonnent les conséquences de demain.",
+      "transliteration": "Jaisā booge vaisā kāṭoge.",
+      "source": "Proverbe hindi",
+      "lang": "hi",
+      "tags": [
+        "Conséquence",
+        "Responsabilité"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "जस बओग वस कटग tu recolteras ce que tu auras seme les actes d aujourd hui faconnent les consequences de demain proverbe hindi inde consequence responsabilite"
+    },
+    {
+      "id": "in-11",
+      "culture": "Inde",
+      "place": "Inde",
+      "mark": "अ",
+      "original": "बूंद बूंद से सागर भरता है",
+      "french": "Goutte après goutte, l’océan se remplit.",
+      "meaning": "Les contributions minuscules deviennent immenses par accumulation.",
+      "transliteration": "Būnd būnd se sāgar bhartā hai.",
+      "source": "Proverbe hindi",
+      "lang": "hi",
+      "tags": [
+        "Constance",
+        "Patience"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "बद बद स सगर भरत ह goutte apres goutte l ocean se remplit les contributions minuscules deviennent immenses par accumulation proverbe hindi inde constance patience"
+    },
+    {
+      "id": "in-12",
+      "culture": "Inde",
+      "place": "Inde",
+      "mark": "अ",
+      "original": "जहाँ चाह वहाँ राह",
+      "french": "Là où il y a une volonté, il y a un chemin.",
+      "meaning": "La détermination découvre des passages à travers les obstacles.",
+      "transliteration": "Jahā̃ cāh vahā̃ rāh.",
+      "source": "Proverbe hindi",
+      "lang": "hi",
+      "tags": [
+        "Volonté",
+        "Chemin"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "जह चह वह रह la ou il y a une volonte il y a un chemin la determination decouvre des passages a travers les obstacles proverbe hindi inde volonte chemin"
+    },
+    {
+      "id": "in-13",
+      "culture": "Inde",
+      "place": "Inde ancienne",
+      "mark": "अ",
+      "lang": "sa",
+      "original": "योगः कर्मसु कौशलम्",
+      "transliteration": "Yogaḥ karmasu kauśalam.",
+      "french": "Le yoga est habileté dans l’action.",
+      "meaning": "L’action juste unit compétence, équilibre intérieur et détachement du résultat.",
+      "source": "Bhagavad-Gītā 2.50",
+      "sourceUrl": "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=2&field_nsutra_value=50&language=dv",
+      "sourceKind": "text",
+      "tags": [
+        "Action",
+        "Maîtrise"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "यग करमस कशलम le yoga est habilete dans l action l action juste unit competence equilibre interieur et detachement du resultat bhagavad gita 2 50 inde ancienne action maitrise"
+    },
+    {
+      "id": "in-14",
+      "culture": "Inde",
+      "place": "Inde ancienne",
+      "mark": "अ",
+      "lang": "sa",
+      "original": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते",
+      "transliteration": "Na hi jñānena sadṛśaṃ pavitram iha vidyate.",
+      "french": "Il n’est ici rien d’aussi purificateur que la connaissance.",
+      "meaning": "La connaissance véritable transforme celui qui la reçoit.",
+      "source": "Bhagavad-Gītā 4.38",
+      "sourceUrl": "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=4&field_nsutra_value=38&language=dv",
+      "sourceKind": "text",
+      "tags": [
+        "Savoir",
+        "Transformation"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "न ह जञनन सदश पवतरमह वदयत il n est ici rien d aussi purificateur que la connaissance la connaissance veritable transforme celui qui la recoit bhagavad gita 4 38 inde ancienne savoir transformation"
+    },
+    {
+      "id": "in-15",
+      "culture": "Inde",
+      "place": "Inde ancienne",
+      "mark": "अ",
+      "lang": "sa",
+      "original": "उद्धरेदात्मनाऽऽत्मानं नात्मानमवसादयेत्",
+      "transliteration": "Uddhared ātmanātmānaṃ nātmānam avasādayet.",
+      "french": "Que chacun s’élève par lui-même et ne s’abaisse pas.",
+      "meaning": "Le même esprit peut devenir son propre allié ou son propre adversaire.",
+      "source": "Bhagavad-Gītā 6.5",
+      "sourceUrl": "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=6&field_nsutra_value=5&language=dv",
+      "sourceKind": "text",
+      "tags": [
+        "Responsabilité",
+        "Maîtrise"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "उदधरदतमनऽऽतमन नतमनमवसदयत que chacun s eleve par lui meme et ne s abaisse pas le meme esprit peut devenir son propre allie ou son propre adversaire bhagavad gita 6 5 inde ancienne responsabilite maitrise"
+    },
+    {
+      "id": "in-16",
+      "culture": "Inde",
+      "place": "Inde ancienne",
+      "mark": "अ",
+      "lang": "sa",
+      "original": "आ नो भद्राः क्रतवो यन्तु विश्वतः",
+      "transliteration": "Ā no bhadrāḥ kratavo yantu viśvataḥ.",
+      "french": "Que de nobles pensées nous viennent de toutes parts.",
+      "meaning": "La sagesse accueille le vrai et le bon sans les enfermer dans une seule provenance.",
+      "source": "Ṛg-Veda 1.89.1",
+      "sourceUrl": "https://sacred-texts.com/hin/rigveda/rv01089.htm",
+      "sourceKind": "text",
+      "tags": [
+        "Ouverture",
+        "Savoir"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "आ न भदर करतव यनत वशवत que de nobles pensees nous viennent de toutes parts la sagesse accueille le vrai et le bon sans les enfermer dans une seule provenance rg veda 1 89 1 inde ancienne ouverture savoir"
+    },
+    {
+      "id": "wo-1",
+      "culture": "Monde",
+      "place": "Japon",
+      "mark": "日",
+      "original": "七転び八起き",
+      "french": "Tomber sept fois, se relever huit.",
+      "meaning": "La résilience ne consiste pas à ne jamais tomber, mais à se relever une fois de plus.",
+      "transliteration": "Nana korobi ya oki.",
+      "source": "Proverbe japonais",
+      "lang": "ja",
+      "tags": [
+        "Résilience",
+        "Courage"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "七転ひ八起き tomber sept fois se relever huit la resilience ne consiste pas a ne jamais tomber mais a se relever une fois de plus proverbe japonais japon resilience courage"
+    },
+    {
+      "id": "wo-2",
+      "culture": "Monde",
+      "place": "Monde arabe",
+      "mark": "ع",
+      "original": "الصبر مفتاح الفرج",
+      "french": "La patience est la clé du soulagement.",
+      "meaning": "L’endurance ouvre une issue lorsque l’épreuve semble fermée.",
+      "transliteration": "As-sabr miftāh al-faraj.",
+      "source": "Proverbe arabe",
+      "lang": "ar",
+      "rtl": true,
+      "tags": [
+        "Patience",
+        "Espoir"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "الصبر مفتاح الفرج la patience est la cle du soulagement l endurance ouvre une issue lorsque l epreuve semble fermee proverbe arabe monde arabe patience espoir"
+    },
+    {
+      "id": "wo-3",
+      "culture": "Monde",
+      "place": "Afrique de l’Est",
+      "mark": "SW",
+      "original": "Haraka haraka haina baraka.",
+      "french": "La précipitation n’apporte pas de bénédiction.",
+      "meaning": "La hâte peut priver le travail de soin et le choix de discernement.",
+      "source": "Proverbe swahili",
+      "lang": "sw",
+      "tags": [
+        "Patience",
+        "Mesure"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "haraka haraka haina baraka la precipitation n apporte pas de benediction la hate peut priver le travail de soin et le choix de discernement proverbe swahili afrique de l est patience mesure"
+    },
+    {
+      "id": "wo-4",
+      "culture": "Monde",
+      "place": "Espagne",
+      "mark": "ES",
+      "original": "No hay mal que por bien no venga.",
+      "french": "Il n’est pas de mal dont un bien ne puisse sortir.",
+      "meaning": "Une épreuve peut ouvrir une possibilité inattendue.",
+      "source": "Proverbe espagnol",
+      "lang": "es",
+      "tags": [
+        "Espoir",
+        "Perspective"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "no hay mal que por bien no venga il n est pas de mal dont un bien ne puisse sortir une epreuve peut ouvrir une possibilite inattendue proverbe espagnol espagne espoir perspective"
+    },
+    {
+      "id": "wo-5",
+      "culture": "Monde",
+      "place": "Italie",
+      "mark": "IT",
+      "original": "Chi va piano va sano e va lontano.",
+      "french": "Qui va doucement va sûrement et va loin.",
+      "meaning": "Un rythme maîtrisé rend le voyage plus durable.",
+      "source": "Proverbe italien",
+      "lang": "it",
+      "tags": [
+        "Patience",
+        "Voyage"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "chi va piano va sano e va lontano qui va doucement va surement et va loin un rythme maitrise rend le voyage plus durable proverbe italien italie patience voyage"
+    },
+    {
+      "id": "wo-6",
+      "culture": "Monde",
+      "place": "Russie",
+      "mark": "РУ",
+      "original": "Без труда не вытащишь и рыбку из пруда.",
+      "french": "Sans effort, on ne sort même pas un poisson de l’étang.",
+      "meaning": "Même le résultat le plus modeste demande du travail.",
+      "transliteration": "Bez truda ne vytashchish i rybku iz pruda.",
+      "source": "Proverbe russe",
+      "lang": "ru",
+      "tags": [
+        "Effort",
+        "Travail"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "без труда не вытащишь и рыбку из пруда sans effort on ne sort meme pas un poisson de l etang meme le resultat le plus modeste demande du travail proverbe russe russie effort travail"
+    },
+    {
+      "id": "wo-7",
+      "culture": "Monde",
+      "place": "Portugal",
+      "mark": "PT",
+      "original": "Devagar se vai ao longe.",
+      "french": "C’est en allant doucement que l’on va loin.",
+      "meaning": "La constance importe davantage que la vitesse initiale.",
+      "source": "Proverbe portugais",
+      "lang": "pt",
+      "tags": [
+        "Constance",
+        "Patience"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "devagar se vai ao longe c est en allant doucement que l on va loin la constance importe davantage que la vitesse initiale proverbe portugais portugal constance patience"
+    },
+    {
+      "id": "wo-8",
+      "culture": "Monde",
+      "place": "Pays-Bas",
+      "mark": "NL",
+      "original": "Na regen komt zonneschijn.",
+      "french": "Après la pluie vient le soleil.",
+      "meaning": "Aucune période sombre ne dure éternellement.",
+      "source": "Proverbe néerlandais",
+      "lang": "nl",
+      "tags": [
+        "Espoir",
+        "Résilience"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "na regen komt zonneschijn apres la pluie vient le soleil aucune periode sombre ne dure eternellement proverbe neerlandais pays bas espoir resilience"
+    },
+    {
+      "id": "wo-9",
+      "culture": "Monde",
+      "place": "Japon",
+      "mark": "日",
+      "original": "猿も木から落ちる",
+      "french": "Même les singes tombent des arbres.",
+      "meaning": "Même les experts peuvent commettre une erreur.",
+      "transliteration": "Saru mo ki kara ochiru.",
+      "source": "Proverbe japonais",
+      "lang": "ja",
+      "tags": [
+        "Erreur",
+        "Humilité"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "猿も木から落ちる meme les singes tombent des arbres meme les experts peuvent commettre une erreur proverbe japonais japon erreur humilite"
+    },
+    {
+      "id": "wo-10",
+      "culture": "Monde",
+      "place": "Japon",
+      "mark": "日",
+      "original": "石の上にも三年",
+      "french": "Trois ans même sur une pierre.",
+      "meaning": "La persévérance finit par rendre supportable et féconde une situation difficile.",
+      "transliteration": "Ishi no ue ni mo san nen.",
+      "source": "Proverbe japonais",
+      "lang": "ja",
+      "tags": [
+        "Patience",
+        "Persévérance"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "石の上にも三年 trois ans meme sur une pierre la perseverance finit par rendre supportable et feconde une situation difficile proverbe japonais japon patience perseverance"
+    },
+    {
+      "id": "wo-11",
+      "culture": "Monde",
+      "place": "Japon",
+      "mark": "日",
+      "original": "出る杭は打たれる",
+      "french": "Le clou qui dépasse reçoit le marteau.",
+      "meaning": "Celui qui se distingue s’expose à la pression du groupe.",
+      "transliteration": "Deru kui wa utareru.",
+      "source": "Proverbe japonais",
+      "lang": "ja",
+      "tags": [
+        "Groupe",
+        "Différence"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "出る杭は打たれる le clou qui depasse recoit le marteau celui qui se distingue s expose a la pression du groupe proverbe japonais japon groupe difference"
+    },
+    {
+      "id": "wo-12",
+      "culture": "Monde",
+      "place": "Monde arabe",
+      "mark": "ع",
+      "original": "العلم نور",
+      "french": "Le savoir est une lumière.",
+      "meaning": "La connaissance éclaire la compréhension et guide la conduite.",
+      "transliteration": "Al-‘ilm nūr.",
+      "source": "Proverbe arabe",
+      "lang": "ar",
+      "rtl": true,
+      "tags": [
+        "Savoir",
+        "Lumière"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "العلم نور le savoir est une lumiere la connaissance eclaire la comprehension et guide la conduite proverbe arabe monde arabe savoir lumiere"
+    },
+    {
+      "id": "wo-13",
+      "culture": "Monde",
+      "place": "Monde arabe",
+      "mark": "ع",
+      "original": "يد واحدة لا تصفق",
+      "french": "Une seule main n’applaudit pas.",
+      "meaning": "Certaines choses ne peuvent s’accomplir que par la coopération.",
+      "transliteration": "Yad wāḥida lā tuṣaffiq.",
+      "source": "Proverbe arabe",
+      "lang": "ar",
+      "rtl": true,
+      "tags": [
+        "Coopération",
+        "Unité"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "يد واحدة لا تصفق une seule main n applaudit pas certaines choses ne peuvent s accomplir que par la cooperation proverbe arabe monde arabe cooperation unite"
+    },
+    {
+      "id": "wo-14",
+      "culture": "Monde",
+      "place": "Monde arabe",
+      "mark": "ع",
+      "original": "من جد وجد",
+      "french": "Celui qui s’efforce trouve.",
+      "meaning": "Le travail persévérant ouvre le chemin de la réussite.",
+      "transliteration": "Man jadda wajada.",
+      "source": "Proverbe arabe",
+      "lang": "ar",
+      "rtl": true,
+      "tags": [
+        "Effort",
+        "Réussite"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "من جد وجد celui qui s efforce trouve le travail perseverant ouvre le chemin de la reussite proverbe arabe monde arabe effort reussite"
+    },
+    {
+      "id": "wo-18",
+      "culture": "Monde",
+      "place": "Espagne",
+      "mark": "ES",
+      "original": "Más vale tarde que nunca.",
+      "french": "Mieux vaut tard que jamais.",
+      "meaning": "Une action bénéfique conserve sa valeur malgré le retard.",
+      "source": "Proverbe espagnol",
+      "lang": "es",
+      "tags": [
+        "Action",
+        "Temps"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "mas vale tarde que nunca mieux vaut tard que jamais une action benefique conserve sa valeur malgre le retard proverbe espagnol espagne action temps"
+    },
+    {
+      "id": "wo-19",
+      "culture": "Monde",
+      "place": "Espagne",
+      "mark": "ES",
+      "original": "A quien madruga, Dios le ayuda.",
+      "french": "Dieu aide celui qui se lève tôt.",
+      "meaning": "L’initiative et la diligence favorisent les occasions.",
+      "source": "Proverbe espagnol",
+      "lang": "es",
+      "tags": [
+        "Initiative",
+        "Travail"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "a quien madruga dios le ayuda dieu aide celui qui se leve tot l initiative et la diligence favorisent les occasions proverbe espagnol espagne initiative travail"
+    },
+    {
+      "id": "wo-20",
+      "culture": "Monde",
+      "place": "Italie",
+      "mark": "IT",
+      "original": "L’abito non fa il monaco.",
+      "french": "L’habit ne fait pas le moine.",
+      "meaning": "L’apparence extérieure ne suffit pas à révéler la personne.",
+      "source": "Proverbe italien",
+      "lang": "it",
+      "tags": [
+        "Apparence",
+        "Jugement"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "l abito non fa il monaco l habit ne fait pas le moine l apparence exterieure ne suffit pas a reveler la personne proverbe italien italie apparence jugement"
+    },
+    {
+      "id": "wo-21",
+      "culture": "Monde",
+      "place": "Italie",
+      "mark": "IT",
+      "original": "Tra il dire e il fare c’è di mezzo il mare.",
+      "french": "Entre dire et faire, il y a la mer.",
+      "meaning": "La distance est parfois immense entre l’intention déclarée et l’acte réel.",
+      "source": "Proverbe italien",
+      "lang": "it",
+      "tags": [
+        "Action",
+        "Parole"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "tra il dire e il fare c e di mezzo il mare entre dire et faire il y a la mer la distance est parfois immense entre l intention declaree et l acte reel proverbe italien italie action parole"
+    },
+    {
+      "id": "wo-22",
+      "culture": "Monde",
+      "place": "Allemagne",
+      "mark": "DE",
+      "original": "Übung macht den Meister.",
+      "french": "C’est la pratique qui fait le maître.",
+      "meaning": "La compétence se construit par l’exercice répété.",
+      "source": "Proverbe allemand",
+      "lang": "de",
+      "tags": [
+        "Pratique",
+        "Maîtrise"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "ubung macht den meister c est la pratique qui fait le maitre la competence se construit par l exercice repete proverbe allemand allemagne pratique maitrise"
+    },
+    {
+      "id": "wo-23",
+      "culture": "Monde",
+      "place": "Allemagne",
+      "mark": "DE",
+      "original": "Ende gut, alles gut.",
+      "french": "Tout est bien qui finit bien.",
+      "meaning": "Une issue heureuse peut apaiser le souvenir des difficultés traversées.",
+      "source": "Proverbe allemand",
+      "lang": "de",
+      "tags": [
+        "Fin",
+        "Espoir"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "ende gut alles gut tout est bien qui finit bien une issue heureuse peut apaiser le souvenir des difficultes traversees proverbe allemand allemagne fin espoir"
+    },
+    {
+      "id": "wo-24",
+      "culture": "Monde",
+      "place": "Russie",
+      "mark": "РУ",
+      "original": "Семь раз отмерь, один раз отрежь.",
+      "french": "Mesure sept fois, coupe une fois.",
+      "meaning": "Une décision irréversible mérite une préparation soigneuse.",
+      "transliteration": "Sem raz otmer, odin raz otrezh.",
+      "source": "Proverbe russe",
+      "lang": "ru",
+      "tags": [
+        "Prudence",
+        "Décision"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "семь раз отмерь один раз отрежь mesure sept fois coupe une fois une decision irreversible merite une preparation soigneuse proverbe russe russie prudence decision"
+    },
+    {
+      "id": "wo-26",
+      "culture": "Monde",
+      "place": "Danemark",
+      "mark": "DK",
+      "original": "Man skal ikke skue hunden på hårene.",
+      "french": "Il ne faut pas juger le chien à son poil.",
+      "meaning": "L’apparence ne révèle pas la valeur intérieure.",
+      "source": "Proverbe danois",
+      "lang": "da",
+      "tags": [
+        "Apparence",
+        "Jugement"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "man skal ikke skue hunden pa harene il ne faut pas juger le chien a son poil l apparence ne revele pas la valeur interieure proverbe danois danemark apparence jugement"
+    },
+    {
+      "id": "wo-27",
+      "culture": "Monde",
+      "place": "Perse",
+      "mark": "FA",
+      "lang": "fa",
+      "rtl": true,
+      "original": "بنی‌آدم اعضای یکدیگرند",
+      "transliteration": "Banī Ādam aʿżā-ye yek peykarand.",
+      "french": "Les enfants d’Adam sont les membres d’un même corps.",
+      "meaning": "La souffrance d’un être humain concerne l’humanité entière.",
+      "source": "Saadi, Golestan, livre I, récit 10 (XIIIe siècle)",
+      "sourceUrl": "https://ganjoor.net/saadi/golestan/gbab1/sh10",
+      "sourceKind": "text",
+      "tags": [
+        "Humanité",
+        "Compassion"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "بنی ادم اعضای یکدیگرند les enfants d adam sont les membres d un meme corps la souffrance d un etre humain concerne l humanite entiere saadi golestan livre i recit 10 xiiie siecle perse humanite compassion"
+    },
+    {
+      "id": "wo-28",
+      "culture": "Monde",
+      "place": "Espagne",
+      "mark": "ES",
+      "lang": "es",
+      "original": "Caminante, no hay camino, se hace camino al andar.",
+      "french": "Voyageur, il n’y a pas de chemin ; le chemin se fait en marchant.",
+      "meaning": "L’itinéraire d’une vie se découvre par l’action plus que par un plan déjà tracé.",
+      "source": "Antonio Machado, Proverbios y cantares XXIX, Campos de Castilla (1912)",
+      "sourceUrl": "https://es.wikisource.org/wiki/Proverbios_y_cantares",
+      "sourceKind": "text",
+      "tags": [
+        "Chemin",
+        "Action"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "caminante no hay camino se hace camino al andar voyageur il n y a pas de chemin le chemin se fait en marchant l itineraire d une vie se decouvre par l action plus que par un plan deja trace antonio machado proverbios y cantares xxix campos de castilla 1912 espagne chemin action"
+    },
+    {
+      "id": "wo-29",
+      "culture": "Monde",
+      "place": "Allemagne",
+      "mark": "DE",
+      "lang": "de",
+      "original": "Was mich nicht umbringt, macht mich stärker.",
+      "french": "Ce qui ne me tue pas me rend plus fort.",
+      "meaning": "L’épreuve surmontée peut devenir une force, sans que toute souffrance soit pour autant bénéfique.",
+      "source": "Friedrich Nietzsche, Crépuscule des idoles, « Maximes et pointes », 8 (1889)",
+      "sourceUrl": "https://de.wikisource.org/wiki/Götzen-Dämmerung/Sprüche_und_Pfeile",
+      "sourceKind": "text",
+      "tags": [
+        "Épreuve",
+        "Force"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "was mich nicht umbringt macht mich starker ce qui ne me tue pas me rend plus fort l epreuve surmontee peut devenir une force sans que toute souffrance soit pour autant benefique friedrich nietzsche crepuscule des idoles maximes et pointes 8 1889 allemagne epreuve force"
+    },
+    {
+      "id": "wo-30",
+      "culture": "Monde",
+      "place": "Japon",
+      "mark": "日",
+      "lang": "ja",
+      "original": "急がば回れ",
+      "transliteration": "Isogaba maware.",
+      "french": "Si tu es pressé, prends le détour.",
+      "meaning": "La voie apparemment plus longue peut être la plus sûre et donc la plus rapide.",
+      "source": "Proverbe japonais, attesté dans une poésie liée au lac Biwa à l’époque Muromachi",
+      "sourceKind": "traditional",
+      "tags": [
+        "Prudence",
+        "Chemin"
+      ],
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "急かは回れ si tu es presse prends le detour la voie apparemment plus longue peut etre la plus sure et donc la plus rapide proverbe japonais atteste dans une poesie liee au lac biwa a l epoque muromachi japon prudence chemin"
+    },
+    {
+      "id": "wo-31",
+      "culture": "Monde",
+      "place": "Japon",
+      "mark": "日",
+      "lang": "ja",
+      "original": "一期一会",
+      "transliteration": "Ichi-go ichi-e.",
+      "french": "Une fois, une rencontre.",
+      "meaning": "Chaque rencontre doit être vécue comme unique et non reproductible.",
+      "source": "Tradition du thé ; formulation diffusée par Ii Naosuke, Chanoyu Ichie Shū (1858)",
+      "sourceKind": "text",
+      "tags": [
+        "Présence",
+        "Rencontre"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "一期一会 une fois une rencontre chaque rencontre doit etre vecue comme unique et non reproductible tradition du the formulation diffusee par ii naosuke chanoyu ichie shu 1858 japon presence rencontre"
+    }
+  ]
+}

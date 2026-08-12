@@ -1,0 +1,2249 @@
+[
+  {
+    "id": "fr-1",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Les petits ruisseaux font les grandes rivières.",
+    "french": "Les modestes efforts, accumulés, produisent de grands résultats.",
+    "meaning": "Aucune contribution n’est insignifiante quand elle s’inscrit dans la durée.",
+    "tags": [
+      "Patience",
+      "Persévérance"
+    ]
+  },
+  {
+    "id": "fr-2",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Petit à petit, l’oiseau fait son nid.",
+    "french": "La constance permet d’accomplir les œuvres les plus longues.",
+    "meaning": "Le progrès se construit par de petits gestes réguliers.",
+    "tags": [
+      "Constance",
+      "Temps"
+    ]
+  },
+  {
+    "id": "fr-3",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Après la pluie, le beau temps.",
+    "french": "Les périodes difficiles finissent par laisser place à des jours meilleurs.",
+    "meaning": "Le malheur n’est pas immuable ; il faut préserver l’espérance.",
+    "tags": [
+      "Espoir",
+      "Résilience"
+    ]
+  },
+  {
+    "id": "fr-4",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "L’habit ne fait pas le moine.",
+    "french": "L’apparence ne permet pas de juger la valeur ou la nature d’une personne.",
+    "meaning": "Ce qui est visible ne révèle pas toujours ce qui est vrai.",
+    "tags": [
+      "Jugement",
+      "Apparence"
+    ]
+  },
+  {
+    "id": "fr-5",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Mieux vaut tard que jamais.",
+    "french": "Il est préférable d’agir avec retard que de ne pas agir du tout.",
+    "meaning": "Une décision utile conserve sa valeur, même lorsqu’elle vient tard.",
+    "tags": [
+      "Action",
+      "Temps"
+    ]
+  },
+  {
+    "id": "fr-6",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "On ne fait pas d’omelette sans casser des œufs.",
+    "french": "Toute réalisation importante exige certains sacrifices.",
+    "meaning": "Le changement a un coût qu’il faut regarder avec lucidité.",
+    "tags": [
+      "Choix",
+      "Effort"
+    ]
+  },
+  {
+    "id": "fr-7",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Qui vivra verra.",
+    "french": "L’avenir seul dira comment les choses évolueront.",
+    "meaning": "Quand la connaissance manque, la patience vaut mieux que la certitude feinte.",
+    "tags": [
+      "Avenir",
+      "Patience"
+    ]
+  },
+  {
+    "id": "he-1",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "אֵיזֶהוּ חָכָם? הַלּוֹמֵד מִכָּל אָדָם",
+    "french": "Qui est sage ? Celui qui apprend de chaque homme.",
+    "meaning": "La sagesse commence par l’humilité de reconnaître un enseignement en chacun.",
+    "transliteration": "Eizéhou ‘hakham? Halomed mikol adam.",
+    "source": "Pirqé Avot 4:1",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Humilité",
+      "Apprentissage"
+    ]
+  },
+  {
+    "id": "he-2",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "אִם אֵין אֲנִי לִי, מִי לִי? וּכְשֶׁאֲנִי לְעַצְמִי, מָה אֲנִי? וְאִם לֹא עַכְשָׁיו, אֵימָתָי?",
+    "french": "Si je ne suis pas pour moi, qui le sera ? Mais si je ne suis que pour moi, que suis-je ? Et si ce n’est maintenant, quand ?",
+    "meaning": "Hillel réunit en trois questions la responsabilité envers soi, envers autrui et envers le présent.",
+    "transliteration": "Im ein ani li, mi li? Oukhshe-ani le-atsmi, ma ani? Ve-im lo akhshav, eimataï?",
+    "source": "Pirqé Avot 1:14",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Responsabilité",
+      "Action"
+    ]
+  },
+  {
+    "id": "he-3",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "לֹא עָלֶיךָ הַמְּלָאכָה לִגְמֹר, וְלֹא אַתָּה בֶן חוֹרִין לִבָּטֵל מִמֶּנָּה",
+    "french": "Il ne t’appartient pas d’achever l’œuvre, mais tu n’es pas libre de t’en détourner.",
+    "meaning": "Nous ne maîtrisons pas l’achèvement, seulement notre devoir de participer.",
+    "transliteration": "Lo alekha hamelakha ligmor, velo ata ben ‘horin lehibatel mimena.",
+    "source": "Pirqé Avot 2:16",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Devoir",
+      "Persévérance"
+    ]
+  },
+  {
+    "id": "he-4",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "גַּם זוֹ לְטוֹבָה",
+    "french": "Cela aussi est pour le bien.",
+    "meaning": "Même l’épreuve peut contenir une possibilité que le présent ne permet pas encore de voir.",
+    "transliteration": "Gam zou letova.",
+    "source": "Talmud, Ta’anit 21a",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Espoir",
+      "Confiance"
+    ]
+  },
+  {
+    "id": "he-5",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "סוֹף מַעֲשֶׂה בְּמַחֲשָׁבָה תְּחִלָּה",
+    "french": "L’acte accompli commence par la pensée.",
+    "meaning": "Une réalisation juste naît d’une intention et d’une préparation claires.",
+    "transliteration": "Sof ma’assé bemakhshava te’hila.",
+    "source": "Lekha Dodi",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Intention",
+      "Action"
+    ]
+  },
+  {
+    "id": "he-6",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "דִּבְרֵי חֲכָמִים בְּנַחַת נִשְׁמָעִים",
+    "french": "Les paroles des sages s’entendent dans le calme.",
+    "meaning": "La vérité n’a pas toujours besoin de bruit pour exercer son influence.",
+    "transliteration": "Divrei ‘hakhamim bena’hat nishma’im.",
+    "source": "Ecclésiaste 9:17",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Parole",
+      "Calme"
+    ]
+  },
+  {
+    "id": "he-7",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "אֵיזֶהוּ עָשִׁיר? הַשָּׂמֵחַ בְּחֶלְקוֹ",
+    "french": "Qui est riche ? Celui qui se réjouit de ce qu’il possède.",
+    "meaning": "La richesse se mesure aussi à la capacité d’apprécier sa part.",
+    "transliteration": "Eizéhou ashir? Hassaméa’h be’helko.",
+    "source": "Pirqé Avot 4:1",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Joie",
+      "Gratitude"
+    ]
+  },
+  {
+    "id": "he-8",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "אֵין הַנַּחְתּוֹם מֵעִיד עַל עִסָּתוֹ",
+    "french": "Le boulanger ne témoigne pas en faveur de sa propre pâte.",
+    "meaning": "On ne peut être l’arbitre impartial de sa propre œuvre.",
+    "transliteration": "Ein hana’htom me’id al isato.",
+    "source": "Proverbe hébreu",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Humilité",
+      "Jugement"
+    ]
+  },
+  {
+    "id": "en-1",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Actions speak louder than words.",
+    "french": "Les actes parlent plus fort que les mots.",
+    "meaning": "La conduite révèle plus sûrement les intentions que les promesses.",
+    "tags": [
+      "Action",
+      "Sincérité"
+    ]
+  },
+  {
+    "id": "en-2",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Don’t judge a book by its cover.",
+    "french": "Ne jugez pas un livre à sa couverture.",
+    "meaning": "L’apparence extérieure ne suffit pas pour connaître la valeur intérieure.",
+    "tags": [
+      "Jugement",
+      "Apparence"
+    ]
+  },
+  {
+    "id": "en-3",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Where there’s a will, there’s a way.",
+    "french": "Quand on veut, on trouve un chemin.",
+    "meaning": "La détermination aide à découvrir des solutions là où l’on ne voyait que des obstacles.",
+    "tags": [
+      "Volonté",
+      "Persévérance"
+    ]
+  },
+  {
+    "id": "en-4",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "The early bird catches the worm.",
+    "french": "L’avenir appartient à ceux qui se lèvent tôt.",
+    "meaning": "La préparation et la promptitude créent souvent l’avantage.",
+    "tags": [
+      "Initiative",
+      "Travail"
+    ]
+  },
+  {
+    "id": "en-5",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "A friend in need is a friend indeed.",
+    "french": "C’est dans le besoin que l’on reconnaît ses vrais amis.",
+    "meaning": "La fidélité se révèle quand la situation devient difficile.",
+    "tags": [
+      "Amitié",
+      "Loyauté"
+    ]
+  },
+  {
+    "id": "en-6",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Two wrongs don’t make a right.",
+    "french": "Deux torts ne font pas un droit.",
+    "meaning": "Répondre à une injustice par une autre ne rétablit pas la justice.",
+    "tags": [
+      "Justice",
+      "Mesure"
+    ]
+  },
+  {
+    "id": "en-7",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Better safe than sorry.",
+    "french": "Mieux vaut prévenir que guérir.",
+    "meaning": "Une précaution raisonnable évite souvent un regret plus coûteux.",
+    "tags": [
+      "Prudence",
+      "Prévention"
+    ]
+  },
+  {
+    "id": "zh-1",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "千里之行，始于足下。",
+    "french": "Un voyage de mille lis commence sous les pieds.",
+    "meaning": "Les ambitions les plus vastes commencent par un premier pas concret.",
+    "transliteration": "Qiān lǐ zhī xíng, shǐ yú zú xià.",
+    "source": "Laozi, Daodejing 64",
+    "lang": "zh",
+    "tags": [
+      "Action",
+      "Voyage"
+    ]
+  },
+  {
+    "id": "zh-2",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "学而时习之，不亦说乎？",
+    "french": "Apprendre et mettre régulièrement en pratique : n’est-ce pas une joie ?",
+    "meaning": "Le savoir devient vivant lorsqu’il est repris, exercé et éprouvé.",
+    "transliteration": "Xué ér shí xí zhī, bù yì yuè hū?",
+    "source": "Confucius, Entretiens 1.1",
+    "lang": "zh",
+    "tags": [
+      "Apprentissage",
+      "Joie"
+    ]
+  },
+  {
+    "id": "zh-3",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "三人行，必有我师焉。",
+    "french": "Quand trois personnes cheminent ensemble, l’une d’elles peut certainement être mon maître.",
+    "meaning": "Toute rencontre offre une occasion d’apprendre.",
+    "transliteration": "Sān rén xíng, bì yǒu wǒ shī yān.",
+    "source": "Confucius, Entretiens 7.22",
+    "lang": "zh",
+    "tags": [
+      "Humilité",
+      "Apprentissage"
+    ]
+  },
+  {
+    "id": "zh-4",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "滴水穿石。",
+    "french": "La goutte d’eau finit par percer la pierre.",
+    "meaning": "Une force modeste devient irrésistible lorsqu’elle agit avec constance.",
+    "transliteration": "Dī shuǐ chuān shí.",
+    "source": "Expression chinoise",
+    "lang": "zh",
+    "tags": [
+      "Constance",
+      "Persévérance"
+    ]
+  },
+  {
+    "id": "zh-5",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "塞翁失马，焉知非福。",
+    "french": "Le vieil homme de la frontière perd son cheval : qui sait si ce n’est pas une chance ?",
+    "meaning": "Un malheur apparent peut préparer un bienfait, et inversement.",
+    "transliteration": "Sài wēng shī mǎ, yān zhī fēi fú.",
+    "source": "Huainanzi",
+    "lang": "zh",
+    "tags": [
+      "Destin",
+      "Perspective"
+    ]
+  },
+  {
+    "id": "zh-6",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "欲速则不达。",
+    "french": "Qui veut aller trop vite n’atteint pas son but.",
+    "meaning": "La précipitation compromet parfois ce qu’elle prétend accélérer.",
+    "transliteration": "Yù sù zé bù dá.",
+    "source": "Confucius, Entretiens 13.17",
+    "lang": "zh",
+    "tags": [
+      "Patience",
+      "Mesure"
+    ]
+  },
+  {
+    "id": "zh-7",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "失败是成功之母。",
+    "french": "L’échec est la mère du succès.",
+    "meaning": "L’échec peut instruire et préparer une réussite plus solide.",
+    "transliteration": "Shībài shì chénggōng zhī mǔ.",
+    "source": "Proverbe chinois",
+    "lang": "zh",
+    "tags": [
+      "Échec",
+      "Résilience"
+    ]
+  },
+  {
+    "id": "in-1",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "सत्यमेव जयते",
+    "french": "Seule la vérité triomphe.",
+    "meaning": "La vérité possède une force durable que le mensonge ne peut égaler.",
+    "transliteration": "Satyameva jayate.",
+    "source": "Mundaka Upanishad 3.1.6",
+    "lang": "sa",
+    "tags": [
+      "Vérité",
+      "Justice"
+    ]
+  },
+  {
+    "id": "in-2",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "अहिंसा परमो धर्मः",
+    "french": "La non-violence est le devoir le plus élevé.",
+    "meaning": "Le respect du vivant est posé comme une exigence morale supérieure.",
+    "transliteration": "Ahimsā paramo dharmaḥ.",
+    "source": "Mahabharata",
+    "lang": "sa",
+    "tags": [
+      "Paix",
+      "Devoir"
+    ]
+  },
+  {
+    "id": "in-3",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "वसुधैव कुटुम्बकम्",
+    "french": "Le monde entier est une seule famille.",
+    "meaning": "L’appartenance humaine dépasse les frontières et les cercles particuliers.",
+    "transliteration": "Vasudhaiva kuṭumbakam.",
+    "source": "Maha Upanishad 6.72",
+    "lang": "sa",
+    "tags": [
+      "Humanité",
+      "Unité"
+    ]
+  },
+  {
+    "id": "in-4",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "अति सर्वत्र वर्जयेत्",
+    "french": "L’excès doit être évité en toute chose.",
+    "meaning": "La mesure protège même les qualités de leur propre démesure.",
+    "transliteration": "Ati sarvatra varjayet.",
+    "source": "Maxime sanskrite",
+    "lang": "sa",
+    "tags": [
+      "Mesure",
+      "Équilibre"
+    ]
+  },
+  {
+    "id": "in-5",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
+    "french": "Tu as droit à l’action, jamais à ses fruits.",
+    "meaning": "Agir pleinement sans s’attacher au résultat libère l’action de l’obsession de la récompense.",
+    "transliteration": "Karmaṇy evādhikāras te mā phaleṣu kadācana.",
+    "source": "Bhagavad-Gita 2.47",
+    "lang": "sa",
+    "tags": [
+      "Action",
+      "Détachement"
+    ]
+  },
+  {
+    "id": "in-6",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "उद्यमेन हि सिद्ध्यन्ति कार्याणि न मनोरथैः",
+    "french": "Les œuvres s’accomplissent par l’effort, non par les seuls souhaits.",
+    "meaning": "L’intention ne porte de fruit que lorsqu’elle devient travail.",
+    "transliteration": "Udyamena hi sidhyanti kāryāṇi na manorathaiḥ.",
+    "source": "Panchatantra",
+    "lang": "sa",
+    "tags": [
+      "Effort",
+      "Action"
+    ]
+  },
+  {
+    "id": "wo-1",
+    "culture": "Monde",
+    "place": "Japon",
+    "mark": "日",
+    "original": "七転び八起き",
+    "french": "Tomber sept fois, se relever huit.",
+    "meaning": "La résilience ne consiste pas à ne jamais tomber, mais à se relever une fois de plus.",
+    "transliteration": "Nana korobi ya oki.",
+    "source": "Proverbe japonais",
+    "lang": "ja",
+    "tags": [
+      "Résilience",
+      "Courage"
+    ]
+  },
+  {
+    "id": "wo-2",
+    "culture": "Monde",
+    "place": "Monde arabe",
+    "mark": "ع",
+    "original": "الصبر مفتاح الفرج",
+    "french": "La patience est la clé du soulagement.",
+    "meaning": "L’endurance ouvre une issue lorsque l’épreuve semble fermée.",
+    "transliteration": "As-sabr miftāh al-faraj.",
+    "source": "Proverbe arabe",
+    "lang": "ar",
+    "rtl": true,
+    "tags": [
+      "Patience",
+      "Espoir"
+    ]
+  },
+  {
+    "id": "wo-3",
+    "culture": "Monde",
+    "place": "Afrique de l’Est",
+    "mark": "SW",
+    "original": "Haraka haraka haina baraka.",
+    "french": "La précipitation n’apporte pas de bénédiction.",
+    "meaning": "La hâte peut priver le travail de soin et le choix de discernement.",
+    "source": "Proverbe swahili",
+    "lang": "sw",
+    "tags": [
+      "Patience",
+      "Mesure"
+    ]
+  },
+  {
+    "id": "wo-4",
+    "culture": "Monde",
+    "place": "Espagne",
+    "mark": "ES",
+    "original": "No hay mal que por bien no venga.",
+    "french": "Il n’est pas de mal dont un bien ne puisse sortir.",
+    "meaning": "Une épreuve peut ouvrir une possibilité inattendue.",
+    "source": "Proverbe espagnol",
+    "lang": "es",
+    "tags": [
+      "Espoir",
+      "Perspective"
+    ]
+  },
+  {
+    "id": "wo-5",
+    "culture": "Monde",
+    "place": "Italie",
+    "mark": "IT",
+    "original": "Chi va piano va sano e va lontano.",
+    "french": "Qui va doucement va sûrement et va loin.",
+    "meaning": "Un rythme maîtrisé rend le voyage plus durable.",
+    "source": "Proverbe italien",
+    "lang": "it",
+    "tags": [
+      "Patience",
+      "Voyage"
+    ]
+  },
+  {
+    "id": "wo-6",
+    "culture": "Monde",
+    "place": "Russie",
+    "mark": "РУ",
+    "original": "Без труда не вытащишь и рыбку из пруда.",
+    "french": "Sans effort, on ne sort même pas un poisson de l’étang.",
+    "meaning": "Même le résultat le plus modeste demande du travail.",
+    "transliteration": "Bez truda ne vytashchish i rybku iz pruda.",
+    "source": "Proverbe russe",
+    "lang": "ru",
+    "tags": [
+      "Effort",
+      "Travail"
+    ]
+  },
+  {
+    "id": "wo-7",
+    "culture": "Monde",
+    "place": "Portugal",
+    "mark": "PT",
+    "original": "Devagar se vai ao longe.",
+    "french": "C’est en allant doucement que l’on va loin.",
+    "meaning": "La constance importe davantage que la vitesse initiale.",
+    "source": "Proverbe portugais",
+    "lang": "pt",
+    "tags": [
+      "Constance",
+      "Patience"
+    ]
+  },
+  {
+    "id": "wo-8",
+    "culture": "Monde",
+    "place": "Pays-Bas",
+    "mark": "NL",
+    "original": "Na regen komt zonneschijn.",
+    "french": "Après la pluie vient le soleil.",
+    "meaning": "Aucune période sombre ne dure éternellement.",
+    "source": "Proverbe néerlandais",
+    "lang": "nl",
+    "tags": [
+      "Espoir",
+      "Résilience"
+    ]
+  },
+  {
+    "id": "fr-8",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "À cœur vaillant, rien d’impossible.",
+    "french": "Le courage et la détermination permettent de surmonter les obstacles.",
+    "meaning": "La volonté agrandit le champ du possible.",
+    "tags": [
+      "Courage",
+      "Volonté"
+    ]
+  },
+  {
+    "id": "fr-9",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Il ne faut pas vendre la peau de l’ours avant de l’avoir tué.",
+    "french": "Il ne faut pas considérer un succès comme acquis avant qu’il ne soit réel.",
+    "meaning": "L’anticipation ne doit pas se transformer en certitude prématurée.",
+    "tags": [
+      "Prudence",
+      "Patience"
+    ]
+  },
+  {
+    "id": "fr-10",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Chassez le naturel, il revient au galop.",
+    "french": "Les dispositions profondes finissent toujours par réapparaître.",
+    "meaning": "On dissimule plus facilement une habitude qu’on ne la transforme.",
+    "tags": [
+      "Nature",
+      "Caractère"
+    ]
+  },
+  {
+    "id": "fr-11",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Il n’y a pas de fumée sans feu.",
+    "french": "Une rumeur persistante possède souvent une origine réelle.",
+    "meaning": "Les signes visibles peuvent révéler une cause cachée.",
+    "tags": [
+      "Vérité",
+      "Indice"
+    ]
+  },
+  {
+    "id": "fr-12",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Faute avouée est à moitié pardonnée.",
+    "french": "Reconnaître sincèrement son erreur facilite le pardon.",
+    "meaning": "L’aveu ouvre la voie à la réparation.",
+    "tags": [
+      "Pardon",
+      "Sincérité"
+    ]
+  },
+  {
+    "id": "fr-13",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Les absents ont toujours tort.",
+    "french": "Celui qui n’est pas présent ne peut défendre son point de vue.",
+    "meaning": "L’absence laisse aux autres le pouvoir de construire le récit.",
+    "tags": [
+      "Présence",
+      "Jugement"
+    ]
+  },
+  {
+    "id": "fr-14",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Un tiens vaut mieux que deux tu l’auras.",
+    "french": "Un bien certain vaut davantage que deux promesses incertaines.",
+    "meaning": "La sécurité concrète peut valoir mieux qu’un gain hypothétique.",
+    "tags": [
+      "Prudence",
+      "Choix"
+    ]
+  },
+  {
+    "id": "fr-15",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "C’est en forgeant qu’on devient forgeron.",
+    "french": "La maîtrise vient par la pratique répétée.",
+    "meaning": "L’expérience transforme progressivement l’effort en savoir-faire.",
+    "tags": [
+      "Apprentissage",
+      "Travail"
+    ]
+  },
+  {
+    "id": "fr-16",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Aide-toi, le ciel t’aidera.",
+    "french": "Commence par agir toi-même si tu espères recevoir de l’aide.",
+    "meaning": "L’initiative personnelle précède souvent le soutien extérieur.",
+    "tags": [
+      "Action",
+      "Responsabilité"
+    ]
+  },
+  {
+    "id": "fr-17",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Qui sème le vent récolte la tempête.",
+    "french": "Celui qui provoque le désordre en subira des conséquences amplifiées.",
+    "meaning": "Nos actes produisent parfois des effets plus grands que leur impulsion initiale.",
+    "tags": [
+      "Conséquence",
+      "Responsabilité"
+    ]
+  },
+  {
+    "id": "fr-18",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Il faut tourner sept fois sa langue dans sa bouche avant de parler.",
+    "french": "Il faut réfléchir avant de s’exprimer.",
+    "meaning": "Une parole retenue peut éviter un dommage irréparable.",
+    "tags": [
+      "Parole",
+      "Prudence"
+    ]
+  },
+  {
+    "id": "fr-19",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "L’union fait la force.",
+    "french": "La coopération rend un groupe plus puissant que la somme de ses membres.",
+    "meaning": "Les forces rassemblées compensent les fragilités individuelles.",
+    "tags": [
+      "Unité",
+      "Coopération"
+    ]
+  },
+  {
+    "id": "fr-20",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "À quelque chose malheur est bon.",
+    "french": "Une difficulté peut finalement produire un effet bénéfique.",
+    "meaning": "L’épreuve peut révéler une voie que la facilité gardait invisible.",
+    "tags": [
+      "Espoir",
+      "Perspective"
+    ]
+  },
+  {
+    "id": "fr-21",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Qui ne risque rien n’a rien.",
+    "french": "Aucun gain important n’est possible sans accepter une part de risque.",
+    "meaning": "La prudence absolue protège aussi de toute découverte.",
+    "tags": [
+      "Risque",
+      "Courage"
+    ]
+  },
+  {
+    "id": "fr-22",
+    "culture": "France",
+    "place": "France",
+    "mark": "FR",
+    "original": "Les chiens ne font pas des chats.",
+    "french": "Les enfants héritent souvent des traits de leurs parents.",
+    "meaning": "L’éducation et l’hérédité laissent leur empreinte entre les générations.",
+    "tags": [
+      "Famille",
+      "Transmission"
+    ]
+  },
+  {
+    "id": "he-9",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "בְּמָקוֹם שֶׁאֵין אֲנָשִׁים, הִשְׁתַּדֵּל לִהְיוֹת אִישׁ",
+    "french": "Dans un lieu où il n’y a pas d’hommes, efforce-toi d’être un homme.",
+    "meaning": "Quand personne ne prend ses responsabilités, il faut avoir le courage de le faire.",
+    "transliteration": "Bimkom she-ein anashim, hishtadel lihyot ish.",
+    "source": "Pirqé Avot 2:5",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Courage",
+      "Responsabilité"
+    ]
+  },
+  {
+    "id": "he-10",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "עַל שְׁלֹשָׁה דְבָרִים הָעוֹלָם עוֹמֵד: עַל הַתּוֹרָה, וְעַל הָעֲבוֹדָה, וְעַל גְּמִילוּת חֲסָדִים",
+    "french": "Le monde repose sur trois choses : l’étude, le service et les actes de bonté.",
+    "meaning": "Une société tient par la connaissance, l’engagement et la solidarité.",
+    "transliteration": "Al shlosha devarim ha-olam omed: al ha-Torah, ve-al ha-avoda, ve-al guemilout ‘hassadim.",
+    "source": "Pirqé Avot 1:2",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Étude",
+      "Bonté"
+    ]
+  },
+  {
+    "id": "he-11",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "הֱוֵי מְקַבֵּל אֶת כָּל הָאָדָם בְּסֵבֶר פָּנִים יָפוֹת",
+    "french": "Accueille chaque personne avec un visage bienveillant.",
+    "meaning": "L’hospitalité commence dans l’expression offerte à l’autre.",
+    "transliteration": "Hevei mekabel et kol ha-adam besever panim yafot.",
+    "source": "Pirqé Avot 1:15",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Accueil",
+      "Bonté"
+    ]
+  },
+  {
+    "id": "he-12",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "אֵיזֶהוּ גִבּוֹר? הַכּוֹבֵשׁ אֶת יִצְרוֹ",
+    "french": "Qui est fort ? Celui qui maîtrise son penchant.",
+    "meaning": "La véritable puissance est d’abord une victoire sur soi-même.",
+    "transliteration": "Eizéhou guibor? Hakovesh et yitsro.",
+    "source": "Pirqé Avot 4:1",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Force",
+      "Maîtrise"
+    ]
+  },
+  {
+    "id": "he-13",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "אֵיזֶהוּ מְכֻבָּד? הַמְכַבֵּד אֶת הַבְּרִיּוֹת",
+    "french": "Qui est honoré ? Celui qui honore les autres.",
+    "meaning": "L’honneur ne se réclame pas : il se construit par le respect donné.",
+    "transliteration": "Eizéhou mekhoubad? Hamekhabed et habriyot.",
+    "source": "Pirqé Avot 4:1",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Respect",
+      "Humilité"
+    ]
+  },
+  {
+    "id": "he-14",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "הֱוֵי דָן אֶת כָּל הָאָדָם לְכַף זְכוּת",
+    "french": "Juge chaque personne favorablement.",
+    "meaning": "Avant de condamner, il faut laisser une place à l’explication la plus généreuse.",
+    "transliteration": "Hevei dan et kol ha-adam lekhaf zekhout.",
+    "source": "Pirqé Avot 1:6",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Jugement",
+      "Bienveillance"
+    ]
+  },
+  {
+    "id": "he-15",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "אֱמֹר מְעַט וַעֲשֵׂה הַרְבֵּה",
+    "french": "Parle peu et fais beaucoup.",
+    "meaning": "La valeur d’une intention se mesure à ce qu’elle devient dans l’action.",
+    "transliteration": "Emor me-at va-assé harbé.",
+    "source": "Pirqé Avot 1:15",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Action",
+      "Parole"
+    ]
+  },
+  {
+    "id": "he-16",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "לֹא הַמִּדְרָשׁ הוּא הָעִקָּר, אֶלָּא הַמַּעֲשֶׂה",
+    "french": "Ce n’est pas l’étude qui est l’essentiel, mais l’action.",
+    "meaning": "Le savoir atteint sa finalité lorsqu’il transforme la conduite.",
+    "transliteration": "Lo hamidrash hou ha-ikar, ela hama-assé.",
+    "source": "Pirqé Avot 1:17",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Action",
+      "Étude"
+    ]
+  },
+  {
+    "id": "he-17",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "סְיָג לַחָכְמָה שְׁתִיקָה",
+    "french": "Le silence est une clôture pour la sagesse.",
+    "meaning": "Savoir se taire protège la réflexion et la parole juste.",
+    "transliteration": "Seyag la-‘hokhma shtika.",
+    "source": "Pirqé Avot 3:13",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Silence",
+      "Sagesse"
+    ]
+  },
+  {
+    "id": "he-18",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "מִצְוָה גּוֹרֶרֶת מִצְוָה",
+    "french": "Une bonne action en entraîne une autre.",
+    "meaning": "Nos actes forment des habitudes qui orientent les actes suivants.",
+    "transliteration": "Mitsva goreret mitsva.",
+    "source": "Pirqé Avot 4:2",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Bonté",
+      "Habitude"
+    ]
+  },
+  {
+    "id": "he-19",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "דֶּרֶךְ אֶרֶץ קָדְמָה לַתּוֹרָה",
+    "french": "Le savoir-vivre précède la Torah.",
+    "meaning": "La décence humaine et le respect constituent le seuil de toute élévation spirituelle.",
+    "transliteration": "Derekh erets kadma la-Torah.",
+    "source": "Vayikra Rabbah 9:3",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Respect",
+      "Conduite"
+    ]
+  },
+  {
+    "id": "he-20",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "כָּל הַמְקַיֵּם נֶפֶשׁ אַחַת, מַעֲלִים עָלָיו כְּאִלּוּ קִיֵּם עוֹלָם מָלֵא",
+    "french": "Quiconque sauve une vie, c’est comme s’il avait sauvé un monde entier.",
+    "meaning": "Chaque existence possède une valeur incomparable et un univers de possibles.",
+    "transliteration": "Kol hamekayem nefesh a‘hat, ma-alim alav ke-ilou kiyem olam malé.",
+    "source": "Mishna Sanhédrin 4:5",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Vie",
+      "Humanité"
+    ]
+  },
+  {
+    "id": "he-21",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "טוֹב שֵׁם מִשֶּׁמֶן טוֹב",
+    "french": "Une bonne réputation vaut mieux qu’une huile précieuse.",
+    "meaning": "La qualité morale laisse une trace plus durable que la richesse matérielle.",
+    "transliteration": "Tov shem mishemen tov.",
+    "source": "Ecclésiaste 7:1",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Réputation",
+      "Vertu"
+    ]
+  },
+  {
+    "id": "he-22",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "מַיִם שְׁקֵטִים חוֹדְרִים עָמוֹק",
+    "french": "Les eaux calmes pénètrent profondément.",
+    "meaning": "La discrétion peut cacher une pensée profonde et une grande influence.",
+    "transliteration": "Mayim shketim ‘hodrim amok.",
+    "source": "Proverbe hébreu",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Calme",
+      "Profondeur"
+    ]
+  },
+  {
+    "id": "he-23",
+    "culture": "Hébreu",
+    "place": "Tradition juive",
+    "mark": "עב",
+    "original": "אֵין דָּבָר הָעוֹמֵד בִּפְנֵי הָרָצוֹן",
+    "french": "Rien ne résiste à la volonté.",
+    "meaning": "Une volonté ferme permet de franchir des limites que l’on croyait définitives.",
+    "transliteration": "Ein davar ha-omed bifnei haratson.",
+    "source": "Maxime hébraïque",
+    "lang": "he",
+    "rtl": true,
+    "tags": [
+      "Volonté",
+      "Persévérance"
+    ]
+  },
+  {
+    "id": "en-8",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Every cloud has a silver lining.",
+    "french": "À quelque chose malheur est bon.",
+    "meaning": "Même une situation sombre peut contenir une possibilité favorable.",
+    "tags": [
+      "Espoir",
+      "Perspective"
+    ]
+  },
+  {
+    "id": "en-9",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "When in Rome, do as the Romans do.",
+    "french": "À Rome, fais comme les Romains.",
+    "meaning": "S’adapter aux usages du lieu facilite la compréhension et l’intégration.",
+    "tags": [
+      "Adaptation",
+      "Culture"
+    ]
+  },
+  {
+    "id": "en-10",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Practice makes perfect.",
+    "french": "C’est en pratiquant que l’on atteint la maîtrise.",
+    "meaning": "La répétition attentive transforme progressivement la compétence.",
+    "tags": [
+      "Pratique",
+      "Apprentissage"
+    ]
+  },
+  {
+    "id": "en-11",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "The grass is always greener on the other side.",
+    "french": "L’herbe paraît toujours plus verte ailleurs.",
+    "meaning": "Nous idéalisons souvent ce que nous ne possédons pas.",
+    "tags": [
+      "Désir",
+      "Perspective"
+    ]
+  },
+  {
+    "id": "en-12",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "You can’t have your cake and eat it too.",
+    "french": "On ne peut avoir le beurre et l’argent du beurre.",
+    "meaning": "Certains choix impliquent de renoncer à l’un des deux avantages incompatibles.",
+    "tags": [
+      "Choix",
+      "Renoncement"
+    ]
+  },
+  {
+    "id": "en-13",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Too many cooks spoil the broth.",
+    "french": "Trop de cuisiniers gâtent la sauce.",
+    "meaning": "Une responsabilité trop dispersée nuit à la cohérence de l’action.",
+    "tags": [
+      "Organisation",
+      "Responsabilité"
+    ]
+  },
+  {
+    "id": "en-14",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Honesty is the best policy.",
+    "french": "L’honnêteté est la meilleure ligne de conduite.",
+    "meaning": "La vérité construit une confiance plus durable que les avantages du mensonge.",
+    "tags": [
+      "Honnêteté",
+      "Confiance"
+    ]
+  },
+  {
+    "id": "en-15",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Necessity is the mother of invention.",
+    "french": "La nécessité est mère de l’invention.",
+    "meaning": "La contrainte stimule souvent l’ingéniosité.",
+    "tags": [
+      "Créativité",
+      "Nécessité"
+    ]
+  },
+  {
+    "id": "en-16",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "A picture is worth a thousand words.",
+    "french": "Une image vaut mille mots.",
+    "meaning": "Une représentation visuelle peut transmettre instantanément une idée complexe.",
+    "tags": [
+      "Image",
+      "Communication"
+    ]
+  },
+  {
+    "id": "en-17",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Rome wasn’t built in a day.",
+    "french": "Rome ne s’est pas faite en un jour.",
+    "meaning": "Les grandes réalisations exigent du temps et de la continuité.",
+    "tags": [
+      "Patience",
+      "Construction"
+    ]
+  },
+  {
+    "id": "en-18",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "People who live in glass houses shouldn’t throw stones.",
+    "french": "Ceux qui vivent dans des maisons de verre ne devraient pas jeter de pierres.",
+    "meaning": "Il faut reconnaître ses propres fragilités avant de condamner celles d’autrui.",
+    "tags": [
+      "Jugement",
+      "Humilité"
+    ]
+  },
+  {
+    "id": "en-19",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "The pen is mightier than the sword.",
+    "french": "La plume est plus puissante que l’épée.",
+    "meaning": "Les idées et les mots peuvent transformer le monde plus durablement que la force.",
+    "tags": [
+      "Parole",
+      "Pouvoir"
+    ]
+  },
+  {
+    "id": "en-20",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Birds of a feather flock together.",
+    "french": "Qui se ressemble s’assemble.",
+    "meaning": "Les personnes aux goûts ou aux caractères proches se rapprochent naturellement.",
+    "tags": [
+      "Affinité",
+      "Groupe"
+    ]
+  },
+  {
+    "id": "en-21",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "Don’t put all your eggs in one basket.",
+    "french": "Ne mets pas tous tes œufs dans le même panier.",
+    "meaning": "Répartir les risques protège d’une perte unique et totale.",
+    "tags": [
+      "Risque",
+      "Prudence"
+    ]
+  },
+  {
+    "id": "en-22",
+    "culture": "Anglais",
+    "place": "Monde anglophone",
+    "mark": "EN",
+    "original": "When the going gets tough, the tough get going.",
+    "french": "Quand les choses deviennent difficiles, les plus solides se mettent en marche.",
+    "meaning": "L’adversité révèle et mobilise la force de caractère.",
+    "tags": [
+      "Courage",
+      "Résilience"
+    ]
+  },
+  {
+    "id": "zh-8",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "百闻不如一见。",
+    "french": "Entendre cent fois ne vaut pas voir une fois.",
+    "meaning": "L’expérience directe éclaire mieux que de nombreux récits.",
+    "transliteration": "Bǎi wén bù rú yí jiàn.",
+    "source": "Proverbe chinois",
+    "lang": "zh",
+    "tags": [
+      "Expérience",
+      "Vérité"
+    ]
+  },
+  {
+    "id": "zh-9",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "冰冻三尺，非一日之寒。",
+    "french": "Trois pieds de glace ne se forment pas en un seul jour de froid.",
+    "meaning": "Les situations profondes sont le résultat d’une longue accumulation.",
+    "transliteration": "Bīng dòng sān chǐ, fēi yí rì zhī hán.",
+    "source": "Proverbe chinois",
+    "lang": "zh",
+    "tags": [
+      "Temps",
+      "Conséquence"
+    ]
+  },
+  {
+    "id": "zh-10",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "活到老，学到老。",
+    "french": "Vis jusqu’à la vieillesse, apprends jusqu’à la vieillesse.",
+    "meaning": "L’apprentissage n’a pas d’âge ni de terme.",
+    "transliteration": "Huó dào lǎo, xué dào lǎo.",
+    "source": "Proverbe chinois",
+    "lang": "zh",
+    "tags": [
+      "Apprentissage",
+      "Vie"
+    ]
+  },
+  {
+    "id": "zh-11",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "众人拾柴火焰高。",
+    "french": "Quand chacun apporte du bois, la flamme monte haut.",
+    "meaning": "La contribution de tous amplifie la force collective.",
+    "transliteration": "Zhòng rén shí chái huǒ yàn gāo.",
+    "source": "Proverbe chinois",
+    "lang": "zh",
+    "tags": [
+      "Coopération",
+      "Unité"
+    ]
+  },
+  {
+    "id": "zh-12",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "前人栽树，后人乘凉。",
+    "french": "Les anciens plantent les arbres, les générations suivantes profitent de leur ombre.",
+    "meaning": "Certaines œuvres sont accomplies pour ceux qui viendront après nous.",
+    "transliteration": "Qián rén zāi shù, hòu rén chéng liáng.",
+    "source": "Proverbe chinois",
+    "lang": "zh",
+    "tags": [
+      "Transmission",
+      "Générations"
+    ]
+  },
+  {
+    "id": "zh-13",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "知己知彼，百战不殆。",
+    "french": "Connais-toi et connais l’autre : tu ne seras pas en danger dans cent combats.",
+    "meaning": "La lucidité sur soi et sur l’environnement prépare l’action juste.",
+    "transliteration": "Zhī jǐ zhī bǐ, bǎi zhàn bù dài.",
+    "source": "Sun Tzu, L’Art de la guerre",
+    "lang": "zh",
+    "tags": [
+      "Connaissance",
+      "Stratégie"
+    ]
+  },
+  {
+    "id": "zh-14",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "授人以鱼不如授人以渔。",
+    "french": "Mieux vaut apprendre à pêcher à quelqu’un que lui donner un poisson.",
+    "meaning": "Transmettre une capacité rend plus autonome qu’apporter une aide ponctuelle.",
+    "transliteration": "Shòu rén yǐ yú bù rú shòu rén yǐ yú.",
+    "source": "Maxime chinoise",
+    "lang": "zh",
+    "tags": [
+      "Transmission",
+      "Autonomie"
+    ]
+  },
+  {
+    "id": "zh-15",
+    "culture": "Chine",
+    "place": "Chine",
+    "mark": "中",
+    "original": "不怕慢，就怕站。",
+    "french": "Ne crains pas d’avancer lentement ; crains seulement de t’arrêter.",
+    "meaning": "La continuité importe davantage que la vitesse.",
+    "transliteration": "Bù pà màn, jiù pà zhàn.",
+    "source": "Proverbe chinois",
+    "lang": "zh",
+    "tags": [
+      "Persévérance",
+      "Action"
+    ]
+  },
+  {
+    "id": "in-7",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "विद्या धनं सर्वधनप्रधानम्",
+    "french": "Le savoir est la première de toutes les richesses.",
+    "meaning": "La connaissance accompagne celui qui la possède et peut toujours être partagée.",
+    "transliteration": "Vidyā dhanaṃ sarvadhana-pradhānam.",
+    "source": "Maxime sanskrite",
+    "lang": "sa",
+    "tags": [
+      "Savoir",
+      "Richesse"
+    ]
+  },
+  {
+    "id": "in-8",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "जननी जन्मभूमिश्च स्वर्गादपि गरीयसी",
+    "french": "La mère et la terre natale sont plus précieuses encore que le ciel.",
+    "meaning": "L’origine et l’appartenance possèdent une valeur qui dépasse le prestige.",
+    "transliteration": "Jananī janmabhūmiś ca svargād api garīyasī.",
+    "source": "Ramayana",
+    "lang": "sa",
+    "tags": [
+      "Origine",
+      "Gratitude"
+    ]
+  },
+  {
+    "id": "in-9",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "एकता में बल है",
+    "french": "L’unité fait la force.",
+    "meaning": "Des volontés réunies accomplissent ce qu’aucune ne pourrait faire seule.",
+    "transliteration": "Ektā meṃ bal hai.",
+    "source": "Proverbe hindi",
+    "lang": "hi",
+    "tags": [
+      "Unité",
+      "Force"
+    ]
+  },
+  {
+    "id": "in-10",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "जैसा बोओगे वैसा काटोगे",
+    "french": "Tu récolteras ce que tu auras semé.",
+    "meaning": "Les actes d’aujourd’hui façonnent les conséquences de demain.",
+    "transliteration": "Jaisā booge vaisā kāṭoge.",
+    "source": "Proverbe hindi",
+    "lang": "hi",
+    "tags": [
+      "Conséquence",
+      "Responsabilité"
+    ]
+  },
+  {
+    "id": "in-11",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "बूंद बूंद से सागर भरता है",
+    "french": "Goutte après goutte, l’océan se remplit.",
+    "meaning": "Les contributions minuscules deviennent immenses par accumulation.",
+    "transliteration": "Būnd būnd se sāgar bhartā hai.",
+    "source": "Proverbe hindi",
+    "lang": "hi",
+    "tags": [
+      "Constance",
+      "Patience"
+    ]
+  },
+  {
+    "id": "in-12",
+    "culture": "Inde",
+    "place": "Inde",
+    "mark": "अ",
+    "original": "जहाँ चाह वहाँ राह",
+    "french": "Là où il y a une volonté, il y a un chemin.",
+    "meaning": "La détermination découvre des passages à travers les obstacles.",
+    "transliteration": "Jahā̃ cāh vahā̃ rāh.",
+    "source": "Proverbe hindi",
+    "lang": "hi",
+    "tags": [
+      "Volonté",
+      "Chemin"
+    ]
+  },
+  {
+    "id": "wo-9",
+    "culture": "Monde",
+    "place": "Japon",
+    "mark": "日",
+    "original": "猿も木から落ちる",
+    "french": "Même les singes tombent des arbres.",
+    "meaning": "Même les experts peuvent commettre une erreur.",
+    "transliteration": "Saru mo ki kara ochiru.",
+    "source": "Proverbe japonais",
+    "lang": "ja",
+    "tags": [
+      "Erreur",
+      "Humilité"
+    ]
+  },
+  {
+    "id": "wo-10",
+    "culture": "Monde",
+    "place": "Japon",
+    "mark": "日",
+    "original": "石の上にも三年",
+    "french": "Trois ans même sur une pierre.",
+    "meaning": "La persévérance finit par rendre supportable et féconde une situation difficile.",
+    "transliteration": "Ishi no ue ni mo san nen.",
+    "source": "Proverbe japonais",
+    "lang": "ja",
+    "tags": [
+      "Patience",
+      "Persévérance"
+    ]
+  },
+  {
+    "id": "wo-11",
+    "culture": "Monde",
+    "place": "Japon",
+    "mark": "日",
+    "original": "出る杭は打たれる",
+    "french": "Le clou qui dépasse reçoit le marteau.",
+    "meaning": "Celui qui se distingue s’expose à la pression du groupe.",
+    "transliteration": "Deru kui wa utareru.",
+    "source": "Proverbe japonais",
+    "lang": "ja",
+    "tags": [
+      "Groupe",
+      "Différence"
+    ]
+  },
+  {
+    "id": "wo-12",
+    "culture": "Monde",
+    "place": "Monde arabe",
+    "mark": "ع",
+    "original": "العلم نور",
+    "french": "Le savoir est une lumière.",
+    "meaning": "La connaissance éclaire la compréhension et guide la conduite.",
+    "transliteration": "Al-‘ilm nūr.",
+    "source": "Proverbe arabe",
+    "lang": "ar",
+    "rtl": true,
+    "tags": [
+      "Savoir",
+      "Lumière"
+    ]
+  },
+  {
+    "id": "wo-13",
+    "culture": "Monde",
+    "place": "Monde arabe",
+    "mark": "ع",
+    "original": "يد واحدة لا تصفق",
+    "french": "Une seule main n’applaudit pas.",
+    "meaning": "Certaines choses ne peuvent s’accomplir que par la coopération.",
+    "transliteration": "Yad wāḥida lā tuṣaffiq.",
+    "source": "Proverbe arabe",
+    "lang": "ar",
+    "rtl": true,
+    "tags": [
+      "Coopération",
+      "Unité"
+    ]
+  },
+  {
+    "id": "wo-14",
+    "culture": "Monde",
+    "place": "Monde arabe",
+    "mark": "ع",
+    "original": "من جد وجد",
+    "french": "Celui qui s’efforce trouve.",
+    "meaning": "Le travail persévérant ouvre le chemin de la réussite.",
+    "transliteration": "Man jadda wajada.",
+    "source": "Proverbe arabe",
+    "lang": "ar",
+    "rtl": true,
+    "tags": [
+      "Effort",
+      "Réussite"
+    ]
+  },
+  {
+    "id": "wo-15",
+    "culture": "Monde",
+    "place": "Afrique",
+    "mark": "AF",
+    "original": "Il faut tout un village pour élever un enfant.",
+    "french": "L’éducation d’un enfant est l’affaire de toute une communauté.",
+    "meaning": "Grandir dépend d’un réseau de soins, d’exemples et de transmissions.",
+    "source": "Proverbe africain",
+    "tags": [
+      "Enfance",
+      "Communauté"
+    ]
+  },
+  {
+    "id": "wo-16",
+    "culture": "Monde",
+    "place": "Afrique",
+    "mark": "AF",
+    "original": "Seul, on va plus vite ; ensemble, on va plus loin.",
+    "french": "La vitesse individuelle ne remplace pas la force durable du collectif.",
+    "meaning": "La coopération demande du temps mais permet d’atteindre des buts plus lointains.",
+    "source": "Proverbe africain contemporain",
+    "tags": [
+      "Coopération",
+      "Voyage"
+    ]
+  },
+  {
+    "id": "wo-17",
+    "culture": "Monde",
+    "place": "Afrique de l’Ouest",
+    "mark": "AF",
+    "original": "Quand les racines sont profondes, il n’y a pas lieu de craindre le vent.",
+    "french": "Des fondations solides permettent de résister aux épreuves.",
+    "meaning": "L’identité et les principes enracinés donnent de la stabilité.",
+    "source": "Proverbe africain",
+    "tags": [
+      "Racines",
+      "Résilience"
+    ]
+  },
+  {
+    "id": "wo-18",
+    "culture": "Monde",
+    "place": "Espagne",
+    "mark": "ES",
+    "original": "Más vale tarde que nunca.",
+    "french": "Mieux vaut tard que jamais.",
+    "meaning": "Une action bénéfique conserve sa valeur malgré le retard.",
+    "source": "Proverbe espagnol",
+    "lang": "es",
+    "tags": [
+      "Action",
+      "Temps"
+    ]
+  },
+  {
+    "id": "wo-19",
+    "culture": "Monde",
+    "place": "Espagne",
+    "mark": "ES",
+    "original": "A quien madruga, Dios le ayuda.",
+    "french": "Dieu aide celui qui se lève tôt.",
+    "meaning": "L’initiative et la diligence favorisent les occasions.",
+    "source": "Proverbe espagnol",
+    "lang": "es",
+    "tags": [
+      "Initiative",
+      "Travail"
+    ]
+  },
+  {
+    "id": "wo-20",
+    "culture": "Monde",
+    "place": "Italie",
+    "mark": "IT",
+    "original": "L’abito non fa il monaco.",
+    "french": "L’habit ne fait pas le moine.",
+    "meaning": "L’apparence extérieure ne suffit pas à révéler la personne.",
+    "source": "Proverbe italien",
+    "lang": "it",
+    "tags": [
+      "Apparence",
+      "Jugement"
+    ]
+  },
+  {
+    "id": "wo-21",
+    "culture": "Monde",
+    "place": "Italie",
+    "mark": "IT",
+    "original": "Tra il dire e il fare c’è di mezzo il mare.",
+    "french": "Entre dire et faire, il y a la mer.",
+    "meaning": "La distance est parfois immense entre l’intention déclarée et l’acte réel.",
+    "source": "Proverbe italien",
+    "lang": "it",
+    "tags": [
+      "Action",
+      "Parole"
+    ]
+  },
+  {
+    "id": "wo-22",
+    "culture": "Monde",
+    "place": "Allemagne",
+    "mark": "DE",
+    "original": "Übung macht den Meister.",
+    "french": "C’est la pratique qui fait le maître.",
+    "meaning": "La compétence se construit par l’exercice répété.",
+    "source": "Proverbe allemand",
+    "lang": "de",
+    "tags": [
+      "Pratique",
+      "Maîtrise"
+    ]
+  },
+  {
+    "id": "wo-23",
+    "culture": "Monde",
+    "place": "Allemagne",
+    "mark": "DE",
+    "original": "Ende gut, alles gut.",
+    "french": "Tout est bien qui finit bien.",
+    "meaning": "Une issue heureuse peut apaiser le souvenir des difficultés traversées.",
+    "source": "Proverbe allemand",
+    "lang": "de",
+    "tags": [
+      "Fin",
+      "Espoir"
+    ]
+  },
+  {
+    "id": "wo-24",
+    "culture": "Monde",
+    "place": "Russie",
+    "mark": "РУ",
+    "original": "Семь раз отмерь, один раз отрежь.",
+    "french": "Mesure sept fois, coupe une fois.",
+    "meaning": "Une décision irréversible mérite une préparation soigneuse.",
+    "transliteration": "Sem raz otmer, odin raz otrezh.",
+    "source": "Proverbe russe",
+    "lang": "ru",
+    "tags": [
+      "Prudence",
+      "Décision"
+    ]
+  },
+  {
+    "id": "wo-25",
+    "culture": "Monde",
+    "place": "Grèce",
+    "mark": "ΕΛ",
+    "original": "Σπεῦδε βραδέως.",
+    "french": "Hâte-toi lentement.",
+    "meaning": "Il faut réunir l’énergie de l’action et la prudence de l’exécution.",
+    "transliteration": "Speûde bradéōs.",
+    "source": "Maxime grecque",
+    "lang": "el",
+    "tags": [
+      "Mesure",
+      "Action"
+    ]
+  },
+  {
+    "id": "wo-26",
+    "culture": "Monde",
+    "place": "Danemark",
+    "mark": "DK",
+    "original": "Man skal ikke skue hunden på hårene.",
+    "french": "Il ne faut pas juger le chien à son poil.",
+    "meaning": "L’apparence ne révèle pas la valeur intérieure.",
+    "source": "Proverbe danois",
+    "lang": "da",
+    "tags": [
+      "Apparence",
+      "Jugement"
+    ]
+  },
+  {
+    "id": "la-1",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Carpe diem.",
+    "french": "Cueille le jour présent.",
+    "meaning": "Profite lucidement du présent sans remettre la vie à demain.",
+    "source": "Horace, Odes I, 11",
+    "lang": "la",
+    "tags": [
+      "Présent",
+      "Temps"
+    ]
+  },
+  {
+    "id": "la-2",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Veni, vidi, vici.",
+    "french": "Je suis venu, j’ai vu, j’ai vaincu.",
+    "meaning": "La formule exprime une victoire rapide et décisive.",
+    "source": "Jules César, selon Suétone",
+    "lang": "la",
+    "tags": [
+      "Victoire",
+      "Action"
+    ]
+  },
+  {
+    "id": "la-3",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Alea iacta est.",
+    "french": "Le sort en est jeté.",
+    "meaning": "Une décision irréversible vient d’être prise.",
+    "source": "Jules César, selon Suétone",
+    "lang": "la",
+    "tags": [
+      "Décision",
+      "Destin"
+    ]
+  },
+  {
+    "id": "la-4",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Errare humanum est.",
+    "french": "L’erreur est humaine.",
+    "meaning": "Se tromper appartient à la condition humaine.",
+    "source": "Formule issue de Sénèque",
+    "lang": "la",
+    "tags": [
+      "Erreur",
+      "Humanité"
+    ]
+  },
+  {
+    "id": "la-5",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Perseverare diabolicum.",
+    "french": "Persévérer dans l’erreur est diabolique.",
+    "meaning": "L’erreur devient faute lorsqu’on refuse obstinément de la corriger.",
+    "source": "Adage médiéval",
+    "lang": "la",
+    "tags": [
+      "Erreur",
+      "Lucidité"
+    ]
+  },
+  {
+    "id": "la-6",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Mens sana in corpore sano.",
+    "french": "Un esprit sain dans un corps sain.",
+    "meaning": "L’équilibre humain associe la santé du corps et celle de l’esprit.",
+    "source": "Juvénal, Satires X",
+    "lang": "la",
+    "tags": [
+      "Santé",
+      "Équilibre"
+    ]
+  },
+  {
+    "id": "la-7",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Verba volant, scripta manent.",
+    "french": "Les paroles s’envolent, les écrits restent.",
+    "meaning": "La parole passe tandis que l’écrit conserve une trace durable.",
+    "source": "Proverbe latin",
+    "lang": "la",
+    "tags": [
+      "Parole",
+      "Écriture"
+    ]
+  },
+  {
+    "id": "la-8",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Audentes fortuna iuvat.",
+    "french": "La fortune favorise les audacieux.",
+    "meaning": "L’initiative courageuse attire parfois les occasions favorables.",
+    "source": "Virgile, Énéide X",
+    "lang": "la",
+    "tags": [
+      "Audace",
+      "Fortune"
+    ]
+  },
+  {
+    "id": "la-9",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Homo homini lupus est.",
+    "french": "L’homme est un loup pour l’homme.",
+    "meaning": "L’être humain peut devenir le prédateur de son semblable.",
+    "source": "Plaute, Asinaria",
+    "lang": "la",
+    "tags": [
+      "Humanité",
+      "Pouvoir"
+    ]
+  },
+  {
+    "id": "la-10",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Si vis pacem, para bellum.",
+    "french": "Si tu veux la paix, prépare la guerre.",
+    "meaning": "La capacité à se défendre peut décourager l’agression.",
+    "source": "Végèce, Epitoma rei militaris",
+    "lang": "la",
+    "tags": [
+      "Paix",
+      "Prudence"
+    ]
+  },
+  {
+    "id": "la-11",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "In vino veritas.",
+    "french": "Dans le vin, la vérité.",
+    "meaning": "L’ivresse fait parfois tomber les retenues et révèle les pensées cachées.",
+    "source": "Adage latin",
+    "lang": "la",
+    "tags": [
+      "Vérité",
+      "Parole"
+    ]
+  },
+  {
+    "id": "la-12",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Tempus fugit.",
+    "french": "Le temps fuit.",
+    "meaning": "Le temps passe rapidement et ne peut être retenu.",
+    "source": "Virgile, Géorgiques III",
+    "lang": "la",
+    "tags": [
+      "Temps",
+      "Vie"
+    ]
+  },
+  {
+    "id": "la-13",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Memento mori.",
+    "french": "Souviens-toi que tu mourras.",
+    "meaning": "La conscience de la finitude invite à l’humilité et à une vie plus juste.",
+    "source": "Tradition latine",
+    "lang": "la",
+    "tags": [
+      "Mort",
+      "Humilité"
+    ]
+  },
+  {
+    "id": "la-14",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Dum spiro, spero.",
+    "french": "Tant que je respire, j’espère.",
+    "meaning": "La vie conserve toujours une possibilité d’espérance.",
+    "source": "Formule inspirée de Cicéron",
+    "lang": "la",
+    "tags": [
+      "Espoir",
+      "Vie"
+    ]
+  },
+  {
+    "id": "la-15",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Ars longa, vita brevis.",
+    "french": "L’art est long, la vie est brève.",
+    "meaning": "La connaissance demande plus de temps que n’en offre une seule existence.",
+    "source": "Hippocrate, transmis en latin",
+    "lang": "la",
+    "tags": [
+      "Art",
+      "Temps"
+    ]
+  },
+  {
+    "id": "la-16",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Repetitio est mater studiorum.",
+    "french": "La répétition est la mère de l’apprentissage.",
+    "meaning": "La maîtrise naît de la reprise et de l’exercice réguliers.",
+    "source": "Adage latin",
+    "lang": "la",
+    "tags": [
+      "Apprentissage",
+      "Pratique"
+    ]
+  },
+  {
+    "id": "la-17",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Historia magistra vitae est.",
+    "french": "L’histoire est maîtresse de vie.",
+    "meaning": "L’expérience du passé peut éclairer les choix du présent.",
+    "source": "Cicéron, De oratore",
+    "lang": "la",
+    "tags": [
+      "Histoire",
+      "Apprentissage"
+    ]
+  },
+  {
+    "id": "la-18",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Fortes fortuna adiuvat.",
+    "french": "La fortune aide les courageux.",
+    "meaning": "Le courage d’agir augmente les chances de rencontrer l’occasion.",
+    "source": "Térence, Phormion",
+    "lang": "la",
+    "tags": [
+      "Courage",
+      "Fortune"
+    ]
+  },
+  {
+    "id": "la-19",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Omnia vincit amor.",
+    "french": "L’amour triomphe de tout.",
+    "meaning": "L’amour possède une force capable de franchir les obstacles.",
+    "source": "Virgile, Bucoliques X",
+    "lang": "la",
+    "tags": [
+      "Amour",
+      "Force"
+    ]
+  },
+  {
+    "id": "la-20",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Labor omnia vincit.",
+    "french": "Le travail vient à bout de tout.",
+    "meaning": "L’effort persévérant surmonte les résistances les plus fortes.",
+    "source": "Virgile, Géorgiques I",
+    "lang": "la",
+    "tags": [
+      "Travail",
+      "Persévérance"
+    ]
+  },
+  {
+    "id": "la-21",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Gutta cavat lapidem.",
+    "french": "La goutte creuse la pierre.",
+    "meaning": "Une action faible mais constante finit par vaincre la résistance.",
+    "source": "Ovide, Épîtres du Pont IV",
+    "lang": "la",
+    "tags": [
+      "Constance",
+      "Persévérance"
+    ]
+  },
+  {
+    "id": "la-22",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Qui tacet consentire videtur.",
+    "french": "Qui se tait semble consentir.",
+    "meaning": "Le silence peut être interprété comme une approbation.",
+    "source": "Adage juridique latin",
+    "lang": "la",
+    "tags": [
+      "Silence",
+      "Responsabilité"
+    ]
+  },
+  {
+    "id": "la-23",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Panem et circenses.",
+    "french": "Du pain et des jeux.",
+    "meaning": "Le pouvoir peut détourner l’attention politique par le confort et le divertissement.",
+    "source": "Juvénal, Satires X",
+    "lang": "la",
+    "tags": [
+      "Pouvoir",
+      "Société"
+    ]
+  },
+  {
+    "id": "la-24",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Quot homines, tot sententiae.",
+    "french": "Autant d’hommes, autant d’opinions.",
+    "meaning": "La diversité des personnes produit une diversité naturelle de jugements.",
+    "source": "Térence, Phormion",
+    "lang": "la",
+    "tags": [
+      "Opinion",
+      "Diversité"
+    ]
+  },
+  {
+    "id": "la-25",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Nemo propheta in patria.",
+    "french": "Nul n’est prophète en son pays.",
+    "meaning": "La proximité rend parfois difficile la reconnaissance du talent.",
+    "source": "Adage d’origine évangélique",
+    "lang": "la",
+    "tags": [
+      "Reconnaissance",
+      "Proximité"
+    ]
+  },
+  {
+    "id": "la-26",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Non scholae, sed vitae discimus.",
+    "french": "Nous apprenons non pour l’école, mais pour la vie.",
+    "meaning": "L’étude prend son sens lorsqu’elle prépare à vivre et à agir.",
+    "source": "Formule renversant Sénèque, Lettres 106",
+    "lang": "la",
+    "tags": [
+      "École",
+      "Vie"
+    ]
+  },
+  {
+    "id": "la-27",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Faber est suae quisque fortunae.",
+    "french": "Chacun est l’artisan de sa propre fortune.",
+    "meaning": "La part d’action personnelle contribue à façonner le destin.",
+    "source": "Appius Claudius Caecus, cité par Salluste",
+    "lang": "la",
+    "tags": [
+      "Destin",
+      "Responsabilité"
+    ]
+  },
+  {
+    "id": "la-28",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Festina lente.",
+    "french": "Hâte-toi lentement.",
+    "meaning": "Agis avec énergie, mais sans sacrifier la prudence.",
+    "source": "Devise attribuée à Auguste",
+    "lang": "la",
+    "tags": [
+      "Mesure",
+      "Action"
+    ]
+  },
+  {
+    "id": "la-29",
+    "culture": "Latin",
+    "place": "Rome antique",
+    "mark": "LA",
+    "original": "Amicus certus in re incerta cernitur.",
+    "french": "C’est dans l’incertitude que l’on reconnaît l’ami sûr.",
+    "meaning": "L’amitié véritable se révèle dans l’épreuve.",
+    "source": "Ennius, cité par Cicéron",
+    "lang": "la",
+    "tags": [
+      "Amitié",
+      "Loyauté"
+    ]
+  },
+  {
+    "id": "la-30",
+    "culture": "Latin",
+    "place": "Sagesse latine",
+    "mark": "LA",
+    "original": "Fiat lux.",
+    "french": "Que la lumière soit.",
+    "meaning": "La lumière symbolise l’apparition de la connaissance et d’un monde intelligible.",
+    "source": "Vulgate, Genèse 1:3",
+    "lang": "la",
+    "tags": [
+      "Lumière",
+      "Création"
+    ]
+  }
+]
