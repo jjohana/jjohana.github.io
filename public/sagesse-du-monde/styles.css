@@ -1,6 +1,5 @@
 :root {
   --paper: #f3efe6;
-  --paper-deep: #e9e1d2;
   --ink: #17231e;
   --muted: #667169;
   --green: #1d382f;
@@ -86,14 +85,6 @@ button { color: inherit; }
   border-radius: 50%;
 }
 .site-header nav { display: flex; align-items: center; gap: 28px; }
-.site-header nav > a {
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.11em;
-  font-size: 11px;
-  font-weight: 750;
-}
-.site-header nav > a:hover { color: var(--red); }
 .favorites-button {
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -255,7 +246,7 @@ button { color: inherit; }
 
 .collection { padding: 90px clamp(18px, 5vw, 80px) 110px; background: var(--white); }
 .collection-heading { display: flex; justify-content: space-between; align-items: end; gap: 40px; }
-.collection-heading h2, .method h2 { margin: 28px 0 20px; font: clamp(48px, 6vw, 90px)/0.96 var(--serif); font-weight: 400; letter-spacing: -.045em; }
+.collection-heading h2 { margin: 28px 0 20px; font: clamp(48px, 6vw, 90px)/0.96 var(--serif); font-weight: 400; letter-spacing: -.045em; }
 .collection-heading h2 em { color: var(--red); font-weight: 400; }
 .collection-heading p { max-width: 660px; color: var(--muted); font: 18px/1.65 var(--serif); }
 .random-button {
@@ -335,19 +326,6 @@ button { color: inherit; }
 .load-more button:hover { background: var(--green); color: white; }
 .empty-state { text-align: center; padding: 80px 20px; color: var(--muted); font: 22px/1.5 var(--serif); }
 
-.method { padding: 95px clamp(22px, 8vw, 130px); background: var(--paper-deep); }
-.method-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(50px, 9vw, 150px); margin-top: 35px; }
-.method h2 { font-size: clamp(42px, 5vw, 72px); }
-.method-copy { padding-top: 18px; }
-.method-copy > p { font: 19px/1.7 var(--serif); color: #455148; }
-.method-copy ol { list-style: none; counter-reset: method; padding: 0; margin: 35px 0 0; }
-.method-copy li { counter-increment: method; border-top: 1px solid var(--line); padding: 17px 0 17px 42px; position: relative; line-height: 1.6; color: var(--muted); }
-.method-copy li::before { content: "0" counter(method); position: absolute; left: 0; color: var(--red); font: 15px/1.6 var(--serif); }
-.method-copy b { color: var(--ink); }
-.source-portals { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 55px; }
-.source-portals a { border: 1px solid var(--line); border-radius: 999px; padding: 9px 12px; text-decoration: none; font-size: 10px; }
-.source-portals a:hover { background: var(--green); color: white; }
-
 footer { padding: 45px clamp(22px, 6vw, 100px); background: #12251f; color: white; display: grid; grid-template-columns: 1fr 1fr auto; gap: 30px; align-items: center; }
 .footer-brand .brand-seal { background: var(--paper); color: var(--green); }
 footer p { color: rgba(255,255,255,.65); font: 15px/1.6 var(--serif); }
@@ -385,7 +363,6 @@ dialog::backdrop { background: rgba(10, 22, 18, .72); backdrop-filter: blur(3px)
 @media (max-width: 760px) {
   .site-header { min-height: 76px; padding: 14px 18px; }
   .site-header nav { gap: 9px; }
-  .site-header nav > a { display: none; }
   .brand-seal { width: 36px; height: 36px; font-size: 24px; }
   .hero { min-height: auto; padding-top: 82px; }
   .hero h1 { font-size: clamp(52px, 16vw, 76px); }
@@ -393,7 +370,7 @@ dialog::backdrop { background: rgba(10, 22, 18, .72); backdrop-filter: blur(3px)
   .hero-stats div { min-width: 0; padding-right: 10px; }
   .hero-stats div + div { padding-left: 10px; }
   .hero-stats dt { font-size: 26px; }
-  .featured-grid, .method-grid { grid-template-columns: 1fr; }
+  .featured-grid { grid-template-columns: 1fr; }
   .featured-meaning { padding-left: 0; border-left: 0; border-top: 1px solid rgba(255,255,255,.25); padding-top: 45px; }
   .culture-grid, .card-grid { grid-template-columns: 1fr; }
   .collection-heading { display: block; }
