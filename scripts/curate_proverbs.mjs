@@ -18,6 +18,48 @@ const EXCLUDED_IDS = new Set([
 ]);
 
 const SOURCE_OVERRIDES = {
+  "he-22": {
+    place: "Tradition rabbinique",
+    mark: "מש",
+    lang: "he",
+    rtl: true,
+    original: "כל המקיים נפש אחת מישראל מעלה עליו הכתוב כאילו קיים עולם מלא.",
+    transliteration: "Kol hamekayem nefesh aḥat mi-Yisrael, maʿale alav hakatuv ke-ilu kiyem olam male.",
+    french: "Quiconque préserve une seule vie d’Israël, l’Écriture le considère comme s’il avait préservé un monde entier.",
+    meaning: "Chaque vie porte une valeur irréductible : la protéger revient symboliquement à préserver tout un monde de relations et de possibles.",
+    source: "Mishna, Sanhédrin 4:5, recension imprimée de Vilna (1913)",
+    sourceUrl: "https://www.sefaria.org/Mishnah_Sanhedrin.4.5",
+    sourceKind: "text",
+    sourceNote: "La recension imprimée porte « d’Israël » ; plusieurs manuscrits importants transmettent « une seule vie » sans ce complément. La traduction conserve ici le texte lié.",
+    tags: ["Vie", "Dignité"],
+  },
+  "wo-3": {
+    original: "Mwenye shibe hamjui mwenye njaa.",
+    french: "Celui qui est rassasié ne connaît pas celui qui a faim.",
+    meaning: "Le confort rend facilement invisible l’expérience de celui qui manque du nécessaire.",
+    source: "Proverbe swahili recensé dans les collections de proverbes swahilis",
+    sourceUrl: "https://en.wikiquote.org/wiki/Swahili_proverbs",
+    sourceKind: "lexicographic",
+    tags: ["Faim", "Empathie"],
+  },
+  "wo-5": {
+    original: "La gatta frettolosa fece i gattini ciechi.",
+    french: "La chatte trop pressée fit des chatons aveugles.",
+    meaning: "Précipiter une tâche dont les étapes ont leur propre durée peut en compromettre irréversiblement le résultat.",
+    source: "Proverbe italien recensé par le Vocabolario Treccani, entrée « gatta »",
+    sourceUrl: "https://www.treccani.it/vocabolario/gatta2/",
+    sourceKind: "lexicographic",
+    tags: ["Précipitation", "Conséquence"],
+  },
+  "wo-7": {
+    original: "Casa onde não há pão, todos ralham e ninguém tem razão.",
+    french: "Dans une maison où il n’y a pas de pain, tout le monde se querelle et personne n’a raison.",
+    meaning: "Le manque matériel alimente des conflits que l’on attribue ensuite à tort au seul caractère des personnes.",
+    source: "Proverbe portugais recensé dans les collections lusophones",
+    sourceUrl: "https://pt.wikiquote.org/wiki/Prov%C3%A9rbios_portugueses",
+    sourceKind: "lexicographic",
+    tags: ["Manque", "Conflit"],
+  },
   "fr-9": {
     source: "Jean de La Fontaine, Fables V, 20, « L’Ours et les deux Compagnons »",
     sourceUrl: "https://fr.wikisource.org/wiki/L’Ours_et_les_deux_Compagnons",
@@ -227,7 +269,7 @@ const SOURCE_OVERRIDES = {
     sourceKind: "lexicographic",
   },
   "wo-8": {
-    sourceUrl: "https://nl.wiktionary.org/wiki/na_regen_komt_zonneschijn",
+    sourceUrl: "https://www.dbnl.org/tekst/stoe002nede01_01/stoe002nede01_01_1991.php",
     sourceKind: "lexicographic",
   },
   "wo-9": {
@@ -247,7 +289,7 @@ const SOURCE_OVERRIDES = {
     sourceKind: "lexicographic",
   },
   "wo-20": {
-    sourceUrl: "https://it.wiktionary.org/wiki/l%27abito_non_fa_il_monaco",
+    sourceUrl: "https://www.treccani.it/vocabolario/abito/",
     sourceKind: "lexicographic",
   },
   "wo-22": {
@@ -376,8 +418,8 @@ const ENGLISH_EXPANSION = [
   ["en-89", "The pot calls the kettle black.", "Le pot traite la bouilloire de noire.", "On condamne chez autrui un défaut que l’on possède soi-même.", "Expression proverbiale anglaise attestée au XVIIe siècle ; The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Hypocrisie", "Critique"]],
   ["en-90", "There’s no place like home.", "Il n’y a pas d’endroit comme chez soi.", "Aucun ailleurs ne remplace entièrement la sécurité affective du foyer.", "John Howard Payne, chanson « Home! Sweet Home! » (1823), forme devenue proverbiale", "https://en.wikisource.org/wiki/Home,_Sweet_Home", "text", ["Foyer", "Appartenance"]],
   ["en-91", "There’s no such thing as a free lunch.", "Un déjeuner gratuit, cela n’existe pas.", "Un avantage apparemment sans coût est toujours payé par quelqu’un ou produit une contrepartie.", "Aphorisme économique américain du XXe siècle, documenté par The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Coût", "Économie"]],
-  ["en-92", "United we stand, divided we fall.", "Unis nous tenons, divisés nous tombons.", "La cohésion permet au groupe de résister à ce qui vaincrait ses membres séparément.", "Formule anglaise ancienne ; « The Liberty Song » de John Dickinson (1768) en donne une version américaine célèbre", "https://en.wikisource.org/wiki/The_Liberty_Song", "text", ["Union", "Résistance"]],
-  ["en-93", "Variety is the spice of life.", "La variété est l’épice de la vie.", "Le changement et la diversité donnent du relief à l’existence.", "William Cowper, The Task, livre II (1785)", "https://en.wikisource.org/wiki/The_Task_(Cowper)/Book_II", "text", ["Diversité", "Vie"]],
+  ["en-92", "United we stand, divided we fall.", "Unis nous tenons, divisés nous tombons.", "La cohésion permet au groupe de résister à ce qui vaincrait ses membres séparément.", "Formule anglaise ancienne ; « The Liberty Song » de John Dickinson (1768) en donne une version américaine célèbre", "https://upload.wikimedia.org/wikipedia/commons/a/a9/Songs_and_ballads_of_the_American_Revolution_%28IA_songsballadsofam01moor%29.pdf", "text", ["Union", "Résistance"]],
+  ["en-93", "Variety is the spice of life.", "La variété est l’épice de la vie.", "Le changement et la diversité donnent du relief à l’existence.", "William Cowper, The Task, livre II (1785)", "https://www.eighteenthcenturypoetry.org/works/o3795-w0020.shtml", "text", ["Diversité", "Vie"]],
   ["en-94", "What goes around comes around.", "Ce qui circule finit par revenir.", "Les actes et les attitudes produisent souvent des conséquences qui rejoignent leur auteur.", "Proverbe anglophone moderne, documenté par The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Conséquence", "Réciprocité"]],
   ["en-95", "You can’t teach an old dog new tricks.", "On ne peut apprendre de nouveaux tours à un vieux chien.", "Les habitudes anciennes résistent aux apprentissages qui exigent de les remettre en cause.", "Proverbe anglais attesté au XVIe siècle ; The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Habitude", "Apprentissage"]],
   ["en-96", "You reap what you sow.", "On récolte ce que l’on sème.", "La nature de nos actes prépare celle de leurs conséquences.", "Bible King James, Galatians 6:7, formulation devenue proverbiale", "https://en.wikisource.org/wiki/Bible_(King_James)/Galatians#6:7", "derived", ["Conséquence", "Action"], null, "La King James porte « whatsoever a man soweth, that shall he also reap » ; l’entrée donne sa condensation proverbiale."],
@@ -386,7 +428,7 @@ const ENGLISH_EXPANSION = [
   ["en-99", "A place for everything and everything in its place.", "Une place pour chaque chose, et chaque chose à sa place.", "L’ordre durable vient moins du rangement ponctuel que d’une règle simple appliquée à chaque objet.", "Maxime anglaise attestée au XVIIe siècle ; The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Ordre", "Organisation"]],
   ["en-100", "Three may keep a secret, if two of them are dead.", "Trois personnes peuvent garder un secret, si deux d’entre elles sont mortes.", "L’hyperbole rappelle avec humour que chaque confident supplémentaire fragilise radicalement le secret.", "Benjamin Franklin, Poor Richard’s Almanack (1735)", "https://en.wikisource.org/wiki/Poor_Richard%27s_Almanack", "text", ["Secret", "Discrétion"]],
   ["en-101", "Barking dogs seldom bite.", "Les chiens qui aboient mordent rarement.", "La menace la plus bruyante n’est pas toujours celle qui passe à l’acte.", "Proverbe anglais, documenté par The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Menace", "Apparence"]],
-  ["en-102", "Cleanliness is next to godliness.", "La propreté vient juste après la piété.", "La discipline du soin matériel est présentée comme proche de la discipline morale.", "Maxime popularisée par John Wesley, sermon « On Dress » (1769)", "https://en.wikisource.org/wiki/Sermons_on_Several_Occasions/Sermon_88", "text", ["Propreté", "Discipline"], null, "La formule est culturelle et morale, non une hiérarchie médicale ou religieuse universelle."],
+  ["en-102", "Cleanliness is next to godliness.", "La propreté vient juste après la piété.", "La discipline du soin matériel est présentée comme proche de la discipline morale.", "Maxime popularisée par John Wesley, sermon « On Dress » (1769)", "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-88-on-dress/", "text", ["Propreté", "Discipline"], null, "La formule est culturelle et morale, non une hiérarchie médicale ou religieuse universelle."],
   ["en-103", "Familiarity breeds contempt.", "La familiarité engendre le mépris.", "Une proximité sans attention peut faire perdre le sens de la valeur ou des limites de l’autre.", "Proverbe anglais issu d’une famille latine antique ; The Phrase Finder", ENGLISH_PROVERBS_URL, "derived", ["Familiarité", "Respect"]],
   ["en-104", "First come, first served.", "Premier arrivé, premier servi.", "Lorsque les droits sont égaux et les ressources limitées, l’ordre d’arrivée peut fournir une règle simple.", "Maxime anglaise issue de l’usage juridique médiéval ; The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Ordre", "Équité"]],
   ["en-105", "You catch more flies with honey than with vinegar.", "On attrape plus de mouches avec du miel qu’avec du vinaigre.", "La douceur et la courtoisie obtiennent souvent davantage que l’hostilité.", "Proverbe anglophone d’une famille européenne ancienne ; The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Douceur", "Persuasion"]],
@@ -396,9 +438,9 @@ const ENGLISH_EXPANSION = [
   ["en-109", "He who laughs last laughs best.", "Rit le mieux qui rit le dernier.", "Un avantage provisoire ne décide pas du résultat final.", "Proverbe anglais, documenté par The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Résultat", "Patience"]],
   ["en-110", "If the shoe fits, wear it.", "Si la chaussure te va, porte-la.", "Si une critique générale te décrit justement, reconnais-la au lieu de rejeter sa forme indirecte.", "Idiome proverbial américain, variante de l’anglais « if the cap fits » ; The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Critique", "Lucidité"]],
   ["en-111", "Where ignorance is bliss, ’tis folly to be wise.", "Là où l’ignorance fait le bonheur, il est folie d’être sage.", "Certaines vérités détruisent une innocence confortable sans fournir immédiatement le pouvoir d’agir.", "Thomas Gray, Ode on a Distant Prospect of Eton College (1747)", "https://en.wikisource.org/wiki/Ode_on_a_Distant_Prospect_of_Eton_College", "text", ["Ignorance", "Sagesse"]],
-  ["en-112", "Imitation is the sincerest form of flattery.", "L’imitation est la forme la plus sincère de flatterie.", "Copier reconnaît implicitement la valeur de ce que l’on prend pour modèle.", "Charles Caleb Colton, Lacon (1820) ; forme souvent attribuée à tort à Oscar Wilde", "https://en.wikisource.org/wiki/Lacon_(Colton)", "text", ["Imitation", "Flatterie"], null, "La formulation courte est attribuée à Colton ; la continuation ironique associée à Wilde est postérieure."],
+  ["en-112", "Imitation is the sincerest form of flattery.", "L’imitation est la forme la plus sincère de flatterie.", "Copier reconnaît implicitement la valeur de ce que l’on prend pour modèle.", "Forme proverbiale moderne développée à partir de Charles Caleb Colton, Lacon (1820) : « Imitation is the sincerest of flattery »", "https://upload.wikimedia.org/wikipedia/commons/1/1a/Lacon%3B_or%2C_Many_Things_in_Few_Words%2C_3rd_ed._%28IA_dli.granth.17413%29.pdf", "derived", ["Imitation", "Flatterie"], null, "Le texte de Colton porte « the sincerest of flattery » ; « the sincerest form of flattery » est la forme devenue proverbiale. La continuation ironique associée à Wilde est postérieure."],
   ["en-113", "It takes two to tango.", "Il faut être deux pour danser le tango.", "Une relation, une coopération ou certains conflits supposent la participation de deux parties.", "Idiome américain popularisé par la chanson de 1952 ; dossier The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Réciprocité", "Responsabilité"]],
-  ["en-114", "Knowledge is power.", "Le savoir est un pouvoir.", "Comprendre augmente la capacité de prévoir, de décider et d’agir.", "Maxime anglaise issue de Francis Bacon, Meditationes Sacrae (1597) : « ipsa scientia potestas est »", "https://en.wikisource.org/wiki/Meditationes_Sacrae", "derived", ["Savoir", "Pouvoir"]],
+  ["en-114", "Knowledge is power.", "Le savoir est un pouvoir.", "Comprendre augmente la capacité de prévoir, de décider et d’agir.", "Maxime anglaise issue de Francis Bacon, Meditationes Sacrae (1597) : « ipsa scientia potestas est »", "https://en.wikisource.org/wiki/Page%3AHoyt%27s_New_Cyclopedia_Of_Practical_Quotations_%281922%29.djvu/458", "derived", ["Savoir", "Pouvoir"]],
   ["en-115", "Least said, soonest mended.", "Moins on en dit, plus vite on répare.", "Dans un conflit échauffé, retenir les paroles supplémentaires limite les blessures qu’il faudra ensuite guérir.", "Proverbe anglais, documenté par The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Silence", "Conflit"]],
   ["en-116", "Might makes right.", "La force fait le droit.", "La formule décrit, souvent pour la dénoncer, le moment où la puissance se substitue à la justice.", "Aphorisme anglais d’une famille antique, documenté par The Phrase Finder", ENGLISH_PROVERBS_URL, "lexicographic", ["Force", "Justice"], null, "Lecture descriptive et critique : la collection ne présente pas la domination comme un principe moral."],
   ["en-117", "Never put off till tomorrow what you can do today.", "Ne remets jamais à demain ce que tu peux faire aujourd’hui.", "Reporter sans nécessité transforme une tâche présente en dette future.", "Maxime popularisée par Benjamin Franklin dans Poor Richard’s Almanack", "https://en.wikisource.org/wiki/Poor_Richard%27s_Almanack", "text", ["Action", "Procrastination"]],
@@ -459,6 +501,145 @@ const HEBREW_EXPANSION = [
   ["he-99", "וְאַף עַל פִּי שֶׁשַּׁעֲרֵי תְפִילָּה נִנְעֲלוּ, שַׁעֲרֵי דְמָעוֹת לֹא נִנְעֲלוּ", "Même lorsque les portes de la prière se sont fermées, les portes des larmes ne se sont pas fermées.", "La parole peut se trouver empêchée ; l’expression nue de la douleur demeure encore une voie d’appel.", "Talmud de Babylone, Bava Metzia 59a", "https://www.sefaria.org/Bava_Metzia.59a", "text", ["Larmes", "Prière"], "Ve-af al pi she-sha'arei tefila nin'alou, sha'arei dema'ot lo nin'alou."],
   ["he-100", "בְּדֶרֶךְ שֶׁאָדָם רוֹצֶה לֵילֵךְ בָּהּ מוֹלִיכִין אוֹתוֹ", "Sur le chemin qu’une personne désire prendre, on la conduit.", "L’orientation répétée du désir ouvre progressivement des voies et façonne la personne qui les emprunte.", "Talmud de Babylone, Makkot 10b", "https://www.sefaria.org/Makkot.10b", "text", ["Désir", "Chemin"], "Bederekh she-adam rotsé leilekh bah molikhin oto."],
 ].map(makeHebrew);
+
+const makeGreek = makePriorityEntry({ culture: "Grec ancien", place: "Monde grec antique", mark: "ΕΛ", lang: "grc" });
+const makeLatin = makePriorityEntry({ culture: "Latin", place: "Monde romain", mark: "LA", lang: "la" });
+const makeChinese = makePriorityEntry({ culture: "Chine", place: "Chine ancienne", mark: "中", lang: "zh" });
+const makeSanskrit = makePriorityEntry({ culture: "Inde", place: "Inde ancienne", mark: "अ", lang: "sa" });
+const makeTamil = makePriorityEntry({ culture: "Inde", place: "Tamilakam", mark: "த", lang: "ta" });
+const makePali = makePriorityEntry({ culture: "Inde", place: "Inde bouddhique", mark: "𑀧", lang: "pi" });
+const makeBengali = makePriorityEntry({ culture: "Inde", place: "Bengale", mark: "ব", lang: "bn" });
+
+const GREEK_EXPANSION = [
+  ["gr-8", "Ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ.", "Une vie sans examen ne mérite pas d’être vécue par l’être humain.", "Socrate place l’examen de soi et de ses raisons au cœur d’une existence pleinement humaine.", "Platon, Apologie de Socrate 38a", "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Apol.+38a", "text", ["Examen", "Vie"], "Ho de anexetastos bios ou biotos anthropo."],
+  ["gr-9", "Πάντων χρημάτων μέτρον ἄνθρωπον εἶναι.", "L’être humain est la mesure de toutes choses.", "La formule de Protagoras rappelle que notre accès au réel passe par la perception et le jugement humains.", "Protagoras, fragment rapporté par Platon, Théétète 152a", "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Theaet.+152a", "text", ["Mesure", "Perception"], "Panton chrematon metron anthropon einai."],
+  ["gr-10", "Κοινὰ τὰ τῶν φίλων.", "Entre amis, les biens sont communs.", "L’amitié authentique transforme la possession isolée en disponibilité réciproque.", "Proverbe pythagoricien cité par Platon, République 424a", "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Rep.+424a", "text", ["Amitié", "Partage"], "Koina ta ton philon."],
+  ["gr-11", "Οἱ ὀρθῶς φιλοσοφοῦντες ἀποθνῄσκειν μελετῶσι.", "Ceux qui philosophent véritablement s’exercent à mourir.", "La philosophie apprend à desserrer l’emprise de la peur et des attachements qui empêchent de vivre lucidement.", "Platon, Phédon 64a", "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Phaedo+64a", "text", ["Philosophie", "Mort"], "Hoi orthos philosophountes apothneskein meletosi."],
+  ["gr-12", "Πρὶν δ᾽ ἂν τελευτήσῃ, ἐπισχεῖν μηδὲ καλέειν κω ὄλβιον, ἀλλ᾽ εὐτυχέα.", "Avant sa fin, retiens ton jugement : ne dis pas encore un homme heureux, mais seulement favorisé.", "Une prospérité présente ne suffit pas à juger l’ensemble d’une vie encore exposée au changement.", "Hérodote, Histoires 1.32, conseil de Solon à Crésus", "https://www.perseus.tufts.edu/hopper/text?doc=Hdt.+1.32", "text", ["Bonheur", "Finitude"], "Prin d'an teleutese, epischein mede kaleein ko olbion, all' eutüchea."],
+  ["gr-13", "Κτῆμά τε ἐς αἰεὶ μᾶλλον ἢ ἀγώνισμα ἐς τὸ παραχρῆμα ἀκούειν ξύγκειται.", "Cette œuvre est composée comme un acquis pour toujours plutôt que comme un morceau d’apparat pour l’audition du moment.", "Thucydide oppose la connaissance durable au succès immédiat destiné à séduire un public.", "Thucydide, Guerre du Péloponnèse 1.22.4", "https://www.perseus.tufts.edu/hopper/text?doc=Thuc.+1.22.4", "text", ["Histoire", "Durée"], "Ktema te es aiei mallon e agonisma es to parachrema akouein xynkeitai."],
+  ["gr-14", "Ἀμήχανον δὲ παντὸς ἀνδρὸς ἐκμαθεῖν ψυχήν τε καὶ φρόνημα καὶ γνώμην, πρὶν ἂν ἀρχαῖς τε καὶ νόμοισιν ἐντριβὴς φανῇ.", "Il est impossible de connaître l’âme, la pensée et le jugement d’un homme avant de l’avoir vu exercer le pouvoir et appliquer les lois.", "L’autorité révèle les dispositions que la vie privée permettait de dissimuler.", "Sophocle, Antigone 175–177", "https://www.perseus.tufts.edu/hopper/text?doc=Soph.+Ant.+175", "text", ["Pouvoir", "Caractère"], "Amechanon de pantos andros ekmathein psychen te kai phronema kai gnomen, prin an archais te kai nomoisin entribes phane."],
+  ["gr-15", "Χρόνος δίκαιον ἄνδρα δείκνυσιν μόνος.", "Le temps seul révèle l’homme juste.", "La justice d’un caractère se vérifie dans la continuité des actes plutôt que dans une déclaration ponctuelle.", "Sophocle, Œdipe roi 614", "https://www.perseus.tufts.edu/hopper/text?doc=Soph.+OT+614", "text", ["Temps", "Justice"], "Chronos dikaion andra deiknysin monos."],
+  ["gr-16", "Πάθει μάθος.", "Par la souffrance, l’apprentissage.", "L’épreuve peut produire une connaissance qu’aucune explication abstraite ne suffisait à transmettre.", "Eschyle, Agamemnon 177", "https://www.perseus.tufts.edu/hopper/text?doc=Aesch.+Ag.+177", "text", ["Épreuve", "Apprentissage"], "Pathei mathos."],
+  ["gr-17", "Νήπιοι, οὐδὲ ἴσασιν ὅσῳ πλέον ἥμισυ παντός.", "Insensés, ils ne savent pas combien la moitié vaut plus que le tout.", "La mesure peut conserver davantage que l’avidité qui veut tout saisir et finit par tout perdre.", "Hésiode, Les Travaux et les Jours 40", "https://www.perseus.tufts.edu/hopper/text?doc=Hes.+WD+40", "text", ["Mesure", "Avidité"], "Nepioi, oude isasin hoso pleon hemisy pantos."],
+  ["gr-18", "Ἦθος ἀνθρώπῳ δαίμων.", "Le caractère de l’être humain est son destin.", "Les dispositions cultivées jour après jour orientent une vie plus sûrement qu’un destin imaginé comme entièrement extérieur.", "Héraclite, fragment B119 Diels-Kranz", "https://el.wikisource.org/wiki/%CE%97%CF%81%CE%AC%CE%BA%CE%BB%CE%B5%CE%B9%CF%84%CE%BF%CF%82", "text", ["Caractère", "Destin"], "Ethos anthropo daimon."],
+  ["gr-19", "Αἰὲν ἀριστεύειν καὶ ὑπείροχον ἔμμεναι ἄλλων.", "Toujours exceller et se montrer supérieur aux autres.", "L’idéal héroïque homérique exige de transformer l’héritage reçu en actes dignes de mémoire.", "Homère, Iliade 6.208", "https://www.perseus.tufts.edu/hopper/text?doc=Hom.+Il.+6.208", "text", ["Excellence", "Honneur"], "Aien aristeuein kai hypeirochon emmenai allon."],
+  ["gr-20", "Τοῖος γὰρ νόος ἐστὶν ἐπιχθονίων ἀνθρώπων, οἷον ἐπ᾽ ἦμαρ ἄγησι πατὴρ ἀνδρῶν τε θεῶν τε.", "L’esprit des humains sur la terre est tel que le jour que leur envoie le père des hommes et des dieux.", "Notre disposition dépend fortement des circonstances ; se croire immuable est une illusion.", "Homère, Odyssée 18.136–137", "https://www.perseus.tufts.edu/hopper/text?doc=Hom.+Od.+18.136", "text", ["Circonstance", "Esprit"], "Toios gar noos estin epichthonion anthropon, hoion ep' emar agesi pater andron te theon te."],
+  ["gr-21", "Γένοι᾽ οἷος ἐσσὶ μαθών.", "Deviens qui tu es, après l’avoir appris.", "L’accomplissement de soi suppose une connaissance exigeante de ses dispositions et de sa vocation.", "Pindare, Pythiques 2.72", "https://www.perseus.tufts.edu/hopper/text?doc=Pind.+P.+2.72", "text", ["Connaissance de soi", "Accomplissement"], "Genoio hoios essi mathon."],
+  ["gr-22", "Ἡ γλῶσσ᾽ ὀμώμοχ᾽, ἡ δὲ φρὴν ἀνώμοτος.", "Ma langue a juré, mais mon esprit n’a pas prêté serment.", "La formule dramatique expose la rupture dangereuse entre la parole donnée et l’intention intérieure.", "Euripide, Hippolyte 612", "https://www.perseus.tufts.edu/hopper/text?doc=Eur.+Hipp.+612", "text", ["Serment", "Intention"], "He gloss' omomoch', he de phren anomotos."],
+  ["gr-23", "Ὁ ἄνθρωπος φύσει πολιτικὸν ζῷον.", "L’être humain est par nature un animal politique.", "La vie humaine se construit dans des communautés, des règles et une parole partagée.", "Aristote, Politique 1253a2", "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0057%3Abook%3D1%3Asection%3D1253a", "text", ["Cité", "Humanité"], "Ho anthropos physei politikon zoon."],
+  ["gr-24", "Τῶν ὄντων τὰ μέν ἐστιν ἐφ᾽ ἡμῖν, τὰ δὲ οὐκ ἐφ᾽ ἡμῖν.", "Parmi les choses, les unes dépendent de nous, les autres n’en dépendent pas.", "Distinguer notre jugement et nos actes de ce qui nous échappe protège l’action de l’agitation stérile.", "Épictète, Manuel 1", "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0235%3Atext%3Denc%3Achapter%3D1", "text", ["Liberté", "Discernement"], "Ton onton ta men estin eph' hemin, ta de ouk eph' hemin."],
+  ["gr-25", "Ταράσσει τοὺς ἀνθρώπους οὐ τὰ πράγματα, ἀλλὰ τὰ περὶ τῶν πραγμάτων δόγματα.", "Ce ne sont pas les choses qui troublent les humains, mais les jugements qu’ils portent sur les choses.", "Le travail sur l’interprétation peut réduire une souffrance ajoutée aux événements eux-mêmes.", "Épictète, Manuel 5", "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0235%3Atext%3Denc%3Achapter%3D5", "text", ["Jugement", "Trouble"], "Tarassei tous anthropous ou ta pragmata, alla ta peri ton pragmaton dogmata."],
+  ["gr-26", "Μὴ ζήτει τὰ γινόμενα γίνεσθαι ὡς θέλεις, ἀλλὰ θέλε τὰ γινόμενα ὡς γίνεται.", "Ne cherche pas à ce que les événements arrivent comme tu le veux ; veuille-les comme ils arrivent.", "L’acceptation du réel libère l’énergie auparavant dépensée à exiger que le passé ou l’inévitable soient autres.", "Épictète, Manuel 8", "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0235%3Atext%3Denc%3Achapter%3D8", "text", ["Acceptation", "Volonté"], "Me zetei ta ginomena ginesthai hos theleis, alla thele ta ginomena hos ginetai."],
+  ["gr-27", "Ἔνδον σκάπτε· ἔνδον ἡ πηγὴ τοῦ ἀγαθοῦ.", "Creuse au-dedans : au-dedans est la source du bien.", "La ressource morale doit être entretenue intérieurement plutôt qu’attendue de circonstances toujours favorables.", "Marc Aurèle, Pensées 7.59", "https://el.wikisource.org/wiki/%CE%A4%E1%BD%B0_%CE%B5%E1%BC%B0%CF%82_%E1%BC%91%CE%B1%CF%85%CF%84%CF%8C%CE%BD", "text", ["Intériorité", "Bien"], "Endon skapte; endon he pege tou agathou."],
+  ["gr-28", "Τὸ ἐμποδίζον τῇ ἐνεργείᾳ προάγει τὴν ἐνέργειαν, καὶ τὸ ἐπιστατοῦν τῇ ὁδῷ ἐν τῇ ὁδῷ γίνεται.", "Ce qui entrave l’action fait avancer l’action ; ce qui barrait le chemin devient le chemin.", "L’obstacle peut être intégré à l’action et devenir la matière même du progrès.", "Marc Aurèle, Pensées 5.20", "https://el.wikisource.org/wiki/%CE%A4%E1%BD%B0_%CE%B5%E1%BC%B0%CF%82_%E1%BC%91%CE%B1%CF%85%CF%84%CF%8C%CE%BD", "text", ["Obstacle", "Action"], "To empodizon te energeia proagei ten energeian, kai to epistatoun te hodo en te hodo ginetai."],
+  ["gr-29", "Πόλλ᾽ οἶδ᾽ ἀλώπηξ, ἀλλ᾽ ἐχῖνος ἓν μέγα.", "Le renard sait beaucoup de choses, mais le hérisson en sait une grande.", "La multiplicité des ruses et la maîtrise d’un principe central sont deux formes différentes d’intelligence.", "Archiloque, fragment 201 West", "https://en.wikiquote.org/wiki/Archilochus", "text", ["Intelligence", "Stratégie"], "Poll' oid' alopex, all' echinos hen mega."],
+  ["gr-30", "Ὅμοιος ὁμοίῳ ἀεὶ πελάζει.", "Le semblable va toujours vers son semblable.", "Les affinités de caractère, d’habitude ou de désir rapprochent spontanément les personnes.", "Proverbe ancien cité par Platon, Banquet 195b", "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Sym.+195b", "text", ["Affinité", "Caractère"], "Homoios homoio aei pelazei."],
+  ["gr-31", "Ἰδοὺ Ῥόδος, ἰδοὺ καὶ τὸ πήδημα.", "Voici Rhodes : saute ici.", "Une prétention doit être démontrée maintenant par l’acte, non protégée par un exploit invérifiable raconté ailleurs.", "Ésope, « L’Athlète fanfaron », fable 203 dans l’édition de Karl Halm", "https://en.wikisource.org/wiki/On_the_Basis_of_Morality/Part_II", "text", ["Preuve", "Action"], "Idou Rhodos, idou kai to pedema."],
+  ["gr-32", "Δὶς ἐξαμαρτεῖν οὐκ ἀνδρὸς σοφοῦ.", "Se tromper deux fois de la même manière n’est pas le fait d’un sage.", "L’erreur devient une leçon seulement lorsque l’expérience modifie la conduite suivante.", "Sentence grecque traditionnellement attribuée à Ménandre ; locution documentée par le Centre de la langue grecque", "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/search.html?lq=%CE%B4%CE%B9%CF%82", "lexicographic", ["Erreur", "Apprentissage"], "Dis examartein ouk andros sophou."],
+  ["gr-33", "Ἀνάγκᾳ δ᾽ οὐδὲ θεοὶ μάχονται.", "Même les dieux ne combattent pas la nécessité.", "La sagesse commence parfois par reconnaître une contrainte qu’aucune puissance ne peut abolir.", "Simonide de Céos, fragment 542 Page", "https://en.wikiquote.org/wiki/Simonides_of_Ceos", "text", ["Nécessité", "Limite"], "Ananka d' oude theoi machontai."],
+  ["gr-34", "Μολὼν λαβέ.", "Viens les prendre.", "La réponse de Léonidas oppose à l’ultimatum une détermination concise qui accepte lucidement le risque.", "Plutarque, Apophtegmes laconiens 225c, Léonidas 11", "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/Sayings_of_Spartans%2A/main.html", "text", ["Courage", "Résistance"], "Molon labe."],
+  ["gr-35", "Ἢ τὰν ἢ ἐπὶ τᾶς.", "Ou avec ton bouclier, ou sur lui.", "La formule spartiate exige de revenir fidèle à son devoir plutôt que d’abandonner les siens pour sauver seulement sa vie.", "Plutarque, Apophtegmes de femmes spartiates, 241f", "https://atlas.perseus.tufts.edu/library/urn%3Acts%3AgreekLit%3Atlg0007.tlg082b.perseus-eng2/", "text", ["Devoir", "Courage"], "E tan e epi tas."],
+  ["gr-36", "Καιρὸν γνῶθι.", "Reconnais le moment opportun.", "Une action juste dépend aussi du moment où elle peut produire son effet.", "Maxime delphique conservée par Stobée, Anthologie 3.1.173", "https://archive.org/details/joannisstobaeian03stovuoft/page/122/mode/2up", "text", ["Occasion", "Discernement"], "Kairon gnothi."],
+  ["gr-37", "Νόμῳ πείθου.", "Obéis à la loi.", "La vie commune exige que la volonté particulière reconnaisse une règle partagée.", "Maxime delphique conservée par Stobée, Anthologie 3.1.173", "https://archive.org/details/joannisstobaeian03stovuoft/page/122/mode/2up", "text", ["Loi", "Cité"], "Nomo peithou."],
+  ["gr-38", "Πρᾶττε δίκαια.", "Agis justement.", "La justice ne vaut pleinement que lorsqu’elle devient une pratique et non une opinion favorable sur soi-même.", "Maxime delphique conservée par Stobée, Anthologie 3.1.173", "https://archive.org/details/joannisstobaeian03stovuoft/page/122/mode/2up", "text", ["Justice", "Action"], "Pratte dikaia."],
+  ["gr-39", "Σοφίαν τίμα.", "Honore la sagesse.", "Ce que l’on choisit d’honorer oriente peu à peu ce que l’on cherche à devenir.", "Maxime delphique conservée par Stobée, Anthologie 3.1.173", "https://archive.org/details/joannisstobaeian03stovuoft/page/122/mode/2up", "text", ["Sagesse", "Honneur"], "Sophian tima."],
+].map(makeGreek);
+
+const LATIN_EXPANSION = [
+  ["la-34", "Homo sum: humani nihil a me alienum puto.", "Je suis humain : rien de ce qui est humain ne m’est étranger.", "L’appartenance à l’humanité oblige à ne pas traiter l’expérience d’autrui comme radicalement étrangère.", "Térence, Heautontimoroumenos 77", "https://www.thelatinlibrary.com/ter.heauton.html", "text", ["Humanité", "Empathie"]],
+  ["la-35", "Est modus in rebus.", "Il est une juste mesure en toute chose.", "La sagesse pratique cherche une limite entre le manque et l’excès.", "Horace, Satires I, 1, 106", "https://www.thelatinlibrary.com/horace/serm1.shtml", "text", ["Mesure", "Équilibre"]],
+  ["la-36", "Omne tulit punctum qui miscuit utile dulci.", "Il remporte tous les suffrages, celui qui mêle l’utile à l’agréable.", "Une œuvre transmet mieux lorsqu’elle joint la valeur de son enseignement au plaisir de sa forme.", "Horace, Art poétique 343", "https://www.thelatinlibrary.com/horace/arspoet.shtml", "text", ["Art", "Transmission"]],
+  ["la-37", "Quidquid id est, timeo Danaos et dona ferentes.", "Quoi qu’il en soit, je crains les Grecs même lorsqu’ils apportent des présents.", "Un cadeau peut servir une stratégie cachée ; la générosité apparente n’abolit pas l’examen des intentions.", "Virgile, Énéide II, 49", "https://www.thelatinlibrary.com/vergil/aen2.shtml", "text", ["Prudence", "Don"]],
+  ["la-38", "Facilis descensus Averno.", "La descente vers l’Averne est facile.", "Il est souvent plus facile d’entrer dans une voie destructrice que d’en revenir.", "Virgile, Énéide VI, 126", "https://www.thelatinlibrary.com/vergil/aen6.shtml", "text", ["Chute", "Retour"]],
+  ["la-39", "Non est ad astra mollis e terris via.", "Il n’est pas de chemin facile de la terre jusqu’aux étoiles.", "Toute élévation véritable demande de traverser une difficulté proportionnée à son ambition.", "Sénèque, Hercule furieux 437", "https://la.wikisource.org/wiki/Hercules_furens", "text", ["Effort", "Élévation"]],
+  ["la-40", "Forsan et haec olim meminisse iuvabit.", "Peut-être qu’un jour il sera doux de se souvenir même de ces épreuves.", "La distance peut transformer l’épreuve présente en mémoire de courage et de chemin parcouru.", "Virgile, Énéide I, 203", "https://www.thelatinlibrary.com/vergil/aen1.shtml", "text", ["Épreuve", "Mémoire"]],
+  ["la-41", "Amantium irae amoris integratio est.", "Les querelles des amants renouvellent l’amour.", "Certains conflits intimes, lorsqu’ils sont réparés, peuvent rendre la relation plus consciente et plus forte.", "Térence, Andrienne 555", "https://www.thelatinlibrary.com/ter.andria.html", "text", ["Amour", "Réconciliation"]],
+  ["la-42", "Inopi beneficium bis dat, qui dat celeriter.", "À celui qui manque, il donne deux fois, celui qui donne vite.", "Une aide reçue au moment du besoin vaut davantage qu’un secours tardif pourtant équivalent.", "Publilius Syrus, Sentences I, 5", "https://thelatinlibrary.com/syrus.html", "text", ["Aide", "Promptitude"]],
+].map(makeLatin);
+
+const CHINESE_EXPANSION = [
+  ["zh-22", "學而不思則罔，思而不學則殆。", "Étudier sans réfléchir égare ; réfléchir sans étudier met en danger.", "Le savoir exige le va-et-vient entre l’héritage reçu et l’examen personnel.", "Confucius, Entretiens 2.15", "https://ctext.org/analects/wei-zheng/zh", "text", ["Étude", "Réflexion"], "Xué ér bù sī zé wǎng, sī ér bù xué zé dài."],
+  ["zh-23", "見賢思齊焉，見不賢而內自省也。", "Voyant un homme de valeur, cherche à l’égaler ; voyant son contraire, examine-toi intérieurement.", "Autrui peut devenir un miroir : l’exemple inspire et le défaut observé invite à se corriger soi-même.", "Confucius, Entretiens 4.17", "https://ctext.org/analects/li-ren/zh", "text", ["Exemple", "Examen"], "Jiàn xián sī qí yān, jiàn bù xián ér nèi zì xǐng yě."],
+  ["zh-24", "德不孤，必有鄰。", "La vertu n’est jamais solitaire ; elle aura nécessairement des voisins.", "Une conduite droite crée autour d’elle des affinités et des alliances que l’intérêt seul ne produit pas.", "Confucius, Entretiens 4.25", "https://ctext.org/analects/li-ren/zh", "text", ["Vertu", "Affinité"], "Dé bù gū, bì yǒu lín."],
+  ["zh-25", "己欲立而立人，己欲達而達人。", "Souhaitant t’établir toi-même, aide les autres à s’établir ; souhaitant réussir, aide-les à réussir.", "L’accomplissement personnel devient pleinement humain lorsqu’il ouvre aussi un chemin à autrui.", "Confucius, Entretiens 6.30", "https://ctext.org/analects/yong-ye/zh", "text", ["Réciprocité", "Accomplissement"], "Jǐ yù lì ér lì rén, jǐ yù dá ér dá rén."],
+  ["zh-26", "三軍可奪帥也，匹夫不可奪志也。", "On peut enlever son général aux trois armées ; on ne peut enlever sa résolution au plus humble des hommes.", "La puissance extérieure peut être vaincue sans que la liberté intérieure consente à l’être.", "Confucius, Entretiens 9.26", "https://ctext.org/analects/zi-han/zh", "text", ["Résolution", "Liberté"], "Sān jūn kě duó shuài yě, pǐ fū bù kě duó zhì yě."],
+  ["zh-27", "歲寒，然後知松柏之後凋也。", "C’est dans le froid de l’année que l’on reconnaît que pins et cyprès se flétrissent les derniers.", "L’adversité révèle les fidélités et les caractères qui résistent lorsque les conditions favorables disparaissent.", "Confucius, Entretiens 9.28", "https://ctext.org/analects/zi-han/zh", "text", ["Adversité", "Fidélité"], "Suì hán, ránhòu zhī sōng bǎi zhī hòu diāo yě."],
+  ["zh-28", "知者不惑，仁者不憂，勇者不懼。", "Le sage n’est pas dans la confusion, l’homme de bien n’est pas dans l’inquiétude, le courageux n’est pas dans la peur.", "Savoir, bienveillance et courage libèrent chacun d’une forme différente d’asservissement intérieur.", "Confucius, Entretiens 9.29", "https://ctext.org/analects/zi-han/zh", "text", ["Sagesse", "Courage"], "Zhì zhě bù huò, rén zhě bù yōu, yǒng zhě bù jù."],
+  ["zh-29", "君子和而不同，小人同而不和。", "L’homme de bien recherche l’harmonie sans exiger l’uniformité ; l’homme mesquin recherche l’uniformité sans produire l’harmonie.", "L’accord véritable supporte la différence, tandis que le conformisme peut masquer la rivalité.", "Confucius, Entretiens 13.23", "https://ctext.org/analects/zi-lu/zh", "text", ["Harmonie", "Différence"], "Jūnzǐ hé ér bù tóng, xiǎorén tóng ér bù hé."],
+  ["zh-30", "人無遠慮，必有近憂。", "Qui ne pense pas au loin connaîtra bientôt l’inquiétude.", "Prévoir les conséquences éloignées évite que les problèmes négligés deviennent des urgences proches.", "Confucius, Entretiens 15.12", "https://ctext.org/analects/wei-ling-gong/zh", "text", ["Prévoyance", "Conséquence"], "Rén wú yuǎn lǜ, bì yǒu jìn yōu."],
+  ["zh-31", "君子求諸己，小人求諸人。", "L’homme de bien exige de lui-même ; l’homme mesquin exige des autres.", "La responsabilité commence par examiner sa propre part avant d’attribuer l’échec à autrui.", "Confucius, Entretiens 15.21", "https://ctext.org/analects/wei-ling-gong/zh", "text", ["Responsabilité", "Exigence"], "Jūnzǐ qiú zhū jǐ, xiǎorén qiú zhū rén."],
+  ["zh-32", "過而不改，是謂過矣。", "Commettre une faute et ne pas la corriger : voilà la véritable faute.", "L’erreur première devient moralement décisive lorsque l’on refuse d’en tirer une correction.", "Confucius, Entretiens 15.30", "https://ctext.org/analects/wei-ling-gong/zh", "text", ["Erreur", "Correction"], "Guò ér bù gǎi, shì wèi guò yǐ."],
+  ["zh-33", "天時不如地利，地利不如人和。", "Le moment donné par le Ciel vaut moins que l’avantage du terrain ; l’avantage du terrain vaut moins que l’harmonie entre les hommes.", "La cohésion humaine peut compter davantage que des circonstances ou des ressources pourtant favorables.", "Mencius 2A.1", "https://ctext.org/mengzi/gong-sun-chou-i/zh", "text", ["Harmonie", "Stratégie"], "Tiān shí bù rú dì lì, dì lì bù rú rén hé."],
+  ["zh-34", "得道者多助，失道者寡助。", "Celui qui suit la Voie reçoit beaucoup d’aide ; celui qui s’en écarte en reçoit peu.", "La légitimité morale rassemble plus durablement que la contrainte isolée.", "Mencius 2B.1", "https://ctext.org/mengzi/gong-sun-chou-ii/zh", "text", ["Légitimité", "Soutien"], "Dé dào zhě duō zhù, shī dào zhě guǎ zhù."],
+  ["zh-35", "生於憂患，死於安樂。", "On grandit dans les épreuves et l’on dépérit dans un confort sans vigilance.", "La difficulté peut maintenir l’attention et développer les forces que l’aisance prolongée endort.", "Mencius 6B.15", "https://ctext.org/mengzi/gaozi-ii/zh", "text", ["Épreuve", "Vigilance"], "Shēng yú yōu huàn, sǐ yú ān lè."],
+  ["zh-36", "窮則獨善其身，達則兼善天下。", "Dans l’adversité, perfectionne-toi seul ; dans la réussite, contribue au bien du monde.", "La portée de l’action change avec les moyens disponibles, mais l’exigence morale demeure.", "Mencius 7A.9", "https://ctext.org/mengzi/jin-xin-i/zh", "text", ["Intégrité", "Responsabilité"], "Qióng zé dú shàn qí shēn, dá zé jiān shàn tiān xià."],
+  ["zh-37", "上善若水。水善利萬物而不爭。", "La bonté suprême est comme l’eau : elle profite à tous les êtres sans rivaliser.", "La force la plus féconde sert, s’adapte et demeure basse sans réclamer la première place.", "Laozi, Daodejing 8", "https://ctext.org/dao-de-jing/zh", "text", ["Eau", "Humilité"], "Shàng shàn ruò shuǐ. Shuǐ shàn lì wàn wù ér bù zhēng."],
+  ["zh-38", "知足不辱，知止不殆，可以長久。", "Savoir se contenter évite l’humiliation ; savoir s’arrêter évite le danger et permet de durer.", "Reconnaître le point suffisant protège du mouvement par lequel l’excès détruit ce qu’il voulait accroître.", "Laozi, Daodejing 44", "https://ctext.org/dao-de-jing/zh", "text", ["Contentement", "Limite"], "Zhī zú bù rǔ, zhī zhǐ bù dài, kě yǐ cháng jiǔ."],
+  ["zh-39", "不戰而屈人之兵，善之善者也。", "Soumettre l’armée adverse sans combattre est l’excellence suprême.", "La stratégie la plus accomplie obtient son but sans payer le coût humain et matériel de l’affrontement.", "Sunzi, L’Art de la guerre, chapitre 3", "https://ctext.org/art-of-war/attack-by-stratagem/zh", "text", ["Stratégie", "Paix"], "Bù zhàn ér qū rén zhī bīng, shàn zhī shàn zhě yě."],
+  ["zh-40", "吾生也有涯，而知也無涯。", "Notre vie a une limite, mais la connaissance n’en a pas.", "Zhuangzi avertit qu’une vie finie s’épuise si elle prétend poursuivre sans mesure un savoir infini.", "Zhuangzi, « Nourrir le principe vital » 3", "https://ctext.org/zhuangzi/nourishing-the-lord-of-life/zh", "text", ["Savoir", "Limite"], "Wú shēng yě yǒu yá, ér zhī yě wú yá."],
+  ["zh-41", "相濡以沫，不如相忘於江湖。", "Plutôt que de s’humecter mutuellement de leur écume, mieux vaut que les poissons s’oublient dans les fleuves et les lacs.", "L’aide héroïque dans un milieu étouffant vaut parfois moins que le retour à des conditions où chacun peut vivre librement.", "Zhuangzi, « Le Grand et Vénérable Maître » 6", "https://ctext.org/zhuangzi/great-and-most-honoured-master/zh", "text", ["Liberté", "Milieu"], "Xiāng rú yǐ mò, bù rú xiāng wàng yú jiāng hú."],
+].map(makeChinese);
+
+const SANSKRIT_EXPANSION = [
+  ["in-17", "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः। आगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत॥", "Le contact des sens donne froid et chaleur, plaisir et douleur ; ces états viennent et passent, ils sont impermanents : endure-les.", "Reconnaître le passage des sensations empêche de traiter chaque inconfort ou plaisir comme une réalité définitive.", "Bhagavad-Gītā 2.14", "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=2&field_nsutra_value=14&language=dv", "text", ["Impermanence", "Endurance"], "Mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ; āgamāpāyino'nityās tāṃs titikṣasva bhārata."],
+  ["in-18", "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः। अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे॥", "Il ne naît ni ne meurt jamais ; ancien et éternel, il n’est pas tué lorsque le corps est tué.", "Le texte distingue le soi profond des transformations et de la disparition du corps.", "Bhagavad-Gītā 2.20", "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=2&field_nsutra_value=20&language=dv", "text", ["Âme", "Éternité"], "Na jāyate mriyate vā kadācin nāyaṃ bhūtvā bhavitā vā na bhūyaḥ; ajo nityaḥ śāśvato'yaṃ purāṇo na hanyate hanyamāne śarīre."],
+  ["in-19", "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः। स यत्प्रमाणं कुरुते लोकस्तदनुवर्तते॥", "Quoi que fasse l’être exemplaire, les autres le font à leur tour ; la norme qu’il établit, le monde la suit.", "La responsabilité grandit avec la visibilité : l’exemple enseigne plus fortement que le discours.", "Bhagavad-Gītā 3.21", "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=3&field_nsutra_value=21&language=dv", "text", ["Exemple", "Responsabilité"], "Yad yad ācarati śreṣṭhas tat tad evetaro janaḥ; sa yat pramāṇaṃ kurute lokas tad anuvartate."],
+  ["in-20", "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत। अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥", "Chaque fois que le dharma décline et que l’injustice s’élève, alors je me manifeste.", "La restauration de l’ordre juste est présentée comme une réponse récurrente aux crises morales de l’histoire.", "Bhagavad-Gītā 4.7", "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=4&field_nsutra_value=7&language=dv", "text", ["Justice", "Renouveau"], "Yadā yadā hi dharmasya glānir bhavati bhārata; abhyutthānam adharmasya tadātmānaṃ sṛjāmy aham."],
+  ["in-21", "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।", "Mieux vaut son propre devoir imparfaitement accompli que le devoir d’un autre parfaitement exécuté.", "Une vocation authentique mérite d’être travaillée malgré ses défauts plutôt que remplacée par l’imitation brillante d’une voie étrangère.", "Bhagavad-Gītā 3.35", "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=3&field_nsutra_value=35&language=dv", "text", ["Vocation", "Authenticité"], "Śreyān sva-dharmo viguṇaḥ para-dharmāt sv-anuṣṭhitāt."],
+  ["in-22", "अभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते।", "C’est par la pratique et le détachement que l’esprit se laisse maîtriser.", "La constance entraîne l’attention tandis que le détachement l’empêche de devenir captive du résultat.", "Bhagavad-Gītā 6.35", "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=6&field_nsutra_value=35&language=dv", "text", ["Pratique", "Détachement"], "Abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate."],
+  ["in-23", "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च।", "Sans haine envers aucun être, amical et compatissant envers tous.", "La vie spirituelle se vérifie dans une bienveillance qui ne réserve pas l’humanité au seul cercle des proches.", "Bhagavad-Gītā 12.13", "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=12&field_nsutra_value=13&language=dv", "text", ["Compassion", "Bienveillance"], "Adveṣṭā sarva-bhūtānāṃ maitraḥ karuṇa eva ca."],
+  ["in-24", "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज।", "Abandonnant tous les dharmas, cherche en moi seul ton refuge.", "Le texte conclut par un abandon de la maîtrise absolue au profit d’une confiance sans partage.", "Bhagavad-Gītā 18.66", "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=18&field_nsutra_value=66&language=dv", "text", ["Refuge", "Confiance"], "Sarva-dharmān parityajya mām ekaṃ śaraṇaṃ vraja."],
+  ["in-25", "ईशावास्यमिदं सर्वं यत्किञ्च जगत्यां जगत्।", "Tout ce qui se meut dans ce monde est enveloppé par le Seigneur.", "La possession humaine est replacée dans une totalité qui invite à jouir sans accaparer.", "Īśā Upaniṣad 1", "https://sanskritdocuments.org/doc_upanishhat/iisha.html", "text", ["Unité", "Détachement"], "Īśāvāsyam idaṃ sarvaṃ yat kiñca jagatyāṃ jagat."],
+  ["in-26", "उत्तिष्ठत जाग्रत प्राप्य वरान्निबोधत।", "Levez-vous, éveillez-vous, approchez les maîtres et comprenez.", "La connaissance demande un réveil actif et la fréquentation de ceux qui peuvent réellement transmettre.", "Kaṭha Upaniṣad 1.3.14", "https://sanskritdocuments.org/doc_upanishhat/katha.html", "text", ["Éveil", "Apprentissage"], "Uttiṣṭhata jāgrata prāpya varān nibodhata."],
+  ["in-27", "असतो मा सद्गमय। तमसो मा ज्योतिर्गमय। मृत्योर्माऽमृतं गमय॥", "Conduis-moi de l’irréel au réel, des ténèbres à la lumière, de la mort à l’immortalité.", "La triple prière rassemble une quête de vérité, de connaissance et de dépassement de la finitude.", "Bṛhadāraṇyaka Upaniṣad 1.3.28", "https://sanskritdocuments.org/doc_upanishhat/bribasic.html", "text", ["Vérité", "Lumière"], "Asato mā sad gamaya; tamaso mā jyotir gamaya; mṛtyor mā amṛtaṃ gamaya."],
+  ["in-28", "तत्त्वमसि श्वेतकेतो।", "Tu es Cela, Śvetaketu.", "La formule identifie le soi profond à la réalité fondamentale qui traverse tous les êtres.", "Chāndogya Upaniṣad 6.8.7", "https://sanskritdocuments.org/doc_upanishhat/chhaandogya.html", "text", ["Soi", "Unité"], "Tat tvam asi, Śvetaketo."],
+  ["in-29", "अहं ब्रह्मास्मि।", "Je suis le brahman.", "La conscience profonde n’est pas séparée du principe absolu que la recherche croyait extérieur.", "Bṛhadāraṇyaka Upaniṣad 1.4.10", "https://sanskritdocuments.org/doc_upanishhat/bribasic.html", "text", ["Soi", "Absolu"], "Ahaṃ brahmāsmi."],
+  ["in-30", "अयमात्मा ब्रह्म।", "Ce soi est le brahman.", "La maxime condense l’unité entre l’expérience intérieure et le fondement universel du réel.", "Māṇḍūkya Upaniṣad 2", "https://sanskritdocuments.org/doc_upanishhat/maandu.html", "text", ["Soi", "Réalité"], "Ayam ātmā brahma."],
+  ["in-31", "विद्या ददाति विनयं विनयाद् याति पात्रताम्। पात्रत्वाद्धनमाप्नोति धनाद्धर्मं ततः सुखम्॥", "Le savoir donne l’humilité ; l’humilité rend digne ; la dignité ouvre la prospérité, d’où viennent le devoir juste puis le bonheur.", "La connaissance vaut par la transformation du caractère et par l’usage juste des capacités qu’elle procure.", "Subhāṣita sanskrit transmis dans les recueils didactiques", "https://sanskritdocuments.org/doc_z_misc_subhaashita/subhash.html", "lexicographic", ["Savoir", "Humilité"], "Vidyā dadāti vinayaṃ vinayād yāti pātratām; pātratvād dhanam āpnoti dhanād dharmaṃ tataḥ sukham."],
+  ["in-32", "काकचेष्टा बको ध्यानं श्वाननिद्रा तथैव च। अल्पहारी गृहत्यागी विद्यार्थी पञ्चलक्षणम्॥", "L’effort du corbeau, la concentration du héron, le sommeil léger du chien, peu de nourriture et le détachement du foyer : cinq traits de l’étudiant.", "L’apprentissage est décrit comme une discipline d’attention, d’endurance et de simplicité.", "Subhāṣita sanskrit sur les qualités de l’étudiant", "https://sanskritdocuments.org/~sanskrit/doc_trial/fortransfer/Umesh/subhAShitAni_sa.html", "lexicographic", ["Étude", "Discipline"], "Kāka-ceṣṭā bako dhyānaṃ śvāna-nidrā tathaiva ca; alpāhārī gṛha-tyāgī vidyārthī pañca-lakṣaṇam."],
+  ["in-33", "न कश्चित् कस्यचिन्मित्रं न कश्चित् कस्यचिद्रिपुः। व्यवहारेण जायन्ते मित्राणि रिपवस्तथा॥", "Nul n’est par nature l’ami ou l’ennemi de quelqu’un ; amis et ennemis naissent de la conduite.", "Les relations se construisent par les actes plutôt que par des étiquettes supposées immuables.", "Hitopadeśa, Mitralābha 1.72", "https://sa.wikisource.org/wiki/%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8B%E0%A4%AA%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%83", "text", ["Relation", "Conduite"], "Na kaścit kasyacin mitraṃ na kaścit kasyacid ripuḥ; vyavahāreṇa jāyante mitrāṇi ripavas tathā."],
+  ["in-34", "उत्सवे व्यसने चैव दुर्भिक्षे राष्ट्रविप्लवे। राजद्वारे श्मशाने च यस्तिष्ठति स बान्धवः॥", "Dans la fête comme l’épreuve, la famine, la crise du royaume, au tribunal comme au bûcher funéraire : celui qui demeure présent est un proche.", "La parenté véritable se reconnaît à une présence qui ne disparaît pas lorsque le coût de la fidélité augmente.", "Cāṇakya-nīti 1.12 ; variante également transmise par le Pañcatantra", "https://sanskritdocuments.org/doc_subhaashita/ChanakyaNeetiV8.pdf", "text", ["Fidélité", "Épreuve"], "Utsave vyasane caiva durbhikṣe rāṣṭra-viplave; rāja-dvāre śmaśāne ca yas tiṣṭhati sa bāndhavaḥ."],
+].map(makeSanskrit);
+
+const TAMIL_EXPANSION = [
+  ["in-35", "தீயினாற் சுட்ட புண் உள்ளாறும்; ஆறாதே நாவினாற் சுட்ட வடு.", "La blessure causée par le feu guérit à l’intérieur ; la cicatrice laissée par la langue ne guérit pas.", "Une parole cruelle peut demeurer dans la mémoire bien après la disparition d’une blessure physique.", "Tiruvalluvar, Tirukkuṟaḷ 129", "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0017.html", "text", ["Parole", "Blessure"], "Tīyiṉāṟ cuṭṭa puṇ uḷḷāṟum; āṟātē nāviṉāṟ cuṭṭa vaṭu."],
+  ["in-36", "இன்னா செய்தாரை ஒறுத்தல் அவர்நாண நன்னயம் செய்து விடல்.", "Punir celui qui vous a fait du mal, c’est lui faire du bien jusqu’à ce qu’il ait honte.", "Répondre à l’offense par la noblesse retire au conflit sa logique de reproduction.", "Tiruvalluvar, Tirukkuṟaḷ 314", "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0017.html", "text", ["Pardon", "Noblesse"], "Iṉṉā ceytārai oṟuttal avar nāṇa naṉṉayam ceytu viṭal."],
+  ["in-37", "கற்க கசடறக் கற்பவை கற்றபின் நிற்க அதற்குத் தக.", "Apprends parfaitement ce qui mérite d’être appris ; puis vis conformément à cet apprentissage.", "Le savoir n’est achevé que lorsqu’il devient une manière cohérente de se tenir et d’agir.", "Tiruvalluvar, Tirukkuṟaḷ 391", "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0017.html", "text", ["Étude", "Conduite"], "Kaṟka kacaṭaṟak kaṟpavai kaṟṟapiṉ niṟka ataṟkut taka."],
+  ["in-38", "உழுதுண்டு வாழ்வாரே வாழ்வார்; மற்றெல்லாம் தொழுதுண்டு பின்செல் பவர்.", "Seuls vivent véritablement ceux qui labourent et mangent de leur travail ; les autres les suivent en dépendant d’eux.", "Le vers honore le travail nourricier dont dépend silencieusement toute la société.", "Tiruvalluvar, Tirukkuṟaḷ 1033", "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0017.html", "text", ["Travail", "Nourriture"], "Uḻutuṇṭu vāḻvārē vāḻvār; maṟṟellām toḻutuṇṭu piṉcel pavar."],
+].map(makeTamil);
+
+const PALI_EXPANSION = [
+  ["in-39", "Na hi verena verāni sammantīdha kudācanaṃ; averena ca sammanti, esa dhammo sanantano.", "Jamais les haines ne s’apaisent ici par la haine ; elles s’apaisent par l’absence de haine : telle est la loi éternelle.", "La vengeance entretient précisément la force qu’elle prétend supprimer ; seule une rupture de réciprocité peut interrompre la chaîne.", "Dhammapada 5", "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=005", "text", ["Haine", "Paix"], "Na hi verena verāni sammantīdha kudācanaṃ; averena ca sammanti, esa dhammo sanantano."],
+  ["in-40", "Appamādo amatapadaṃ, pamādo maccuno padaṃ.", "La vigilance est le chemin de l’immortel ; la négligence est le chemin de la mort.", "L’attention soutenue protège la vie intérieure tandis que l’insouciance la livre aux automatismes destructeurs.", "Dhammapada 21", "https://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=021", "text", ["Vigilance", "Vie"], "Appamādo amatapadaṃ, pamādo maccuno padaṃ."],
+].map(makePali);
+
+const BENGALI_EXPANSION = [
+  ["in-41", "যদি তোর ডাক শুনে কেউ না আসে তবে একলা চলো রে।", "Si personne ne répond à ton appel, alors marche seul.", "La solitude ne doit pas empêcher d’avancer lorsqu’une cause juste n’a pas encore trouvé de compagnons.", "Rabindranath Tagore, « Ekla Chalo Re », dans Gitabitan", "https://bn.wikisource.org/wiki/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%3A%E0%A6%97%E0%A7%80%E0%A6%A4%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A6%BE%E0%A6%A8.djvu", "text", ["Courage", "Solitude"], "Jodi tor ḍāk śune keu nā āse tobe eklā colo re."],
+].map(makeBengali);
+
+const makeWorldEntry = ([
+  id, place, mark, lang, rtl, original, french, meaning, source, sourceUrl, sourceKind, tags, transliteration, sourceNote,
+]) => ({
+  id, culture: "Monde", place, mark, lang, ...(rtl ? { rtl: true } : {}), original,
+  ...(transliteration ? { transliteration } : {}), french, meaning, source, sourceUrl, sourceKind, tags,
+  ...(sourceNote ? { sourceNote } : {}),
+});
+
+const WORLD_EXPANSION = [
+  ["wo-32", "Corée", "한", "ko", false, "가는 말이 고와야 오는 말도 곱다.", "Il faut que les paroles qui partent soient belles pour que celles qui reviennent le soient aussi.", "Le ton que nous donnons à l’échange façonne souvent la réponse que nous recevons.", "Proverbe coréen recensé par le Wiktionnaire coréen", "https://ko.wiktionary.org/wiki/%EA%B0%80%EB%8A%94_%EB%A7%90%EC%9D%B4_%EA%B3%A0%EC%99%80%EC%95%BC_%EC%98%A4%EB%8A%94_%EB%A7%90%EB%8F%84_%EA%B3%B1%EB%8B%A4", "lexicographic", ["Parole", "Réciprocité"], "Ganeun mari gowaya oneun maldo gopda."],
+  ["wo-33", "Turquie", "TR", "tr", false, "Gülü seven dikenine katlanır.", "Qui aime la rose supporte ses épines.", "Aimer une personne ou une œuvre implique d’accepter les difficultés inséparables de ce qui lui donne sa valeur.", "Proverbe turc expliqué d’après le dictionnaire de la Türk Dil Kurumu", "https://www.hurriyet.com.tr/egitim/gulu-seven-dikenine-katlanir-atasozunun-anlami-ve-ornek-cumle-icinde-kullanimi-tdk-41746025", "lexicographic", ["Amour", "Acceptation"], null],
+  ["wo-34", "Pologne", "PL", "pl", false, "Miej serce i patrzaj w serce.", "Aie du cœur et regarde dans le cœur.", "La compréhension humaine demande une sensibilité capable d’aller au-delà des apparences et du raisonnement froid.", "Adam Mickiewicz, « Romantyczność », Ballady i romanse (1822)", "https://pl.wikisource.org/wiki/Poezye_Adama_Mickiewicza/Romantyczno%C5%9B%C4%87", "text", ["Cœur", "Compréhension"], null],
+  ["wo-35", "Portugal", "PT", "pt", false, "Tudo vale a pena se a alma não é pequena.", "Tout en vaut la peine si l’âme n’est pas petite.", "La grandeur intérieure peut donner un sens à l’effort et au risque sans nier la douleur qu’ils comportent.", "Fernando Pessoa, Mensagem, « Mar português » (1934)", "https://pt.wikisource.org/wiki/Anexo%3AImprimir/Mensagem_%28Fernando_Pessoa%2C_1934%29", "text", ["Courage", "Grandeur"], null],
+  ["wo-36", "Finlande", "FI", "fi", false, "Oma maa mansikka, muu maa mustikka.", "Son propre pays est une fraise ; le pays étranger, une myrtille.", "L’image affectueuse exprime la saveur particulière du foyer sans prétendre que l’ailleurs est sans valeur.", "Proverbe finnois attesté dans la tradition imprimée et recensé par le Wiktionnaire", "https://en.wiktionary.org/wiki/oma_maa_mansikka%2C_muu_maa_mustikka", "lexicographic", ["Patrie", "Foyer"], null],
+  ["wo-37", "Suède", "SE", "sv", false, "Delad glädje är dubbel glädje, delad sorg är halv sorg.", "Une joie partagée est une joie doublée ; un chagrin partagé est un chagrin diminué de moitié.", "Le lien amplifie le bonheur et rend la peine plus supportable en rompant son isolement.", "Proverbe suédois recensé par le Wiktionnaire", "https://en.wiktionary.org/wiki/delad_gl%C3%A4dje_%C3%A4r_dubbel_gl%C3%A4dje", "lexicographic", ["Partage", "Émotion"], null],
+  ["wo-38", "Irlande", "GA", "ga", false, "Is minic a bhris béal duine a shrón.", "Souvent, c’est la bouche d’une personne qui lui a cassé le nez.", "Une parole provocatrice peut déclencher le dommage physique ou social qu’un silence prudent aurait évité.", "Proverbe irlandais documenté par Daltaí na Gaeilge", "https://daltai.com/is-minic-a-bhris-beal-duine-a-shron/", "lexicographic", ["Parole", "Prudence"], null],
+  ["wo-39", "Pays yoruba", "YO", "yo", false, "Bí ọmọde bá ṣubú, a wo iwájú; bí àgbà bá ṣubú, a wo ẹ̀hìn.", "Quand l’enfant tombe, il regarde devant lui ; quand l’ancien tombe, il regarde derrière lui.", "L’expérience invite à rechercher la cause d’une chute afin que le prochain pas ne la répète pas.", "Proverbe yoruba documenté avec marques tonales dans une collection linguistique", "https://www.settemilalingue.com/en/languages/yo/grammar/proverbs-and-idiomatic-expressions", "lexicographic", ["Expérience", "Cause"], null],
+  ["wo-40", "Afrique australe", "ZU", "zu", false, "Umuntu ngumuntu ngabantu.", "Une personne devient une personne à travers les autres.", "L’humanité individuelle se forme et se reconnaît dans les relations, les soins et la communauté.", "Maxime ngunie sur l’ubuntu, citée par le gouvernement sud-africain", "https://www.gov.za/news/p-mlambo-ngcuka-national-imbizo-ubuntu-and-nation-building-17-nov-2006", "text", ["Humanité", "Communauté"], null],
+  ["wo-41", "Aotearoa — Nouvelle-Zélande", "MĀ", "mi", false, "He aha te mea nui o te ao? He tangata, he tangata, he tangata.", "Quelle est la chose la plus importante au monde ? Ce sont les personnes, les personnes, les personnes.", "Le whakataukī place la dignité et les liens humains au-dessus de toute richesse impersonnelle.", "Whakataukī māori présenté par Te Ara, Encyclopédie de Nouvelle-Zélande", "https://teara.govt.nz/mi/photograph/7963/pa-harakeke", "text", ["Humanité", "Priorité"], null],
+  ["wo-42", "Indonésie et monde malais", "ID", "id", false, "Berat sama dipikul, ringan sama dijinjing.", "Le lourd se porte ensemble sur les épaules, le léger se porte ensemble à la main.", "Une communauté digne de ce nom partage aussi bien les grandes épreuves que les tâches modestes.", "Proverbe malais-indonésien recensé par le portail lexicographique du Dewan Bahasa dan Pustaka", "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=dijinjing", "lexicographic", ["Solidarité", "Travail"], null],
+  ["wo-43", "Afrique de l’Est", "SW", "sw", false, "Asiyefunzwa na mamaye hufunzwa na ulimwengu.", "Celui que sa mère n’a pas instruit sera instruit par le monde.", "Les leçons négligées dans un cadre protecteur reviennent souvent sous la forme plus rude de l’expérience.", "Proverbe swahili attesté dans les ressources pédagogiques du National Examinations Council of Tanzania", "https://www.necta.go.tz/publications/Performance%20Analysis%20Books/Candidates%27%20Item%20Response%20Analysis%20%28CIRA%29%20Reports%20/CSEE/2018/021_KISWAHILI.pdf", "text", ["Éducation", "Expérience"], null],
+  ["wo-44", "Arménie", "ՀՅ", "hy", false, "Քանի լեզու գիտես՝ այնքան մարդ ես։", "Tu es autant de personnes que tu connais de langues.", "Chaque langue apprise ouvre une nouvelle manière d’habiter le monde et de comprendre ceux qui le décrivent autrement.", "Proverbe arménien documenté par l’Université du Michigan", "https://lsa.umich.edu/content/dam/armenian-assets/armenian-documents/Armenian-wisdom--101--Poster.pdf", "lexicographic", ["Langues", "Humanité"], "Kani lezu gites, aynkan mard es."],
+].map(makeWorldEntry);
 
 const ADDED = [
   {
@@ -531,7 +712,7 @@ const ADDED = [
     french: "Le savoir sans responsabilité morale peut devenir destructeur.",
     meaning: "La compétence n’est pleinement humaine que guidée par le jugement éthique.",
     source: "François Rabelais, Pantagruel, chapitre VIII",
-    sourceUrl: "https://fr.wikisource.org/wiki/Pantagruel/Chapitre_VIII", sourceKind: "text",
+    sourceUrl: "https://fr.wikisource.org/wiki/Gargantua_et_Pantagruel_(Texte_transcrit_et_annot%C3%A9_par_Clouzot)/Pantagruel", sourceKind: "text",
     tags: ["Savoir", "Conscience"],
   },
   {
@@ -540,7 +721,7 @@ const ADDED = [
     french: "Il faut agir sur la part du monde qui dépend réellement de nous.",
     meaning: "Voltaire clôt le voyage spéculatif de Candide par un retour lucide au travail concret.",
     source: "Voltaire, Candide, chapitre XXX",
-    sourceUrl: "https://fr.wikisource.org/wiki/Candide,_ou_l’Optimisme/Chapitre_30", sourceKind: "text",
+    sourceUrl: "https://fr.wikisource.org/wiki/Candide%2C_ou_l%E2%80%99Optimisme/Garnier_1877/Texte_entier", sourceKind: "text",
     tags: ["Action", "Lucidité"],
   },
   {
@@ -1606,7 +1787,7 @@ const ADDED = [
     french: "Voyageur, il n’y a pas de chemin ; le chemin se fait en marchant.",
     meaning: "L’itinéraire d’une vie se découvre par l’action plus que par un plan déjà tracé.",
     source: "Antonio Machado, Proverbios y cantares XXIX, Campos de Castilla (1912)",
-    sourceUrl: "https://es.wikisource.org/wiki/Proverbios_y_cantares", sourceKind: "text",
+    sourceUrl: "https://cvc.cervantes.es/aula/didactired/anteriores/mayo_09/11052009_01.htm", sourceKind: "text",
     tags: ["Chemin", "Action"],
   },
   {
@@ -1615,7 +1796,7 @@ const ADDED = [
     french: "Ce qui ne me tue pas me rend plus fort.",
     meaning: "L’épreuve surmontée peut devenir une force, sans que toute souffrance soit pour autant bénéfique.",
     source: "Friedrich Nietzsche, Crépuscule des idoles, « Maximes et pointes », 8 (1889)",
-    sourceUrl: "https://de.wikisource.org/wiki/Götzen-Dämmerung/Sprüche_und_Pfeile", sourceKind: "text",
+    sourceUrl: "https://projekt-gutenberg.org/authors/friedrich-wilhelm-nietzsche/books/goetzen-daemmerung/chapter/3/", sourceKind: "text",
     tags: ["Épreuve", "Force"],
   },
   {
@@ -1637,6 +1818,94 @@ const ADDED = [
 ];
 
 const TEXT_SOURCE_PATTERN = /(Avot|Talmud|Mishna|Ecclésiaste|Confucius|Entretiens|Laozi|Daodejing|Huainanzi|Sun Tzu|Upanishad|Mahabharata|Bhagavad|Panchatantra|Ramayana|Horace|Virgile|Plaute|Végèce|Juvénal|Térence|Ovide|Cicéron|Salluste|Ennius|Vulgate|Genèse|Suétone|Sénèque|Pline|Platon|Aristote|Hippocratique|Rabelais|Voltaire|Shakespeare|Pope|Donne|Nietzsche|Machado|Saadi)/i;
+
+const ENGLISH_LEGACY_LEXICAL_IDS = new Set([
+  "en-1", "en-3", "en-4", "en-5", "en-6", "en-7", "en-8", "en-9", "en-10", "en-11", "en-12", "en-13",
+  "en-14", "en-15", "en-16", "en-17", "en-18", "en-20", "en-21", "en-22",
+]);
+
+const SOURCE_LINK_OVERRIDES = {
+  "fr-1": { sourceUrl: "https://www.cnrtl.fr/definition/ruisseau", sourceKind: "lexicographic" },
+  "fr-2": { sourceUrl: "https://www.cnrtl.fr/definition/petit", sourceKind: "lexicographic" },
+  "fr-3": { sourceUrl: "https://www.cnrtl.fr/definition/pluie", sourceKind: "lexicographic" },
+  "fr-4": { sourceUrl: "https://www.cnrtl.fr/definition/habit", sourceKind: "lexicographic" },
+  "fr-5": { sourceUrl: "https://www.cnrtl.fr/definition/tard", sourceKind: "lexicographic" },
+  "fr-6": { sourceUrl: "https://www.cnrtl.fr/definition/omelette", sourceKind: "lexicographic" },
+  "fr-7": { sourceUrl: "https://www.cnrtl.fr/definition/vivre", sourceKind: "lexicographic" },
+  "fr-8": { sourceUrl: "https://www.cnrtl.fr/definition/vaillant", sourceKind: "lexicographic" },
+  "fr-11": { sourceUrl: "https://www.cnrtl.fr/definition/fum%C3%A9e", sourceKind: "lexicographic" },
+  "fr-12": { sourceUrl: "https://www.cnrtl.fr/definition/faute", sourceKind: "lexicographic" },
+  "fr-13": { sourceUrl: "https://www.cnrtl.fr/definition/absent", sourceKind: "lexicographic" },
+  "fr-15": { sourceUrl: "https://www.cnrtl.fr/definition/forger", sourceKind: "lexicographic" },
+  "fr-17": { sourceUrl: "https://www.cnrtl.fr/definition/semer", sourceKind: "lexicographic" },
+  "fr-18": { sourceUrl: "https://www.cnrtl.fr/definition/langue", sourceKind: "lexicographic" },
+  "fr-19": { sourceUrl: "https://www.cnrtl.fr/definition/union", sourceKind: "lexicographic" },
+  "fr-20": { sourceUrl: "https://www.cnrtl.fr/definition/malheur", sourceKind: "lexicographic" },
+  "fr-21": { sourceUrl: "https://www.cnrtl.fr/definition/risque", sourceKind: "lexicographic" },
+  "fr-22": { sourceUrl: "https://www.cnrtl.fr/definition/chien", sourceKind: "lexicographic" },
+  "en-24": { sourceUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0e/The_proverbs_of_John_Heywood._Being_the_%22Proverbes%22_of_that_author_printed_1546._Ed.%2C_with_notes_and_introduction_%28IA_cu31924027146566%29.pdf", sourceKind: "text" },
+  "en-29": { sourceUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Gnomologia-_adages_and_proverbs%2C_wise_sentences%2C_and_witty_sayings_%28IA_gnomologiaadages00full%29.pdf", sourceKind: "text" },
+  "en-30": { sourceUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0e/The_proverbs_of_John_Heywood._Being_the_%22Proverbes%22_of_that_author_printed_1546._Ed.%2C_with_notes_and_introduction_%28IA_cu31924027146566%29.pdf", sourceKind: "text" },
+  "en-31": { sourceUrl: "https://www.gutenberg.org/ebooks/21", sourceKind: "derived" },
+  "he-5": { sourceUrl: "https://www.sefaria.org/Lekha_Dodi.2", sourceKind: "text" },
+  "he-8": { sourceUrl: "https://he.wiktionary.org/wiki/%D7%90%D7%99%D7%9F_%D7%94%D7%A0%D7%97%D7%AA%D7%95%D7%9D_%D7%9E%D7%A2%D7%99%D7%93_%D7%A2%D7%9C_%D7%A2%D7%99%D7%A1%D7%AA%D7%95", sourceKind: "lexicographic" },
+  "he-19": { sourceUrl: "https://www.sefaria.org/Vayikra_Rabbah.9.3", sourceKind: "text" },
+  "he-22": { sourceUrl: "https://www.sefaria.org/Mishnah_Sanhedrin.4.5", sourceKind: "text" },
+  "he-23": { sourceUrl: "https://he.wiktionary.org/wiki/%D7%90%D7%99%D7%9F_%D7%93%D7%91%D7%A8_%D7%94%D7%A2%D7%95%D7%9E%D7%93_%D7%91%D7%A4%D7%A0%D7%99_%D7%94%D7%A8%D7%A6%D7%95%D7%9F", sourceKind: "lexicographic" },
+  "la-7": { sourceUrl: "https://www.treccani.it/vocabolario/verba-volant-scripta-manent/", sourceKind: "lexicographic" },
+  "la-11": { sourceUrl: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D14%3Achapter%3D28", sourceKind: "text" },
+  "la-13": { sourceUrl: "https://www.treccani.it/vocabolario/memento/", sourceKind: "lexicographic" },
+  "la-15": { sourceUrl: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0248%3Atext%3DAph.", sourceKind: "derived" },
+  "la-16": { sourceUrl: "https://lex.dk/repetitio_est_mater_studiorum", sourceKind: "lexicographic" },
+  "la-22": { sourceUrl: "https://en.wiktionary.org/wiki/qui_tacet_consentire_videtur", sourceKind: "lexicographic" },
+  "la-25": { sourceUrl: "https://www.thelatinlibrary.com/bible/luke.shtml", sourceKind: "derived" },
+  "la-27": { sourceUrl: "https://www.treccani.it/vocabolario/faber-est-suae-quisque-fortunae/", sourceKind: "lexicographic" },
+  "in-1": { sourceUrl: "https://sanskritdocuments.org/doc_upanishhat/mundaka.html", sourceKind: "text" },
+  "in-2": { sourceUrl: "https://sanskritdocuments.org/mirrors/mahabharata/unic/mbh13_sa.html", sourceKind: "text" },
+  "in-3": { sourceUrl: "https://sanskritdocuments.org/doc_upanishhat/maha.html", sourceKind: "text" },
+  "in-4": { sourceUrl: "https://sanskritdocuments.org/doc_z_misc_subhaashita/subhash.html", sourceKind: "lexicographic" },
+  "in-6": { sourceUrl: "https://sa.wikisource.org/wiki/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D", sourceKind: "text" },
+  "in-7": { sourceUrl: "https://sanskritdocuments.org/doc_z_misc_subhaashita/subhash.html", sourceKind: "lexicographic" },
+  "in-9": { sourceUrl: "https://hi.wikiquote.org/wiki/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80_%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A5%8B%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%81", sourceKind: "lexicographic" },
+  "in-10": { sourceUrl: "https://hi.wikiquote.org/wiki/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80_%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A5%8B%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%81", sourceKind: "lexicographic" },
+  "in-11": { sourceUrl: "https://hi.wikiquote.org/wiki/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80_%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A5%8B%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%81", sourceKind: "lexicographic" },
+  "in-12": { sourceUrl: "https://hi.wikiquote.org/wiki/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80_%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A5%8B%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%81", sourceKind: "lexicographic" },
+  "wo-2": { sourceUrl: "https://ar.wikisource.org/wiki/%D8%B5%D9%8A%D8%AF_%D8%A7%D9%84%D8%AE%D8%A7%D8%B7%D8%B1/%D9%81%D8%B5%D9%84%3A_%D8%A7%D9%84%D8%B5%D8%A8%D8%B1_%D9%85%D9%81%D8%AA%D8%A7%D8%AD_%D8%A7%D9%84%D9%81%D8%B1%D8%AC", sourceKind: "text" },
+  "wo-3": { sourceUrl: "https://en.wikiquote.org/wiki/Swahili_proverbs", sourceKind: "lexicographic" },
+  "wo-5": { sourceUrl: "https://www.treccani.it/vocabolario/gatta2/", sourceKind: "lexicographic" },
+  "wo-6": { sourceUrl: "https://cvc.cervantes.es/lengua/refranero/Ficha.aspx?Lng=11&Par=58652", sourceKind: "lexicographic" },
+  "wo-7": { sourceUrl: "https://pt.wiktionary.org/wiki/devagar_se_vai_ao_longe", sourceKind: "lexicographic" },
+  "wo-12": { sourceUrl: "https://ar.wikiquote.org/wiki/%D8%A7%D9%84%D8%AC%D9%87%D9%84", sourceKind: "lexicographic" },
+  "wo-13": { sourceUrl: "https://ar.wikiquote.org/wiki/%D8%A3%D9%85%D8%AB%D8%A7%D9%84_%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9", sourceKind: "lexicographic" },
+  "wo-14": { sourceUrl: "https://ar.wikiquote.org/wiki/%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%87%D8%A7%D8%AF", sourceKind: "lexicographic" },
+  "wo-19": { sourceUrl: "https://cvc.cervantes.es/lengua/refranero/ficha.aspx?Lng=0&Par=58122", sourceKind: "lexicographic" },
+  "wo-21": { sourceUrl: "https://www.treccani.it/enciclopedia/proverbi_%28Enciclopedia-dell%27Italiano%29/", sourceKind: "lexicographic" },
+  "wo-24": { sourceUrl: "https://ru.wiktionary.org/wiki/%D1%81%D0%B5%D0%BC%D1%8C_%D1%80%D0%B0%D0%B7_%D0%BE%D1%82%D0%BC%D0%B5%D1%80%D1%8C,_%D0%BE%D0%B4%D0%B8%D0%BD_%D1%80%D0%B0%D0%B7_%D0%BE%D1%82%D1%80%D0%B5%D0%B6%D1%8C", sourceKind: "lexicographic" },
+  "wo-26": { sourceUrl: "https://ordnet.dk/ddo/ordbog?def_id=21033616&mpage=3&query=%3Fil&subentry_id=59004182", sourceKind: "lexicographic" },
+};
+
+for (const [id, original] of [
+  ["zh-4", "滴水穿石"], ["zh-7", "失敗是成功之母"], ["zh-8", "百聞不如一見"], ["zh-9", "冰凍三尺，非一日之寒"],
+  ["zh-10", "活到老，學到老"], ["zh-11", "眾人拾柴火焰高"], ["zh-12", "前人栽樹，後人乘涼"], ["zh-15", "不怕慢，就怕站"],
+]) {
+  SOURCE_LINK_OVERRIDES[id] = {
+    sourceUrl: `https://ctext.org/dictionary.pl?if=zh&char=${encodeURIComponent(original)}`,
+    sourceKind: "lexicographic",
+  };
+}
+
+for (const [id, original] of [
+  ["zh-1", "千里之行，始於足下。"], ["zh-2", "學而時習之，不亦說乎？"], ["zh-3", "三人行，必有我師焉。"],
+  ["zh-4", "滴水穿石。"], ["zh-5", "塞翁失馬，焉知非福。"], ["zh-6", "欲速則不達。"],
+  ["zh-7", "失敗是成功之母。"], ["zh-8", "百聞不如一見。"], ["zh-9", "冰凍三尺，非一日之寒。"],
+  ["zh-10", "活到老，學到老。"], ["zh-11", "眾人拾柴火焰高。"], ["zh-12", "前人栽樹，後人乘涼。"],
+  ["zh-13", "知己知彼，百戰不殆。"], ["zh-15", "不怕慢，就怕站。"], ["zh-16", "己所不欲，勿施於人。"],
+  ["zh-17", "溫故而知新，可以為師矣。"], ["zh-18", "知之為知之，不知為不知，是知也。"],
+  ["zh-19", "工欲善其事，必先利其器。"], ["zh-20", "禍兮福之所倚，福兮禍之所伏。"],
+  ["zh-21", "知人者智，自知者明。"],
+]) {
+  SOURCE_LINK_OVERRIDES[id] = { ...SOURCE_LINK_OVERRIDES[id], original };
+}
 
 const normalize = (value = "") => value
   .normalize("NFKD")
@@ -1665,7 +1934,11 @@ const sefariaUrl = (source = "") => {
 
 const enrich = (entry) => {
   const override = SOURCE_OVERRIDES[entry.id] || {};
-  const merged = { ...entry, ...override };
+  const lexicalFallback = ENGLISH_LEGACY_LEXICAL_IDS.has(entry.id)
+    ? { sourceUrl: ENGLISH_PROVERBS_URL, sourceKind: "lexicographic" }
+    : {};
+  const linkOverride = SOURCE_LINK_OVERRIDES[entry.id] || {};
+  const merged = { ...entry, ...lexicalFallback, ...linkOverride, ...override };
   merged.lang = inferLanguage(merged);
   if (!merged.source) {
     merged.source = merged.culture === "France"
@@ -1697,10 +1970,21 @@ const tokenSimilarity = (left, right) => {
 
 const legacy = JSON.parse(await readFile(INPUT, "utf8"));
 const priorityExpansion = [...FRENCH_EXPANSION, ...ENGLISH_EXPANSION, ...HEBREW_EXPANSION];
+const worldClassicsExpansion = [
+  ...GREEK_EXPANSION,
+  ...LATIN_EXPANSION,
+  ...CHINESE_EXPANSION,
+  ...SANSKRIT_EXPANSION,
+  ...TAMIL_EXPANSION,
+  ...PALI_EXPANSION,
+  ...BENGALI_EXPANSION,
+  ...WORLD_EXPANSION,
+];
 const candidates = [
   ...legacy.filter((entry) => !EXCLUDED_IDS.has(entry.id)),
   ...ADDED,
   ...priorityExpansion,
+  ...worldClassicsExpansion,
 ].map(enrich);
 
 const exactSeen = new Map();
@@ -1762,6 +2046,7 @@ for (const entry of proverbs) {
   if (seenIds.has(entry.id)) qualityIssues.push(`${entry.id}: identifiant dupliqué`);
   seenIds.add(entry.id);
   if (!allowedSourceKinds.has(entry.sourceKind)) qualityIssues.push(`${entry.id}: type de source inconnu (${entry.sourceKind})`);
+  if (!entry.sourceUrl) qualityIssues.push(`${entry.id}: provenance cliquable manquante`);
   if (entry.sourceUrl) {
     try {
       const url = new URL(entry.sourceUrl);
@@ -1771,6 +2056,10 @@ for (const entry of proverbs) {
     }
   }
   if (entry.culture === "Hébreu" && !entry.rtl) qualityIssues.push(`${entry.id}: direction RTL manquante`);
+  if (["he", "grc", "zh", "sa", "hi", "ta", "pi", "bn", "ko", "hy", "ja", "ar", "ru", "fa"].includes(entry.lang)
+    && /[^\x00-\x7F]/.test(entry.original) && !entry.transliteration) {
+    qualityIssues.push(`${entry.id}: translittération manquante pour une écriture non latine`);
+  }
 }
 for (const entry of priorityExpansion) {
   if (!entry.sourceUrl) qualityIssues.push(`${entry.id}: source cliquable obligatoire pour l’expansion ×2`);
@@ -1778,12 +2067,27 @@ for (const entry of priorityExpansion) {
     qualityIssues.push(`${entry.id}: translittération manquante pour l’expansion hébraïque ×2`);
   }
 }
+for (const entry of worldClassicsExpansion) {
+  if (!entry.sourceUrl) qualityIssues.push(`${entry.id}: source cliquable obligatoire pour l’expansion mondiale`);
+  if (["grc", "zh", "sa", "ta", "pi", "bn", "ko", "hy"].includes(entry.lang) && !entry.transliteration) {
+    qualityIssues.push(`${entry.id}: translittération manquante pour une langue à écriture non latine`);
+  }
+}
 if (exactDuplicates.length) qualityIssues.push(`${exactDuplicates.length} doublon(s) exact(s) dans les candidats`);
 if (nearDuplicates.length) qualityIssues.push(`${nearDuplicates.length} paire(s) quasi identique(s) à revoir`);
 if (translationNearDuplicates.length) {
   qualityIssues.push(`${translationNearDuplicates.length} paire(s) de traductions quasi identiques à revoir`);
 }
-const priorityTargets = new Map([["France", 120], ["Anglais", 120], ["Hébreu", 100]]);
+const priorityTargets = new Map([
+  ["France", 120],
+  ["Anglais", 120],
+  ["Hébreu", 100],
+  ["Grec ancien", 40],
+  ["Latin", 40],
+  ["Chine", 40],
+  ["Inde", 40],
+  ["Monde", 40],
+]);
 for (const [culture, target] of priorityTargets) {
   const count = proverbs.filter((entry) => entry.culture === culture).length;
   if (count < target) {
@@ -1819,7 +2123,7 @@ const report = `# Rapport éditorial — Sagesse du monde
 
 - Corpus hérité : ${legacy.length} entrées réellement distinctes avant la génération artificielle de variantes.
 - Entrées héritées écartées pour provenance insuffisante : ${EXCLUDED_IDS.size}.
-- Nouvelles entrées classiques ajoutées et sourcées : ${ADDED.length}.
+- Nouvelles entrées classiques ajoutées et sourcées : ${ADDED.length + priorityExpansion.length + worldClassicsExpansion.length}.
 - Corpus publié : **${proverbs.length} proverbes et maximes**.
 - Langues ou traditions linguistiques : **${summary.languageCount}**.
 - Références avec lien direct : **${summary.linkedSourceCount}**.
