@@ -1,12 +1,12 @@
-const DATA_URL = new URL("./data/proverbs.json?v=20260813", import.meta.url);
+const DATA_URL = new URL("./data/proverbs.json?v=20260813-3", import.meta.url);
 const PAGE_SIZE = 30;
 
 const cultureMeta = {
   France: { mark: "FR", label: "Français" },
   Anglais: { mark: "EN", label: "Anglais" },
+  Hébreu: { mark: "עב", label: "Hébreu" },
   "Grec ancien": { mark: "ΕΛ", label: "Grec ancien" },
   Latin: { mark: "LA", label: "Latin" },
-  Hébreu: { mark: "עב", label: "Hébreu" },
   Chine: { mark: "中", label: "Chine" },
   Inde: { mark: "अ", label: "Inde" },
   Monde: { mark: "∞", label: "Monde" },
