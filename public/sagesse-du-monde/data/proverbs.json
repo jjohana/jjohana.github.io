@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generatedAt": "2026-08-12T22:18:05.235Z",
-    "count": 191,
+    "generatedAt": "2026-08-13T02:49:56.965Z",
+    "count": 272,
     "cultureCount": 8,
     "languageCount": 20,
-    "linkedSourceCount": 66,
-    "textSourceCount": 95,
+    "linkedSourceCount": 147,
+    "textSourceCount": 144,
     "excludedLegacyIds": [
       "la-18",
       "zh-14",
@@ -15,7 +15,8 @@
       "wo-17"
     ],
     "exactDuplicates": [],
-    "nearDuplicates": []
+    "nearDuplicates": [],
+    "qualityIssues": []
   },
   "proverbs": [
     {
@@ -590,6 +591,557 @@
       "searchText": "il faut cultiver notre jardin il faut agir sur la part du monde qui depend reellement de nous voltaire clot le voyage speculatif de candide par un retour lucide au travail concret voltaire candide chapitre xxx france action lucidite"
     },
     {
+      "id": "fr-32",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Le mieux est l’ennemi du bien.",
+      "french": "La recherche excessive de perfection peut détruire une solution déjà bonne.",
+      "meaning": "Voltaire met en garde contre l’idéal impossible qui empêche d’apprécier ou d’achever ce qui fonctionne.",
+      "source": "Voltaire, La Bégueule (1772)",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Contes_en_vers_(Voltaire)/La_B%C3%A9gueule",
+      "sourceKind": "text",
+      "tags": [
+        "Mesure",
+        "Perfection"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "le mieux est l ennemi du bien la recherche excessive de perfection peut detruire une solution deja bonne voltaire met en garde contre l ideal impossible qui empeche d apprecier ou d achever ce qui fonctionne voltaire la begueule 1772 france mesure perfection"
+    },
+    {
+      "id": "fr-33",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Le cœur a ses raisons que la raison ne connaît point.",
+      "french": "Le sentiment possède ses propres voies de connaissance.",
+      "meaning": "Pascal distingue les vérités saisies intérieurement de celles que démontre le raisonnement discursif.",
+      "source": "Blaise Pascal, Pensées, fragment 277 (éd. Brunschvicg)",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Pens%C3%A9es_(Pascal,_%C3%A9d._Brunschvicg)/Pens%C3%A9es/Section_IV",
+      "sourceKind": "text",
+      "tags": [
+        "Cœur",
+        "Raison"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "le cœur a ses raisons que la raison ne connait point le sentiment possede ses propres voies de connaissance pascal distingue les verites saisies interieurement de celles que demontre le raisonnement discursif blaise pascal pensees fragment 277 ed brunschvicg france cœur raison"
+    },
+    {
+      "id": "fr-34",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Je pense, donc je suis.",
+      "french": "L’acte même de penser atteste l’existence de celui qui pense.",
+      "meaning": "Descartes trouve dans la conscience du doute une certitude que le doute lui-même ne peut abolir.",
+      "source": "René Descartes, Discours de la méthode, quatrième partie (1637)",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Discours_de_la_m%C3%A9thode_(%C3%A9d._Cousin)/Quatri%C3%A8me_partie",
+      "sourceKind": "text",
+      "tags": [
+        "Pensée",
+        "Certitude"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "je pense donc je suis l acte meme de penser atteste l existence de celui qui pense descartes trouve dans la conscience du doute une certitude que le doute lui meme ne peut abolir rene descartes discours de la methode quatrieme partie 1637 france pensee certitude"
+    },
+    {
+      "id": "fr-35",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Qui veut voyager loin ménage sa monture.",
+      "french": "Pour aller loin, il faut préserver ses forces et ses moyens.",
+      "meaning": "L’endurance naît d’un effort réglé plutôt que d’une dépense précipitée.",
+      "source": "Jean Racine, Les Plaideurs, acte I, scène 1 (1668)",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Les_Plaideurs_(1679)",
+      "sourceKind": "text",
+      "tags": [
+        "Endurance",
+        "Mesure"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "qui veut voyager loin menage sa monture pour aller loin il faut preserver ses forces et ses moyens l endurance nait d un effort regle plutot que d une depense precipitee jean racine les plaideurs acte i scene 1 1668 france endurance mesure"
+    },
+    {
+      "id": "fr-36",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "À vaincre sans péril, on triomphe sans gloire.",
+      "french": "Une victoire facile ne révèle ni courage ni grandeur.",
+      "meaning": "La valeur d’un triomphe dépend aussi de la difficulté réellement affrontée.",
+      "source": "Pierre Corneille, Le Cid, acte II, scène 2 (1637)",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Cid/%C3%89dition_Marty-Laveaux/Le_Cid",
+      "sourceKind": "text",
+      "tags": [
+        "Courage",
+        "Gloire"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "a vaincre sans peril on triomphe sans gloire une victoire facile ne revele ni courage ni grandeur la valeur d un triomphe depend aussi de la difficulte reellement affrontee pierre corneille le cid acte ii scene 2 1637 france courage gloire"
+    },
+    {
+      "id": "fr-37",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Aux âmes bien nées, la valeur n’attend point le nombre des années.",
+      "french": "La jeunesse n’empêche ni le courage ni la noblesse d’âme.",
+      "meaning": "Le mérite se juge à la qualité des actes, non au seul privilège de l’âge.",
+      "source": "Pierre Corneille, Le Cid, acte II, scène 2 (1637)",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Cid/%C3%89dition_Marty-Laveaux/Le_Cid",
+      "sourceKind": "text",
+      "tags": [
+        "Jeunesse",
+        "Valeur"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "aux ames bien nees la valeur n attend point le nombre des annees la jeunesse n empeche ni le courage ni la noblesse d ame le merite se juge a la qualite des actes non au seul privilege de l age pierre corneille le cid acte ii scene 2 1637 france jeunesse valeur"
+    },
+    {
+      "id": "fr-38",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "La critique est aisée et l’art est difficile.",
+      "french": "Juger une œuvre est plus facile que la créer.",
+      "meaning": "La formule rappelle au critique l’effort, les choix et les risques que suppose toute création.",
+      "source": "Philippe Néricault Destouches, Le Glorieux, acte II, scène 5 (1732)",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_glorieux",
+      "sourceKind": "text",
+      "tags": [
+        "Création",
+        "Jugement"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "la critique est aisee et l art est difficile juger une œuvre est plus facile que la creer la formule rappelle au critique l effort les choix et les risques que suppose toute creation philippe nericault destouches le glorieux acte ii scene 5 1732 france creation jugement"
+    },
+    {
+      "id": "fr-39",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Selon que vous serez puissant ou misérable, les jugements de cour vous rendront blanc ou noir.",
+      "french": "La justice peut changer de verdict selon la puissance sociale de celui qu’elle juge.",
+      "meaning": "La Fontaine dénonce une justice qui absout les forts et fait payer les faibles.",
+      "source": "Jean de La Fontaine, Fables VII, 1, « Les Animaux malades de la peste »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine/%C3%A9dition_1874/Les_Animaux_malades_de_la_peste",
+      "sourceKind": "text",
+      "tags": [
+        "Justice",
+        "Pouvoir"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "selon que vous serez puissant ou miserable les jugements de cour vous rendront blanc ou noir la justice peut changer de verdict selon la puissance sociale de celui qu elle juge la fontaine denonce une justice qui absout les forts et fait payer les faibles jean de la fontaine fables vii 1 les animaux malades de la peste france justice pouvoir"
+    },
+    {
+      "id": "fr-40",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Le travail est un trésor.",
+      "french": "La capacité de travailler vaut davantage qu’un héritage vite dissipé.",
+      "meaning": "Le père de la fable lègue à ses enfants le goût de l’effort sous la forme d’un trésor à chercher.",
+      "source": "Jean de La Fontaine, Fables V, 9, « Le Laboureur et ses Enfants »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Laboureur_et_ses_Enfants",
+      "sourceKind": "text",
+      "tags": [
+        "Travail",
+        "Transmission"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "le travail est un tresor la capacite de travailler vaut davantage qu un heritage vite dissipe le pere de la fable legue a ses enfants le gout de l effort sous la forme d un tresor a chercher jean de la fontaine fables v 9 le laboureur et ses enfants france travail transmission"
+    },
+    {
+      "id": "fr-41",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "La méfiance est mère de la sûreté.",
+      "french": "Une prudence lucide protège des pièges trop séduisants.",
+      "meaning": "La prudence n’est pas ici une peur générale, mais l’attention à ce qui paraît anormalement facile.",
+      "source": "Jean de La Fontaine, Fables III, 18, « Le Chat et un vieux Rat »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Chat_et_un_vieux_Rat",
+      "sourceKind": "text",
+      "tags": [
+        "Prudence",
+        "Vigilance"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "la mefiance est mere de la surete une prudence lucide protege des pieges trop seduisants la prudence n est pas ici une peur generale mais l attention a ce qui parait anormalement facile jean de la fontaine fables iii 18 le chat et un vieux rat france prudence vigilance"
+    },
+    {
+      "id": "fr-42",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Ventre affamé n’a point d’oreilles.",
+      "french": "La nécessité physique rend les beaux discours impuissants.",
+      "meaning": "On ne persuade pas celui dont un besoin vital n’est pas satisfait par de simples paroles.",
+      "source": "Jean de La Fontaine, Fables IX, 18, « Le Milan et le Rossignol »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Milan_et_le_Rossignol",
+      "sourceKind": "text",
+      "tags": [
+        "Nécessité",
+        "Parole"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "ventre affame n a point d oreilles la necessite physique rend les beaux discours impuissants on ne persuade pas celui dont un besoin vital n est pas satisfait par de simples paroles jean de la fontaine fables ix 18 le milan et le rossignol france necessite parole"
+    },
+    {
+      "id": "fr-43",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Chat échaudé craint l’eau froide.",
+      "french": "Une expérience douloureuse rend méfiant même devant un danger seulement ressemblant.",
+      "meaning": "La mémoire de la blessure protège, mais peut aussi étendre la crainte au-delà du risque réel.",
+      "source": "Proverbe français traditionnel ; locution documentée par le TLFi",
+      "sourceUrl": "https://www.cnrtl.fr/definition/%C3%A9chaud%C3%A9",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Expérience",
+        "Crainte"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "chat echaude craint l eau froide une experience douloureuse rend mefiant meme devant un danger seulement ressemblant la memoire de la blessure protege mais peut aussi etendre la crainte au dela du risque reel proverbe francais traditionnel locution documentee par le tlfi france experience crainte"
+    },
+    {
+      "id": "fr-44",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Il faut battre le fer pendant qu’il est chaud.",
+      "french": "Il faut agir pendant que les conditions sont favorables.",
+      "meaning": "Une occasion utile se transforme par une action menée au moment où elle peut encore produire son effet.",
+      "source": "Locution proverbiale française documentée par le TLFi, entrée « fer »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/fer",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Occasion",
+        "Action"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "il faut battre le fer pendant qu il est chaud il faut agir pendant que les conditions sont favorables une occasion utile se transforme par une action menee au moment ou elle peut encore produire son effet locution proverbiale francaise documentee par le tlfi entree fer france occasion action"
+    },
+    {
+      "id": "fr-45",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "À l’impossible nul n’est tenu.",
+      "french": "On ne peut exiger de quelqu’un ce qu’il lui est réellement impossible d’accomplir.",
+      "meaning": "L’adage fixe une limite raisonnable à l’obligation morale ou juridique.",
+      "source": "Adage juridique français documenté par le TLFi, entrée « impossible »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/impossible",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Limite",
+        "Justice"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "a l impossible nul n est tenu on ne peut exiger de quelqu un ce qu il lui est reellement impossible d accomplir l adage fixe une limite raisonnable a l obligation morale ou juridique adage juridique francais documente par le tlfi entree impossible france limite justice"
+    },
+    {
+      "id": "fr-46",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "L’occasion fait le larron.",
+      "french": "Une circonstance favorable peut susciter une faute qui n’était pas préméditée.",
+      "meaning": "Le contexte éprouve la probité et peut réveiller une tentation jusque-là dormante.",
+      "source": "Proverbe français documenté par le TLFi, entrée « occasion »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/occasion",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Tentation",
+        "Circonstance"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "l occasion fait le larron une circonstance favorable peut susciter une faute qui n etait pas premeditee le contexte eprouve la probite et peut reveiller une tentation jusque la dormante proverbe francais documente par le tlfi entree occasion france tentation circonstance"
+    },
+    {
+      "id": "fr-47",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Les conseilleurs ne sont pas les payeurs.",
+      "french": "Celui qui conseille ne supporte pas nécessairement les conséquences de son conseil.",
+      "meaning": "Un avis se juge aussi à la part de risque que son auteur accepte réellement d’assumer.",
+      "source": "Proverbe français traditionnel documenté par le TLFi, entrée « conseilleur »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/conseilleur",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Conseil",
+        "Responsabilité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "les conseilleurs ne sont pas les payeurs celui qui conseille ne supporte pas necessairement les consequences de son conseil un avis se juge aussi a la part de risque que son auteur accepte reellement d assumer proverbe francais traditionnel documente par le tlfi entree conseilleur france conseil responsabilite"
+    },
+    {
+      "id": "fr-48",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "La nuit porte conseil.",
+      "french": "Le repos et le recul peuvent éclairer une décision difficile.",
+      "meaning": "Suspendre le jugement permet aux émotions de retomber et à la pensée de se réorganiser.",
+      "source": "Proverbe français traditionnel documenté par le TLFi, entrée « nuit »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/nuit",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Décision",
+        "Recul"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "la nuit porte conseil le repos et le recul peuvent eclairer une decision difficile suspendre le jugement permet aux emotions de retomber et a la pensee de se reorganiser proverbe francais traditionnel documente par le tlfi entree nuit france decision recul"
+    },
+    {
+      "id": "fr-49",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Bien mal acquis ne profite jamais.",
+      "french": "Un gain obtenu injustement finit par se perdre ou se retourner contre son possesseur.",
+      "meaning": "La formule relie la solidité d’un bien à la justice des moyens employés pour l’obtenir.",
+      "source": "Jean de La Fontaine, Fables IX, 16, « Le Trésor et les deux Hommes »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Tr%C3%A9sor_et_les_deux_Hommes",
+      "sourceKind": "text",
+      "tags": [
+        "Justice",
+        "Gain"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "bien mal acquis ne profite jamais un gain obtenu injustement finit par se perdre ou se retourner contre son possesseur la formule relie la solidite d un bien a la justice des moyens employes pour l obtenir jean de la fontaine fables ix 16 le tresor et les deux hommes france justice gain"
+    },
+    {
+      "id": "fr-50",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Quand le chat n’est pas là, les souris dansent.",
+      "french": "L’absence d’autorité libère les comportements qu’elle contenait.",
+      "meaning": "La discipline fondée uniquement sur la surveillance disparaît avec celui qui la fait respecter.",
+      "source": "Proverbe français traditionnel documenté par le TLFi, entrée « chat »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/chat",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Autorité",
+        "Liberté"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "quand le chat n est pas la les souris dansent l absence d autorite libere les comportements qu elle contenait la discipline fondee uniquement sur la surveillance disparait avec celui qui la fait respecter proverbe francais traditionnel documente par le tlfi entree chat france autorite liberte"
+    },
+    {
+      "id": "fr-51",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Tant va la cruche à l’eau qu’à la fin elle se casse.",
+      "french": "À répéter une conduite risquée, on finit par en subir les conséquences.",
+      "meaning": "Le succès provisoire ne supprime pas le danger : l’exposition répétée rend la rupture de plus en plus probable.",
+      "source": "Proverbe français ancien documenté par le TLFi, entrée « cruche »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/cruche",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Risque",
+        "Répétition"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "tant va la cruche a l eau qu a la fin elle se casse a repeter une conduite risquee on finit par en subir les consequences le succes provisoire ne supprime pas le danger l exposition repetee rend la rupture de plus en plus probable proverbe francais ancien documente par le tlfi entree cruche france risque repetition"
+    },
+    {
+      "id": "fr-52",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Qui trop embrasse mal étreint.",
+      "french": "Celui qui entreprend trop de choses à la fois n’en maîtrise aucune.",
+      "meaning": "L’ambition dispersée affaiblit l’attention et la qualité de l’exécution.",
+      "source": "Proverbe français documenté par le TLFi, entrée « embrasser »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/embrasser",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Mesure",
+        "Priorité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "qui trop embrasse mal etreint celui qui entreprend trop de choses a la fois n en maitrise aucune l ambition dispersee affaiblit l attention et la qualite de l execution proverbe francais documente par le tlfi entree embrasser france mesure priorite"
+    },
+    {
+      "id": "fr-53",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Il ne faut pas courir deux lièvres à la fois.",
+      "french": "Poursuivre simultanément deux objectifs incompatibles risque de faire perdre les deux.",
+      "meaning": "Le proverbe invite à choisir une priorité quand les efforts ne peuvent être efficacement partagés.",
+      "source": "Locution proverbiale française documentée par le TLFi, entrée « lièvre »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/li%C3%A8vre",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Choix",
+        "Concentration"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "il ne faut pas courir deux lievres a la fois poursuivre simultanement deux objectifs incompatibles risque de faire perdre les deux le proverbe invite a choisir une priorite quand les efforts ne peuvent etre efficacement partages locution proverbiale francaise documentee par le tlfi entree lievre france choix concentration"
+    },
+    {
+      "id": "fr-54",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "C’est au pied du mur qu’on voit le maçon.",
+      "french": "La compétence se révèle au moment de l’épreuve concrète.",
+      "meaning": "La réputation et les promesses comptent moins que la capacité à réaliser effectivement le travail.",
+      "source": "Proverbe français documenté par le TLFi, entrée « mur »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/mur",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Compétence",
+        "Épreuve"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "c est au pied du mur qu on voit le macon la competence se revele au moment de l epreuve concrete la reputation et les promesses comptent moins que la capacite a realiser effectivement le travail proverbe francais documente par le tlfi entree mur france competence epreuve"
+    },
+    {
+      "id": "fr-55",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Il ne faut pas mettre la charrue avant les bœufs.",
+      "french": "Il faut respecter l’ordre nécessaire des étapes.",
+      "meaning": "Commencer par la conséquence avant d’avoir établi les conditions qui la rendent possible conduit au désordre.",
+      "source": "Locution proverbiale française documentée par le TLFi, entrée « charrue »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/charrue",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Ordre",
+        "Préparation"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "il ne faut pas mettre la charrue avant les bœufs il faut respecter l ordre necessaire des etapes commencer par la consequence avant d avoir etabli les conditions qui la rendent possible conduit au desordre locution proverbiale francaise documentee par le tlfi entree charrue france ordre preparation"
+    },
+    {
+      "id": "fr-56",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Les murs ont des oreilles.",
+      "french": "Une parole supposée secrète peut toujours être entendue et rapportée.",
+      "meaning": "Le proverbe rappelle que la confidentialité dépend autant du lieu et des témoins invisibles que de l’intention.",
+      "source": "Locution proverbiale française documentée par le TLFi, entrée « mur »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/mur",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Secret",
+        "Prudence"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "les murs ont des oreilles une parole supposee secrete peut toujours etre entendue et rapportee le proverbe rappelle que la confidentialite depend autant du lieu et des temoins invisibles que de l intention locution proverbiale francaise documentee par le tlfi entree mur france secret prudence"
+    },
+    {
+      "id": "fr-57",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Il ne faut pas réveiller le chat qui dort.",
+      "french": "Il vaut mieux ne pas ranimer un conflit ou un danger momentanément apaisé.",
+      "meaning": "Une intervention inutile peut transformer un risque dormant en problème actif.",
+      "source": "Locution proverbiale française documentée par le TLFi, entrée « chat »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/chat",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Prudence",
+        "Conflit"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "il ne faut pas reveiller le chat qui dort il vaut mieux ne pas ranimer un conflit ou un danger momentanement apaise une intervention inutile peut transformer un risque dormant en probleme actif locution proverbiale francaise documentee par le tlfi entree chat france prudence conflit"
+    },
+    {
+      "id": "fr-58",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "À chacun son métier, et les vaches seront bien gardées.",
+      "french": "Une tâche est mieux accomplie lorsqu’elle est confiée à celui qui en connaît le métier.",
+      "meaning": "La fable défend la compétence propre de chaque art contre l’improvisation présomptueuse.",
+      "source": "Jean de La Fontaine, Fables V, 8, « Le Cheval et le Loup »",
+      "sourceUrl": "https://fr.wikisource.org/wiki/Le_Cheval_et_le_Loup",
+      "sourceKind": "text",
+      "tags": [
+        "Métier",
+        "Compétence"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "a chacun son metier et les vaches seront bien gardees une tache est mieux accomplie lorsqu elle est confiee a celui qui en connait le metier la fable defend la competence propre de chaque art contre l improvisation presomptueuse jean de la fontaine fables v 8 le cheval et le loup france metier competence"
+    },
+    {
+      "id": "fr-59",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "Il n’y a pas de sot métier, il n’y a que de sottes gens.",
+      "french": "Aucun travail honnête n’est indigne ; seul le mépris qu’on lui porte peut l’être.",
+      "meaning": "La dignité dépend moins du prestige social d’une activité que de la manière dont elle est exercée.",
+      "source": "Proverbe français traditionnel documenté par le TLFi, entrée « métier »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/m%C3%A9tier",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Travail",
+        "Dignité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "il n y a pas de sot metier il n y a que de sottes gens aucun travail honnete n est indigne seul le mepris qu on lui porte peut l etre la dignite depend moins du prestige social d une activite que de la maniere dont elle est exercee proverbe francais traditionnel documente par le tlfi entree metier france travail dignite"
+    },
+    {
+      "id": "fr-60",
+      "culture": "France",
+      "place": "France",
+      "mark": "FR",
+      "lang": "fr",
+      "original": "À bon chat, bon rat.",
+      "french": "À un adversaire habile répond un adversaire de force comparable.",
+      "meaning": "La ruse ou la puissance rencontre parfois une résistance exactement à sa mesure.",
+      "source": "Locution proverbiale française documentée par le TLFi, entrée « chat »",
+      "sourceUrl": "https://www.cnrtl.fr/definition/chat",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Rivalité",
+        "Équilibre"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "a bon chat bon rat a un adversaire habile repond un adversaire de force comparable la ruse ou la puissance rencontre parfois une resistance exactement a sa mesure locution proverbiale francaise documentee par le tlfi entree chat france rivalite equilibre"
+    },
+    {
       "id": "en-1",
       "culture": "Anglais",
       "place": "Monde anglophone",
@@ -992,8 +1544,8 @@
       "place": "Monde anglophone",
       "mark": "EN",
       "lang": "en",
-      "original": "The last straw that broke the camel’s back.",
-      "french": "La dernière paille qui brisa le dos du chameau.",
+      "original": "The straw that broke the camel’s back.",
+      "french": "La paille qui brisa le dos du chameau.",
       "meaning": "Une charge minuscule peut déclencher la rupture quand tout le reste s’est déjà accumulé.",
       "source": "Proverbe anglais ; forme au chameau attestée dans The Edinburgh Advertiser (1816)",
       "sourceUrl": "https://www.phrases.org.uk/meanings/the-last-straw.html",
@@ -1003,7 +1555,7 @@
         "Accumulation"
       ],
       "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "the last straw that broke the camel s back la derniere paille qui brisa le dos du chameau une charge minuscule peut declencher la rupture quand tout le reste s est deja accumule proverbe anglais forme au chameau attestee dans the edinburgh advertiser 1816 monde anglophone limite accumulation"
+      "searchText": "the straw that broke the camel s back la paille qui brisa le dos du chameau une charge minuscule peut declencher la rupture quand tout le reste s est deja accumule proverbe anglais forme au chameau attestee dans the edinburgh advertiser 1816 monde anglophone limite accumulation"
     },
     {
       "id": "en-24",
@@ -1152,6 +1704,1602 @@
       ],
       "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
       "searchText": "don t count your chickens before they hatch ne comptez pas vos poulets avant leur eclosion un resultat espere ne doit pas etre traite comme deja acquis famille proverbiale issue d esope forme anglaise attestee au xvie siecle monde anglophone prudence anticipation"
+    },
+    {
+      "id": "en-32",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Time and tide wait for no man.",
+      "french": "Le temps et la marée n’attendent personne.",
+      "meaning": "Les occasions soumises au temps avancent sans s’adapter à nos hésitations.",
+      "source": "Proverbe anglais ancien ; recensé par Walter K. Kelly, Proverbs of All Nations (1870)",
+      "sourceUrl": "https://www.gutenberg.org/files/63190/63190-h/63190-h.htm",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Temps",
+        "Occasion"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "time and tide wait for no man le temps et la maree n attendent personne les occasions soumises au temps avancent sans s adapter a nos hesitations proverbe anglais ancien recense par walter k kelly proverbs of all nations 1870 angleterre temps occasion"
+    },
+    {
+      "id": "en-33",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Many hands make light work.",
+      "french": "Beaucoup de mains rendent le travail léger.",
+      "meaning": "Un effort lourd devient supportable lorsqu’il est réparti entre plusieurs personnes.",
+      "source": "John Heywood, A Dialogue Containing the Number in Effect of All the Proverbs (1546)",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/The_proverbs_of_John_Heywood._Being_the_%22Proverbes%22_of_that_author_printed_1546._Ed.%2C_with_notes_and_introduction_%28IA_cu31924027146566%29.pdf",
+      "sourceKind": "text",
+      "tags": [
+        "Coopération",
+        "Travail"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "many hands make light work beaucoup de mains rendent le travail leger un effort lourd devient supportable lorsqu il est reparti entre plusieurs personnes john heywood a dialogue containing the number in effect of all the proverbs 1546 angleterre cooperation travail"
+    },
+    {
+      "id": "en-34",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Beggars can’t be choosers.",
+      "french": "Les mendiants ne peuvent faire les difficiles.",
+      "meaning": "Celui qui dépend entièrement de ce qu’on lui offre dispose de peu de marge pour en dicter les conditions.",
+      "source": "Forme moderne de « Beggars should be no choosers », John Heywood (1546)",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/The_proverbs_of_John_Heywood._Being_the_%22Proverbes%22_of_that_author_printed_1546._Ed.%2C_with_notes_and_introduction_%28IA_cu31924027146566%29.pdf",
+      "sourceKind": "derived",
+      "tags": [
+        "Nécessité",
+        "Choix"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "beggars can t be choosers les mendiants ne peuvent faire les difficiles celui qui depend entierement de ce qu on lui offre dispose de peu de marge pour en dicter les conditions forme moderne de beggars should be no choosers john heywood 1546 angleterre necessite choix"
+    },
+    {
+      "id": "en-35",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "The proof of the pudding is in the eating.",
+      "french": "La preuve du pudding est dans le fait de le manger.",
+      "meaning": "La valeur réelle d’une chose se vérifie par l’expérience et le résultat, non par les promesses.",
+      "source": "Proverbe anglais attesté chez John Taylor (1615), puis dans Camden, Remaines (éd. 1623)",
+      "sourceUrl": "https://www.wordorigins.org/big-list-entries/proof-of-the-pudding",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Expérience",
+        "Preuve"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "the proof of the pudding is in the eating la preuve du pudding est dans le fait de le manger la valeur reelle d une chose se verifie par l experience et le resultat non par les promesses proverbe anglais atteste chez john taylor 1615 puis dans camden remaines ed 1623 angleterre experience preuve"
+    },
+    {
+      "id": "en-36",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Waste not, want not.",
+      "french": "Qui ne gaspille pas ne manquera pas.",
+      "meaning": "L’usage attentif des ressources présentes protège contre la pénurie future.",
+      "source": "Proverbe anglais, forme attestée en 1772 ; variante plus ancienne en 1576",
+      "sourceUrl": "https://www.dictionary.com/browse/waste-not-want-not",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Économie",
+        "Prévision"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "waste not want not qui ne gaspille pas ne manquera pas l usage attentif des ressources presentes protege contre la penurie future proverbe anglais forme attestee en 1772 variante plus ancienne en 1576 monde anglophone economie prevision"
+    },
+    {
+      "id": "en-37",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Make hay while the sun shines.",
+      "french": "Fais les foins pendant que le soleil brille.",
+      "meaning": "Une condition favorable doit être utilisée avant qu’elle ne disparaisse.",
+      "source": "Proverbe propre à la tradition anglaise ; Walter K. Kelly, Proverbs of All Nations (1870)",
+      "sourceUrl": "https://www.gutenberg.org/files/63190/63190-h/63190-h.htm",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Occasion",
+        "Action"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "make hay while the sun shines fais les foins pendant que le soleil brille une condition favorable doit etre utilisee avant qu elle ne disparaisse proverbe propre a la tradition anglaise walter k kelly proverbs of all nations 1870 angleterre occasion action"
+    },
+    {
+      "id": "en-38",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "lang": "en",
+      "original": "A watched pot never boils.",
+      "french": "Une casserole surveillée ne bout jamais.",
+      "meaning": "L’attente anxieuse donne l’impression que le temps ralentit.",
+      "source": "Proverbe anglais ; forme voisine chez Benjamin Franklin, rapport de 1785",
+      "sourceUrl": "https://www.phrases.org.uk/meanings/watched-pot-never-boils.html",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Patience",
+        "Attente"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "a watched pot never boils une casserole surveillee ne bout jamais l attente anxieuse donne l impression que le temps ralentit proverbe anglais forme voisine chez benjamin franklin rapport de 1785 monde anglophone patience attente"
+    },
+    {
+      "id": "en-39",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Out of sight, out of mind.",
+      "french": "Loin des yeux, loin de l’esprit.",
+      "meaning": "Ce qui disparaît de l’expérience quotidienne tend aussi à perdre sa place dans l’attention.",
+      "source": "John Heywood, A Dialogue Containing the Number in Effect of All the Proverbs (1546)",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/The_proverbs_of_John_Heywood._Being_the_%22Proverbes%22_of_that_author_printed_1546._Ed.%2C_with_notes_and_introduction_%28IA_cu31924027146566%29.pdf",
+      "sourceKind": "text",
+      "tags": [
+        "Absence",
+        "Mémoire"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "out of sight out of mind loin des yeux loin de l esprit ce qui disparait de l experience quotidienne tend aussi a perdre sa place dans l attention john heywood a dialogue containing the number in effect of all the proverbs 1546 angleterre absence memoire"
+    },
+    {
+      "id": "en-40",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "The better part of valour is discretion.",
+      "french": "La meilleure part du courage est la prudence.",
+      "meaning": "Falstaff transforme avec esprit sa fuite en principe : survivre peut exiger de renoncer à une bravoure aveugle.",
+      "source": "William Shakespeare, Henry IV, Part 1, V.4",
+      "sourceUrl": "https://www.folger.edu/explore/shakespeares-works/henry-iv-part-1/read/5/4/",
+      "sourceKind": "text",
+      "tags": [
+        "Courage",
+        "Prudence"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "the better part of valour is discretion la meilleure part du courage est la prudence falstaff transforme avec esprit sa fuite en principe survivre peut exiger de renoncer a une bravoure aveugle william shakespeare henry iv part 1 v 4 angleterre courage prudence"
+    },
+    {
+      "id": "en-41",
+      "culture": "Anglais",
+      "place": "Écosse littéraire",
+      "mark": "EN",
+      "lang": "en",
+      "original": "What’s done cannot be undone.",
+      "french": "Ce qui est fait ne peut être défait.",
+      "meaning": "Certaines conséquences deviennent irréversibles et obligent à regarder lucidement ce qui demeure possible.",
+      "source": "William Shakespeare, Macbeth, V.1",
+      "sourceUrl": "https://www.folger.edu/explore/shakespeares-works/macbeth/read/5/1/",
+      "sourceKind": "text",
+      "tags": [
+        "Irréversibilité",
+        "Conséquence"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "what s done cannot be undone ce qui est fait ne peut etre defait certaines consequences deviennent irreversibles et obligent a regarder lucidement ce qui demeure possible william shakespeare macbeth v 1 ecosse litteraire irreversibilite consequence"
+    },
+    {
+      "id": "en-42",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Cowards die many times before their deaths.",
+      "french": "Les lâches meurent plusieurs fois avant leur mort.",
+      "meaning": "La peur fait vivre par anticipation de multiples défaites avant même que l’événement redouté survienne.",
+      "source": "William Shakespeare, Julius Caesar, II.2",
+      "sourceUrl": "https://www.folger.edu/explore/shakespeares-works/julius-caesar/read/2/2/",
+      "sourceKind": "text",
+      "tags": [
+        "Peur",
+        "Courage"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "cowards die many times before their deaths les laches meurent plusieurs fois avant leur mort la peur fait vivre par anticipation de multiples defaites avant meme que l evenement redoute survienne william shakespeare julius caesar ii 2 angleterre peur courage"
+    },
+    {
+      "id": "en-43",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Uneasy lies the head that wears a crown.",
+      "french": "Inquiète repose la tête qui porte une couronne.",
+      "meaning": "Le pouvoir apporte une charge et une insécurité que son prestige extérieur dissimule.",
+      "source": "William Shakespeare, Henry IV, Part 2, III.1",
+      "sourceUrl": "https://www.folger.edu/explore/shakespeares-works/henry-iv-part-2/read/3/1/",
+      "sourceKind": "text",
+      "tags": [
+        "Pouvoir",
+        "Responsabilité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "uneasy lies the head that wears a crown inquiete repose la tete qui porte une couronne le pouvoir apporte une charge et une insecurite que son prestige exterieur dissimule william shakespeare henry iv part 2 iii 1 angleterre pouvoir responsabilite"
+    },
+    {
+      "id": "en-44",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "The course of true love never did run smooth.",
+      "french": "Le cours du véritable amour ne fut jamais paisible.",
+      "meaning": "Les liens profonds se construisent à travers des obstacles plutôt que dans une continuité sans heurts.",
+      "source": "William Shakespeare, A Midsummer Night’s Dream, I.1",
+      "sourceUrl": "https://www.folger.edu/explore/shakespeares-works/a-midsummer-nights-dream/read/1/1/",
+      "sourceKind": "text",
+      "tags": [
+        "Amour",
+        "Épreuve"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "the course of true love never did run smooth le cours du veritable amour ne fut jamais paisible les liens profonds se construisent a travers des obstacles plutot que dans une continuite sans heurts william shakespeare a midsummer night s dream i 1 angleterre amour epreuve"
+    },
+    {
+      "id": "en-45",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Hope springs eternal in the human breast.",
+      "french": "L’espoir jaillit éternellement dans le cœur humain.",
+      "meaning": "L’être humain reporte naturellement son attente de bonheur vers ce qui reste à venir.",
+      "source": "Alexander Pope, An Essay on Man, épître I, vers 95 (1733)",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/9413/pg9413-images.html",
+      "sourceKind": "text",
+      "tags": [
+        "Espoir",
+        "Avenir"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "hope springs eternal in the human breast l espoir jaillit eternellement dans le cœur humain l etre humain reporte naturellement son attente de bonheur vers ce qui reste a venir alexander pope an essay on man epitre i vers 95 1733 angleterre espoir avenir"
+    },
+    {
+      "id": "en-46",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Fools rush in where angels fear to tread.",
+      "french": "Les fous se précipitent là où les anges craignent de poser le pied.",
+      "meaning": "L’ignorance sûre d’elle-même s’engage sans percevoir les dangers qui rendent le sage prudent.",
+      "source": "Alexander Pope, An Essay on Criticism, vers 625 (1711)",
+      "sourceUrl": "https://www.gutenberg.org/files/43271/43271-h/43271-h.htm",
+      "sourceKind": "text",
+      "tags": [
+        "Imprudence",
+        "Ignorance"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "fools rush in where angels fear to tread les fous se precipitent la ou les anges craignent de poser le pied l ignorance sure d elle meme s engage sans percevoir les dangers qui rendent le sage prudent alexander pope an essay on criticism vers 625 1711 angleterre imprudence ignorance"
+    },
+    {
+      "id": "en-47",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "A little learning is a dangerous thing.",
+      "french": "Un peu de savoir est une chose dangereuse.",
+      "meaning": "Une connaissance superficielle peut produire davantage de certitude que de compréhension.",
+      "source": "Alexander Pope, An Essay on Criticism, vers 215 (1711)",
+      "sourceUrl": "https://www.gutenberg.org/files/43271/43271-h/43271-h.htm",
+      "sourceKind": "text",
+      "tags": [
+        "Savoir",
+        "Humilité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "a little learning is a dangerous thing un peu de savoir est une chose dangereuse une connaissance superficielle peut produire davantage de certitude que de comprehension alexander pope an essay on criticism vers 215 1711 angleterre savoir humilite"
+    },
+    {
+      "id": "en-48",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Reading maketh a full man; conference a ready man; and writing an exact man.",
+      "french": "La lecture forme un homme complet ; l’échange, un homme prêt ; l’écriture, un homme précis.",
+      "meaning": "Bacon distingue trois disciplines complémentaires : nourrir l’esprit, répondre avec agilité et clarifier la pensée.",
+      "source": "Francis Bacon, Essays, « Of Studies » (éd. 1625)",
+      "sourceUrl": "https://www.gutenberg.org/files/10699/10699-h/10699-h.htm",
+      "sourceKind": "text",
+      "tags": [
+        "Lecture",
+        "Écriture"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "reading maketh a full man conference a ready man and writing an exact man la lecture forme un homme complet l echange un homme pret l ecriture un homme precis bacon distingue trois disciplines complementaires nourrir l esprit repondre avec agilite et clarifier la pensee francis bacon essays of studies ed 1625 angleterre lecture ecriture"
+    },
+    {
+      "id": "en-49",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "If Winter comes, can Spring be far behind?",
+      "french": "Si l’hiver vient, le printemps peut-il être loin derrière ?",
+      "meaning": "Le moment le plus sombre contient déjà la possibilité d’un recommencement.",
+      "source": "Percy Bysshe Shelley, Ode to the West Wind (1820)",
+      "sourceUrl": "https://www.poetryfoundation.org/poems/45134/ode-to-the-west-wind",
+      "sourceKind": "text",
+      "tags": [
+        "Espoir",
+        "Renouveau"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "if winter comes can spring be far behind si l hiver vient le printemps peut il etre loin derriere le moment le plus sombre contient deja la possibilite d un recommencement percy bysshe shelley ode to the west wind 1820 angleterre espoir renouveau"
+    },
+    {
+      "id": "en-50",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "The Child is father of the Man.",
+      "french": "L’enfant est le père de l’homme.",
+      "meaning": "Les dispositions et les émerveillements de l’enfance façonnent l’adulte à venir.",
+      "source": "William Wordsworth, My Heart Leaps Up (1802)",
+      "sourceUrl": "https://www.poetryfoundation.org/poems/45502/my-heart-leaps-up",
+      "sourceKind": "text",
+      "tags": [
+        "Enfance",
+        "Transmission"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "the child is father of the man l enfant est le pere de l homme les dispositions et les emerveillements de l enfance faconnent l adulte a venir william wordsworth my heart leaps up 1802 angleterre enfance transmission"
+    },
+    {
+      "id": "en-51",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Don’t bite off more than you can chew.",
+      "french": "Ne mords pas plus que tu ne peux mâcher.",
+      "meaning": "Une tâche trop vaste pour les moyens disponibles transforme l’ambition en incapacité d’achever.",
+      "source": "Proverbe anglophone documenté par Phrase Finder",
+      "sourceUrl": "https://www.phrases.org.uk/idioms/bite-off-more-than-you-can-chew.html",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Mesure",
+        "Capacité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "don t bite off more than you can chew ne mords pas plus que tu ne peux macher une tache trop vaste pour les moyens disponibles transforme l ambition en incapacite d achever proverbe anglophone documente par phrase finder monde anglophone mesure capacite"
+    },
+    {
+      "id": "en-52",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Don’t put the cart before the horse.",
+      "french": "Ne mets pas la charrette avant le cheval.",
+      "meaning": "Inverser les étapes nécessaires compromet le résultat avant même de commencer.",
+      "source": "Proverbe anglais ancien documenté par Phrase Finder",
+      "sourceUrl": "https://www.phrases.org.uk/meanings/put-the-cart-before-the-horse.html",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Ordre",
+        "Préparation"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "don t put the cart before the horse ne mets pas la charrette avant le cheval inverser les etapes necessaires compromet le resultat avant meme de commencer proverbe anglais ancien documente par phrase finder monde anglophone ordre preparation"
+    },
+    {
+      "id": "en-53",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "You can lead a horse to water, but you can’t make it drink.",
+      "french": "On peut mener un cheval à l’eau, mais on ne peut le forcer à boire.",
+      "meaning": "On peut offrir une occasion ou un savoir, jamais contraindre quelqu’un à s’en saisir intérieurement.",
+      "source": "Proverbe anglais attesté dès le XIIe siècle ; historique documenté par Phrase Finder",
+      "sourceUrl": "https://www.phrases.org.uk/meanings/you-can-lead-a-horse-to-water.html",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Liberté",
+        "Persuasion"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "you can lead a horse to water but you can t make it drink on peut mener un cheval a l eau mais on ne peut le forcer a boire on peut offrir une occasion ou un savoir jamais contraindre quelqu un a s en saisir interieurement proverbe anglais atteste des le xiie siecle historique documente par phrase finder angleterre liberte persuasion"
+    },
+    {
+      "id": "en-54",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Don’t look a gift horse in the mouth.",
+      "french": "Ne regarde pas dans la bouche d’un cheval offert.",
+      "meaning": "Examiner avec ingratitude la valeur d’un don fait oublier qu’il a été librement reçu.",
+      "source": "Famille proverbiale ancienne ; forme anglaise chez John Heywood (1546)",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/The_proverbs_of_John_Heywood._Being_the_%22Proverbes%22_of_that_author_printed_1546._Ed.%2C_with_notes_and_introduction_%28IA_cu31924027146566%29.pdf",
+      "sourceKind": "derived",
+      "tags": [
+        "Don",
+        "Gratitude"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "don t look a gift horse in the mouth ne regarde pas dans la bouche d un cheval offert examiner avec ingratitude la valeur d un don fait oublier qu il a ete librement recu famille proverbiale ancienne forme anglaise chez john heywood 1546 angleterre don gratitude"
+    },
+    {
+      "id": "en-55",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Let sleeping dogs lie.",
+      "french": "Laisse dormir les chiens qui dorment.",
+      "meaning": "Ranimer une vieille querelle ou un danger inactif peut créer un dommage évitable.",
+      "source": "Proverbe anglais, famille attestée chez Chaucer ; historique documenté par Phrase Finder",
+      "sourceUrl": "https://www.phrases.org.uk/meanings/let-sleeping-dogs-lie.html",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Prudence",
+        "Conflit"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "let sleeping dogs lie laisse dormir les chiens qui dorment ranimer une vieille querelle ou un danger inactif peut creer un dommage evitable proverbe anglais famille attestee chez chaucer historique documente par phrase finder angleterre prudence conflit"
+    },
+    {
+      "id": "en-56",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "lang": "en",
+      "original": "Don’t cry over spilt milk.",
+      "french": "Ne pleure pas sur le lait renversé.",
+      "meaning": "Le regret ne répare pas une perte irréversible ; l’énergie doit revenir à ce qui peut encore changer.",
+      "source": "Proverbe anglais documenté dans les recueils des XVIIe et XIXe siècles",
+      "sourceUrl": "https://www.gutenberg.org/files/63190/63190-h/63190-h.htm",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Regret",
+        "Irréversibilité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "don t cry over spilt milk ne pleure pas sur le lait renverse le regret ne repare pas une perte irreversible l energie doit revenir a ce qui peut encore changer proverbe anglais documente dans les recueils des xviie et xixe siecles monde anglophone regret irreversibilite"
+    },
+    {
+      "id": "en-57",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "There’s many a slip ’twixt the cup and the lip.",
+      "french": "Il y a bien des faux pas entre la coupe et les lèvres.",
+      "meaning": "Même très proche, un résultat n’est pas acquis tant que l’action n’est pas achevée.",
+      "source": "Proverbe anglais d’une famille antique ; recensé par Walter K. Kelly (1870)",
+      "sourceUrl": "https://www.gutenberg.org/files/63190/63190-h/63190-h.htm",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Incertitude",
+        "Achèvement"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "there s many a slip twixt the cup and the lip il y a bien des faux pas entre la coupe et les levres meme tres proche un resultat n est pas acquis tant que l action n est pas achevee proverbe anglais d une famille antique recense par walter k kelly 1870 angleterre incertitude achevement"
+    },
+    {
+      "id": "en-58",
+      "culture": "Anglais",
+      "place": "Angleterre",
+      "mark": "EN",
+      "lang": "en",
+      "original": "You can’t make a silk purse out of a sow’s ear.",
+      "french": "On ne peut faire une bourse de soie avec l’oreille d’une truie.",
+      "meaning": "La transformation a des limites lorsque la matière de départ ne possède pas les qualités indispensables.",
+      "source": "Proverbe anglais, forme ancienne chez Stephen Gosson (1579)",
+      "sourceUrl": "https://en.wiktionary.org/wiki/you_can%27t_make_a_silk_purse_out_of_a_sow%27s_ear",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Limite",
+        "Transformation"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "you can t make a silk purse out of a sow s ear on ne peut faire une bourse de soie avec l oreille d une truie la transformation a des limites lorsque la matiere de depart ne possede pas les qualites indispensables proverbe anglais forme ancienne chez stephen gosson 1579 angleterre limite transformation"
+    },
+    {
+      "id": "en-59",
+      "culture": "Anglais",
+      "place": "Monde anglophone",
+      "mark": "EN",
+      "lang": "en",
+      "original": "A bad workman blames his tools.",
+      "french": "Un mauvais ouvrier accuse ses outils.",
+      "meaning": "L’incompétence cherche volontiers une cause extérieure plutôt que d’examiner sa propre part d’échec.",
+      "source": "Proverbe anglais d’une famille médiévale ; recensé dans Proverbs of All Nations (1870)",
+      "sourceUrl": "https://www.gutenberg.org/files/63190/63190-h/63190-h.htm",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Responsabilité",
+        "Compétence"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "a bad workman blames his tools un mauvais ouvrier accuse ses outils l incompetence cherche volontiers une cause exterieure plutot que d examiner sa propre part d echec proverbe anglais d une famille medievale recense dans proverbs of all nations 1870 monde anglophone responsabilite competence"
+    },
+    {
+      "id": "en-60",
+      "culture": "Anglais",
+      "place": "États-Unis",
+      "mark": "EN",
+      "lang": "en",
+      "original": "The squeaky wheel gets the grease.",
+      "french": "La roue qui grince reçoit la graisse.",
+      "meaning": "Un besoin exprimé avec insistance obtient plus facilement l’attention qu’un problème silencieux.",
+      "source": "Proverbe américain ; famille formulée par Josh Billings au XIXe siècle",
+      "sourceUrl": "https://en.wiktionary.org/wiki/the_squeaky_wheel_gets_the_grease",
+      "sourceKind": "lexicographic",
+      "tags": [
+        "Expression",
+        "Attention"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "the squeaky wheel gets the grease la roue qui grince recoit la graisse un besoin exprime avec insistance obtient plus facilement l attention qu un probleme silencieux proverbe americain famille formulee par josh billings au xixe siecle etats unis expression attention"
+    },
+    {
+      "id": "he-1",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵיזֶהוּ חָכָם? הַלּוֹמֵד מִכָּל אָדָם",
+      "french": "Qui est sage ? Celui qui apprend de chaque homme.",
+      "meaning": "La sagesse commence par l’humilité de reconnaître un enseignement en chacun.",
+      "transliteration": "Eizéhou ‘hakham? Halomed mikol adam.",
+      "source": "Pirqé Avot 4:1",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Humilité",
+        "Apprentissage"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "איזהו חכם הלומד מכל אדם qui est sage celui qui apprend de chaque homme la sagesse commence par l humilite de reconnaitre un enseignement en chacun pirqe avot 4 1 tradition juive humilite apprentissage"
+    },
+    {
+      "id": "he-2",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אִם אֵין אֲנִי לִי, מִי לִי? וּכְשֶׁאֲנִי לְעַצְמִי, מָה אֲנִי? וְאִם לֹא עַכְשָׁיו, אֵימָתָי?",
+      "french": "Si je ne suis pas pour moi, qui le sera ? Mais si je ne suis que pour moi, que suis-je ? Et si ce n’est maintenant, quand ?",
+      "meaning": "Hillel réunit en trois questions la responsabilité envers soi, envers autrui et envers le présent.",
+      "transliteration": "Im ein ani li, mi li? Oukhshe-ani le-atsmi, ma ani? Ve-im lo akhshav, eimataï?",
+      "source": "Pirqé Avot 1:14",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Responsabilité",
+        "Action"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.14",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "אם אין אני לי מי לי וכשאני לעצמי מה אני ואם לא עכשיו אימתי si je ne suis pas pour moi qui le sera mais si je ne suis que pour moi que suis je et si ce n est maintenant quand hillel reunit en trois questions la responsabilite envers soi envers autrui et envers le present pirqe avot 1 14 tradition juive responsabilite action"
+    },
+    {
+      "id": "he-3",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "לֹא עָלֶיךָ הַמְּלָאכָה לִגְמֹר, וְלֹא אַתָּה בֶן חוֹרִין לִבָּטֵל מִמֶּנָּה",
+      "french": "Il ne t’appartient pas d’achever l’œuvre, mais tu n’es pas libre de t’en détourner.",
+      "meaning": "Nous ne maîtrisons pas l’achèvement, seulement notre devoir de participer.",
+      "transliteration": "Lo alekha hamelakha ligmor, velo ata ben ‘horin lehibatel mimena.",
+      "source": "Pirqé Avot 2:16",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Devoir",
+        "Persévérance"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.2.16",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "לא עליך המלאכה לגמר ולא אתה בן חורין לבטל ממנה il ne t appartient pas d achever l œuvre mais tu n es pas libre de t en detourner nous ne maitrisons pas l achevement seulement notre devoir de participer pirqe avot 2 16 tradition juive devoir perseverance"
+    },
+    {
+      "id": "he-4",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "גַּם זוֹ לְטוֹבָה",
+      "french": "Cela aussi est pour le bien.",
+      "meaning": "Même l’épreuve peut contenir une possibilité que le présent ne permet pas encore de voir.",
+      "transliteration": "Gam zou letova.",
+      "source": "Talmud, Ta’anit 21a",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Espoir",
+        "Confiance"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Taanit.21a",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "גם זו לטובה cela aussi est pour le bien meme l epreuve peut contenir une possibilite que le present ne permet pas encore de voir talmud ta anit 21a tradition juive espoir confiance"
+    },
+    {
+      "id": "he-5",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "סוֹף מַעֲשֶׂה בְּמַחֲשָׁבָה תְּחִלָּה",
+      "french": "L’acte accompli commence par la pensée.",
+      "meaning": "Une réalisation juste naît d’une intention et d’une préparation claires.",
+      "transliteration": "Sof ma’assé bemakhshava te’hila.",
+      "source": "Lekha Dodi",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Intention",
+        "Action"
+      ],
+      "sourceKind": "attributed",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "סוף מעשה במחשבה תחלה l acte accompli commence par la pensee une realisation juste nait d une intention et d une preparation claires lekha dodi tradition juive intention action"
+    },
+    {
+      "id": "he-6",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "דִּבְרֵי חֲכָמִים בְּנַחַת נִשְׁמָעִים",
+      "french": "Les paroles des sages s’entendent dans le calme.",
+      "meaning": "La vérité n’a pas toujours besoin de bruit pour exercer son influence.",
+      "transliteration": "Divrei ‘hakhamim bena’hat nishma’im.",
+      "source": "Ecclésiaste 9:17",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Parole",
+        "Calme"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Ecclesiastes.9.17",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "דברי חכמים בנחת נשמעים les paroles des sages s entendent dans le calme la verite n a pas toujours besoin de bruit pour exercer son influence ecclesiaste 9 17 tradition juive parole calme"
+    },
+    {
+      "id": "he-7",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵיזֶהוּ עָשִׁיר? הַשָּׂמֵחַ בְּחֶלְקוֹ",
+      "french": "Qui est riche ? Celui qui se réjouit de ce qu’il possède.",
+      "meaning": "La richesse se mesure aussi à la capacité d’apprécier sa part.",
+      "transliteration": "Eizéhou ashir? Hassaméa’h be’helko.",
+      "source": "Pirqé Avot 4:1",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Joie",
+        "Gratitude"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "איזהו עשיר השמח בחלקו qui est riche celui qui se rejouit de ce qu il possede la richesse se mesure aussi a la capacite d apprecier sa part pirqe avot 4 1 tradition juive joie gratitude"
+    },
+    {
+      "id": "he-8",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵין הַנַּחְתּוֹם מֵעִיד עַל עִסָּתוֹ",
+      "french": "Le boulanger ne témoigne pas en faveur de sa propre pâte.",
+      "meaning": "On ne peut être l’arbitre impartial de sa propre œuvre.",
+      "transliteration": "Ein hana’htom me’id al isato.",
+      "source": "Proverbe hébreu",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Humilité",
+        "Jugement"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "אין הנחתום מעיד על עסתו le boulanger ne temoigne pas en faveur de sa propre pate on ne peut etre l arbitre impartial de sa propre œuvre proverbe hebreu tradition juive humilite jugement"
+    },
+    {
+      "id": "he-9",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "בְּמָקוֹם שֶׁאֵין אֲנָשִׁים, הִשְׁתַּדֵּל לִהְיוֹת אִישׁ",
+      "french": "Dans un lieu où il n’y a pas d’hommes, efforce-toi d’être un homme.",
+      "meaning": "Quand personne ne prend ses responsabilités, il faut avoir le courage de le faire.",
+      "transliteration": "Bimkom she-ein anashim, hishtadel lihyot ish.",
+      "source": "Pirqé Avot 2:5",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Courage",
+        "Responsabilité"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.2.5",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "במקום שאין אנשים השתדל להיות איש dans un lieu ou il n y a pas d hommes efforce toi d etre un homme quand personne ne prend ses responsabilites il faut avoir le courage de le faire pirqe avot 2 5 tradition juive courage responsabilite"
+    },
+    {
+      "id": "he-10",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "עַל שְׁלֹשָׁה דְבָרִים הָעוֹלָם עוֹמֵד: עַל הַתּוֹרָה, וְעַל הָעֲבוֹדָה, וְעַל גְּמִילוּת חֲסָדִים",
+      "french": "Le monde repose sur trois choses : l’étude, le service et les actes de bonté.",
+      "meaning": "Une société tient par la connaissance, l’engagement et la solidarité.",
+      "transliteration": "Al shlosha devarim ha-olam omed: al ha-Torah, ve-al ha-avoda, ve-al guemilout ‘hassadim.",
+      "source": "Pirqé Avot 1:2",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Étude",
+        "Bonté"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.2",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "על שלשה דברים העולם עומד על התורה ועל העבודה ועל גמילות חסדים le monde repose sur trois choses l etude le service et les actes de bonte une societe tient par la connaissance l engagement et la solidarite pirqe avot 1 2 tradition juive etude bonte"
+    },
+    {
+      "id": "he-11",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "הֱוֵי מְקַבֵּל אֶת כָּל הָאָדָם בְּסֵבֶר פָּנִים יָפוֹת",
+      "french": "Accueille chaque personne avec un visage bienveillant.",
+      "meaning": "L’hospitalité commence dans l’expression offerte à l’autre.",
+      "transliteration": "Hevei mekabel et kol ha-adam besever panim yafot.",
+      "source": "Pirqé Avot 1:15",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Accueil",
+        "Bonté"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.15",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "הוי מקבל את כל האדם בסבר פנים יפות accueille chaque personne avec un visage bienveillant l hospitalite commence dans l expression offerte a l autre pirqe avot 1 15 tradition juive accueil bonte"
+    },
+    {
+      "id": "he-12",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵיזֶהוּ גִבּוֹר? הַכּוֹבֵשׁ אֶת יִצְרוֹ",
+      "french": "Qui est fort ? Celui qui maîtrise son penchant.",
+      "meaning": "La véritable puissance est d’abord une victoire sur soi-même.",
+      "transliteration": "Eizéhou guibor? Hakovesh et yitsro.",
+      "source": "Pirqé Avot 4:1",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Force",
+        "Maîtrise"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "איזהו גבור הכובש את יצרו qui est fort celui qui maitrise son penchant la veritable puissance est d abord une victoire sur soi meme pirqe avot 4 1 tradition juive force maitrise"
+    },
+    {
+      "id": "he-13",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵיזֶהוּ מְכֻבָּד? הַמְכַבֵּד אֶת הַבְּרִיּוֹת",
+      "french": "Qui est honoré ? Celui qui honore les autres.",
+      "meaning": "L’honneur ne se réclame pas : il se construit par le respect donné.",
+      "transliteration": "Eizéhou mekhoubad? Hamekhabed et habriyot.",
+      "source": "Pirqé Avot 4:1",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Respect",
+        "Humilité"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "איזהו מכבד המכבד את הבריות qui est honore celui qui honore les autres l honneur ne se reclame pas il se construit par le respect donne pirqe avot 4 1 tradition juive respect humilite"
+    },
+    {
+      "id": "he-14",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "הֱוֵי דָן אֶת כָּל הָאָדָם לְכַף זְכוּת",
+      "french": "Juge chaque personne favorablement.",
+      "meaning": "Avant de condamner, il faut laisser une place à l’explication la plus généreuse.",
+      "transliteration": "Hevei dan et kol ha-adam lekhaf zekhout.",
+      "source": "Pirqé Avot 1:6",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Jugement",
+        "Bienveillance"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.6",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "הוי דן את כל האדם לכף זכות juge chaque personne favorablement avant de condamner il faut laisser une place a l explication la plus genereuse pirqe avot 1 6 tradition juive jugement bienveillance"
+    },
+    {
+      "id": "he-15",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֱמֹר מְעַט וַעֲשֵׂה הַרְבֵּה",
+      "french": "Parle peu et fais beaucoup.",
+      "meaning": "La valeur d’une intention se mesure à ce qu’elle devient dans l’action.",
+      "transliteration": "Emor me-at va-assé harbé.",
+      "source": "Pirqé Avot 1:15",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Action",
+        "Parole"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.15",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "אמר מעט ועשה הרבה parle peu et fais beaucoup la valeur d une intention se mesure a ce qu elle devient dans l action pirqe avot 1 15 tradition juive action parole"
+    },
+    {
+      "id": "he-16",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "לֹא הַמִּדְרָשׁ הוּא הָעִקָּר, אֶלָּא הַמַּעֲשֶׂה",
+      "french": "Ce n’est pas l’étude qui est l’essentiel, mais l’action.",
+      "meaning": "Le savoir atteint sa finalité lorsqu’il transforme la conduite.",
+      "transliteration": "Lo hamidrash hou ha-ikar, ela hama-assé.",
+      "source": "Pirqé Avot 1:17",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Action",
+        "Étude"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.17",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "לא המדרש הוא העקר אלא המעשה ce n est pas l etude qui est l essentiel mais l action le savoir atteint sa finalite lorsqu il transforme la conduite pirqe avot 1 17 tradition juive action etude"
+    },
+    {
+      "id": "he-17",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "סְיָג לַחָכְמָה שְׁתִיקָה",
+      "french": "Le silence est une clôture pour la sagesse.",
+      "meaning": "Savoir se taire protège la réflexion et la parole juste.",
+      "transliteration": "Seyag la-‘hokhma shtika.",
+      "source": "Pirqé Avot 3:13",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Silence",
+        "Sagesse"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.3.13",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "סיג לחכמה שתיקה le silence est une cloture pour la sagesse savoir se taire protege la reflexion et la parole juste pirqe avot 3 13 tradition juive silence sagesse"
+    },
+    {
+      "id": "he-18",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "מִצְוָה גּוֹרֶרֶת מִצְוָה",
+      "french": "Une bonne action en entraîne une autre.",
+      "meaning": "Nos actes forment des habitudes qui orientent les actes suivants.",
+      "transliteration": "Mitsva goreret mitsva.",
+      "source": "Pirqé Avot 4:2",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Bonté",
+        "Habitude"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.2",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "מצוה גוררת מצוה une bonne action en entraine une autre nos actes forment des habitudes qui orientent les actes suivants pirqe avot 4 2 tradition juive bonte habitude"
+    },
+    {
+      "id": "he-19",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "דֶּרֶךְ אֶרֶץ קָדְמָה לַתּוֹרָה",
+      "french": "Le savoir-vivre précède la Torah.",
+      "meaning": "La décence humaine et le respect constituent le seuil de toute élévation spirituelle.",
+      "transliteration": "Derekh erets kadma la-Torah.",
+      "source": "Vayikra Rabbah 9:3",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Respect",
+        "Conduite"
+      ],
+      "sourceKind": "attributed",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "דרך ארץ קדמה לתורה le savoir vivre precede la torah la decence humaine et le respect constituent le seuil de toute elevation spirituelle vayikra rabbah 9 3 tradition juive respect conduite"
+    },
+    {
+      "id": "he-20",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "כָּל הַמְקַיֵּם נֶפֶשׁ אַחַת, מַעֲלִים עָלָיו כְּאִלּוּ קִיֵּם עוֹלָם מָלֵא",
+      "french": "Quiconque sauve une vie, c’est comme s’il avait sauvé un monde entier.",
+      "meaning": "Chaque existence possède une valeur incomparable et un univers de possibles.",
+      "transliteration": "Kol hamekayem nefesh a‘hat, ma-alim alav ke-ilou kiyem olam malé.",
+      "source": "Mishna Sanhédrin 4:5",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Vie",
+        "Humanité"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Mishnah_Sanhedrin.4.5",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "כל המקים נפש אחת מעלים עליו כאלו קים עולם מלא quiconque sauve une vie c est comme s il avait sauve un monde entier chaque existence possede une valeur incomparable et un univers de possibles mishna sanhedrin 4 5 tradition juive vie humanite"
+    },
+    {
+      "id": "he-21",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "טוֹב שֵׁם מִשֶּׁמֶן טוֹב",
+      "french": "Une bonne réputation vaut mieux qu’une huile précieuse.",
+      "meaning": "La qualité morale laisse une trace plus durable que la richesse matérielle.",
+      "transliteration": "Tov shem mishemen tov.",
+      "source": "Ecclésiaste 7:1",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Réputation",
+        "Vertu"
+      ],
+      "sourceUrl": "https://www.sefaria.org/Ecclesiastes.7.1",
+      "sourceKind": "text",
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "טוב שם משמן טוב une bonne reputation vaut mieux qu une huile precieuse la qualite morale laisse une trace plus durable que la richesse materielle ecclesiaste 7 1 tradition juive reputation vertu"
+    },
+    {
+      "id": "he-22",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "מַיִם שְׁקֵטִים חוֹדְרִים עָמוֹק",
+      "french": "Les eaux calmes pénètrent profondément.",
+      "meaning": "La discrétion peut cacher une pensée profonde et une grande influence.",
+      "transliteration": "Mayim shketim ‘hodrim amok.",
+      "source": "Proverbe hébreu",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Calme",
+        "Profondeur"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "מים שקטים חודרים עמוק les eaux calmes penetrent profondement la discretion peut cacher une pensee profonde et une grande influence proverbe hebreu tradition juive calme profondeur"
+    },
+    {
+      "id": "he-23",
+      "culture": "Hébreu",
+      "place": "Tradition juive",
+      "mark": "עב",
+      "original": "אֵין דָּבָר הָעוֹמֵד בִּפְנֵי הָרָצוֹן",
+      "french": "Rien ne résiste à la volonté.",
+      "meaning": "Une volonté ferme permet de franchir des limites que l’on croyait définitives.",
+      "transliteration": "Ein davar ha-omed bifnei haratson.",
+      "source": "Maxime hébraïque",
+      "lang": "he",
+      "rtl": true,
+      "tags": [
+        "Volonté",
+        "Persévérance"
+      ],
+      "sourceKind": "traditional",
+      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
+      "searchText": "אין דבר העומד בפני הרצון rien ne resiste a la volonte une volonte ferme permet de franchir des limites que l on croyait definitives maxime hebraique tradition juive volonte perseverance"
+    },
+    {
+      "id": "he-24",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "תָּפַשְׂתָּ מְרֻבֶּה לֹא תָּפַשְׂתָּ; תָּפַשְׂתָּ מוּעָט תָּפַשְׂתָּ",
+      "transliteration": "Tafasta meroubé lo tafasta ; tafasta mouat tafasta.",
+      "french": "Qui veut saisir trop ne saisit rien ; qui saisit peu, saisit.",
+      "meaning": "Dans l’incertitude, une ambition limitée mais certaine vaut mieux qu’une prétention impossible à tenir.",
+      "source": "Talmud de Babylone, Yoma 80a",
+      "sourceUrl": "https://www.sefaria.org/Yoma.80a.4-5",
+      "sourceKind": "text",
+      "tags": [
+        "Mesure",
+        "Prudence"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "תפשת מרבה לא תפשת תפשת מועט תפשת qui veut saisir trop ne saisit rien qui saisit peu saisit dans l incertitude une ambition limitee mais certaine vaut mieux qu une pretention impossible a tenir talmud de babylone yoma 80a talmud de babylone mesure prudence"
+    },
+    {
+      "id": "he-25",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "אֵין חָבוּשׁ מַתִּיר עַצְמוֹ מִבֵּית הָאֲסוּרִים",
+      "transliteration": "Ein ḥavoush matir atsmo mi-beit ha-assourim.",
+      "french": "Un prisonnier ne se libère pas lui-même de sa prison.",
+      "meaning": "Même le sage ou le soignant peut avoir besoin d’autrui pour sortir de sa propre épreuve.",
+      "source": "Talmud de Babylone, Berakhot 5b:13",
+      "sourceUrl": "https://www.sefaria.org/Berakhot.5b.13",
+      "sourceKind": "text",
+      "tags": [
+        "Entraide",
+        "Limite"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "אין חבוש מתיר עצמו מבית האסורים un prisonnier ne se libere pas lui meme de sa prison meme le sage ou le soignant peut avoir besoin d autrui pour sortir de sa propre epreuve talmud de babylone berakhot 5b 13 talmud de babylone entraide limite"
+    },
+    {
+      "id": "he-26",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "גָּדוֹל תַּלְמוּד שֶׁהַתַּלְמוּד מֵבִיא לִידֵי מַעֲשֶׂה",
+      "transliteration": "Gadol talmoud, she-ha-talmoud mevi lidei maassé.",
+      "french": "Grande est l’étude, car l’étude conduit à l’action.",
+      "meaning": "L’apprentissage tire sa grandeur de sa capacité à transformer la conduite.",
+      "source": "Talmud de Babylone, Kiddushin 40b:8",
+      "sourceUrl": "https://www.sefaria.org/Kiddushin.40b.8",
+      "sourceKind": "text",
+      "tags": [
+        "Étude",
+        "Action"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "גדול תלמוד שהתלמוד מביא לידי מעשה grande est l etude car l etude conduit a l action l apprentissage tire sa grandeur de sa capacite a transformer la conduite talmud de babylone kiddushin 40b 8 talmud de babylone etude action"
+    },
+    {
+      "id": "he-27",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "arc",
+      "rtl": true,
+      "original": "כָּל דְּעָבֵיד רַחְמָנָא לְטַב עָבֵיד",
+      "transliteration": "Kol de-avid Raḥmana le-tav avid.",
+      "french": "Tout ce que fait le Miséricordieux, Il le fait pour le bien.",
+      "meaning": "La confiance religieuse cherche un sens favorable même dans l’événement incompréhensible.",
+      "source": "Talmud de Babylone, Berakhot 60b",
+      "sourceUrl": "https://www.sefaria.org/Berakhot.60b",
+      "sourceKind": "text",
+      "tags": [
+        "Confiance",
+        "Épreuve"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "כל דעביד רחמנא לטב עביד tout ce que fait le misericordieux il le fait pour le bien la confiance religieuse cherche un sens favorable meme dans l evenement incomprehensible talmud de babylone berakhot 60b talmud de babylone confiance epreuve"
+    },
+    {
+      "id": "he-28",
+      "culture": "Hébreu",
+      "place": "Mishna",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "עֲשֵׂה לְךָ רַב, וּקְנֵה לְךָ חָבֵר",
+      "transliteration": "Aseh lekha rav, ou-qneh lekha haver.",
+      "french": "Donne-toi un maître et acquiers-toi un ami.",
+      "meaning": "La formation du jugement demande à la fois une exigence qui guide et une relation qui accompagne.",
+      "source": "Pirqé Avot 1:6",
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.6",
+      "sourceKind": "text",
+      "tags": [
+        "Étude",
+        "Amitié"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "עשה לך רב וקנה לך חבר donne toi un maitre et acquiers toi un ami la formation du jugement demande a la fois une exigence qui guide et une relation qui accompagne pirqe avot 1 6 mishna etude amitie"
+    },
+    {
+      "id": "he-29",
+      "culture": "Hébreu",
+      "place": "Mishna",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "אַל תָּדִין אֶת חֲבֵרְךָ עַד שֶׁתַּגִּיעַ לִמְקוֹמוֹ",
+      "transliteration": "Al tadin et haverkha ad she-tagui'a limkomo.",
+      "french": "Ne juge pas ton prochain avant d’être arrivé à sa place.",
+      "meaning": "Comprendre une conduite exige de considérer la situation concrète dans laquelle l’autre a dû agir.",
+      "source": "Pirqé Avot 2:4",
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.2.4",
+      "sourceKind": "text",
+      "tags": [
+        "Jugement",
+        "Empathie"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "אל תדין את חברך עד שתגיע למקומו ne juge pas ton prochain avant d etre arrive a sa place comprendre une conduite exige de considerer la situation concrete dans laquelle l autre a du agir pirqe avot 2 4 mishna jugement empathie"
+    },
+    {
+      "id": "he-30",
+      "culture": "Hébreu",
+      "place": "Mishna",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "לֹא הַבַּיְשָׁן לָמֵד, וְלֹא הַקַּפְּדָן מְלַמֵּד",
+      "transliteration": "Lo ha-baishan lamed, ve-lo ha-kapdan melamed.",
+      "french": "Le timide n’apprend pas, et l’irritable n’enseigne pas.",
+      "meaning": "Apprendre suppose d’oser demander ; enseigner suppose de créer un espace où la question est possible.",
+      "source": "Pirqé Avot 2:5",
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.2.5",
+      "sourceKind": "text",
+      "tags": [
+        "Apprentissage",
+        "Transmission"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "לא הבישן למד ולא הקפדן מלמד le timide n apprend pas et l irritable n enseigne pas apprendre suppose d oser demander enseigner suppose de creer un espace ou la question est possible pirqe avot 2 5 mishna apprentissage transmission"
+    },
+    {
+      "id": "he-31",
+      "culture": "Hébreu",
+      "place": "Mishna",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "מַרְבֶּה נְכָסִים, מַרְבֶּה דְאָגָה",
+      "transliteration": "Marbeh nekhasim, marbeh deagah.",
+      "french": "Qui multiplie les biens multiplie les soucis.",
+      "meaning": "L’accumulation matérielle augmente aussi les charges, la surveillance et la peur de perdre.",
+      "source": "Pirqé Avot 2:7",
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.2.7",
+      "sourceKind": "text",
+      "tags": [
+        "Richesse",
+        "Souci"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "מרבה נכסים מרבה דאגה qui multiplie les biens multiplie les soucis l accumulation materielle augmente aussi les charges la surveillance et la peur de perdre pirqe avot 2 7 mishna richesse souci"
+    },
+    {
+      "id": "he-32",
+      "culture": "Hébreu",
+      "place": "Mishna",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "הַיּוֹם קָצָר וְהַמְּלָאכָה מְרֻבָּה",
+      "transliteration": "Ha-yom katsar ve-ha-melakha meroubah.",
+      "french": "Le jour est court et le travail abondant.",
+      "meaning": "Le temps limité donne à l’action sa gravité et interdit de remettre indéfiniment l’essentiel.",
+      "source": "Pirqé Avot 2:15",
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.2.15",
+      "sourceKind": "text",
+      "tags": [
+        "Temps",
+        "Devoir"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "היום קצר והמלאכה מרבה le jour est court et le travail abondant le temps limite donne a l action sa gravite et interdit de remettre indefiniment l essentiel pirqe avot 2 15 mishna temps devoir"
+    },
+    {
+      "id": "he-33",
+      "culture": "Hébreu",
+      "place": "Mishna",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "אִם אֵין קֶמַח, אֵין תּוֹרָה; אִם אֵין תּוֹרָה, אֵין קֶמַח",
+      "transliteration": "Im ein kemah, ein Torah; im ein Torah, ein kemah.",
+      "french": "Sans farine, pas de Torah ; sans Torah, pas de farine.",
+      "meaning": "Les conditions matérielles et la vie de l’esprit se soutiennent mutuellement au lieu de pouvoir s’ignorer.",
+      "source": "Pirqé Avot 3:17",
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.3.17",
+      "sourceKind": "text",
+      "tags": [
+        "Matière",
+        "Esprit"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "אם אין קמח אין תורה אם אין תורה אין קמח sans farine pas de torah sans torah pas de farine les conditions materielles et la vie de l esprit se soutiennent mutuellement au lieu de pouvoir s ignorer pirqe avot 3 17 mishna matiere esprit"
+    },
+    {
+      "id": "he-34",
+      "culture": "Hébreu",
+      "place": "Mishna",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "הֱוֵי זָנָב לָאֲרָיוֹת, וְאַל תְּהִי רֹאשׁ לַשּׁוּעָלִים",
+      "transliteration": "Hevei zanav la-arayot, ve-al tehi rosh la-shoualim.",
+      "french": "Sois la queue des lions plutôt que la tête des renards.",
+      "meaning": "Mieux vaut grandir parmi ceux qui nous dépassent que dominer un milieu qui ne nous élève pas.",
+      "source": "Pirqé Avot 4:15",
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.15",
+      "sourceKind": "text",
+      "tags": [
+        "Exigence",
+        "Entourage"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "הוי זנב לאריות ואל תהי ראש לשועלים sois la queue des lions plutot que la tete des renards mieux vaut grandir parmi ceux qui nous depassent que dominer un milieu qui ne nous eleve pas pirqe avot 4 15 mishna exigence entourage"
+    },
+    {
+      "id": "he-35",
+      "culture": "Hébreu",
+      "place": "Mishna",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "אַל תִּסְתַּכֵּל בַּקַּנְקַן, אֶלָּא בְמַה שֶּׁיֶּשׁ בּוֹ",
+      "transliteration": "Al tistakel ba-kankan, ela be-ma she-yesh bo.",
+      "french": "Ne regarde pas la cruche, mais ce qu’elle contient.",
+      "meaning": "L’apparence, l’âge ou l’emballage ne suffisent pas à révéler la valeur intérieure.",
+      "source": "Pirqé Avot 4:20",
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.20",
+      "sourceKind": "text",
+      "tags": [
+        "Apparence",
+        "Valeur"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "אל תסתכל בקנקן אלא במה שיש בו ne regarde pas la cruche mais ce qu elle contient l apparence l age ou l emballage ne suffisent pas a reveler la valeur interieure pirqe avot 4 20 mishna apparence valeur"
+    },
+    {
+      "id": "he-36",
+      "culture": "Hébreu",
+      "place": "Mishna",
+      "mark": "עב",
+      "lang": "arc",
+      "rtl": true,
+      "original": "לְפוּם צַעֲרָא אַגְרָא",
+      "transliteration": "Lefoum tsaara agra.",
+      "french": "Selon l’effort, la récompense.",
+      "meaning": "La valeur d’un accomplissement se mesure aussi à la difficulté qu’il a fallu traverser.",
+      "source": "Pirqé Avot 5:23",
+      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.5.23",
+      "sourceKind": "text",
+      "tags": [
+        "Effort",
+        "Récompense"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "לפום צערא אגרא selon l effort la recompense la valeur d un accomplissement se mesure aussi a la difficulte qu il a fallu traverser pirqe avot 5 23 mishna effort recompense"
+    },
+    {
+      "id": "he-37",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "arc",
+      "rtl": true,
+      "original": "דַּעֲלָךְ סְנֵי לְחַבְרָךְ לָא תַּעֲבֵיד",
+      "transliteration": "De-alakh seni le-haverakh la ta'avid.",
+      "french": "Ce qui t’est odieux, ne le fais pas à ton prochain.",
+      "meaning": "Hillel formule la réciprocité comme un test immédiat de la justice de notre conduite.",
+      "source": "Talmud de Babylone, Shabbat 31a:6",
+      "sourceUrl": "https://www.sefaria.org/Shabbat.31a.6",
+      "sourceKind": "text",
+      "tags": [
+        "Réciprocité",
+        "Justice"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "דעלך סני לחברך לא תעביד ce qui t est odieux ne le fais pas a ton prochain hillel formule la reciprocite comme un test immediat de la justice de notre conduite talmud de babylone shabbat 31a 6 talmud de babylone reciprocite justice"
+    },
+    {
+      "id": "he-38",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "כָּל יִשְׂרָאֵל עֲרֵבִים זֶה בָּזֶה",
+      "transliteration": "Kol Yisrael arevim zeh ba-zeh.",
+      "french": "Tout Israël est garant l’un de l’autre.",
+      "meaning": "La responsabilité morale ne s’arrête pas à l’individu : une communauté répond aussi de ses membres.",
+      "source": "Talmud de Babylone, Shevuot 39a:22",
+      "sourceUrl": "https://www.sefaria.org/Shevuot.39a.22",
+      "sourceKind": "text",
+      "tags": [
+        "Solidarité",
+        "Responsabilité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "כל ישראל ערבים זה בזה tout israel est garant l un de l autre la responsabilite morale ne s arrete pas a l individu une communaute repond aussi de ses membres talmud de babylone shevuot 39a 22 talmud de babylone solidarite responsabilite"
+    },
+    {
+      "id": "he-39",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "קִנְאַת סוֹפְרִים תַּרְבֶּה חָכְמָה",
+      "transliteration": "Kin'at soferim tarbeh hokhmah.",
+      "french": "L’émulation des savants accroît la sagesse.",
+      "meaning": "Une rivalité orientée vers l’étude peut pousser chacun à approfondir et à transmettre davantage.",
+      "source": "Talmud de Babylone, Bava Batra 21a:11",
+      "sourceUrl": "https://www.sefaria.org/Bava_Batra.21a.11",
+      "sourceKind": "text",
+      "tags": [
+        "Émulation",
+        "Savoir"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "קנאת סופרים תרבה חכמה l emulation des savants accroit la sagesse une rivalite orientee vers l etude peut pousser chacun a approfondir et a transmettre davantage talmud de babylone bava batra 21a 11 talmud de babylone emulation savoir"
+    },
+    {
+      "id": "he-40",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "אֵין אָדָם לוֹמֵד תּוֹרָה אֶלָּא מִמָּקוֹם שֶׁלִּבּוֹ חָפֵץ",
+      "transliteration": "Ein adam lomed Torah ela mi-makom she-libo hafets.",
+      "french": "On n’étudie la Torah que là où son cœur désire.",
+      "meaning": "L’apprentissage durable demande une inclination véritable et ne se réduit pas à une contrainte extérieure.",
+      "source": "Talmud de Babylone, Avodah Zarah 19a:5",
+      "sourceUrl": "https://www.sefaria.org/Avodah_Zarah.19a.5",
+      "sourceKind": "text",
+      "tags": [
+        "Étude",
+        "Désir"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "אין אדם לומד תורה אלא ממקום שלבו חפץ on n etudie la torah que la ou son cœur desire l apprentissage durable demande une inclination veritable et ne se reduit pas a une contrainte exterieure talmud de babylone avodah zarah 19a 5 talmud de babylone etude desir"
+    },
+    {
+      "id": "he-41",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "גְּדוֹלָה הַכְנָסַת אוֹרְחִין מֵהַקְבָּלַת פְּנֵי שְׁכִינָה",
+      "transliteration": "Gedolah hakhnasat orhim mi-kabalat penei Shekhinah.",
+      "french": "Accueillir des hôtes est plus grand que recevoir la Présence divine.",
+      "meaning": "L’hospitalité concrète envers une personne est élevée au-dessus de l’expérience spirituelle solitaire.",
+      "source": "Talmud de Babylone, Shabbat 127a:13",
+      "sourceUrl": "https://www.sefaria.org/Shabbat.127a.13",
+      "sourceKind": "text",
+      "tags": [
+        "Hospitalité",
+        "Présence"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "גדולה הכנסת אורחין מהקבלת פני שכינה accueillir des hotes est plus grand que recevoir la presence divine l hospitalite concrete envers une personne est elevee au dessus de l experience spirituelle solitaire talmud de babylone shabbat 127a 13 talmud de babylone hospitalite presence"
+    },
+    {
+      "id": "he-42",
+      "culture": "Hébreu",
+      "place": "Talmud de Babylone",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "כָּל הַמְרַחֵם עַל הַבְּרִיּוֹת, מְרַחֲמִין עָלָיו מִן הַשָּׁמַיִם",
+      "transliteration": "Kol ha-merahem al ha-beriyot, merahemin alav min ha-Shamayim.",
+      "french": "Qui prend les créatures en pitié reçoit la miséricorde du Ciel.",
+      "meaning": "La compassion exercée envers autrui devient elle-même la mesure de la compassion espérée.",
+      "source": "Talmud de Babylone, Shabbat 151b:14",
+      "sourceUrl": "https://www.sefaria.org/Shabbat.151b.14",
+      "sourceKind": "text",
+      "tags": [
+        "Compassion",
+        "Réciprocité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "כל המרחם על הבריות מרחמין עליו מן השמים qui prend les creatures en pitie recoit la misericorde du ciel la compassion exercee envers autrui devient elle meme la mesure de la compassion esperee talmud de babylone shabbat 151b 14 talmud de babylone compassion reciprocite"
+    },
+    {
+      "id": "he-43",
+      "culture": "Hébreu",
+      "place": "Mishna",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "לֹא מָצָא הַקָּדוֹשׁ בָּרוּךְ הוּא כְּלִי מַחֲזִיק בְּרָכָה לְיִשְׂרָאֵל אֶלָּא הַשָּׁלוֹם",
+      "transliteration": "Lo matsa Ha-Kadosh Barukh Hu keli mahazik berakha le-Yisrael ela ha-shalom.",
+      "french": "Le Saint, béni soit-Il, n’a trouvé pour Israël d’autre récipient de bénédiction que la paix.",
+      "meaning": "La paix n’est pas une bénédiction parmi d’autres : elle est la condition qui permet aux autres de durer.",
+      "source": "Mishna, Oktzin 3:12",
+      "sourceUrl": "https://www.sefaria.org/Mishnah_Oktzin.3.12",
+      "sourceKind": "text",
+      "tags": [
+        "Paix",
+        "Bénédiction"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "לא מצא הקדוש ברוך הוא כלי מחזיק ברכה לישראל אלא השלום le saint beni soit il n a trouve pour israel d autre recipient de benediction que la paix la paix n est pas une benediction parmi d autres elle est la condition qui permet aux autres de durer mishna oktzin 3 12 mishna paix benediction"
+    },
+    {
+      "id": "he-44",
+      "culture": "Hébreu",
+      "place": "Bible hébraïque",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "מָוֶת וְחַיִּים בְּיַד לָשׁוֹן",
+      "transliteration": "Mavet ve-hayim be-yad lashon.",
+      "french": "La mort et la vie sont au pouvoir de la langue.",
+      "meaning": "La parole peut détruire une existence ou lui rendre force, dignité et avenir.",
+      "source": "Proverbes 18:21",
+      "sourceUrl": "https://www.sefaria.org/Proverbs.18.21",
+      "sourceKind": "text",
+      "tags": [
+        "Parole",
+        "Responsabilité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "מות וחיים ביד לשון la mort et la vie sont au pouvoir de la langue la parole peut detruire une existence ou lui rendre force dignite et avenir proverbes 18 21 bible hebraique parole responsabilite"
+    },
+    {
+      "id": "he-45",
+      "culture": "Hébreu",
+      "place": "Bible hébraïque",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "טוֹב שָׁכֵן קָרוֹב מֵאָח רָחוֹק",
+      "transliteration": "Tov shakhen karov me-ah rahok.",
+      "french": "Mieux vaut un voisin proche qu’un frère éloigné.",
+      "meaning": "La proximité disponible dans l’épreuve peut compter davantage qu’un lien fort mais inaccessible.",
+      "source": "Proverbes 27:10",
+      "sourceUrl": "https://www.sefaria.org/Proverbs.27.10",
+      "sourceKind": "text",
+      "tags": [
+        "Proximité",
+        "Entraide"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "טוב שכן קרוב מאח רחוק mieux vaut un voisin proche qu un frere eloigne la proximite disponible dans l epreuve peut compter davantage qu un lien fort mais inaccessible proverbes 27 10 bible hebraique proximite entraide"
+    },
+    {
+      "id": "he-46",
+      "culture": "Hébreu",
+      "place": "Bible hébraïque",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "חֲנֹךְ לַנַּעַר עַל פִּי דַרְכּוֹ",
+      "transliteration": "Hanokh la-na'ar al pi darko.",
+      "french": "Éduque le jeune selon sa voie.",
+      "meaning": "La transmission juste tient compte de la singularité de celui qui apprend au lieu de lui imposer une forme unique.",
+      "source": "Proverbes 22:6",
+      "sourceUrl": "https://www.sefaria.org/Proverbs.22.6",
+      "sourceKind": "text",
+      "tags": [
+        "Éducation",
+        "Singularité"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "חנך לנער על פי דרכו eduque le jeune selon sa voie la transmission juste tient compte de la singularite de celui qui apprend au lieu de lui imposer une forme unique proverbes 22 6 bible hebraique education singularite"
+    },
+    {
+      "id": "he-47",
+      "culture": "Hébreu",
+      "place": "Bible hébraïque",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "בַּרְזֶל בְּבַרְזֶל יָחַד, וְאִישׁ יַחַד פְּנֵי רֵעֵהוּ",
+      "transliteration": "Barzel be-varzel yahad, ve-ish yahad penei re'ehu.",
+      "french": "Le fer aiguise le fer, et l’homme aiguise le visage de son prochain.",
+      "meaning": "La rencontre exigeante entre deux personnes affine le caractère et la pensée de chacune.",
+      "source": "Proverbes 27:17",
+      "sourceUrl": "https://www.sefaria.org/Proverbs.27.17",
+      "sourceKind": "text",
+      "tags": [
+        "Émulation",
+        "Amitié"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "ברזל בברזל יחד ואיש יחד פני רעהו le fer aiguise le fer et l homme aiguise le visage de son prochain la rencontre exigeante entre deux personnes affine le caractere et la pensee de chacune proverbes 27 17 bible hebraique emulation amitie"
+    },
+    {
+      "id": "he-48",
+      "culture": "Hébreu",
+      "place": "Bible hébraïque",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "כִּי שֶׁבַע יִפּוֹל צַדִּיק וָקָם",
+      "transliteration": "Ki sheva yipol tsadik va-kam.",
+      "french": "Car sept fois le juste tombe et se relève.",
+      "meaning": "La justice ne consiste pas à ne jamais tomber, mais à retrouver la capacité de se relever.",
+      "source": "Proverbes 24:16",
+      "sourceUrl": "https://www.sefaria.org/Proverbs.24.16",
+      "sourceKind": "text",
+      "tags": [
+        "Résilience",
+        "Justice"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "כי שבע יפול צדיק וקם car sept fois le juste tombe et se releve la justice ne consiste pas a ne jamais tomber mais a retrouver la capacite de se relever proverbes 24 16 bible hebraique resilience justice"
+    },
+    {
+      "id": "he-49",
+      "culture": "Hébreu",
+      "place": "Bible hébraïque",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "לַכֹּל זְמָן, וְעֵת לְכָל חֵפֶץ תַּחַת הַשָּׁמָיִם",
+      "transliteration": "La-kol zman, ve-et le-khol hefets tahat ha-shamayim.",
+      "french": "Il y a un temps pour tout, et un moment pour chaque chose sous les cieux.",
+      "meaning": "La sagesse consiste aussi à reconnaître le moment propre de l’action, du retrait, de la parole et du silence.",
+      "source": "Ecclésiaste 3:1",
+      "sourceUrl": "https://www.sefaria.org/Ecclesiastes.3.1",
+      "sourceKind": "text",
+      "tags": [
+        "Temps",
+        "Discernement"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "לכל זמן ועת לכל חפץ תחת השמים il y a un temps pour tout et un moment pour chaque chose sous les cieux la sagesse consiste aussi a reconnaitre le moment propre de l action du retrait de la parole et du silence ecclesiaste 3 1 bible hebraique temps discernement"
+    },
+    {
+      "id": "he-50",
+      "culture": "Hébreu",
+      "place": "Bible hébraïque",
+      "mark": "עב",
+      "lang": "he",
+      "rtl": true,
+      "original": "טוֹבִים הַשְּׁנַיִם מִן הָאֶחָד",
+      "transliteration": "Tovim ha-shenayim min ha-ehad.",
+      "french": "Deux valent mieux qu’un.",
+      "meaning": "L’effort partagé apporte soutien, secours dans la chute et fruit plus durable du travail.",
+      "source": "Ecclésiaste 4:9",
+      "sourceUrl": "https://www.sefaria.org/Ecclesiastes.4.9",
+      "sourceKind": "text",
+      "tags": [
+        "Coopération",
+        "Entraide"
+      ],
+      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
+      "searchText": "טובים השנים מן האחד deux valent mieux qu un l effort partage apporte soutien secours dans la chute et fruit plus durable du travail ecclesiaste 4 9 bible hebraique cooperation entraide"
     },
     {
       "id": "gr-1",
@@ -1892,568 +4040,6 @@
       ],
       "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
       "searchText": "manus manum lavat une main lave l autre l entraide peut etre reciproque le contexte antique peut aussi suggerer l echange interesse seneque apocoloquintose 9 rome antique reciprocite entraide"
-    },
-    {
-      "id": "he-1",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "אֵיזֶהוּ חָכָם? הַלּוֹמֵד מִכָּל אָדָם",
-      "french": "Qui est sage ? Celui qui apprend de chaque homme.",
-      "meaning": "La sagesse commence par l’humilité de reconnaître un enseignement en chacun.",
-      "transliteration": "Eizéhou ‘hakham? Halomed mikol adam.",
-      "source": "Pirqé Avot 4:1",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Humilité",
-        "Apprentissage"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "איזהו חכם הלומד מכל אדם qui est sage celui qui apprend de chaque homme la sagesse commence par l humilite de reconnaitre un enseignement en chacun pirqe avot 4 1 tradition juive humilite apprentissage"
-    },
-    {
-      "id": "he-2",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "אִם אֵין אֲנִי לִי, מִי לִי? וּכְשֶׁאֲנִי לְעַצְמִי, מָה אֲנִי? וְאִם לֹא עַכְשָׁיו, אֵימָתָי?",
-      "french": "Si je ne suis pas pour moi, qui le sera ? Mais si je ne suis que pour moi, que suis-je ? Et si ce n’est maintenant, quand ?",
-      "meaning": "Hillel réunit en trois questions la responsabilité envers soi, envers autrui et envers le présent.",
-      "transliteration": "Im ein ani li, mi li? Oukhshe-ani le-atsmi, ma ani? Ve-im lo akhshav, eimataï?",
-      "source": "Pirqé Avot 1:14",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Responsabilité",
-        "Action"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.14",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "אם אין אני לי מי לי וכשאני לעצמי מה אני ואם לא עכשיו אימתי si je ne suis pas pour moi qui le sera mais si je ne suis que pour moi que suis je et si ce n est maintenant quand hillel reunit en trois questions la responsabilite envers soi envers autrui et envers le present pirqe avot 1 14 tradition juive responsabilite action"
-    },
-    {
-      "id": "he-3",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "לֹא עָלֶיךָ הַמְּלָאכָה לִגְמֹר, וְלֹא אַתָּה בֶן חוֹרִין לִבָּטֵל מִמֶּנָּה",
-      "french": "Il ne t’appartient pas d’achever l’œuvre, mais tu n’es pas libre de t’en détourner.",
-      "meaning": "Nous ne maîtrisons pas l’achèvement, seulement notre devoir de participer.",
-      "transliteration": "Lo alekha hamelakha ligmor, velo ata ben ‘horin lehibatel mimena.",
-      "source": "Pirqé Avot 2:16",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Devoir",
-        "Persévérance"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.2.16",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "לא עליך המלאכה לגמר ולא אתה בן חורין לבטל ממנה il ne t appartient pas d achever l œuvre mais tu n es pas libre de t en detourner nous ne maitrisons pas l achevement seulement notre devoir de participer pirqe avot 2 16 tradition juive devoir perseverance"
-    },
-    {
-      "id": "he-4",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "גַּם זוֹ לְטוֹבָה",
-      "french": "Cela aussi est pour le bien.",
-      "meaning": "Même l’épreuve peut contenir une possibilité que le présent ne permet pas encore de voir.",
-      "transliteration": "Gam zou letova.",
-      "source": "Talmud, Ta’anit 21a",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Espoir",
-        "Confiance"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Taanit.21a",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "גם זו לטובה cela aussi est pour le bien meme l epreuve peut contenir une possibilite que le present ne permet pas encore de voir talmud ta anit 21a tradition juive espoir confiance"
-    },
-    {
-      "id": "he-5",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "סוֹף מַעֲשֶׂה בְּמַחֲשָׁבָה תְּחִלָּה",
-      "french": "L’acte accompli commence par la pensée.",
-      "meaning": "Une réalisation juste naît d’une intention et d’une préparation claires.",
-      "transliteration": "Sof ma’assé bemakhshava te’hila.",
-      "source": "Lekha Dodi",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Intention",
-        "Action"
-      ],
-      "sourceKind": "attributed",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "סוף מעשה במחשבה תחלה l acte accompli commence par la pensee une realisation juste nait d une intention et d une preparation claires lekha dodi tradition juive intention action"
-    },
-    {
-      "id": "he-6",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "דִּבְרֵי חֲכָמִים בְּנַחַת נִשְׁמָעִים",
-      "french": "Les paroles des sages s’entendent dans le calme.",
-      "meaning": "La vérité n’a pas toujours besoin de bruit pour exercer son influence.",
-      "transliteration": "Divrei ‘hakhamim bena’hat nishma’im.",
-      "source": "Ecclésiaste 9:17",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Parole",
-        "Calme"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Ecclesiastes.9.17",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "דברי חכמים בנחת נשמעים les paroles des sages s entendent dans le calme la verite n a pas toujours besoin de bruit pour exercer son influence ecclesiaste 9 17 tradition juive parole calme"
-    },
-    {
-      "id": "he-7",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "אֵיזֶהוּ עָשִׁיר? הַשָּׂמֵחַ בְּחֶלְקוֹ",
-      "french": "Qui est riche ? Celui qui se réjouit de ce qu’il possède.",
-      "meaning": "La richesse se mesure aussi à la capacité d’apprécier sa part.",
-      "transliteration": "Eizéhou ashir? Hassaméa’h be’helko.",
-      "source": "Pirqé Avot 4:1",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Joie",
-        "Gratitude"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "איזהו עשיר השמח בחלקו qui est riche celui qui se rejouit de ce qu il possede la richesse se mesure aussi a la capacite d apprecier sa part pirqe avot 4 1 tradition juive joie gratitude"
-    },
-    {
-      "id": "he-8",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "אֵין הַנַּחְתּוֹם מֵעִיד עַל עִסָּתוֹ",
-      "french": "Le boulanger ne témoigne pas en faveur de sa propre pâte.",
-      "meaning": "On ne peut être l’arbitre impartial de sa propre œuvre.",
-      "transliteration": "Ein hana’htom me’id al isato.",
-      "source": "Proverbe hébreu",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Humilité",
-        "Jugement"
-      ],
-      "sourceKind": "traditional",
-      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
-      "searchText": "אין הנחתום מעיד על עסתו le boulanger ne temoigne pas en faveur de sa propre pate on ne peut etre l arbitre impartial de sa propre œuvre proverbe hebreu tradition juive humilite jugement"
-    },
-    {
-      "id": "he-9",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "בְּמָקוֹם שֶׁאֵין אֲנָשִׁים, הִשְׁתַּדֵּל לִהְיוֹת אִישׁ",
-      "french": "Dans un lieu où il n’y a pas d’hommes, efforce-toi d’être un homme.",
-      "meaning": "Quand personne ne prend ses responsabilités, il faut avoir le courage de le faire.",
-      "transliteration": "Bimkom she-ein anashim, hishtadel lihyot ish.",
-      "source": "Pirqé Avot 2:5",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Courage",
-        "Responsabilité"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.2.5",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "במקום שאין אנשים השתדל להיות איש dans un lieu ou il n y a pas d hommes efforce toi d etre un homme quand personne ne prend ses responsabilites il faut avoir le courage de le faire pirqe avot 2 5 tradition juive courage responsabilite"
-    },
-    {
-      "id": "he-10",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "עַל שְׁלֹשָׁה דְבָרִים הָעוֹלָם עוֹמֵד: עַל הַתּוֹרָה, וְעַל הָעֲבוֹדָה, וְעַל גְּמִילוּת חֲסָדִים",
-      "french": "Le monde repose sur trois choses : l’étude, le service et les actes de bonté.",
-      "meaning": "Une société tient par la connaissance, l’engagement et la solidarité.",
-      "transliteration": "Al shlosha devarim ha-olam omed: al ha-Torah, ve-al ha-avoda, ve-al guemilout ‘hassadim.",
-      "source": "Pirqé Avot 1:2",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Étude",
-        "Bonté"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.2",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "על שלשה דברים העולם עומד על התורה ועל העבודה ועל גמילות חסדים le monde repose sur trois choses l etude le service et les actes de bonte une societe tient par la connaissance l engagement et la solidarite pirqe avot 1 2 tradition juive etude bonte"
-    },
-    {
-      "id": "he-11",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "הֱוֵי מְקַבֵּל אֶת כָּל הָאָדָם בְּסֵבֶר פָּנִים יָפוֹת",
-      "french": "Accueille chaque personne avec un visage bienveillant.",
-      "meaning": "L’hospitalité commence dans l’expression offerte à l’autre.",
-      "transliteration": "Hevei mekabel et kol ha-adam besever panim yafot.",
-      "source": "Pirqé Avot 1:15",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Accueil",
-        "Bonté"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.15",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "הוי מקבל את כל האדם בסבר פנים יפות accueille chaque personne avec un visage bienveillant l hospitalite commence dans l expression offerte a l autre pirqe avot 1 15 tradition juive accueil bonte"
-    },
-    {
-      "id": "he-12",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "אֵיזֶהוּ גִבּוֹר? הַכּוֹבֵשׁ אֶת יִצְרוֹ",
-      "french": "Qui est fort ? Celui qui maîtrise son penchant.",
-      "meaning": "La véritable puissance est d’abord une victoire sur soi-même.",
-      "transliteration": "Eizéhou guibor? Hakovesh et yitsro.",
-      "source": "Pirqé Avot 4:1",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Force",
-        "Maîtrise"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "איזהו גבור הכובש את יצרו qui est fort celui qui maitrise son penchant la veritable puissance est d abord une victoire sur soi meme pirqe avot 4 1 tradition juive force maitrise"
-    },
-    {
-      "id": "he-13",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "אֵיזֶהוּ מְכֻבָּד? הַמְכַבֵּד אֶת הַבְּרִיּוֹת",
-      "french": "Qui est honoré ? Celui qui honore les autres.",
-      "meaning": "L’honneur ne se réclame pas : il se construit par le respect donné.",
-      "transliteration": "Eizéhou mekhoubad? Hamekhabed et habriyot.",
-      "source": "Pirqé Avot 4:1",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Respect",
-        "Humilité"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.1",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "איזהו מכבד המכבד את הבריות qui est honore celui qui honore les autres l honneur ne se reclame pas il se construit par le respect donne pirqe avot 4 1 tradition juive respect humilite"
-    },
-    {
-      "id": "he-14",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "הֱוֵי דָן אֶת כָּל הָאָדָם לְכַף זְכוּת",
-      "french": "Juge chaque personne favorablement.",
-      "meaning": "Avant de condamner, il faut laisser une place à l’explication la plus généreuse.",
-      "transliteration": "Hevei dan et kol ha-adam lekhaf zekhout.",
-      "source": "Pirqé Avot 1:6",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Jugement",
-        "Bienveillance"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.6",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "הוי דן את כל האדם לכף זכות juge chaque personne favorablement avant de condamner il faut laisser une place a l explication la plus genereuse pirqe avot 1 6 tradition juive jugement bienveillance"
-    },
-    {
-      "id": "he-15",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "אֱמֹר מְעַט וַעֲשֵׂה הַרְבֵּה",
-      "french": "Parle peu et fais beaucoup.",
-      "meaning": "La valeur d’une intention se mesure à ce qu’elle devient dans l’action.",
-      "transliteration": "Emor me-at va-assé harbé.",
-      "source": "Pirqé Avot 1:15",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Action",
-        "Parole"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.15",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "אמר מעט ועשה הרבה parle peu et fais beaucoup la valeur d une intention se mesure a ce qu elle devient dans l action pirqe avot 1 15 tradition juive action parole"
-    },
-    {
-      "id": "he-16",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "לֹא הַמִּדְרָשׁ הוּא הָעִקָּר, אֶלָּא הַמַּעֲשֶׂה",
-      "french": "Ce n’est pas l’étude qui est l’essentiel, mais l’action.",
-      "meaning": "Le savoir atteint sa finalité lorsqu’il transforme la conduite.",
-      "transliteration": "Lo hamidrash hou ha-ikar, ela hama-assé.",
-      "source": "Pirqé Avot 1:17",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Action",
-        "Étude"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.1.17",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "לא המדרש הוא העקר אלא המעשה ce n est pas l etude qui est l essentiel mais l action le savoir atteint sa finalite lorsqu il transforme la conduite pirqe avot 1 17 tradition juive action etude"
-    },
-    {
-      "id": "he-17",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "סְיָג לַחָכְמָה שְׁתִיקָה",
-      "french": "Le silence est une clôture pour la sagesse.",
-      "meaning": "Savoir se taire protège la réflexion et la parole juste.",
-      "transliteration": "Seyag la-‘hokhma shtika.",
-      "source": "Pirqé Avot 3:13",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Silence",
-        "Sagesse"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.3.13",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "סיג לחכמה שתיקה le silence est une cloture pour la sagesse savoir se taire protege la reflexion et la parole juste pirqe avot 3 13 tradition juive silence sagesse"
-    },
-    {
-      "id": "he-18",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "מִצְוָה גּוֹרֶרֶת מִצְוָה",
-      "french": "Une bonne action en entraîne une autre.",
-      "meaning": "Nos actes forment des habitudes qui orientent les actes suivants.",
-      "transliteration": "Mitsva goreret mitsva.",
-      "source": "Pirqé Avot 4:2",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Bonté",
-        "Habitude"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Pirkei_Avot.4.2",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "מצוה גוררת מצוה une bonne action en entraine une autre nos actes forment des habitudes qui orientent les actes suivants pirqe avot 4 2 tradition juive bonte habitude"
-    },
-    {
-      "id": "he-19",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "דֶּרֶךְ אֶרֶץ קָדְמָה לַתּוֹרָה",
-      "french": "Le savoir-vivre précède la Torah.",
-      "meaning": "La décence humaine et le respect constituent le seuil de toute élévation spirituelle.",
-      "transliteration": "Derekh erets kadma la-Torah.",
-      "source": "Vayikra Rabbah 9:3",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Respect",
-        "Conduite"
-      ],
-      "sourceKind": "attributed",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "דרך ארץ קדמה לתורה le savoir vivre precede la torah la decence humaine et le respect constituent le seuil de toute elevation spirituelle vayikra rabbah 9 3 tradition juive respect conduite"
-    },
-    {
-      "id": "he-20",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "כָּל הַמְקַיֵּם נֶפֶשׁ אַחַת, מַעֲלִים עָלָיו כְּאִלּוּ קִיֵּם עוֹלָם מָלֵא",
-      "french": "Quiconque sauve une vie, c’est comme s’il avait sauvé un monde entier.",
-      "meaning": "Chaque existence possède une valeur incomparable et un univers de possibles.",
-      "transliteration": "Kol hamekayem nefesh a‘hat, ma-alim alav ke-ilou kiyem olam malé.",
-      "source": "Mishna Sanhédrin 4:5",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Vie",
-        "Humanité"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Mishnah_Sanhedrin.4.5",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "כל המקים נפש אחת מעלים עליו כאלו קים עולם מלא quiconque sauve une vie c est comme s il avait sauve un monde entier chaque existence possede une valeur incomparable et un univers de possibles mishna sanhedrin 4 5 tradition juive vie humanite"
-    },
-    {
-      "id": "he-21",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "טוֹב שֵׁם מִשֶּׁמֶן טוֹב",
-      "french": "Une bonne réputation vaut mieux qu’une huile précieuse.",
-      "meaning": "La qualité morale laisse une trace plus durable que la richesse matérielle.",
-      "transliteration": "Tov shem mishemen tov.",
-      "source": "Ecclésiaste 7:1",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Réputation",
-        "Vertu"
-      ],
-      "sourceUrl": "https://www.sefaria.org/Ecclesiastes.7.1",
-      "sourceKind": "text",
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "טוב שם משמן טוב une bonne reputation vaut mieux qu une huile precieuse la qualite morale laisse une trace plus durable que la richesse materielle ecclesiaste 7 1 tradition juive reputation vertu"
-    },
-    {
-      "id": "he-22",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "מַיִם שְׁקֵטִים חוֹדְרִים עָמוֹק",
-      "french": "Les eaux calmes pénètrent profondément.",
-      "meaning": "La discrétion peut cacher une pensée profonde et une grande influence.",
-      "transliteration": "Mayim shketim ‘hodrim amok.",
-      "source": "Proverbe hébreu",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Calme",
-        "Profondeur"
-      ],
-      "sourceKind": "traditional",
-      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
-      "searchText": "מים שקטים חודרים עמוק les eaux calmes penetrent profondement la discretion peut cacher une pensee profonde et une grande influence proverbe hebreu tradition juive calme profondeur"
-    },
-    {
-      "id": "he-23",
-      "culture": "Hébreu",
-      "place": "Tradition juive",
-      "mark": "עב",
-      "original": "אֵין דָּבָר הָעוֹמֵד בִּפְנֵי הָרָצוֹן",
-      "french": "Rien ne résiste à la volonté.",
-      "meaning": "Une volonté ferme permet de franchir des limites que l’on croyait définitives.",
-      "transliteration": "Ein davar ha-omed bifnei haratson.",
-      "source": "Maxime hébraïque",
-      "lang": "he",
-      "rtl": true,
-      "tags": [
-        "Volonté",
-        "Persévérance"
-      ],
-      "sourceKind": "traditional",
-      "sourceNote": "Forme transmise collectivement ; la collection n’invente pas d’auteur lorsqu’aucun texte-source unique n’est établi.",
-      "searchText": "אין דבר העומד בפני הרצון rien ne resiste a la volonte une volonte ferme permet de franchir des limites que l on croyait definitives maxime hebraique tradition juive volonte perseverance"
-    },
-    {
-      "id": "he-24",
-      "culture": "Hébreu",
-      "place": "Talmud de Babylone",
-      "mark": "עב",
-      "lang": "he",
-      "rtl": true,
-      "original": "תָּפַשְׂתָּ מְרֻבֶּה לֹא תָּפַשְׂתָּ; תָּפַשְׂתָּ מוּעָט תָּפַשְׂתָּ",
-      "transliteration": "Tafasta meroubé lo tafasta ; tafasta mouat tafasta.",
-      "french": "Qui veut saisir trop ne saisit rien ; qui saisit peu, saisit.",
-      "meaning": "Dans l’incertitude, une ambition limitée mais certaine vaut mieux qu’une prétention impossible à tenir.",
-      "source": "Talmud de Babylone, Yoma 80a",
-      "sourceUrl": "https://www.sefaria.org/Yoma.80a.4-5",
-      "sourceKind": "text",
-      "tags": [
-        "Mesure",
-        "Prudence"
-      ],
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "תפשת מרבה לא תפשת תפשת מועט תפשת qui veut saisir trop ne saisit rien qui saisit peu saisit dans l incertitude une ambition limitee mais certaine vaut mieux qu une pretention impossible a tenir talmud de babylone yoma 80a talmud de babylone mesure prudence"
-    },
-    {
-      "id": "he-25",
-      "culture": "Hébreu",
-      "place": "Talmud de Babylone",
-      "mark": "עב",
-      "lang": "he",
-      "rtl": true,
-      "original": "אֵין חָבוּשׁ מַתִּיר עַצְמוֹ מִבֵּית הָאֲסוּרִים",
-      "transliteration": "Ein ḥavoush matir atsmo mi-beit ha-assourim.",
-      "french": "Un prisonnier ne se libère pas lui-même de sa prison.",
-      "meaning": "Même le sage ou le soignant peut avoir besoin d’autrui pour sortir de sa propre épreuve.",
-      "source": "Talmud de Babylone, Berakhot 5b:13",
-      "sourceUrl": "https://www.sefaria.org/Berakhot.5b.13",
-      "sourceKind": "text",
-      "tags": [
-        "Entraide",
-        "Limite"
-      ],
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "אין חבוש מתיר עצמו מבית האסורים un prisonnier ne se libere pas lui meme de sa prison meme le sage ou le soignant peut avoir besoin d autrui pour sortir de sa propre epreuve talmud de babylone berakhot 5b 13 talmud de babylone entraide limite"
-    },
-    {
-      "id": "he-26",
-      "culture": "Hébreu",
-      "place": "Talmud de Babylone",
-      "mark": "עב",
-      "lang": "he",
-      "rtl": true,
-      "original": "גָּדוֹל תַּלְמוּד שֶׁהַתַּלְמוּד מֵבִיא לִידֵי מַעֲשֶׂה",
-      "transliteration": "Gadol talmoud, she-ha-talmoud mevi lidei maassé.",
-      "french": "Grande est l’étude, car l’étude conduit à l’action.",
-      "meaning": "L’apprentissage tire sa grandeur de sa capacité à transformer la conduite.",
-      "source": "Talmud de Babylone, Kiddushin 40b:8",
-      "sourceUrl": "https://www.sefaria.org/Kiddushin.40b.8",
-      "sourceKind": "text",
-      "tags": [
-        "Étude",
-        "Action"
-      ],
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "גדול תלמוד שהתלמוד מביא לידי מעשה grande est l etude car l etude conduit a l action l apprentissage tire sa grandeur de sa capacite a transformer la conduite talmud de babylone kiddushin 40b 8 talmud de babylone etude action"
-    },
-    {
-      "id": "he-27",
-      "culture": "Hébreu",
-      "place": "Talmud de Babylone",
-      "mark": "עב",
-      "lang": "arc",
-      "rtl": true,
-      "original": "כָּל דְּעָבֵיד רַחְמָנָא לְטַב עָבֵיד",
-      "transliteration": "Kol de-avid Raḥmana le-tav avid.",
-      "french": "Tout ce que fait le Miséricordieux, Il le fait pour le bien.",
-      "meaning": "La confiance religieuse cherche un sens favorable même dans l’événement incompréhensible.",
-      "source": "Talmud de Babylone, Berakhot 60b",
-      "sourceUrl": "https://www.sefaria.org/Berakhot.60b",
-      "sourceKind": "text",
-      "tags": [
-        "Confiance",
-        "Épreuve"
-      ],
-      "sourceNote": "Référence donnée au texte, à l’attestation ou à la tradition la plus utile pour vérifier la formule.",
-      "searchText": "כל דעביד רחמנא לטב עביד tout ce que fait le misericordieux il le fait pour le bien la confiance religieuse cherche un sens favorable meme dans l evenement incomprehensible talmud de babylone berakhot 60b talmud de babylone confiance epreuve"
     },
     {
       "id": "zh-1",
