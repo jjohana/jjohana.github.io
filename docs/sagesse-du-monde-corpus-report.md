@@ -2,10 +2,10 @@
 
 - Corpus hérité : 150 entrées réellement distinctes avant la génération artificielle de variantes.
 - Entrées héritées écartées pour provenance insuffisante : 7.
-- Nouvelles entrées classiques ajoutées et sourcées : 128.
-- Corpus publié : **441 proverbes et maximes**.
-- Langues ou traditions linguistiques : **20**.
-- Références avec lien direct : **356**.
+- Nouvelles entrées classiques ajoutées et sourcées : 397.
+- Corpus publié : **540 proverbes et maximes**.
+- Langues ou traditions linguistiques : **34**.
+- Références avec lien direct : **540**.
 - Doublons exacts résiduels : **0**.
 - Paires quasi identiques signalées à revoir : **0**.
 - Paires de traductions quasi identiques signalées à revoir : **0**.
@@ -15,11 +15,11 @@
 - France : 120
 - Anglais : 120
 - Hébreu : 100
-- Grec ancien : 8
-- Latin : 31
-- Chine : 20
-- Inde : 15
-- Monde : 27
+- Grec ancien : 40
+- Latin : 40
+- Chine : 40
+- Inde : 40
+- Monde : 40
 
 ## Politique de provenance
 
