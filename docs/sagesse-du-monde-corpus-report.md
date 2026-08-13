@@ -1,21 +1,22 @@
 # Rapport éditorial — Sagesse du monde
 
 - Corpus hérité : 150 entrées réellement distinctes avant la génération artificielle de variantes.
-- Entrées héritées écartées pour provenance insuffisante : 6.
+- Entrées héritées écartées pour provenance insuffisante : 7.
 - Nouvelles entrées classiques ajoutées et sourcées : 128.
-- Corpus publié : **272 proverbes et maximes**.
+- Corpus publié : **441 proverbes et maximes**.
 - Langues ou traditions linguistiques : **20**.
-- Références avec lien direct : **147**.
+- Références avec lien direct : **356**.
 - Doublons exacts résiduels : **0**.
 - Paires quasi identiques signalées à revoir : **0**.
+- Paires de traductions quasi identiques signalées à revoir : **0**.
 
 ## Répartition
 
-- France : 60
-- Anglais : 60
-- Hébreu : 50
+- France : 120
+- Anglais : 120
+- Hébreu : 100
 - Grec ancien : 8
-- Latin : 32
+- Latin : 31
 - Chine : 20
 - Inde : 15
 - Monde : 27
